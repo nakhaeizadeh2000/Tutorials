@@ -880,7 +880,7 @@ if (messageQueue.Count == 0)
 - `while` تضمین می‌کند که شرط قبل از ادامه اجرا برقرار است
 
 <a id="2122-monitor-tryenter-و-timeout"></a>
-#### 2.1.2.2 Monitor.TryEnter و کنترل زمان انتظار
+#### 2.1.2.2 استفاده از Monitor.TryEnter و کنترل زمان انتظار
 
 علاوه بر `Monitor.Enter` که مسدودکننده(Blocking) است، `Monitor.TryEnter` وجود دارد که می‌تواند با timeout استفاده شود تا از قفل مرگ(Deadlock) جلوگیری کند.
 
@@ -1156,7 +1156,7 @@ finally
 ```
 
 <a id="2125-semaphoreslim-نسخه-بهینه"></a>
-#### 2.1.2.5 SemaphoreSlim: نسخه بهینه برای استفاده درون فرآیندی
+#### 2.1.2.5 معرفی SemaphoreSlim: نسخه بهینه‌شده برای استفاده درون فرآیندی
 
 `SemaphoreSlim` نسخه سبک‌تر و سریع‌تر `Semaphore` است که فقط برای استفاده درون فرآیندی(Intra-Process) طراحی شده است. در بیشتر موارد، `SemaphoreSlim` انتخاب بهتری نسبت به `Semaphore` است.
 
@@ -2737,7 +2737,7 @@ ThreadPool.SetMaxThreads(workerThreads: 100, completionPortThreads: 100);
 **هشدار:** به طور کلی، بهتر است Thread Pool خودش تعداد نخ‌ها را مدیریت کند. فقط در موارد خاص و با درک کامل، تعداد نخ‌ها را دستی تنظیم کنید.
 
 <a id="2214-task-parallel-library-tpl"></a>
-#### 2.2.1.4 Task Parallel Library (TPL)
+#### 2.2.1.4 معرفی Task Parallel Library (TPL)
 
 Task Parallel Library (TPL) یک کتابخانه قدرتمند در .NET است که بر اساس Thread Pool کار می‌کند اما سطح بالاتری از انتزاع را فراهم می‌کند. TPL از کلاس `Task` استفاده می‌کند.
 
@@ -4394,7 +4394,7 @@ cts.Cancel();
 ```
 
 <a id="2252-cancellationtokensource-و-cancellationtoken"></a>
-#### 2.2.5.2 CancellationTokenSource و CancellationToken
+#### 2.2.5.2 درک CancellationTokenSource و CancellationToken
 
 دو کلاس مرتبط وجود دارد:
 
@@ -5335,7 +5335,7 @@ catch (Exception ex)
 - **بهترین روش:** همیشه از Task استفاده کنید، نام‌گذاری با Async، استفاده صحیح از WhenAll/WhenAny
 
 <a id="232-configureawaitfalse-برای-جلوگیری-از-قفل-مرگ-در-برنامههای-ui"></a>
-### 2.3.2 ConfigureAwait(false) برای جلوگیری از قفل مرگ(Deadlock) در برنامه‌های UI
+### 2.3.2 استفاده از ConfigureAwait(false) برای جلوگیری از قفل مرگ(Deadlock) در برنامه‌های UI
 
 `ConfigureAwait(false)` یکی از مهم‌ترین و در عین حال کمتر شناخته شده‌ترین ویژگی‌های async/await است. درک صحیح آن برای جلوگیری از قفل مرگ(Deadlock) و بهبود عملکرد ضروری است.
 
@@ -5729,7 +5729,7 @@ public async void EventHandler()
 - **قوانین طلا:** در Library همیشه، در UI با احتیاط، هرگز .Result/.Wait()
 
 <a id="233-taskdelay-در-مقابل-threadsleep"></a>
-### 2.3.3 Task.Delay() در مقابل Thread.Sleep()
+### 2.3.3 مقایسه Task.Delay() و Thread.Sleep()
 
 `Task.Delay()` و `Thread.Sleep()` هر دو برای منتظر ماندن استفاده می‌شوند، اما تفاوت‌های مهمی دارند که در برنامه‌نویسی ناهمزمان(Asynchronous Programming) بسیار حائز اهمیت است.
 
@@ -7030,7 +7030,7 @@ public class RetryHelper
 ```
 
 <a id="2358-taskcontinuationoptions"></a>
-#### 2.3.5.8 TaskContinuationOptions
+#### 2.3.5.8 استفاده از TaskContinuationOptions
 
 **گزینه‌های مهم:**
 
@@ -8274,7 +8274,7 @@ Console.WriteLine($"موازی: {sw.ElapsedMilliseconds} ms");
 `Parallel.For()` و `Parallel.ForEach()` دو متد اصلی برای اجرای حلقه‌ها به صورت موازی(Parallel) هستند. این متدها به صورت خودکار کار را بین چند نخ تقسیم می‌کنند.
 
 <a id="2421-parallelfor-پایه"></a>
-#### 2.4.2.1 Parallel.For() پایه
+#### 2.4.2.1 استفاده پایه از Parallel.For()
 
 **فرم ساده:**
 
@@ -8304,7 +8304,7 @@ public void ProcessArrayParallel(int[] array)
 ```
 
 <a id="2422-parallelforeach-پایه"></a>
-#### 2.4.2.2 Parallel.ForEach() پایه
+#### 2.4.2.2 استفاده پایه از Parallel.ForEach()
 
 **فرم ساده:**
 
@@ -8365,7 +8365,7 @@ Parallel.For(0, 10, i => {
 | **مناسب برای** | کارهای کوچک | کارهای بزرگ CPU-bound |
 
 <a id="2424-overload-های-parallelfor"></a>
-#### 2.4.2.4 Overload های Parallel.For
+#### 2.4.2.4 بارگذاری‌های(Overload) مختلف Parallel.For
 
 **1. فرم ساده:**
 
@@ -8416,7 +8416,7 @@ Parallel.For(0, 1000,
 ```
 
 <a id="2425-overload-های-parallelforeach"></a>
-#### 2.4.2.5 Overload های Parallel.ForEach
+#### 2.4.2.5 بارگذاری‌های(Overload) مختلف Parallel.ForEach
 
 **1. فرم ساده:**
 
@@ -8509,7 +8509,7 @@ Parallel.For(0, 1000, (i, loopState) => {
 ```
 
 <a id="2427-local-state-برای-بهینه-سازی"></a>
-#### 2.4.2.7 Local State برای بهینه‌سازی
+#### 2.4.2.7 استفاده از Local State برای بهینه‌سازی
 
 استفاده از local state برای کاهش lock contention:
 
@@ -8911,7 +8911,7 @@ catch (AggregateException aggEx)
 ```
 
 <a id="2432-aggregateexception"></a>
-#### 2.4.3.2 AggregateException
+#### 2.4.3.2 مدیریت AggregateException
 
 `AggregateException` یک استثنای wrapper است که چندین استثنا را نگه می‌دارد:
 
@@ -9474,7 +9474,7 @@ Parallel.For(0, 1000, options, i => {
 ```
 
 <a id="2442-maxdegreeofparallelism"></a>
-#### 2.4.4.2 MaxDegreeOfParallelism
+#### 2.4.4.2 تنظیم MaxDegreeOfParallelism
 
 `MaxDegreeOfParallelism` تعداد حداکثر نخ‌های همزمان(Concurrent) را محدود می‌کند:
 
@@ -9534,7 +9534,7 @@ Parallel.For(0, 100, options, i => {
 ```
 
 <a id="2443-cancellationtoken"></a>
-#### 2.4.4.3 CancellationToken
+#### 2.4.4.3 استفاده از CancellationToken
 
 استفاده از `CancellationToken` برای لغو حلقه موازی(Parallel):
 
@@ -9603,7 +9603,7 @@ public class CancellableProcessor
 ```
 
 <a id="2444-taskscheduler"></a>
-#### 2.4.4.4 TaskScheduler
+#### 2.4.4.4 تنظیم TaskScheduler
 
 `TaskScheduler` برای کنترل نحوه اجرای تسک‌ها:
 
