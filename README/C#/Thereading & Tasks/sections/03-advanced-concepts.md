@@ -357,6 +357,59 @@ public async Task<string> ProcessWithTimeoutAsync(Func<Task<string>> operation, 
 }
 ```
 
+##### نکته
+
+**- چرا استفاده از WaitAsync ایده‌آل‌تر است؟**  
+ 
+ در نسخه‌های جدید دات‌نت، استفاده از:
+```csharp
+await workTask.WaitAsync(timeout);
+```
+نسبت به پیاده‌سازی دستی timeout با Task.Delay و Task.WhenAny تمیزتر، امن‌تر و خواناتر است.
+
+عبارت WaitAsync مستقیماً روی خود Task اعمال می‌شود، در صورت پایان زمان به‌صورت استاندارد TimeoutException پرتاب می‌کند و نیازی به ساخت Task کمکی یا مقایسه‌ی Taskها ندارد.
+
+**- توضیح .ContinueWith(_ => (string)null)** 
+ 
+ عبارت زیر:
+```csharp
+Task.Delay(timeout).ContinueWith(_ => (string)null)
+```
+یک Task<string> می‌سازد که:
+
+>پس از گذشت زمان timeout کامل می‌شود
+
+>مقدار null برمی‌گرداند
+
+>معمولاً فقط برای شبیه‌سازی timeout در کنار Task.WhenAny استفاده می‌شود
+
+>این الگو قدیمی‌تر است و معایبی مثل خوانایی کمتر، مدیریت سخت‌تر Exceptionها و رفتار پیچیده‌تر نسبت به async/await دارد.
+
+**- توضیح .WaitAsync(timeout)** 
+
+متد:
+```csharp
+await task.WaitAsync(timeout);
+```
+باعث می‌شود:
+
+>اگر Task قبل از timeout کامل شود → نتیجه طبیعی برگردد
+
+>اگر زمان تمام شود → به‌صورت خودکار TimeoutException پرتاب شود
+
+مزایا:
+
+>بدون نیاز به Task.Delay
+
+>بدون ContinueWith
+
+>بدون مقایسه‌ی Taskها
+
+>کاملاً هماهنگ با الگوی مدرن async/await
+
+##### جمع بندی:
+عبارت WaitAsync نسخه‌ی مدرن و استاندارد پیاده‌سازی timeout در دات‌نت است و در اغلب سناریوها جایگزین ایده‌آل‌تری برای الگوهای دستی مبتنی بر Task.WhenAny محسوب می‌شود.
+
 **مثال 4: الگوی شرایط مسابقه(Race Condition) - اولین برنده**
 
 ```csharp
