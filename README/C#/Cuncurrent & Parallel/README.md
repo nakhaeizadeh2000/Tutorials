@@ -171,3 +171,143 @@
 3. **Single-threaded TaskScheduler and event-loop style executors**
 4. **State confinement vs locking for thread safety**
 5. **When actor-style concurrency is beneficial (high contention, complex invariants)**
+
+## 4. Correctness, Testing, Diagnostics & Debugging in Concurrent Code
+
+### 4.1. Reasoning about correctness in concurrent programs
+
+1. **Data races vs higher-level race conditions**
+2. **Shared mutable state vs ownership and confinement**
+3. **Invariants, pre/post-conditions, and representation consistency**
+4. **Ordering guarantees (happens-before, visibility, publication)**
+5. **Idempotency, commutativity, and associativity in concurrent operations**
+
+### 4.2. .NET memory model and visibility
+
+1. **The .NET memory model at a high level**
+2. **Reordering, visibility, and tearing**
+3. **Where lock introduces memory fences**
+4. **volatile and Interlocked and when they are appropriate**
+5. **False sharing and cache line effects in parallel code**
+
+### 4.3. Testing async and concurrent code
+
+1. **Unit testing async methods with Task and async/await**
+2. **Avoiding async void in testable code**
+3. **Controlling time: fake/virtual clocks and timers**
+4. **Testing code using Parallel.\* and PLINQ**
+5. **Dealing with flakiness and nondeterminism in tests**
+
+### 4.4. Testing concurrency-specific behavior
+
+1. **Stress testing and randomization of schedules**
+2. **Injecting delays, yields, and context switches to expose races**
+3. **Using custom schedulers/executors in tests**
+4. **Simulating failures and cancellations in async flows**
+5. **Property-based testing for concurrent invariants**
+
+### 4.5. Diagnosing deadlocks, livelocks, and starvation
+
+1. **Common deadlock patterns (lock ordering, sync-over-async, UI thread blocking) (frontend)**
+2. **Detecting lock contention and hot locks**
+3. **Recognizing livelock and priority inversion**
+4. **ThreadPool starvation: symptoms and root causes**
+5. **Diagnosing deadlocks in UI apps vs server apps (frontend)**
+
+### 4.6. Debugging tools and techniques for async and parallel code
+
+1. **Visual Studio async debugging, Tasks window, and Parallel Stacks**
+2. **Inspecting logical call stacks with async/await**
+3. **Debugging PLINQ and Parallel.\* workloads**
+4. **Stepping through IAsyncEnumerable\<T\> and streams**
+5. **Debugging deadlocks and hangs (dump analysis basics)**
+
+### 4.7. Tracing, logging, and observability for concurrent systems
+
+1. **Structured logging with correlation IDs and activity IDs**
+2. **Tracing async flows across threads and processes**
+3. **EventSource, ETW, and Activity integration**
+4. **Using dotnet-trace, dotnet-counters, and dotnet-dump**
+5. **Designing logs that help debug concurrency issues (not make them worse)**
+
+### 4.8. Performance profiling and contention analysis
+
+1. **Sampling vs instrumenting profilers**
+2. **Using PerfView / Visual Studio Profiler for async and parallel code**
+3. **Identifying synchronization bottlenecks and excessive locking**
+4. **Measuring CPU vs I/O wait time in concurrent workloads**
+5. **Interpreting ThreadPool and GC metrics for tuning**
+
+### 4.9. Making concurrent code more testable and diagnosable
+
+1. **Injecting schedulers, clocks, and executors instead of using static APIs**
+2. **Abstracting timers, delays, and background work**
+3. **Designing APIs for deterministic tests (no hidden threads/tasks)**
+4. **Separating orchestration from core logic**
+5. **Adding diagnostic hooks safely (counters, events, probes)**
+
+## 5. Practical Usage Recipes for Concurrency & Parallelism in C#
+
+### 5.1. CPU-bound work on a single machine
+
+1. **Basic loop parallelization with Parallel.For and Parallel.ForEach**
+2. **Data-parallel queries with PLINQ**
+3. **Choosing between Parallel.\* and Task.Run + Task.WhenAll**
+4. **Partitioning data for better cache locality**
+5. **Detecting when parallelization hurts more than helps**
+
+### 5.2. High-concurrency I/O (files, HTTP, DB, sockets)
+
+1. **Using async I/O APIs with async/await end-to-end**
+2. **Coordinating many concurrent I/O operations with Task.WhenAll**
+3. **Throttling I/O concurrency with SemaphoreSlim**
+4. **Per-request timeouts and cancellation patterns**
+5. **Retries, backoff, and circuit breakers in concurrent I/O flows**
+
+### 5.3. Background jobs and recurring tasks
+
+1. **Fire-and-forget patterns that are actually safe in ASP.NET Core**
+2. **Implementing recurring work with PeriodicTimer**
+3. **Scheduling background jobs with IHostedService / BackgroundService**
+4. **Queue-based background processing with Channels**
+5. **Graceful shutdown: draining queues and cancelling work**
+
+### 5.4. Producer-consumer and pipelines
+
+1. **Simple producer-consumer with BlockingCollection**
+2. **Bounded channels for backpressure and load shedding**
+3. **Multi-stage pipeline with TPL Dataflow (TransformBlock, ActionBlock)**
+4. **Combining CPU-bound and I/O-bound stages in a pipeline**
+5. **Error handling and retries inside pipeline stages**
+
+### 5.5. UI and frontend concurrency patterns (frontend)
+
+1. **Offloading CPU work from the UI thread with Task.Run (frontend)**
+2. **Responsive UI with async commands and cancellation (frontend)**
+3. **Throttling / debouncing UI events with async patterns (frontend)**
+4. **Using async streams to consume event streams (frontend)**
+5. **Avoiding deadlocks with ConfigureAwait and sync context (frontend)**
+
+### 5.6. Streaming data and event processing
+
+1. **Consuming async streams (IAsyncEnumerable\<T\>) from I/O sources**
+2. **Transforming, filtering, and aggregating streaming data**
+3. **Bridging event sources to async streams and/or IObservable\<T\>**
+4. **Applying backpressure and rate limiting in streaming pipelines**
+5. **Long-lived streaming scenarios (telemetry, log ingestion, real-time feeds)**
+
+### 5.7. Actor-style components and isolated state
+
+1. **Single-writer / mailbox pattern with Channels**
+2. **Encapsulating mutable state behind an actor loop**
+3. **Command-processing and workflow orchestration in actors**
+4. **Scaling out actors: sharding and routing messages**
+5. **When to choose actors over locks or transactional structures**
+
+### 5.8. Coordination across multiple async operations
+
+1. **First result wins with Task.WhenAny and cancellation of losers**
+2. **Fan-out/fan-in patterns with Task.WhenAll**
+3. **Batching many small operations for throughput**
+4. **Handling partial failures and compensating actions**
+5. **Coordinating multiple services / APIs concurrently in a single request**
