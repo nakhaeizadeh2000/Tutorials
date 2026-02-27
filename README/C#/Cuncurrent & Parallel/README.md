@@ -84,7 +84,7 @@
 
 ### 2.3. SynchronizationContext and application models
 
-1. **UI SynchronizationContext (WinForms, WPF, MAUI)**
+1. **UI SynchronizationContext (WinForms, WPF, MAUI) (frontend)**
 2. **ASP.NET Core execution model and lack of UI SynchronizationContext**
 3. **Console applications and Thread Pool-based execution**
 4. **Library code vs application code: context-agnostic design**
@@ -113,3 +113,61 @@
 3. **CPU-bound workloads and Parallel.\* vs Tasks**
 4. **Processor affinity and when (rarely) to care about it**
 5. **Measuring and tuning CPU utilization in concurrent apps**
+
+## 3. High-level Concurrency APIs & Patterns in C#
+
+### 3.1. Task-based asynchronous programming
+
+1. **Core Task and ValueTask usage patterns**
+2. **Composing tasks with Task.WhenAll, Task.WhenAny, and continuations**
+3. **TaskCompletionSource and bridging non-Task-based APIs**
+4. **Error handling and cancellation patterns with Tasks**
+5. **Async-friendly resource lifetime and IAsyncDisposable**
+
+### 3.2. Data parallelism with Parallel and PLINQ
+
+1. **Parallel.For and Parallel.ForEach basic usage**
+2. **Parallel.Invoke and structured parallel regions**
+3. **PLINQ query operators and partitioning strategies**
+4. **Tuning degree of parallelism and merge options**
+5. **When data parallelism is harmful (small workloads, UI, excessive contention)**
+
+### 3.3. Pipelines and message-passing with queues, Channels, and Dataflow
+
+1. **Producer/Consumer with BlockingCollection and concurrent queues**
+2. **Bounded vs unbounded Channels and backpressure**
+3. **Basic TPL Dataflow blocks (BufferBlock, TransformBlock, ActionBlock)**
+4. **Building multi-stage pipelines (fan-out/fan-in)**
+5. **Choosing between Channels, Dataflow, and custom queues**
+
+### 3.4. Streaming and reactive flows
+
+1. **Async streams with IAsyncEnumerable\<T\> and await foreach**
+2. **Push-based vs pull-based streams**
+3. **Bridging IAsyncEnumerable\<T\> and IObservable\<T\>**
+4. **Backpressure and rate limiting in streaming scenarios**
+5. **Common streaming use cases (I/O, UI events, telemetry, logging) (frontend)**
+
+### 3.5. Coordination, throttling, and cancellation patterns
+
+1. **Limiting concurrency with SemaphoreSlim**
+2. **Using CancellationToken effectively (propagation, linked tokens)**
+3. **Timeouts and cancellation scopes**
+4. **Batching vs per-item processing for throughput**
+5. **Graceful shutdown in servers and background services**
+
+### 3.6. Timers, background work, and scheduling
+
+1. **System.Threading.Timer vs PeriodicTimer**
+2. **Scheduling recurring work in ASP.NET Core (IHostedService, BackgroundService)**
+3. **Delayed execution with Task.Delay and timers**
+4. **Avoiding timer drift and overlapping executions**
+5. **Scheduling pitfalls (clock skew, long-running callbacks)**
+
+### 3.7. Actor-style and isolated-state concurrency
+
+1. **Actor model concepts in the .NET ecosystem**
+2. **Using Channels or Dataflow for mailbox-style processing**
+3. **Single-threaded TaskScheduler and event-loop style executors**
+4. **State confinement vs locking for thread safety**
+5. **When actor-style concurrency is beneficial (high contention, complex invariants)**
