@@ -152,7 +152,7 @@
 2. **Performance awareness** (closures allocate; async methods generate state machines)
 3. **Mental model** (your source-level “nested type” is not the same as compiler machinery—don’t conflate them in design discussions)
 
-### [6.4. Modern related features (file-local types) and how they differ from nesting)](<./sections/6. Nested types/6.4. File-local types vs nested types.md>)
+### [6.4. Modern related features (file-local types) and how they differ from nesting](<./sections/6. Nested types/6.4. File-local types vs nested types.md>)
 
 1. **File-local types (C# 11)** (hide implementation details at file scope without nesting)
 2. **Choose nesting vs file-local** (team conventions; testability; discoverability)
