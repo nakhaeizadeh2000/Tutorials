@@ -204,7 +204,7 @@
 
 ## 8. Questions and answers for interviews
 
-### [8.1. Common interview Q&A: IO, encoding, and serialization (C# 15)](<./sections/8. Questions and answers for interviews/8.1. Common interview Q&A: IO, encoding, and serialization (C# 15).md>)
+### [8.1. Common interview Q&A: IO, encoding, and serialization (C# 15)](<./sections/8. Questions and answers for interviews/8.1. Common interview Q&A - IO, encoding, and serialization (C# 15).md>)
 
 1. **Q: What’s the difference between reading text and reading bytes?**
    1. **A:** Bytes are raw storage; text requires an encoding to map bytes to characters. Use `StreamReader`/`StreamWriter` with an explicit `Encoding` to handle chunk boundaries correctly.
