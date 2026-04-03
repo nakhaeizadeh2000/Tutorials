@@ -1,4 +1,4 @@
-import os
+import argparse
 from pathlib import Path
 
 
@@ -50,15 +50,51 @@ def scaffold():
         target_path = (BASE_DIR / rel_path).resolve()
         target_path.parent.mkdir(parents=True, exist_ok=True)
 
-        heading = f"## {title}\n"
-        content_lines = [heading, ""]
-        content_lines.extend(bullets)
+        content_lines: list[str] = []
+        content_lines.append(f"## {title}")
         content_lines.append("")
-        text = "\n".join(content_lines)
+        content_lines.extend(bullets)
+        text = "\n".join(content_lines).rstrip() + "\n"
 
         target_path.write_text(text, encoding="utf-8")
 
+def verify() -> int:
+    sections = parse_sections()
+    failures: list[str] = []
+
+    for rel_path, title, bullets in sections:
+        target_path = (BASE_DIR / rel_path).resolve()
+        if not target_path.exists():
+            failures.append(f"Missing file: {rel_path}")
+            continue
+
+        expected_lines: list[str] = []
+        expected_lines.append(f"## {title}")
+        expected_lines.append("")
+        expected_lines.extend(bullets)
+        expected = "\n".join(expected_lines).rstrip() + "\n"
+
+        actual = target_path.read_text(encoding="utf-8")
+        if not actual.strip():
+            failures.append(f"Empty file: {rel_path}")
+            continue
+
+        if actual != expected:
+            failures.append(f"Content mismatch: {rel_path}")
+
+    if failures:
+        for f in failures:
+            print(f)
+        return 1
+    return 0
+
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--verify", action="store_true")
+    args = parser.parse_args()
+
+    if args.verify:
+        raise SystemExit(verify())
     scaffold()
 
