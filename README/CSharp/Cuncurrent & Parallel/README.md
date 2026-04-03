@@ -1,3 +1,6 @@
+## 0. Language version maps (C# 9-15)
+
+These **indexes** list what shipped when and point into topical domains. Deep dives are in the sections below. [Update C# 9](<../Update CSharp 9/README.md>) · [10](<../Update CSharp 10/README.md>) · [11](<../Update CSharp 11/README.md>) · [12](<../Update CSharp 12/README.md>) · [13](<../Update CSharp 13/README.md>) · [14](<../Update CSharp 14/README.md>) · [15](<../Update CSharp 15/README.md>).
 ## 1. Core Terminology in Concurrency & Parallelism
 
 ### [1.1. High-level execution model concepts](<./sections/1. Core Terminology in Concurrency & Parallelism/1.1. High-level execution model concepts.md>)

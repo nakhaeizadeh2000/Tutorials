@@ -1,6 +1,10 @@
+## 0. Language version maps (C# 9-15)
+
+These **indexes** list what shipped when and point into topical domains. Deep dives are in the sections below. [Update C# 9](<../Update CSharp 9/README.md>) · [10](<../Update CSharp 10/README.md>) · [11](<../Update CSharp 11/README.md>) · [12](<../Update CSharp 12/README.md>) · [13](<../Update CSharp 13/README.md>) · [14](<../Update CSharp 14/README.md>) · [15](<../Update CSharp 15/README.md>).
+
 ## 1. .NET and C# fundamentals & history (big picture)
 
-### [1.1. What “.NET” means: runtime vs libraries vs tooling](<./sections/1. .NET and CSharp fundamentals & history/1.1. What .NET means runtime vs libraries vs tooling.md>)
+### [1.1. What ".NET" means: runtime vs libraries vs tooling](<./sections/1. .NET and CSharp fundamentals & history/1.1. What .NET means runtime vs libraries vs tooling.md>)
 
 1. **Runtime vs BCL vs SDK (CLR/CoreCLR, `System.*`, `dotnet` CLI/SDK workflow)**
 2. **App model (console/web/worker/desktop; framework-dependent vs self-contained; x64/arm64 + OS targets)**
@@ -10,7 +14,7 @@
 
 1. **What CLI standardizes (CTS, metadata, IL/CIL, execution model)**
 2. **Language interoperability (CLS rules; public API constraints; common interop breakers)**
-3. **Why it matters (reflection/trimming/analyzers; standards ≠ identical performance)**
+3. **Why it matters (reflection/trimming/analyzers; a standard describes behavior, not bit-for-bit performance across runtimes)**
 
 ### [1.3. CLR/CoreCLR: what it really does](<./sections/1. .NET and CSharp fundamentals & history/1.3. CLR CoreCLR responsibilities.md>)
 
@@ -18,7 +22,7 @@
 2. **Memory management (generational GC; server vs workstation; LOH/pinning; allocation model)**
 3. **Concurrency plumbing (ThreadPool; async I/O integration; sync costs: contention/context switches/cache lines)**
 
-### [1.4. .NET product evolution: Framework → Core → unified .NET](<./sections/1. .NET and CSharp fundamentals & history/1.4. NET evolution Framework Core unified.md>)
+### [1.4. .NET product evolution: Framework to Core to unified .NET](<./sections/1. .NET and CSharp fundamentals & history/1.4. NET evolution Framework Core unified.md>)
 
 1. **Why .NET Framework is legacy now (Windows-only, GAC, servicing model; AppDomains context)**
 2. **What .NET Core changed (cross-platform, side-by-side runtimes, modern hosting + dependency model, `dotnet` tooling)**
@@ -74,7 +78,7 @@
 
 ### [4.2. Object lifetime and resource management](<./sections/4. CSharp fundamentals/4.2. Object lifetime and resource management.md>)
 
-1. **GC vs deterministic cleanup (GC doesn’t close handles; `IDisposable`/`using`; `IAsyncDisposable`/`await using`)**
+1. **GC vs deterministic cleanup (GC does not close handles; `IDisposable`/`using`; `IAsyncDisposable`/`await using`)**
 2. **Ownership boundaries (who creates/disposes; shared mutable state strategy; composition root/DI patterns)**
 3. **Good to know (finalizers as last resort; pools/caches pressure; timeouts + cancellation as lifetime concerns)**
 
@@ -100,7 +104,7 @@
 
 1. **Language version (compiler features; generators/analyzers; feature availability vs TFMs)**
 2. **Runtime version (JIT/GC/threading changes; hosting/diagnostics; AOT/trimming maturity)**
-3. **Library/API version (new BCL APIs; “prefer new API” patterns; obsolete vs not-preferred)**
+3. **Library/API version (new BCL APIs; "prefer new API" patterns; obsolete vs not-preferred)**
 
 ### [7.2. Feature strategy: learn what changes how you design](<./sections/7. CSharp versions/7.2. Feature strategy for modern CSharp.md>)
 
@@ -108,11 +112,15 @@
 2. **Performance and control (`Span<T>` + ref safety; async streams/primitives; source generation vs reflection)**
 3. **Maintainability (file-scoped namespaces; modern/global `using` patterns; analyzers/formatting for consistency)**
 
+### 7.3. Per-version feature indexes (C# 9-15)
+
+These **Update** domains list what shipped when and point into topical sections in this repo: [Update C# 9](<../Update CSharp 9/README.md>) · [10](<../Update CSharp 10/README.md>) · [11](<../Update CSharp 11/README.md>) · [12](<../Update CSharp 12/README.md>) · [13](<../Update CSharp 13/README.md>) · [14](<../Update CSharp 14/README.md>) · [15](<../Update CSharp 15/README.md>). Use them after sections **7.1** and **7.2** when you need a **feature-by-version** map rather than theory-only framing.
+
 ## 8. C# naming conventions (modern, idiomatic, API-friendly)
 
 ### [8.1. Naming that scales: readability, API design, and tooling](<./sections/8. CSharp naming conventions/8.1. Naming conventions.md>)
 
 1. **Identifiers (`PascalCase` for types/public; `camelCase` for locals/params; meaningful names over abbreviations)**
-2. **APIs and architecture (names reveal sync/async intent; `*Async` conventions; avoid catch-all “Manager/Helper/Util”)**
+2. **APIs and architecture (names reveal sync/async intent; `*Async` conventions; avoid catch-all "Manager/Helper/Util")**
 3. **Performance-aware naming (signal allocations like `ToArray`; prefer Try-pattern; analyzer-driven consistency)**
 

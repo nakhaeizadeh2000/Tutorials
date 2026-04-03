@@ -1,3 +1,7 @@
+## 0. Language version maps (C# 9–15)
+
+These **indexes** list what shipped when and point back into topical domains. Deep teaching lives in the sections below. [Update C# 9](<../Update CSharp 9/README.md>) · [10](<../Update CSharp 10/README.md>) · [11](<../Update CSharp 11/README.md>) · [12](<../Update CSharp 12/README.md>) · [13](<../Update CSharp 13/README.md>) · [14](<../Update CSharp 14/README.md>) · [15](<../Update CSharp 15/README.md>).
+
 ## 1. Getting started (tooling → first run)
 
 ### [1.1. Installing Visual Studio (modern .NET workloads)](<./sections/1. Getting started/1.1. Installing Visual Studio (modern .NET workloads).md>)
@@ -11,6 +15,12 @@
 1. **Two ways: Visual Studio vs `dotnet new console` (same result, different workflow)**
 2. **Top-level statements vs explicit `Main` (what the compiler generates)**
 3. **Good defaults (nullable enabled, implicit usings, predictable entry point)**
+
+### [1.3. Command line arguments (`args`), `Environment`, exit codes, parsing](<./sections/1. Getting started/1.3. Command line arguments args Environment exit codes parsing.md>)
+
+1. **`string[] args` semantics** (never null; may be empty; shell quoting pitfalls)
+2. **`Environment` vs `args`** (process paths, environment variables, working directory)
+3. **CLI design** (exit codes; prefer real parsers when the CLI grows)
 
 ## 2. Console I/O: `System.Console` (the basics, done correctly)
 
@@ -67,6 +77,12 @@
 1. **`switch` statement basics + `default` and fall-through rules**
 2. **`switch` expressions for value-producing decisions (and why they reduce bugs)**
 3. **Examples: menu handling, mapping codes → messages, and parsing user input safely**
+
+### [5.4. Pattern matching catalog (type, relational, property, list, slice, `var`) — C# 9–C# 15](<./sections/5. Branching and decision making/5.4. Pattern matching catalog type relational property list slice var (CSharp 9 through 15).md>)
+
+1. **Single map** for patterns across versions (see also `Handling Null`, `Tuples`, `Type Conversion`)
+2. **Perf**: shallow patterns; extract helpers for complex predicates
+3. **Modern**: list/slice patterns (C# 11+): link from catalog to `Update C# 11`
 
 ## 6. Loops and iteration (repeat work without repeating code)
 

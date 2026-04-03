@@ -1,3 +1,6 @@
+## 0. Language version maps (C# 9-15)
+
+These **indexes** list what shipped when and point into topical domains. Deep dives are in the sections below. [Update C# 9](<../Update CSharp 9/README.md>) · [10](<../Update CSharp 10/README.md>) · [11](<../Update CSharp 11/README.md>) · [12](<../Update CSharp 12/README.md>) · [13](<../Update CSharp 13/README.md>) · [14](<../Update CSharp 14/README.md>) · [15](<../Update CSharp 15/README.md>).
 ## 1. Method fundamentals (what a method really is)
 
 ### [1.1. Understanding methods: signature, body, and invocation](<./sections/1. Method fundamentals/1.1. Understanding methods signature body invocation.md>)
@@ -9,7 +12,7 @@
 ### [1.2. Encapsulation with methods: invariants live at method boundaries](<./sections/1. Method fundamentals/1.2. Encapsulation with methods invariants boundaries.md>)
 
 1. **Encapsulation** (state stays private; methods/properties enforce valid transitions)
-2. **Design rules** (small public surface; intention-revealing method names; avoid “do everything” methods)
+2. **Design rules** (small public surface; intention-revealing method names; avoid "do everything" methods)
 3. **Correctness + perf** (validate once at boundaries; avoid repeated expensive checks inside hot loops)
 
 ## 2. Locals, parameters, and `this` (how data moves in and out)
@@ -40,19 +43,19 @@
 
 1. **Reference semantics** (passing a reference copies the reference, not the object; aliasing hazards)
 2. **Mutation strategy** (prefer immutable inputs; if mutating, make it explicit in naming and documentation)
-3. **Perf + safety** (avoid unnecessary cloning; prefer stable ownership boundaries and clear “who mutates” rules)
+3. **Perf + safety** (avoid unnecessary cloning; prefer stable ownership boundaries and clear "who mutates" rules)
 
 ### [4.2. Optional parameters (default arguments): versioning and correctness](<./sections/4. Passing objects and arguments/4.2. Optional parameters default arguments versioning correctness.md>)
 
-1. **How defaults work** (baked into the caller at compile time; not “looked up” at runtime)
+1. **How defaults work** (baked into the caller at compile time; not "looked up" at runtime)
 2. **Versioning rule** (changing defaults is a breaking behavior change for already-compiled consumers)
 3. **Best practice** (prefer method overloads for public APIs; use optional parameters mainly within apps/internal code)
 
 ### [4.3. Named arguments: readability vs long-term maintainability](<./sections/4. Passing objects and arguments/4.3. Named arguments readability maintainability.md>)
 
-1. **Where it shines** (many optional parameters; boolean “flag” parameters; readability at call sites)
+1. **Where it shines** (many optional parameters; boolean "flag" parameters; readability at call sites)
 2. **Refactoring caveat** (parameter renames can break call sites that use names)
-3. **Mentor rule** (use named args to avoid ambiguity; avoid overusing them as a “poor man’s builder”)
+3. **Mentor rule** (use named args to avoid ambiguity; avoid overusing them as a "poor man's builder")
 
 ## 5. Overload resolution and method overloading (what the compiler chooses)
 
@@ -60,7 +63,7 @@
 
 1. **Overload resolution basics** (best match, conversions, generics, `params`, optional parameters interactions)
 2. **Ambiguity traps** (numeric literals, null, lambdas, method groups, default literals)
-3. **API design** (prefer small coherent overload sets; avoid “overload soup”; keep behavior consistent)
+3. **API design** (prefer small coherent overload sets; avoid "overload soup"; keep behavior consistent)
 
 ## 6. Parameter modifiers and ref-like patterns (control copies and outputs)
 
@@ -70,11 +73,11 @@
 2. **Correctness** (mutating a referenced object vs reassigning the parameter are different things)
 3. **Performance** (avoid premature `ref`; start with clear code and optimize with measurements)
 
-### [6.2. `ref` parameters: when mutation of the caller’s variable is intended](<./sections/6. Parameter modifiers and ref-like patterns/6.2. ref parameters when to use.md>)
+### [6.2. `ref` parameters: when mutation of the caller's variable is intended](<./sections/6. Parameter modifiers and ref-like patterns/6.2. ref parameters when to use.md>)
 
-1. **Meaning** (callee can reassign the caller’s variable; caller must pass an initialized variable)
+1. **Meaning** (callee can reassign the caller's variable; caller must pass an initialized variable)
 2. **Good uses** (performance-sensitive code with large structs; low-level algorithms; Try-pattern optimizations)
-3. **Risks** (aliasing, surprising side effects, harder reasoning/testing; avoid in “regular” business code)
+3. **Risks** (aliasing, surprising side effects, harder reasoning/testing; avoid in "regular" business code)
 
 ### [6.3. `out` parameters: multiple returns and Try-pattern APIs](<./sections/6. Parameter modifiers and ref-like patterns/6.3. out parameters multiple returns Try patterns.md>)
 
@@ -86,12 +89,12 @@
 
 1. **Inline declarations** (`if (TryX(..., out var value))`) reduce scope and bugs
 2. **Pattern synergy** (combine with guard clauses and early returns for clean code)
-3. **Mentor rule** (keep the declared variable scope minimal; don’t leak it across large blocks)
+3. **Mentor rule** (keep the declared variable scope minimal; don't leak it across large blocks)
 
-### [6.5. `in` parameters: read-only by-ref and the “defensive copy” story](<./sections/6. Parameter modifiers and ref-like patterns/6.5. in parameters read-only by-ref defensive copies.md>)
+### [6.5. `in` parameters: read-only by-ref and the "defensive copy" story](<./sections/6. Parameter modifiers and ref-like patterns/6.5. in parameters read-only by-ref defensive copies.md>)
 
 1. **Intent** (read-only reference to caller data; useful for large structs)
-2. **Reality** (`in` can still create temporaries/defensive copies in some cases—measure in hot paths)
+2. **Reality** (`in` can still create temporaries/defensive copies in some —measure in hot paths)
 3. **Guidance** (prefer `readonly struct` first; use `in` selectively where it actually helps)
 
 ### [6.6. Ref returns: returning by reference safely](<./sections/6. Parameter modifiers and ref-like patterns/6.6. ref returns returning by reference safely.md>)
@@ -105,6 +108,7 @@
 1. **Ergonomics** (nice call sites; reduces overload count)
 2. **Allocation note** (`params` can allocate an array; avoid in hot loops or provide span-based alternatives)
 3. **API guidance** (consider `ReadOnlySpan<T>` overloads for high-performance libraries)
+4. **C# 13+** (`params` collections): see section **4** inside the linked file; [Update C# 13](<../Update CSharp 13/README.md>)
 
 ## 7. Local functions, recursion, and structuring complex methods
 
@@ -118,11 +122,11 @@
 
 1. **Guarantee** (cannot capture locals/`this`; prevents accidental closure allocations)
 2. **When to use** (hot paths, callbacks, or any helper where capturing would be a bug)
-3. **Rule of thumb** (default to `static` local functions when you don’t need captures)
+3. **Rule of thumb** (default to `static` local functions when you do not need captures)
 
 ### [7.3. Recursion: clarity vs stack depth and performance trade-offs](<./sections/7. Local functions and recursion/7.3. Recursion clarity stack depth performance trade-offs.md>)
 
-1. **When it’s great** (tree traversal, divide-and-conquer, parsers)
+1. **When it is a good fit** (tree traversal, divide-and-conquer, parsers)
 2. **Risks** (stack overflow; repeated allocations; non-tail recursion; exception-heavy control flow)
 3. **Alternatives** (explicit stack/queue; iterative loops; memoization when appropriate)
 
@@ -141,4 +145,5 @@
 1. **Explain pass-by-value vs pass-by-reference** (including reference types vs value types)
 2. **Explain `ref`, `out`, and `in`** (correctness + performance trade-offs; when to avoid each)
 3. **Explain overload resolution** (common ambiguity cases and how to design safe overload sets)
+
 

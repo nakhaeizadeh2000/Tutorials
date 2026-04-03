@@ -1,3 +1,6 @@
+## 0. Language version maps (C# 9-15)
+
+These **indexes** list what shipped when and point into topical domains. Deep dives are in the sections below. [Update C# 9](<../Update CSharp 9/README.md>) · [10](<../Update CSharp 10/README.md>) · [11](<../Update CSharp 11/README.md>) · [12](<../Update CSharp 12/README.md>) · [13](<../Update CSharp 13/README.md>) · [14](<../Update CSharp 14/README.md>) · [15](<../Update CSharp 15/README.md>).
 ## 1. LINQ in C# 15: query operator mindset (filter, order, project, aggregate)
 ### [1.1. LINQ pipeline fundamentals for C# developers (deferred execution + evaluation timing)](<./sections/1. Linq basics/1.1. Linq pipeline fundamentals for csharp developers deferred execution and evaluation timing.md>)
 1. **Deferred execution by default**: most LINQ-to-Objects operators build an iterator/pipeline and only run when you enumerate (e.g., `foreach`, `ToList`, `ToArray`, `Count`, etc.).
