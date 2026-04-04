@@ -25,7 +25,7 @@ The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **ind
 **Future checks**
 
 - After renaming a folder (e.g. `Update CSharp 10`), run a **repo-wide search** for `Update CSharp` and fix relative paths from each `README.md`.
-- Prefer **one consistent spelling** in headings: `C# 9-15` (ASCII hyphen) in titles; avoid ambiguous characters that look like hyphens in some fonts.
+- Prefer **one consistent spelling** in headings: `C# 9-15` (ASCII hyphen) in titles; avoid ambiguous characters that look like hyphens in some fonts. (A stray Unicode en dash in **`CSharp language basics`** §0 was normalized to match the other domains.)
 
 ---
 
@@ -92,6 +92,7 @@ These are **concrete topics** that the Update indexes link to. Paths are under `
 | Structures | `1. Structures fundamentals/1.4. Auto default structs default T vs parameterless constructors.md` | `default(T)` vs struct ctors |
 | Structures | `4. Readonly structs/4.3. ref fields scoped ref safety and CSharp 11.md` | `ref` fields / `scoped` |
 | Methods | `6. Parameter modifiers and ref-like patterns/6.7. params parameters variable argument lists.md` | Extended with **§4** for C# 13+ `params` collections |
+| LINQ | `1. Linq basics/1.1. Linq pipeline fundamentals …` through `10. Overlaps to avoid/10.1. Boundaries …` (22 files) | Operator-focused LINQ-to-Objects (deferred execution, ordering, element ops, `Select`, aggregations, checklist, Q&A, cross-domain boundaries) |
 
 **Future checks**
 
@@ -102,7 +103,7 @@ These are **concrete topics** that the Update indexes link to. Paths are under `
 
 ## 6. Domain `README.md` wiring (non-exhaustive list)
 
-The following domains had **README** updates beyond **`## 0`**: new subsection bullets, reordered items, or pointers to the new section files above (examples include **CSharp language basics**, **Partial and Static…**, **Delegates and Events**, **String and DateTime and Math**, **Arrays**, **Abstract Classes and Interfaces**, **Properties and Indexers**, **Structures**, **Methods**).
+The following domains had **README** updates beyond **`## 0`**: new subsection bullets, reordered items, or pointers to the new section files above (examples include **CSharp language basics**, **Partial and Static…**, **Delegates and Events**, **String and DateTime and Math**, **Arrays**, **Abstract Classes and Interfaces**, **Properties and Indexers**, **Structures**, **Methods**). **LINQ** already listed all section targets in its `README.md`; the gap was the missing **`sections/`** tree (now scaffolded and expanded to match those links).
 
 **What to verify after any edit**
 
