@@ -2,7 +2,7 @@
 
 This report describes edits made **across the main C# tutorial domains** (everything under `README/CSharp/` **except** the seven `Update CSharp *` folders), why they were done, and **how to avoid regressions** (broken links, encoding damage, or “navigation-only” indexes drifting out of sync).
 
-The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **indexes**: they list language features by version and point into these topical domains. This document focuses on **those targets** and **shared infrastructure** (section `## 0`, cross-links, new section files).
+The **`30 Update CSharp 9` … `36 Update CSharp 15`** folders are intentionally **indexes**: they list language features by version and point into these topical domains. This document focuses on **those targets** and **shared infrastructure** (section `## 0`, cross-links, new section files).
 
 **Perfection backlog & AI handoff:** [§10 Future tasks](#10-future-tasks-path-to-perfect-docs) · [§11 Authoring rules](#11-authoring-rules-extracted-for-ai-and-humans) · [§12 Prompt A (scaffold)](#12-prompt-a--scaffold-sections-from-a-domain-readmemd-copy-paste) · [§13 Prompt B (expand)](#13-prompt-b--expand-or-update-all-files-under-sections-copy-paste). When you tell an assistant to *continue* doc work, attach this file and point to **§10.3** plus the relevant prompt.
 
@@ -13,8 +13,8 @@ The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **ind
 **What changed**
 
 - Most domain `README.md` files under `README/CSharp/` gained (or already had) a leading section **`## 0. Language version maps (C# 9–15)`** with a single line of links to:
-  - `Update CSharp 9/README.md` through `Update CSharp 15/README.md`
-- **Relative paths** use the repo’s style: folder names with spaces, wrapped in `<...>` for Markdown links (e.g. `<../Update CSharp 13/README.md>`).
+  - `30 Update CSharp 9/README.md` through `36 Update CSharp 15/README.md`
+- **Relative paths** use the repo’s style: folder names with spaces, wrapped in `<...>` for Markdown links (e.g. `<../34 Update CSharp 13/README.md>`).
 - Separators between links use a **middle dot** (`·`), not a broken placeholder character.
 
 **Why**
@@ -24,8 +24,8 @@ The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **ind
 
 **Future checks**
 
-- After renaming a folder (e.g. `Update CSharp 10`), run a **repo-wide search** for `Update CSharp` and fix relative paths from each `README.md`.
-- Prefer **one consistent spelling** in headings: `C# 9-15` (ASCII hyphen) in titles; avoid ambiguous characters that look like hyphens in some fonts. (A stray Unicode en dash in **`CSharp language basics`** §0 was normalized to match the other domains.)
+- After renaming a folder (e.g. `31 Update CSharp 10`), run a **repo-wide search** for `Update CSharp` and fix relative paths from each `README.md`.
+- Prefer **one consistent spelling** in headings: `C# 9-15` (ASCII hyphen) in titles; avoid ambiguous characters that look like hyphens in some fonts. (A stray Unicode en dash in **`02 CSharp language basics`** §0 was normalized to match the other domains.)
 
 ---
 
@@ -33,7 +33,7 @@ The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **ind
 
 **What changed**
 
-- **`README/CSharp/Fundamental Theories/README.md`**
+- **`README/CSharp/01 Fundamental Theories/README.md`**
   - Section **`7.3. Per-version feature indexes (C# 9–15)`** was added under the existing “C# versions” chapter, linking to all seven Update READMEs.
   - Section **`## 0`** and related lines were **cleaned** after encoding damage (replacement characters, wrong punctuation).
 - **Intent**: theory chapters (**7.1–7.2**) stay conceptual; **7.3** is the bridge to **feature-by-version** navigation.
@@ -48,7 +48,7 @@ The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **ind
 
 **What changed**
 
-- **`README/CSharp/Fields/README.md`**
+- **`README/CSharp/04 Fields/README.md`**
   - Short subsection explaining that the contextual **`field`** keyword (C# 13+, refined in C# 14) is documented under **Properties and Indexers**, not under Fields—because it refers to **compiler-generated backing storage in property accessors**, not a declared field declaration in the usual sense.
   - Prevents duplicate deep dives and sets reader expectations.
 
@@ -62,7 +62,7 @@ The **`Update CSharp 9` … `Update CSharp 15`** folders are intentionally **ind
 
 **What changed**
 
-- **`README/CSharp/Methods/README.md`**
+- **`README/CSharp/05 Methods/README.md`**
   - Under **`6.7`** (`params`), bullets were extended to reference **C# 13+ `params` collections** and the **Update C# 13** index.
 - **Section file** (see below) contains a dedicated **§4** describing `params` beyond arrays.
 
@@ -152,8 +152,8 @@ The following domains had **README** updates beyond **`## 0`**: new subsection b
 
 ## 9. Scope note
 
-- **In scope for this report**: `README/CSharp/**` excluding `README/CSharp/Update CSharp */`.
-- **Out of detail here**: the seven **`Update CSharp 9`–`15`** `README.md` files themselves—their role is **index-only** maintenance (link hygiene + pointing at Microsoft Learn when no section exists yet).
+- **In scope for this report**: `README/CSharp/**` excluding the numbered Update index folders `README/CSharp/30 Update CSharp 9/` … `README/CSharp/36 Update CSharp 15/` (same content role as before; paths gained a `30`–`36` prefix for curriculum ordering).
+- **Out of detail here**: the seven **`30 Update CSharp 9`–`36 Update CSharp 15`** `README.md` files themselves—their role is **index-only** maintenance (link hygiene + pointing at Microsoft Learn when no section exists yet).
 
 ---
 
@@ -228,7 +228,7 @@ These rules are **distilled** from the project’s scaffolding and expansion wor
 
 ## 12. Prompt A — Scaffold `sections/` from a domain `README.md` (copy-paste)
 
-Replace `<Domain Name here>` with the folder name under `README/CSharp/` (e.g. `Partial and Static Classes, Enumerations`).
+Replace `<Domain Name here>` with the folder name under `README/CSharp/` (e.g. `12 Partial and Static Classes, Enumerations`).
 
 ```text
 In the domain folder README/CSharp/<Domain Name here>/, scaffold the sections/ structure exactly like the other domains.
