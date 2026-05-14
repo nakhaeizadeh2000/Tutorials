@@ -160,6 +160,6 @@ These **indexes** list what shipped when and point into topical domains. Deep di
 
 ## 10. Overlaps to avoid (where this domain stops)
 ### [10.1. Boundaries: what is covered elsewhere in this repo](<./sections/10. Overlaps to avoid/10.1. Boundaries what is covered elsewhere.md>)
-1. **LINQ general iterator/IEnumerable fundamentals** overlap with `README/CSharp/21 Collections` (enumeration, iterator blocks, deferred execution framing); this domain focuses on the operator behaviors you listed (ordering, element access, projection, and aggregations).
-2. **Lambda/closure basics** overlap with `README/CSharp/19 Delegates and Events` and `README/CSharp/17 Extension Methods and others`; here it's only referenced where it impacts LINQ allocations and correctness.
-3. **Projection into anonymous types/tuples** overlaps with `README/CSharp/23 Anonymous Types` and `README/CSharp/24 Tuples`; this domain treats projection as "shape transformation" but doesn't re-explain those specific language constructs.
+1. **LINQ general iterator/IEnumerable fundamentals** overlap with [21 Collections](<../21 Collections/README.md>) (enumeration, iterator blocks, deferred execution framing); this domain focuses on the operator behaviors you listed (ordering, element access, projection, and aggregations).
+2. **Lambda/closure basics** overlap with [19 Delegates and Events](<../19 Delegates and Events/README.md>) and [17 Extension Methods and others](<../17 Extension Methods and others/README.md>); here it's only referenced where it impacts LINQ allocations and correctness.
+3. **Projection into anonymous types/tuples** overlaps with [23 Anonymous Types](<../23 Anonymous Types/README.md>) and [24 Tuples](<../24 Tuples/README.md>); this domain treats projection as "shape transformation" but doesn't re-explain those specific language constructs.

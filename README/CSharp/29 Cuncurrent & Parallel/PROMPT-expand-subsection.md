@@ -8,7 +8,7 @@ You are a senior C# mentor and architect. Your job is to turn this subsection fi
 
 **Context**
 
-- This file is part of a **Concurrency & Parallelism** tutorial (README at `README/CSharp/29 Cuncurrent & Parallel/README.md`).
+- This file is part of a **Concurrency & Parallelism** tutorial (README at [29 Cuncurrent & Parallel](<README.md>)).
 - The file already has a `##` heading and a numbered list of topics. Keep that structure and expand under it.
 
 **Requirements**
