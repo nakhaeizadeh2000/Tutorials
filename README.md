@@ -11,3 +11,4 @@ use this prompt:
 | Topic | Index |
 |-------|--------|
 | C# | [Open the C# track](<README/CSharp/README.md>) |
+| JavaScript | [Open the JavaScript track](<README/JavaScript/README.md>) |

@@ -130,34 +130,42 @@ In every mode: **read before writing** (§6), and **log everything** (§7).
 
 ## 6. Session workflow (execute in this order)
 
+**Logging is continuous, not a closing formality.** The log exists so a chat/agent killed mid-task (network drop, crash, timeout, context loss) can be resumed in a fresh session exactly where it stopped — without redoing or duplicating anything.
+
 1. **Load context:** read root `README.md`, the track `README.md`, the target domain `README.md`, and the entire `LOG.md` of that track. Never skip this — it prevents duplicates and destroyed work.
-2. **Plan:** derive the minimal set of files to create/edit. Write the plan into `LOG.md` under a new session entry *before* implementing.
-3. **Research:** verify facts against current official docs / authoritative sources; note sources in the log when non-obvious.
-4. **Implement incrementally:** one leaf (or small coherent batch) at a time; after each batch, update the relevant index and append progress to `LOG.md`. The repo must stay consistent at every stopping point.
-5. **Verify:** walk the DoD checklist (§4); check every new relative link resolves (paths with spaces!); confirm no content duplicates an existing leaf.
-6. **Close the session:** final `LOG.md` entry with status `DONE`/`PARTIAL` + explicit **Next steps** so a fresh session can continue seamlessly.
+2. **Open the log entry FIRST:** derive the minimal set of files to create/edit (the plan), then write a new session entry into `README/<Track>/LOG.md` — creating that file if it does not exist — with `- Status: IN PROGRESS` and the full plan. This log write must land on disk **before any other file is created or edited.**
+3. **Research:** verify facts against current official docs / authoritative sources; note non-obvious sources directly in the open log entry.
+4. **Implement incrementally, logging after every unit:** one leaf (or small coherent batch) at a time. After EACH completed unit — a created/edited file, an index update, a fixed link set — immediately update the open log entry (`Done:` bullet with file path, `Files touched:`, `Links fixed`) BEFORE starting the next unit. Never batch logging for the end of the session. Update relevant ancestor indexes as part of the same unit. The repo (log included) must stay consistent at every stopping point.
+5. **Verify:** walk the DoD checklist (§4); check every new relative link resolves (paths with spaces!); confirm no content duplicates an existing leaf; record verification results in the log entry.
+6. **Close the session:** flip the SAME entry's status to `DONE`/`PARTIAL`/`BLOCKED` (never leave `IN PROGRESS` on a normal exit) and finish explicit **Next steps** so a fresh session can continue seamlessly.
 
 Never reorder, renumber, rename, or delete existing material unless the task requires it — and when it does, record old→new mappings in `LOG.md` and fix all inbound links.
 
 ## 7. Work log contract (`README/<Track>/LOG.md`)
 
-Append-only. One block per session. Never edit or delete previous blocks. Format:
+One block per session. Blocks are append-only **across sessions**: past (closed) blocks are immutable history — never edit or delete them. The single exception is the session's OWN open block: while the session runs, that block is updated in place after every completed unit (§6.4). Format:
 
 ```markdown
 # <Track> — work log
 
 ## [YYYY-MM-DD HH:MM] Session <n> — <one-line goal>
-- Status: DONE | PARTIAL | BLOCKED
+- Status: IN PROGRESS | DONE | PARTIAL | BLOCKED   ← set IN PROGRESS before implementing; flip before ending
 - Context read: <files/indexes/logs reviewed>
-- Plan: <what this session intends to do>
-- Done: <bullet per completed unit, with file paths>
+- Plan: <what this session intends to do — written before implementation starts>
+- Done: <one bullet per completed unit with file paths — appended IMMEDIATELY after each unit, not at session end>
 - Decisions: <non-obvious choices and why (scope cuts, renames, overlaps resolved)>
-- Files touched: <explicit list, created vs modified>
+- Files touched: <explicit list, created vs modified — kept current as files are touched>
 - Links fixed / added: <notable cross-references>
+- Verification: <what was executed/checked and results — examples run, links checked, etc.>
 - Next steps: <precise handoff for the next session>
 ```
 
-If a process breaks mid-session, the last log entry is the recovery point: the next session resumes from **Next steps** without re-doing or duplicating anything.
+Rules:
+
+1. The session entry IS the crash-recovery record: everything listed under `Done:` was written to disk before the last update, so an interrupted session loses at most one unit of work.
+2. If a session finds an `IN PROGRESS` entry from a previous (broken) run, that entry is the recovery point. Re-read context, verify each claimed `Done:` item against disk, then EITHER resume inside that block (continue appending `Done:` bullets) OR close it as `PARTIAL` with honest remaining-work notes and open a fresh block. Never silently redo or skip completed units; never trust unchecked claims without verifying.
+3. Ending a session with status `IN PROGRESS` is allowed ONLY when the process itself died mid-run — it is never a normal exit state.
+4. The next session resumes from the last entry's **Next steps** without re-doing or duplicating anything.
 
 ## 8. Style micro-rules
 
