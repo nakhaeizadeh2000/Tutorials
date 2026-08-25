@@ -8,6 +8,7 @@ Vanilla JavaScript — the language itself and its standard library — from zer
 | 2 | [JavaScript language basics](<02 Language Basics/README.md>) |
 | 3 | [Values, Types, and Coercion](<03 Values Types and Coercion/README.md>) |
 | 4 | [Variables, Scope, and Closures](<04 Variables Scope and Closures/README.md>) |
+| 5 | [Functions Deep Dive](<05 Functions Deep Dive/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update ECMAScript <year>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
