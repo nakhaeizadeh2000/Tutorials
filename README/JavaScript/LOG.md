@@ -228,4 +228,48 @@
 - Next steps:
   1. Session 6: implement Domain 06 "Objects in Depth" (suggest sections: object literals & computed properties; property descriptors/getters/setters; prototype linkage intro; object utilities assign/keys/entries; checklist; pitfalls; QA; overlaps) then row 6.
   2. Continue in planned order through 20, then build Update ECMAScript index modules 21–24.
-  3. When domains 07, 10, 13, 14 land, convert this domain's textual forwards (class constructors → 07, generators/iterators → 10, async functions/promises → 13, modules → 14) into live links.
+   3. When domains 07, 10, 13, 14 land, convert this domain's textual forwards (class constructors → 07, generators/iterators → 10, async functions/promises → 13, modules → 14) into live links.
+
+## [2026-08-25 14:10] Session 6 — Domain 06 "Objects in Depth" (Mode 2)
+- Status: DONE
+- Context read: root `README.md`; `PROMPT.md`; track `README.md`; full `LOG.md` (Sessions 1–5); domain 01 README (template), domain 04 README + leaves `2.1`/`2.2` (hoisting/scope), domain 05 README + leaves `1.3` (methods/getters/setters shape), `3.1` (this/receiver), `4.1` (spread), domain 03 README + leaves `1.1`/`2.3` (object type, ToPrimitive), domain 02 README + leaves `3.4`/`3.5` (property access, spread/rest, delete/in). Grep for `Object\.|defineProperty|getOwnProperty|prototype|assign|freeze|seal` across JS track — prior domains keep only practical mentions (02 `3.4` access, 02 `3.5` delete/spread shallowly, 05 `1.3` accessor-as-method-shape, 05 `3.1` this-as-receiver, 04 `4.1` Object.create forward) and textual forwards to 06/07; this domain owns descriptors, attribute tables, enumeration order, Object utilities, and shallow-immutability.
+- Plan:
+  - Create `06 Objects in Depth/` with domain index (Template B) + 14 leaves across sections:
+    - §1 Object creation and literals: 1.1 Literals shorthand computed concise methods and spread; 1.2 Creation patterns literal vs Object vs create vs constructor intro.
+    - §2 Properties and descriptors: 2.1 Data vs accessor descriptors and attribute defaults; 2.2 Defining observing configuring properties defineProperty descriptor API; 2.3 Enumerability enumeration order and property listing.
+    - §3 Prototype linkage intro: 3.1 The prototype chain getPrototypeOf setPrototypeOf create __proto__ intro.
+    - §4 Object utilities and copying: 4.1 Assign merging shallow copy and fromEntries; 4.2 Keys values entries hasOwn reflection; 4.3 Destructuring rest and spread patterns for objects.
+    - §5 Integrity and immutability: 5.1 Prevent extensions seal freeze shallow reality and history.
+    - §6 Important points to remember: 6.1 Object checklist reflex rules mentors screen for.
+    - §7 Common pitfalls to production bugs: 7.1 Real production bugs caused by object mistakes.
+    - §8 Interview questions and answers: 8.1 Common interview QA objects descriptors prototypes.
+    - §9 Overlaps to avoid: 9.1 Boundaries what is covered elsewhere.
+  - Add row 6 to track `README.md`; verify all links (angle-bracket, spaces) + run every js fence with `~/.nvm/versions/node/v22.23.2/bin/node` (or node); fix cross-section ./ → ../Section/ link class; DRY: prototype deep inheritance/class → domain 07, iterables/generators → 10, async →13, modules →14, coercion →03, GC WeakRef →18/09.
+- Research notes: ECMA-262 (OrdinaryObject, Property Descriptor §§6.2.5–6.2.6, Object operations §§7.3, 20.1), MDN (Working with objects, Property descriptors, Object.* reference, Inheritance and prototype chain). Version labels "ES2026 era"; descriptor semantics stable since ES5.1; `Object.hasOwn` since ES2022 (replaces `hasOwnProperty`); `Object.groupBy` ES2024 covered via forward ref, not owned here.
+- Done:
+  - Created `06 Objects in Depth/README.md` (domain index, Template B; sections 0–9, 14 leaf promises; prerequisites linking 03/02/04/05).
+  - Updated track `README.md`: added row 6 (Objects in Depth).
+  - Created leaf `sections/1. Object creation and literals/1.1. Object literals shorthand computed properties and spread.md` (verified: shorthand, computed ToPropertyKey, duplicate last-wins, concise vs longhand enumerability/super, spread shallow + copies-as-data + skips non-enumerable/inherited).
+  - Created leaf `sections/1. Object creation and literals/1.2. Creation patterns literal Object create and constructors.md` (verified: {} vs Object.create vs null-proto dict vs __proto__ literal special case vs computed, factory per-instance vs prototype sharing, lookup table safe pattern).
+  - Created leaf `sections/2. Properties and descriptors/2.1. Data vs accessor descriptors and attribute defaults.md` (verified: literal true/true/true vs defineProperty false/false/false divergence, strict throw, enumerable gating).
+  - Created leaf `sections/2. Properties and descriptors/2.2. Defining observing and configuring properties.md` (verified: defineProperty replaces accessor not call setter, getOwnPropertyDescriptor non-invocation, configurable one-way latch true→false only).
+  - Created leaf `sections/2. Properties and descriptors/2.3. Enumerability enumeration order and for-in mechanics.md` (verified: integers ascending → strings insertion → symbols, delete-reinsert reorder, for-in chain vs keys own-only).
+  - Created leaf `sections/3. Prototype linkage intro/3.1. The prototype chain getPrototypeOf setPrototypeOf and Object.create.md` (verified: [[Prototype]] walk + in vs hasOwn, literal __proto__ link vs computed ["__proto__"] plain key, Object.create + new prototype assignment and instanceof walk).
+  - Created leaf `sections/4. Object utilities and copying/4.1. Assign merging shallow copy and fromEntries.md` (verified: assign enumerable-own + getter→setter invocation not descriptor, shallow share, fromEntries duplicate last-wins and symbol round-trip).
+  - Created leaf `sections/4. Object utilities and copying/4.2. Keys values entries hasOwn and reflection APIs.md` (verified: keys strings-only vs getOwnPropertyNames vs Reflect.ownKeys, hasOwn vs hasOwnProperty on null-proto, in chain vs own, Object.is NaN/-0).
+  - Created leaf `sections/4. Object utilities and copying/4.3. Destructuring rest and spread patterns for objects.md` (verified: defaults on undefined only, rest collects enumerable own strings+symbols shallow and ignores inherited/non-enumerable, nested guard = {}).
+  - Created leaf `sections/5. Integrity and immutability/5.1. Prevent extensions seal freeze and shallow immutability.md` (verified: preventExtensions < seal < freeze table, shallow nested mutation, strict TypeError vs sloppy silent false, deepFreeze with WeakSet cycle).
+  - Created leaf `sections/6. Important points to remember/6.1. Object checklist reflex rules mentors screen for.md` (verified: default-false trap, three-dichotomy matrix shallow/enumerable/own, grep table).
+  - Created leaf `sections/7. Common pitfalls to production bugs/7.1. Real production bugs caused by object mistakes.md` (verified: shallow clone leak via retry/tags, freeze sloppy silent stale, prototype pollution via __proto__ and safe null-proto filter, defineProperty enumerable omission).
+  - Created leaf `sections/8. Interview questions and answers/8.1. Common interview QA objects descriptors prototypes.md` (12 Q&As with mechanism answers).
+  - Created leaf `sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (6 boundaries, stop-list).
+- Decisions: 9-section split (5 topical + 4 meta) keeps descriptor/enumeration/prototype/utilities distinct; DRY boundaries mirror LOG plan (prototype deep →07, collections →09, iterables →10, async →13); cross-section link style literal spaces (not %20) — fixed 14 %20-encoded links via unquote pass.
+- Files touched:
+  - Created: `06 Objects in Depth/README.md` + 14 leaves (`1.1`, `1.2`, `2.1`, `2.2`, `2.3`, `3.1`, `4.1`, `4.2`, `4.3`, `5.1`, `6.1`, `7.1`, `8.1`, `9.1`) across 9 section folders.
+  - Modified: track `README.md` (row 6).
+- Links fixed / added: track row 6 link verified resolves; domain index prerequisites cross-links to 03/02/04/05 verified; fixed %20-encoded cross-section links (14 occurrences) to literal-space angle-bracket form; cross-section links ../Section/ form verified 0 broken.
+- Verification: link checker over entire JS track: 91 files (incl. 06), 606 relative links, 0 broken; per-file fence sweep for domain 06: 12 js-bearing leaves concatenated per file — 12/12 exit 0 (8.1/9.1 have no fence, excluded); full-domain combined skipped due to duplicate consts across leaves (expected — per-file contract per §5 decision); DoD §4 walked: version claims labeled (ES2022 hasOwn, ES2015 order, ES5.1 descriptors stable — "ES2026 era"), junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown with correct imports (all fences node-run exit 0 after fixes: leaf 2.2 mixed-descriptor throw + leaf 4.3 duplicate consts fixed), zero duplication via grep (Object utilities vs Values/02/05/04), formatting (bold lead labels, angle-bracket links, --- separators) matches 05, filenames punctuation-clean, heading prefixes 14/14 match filenames, index promises 14/14 ↔ leaf delivery 1:1, track README row 6 resolves.
+- Next steps:
+  1. Session 7: implement Domain 07 "Prototypes and Classes" (suggest sections: prototype chain deep, constructor/factory, class syntax, instanceof, private fields) then row 7; convert domain 06 textual forwards (class inheritance →07) into live links.
+  2. Continue through planned curriculum (08–20), then build Update ECMAScript index modules 21–24.
+  3. When domains 09/10/13/14/16/18 land convert remaining textual forwards in 06 (Map→09, iterables→10, async→13, modules→14, JSON→16, WeakRef→18) into live links.
