@@ -317,3 +317,80 @@
   1. Session 8: implement Domain 08 "Arrays" (suggest sections: creation, holes, methods mutating vs non-mutating, sorting, searching, typed arrays intro) then row 8; convert any domain 07 textual forwards that become live.
   2. Continue through planned curriculum (09–20), then build Update ECMAScript index modules 21–24.
   3. When domains 09/10/13/14/16/18 land convert remaining textual forwards in 07 (Map→09, iterables→10, async→13, modules→14, JSON→16, WeakRef→18) into live links.
+
+## [2026-08-26 09:00] Session 8 — Add JavaScript domain 07 (audit — domain already exists per Session 7)
+- Status: DONE
+- Context read: root `README.md`; `PROMPT.md`; track `README/JavaScript/README.md`; full `LOG.md` (Sessions 1–7); domain `07 Prototypes and Classes/README.md` + directory listing (9 sections, 14 leaves); git status (clean) + git log (latest 07 commit b7ecd24).
+- Plan:
+  - Per §6 workflow, open log IN PROGRESS before any file edits (this entry). Task requested "add JavaScript domain 07" — domain 07 already exists and is DONE (Session 7, verified 633 links / 12 leaves runnable). Deviation will be recorded per PROMPT preamble ("If this file conflicts with an ad-hoc request, follow the request but record the deviation in LOG").
+  - Verify idempotency without duplicating: (a) re-check domain 07 DoD §4 — index ↔ leaf 1:1, headings/filenames, links, runnable examples; (b) confirm track README row 7 resolves and no renumber needed; (c) confirm no missing domain (next should be 08 per curriculum). If any gap found, repair incrementally updating this log per unit.
+  - Close with deviation note + Next steps handoff for 08.
+- Done:
+  - Verified domain 07 idempotency: `README.md` index 9 sections / 14 leaf promises ↔ 14 leaf files on disk 1:1; headings prefixes 1.1–9.1 match filenames; `git status --porcelain` clean; latest commit `b7ecd24` already contains domain 07 — no files created or duplicated.
+  - Closed audit with deviation note (see Decisions) and handoff to Session 9 for domain 08.
+- Decisions:
+  - Deviation per PROMPT preamble: ad-hoc request "add domain 07" conflicts with repo state (domain 07 DONE in Session 7). Followed request as audit-only (no duplication) and recorded here; next actionable domain is 08 per curriculum §1 plan (Arrays).
+- Files touched:
+  - Modified: this `LOG.md` (closed Session 8 audit entry) — no filesystem changes to domain 07.
+- Links fixed / added: none (audit only).
+- Verification: domain 07 directory listing 9 section folders, 14 leaves present; track `README.md` row 7 link `[Prototypes and Classes](<07 Prototypes and Classes/README.md>)` resolves; no renumber needed.
+- Next steps:
+  1. Session 9 (this session): implement Domain 08 "Arrays" per curriculum — then add row 8 to track README.
+  2. Continue through planned curriculum (09–20), then build Update ECMAScript index modules 21–24.
+
+## [2026-08-26 10:15] Session 9 — Domain 08 "Arrays" (Mode 2)
+- Status: DONE
+- Context read: root `README.md`; `PROMPT.md`; track `README.md`; full `LOG.md` (Sessions 1–8); domain 06 `README.md` + leaves `1.1` (object literals), `2.3` (enumeration order), `3.1` (prototype intro), `4.1`/`4.2` (utilities); domain 07 `README.md` + leaves `1.1` (delegation), `2.1` (new), `3.1` (class basics); domain 03 leaves `1.1` (types), `2.2` (ToString/ToNumber), `2.3` (ToPrimitive); domain 02 leaves `2.3` (for-of vs for-in), `3.5` (spread/rest), `1.1` (ASI). Grep for `Array|holes|sparse|length|sort|TypedArray` across JS track — prior domains keep only practical mentions (02 §2.3 for-of on arrays, 02 §3.5 spread, 03 §2.2 array ToString join, 06 §2.3 integer-index order, 07 §1.1 delegation via Array.prototype) and textual forwards to 08; this domain owns array exotic internals, length invariants, holes/sparse, mutating vs copy-era, searching/testing, slicing/joining, mapping/filtering/flat, reduce/sort stability, typed arrays preview.
+- Plan:
+  - Create `08 Arrays/` with domain index (Template B) + 15 leaves across sections:
+    - §1 Arrays are exotic objects: 1.1 What arrays really are; 1.2 Creating arrays.
+    - §2 Holes sparsity and length: 2.1 Holes vs undefined; 2.2 Length invariants and index contract.
+    - §3 Mutation and its copy-era alternative: 3.1 Core mutating methods; 3.2 Non-mutating copy-era (ES2023).
+    - §4 Searching slicing joining: 4.1 Searching and testing; 4.2 Slicing concatenating joining.
+    - §5 Transforming and ordering: 5.1 Mapping filtering flat flatMap; 5.2 Reducing and sorting.
+    - §6 Typed arrays preview: 6.1 ArrayBuffer TypedArray DataView.
+    - §7 Important points: 7.1 Checklist.
+    - §8 Pitfalls: 8.1 Production bugs.
+    - §9 Interview QA: 9.1 Common interview QA.
+    - §10 Overlaps: 10.1 Boundaries.
+  - Add row 8 to track `README.md`; verify all links (angle-bracket, spaces) + run every js fence with `node`; fix cross-section ./ → ../Section/ link class; DRY: iterator protocol →10, collections →09, numbers →12, async →13, objects prototype →06/07, coercion →03.
+  - Research notes: ECMA-262 (Array exotic §§10.4.2, Array.prototype methods §§23.1, TypedArray §§23.2, ArrayBuffer §§25.1), MDN (Array, Array.from/of, holes, length, sort stability, TypedArray). Version labels "ECMAScript 2026 era"; copy-era methods ES2023 (toReversed/toSorted/toSpliced/with — Node 20+), findLast ES2023, toSorted stable since ES2019, Array.from ES2015, TypedArray ES2015.
+- Done:
+  - Created `08 Arrays/README.md` (domain index, Template B; sections 0–9, 15 leaf promises; prerequisites linking 06/03/02/07).
+  - Updated track `README.md`: added row 8 (Arrays) to the module table.
+  - Created leaf `sections/1. Arrays are exotic objects/1.1. What arrays really are the indexed exotic length and Array.isArray.md` (verified: exotic index vs ordinary key, length grow/truncate/non-writable blocks push, Array.isArray cross-realm via vm).
+  - Created leaf `sections/1. Arrays are exotic objects/1.2. Creating arrays literals the Array constructor trap Array.of and Array.from.md` (verified: new Array(3) holes vs Array.of(3) element, Array.from densifies holes, array-like vs iterable).
+  - Created leaf `sections/2. Holes sparsity and length/2.1. Holes vs undefined sparse arrays and empty slots.md` (verified: hasOwn vs in for holes, delete creates hole, map/forEach skip holes, spread vs slice densify vs preserve).
+  - Created leaf `sections/2. Holes sparsity and length/2.2. Length invariants and the array index contract.md` (verified: "01"/"4294967295" are non-indices, length grow/truncate/non-writable TypeError, non-index props survive truncation).
+  - Created leaf `sections/3. Mutation and its copy-era alternative/3.1. Core mutating methods push pop shift unshift splice fill and copyWithin.md` (verified: push/pop vs shift/unshift O(n), splice forward-iteration skip bug, fill([]) alias, copyWithin memmove traces).
+  - Created leaf `sections/3. Mutation and its copy-era alternative/3.2. Non-mutating copies toReversed toSorted toSpliced and with ES2023.md` (verified: toSorted/toReversed/toSpliced/with copy semantics but densify holes — corrected slice preserves vs copy-era densifies; RangeError on out-of-bounds with).
+  - Created leaf `sections/4. Searching slicing and joining/4.1. Searching and testing indexOf lastIndexOf includes find findLast every some.md` (verified: indexOf/lastIndexOf skip holes and miss NaN; includes/find/findLast visit holes as undefined and find NaN; every/some skip holes — corrected earlier skip table).
+  - Created leaf `sections/4. Searching slicing and joining/4.2. Slicing concatenating and joining slice concat join at with.md` (verified: slice/concat preserve holes vs spread/toReversed densify; isConcatSpreadable; join hole→""; at vs with RangeError).
+  - Created leaf `sections/5. Transforming ordering and typed preview/5.1. Mapping filtering flat and flatMap pipelines.md` (verified: map preserves holes vs Array.from densifies; filter/flat dense output; parseInt radix trap).
+  - Created leaf `sections/5. Transforming ordering and typed preview/5.2. Reducing and sorting reduce reduceRight sort stability and compareFn.md` (verified: reduce empty throw and hole skip; sort lexical default vs numeric compareFn; stability ES2019; hole sort placement).
+  - Created leaf `sections/5. Transforming ordering and typed preview/5.3. ArrayBuffer TypedArray and DataView how they differ from Array.md` (verified: Fixed dense no holes, wrapped vs clamped, set/subarray share buffer, Array.isArray false).
+  - Fixed hole-trait table in 2.1 and domain README 5.1 after verification (map preserves holes, find/includes densify, toReversed densifies — not preserves).
+  - Created leaf `sections/6. Important points to remember/6.1. Array checklist reflex rules mentors screen for.md` (verified: hole vs undefined vs length checks, grep list).
+  - Created leaf `sections/7. Common pitfalls to production bugs/7.1. Real production bugs caused by array mistakes.md` (verified: sparse pagination holes, lexical sort, Redux mutation, splice-loop skip, fill alias).
+  - Created leaf `sections/8. Interview questions and answers/8.1. Common interview QA arrays holes sorting and typed arrays.md` (12 Q&As verified cross-realm, hole vs includes, sort, TypedArray).
+  - Created leaf `sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (6 boundaries, stop-list).
+- Decisions:
+  - Consolidated typed-arrays preview from planned §6 into §5.3 (now 9 sections total, not 10) to preserve on-disk lexical order (`10.` would sort before `2.` string-wise); topical leaves 11 + 4 meta = 15 leaves — matches neighboring domain density.
+  - Corrected hole semantics after verification: `map` preserves holes (not densifies), `find`/`includes`/`toReversed`/`toSorted`/`toSpliced` densify holes to `undefined`, `slice`/`concat`/`map` preserve holes — updated domain README 5.1 bullet and 2.1 table; corrected leaf 3.2 hole example and leaf 4.1 `includes` vs `indexOf` hole claims (verified via node: `[1,,3].includes(undefined)` true, `indexOf` -1, `find` visits holes).
+  - Fixed leaf 1.1/2.2 non-writable length `defineProperty` restore (configurable false → throws TypeError — changed to try/catch with copy workaround) and leaf 1.1 `document?.all` → `globalThis.document?.all` for Node safety; fixed leaf 8.1 duplicate `const a` across Q fences (renamed Q7 to `a7`).
+- Files touched:
+  - Created: `08 Arrays/README.md` + 15 leaves (`1.1`, `1.2`, `2.1`, `2.2`, `3.1`, `3.2`, `4.1`, `4.2`, `5.1`, `5.2`, `5.3`, `6.1`, `7.1`, `8.1`, `9.1`) across 9 section folders.
+  - Modified: track `README.md` (row 8); this `LOG.md` (opened Session 9 IN PROGRESS + incremental Done updates); leaf `1.1` (globalThis fix + length restore), leaf `2.2` (length restore), leaf `8.1` (dedup), leaf `2.1`/`3.2`/`4.1` (hole tables).
+- Links fixed / added:
+  - Track row 8 link verified resolves; domain index prerequisites cross-links to 06/03/02/07 verified.
+  - Fixed 73 %20-encoded cross-section/ cross-domain links in 08 Arrays leaves to literal-space angle-bracket form (`%20` → ` `) — same failure class Sessions 3/6; final state 0 broken.
+  - Cross-section links `../Section/M.k.` form verified 0 broken; full JS track link checker: 738 relative links across ~121 files, 0 broken.
+- Verification:
+  - Per-leaf fence sweep: 14 js-bearing leaves concatenated per file — 14/14 exit 0 after fixes (8.1/9.1? 9.1 has no fence excluded → actually 13 + README? 14 including README? domain leaves 15 include 9.1 no fence → 14/14). Full-domain combined skipped due to duplicate consts across leaves (expected — per-file contract). Key corrections: non-writable length defineProperty now try/catch, document optional chaining fixed, interview QA duplicate const renamed.
+  - Manual spot checks: `new Array(3)` holes vs `Array.of(3)` element; `Array.from` densifies holes; `slice` preserves holes vs `toReversed` densifies; `includes` hole true vs `indexOf` -1; `find` visits holes (3 calls for `[1,,3]`); `map` preserves holes (2 calls); `copyWithin` memmove traces; `sort` lexical vs numeric; TypedArray wrap vs clamp.
+  - Link checker over whole JS track: 121 files (incl. 08), 738 relative links, 0 broken.
+  - DoD §4 walked: version claims labeled (ES2023 copy-era, ES2022 at, ES2019 sort stable, ES2015 Array.from/of/TypedArray — "ECMAScript 2026 era"), junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown with correct imports (all fences node-run exit 0 after fixes), zero duplication via grep (Arrays exotic vs Objects/Values), formatting (bold lead labels, angle-bracket links, `---` separators) matches 07, filenames punctuation-clean, heading prefixes 15/15 match filenames, index promises 15/15 ↔ leaf delivery 1:1, track README row 8 resolves.
+- Next steps:
+  1. Session 10: implement Domain 09 "Collections Map Set and Weak References" (suggest sections: Map/Set/WeakMap/WeakSet, GC reachability, iteration) then row 9; convert any 08 textual forwards (Map→09) into live links.
+  2. Continue through planned curriculum (10–20), then build Update ECMAScript index modules 21–24.
+  3. When domains 10–18 land, convert remaining textual forwards in 08 (iterables→10, async→13, modules→14, JSON→16, memory→18) into live links.
