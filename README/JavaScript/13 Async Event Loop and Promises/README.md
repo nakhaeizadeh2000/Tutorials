@@ -130,8 +130,8 @@ The single-threaded loop that makes asynchronous JavaScript work — the call st
 ### [9.1. Boundaries what is covered elsewhere](<./sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md>)
 
 1. **Generators and async generators / async iteration — [Iterables Generators and Async Iteration](<../10 Iterables Generators and Async Iteration/README.md>).**
-2. **Error classes, `try/catch/finally`, and debugging async stacks — Error Handling and Debugging domain (when it lands).**
-3. **Modules, `import`/`export`, top-level `await` bundling, and `using`/`Symbol.dispose` — Modules and Code Organization / Memory Management domains.**
+2. **Error classes, `try/catch/finally`, and debugging async stacks — [Error Handling and Debugging](<../15 Error Handling and Debugging/README.md>).**
+3. **Modules, `import`/`export`, top-level `await` bundling, and `using`/`Symbol.dispose` — [Modules and Code Organization](<../14 Modules and Code Organization/README.md>).**
 
 ---
 
