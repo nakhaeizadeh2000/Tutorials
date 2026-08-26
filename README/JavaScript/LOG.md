@@ -273,3 +273,47 @@
   1. Session 7: implement Domain 07 "Prototypes and Classes" (suggest sections: prototype chain deep, constructor/factory, class syntax, instanceof, private fields) then row 7; convert domain 06 textual forwards (class inheritance →07) into live links.
   2. Continue through planned curriculum (08–20), then build Update ECMAScript index modules 21–24.
   3. When domains 09/10/13/14/16/18 land convert remaining textual forwards in 06 (Map→09, iterables→10, async→13, modules→14, JSON→16, WeakRef→18) into live links.
+
+## [2026-08-26 08:35] Session 7 — Domain 07 "Prototypes and Classes" (Mode 2)
+- Status: DONE
+- Context read: root `README.md`; `PROMPT.md`; track `README.md`; full `LOG.md` (Sessions 1–6); domain 06 `README.md` + leaves `1.2` (creation patterns), `3.1` (prototype linkage intro), `2.1` (descriptors), `4.2` (hasOwn/in), `5.1` (seal/freeze); domain 05 leaves `1.3` (methods/super), `3.1` (this binding), `4.1` (first-class); domain 04 leaves `2.1` (scope chain), `3.1` (closures); domain 03 leaf `1.1` (object type). Grep for `prototype|class|extends|super|instanceof|#.*private` across JS track — prior domains keep only practical mentions (06 §1.2 factory vs constructor, §3.1 [[Prototype]] intro, 05 §1.3 accessor/super shape, 02 §3.5 instanceof/in) and textual forwards to 07; this domain owns constructors, new, prototype chain depth, class/extends/super, private fields, static blocks, mixins, instanceof branding.
+- Plan:
+  - Create `07 Prototypes and Classes/` with domain index (Template B) + 14 leaves across sections:
+    - §1 Prototype delegation: 1.1 Delegation mechanics lookup shadowing and dynamic updates; 1.2 Prototype creation mutation and performance costs.
+    - §2 Constructors and new: 2.1 The new operator prototype property new.target and return override; 2.2 Constructor discipline vs factory trade offs.
+    - §3 Class syntax: 3.1 Class basics declarations hoisting methods accessors and fields; 3.2 extends and super chain wiring and obligations; 3.3 Private fields and methods brand checks and encapsulation; 3.4 Static members static blocks and class field order.
+    - §4 Composition: 4.1 Mixins and composition patterns.
+    - §5 Type checks: 5.1 instanceof isPrototypeOf Symbol.hasInstance and cross-realm failures.
+    - §6 Important points to remember: 6.1 Prototype and class checklist reflex rules mentors screen for.
+    - §7 Common pitfalls to production bugs: 7.1 Real production bugs caused by prototype and class mistakes.
+    - §8 Interview questions and answers: 8.1 Common interview QA prototypes classes and inheritance.
+    - §9 Overlaps to avoid: 9.1 Boundaries what is covered elsewhere.
+  - Add row 7 to track `README.md`; convert domain 06 textual forward (→ 9.1 item 1 link to 07) and any other prototype/class forwards into live links; verify all links (angle-bracket, spaces) + run every js fence with `~/.nvm/versions/node/v22.23.2/bin/node` (or node); fix cross-section ./ → ../Section/ class; DRY: Object descriptor basics →06, this binding →05, scope/closure →04, collections/WeakRef →09/18, iterables/generators →10, JSON/modules →16/14.
+- Research notes: ECMA-262 (OrdinaryObject §§9.1–10.2, ClassDefinition, SuperCall, PrivateField brand check, GetPrototypeFromConstructor, OrdinaryCreateFromConstructor), MDN (Inheritance and prototype chain, Classes, Private class features, instanceof, new.operator, new.target). Version labels "ES2026 era"; class/private semantics stable since ES2022 (private) / ES2015 (class); static blocks ES2022.
+- Done:
+  - Created `07 Prototypes and Classes/README.md` (domain index, Template B; sections 0–9, 14 leaf promises; prerequisites linking 06/05/04).
+  - Updated track `README.md`: added row 7 (Prototypes and Classes).
+  - Created leaf `sections/1. Prototype delegation/1.1. Delegation mechanics lookup shadowing and dynamic updates.md` (verified: live delegation, shadowing creates own vs setter call, sharing vs copy, for-in vs keys).
+  - Created leaf `sections/1. Prototype delegation/1.2. Creation mutation and performance costs.md` (verified: literal __proto__ vs computed, Object.create null-proto, hidden-class deopt on setPrototypeOf).
+  - Created leaf `sections/2. Constructors and new/2.1. The new operator prototype property new.target and return override.md` (verified: new 4 steps + prototype vs getPrototypeOf + return override + new.target abstract guard).
+  - Created leaf `sections/2. Constructors and new/2.2. Constructor discipline vs factory trade offs.md` (verified: shared prototype vs closure privacy, instanceof, live prototype patch, forgotten new guard).
+  - Created leaf `sections/3. Class syntax/3.1. Class basics declarations hoisting methods accessors and fields.md` (verified: class vs function sugar + non-enumerable + TDZ, instance fields vs prototype methods, hoisting ReferenceError).
+  - Created leaf `sections/3. Class syntax/3.2. Extends and super chain wiring and obligations.md` (verified: extends wires instance+static chains, super() before this ReferenceError, super.prop via HomeObject).
+  - Created leaf `sections/3. Class syntax/3.3. Private fields and methods brand checks and encapsulation.md` (verified: #field per-instance non-enumerable, brand check via #field in obj, subclass distinct slots, detached method brand TypeError).
+  - Created leaf `sections/3. Class syntax/3.4. Static members static blocks and class field order.md` (verified: static on constructor vs prototype, static private brand mismatch on Child, static {} once, field order trace a→b→c→constructor and Base→Derived).
+  - Created leaf `sections/4. Composition and mixins/4.1. Mixins and composition patterns.md` (verified: factory-mixin compose M2(M1(Base)), descriptor copy preserves accessor vs assign flatten, has-a vs is-a).
+  - Created leaf `sections/5. Type checks and reflection/5.1. instanceof isPrototypeOf Symbol.hasInstance and cross-realm failures.md` (verified: instanceof walks current prototype (C.prototype reassign break), Array.isArray realm-safe, Symbol.hasInstance custom, #field in brand).
+  - Created leaf `sections/6. Important points to remember/6.1. Prototype and class checklist reflex rules mentors screen for.md` (verified: [[Prototype]] vs .prototype table, super/new obligations, grep list).
+  - Created leaf `sections/7. Common pitfalls to production bugs/7.1. Real production bugs caused by prototype and class mistakes.md` (verified: forgotten new/super ReferenceError, shared mutable prototype leakage, detached private brand TypeError, assign flatten/ for-in pollute).
+  - Created leaf `sections/8. Interview questions and answers/8.1. Common interview QA prototypes classes and inheritance.md` (12 Q&As with mechanism answers).
+  - Created leaf `sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (6 boundaries, stop-list).
+- Decisions: 9-section split (4 topical + 5 meta) keeps prototype depth in 1–2, class sugar in 3, composition in 4, reflection in 5; DRY boundaries mirror LOG plan (descriptors →06, this →05, scope →04); leaf 3.3 fixed stray #value literal SyntaxError outside class → comment; leaf 3.4 wrapped Child.next outside-try call → try; leaf 5.1 changed C.prototype demo to function constructor (class prototype is read-only) + commented ESM import to keep fences CJS-runnable.
+- Files touched:
+  - Created: `07 Prototypes and Classes/README.md` + 14 leaves (`1.1`, `1.2`, `2.1`, `2.2`, `3.1`, `3.2`, `3.3`, `3.4`, `4.1`, `5.1`, `6.1`, `7.1`, `8.1`, `9.1`) across 9 section folders.
+  - Modified: track `README.md` (row 7); `06 Objects in Depth/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (converted textual forward → live link to 07).
+- Links fixed / added: track row 7 link verified resolves; domain index prerequisites cross-links to 06/05/04 verified; cross-section links ../Section/ form verified 0 broken; domain 06 forward reference → 07 now live (9.1 link).
+- Verification: link checker over entire JS track: 106 files (incl. 07), 633 relative links, 0 broken; per-file fence sweep for domain 07: 12 js-bearing leaves concatenated per file — 12/12 exit 0 (8.1/9.1 have no fence, excluded); full-domain combined skipped due to duplicate consts across leaves (expected — per-file contract); DoD §4 walked: version claims labeled (ES2022 private/static blocks, ES2015 class, ES2022 hasOwn — "ES2026 era"), junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown with correct imports (all fences node-run exit 0 after fixes: leaf 3.3 SyntaxError→comment + leaf 3.4 Child.next outside try→wrapped + leaf 5.1 class prototype read-only + ESM import→comment), zero duplication via grep (prototype vs Objects 06 / Functions 05 / Variables 04), formatting (bold lead labels, angle-bracket links, --- separators) matches 06, filenames punctuation-clean, heading prefixes 14/14 match filenames, index promises 14/14 ↔ leaf delivery 1:1, track README row 7 resolves.
+- Next steps:
+  1. Session 8: implement Domain 08 "Arrays" (suggest sections: creation, holes, methods mutating vs non-mutating, sorting, searching, typed arrays intro) then row 8; convert any domain 07 textual forwards that become live.
+  2. Continue through planned curriculum (09–20), then build Update ECMAScript index modules 21–24.
+  3. When domains 09/10/13/14/16/18 land convert remaining textual forwards in 07 (Map→09, iterables→10, async→13, modules→14, JSON→16, WeakRef→18) into live links.

@@ -10,6 +10,7 @@ Vanilla JavaScript — the language itself and its standard library — from zer
 | 4 | [Variables, Scope, and Closures](<04 Variables Scope and Closures/README.md>) |
 | 5 | [Functions Deep Dive](<05 Functions Deep Dive/README.md>) |
 | 6 | [Objects in Depth](<06 Objects in Depth/README.md>) |
+| 7 | [Prototypes and Classes](<07 Prototypes and Classes/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update ECMAScript <year>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
