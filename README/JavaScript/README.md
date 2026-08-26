@@ -16,6 +16,7 @@ Vanilla JavaScript — the language itself and its standard library — from zer
 | 10 | [Iterables Generators and Async Iteration](<10 Iterables Generators and Async Iteration/README.md>) |
 | 11 | [Strings and Regular Expressions](<11 Strings and Regular Expressions/README.md>) |
 | 12 | [Numbers Dates Math and Temporal](<12 Numbers Dates Math and Temporal/README.md>) |
+| 13 | [Async Event Loop and Promises](<13 Async Event Loop and Promises/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update ECMAScript <year>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
