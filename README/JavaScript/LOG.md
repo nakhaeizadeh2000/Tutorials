@@ -446,3 +446,53 @@
   1. Session 11: implement Domain 10 "Iterables Generators and Async Iteration" then row 10; convert 09 textual forwards (iterables→10) into live links.
   2. Continue through planned curriculum (11–20), then build Update ECMAScript index modules 21–24.
   3. When domains 11/12/16/18 land, convert remaining textual forwards in 09 (strings→11, numbers→12, JSON→16, memory→18) into live links.
+
+## [2026-08-26 11:30] Session 11 — Domain 10 "Iterables Generators and Async Iteration" (Mode 2)
+- Status: DONE
+- Context read: root `README.md`; `PROMPT.md`; track `README.md`; full `LOG.md` (Sessions 1–10); domain 08 `README.md` + leaves `1.1` (exotic), `1.2` (Array.from), `2.1` (holes), `4.1`/`4.2`, `5.1`/`5.2`, `5.3` (TypedArray); domain 09 `README.md` + leaves `1.1` (Map SameValueZero iteration), `2.1` (Set), `3.1`/`3.2` (Weak), `4.1`/`4.2` (WeakRef/FinalizationRegistry); domain 06 `README.md` + leaves `1.2` (creation), `2.3` (enumeration order), `4.2` (keys/values), `5.1` (freeze); domain 07 `README.md` + leaves `3.1` (class basics); domain 05 leaves `1.1`/`1.2` (function forms/arrow), `4.1` (first-class/HOF), `4.3` (recursion); domain 04 leaves `3.1`–`3.4` (closures/GC); domain 02 leaves `2.3` (for-of vs for-in), `3.5` (spread/rest), domain 03 leaves `1.1` (types). Grep for `iterab|generator|yield|Symbol\.iterator|async.*iter` across JS track — prior domains keep only practical mentions (08 Array.from/for-of/spread, 09 Map/Set iteration order, 02 for-of vs for-in, 06 enumeration order) and textual forwards to 10; this domain owns iterable/iterator protocols, Symbol.iterator/asyncIterator, generators (function*/yield/yield*), generator communication, async iteration/generators.
+- Plan:
+  - Create `10 Iterables Generators and Async Iteration/` with domain index (Template B) + 14 leaves across sections:
+    - §1 Iterable and iterator protocols: 1.1 Iterable vs iterator vs array-like and Symbol.iterator; 1.2 The iterator protocol next done value return throw and closing.
+    - §2 Consumption: 2.1 for-of mechanics iteration closing and break throw; 2.2 Spread Array.from destructuring and interop with Map Set generators strings.
+    - §3 Generators: 3.1 Generator functions yield suspension and the Generator object; 3.2 yield* delegation and composition; 3.3 Communicating with generators next throw return; 3.4 Custom iterables infinite sequences and early termination.
+    - §4 Async iteration: 4.1 Async iterables Symbol.asyncIterator and for await...of; 4.2 Async generators async yield and composition.
+    - §5 Important points: 5.1 Iteration checklist reflex rules mentors screen for.
+    - §6 Pitfalls: 6.1 Real production bugs caused by iteration mistakes.
+    - §7 Interview QA: 7.1 Common interview QA iterables generators.
+    - §8 Overlaps: 8.1 Boundaries what is covered elsewhere.
+  - Add row 10 to track `README.md`; verify all links (angle-bracket, spaces) + run every js fence with `~/.nvm/versions/node/v22.23.2/bin/node` (or node v22+ / 24 LTS); fix cross-section ./ → ../Section/ link class; DRY: Map/Set ordering →09, Array holes/length →08, function forms/this →05, closure/GC →04, enumeration order →06, class →07.
+- Research notes: ECMA-262 (Iteration §§7.4, GetIterator, IteratorClose, GeneratorFunction §§27.5, AsyncGenerator §§27.6, for-of/for await-of semantics), MDN (Iteration protocols, Generator, yield, yield*, for...of, for await...of, Symbol.iterator/asyncIterator). Version labels "ECMAScript 2026 era" — iterables/generators stable ES2015, async iteration/generators ES2018 (Node 10+), `Iterator` helpers ES2025 (iterator.map/filter) as forward note.
+- Done:
+  - Created `10 Iterables Generators and Async Iteration/README.md` (domain index, Template B; sections 0–8, 14 leaf promises; prerequisites linking 08/09/06/05/02).
+  - Updated track `README.md`: added row 10 (Iterables Generators and Async Iteration) to the module table.
+  - Created leaf `sections/1. Iterable and iterator protocols/1.1. Iterable vs iterator vs array-like and Symbol.iterator.md` (verified: iterable detection, array-like vs iterable, iterator self-iterable, fresh factory).
+  - Created leaf `sections/1. Iterable and iterator protocols/1.2. The iterator protocol next done value return throw and closing.md` (verified: next/return/throw contracts, done value discard, IteratorClose via break/throw/destructure — fixed destruct close expectation).
+  - Created leaf `sections/2. Consumption for-of spread and interop/2.1. for-of mechanics iteration closing and break throw.md` (verified: for-of desugar, closing on break/throw/return, vs for-in vs forEach).
+  - Created leaf `sections/2. Consumption for-of spread and interop/2.2. Spread Array.from destructuring and interop with Map Set generators strings.md` (verified: spread vs Array.from on iterables/array-like, destructuring close, string code points).
+  - Created leaf `sections/3. Generators/3.1. Generator functions yield suspension and the Generator object.md` (verified: function* creates Generator, lazy suspension, next/return/throw, first next arg ignored).
+  - Created leaf `sections/3. Generators/3.2. yield delegation and composition.md` (verified: yield* delegation, composition, closing propagation).
+  - Created leaf `sections/3. Generators/3.3. Communicating with generators next throw return.md` (verified: next(arg) sends, throw injection, return cleanup).
+  - Created leaf `sections/3. Generators/3.4. Custom iterables infinite sequences and early termination.md` (verified: Symbol.iterator factory, infinite lazy via take, try/finally resource cleanup).
+  - Created leaf `sections/4. Async iteration/4.1. Async iterables Symbol.asyncIterator and for await...of.md` (verified: Symbol.asyncIterator, for await on sync/async, closing — fixed dual async increment bug and top-level await wraps).
+  - Created leaf `sections/4. Async iteration/4.2. Async generators async yield and composition.md` (verified: async function* semantics, yield* async/sync delegation, queue/stream patterns).
+  - Created leaf `sections/5. Important points to remember/5.1. Iteration checklist reflex rules mentors screen for.md` (verified: three-question classification, done value, grep list).
+  - Created leaf `sections/6. Common pitfalls to production bugs/6.1. Real production bugs caused by iteration mistakes.md` (verified: spread null, infinite hang, for-in vs spread split, async close).
+  - Created leaf `sections/7. Interview questions and answers/7.1. Common interview QA iterables generators and async iteration.md` (verified: 12 Q&As, fixed duplicate g vs gGrade).
+  - Created leaf `sections/8. Overlaps to avoid/8.1. Boundaries what is covered elsewhere.md` (6 boundaries, stop-list).
+  - Converted forward refs to live links: `06 Objects in Depth/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (iterables → 10, 2 links), `08 Arrays/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (iterables → 10), `09 Collections Map Set and Weak References/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (iterables → 10, fixed %20 links).
+  - Fixed %20-encoded cross-section links via unquote pass (19 files — LOG reverted to preserve history `%20` tokens, then re-applied only to content files).
+- Decisions:
+  - Consolidated async section as §4 with 2 leaves (sync vs async) to keep total 8 sections, 14 leaves, on-disk lexical order preserved (no `10.` prefix); density matches neighbors 07–09.
+  - Leaf 1.2 destructuring `const [first]=iter` closes via `return()` — verified via node (closed true) and corrected earlier draft (had false).
+  - Leaves 4.1/4.2 top-level `await` and `for await` at module top level wrapped in `(async ()=>{...})()` to keep fences CJS-runnable (previous draft used bare top-level await — not runnable in .js CJS files; tested combined fence now exit 0).
+  - Leaf 4.1 dual async iterator missing `i++` caused infinite loop (verified hang) — fixed to `100 + i++`.
+  - Leaf 7.1 duplicate `function* g` across fences (combined file SyntaxError) — renamed grading example to `gGrade`.
+  - DRY: Array holes/length arrays →08, collection ordering →09, object enumeration →06, function forms →05, closure →04 all kept textual; this domain owns only protocol/generator/async iteration.
+  - Host-context honesty: `for await` on sync iterable works (wraps sync `next()` via Promise.resolve) — documented, but `for-of` on async iterable throws TypeError (correctly flagged).
+- Files touched:
+  - Created: `10 Iterables Generators and Async Iteration/README.md` + 14 leaves (`1.1`, `1.2`, `2.1`, `2.2`, `3.1`, `3.2`, `3.3`, `3.4`, `4.1`, `4.2`, `5.1`, `6.1`, `7.1`, `8.1`) across 8 section folders.
+  - Modified: track `README.md` (row 10); `06 Objects in Depth/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (2 links); `08 Arrays/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (1 link + %20 fix); `09 Collections Map Set and Weak References/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (2 links + %20 fix); plus %20 fixes in 07 leaves (16 files) re-applied; `10` leaves `4.2` (3 links), `6.1` (1 link), `7.1` (5 links) (cross-section `../` fixes).
+- Links fixed / added: track row 10 resolves; domain index prerequisites to 08/09/06/05/02 verified; converted 3 forward refs to live links (06×2, 08×1, 09×2); fixed 9 broken cross-section links in domain 10 (4.2×3, 6.1×1, 7.1×5) via `../Section/` correction — full JS track 978 links 0 broken, 0 %20 inside links.
+- Verification: per-file fence sweep for domain 10: 13 js-bearing leaves concatenated per file — 13/13 exit 0 on ~/.nvm/versions/node/v22.23.2/bin/node (8.1 has no fence, excluded); full track link checker 978 links 0 broken, 0 %20 (LOG history `%20` tokens preserved); heading prefixes 14/14 match filenames; index promises 14/14 ↔ leaf delivery 1:1; filenames punctuation-clean; manual spot checks: iterable vs array-like spread/arrayFrom, string code points vs split, done value hide, for-of break close, yield* delegation, async for await on sync, dual async hang fixed; DoD §4 walked — version claims labeled (ES2015 iterables/generators, ES2018 async iteration/generators — "ECMAScript 2026 era"), junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown with correct imports (all fences node-run exit 0 after fixes: leaf 1.2 destruct close, 4.1 hang, 7.1 duplicate, 4.2/6.1/7.1 cross-links), zero duplication via grep (iteration vs Arrays/Collections/Objects/Functions), formatting (bold lead labels, angle-bracket links, `---` separators) matches 09, track README row 10 resolves.
+- Next steps: none — domain 10 DONE.
+

@@ -13,6 +13,7 @@ Vanilla JavaScript — the language itself and its standard library — from zer
 | 7 | [Prototypes and Classes](<07 Prototypes and Classes/README.md>) |
 | 8 | [Arrays](<08 Arrays/README.md>) |
 | 9 | [Collections Map Set and Weak References](<09 Collections Map Set and Weak References/README.md>) |
+| 10 | [Iterables Generators and Async Iteration](<10 Iterables Generators and Async Iteration/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update ECMAScript <year>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
