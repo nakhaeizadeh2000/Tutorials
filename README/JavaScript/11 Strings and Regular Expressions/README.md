@@ -123,7 +123,7 @@ Strings as immutable UTF-16 sequences — code units vs code points vs grapheme 
 ### [9.1. Boundaries what is covered elsewhere](<./sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md>)
 
 1. **Coercion and boxing — Values, Types, and Coercion; array exotic vs string iteration — Arrays / Iterables.**
-2. **Number formatting and `Intl.NumberFormat`/`Intl.DateTimeFormat`/`Temporal` — Numbers, Dates, Math, Temporal domain.**
+2. **Number formatting and `Intl.NumberFormat`/`Intl.DateTimeFormat`/`Temporal` — [Numbers, Dates, Math, Temporal](<../12 Numbers Dates Math and Temporal/README.md>).**
 3. **JSON stringification and `structuredClone` — JSON Serialization domain; `Structured` search via collections.**
 
 ---
