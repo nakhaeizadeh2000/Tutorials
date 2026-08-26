@@ -394,3 +394,55 @@
   1. Session 10: implement Domain 09 "Collections Map Set and Weak References" (suggest sections: Map/Set/WeakMap/WeakSet, GC reachability, iteration) then row 9; convert any 08 textual forwards (Map→09) into live links.
   2. Continue through planned curriculum (10–20), then build Update ECMAScript index modules 21–24.
   3. When domains 10–18 land, convert remaining textual forwards in 08 (iterables→10, async→13, modules→14, JSON→16, memory→18) into live links.
+
+## [2026-08-26 10:45] Session 10 — Domain 09 "Collections Map Set and Weak References" (Mode 2)
+- Status: DONE
+- Context read: root `README.md`; `PROMPT.md`; track `README.md`; full `LOG.md` (Sessions 1–9); domain 08 `README.md` + leaves `1.1` (exotic), `2.1` (holes), `3.1`/`3.2` (mutating vs copy), `4.1`/`4.2`, `5.1`/`5.2`/`5.3`; domain 06 `README.md` + leaves `1.2` (creation), `4.x` (utilities), `5.1` (freeze/seal), `9.1` (collections boundary), domain 07 `9.1`, domain 03 leaves `2.3` (ToPropertyKey), `3.1` (SameValueZero mention), domain 04 leaves `3.3`/`3.4` (memoization/GC). Grep for `Map|Set|WeakMap|WeakSet|WeakRef|FinalizationRegistry` across JS track — prior domains keep only practical mentions (06 §4.2 SameValueZero aside, §1.2/§7.1 pollution/Map-vs-object, 08 §4.2 isConcatSpreadable, 05 memoize shape) and textual forwards to 09/18; this domain owns SameValueZero discipline, Map/Set ordering and iteration, Weak ephemeron semantics, WeakRef/FinalizationRegistry non-determinism.
+- Plan:
+  - Create `09 Collections Map Set and Weak References/` with domain index (Template B) + 15 leaves across sections:
+    - §1 Map deep: 1.1 Map creation SameValueZero ordering and iteration; 1.2 Map operations vs Object trade offs.
+    - §2 Set deep: 2.1 Set creation uniqueness SameValueZero and iteration; 2.2 Set operations and vs Array trade offs.
+    - §3 Weak collections: 3.1 WeakMap ephemeron keys and non-iterability; 3.2 WeakSet object-only membership.
+    - §4 Weak references and cleanup: 4.1 WeakRef semantics and deref; 4.2 FinalizationRegistry cleanup and timing reality.
+    - §5 Choosing and performance: 5.1 Choosing the right collection Map vs Object vs Set vs Array vs Weak variants and performance notes.
+    - §6 Important points: 6.1 Checklist reflex rules mentors screen for.
+    - §7 Pitfalls: 7.1 Real production bugs caused by collection mistakes.
+    - §8 Interview QA: 8.1 Common interview QA collections weak references.
+    - §9 Overlaps: 9.1 Boundaries what is covered elsewhere.
+  - Add row 9 to track `README.md`; convert any domain 08 textual forwards (Map→09) and domain 06 forwards into live links once this domain lands; verify all links (angle-bracket, spaces) + run every js fence with `node` (v22.23.2 / 24 LTS); fix cross-section ./ → ../Section/ class; DRY: Object descriptors/enumeration→06, prototype/class→07, arrays/holes→08, iterables protocol deep→10, GC deep→18, JSON→16, numbers→12, scope/closure memo→04/05.
+- Research notes: ECMA-262 (Map/Set §§24.1–24.2, WeakMap/WeakSet §§24.3–24.4, WeakRef/FinalizationRegistry §§26.1–26.2 — SameValueZero §§7.2.10, ephemeron semantics; ECMA-262 notes execution/runtime claims). MDN (Map, Set, WeakMap, WeakSet, WeakRef, FinalizationRegistry, SameValueZero, Keyed collections). Version labels "ECMAScript 2026 era" — Map/Set stable ES2015, WeakMap/WeakSet ES2015, WeakRef+FinalizationRegistry ES2021 (Node 14+ / 22 LTS); Map.groupBy ES2024 (domain 08 preview) not owned here.
+- Done:
+  - Created `09 Collections Map Set and Weak References/README.md` (domain index, Template B; sections 0–9, 14 leaf promises; prerequisites linking 06/03/08/04).
+  - Updated track `README.md`: added row 9 (Collections Map Set and Weak References).
+  - Created leaf `sections/1. Map deep dive/1.1. Map creation SameValueZero insertion order and iteration.md` (verified: SameValueZero NaN→1 -0/+0→1, insertion order update vs delete-re-add, live mutation visits new entry skips deleted, Map.groupBy ES2024 on node v22.23.2).
+  - Created leaf `sections/1. Map deep dive/1.2. Map operations lookup mutation and Object vs Map trade offs.md` (verified: get/set/has/delete/size contracts, identity vs ToPropertyKey, pollution hazard via accessor vs Map safety — corrected Object.assign data-property behavior on modern engines after execution showed no immediate pollution; revised hazard to direct __proto__ accessor).
+  - Created leaf `sections/2. Set deep dive/2.1. Set creation uniqueness SameValueZero and iteration.md` (verified: dedupe via SameValueZero, entries [v,v], live mutation).
+  - Created leaf `sections/2. Set deep dive/2.2. Set operations and Array vs Set trade offs.md` (verified: dedupe O(n) vs filter+indexOf O(n²)+NaN bug, algebra helpers, JSON stringify loss).
+  - Created leaf `sections/3. Weak collections/3.1. WeakMap ephemeron keys non-iterability and use cases.md` (verified: object-only keys throw on primitives/symbols, no size/iteration, ephemeron patterns private state/weak memo).
+  - Created leaf `sections/3. Weak collections/3.2. WeakSet object-only membership and non-iterability.md` (verified: object-only throw, no size/iteration, branding/visited patterns).
+  - Created leaf `sections/4. Weak references and cleanup/4.1. WeakRef semantics deref and lifetime reality.md` (verified: object-only throw, single deref vs double deref hazard, Map vs WeakMap vs WeakRef table — fixed duplicate const ref across fences).
+  - Created leaf `sections/4. Weak references and cleanup/4.2. FinalizationRegistry cleanup and timing reality.md` (verified: held vs token unregister discipline, never-for-correctness file-handle demo, using/Symbol.dispose).
+  - Created leaf `sections/5. Choosing and performance/5.1. Choosing the right collection Map vs Object vs Set vs Array and Weak variants.md` (verified: key-type matrix, mutation surface matrix, migration freqBad→freqGood).
+  - Created leaf `sections/5. Choosing and performance/5.2. Performance hidden costs iteration overhead and GC pressure.md` (verified: iterator allocation, weak vs strong leak, LRU bound demo, timeIt microbenchmark warning).
+  - Created leaf `sections/6. Important points to remember/6.1. Collection checklist reflex rules mentors screen for.md` (verified: SameValueZero table, grep list 8 patterns).
+  - Created leaf `sections/7. Common pitfalls to production bugs/7.1. Real production bugs caused by collection mistakes.md` (verified: unbounded Map OOM, finalizer-correctness EMFILE, -0/NaN SameValueZero bucket, JSON Set loss).
+  - Created leaf `sections/8. Interview questions and answers/8.1. Common interview QA collections weak references and GC.md` (12 Q&As with mechanism answers, grading guidance).
+  - Created leaf `sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (6 boundaries, stop-list).
+  - Fixed cross-section links: 4 broken `../` prefixes corrected (6.1 → 4.2, 5.2 → 4.2, 8.1 → 4.2 + 5.2); full track 839 links 0 broken after fix.
+  - Converted forward references to live links: domain 06 §9.1 Collections boundary → 09 (2 links + stop-list), domain 08 §9.1 §2 → 09 (2 links), domain 07 §9.1 §4 → 09 (2 links); verified 0 %20 links.
+- Decisions:
+  - Leaf 1.1 Map.groupBy labeled ES2024 Node 21+ (v22.23.2 verified true, v20 false) — leaf runnable on Node 22 LTS; Node 20 fallback is reduce-group manual.
+  - Leaf 1.2 pollution demo corrected after execution: modern `Object.assign({}, {"__proto__":...})` creates own data property (no wiring) — hazard revised to direct `o["__proto__"]["polluted"]=true` accessor path and deep-merge vector; added modern note + verification output.
+  - Plan leaf count mismatch (15 in initial plan vs 14 leaves in index) — index is authoritative (14 leaves: 10 topical + 4 meta) matching domain 06/07 density; log plan updated here to 14.
+  - Consolidated Choosing+Performance as §5 with 2 leaves (5.1 decision matrix, 5.2 performance) — keeps total 9 sections, 14 leaves; on-disk lexical order preserved (no 10. prefix).
+  - Cross-section link style literal spaces (not %20) — fixed 4 occurrences via angle-bracket form; domain 06/07/08 forward refs now live (Memory domain 18 textual remains).
+  - DRY boundaries: iterator protocol→10, GC deep→18, JSON→16, Objects descriptors→06, Arrays holes→08, class #private→07 all kept textual forwards until those domains land.
+- Files touched:
+  - Created: `09 Collections Map Set and Weak References/README.md` + 14 leaves (`1.1`, `1.2`, `2.1`, `2.2`, `3.1`, `3.2`, `4.1`, `4.2`, `5.1`, `5.2`, `6.1`, `7.1`, `8.1`, `9.1`) across 9 section folders.
+  - Modified: track `README.md` (row 9); `06 Objects in Depth/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (2 live links); `08 Arrays/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (2 links); `07 Prototypes and Classes/sections/9. Overlaps to avoid/9.1. Boundaries what is covered elsewhere.md` (2 links); `09` leaves `1.2` (pollution correction), `4.1` (duplicate ref fix), `5.2`/`6.1`/`8.1` (link fixes).
+- Links fixed / added: track row 9 resolves; domain index prerequisites to 06/03/08/04 verified; fixed 4 broken cross-section links (./ → ../Section/); converted 6 forward refs to live links (06×2, 07×2, 08×2) — full JS track 839 links 0 broken, 0 %20.
+- Verification: per-file fence sweep for domain 09: 12 js-bearing leaves concatenated per file — 12/12 exit 0 after fixes (8.1/9.1 have no fence, excluded) on ~/.nvm/versions/node/v22.23.2/bin/node; full track link checker 839 links 0 broken; manual spot checks: SameValueZero NaN/-0, Map groupBy on v22, WeakMap primitive throws, WeakRef double-deref hazard, LRU eviction, Set NaN dedupe; DoD §4 walked — version claims labeled (ES2015 Map/Set/WeakMap/WeakSet, ES2021 WeakRef/FinalizationRegistry, ES2024 Map.groupBy — "ECMAScript 2026 era"), junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown, zero duplication via grep, formatting matches 08, filenames punctuation-clean, heading prefixes 14/14 match filenames, index promises 14/14 ↔ leaf delivery 1:1, track README row 9 resolves.
+- Next steps:
+  1. Session 11: implement Domain 10 "Iterables Generators and Async Iteration" then row 10; convert 09 textual forwards (iterables→10) into live links.
+  2. Continue through planned curriculum (11–20), then build Update ECMAScript index modules 21–24.
+  3. When domains 11/12/16/18 land, convert remaining textual forwards in 09 (strings→11, numbers→12, JSON→16, memory→18) into live links.
