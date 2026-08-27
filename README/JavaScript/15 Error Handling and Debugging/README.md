@@ -135,7 +135,7 @@ How JavaScript signals failure — the builtin `Error` family and when engines t
 2. **Generators `yield throw`/`return`, async generators, and iteration closing — [Iterables Generators and Async Iteration](<../10 Iterables Generators and Async Iteration/README.md>).**
 3. **Scope/TDZ, closures, `this` parameter handling — [Variables Scope and Closures](<../04 Variables Scope and Closures/README.md>), [Functions Deep Dive](<../05 Functions Deep Dive/README.md>).**
 4. **Modules evaluation and circular `ReferenceError` — [Modules and Code Organization](<../14 Modules and Code Organization/README.md>).**
-5. **Testing assertions (`expect().toThrow`, `assert.throws`) and linting/tooling — Testing and Tooling domain (when it lands).**
+5. **Testing assertions (`expect().toThrow`, `assert.throws`) and linting/tooling — [Testing and Tooling Essentials](<../20 Testing and Tooling Essentials/README.md>).**
 
 ---
 
