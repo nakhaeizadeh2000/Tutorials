@@ -19,6 +19,7 @@ Vanilla JavaScript — the language itself and its standard library — from zer
 | 13 | [Async Event Loop and Promises](<13 Async Event Loop and Promises/README.md>) |
 | 14 | [Modules and Code Organization](<14 Modules and Code Organization/README.md>) |
 | 15 | [Error Handling and Debugging](<15 Error Handling and Debugging/README.md>) |
+| 16 | [JSON Serialization and Data Exchange](<16 JSON Serialization and Data Exchange/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update ECMAScript <year>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
