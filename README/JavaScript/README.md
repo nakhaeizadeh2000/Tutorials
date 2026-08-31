@@ -27,6 +27,7 @@ Vanilla JavaScript — the language itself and its standard library — from zer
 | 21 | [Update ECMAScript 2023 (index)](<21 Update ECMAScript 2023/README.md>) |
 | 22 | [Update ECMAScript 2024 (index)](<22 Update ECMAScript 2024/README.md>) |
 | 23 | [Update ECMAScript 2025 (index)](<23 Update ECMAScript 2025/README.md>) |
+| 24 | [Update ECMAScript 2026 (index)](<24 Update ECMAScript 2026/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update ECMAScript <year>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
