@@ -68,28 +68,38 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Literal vs wrapper** (enforce `string` not `String` via `no-wrapper-object-types`, use `as const` for literals)
-- **Exhaustiveness** (discriminant `kind` + `never` check — adding variant is compile error)
-- **Tuple readonly** (default to `readonly [A,B]` — prevents `push` length-violation)
+### [4.1. Literal Union and Tuple Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Literal Union and Tuple Checklist.md>)
+
+1. **Definition** (what senior must enforce — literals, unions, tuples)
+2. **Checklist** (PR gate: as const, discriminant, readonly)
+3. **Mentor** (how to teach widening)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (`const enum` without `isolatedModules`, `let x = "hi"` widening to `string`) — typo not caught
-- **Consequence** (runtime `undefined`/`never` from impossible intersection, floating `any` from `Object`)
+### [5.1. Wrapper and Widening Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Wrapper and Widening Pitfalls.md>)
+
+1. **Pitfall** (wrapper types and widening)
+2. **Consequence** (runtime wrong branch, any hiding)
+3. **Guard** (lint + as const)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: Union `A|B` vs intersection `A&B`?** A: union = or, intersection = and — Venn
-- **Q: Why does `ToArray<string|number>` become `string[]|number[]`?** A: distributive naked `T`
+### [6.1. Interview Questions Unions and Literals](<./sections/6. Interview Q and A/6.1. Interview Questions Unions and Literals.md>)
+
+1. **Q: Union A|B vs intersection A&B?** (or vs and)
+2. **Q: Why does ToArray distribute?** (naked T)
+3. **Q: When enum vs union literal?** (union preferred)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [03 Objects Interfaces and Type Aliases](<../03%20Objects%20Interfaces%20and%20Type%20Aliases/README.md>) covers object shapes and excess checks, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers advanced utilities — this domain is primitives/unions only.
+1. **Definition** (where this domain stops)
+2. **Comparison** (sibling domains)
+3. **Link** (how to use)
