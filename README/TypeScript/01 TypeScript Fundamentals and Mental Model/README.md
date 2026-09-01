@@ -60,30 +60,38 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Erasable mental model** (demo .ts→.js emit, require discriminant/Zod at every unknown boundary)
-- **Strict-first** (enable `strict` + `noUncheckedIndexedAccess` from day one, teach `unknown` vs `any`)
-- **Toolchain split** (tsx for run, `tsc --noEmit` for check — two processes, never conflate)
+### [4.1. Erasable Mental Model and Strict-First Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Erasable Mental Model and Strict-First Checklist.md>)
+
+1. **Definition** (what senior must enforce — erasure, strict, toolchain split)
+2. **Checklist** (PR gate: strict, no any/!/as, Zod at boundary)
+3. **Mentor** (how to teach erasure live)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (`as` at boundary lies, `any` everywhere hides bugs) — still compiles but crashes at `email.toLowerCase()`
-- **Consequence** (runtime TypeError despite zero type errors) — validate once at edge, trust inside
-- **Guard** (ban `any`/`!`/`as` at PR, require `Zod`/`isUser` guard)
+### [5.1. Boundary Assertion Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Boundary Assertion Pitfalls.md>)
+
+1. **Pitfall** (as at boundary lies, any hides bugs)
+2. **Consequence** (runtime TypeError despite zero type errors)
+3. **Guard** (ban any/!/as at PR, require Zod/isUser)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: Why does `typeof null === "object"` still affect TS?** A: JS runtime quirk preserved; TS types `object` correctly rejects `null` via `strictNullChecks`
-- **Q: Erasable types cost?** A: Zero runtime, checker cost only — measure `tsc --extendedDiagnostics`
-- **Q: When to use `any`?** A: Never in app code; `unknown` + narrow
+### [6.1. Interview Questions Erasure and Toolchain](<./sections/6. Interview Q and A/6.1. Interview Questions Erasure and Toolchain.md>)
+
+1. **Q: Why does typeof null affect TS?** (quirk preserved, strictNullChecks)
+2. **Q: Erasable types cost?** (zero runtime, checker only)
+3. **Q: When to use any?** (never in app, unknown + narrow)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links to sibling domains: [02 Primitive Literal and Union Types](<../02%20Primitive%20Literal%20and%20Union%20Types/README.md>) covers primitives/literals, [07 Modules Namespaces and Declaration Files](<../07%20Modules%20Namespaces%20and%20Declaration%20Files/README.md>) covers module resolution — not re-taught here.
+1. **Definition** (where this domain stops — erasure/toolchain only)
+2. **Comparison** (sibling domains for primitives, objects, modules, config)
+3. **Link** (how to use this domain in track order)
