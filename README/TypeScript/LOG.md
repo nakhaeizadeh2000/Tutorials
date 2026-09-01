@@ -96,4 +96,5 @@
   - Section 06/1 `1. Conditional and Infer` (2 leaves) — created `06/.../1. Conditional and Infer/1.1. Conditional Types and Distributivity.md`, `1.2. Infer and Pattern Matching.md`.
   - Section 06/2 `2. Mapped, Template Literal and Key Remapping` (3 leaves) — created `06/.../2. Mapped, Template Literal and Key Remapping/2.1. Mapped Types and Modifiers -readonly -..md`, `2.2. Template Literal Types and Intrinsic.md`, `2.3. Key Remapping via as and Filter.md`.
   - Section 06/3 `3. Utilities and Branding` (2 leaves) — created `06/.../3. Utilities and Branding/3.1. Utility Types Partial Required Pick Omit etc..md`, `3.2. Branded and Nominal Types.md`.
+  - Section 07/1 `1. Modules and Resolution` (2 leaves) — created `07/.../1. Modules and Resolution/1.1. ESM vs CommonJS and Module Resolution node16 bundler.md`, `1.2. Paths BaseUrl and Monorepo Aliases.md`.
 
