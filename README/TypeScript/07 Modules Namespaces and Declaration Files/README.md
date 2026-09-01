@@ -52,28 +52,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **`nodenext` vs `bundler`** (Node→`.js` in import, bundler lenient — standardize one pair per repo)
-- **`paths` mirror** (checker-only, bundler/Node must also resolve — `tsc-alias` or `imports`)
-- **`declare global` only in module** (add `export {}` else augmentation ignored)
+### [4.1. 4.1. Modules and Ambient Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Modules and Ambient Checklist.md>)
+
+1. **Definition** (nodenext vs bundler, paths mirror, declare global module-only)
+2. **Checklist** (PR gate: .js extension, paths mirror in bundler, export {})
+3. **Mentor** (standardize one pair per repo)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (ambient `declare module "foo" { any }` lies, `namespace` in app breaks `isolatedModules`)
-- **Consequence** (runtime `undefined` default import, global pollution)
+### [5.1. 5.1. Resolution and Pollution Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Resolution and Pollution Pitfalls.md>)
+
+1. **Pitfall** (ambient any d.ts lies, namespace in app)
+2. **Consequence** (undefined default, global pollution)
+3. **Guard** (skipLibCheck, no-namespace lint)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: `verbatimModuleSyntax`?** A: explicit `import type`, no elision surprise
-- **Q: When `namespace`?** A: legacy global lib d.ts only
+### [6.1. 6.1. Interview Modules and Ambient](<./sections/6. Interview Q and A/6.1. 6.1. Interview Modules and Ambient.md>)
+
+1. **Q: verbatimModuleSyntax?** (explicit import type)
+2. **Q: When namespace?** (legacy global d.ts only)
+3. **Q: esModuleInterop?** (helper for default)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [08 Configuration Strictness and Build Pipeline](<../08%20Configuration%20Strictness%20and%20Build%20Pipeline/README.md>) covers `tsconfig`/`composite`, [09 Tooling ESLint Biome and Type-Level Testing](<../09%20Tooling%20ESLint%20Biome%20and%20Type-Level%20Testing/README.md>) covers lint — modules only here.
+1. **Definition** (where stops — modules only, not tsconfig/build)
+2. **Comparison** (08 for tsconfig, 09 for lint)
+3. **Link** (how to use)
+
+---

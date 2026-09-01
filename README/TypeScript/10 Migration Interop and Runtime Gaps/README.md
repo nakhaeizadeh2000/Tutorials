@@ -52,28 +52,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **`allowJs`+`checkJs`+`// @ts-check`** (incremental JSDoc → rename file-by-file, no big-bang)
-- **`unknown` as safe `any`** (ban `any` via `no-explicit-any`, guard before use)
-- **Validator at every unknown boundary** (Zod/Valibot `parse` + `z.infer`, `esModuleInterop` for CJS)
+### [4.1. 4.1. Migration and Validation Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Migration and Validation Checklist.md>)
+
+1. **Definition** (allowJs→JSDoc→TS, unknown safe, validator at boundary)
+2. **Checklist** (PR gate: allowJs+checkJs, unknown+guard, Zod at fetch, esModuleInterop)
+3. **Mentor** (pick hottest module after outage)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (`JSON.parse(s) as User` lies, `const enum` breaks `isolatedModules`, `any[]` hides)
-- **Consequence** (runtime `undefined` field, deploy-time emit mismatch)
+### [5.1. 5.1. Any and Const Enum Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Any and Const Enum Pitfalls.md>)
+
+1. **Pitfall** (as User lies, const enum breaks isolated, any[] hides)
+2. **Consequence** (undefined field, deploy mismatch)
+3. **Guard** (validate once at edge, no-const-enum lint)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: `unknown` vs `any`?** A: `unknown` checked top, must narrow
-- **Q: How to bridge erasure?** A: codec — schema `parse` then `infer`
+### [6.1. 6.1. Interview Migration and Gaps](<./sections/6. Interview Q and A/6.1. 6.1. Interview Migration and Gaps.md>)
+
+1. **Q: unknown vs any?** (checked top)
+2. **Q: Bridge erasure?** (codec parse then infer)
+3. **Q: esModuleInterop helper?** (default wrapper)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [01 TypeScript Fundamentals and Mental Model](<../01%20TypeScript%20Fundamentals%20and%20Mental%20Model/README.md>) covers erasure, [08 Configuration Strictness and Build Pipeline](<../08%20Configuration%20Strictness%20and%20Build%20Pipeline/README.md>) covers `allowJs`/`target` — bridge only here.
+1. **Definition** (where stops — bridge only, not fundamentals/build)
+2. **Comparison** (01 for erasure, 08 for allowJs/target)
+3. **Link** (how to use)
+
+---

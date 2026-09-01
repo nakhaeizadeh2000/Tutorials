@@ -42,28 +42,40 @@
 
 ## 3. Important Points and Mentor Checklist
 
-- **Whiteboard `Pick`/`ReturnType`** (explain before write — tests model, not memory)
-- **Reject checklist** (ban `any`/`!`/`as` across boundary without validator, require `Zod` guard)
-- **Teach JS→types** (start from runtime bug, add type that catches it — junior-first)
+### [3.1. 3.1. Mentor Synthesis Checklist](<./sections/3. Important Points and Mentor Checklist/3.1. 3.1. Mentor Synthesis Checklist.md>)
+
+1. **Definition** (whiteboard Pick/ReturnType, reject checklist, teach JS→types)
+2. **Checklist** (PR gate: explain before write, ban any/!/as, junior-first)
+3. **Mentor** (require lint rule as takeaway)
 
 ---
 
 ## 4. Common Pitfalls to Production Bugs
 
-- **Pitfall** (starting with `infer` before primitives, over-engineering generic for single use)
-- **Consequence** (audience lost, API noise)
+### [4.1. 4.1. Teaching Pitfalls](<./sections/4. Common Pitfalls to Production Bugs/4.1. 4.1. Teaching Pitfalls.md>)
+
+1. **Pitfall** (starting with infer before primitives, over-generic)
+2. **Consequence** (audience lost, API noise)
+3. **Guard** (generic only if reused ≥3)
 
 ---
 
 ## 5. Interview Q and A
 
-- **Q: When generic?** A: only if reused across ≥3 call sites with different `T`
-- **Q: Why `void` accepts `() => number`?** A: caller ignores return
+### [5.1. 5.1. Interview Synthesis](<./sections/5. Interview Q and A/5.1. 5.1. Interview Synthesis.md>)
+
+1. **Q: Implement Pick?** (mapped)
+2. **Q: When generic?** (reused)
+3. **Q: void accepts number?** (ignore return)
 
 ---
 
 ## 6. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [6.1. 6.1. Boundaries What Is Covered Elsewhere](<./sections/6. Overlaps to Avoid/6.1. 6.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: All prior domains are prerequisites — this domain synthesizes interview/mentor, not new types.
+1. **Definition** (where stops — synthesis, not new types)
+2. **Comparison** (all prior domains prerequisites)
+3. **Link** (how to use)
+
+---

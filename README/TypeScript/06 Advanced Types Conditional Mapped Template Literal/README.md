@@ -68,28 +68,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Distributive control** (naked `T` distributes; wrap `[T]` to keep whole, used in `Exclude`/`Extract`)
-- **`infer` pattern** (capture type that makes pattern match — `ReturnType`, `Awaited`)
-- **Key remapping `as never`** (filter via `never` — `Omit` pattern)
+### [4.1. 4.1. Conditional and Mapped Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Conditional and Mapped Checklist.md>)
+
+1. **Definition** (distributive, infer, key remapping as never)
+2. **Checklist** (PR gate: bracket to control distribute, infer in success branch)
+3. **Mentor** (demo ToArray distribute vs [T])
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (forgot bracket → surprising `IsNever<never>` yields `never`, recursive conditional blows stack)
-- **Consequence** (type collapses to `never`, checker recursion limit hit)
+### [5.1. 5.1. Distributive and Infer Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Distributive and Infer Pitfalls.md>)
+
+1. **Pitfall** (forgot bracket, recursive conditional stack)
+2. **Consequence** (never collapse, recursion limit)
+3. **Guard** (keep depth shallow, test with expect-type)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: Implement `Pick`?** A: `{[P in K]: T[P]}`
-- **Q: Why does `ToArray<string|number>` distribute?** A: naked `T extends` loops
+### [6.1. 6.1. Interview Advanced Types](<./sections/6. Interview Q and A/6.1. 6.1. Interview Advanced Types.md>)
+
+1. **Q: Implement Pick?** ({[P in K]: T[P]})
+2. **Q: Why distribute?** (naked T loops)
+3. **Q: as never?** (filter)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [02 Primitive Literal and Union Types](<../02%20Primitive%20Literal%20and%20Union%20Types/README.md>) and [03 Objects Interfaces and Type Aliases](<../03%20Objects%20Interfaces%20and%20Type%20Aliases/README.md>) cover basic unions/objects — advanced only here.
+1. **Definition** (where stops — advanced only, not primitives/objects)
+2. **Comparison** (02/03 for basic unions/objects)
+3. **Link** (how to use)
+
+---

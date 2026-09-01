@@ -60,28 +60,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Precise `object` vs `Object` vs `{}`** (ban `Object`/`{}` via `ban-types`, use `object` or `Record<string,unknown>`)
-- **Excess freshness** (literal checked strictly, variable structurally — teach typo `retris` demo)
-- **Derive, don’t duplicate** (require `Pick`/`Omit` instead of hand-copied subsets)
+### [4.1. 4.1. Objects and Interfaces Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Objects and Interfaces Checklist.md>)
+
+1. **Definition** (what senior must enforce — object vs Object vs {}, interface vs type, freshness)
+2. **Checklist** (PR gate: ban Object/{}, require derive via Pick/Omit, check excess)
+3. **Mentor** (how to teach structural vs nominal with demo)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (`object` accepts array/function, `{}` accepts primitives, `interface` for union impossible)
-- **Consequence** (silent structural mix-up — `Customer` where `Product` expected)
+### [5.1. 5.1. Excess and Wrapper Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Excess and Wrapper Pitfalls.md>)
+
+1. **Pitfall** (Object accepts primitives, interface for union impossible)
+2. **Consequence** (silent structural mix-up, excess typo hidden via staleness)
+3. **Guard** (ban-types lint, satisfy vs as, Pick vs manual)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: `object` vs `Object`?** A: `object` = non-primitive, `Object` = boxed legacy
-- **Q: When `interface` vs `type`?** A: public API → interface (mergeable), composition/union → type
+### [6.1. 6.1. Interview Objects and Types](<./sections/6. Interview Q and A/6.1. 6.1. Interview Objects and Types.md>)
+
+1. **Q: object vs Object?** (non-primitive vs boxed legacy)
+2. **Q: When interface vs type?** (public API interface, union type)
+3. **Q: Excess check?** (fresh literal strictly, variable structurally)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [02 Primitive Literal and Union Types](<../02%20Primitive%20Literal%20and%20Union%20Types/README.md>) covers unions, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers mapped types — object basics only here.
+1. **Definition** (where this domain stops — objects only, not primitives or advanced mapped)
+2. **Comparison** (sibling domains for unions, advanced utilities)
+3. **Link** (how to use in track order)
+
+---

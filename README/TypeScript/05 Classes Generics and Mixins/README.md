@@ -60,28 +60,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Class as type+value** (private `private` vs `#private` — TS-private erased, `#` hard)
-- **Variance `in out`** (readonly `out` covariant, setter `in` contravariant, mutable invariant)
-- **Mixin limit** (chain ≤2, beyond use `type &` + functions)
+### [4.1. 4.1. Class and Variance Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Class and Variance Checklist.md>)
+
+1. **Definition** (class as type+value, variance in/out, mixin limit)
+2. **Checklist** (PR gate: #private for secret, in out, mixin ≤2)
+3. **Mentor** (demo private vs #, variance with readonly)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (`private` not runtime secret, deep mixin chain opaque hover `A&B&C&D`)
-- **Consequence** (Nominal leak, hard-to-debug instantiation errors)
+### [5.1. 5.1. Private and Mixin Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Private and Mixin Pitfalls.md>)
+
+1. **Pitfall** (private not secret, deep mixin opaque)
+2. **Consequence** (leak, unreadable hover)
+3. **Guard** (prefer #private, composition)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: `private` vs `#private`?** A: TS `private` is checker-only structural trick, `#` is WeakMap-backed
-- **Q: When `abstract` vs composition?** A: abstract only for shared state + `instanceof`
+### [6.1. 6.1. Interview Classes and Variance](<./sections/6. Interview Q and A/6.1. 6.1. Interview Classes and Variance.md>)
+
+1. **Q: private vs #private?** (checker vs WeakMap)
+2. **Q: Variance?** (Array invariant, ReadonlyArray covariant)
+3. **Q: When abstract?** (shared state + instanceof)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [04 Functions Overloads and Call Signatures](<../04%20Functions%20Overloads%20and%20Call%20Signatures/README.md>) covers function generics, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers `infer` — class/generic basics here.
+1. **Definition** (where stops — class/generic only, not advanced infer)
+2. **Comparison** (04 for function generics, 06 for infer)
+3. **Link** (how to use)
+
+---

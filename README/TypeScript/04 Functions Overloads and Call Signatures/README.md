@@ -60,28 +60,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Overload vs union** (overload when return changes per input, union when return same)
-- **Void semantics** (`void` = caller ignores return, not `undefined`; `() => void` accepts `() => number`)
-- **`this: void`** (type callbacks with `this: void` to forbid `this`, fix loss with arrow/bind)
+### [4.1. 4.1. Overloads and Generics Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Overloads and Generics Checklist.md>)
+
+1. **Definition** (what senior must enforce — overload vs union, void semantics, this: void)
+2. **Checklist** (PR gate: overload when return changes, void ignore, this arrow/bind)
+3. **Mentor** (demo void assignable, this loss live)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (floating promise without `no-floating-promises`, `this` loss passing method as callback)
-- **Consequence** (unhandled rejection, `this` is `undefined` at call)
+### [5.1. 5.1. Void and This Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Void and This Pitfalls.md>)
+
+1. **Pitfall** (floating promise, this loss, void param misuse)
+2. **Consequence** (unhandled rejection, undefined this)
+3. **Guard** (no-floating-promises lint, this: void, arrow)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: Why is `() => 42` assignable to `() => void`?** A: `void` means caller ignores
-- **Q: When overload over generic?** A: overload for per-input return narrowing, generic for preserving caller type
+### [6.1. 6.1. Interview Overloads and Async](<./sections/6. Interview Q and A/6.1. 6.1. Interview Overloads and Async.md>)
+
+1. **Q: Why () => 42 assignable to () => void?** (void means ignore)
+2. **Q: Overload vs generic?** (per-input return vs preserve caller type)
+3. **Q: this: void?** (forbid this)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [05 Classes Generics and Mixins](<../05%20Classes%20Generics%20and%20Mixins/README.md>) covers class generics, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers `infer` — function basics only.
+1. **Definition** (where stops — function types only, not class generics)
+2. **Comparison** (sibling 05 for class generics, 06 for infer)
+3. **Link** (how to use)
+
+---

@@ -52,28 +52,40 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **`target` vs `lib`** (`lib` types, `target` emit — `lib` can be newer but needs polyfill)
-- **`strict`+`noUncheckedIndexedAccess`** (enable both day one; `exactOptionalPropertyTypes` stricter)
-- **`composite`+`isolatedModules`** (refs for monorepo, `verbatimModuleSyntax` for single-file transpile parity)
+### [4.1. 4.1. tsconfig and Build Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. tsconfig and Build Checklist.md>)
+
+1. **Definition** (target vs lib, strict+noUnchecked, composite+isolated)
+2. **Checklist** (PR gate: target es2022, strict + noUnchecked, isolatedModules)
+3. **Mentor** (demo target helper bloat)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (`target es5` emits helpers bloat, `allowJs:false` misses JS during migration)
-- **Consequence** (bundle size + parse cost, silent JS bugs)
+### [5.1. 5.1. Target and Isolated Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Target and Isolated Pitfalls.md>)
+
+1. **Pitfall** (target es5 bloat, allowJs false misses JS)
+2. **Consequence** (bundle size, silent JS bugs)
+3. **Guard** (baseline via browserslist, allowJs true during migration)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q: `isolatedModules`?** A: each file transpilable alone — bans `const enum` cross-file
-- **Q: `lib` polyfills runtime?** A: no, types only
+### [6.1. 6.1. Interview Config and Build](<./sections/6. Interview Q and A/6.1. 6.1. Interview Config and Build.md>)
+
+1. **Q: isolatedModules?** (single-file transpile)
+2. **Q: lib polyfills?** (no, types only)
+3. **Q: composite?** (refs incremental)
 
 ---
 
 ## 7. Overlaps to Avoid
 
-Links to sibling domains that already cover adjacent material.
+### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
 
-Links: [07 Modules Namespaces and Declaration Files](<../07%20Modules%20Namespaces%20and%20Declaration%20Files/README.md>) covers `d.ts` emit, [09 Tooling ESLint Biome and Type-Level Testing](<../09%20Tooling%20ESLint%20Biome%20and%20Type-Level%20Testing/README.md>) covers typecheck CI — config only here.
+1. **Definition** (where stops — config only, not modules/lint)
+2. **Comparison** (07 for d.ts, 09 for lint)
+3. **Link** (how to use)
+
+---
