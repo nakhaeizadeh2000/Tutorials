@@ -40,9 +40,9 @@
 
 ---
 
-## 3. This, Callbacks and Async Functions
+## 3. This Callbacks and Async Functions
 
-### [3.1. this Parameter and Callback Variance](<./sections/3. This, Callbacks and Async Functions/3.1. this Parameter and Callback Variance.md>)
+### [3.1. this Parameter and Callback Variance](<./sections/3. This Callbacks and Async Functions/3.1. this Parameter and Callback Variance.md>)
 
 1. **Definition** (this: void)
 2. **Pitfall** (this loss in callback)
@@ -50,7 +50,7 @@
 
 ---
 
-### [3.2. Async Functions and Promise Typing](<./sections/3. This, Callbacks and Async Functions/3.2. Async Functions and Promise Typing.md>)
+### [3.2. Async Functions and Promise Typing](<./sections/3. This Callbacks and Async Functions/3.2. Async Functions and Promise Typing.md>)
 
 1. **Definition** (Promise<T>)
 2. **Example** (typed async)

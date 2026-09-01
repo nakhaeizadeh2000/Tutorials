@@ -4,9 +4,9 @@
 - **Era** (TypeScript 5.6, roadmap.sh TypeScript)
 - **Overlap** (see § Overlaps to avoid at end)
 
-## 1. Objects, Interfaces and Type Aliases
+## 1. Objects Interfaces and Type Aliases
 
-### [1.1. object vs Object vs {}](<./sections/1. Objects, Interfaces and Type Aliases/1.1. object vs Object vs {}.md>)
+### [1.1. object vs Object vs {}](<./sections/1. Objects Interfaces and Type Aliases/1.1. object vs Object vs {}.md>)
 
 1. **Distinction** (object is useful)
 2. **Bad** (Object/{} accept too much)
@@ -14,7 +14,7 @@
 
 ---
 
-### [1.2. Interface vs Type Alias (when to use which)](<./sections/1. Objects, Interfaces and Type Aliases/1.2. Interface vs Type Alias when to use which.md>)
+### [1.2. Interface vs Type Alias (when to use which)](<./sections/1. Objects Interfaces and Type Aliases/1.2. Interface vs Type Alias when to use which.md>)
 
 1. **Comparison** (declaration merging vs alias)
 2. **Good** (interface for public API)
@@ -22,9 +22,9 @@
 
 ---
 
-## 2. Properties, Optionality and Readonly
+## 2. Properties Optionality and Readonly
 
-### [2.1. Optional, readonly and Index Signatures](<./sections/2. Properties, Optionality and Readonly/2.1. Optional readonly and Index Signatures.md>)
+### [2.1. Optional, readonly and Index Signatures](<./sections/2. Properties Optionality and Readonly/2.1. Optional readonly and Index Signatures.md>)
 
 1. **Definition** (?: , readonly)
 2. **Example** (readonly props)
@@ -32,7 +32,7 @@
 
 ---
 
-### [2.2. Excess Property Checks and Freshness](<./sections/2. Properties, Optionality and Readonly/2.2. Excess Property Checks and Freshness.md>)
+### [2.2. Excess Property Checks and Freshness](<./sections/2. Properties Optionality and Readonly/2.2. Excess Property Checks and Freshness.md>)
 
 1. **Mechanism** (fresh object checks)
 2. **Example** (extra prop error)

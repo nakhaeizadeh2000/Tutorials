@@ -22,9 +22,9 @@
 
 ---
 
-## 2. Mapped, Template Literal and Key Remapping
+## 2. Mapped Template Literal and Key Remapping
 
-### [2.1. Mapped Types and Modifiers (-readonly, -?)](<./sections/2. Mapped, Template Literal and Key Remapping/2.1. Mapped Types and Modifiers -readonly -.md>)
+### [2.1. Mapped Types and Modifiers (-readonly, -?)](<./sections/2. Mapped Template Literal and Key Remapping/2.1. Mapped Types and Modifiers -readonly -.md>)
 
 1. **Definition** ({[K in keyof T]: ...})
 2. **Example** (Partial impl)
@@ -32,7 +32,7 @@
 
 ---
 
-### [2.2. Template Literal Types and Intrinsic](<./sections/2. Mapped, Template Literal and Key Remapping/2.2. Template Literal Types and Intrinsic.md>)
+### [2.2. Template Literal Types and Intrinsic](<./sections/2. Mapped Template Literal and Key Remapping/2.2. Template Literal Types and Intrinsic.md>)
 
 1. **Definition** (`on${Cap}`)
 2. **Example** (event names)
@@ -40,7 +40,7 @@
 
 ---
 
-### [2.3. Key Remapping via as and Filter](<./sections/2. Mapped, Template Literal and Key Remapping/2.3. Key Remapping via as and Filter.md>)
+### [2.3. Key Remapping via as and Filter](<./sections/2. Mapped Template Literal and Key Remapping/2.3. Key Remapping via as and Filter.md>)
 
 1. **Definition** (as never)
 2. **Example** (Omit by pattern)

@@ -22,9 +22,9 @@
 
 ---
 
-## 2. Unions, Intersections and Narrowing
+## 2. Unions Intersections and Narrowing
 
-### [2.1. Union Types and Discriminants](<./sections/2. Unions, Intersections and Narrowing/2.1. Union Types and Discriminants.md>)
+### [2.1. Union Types and Discriminants](<./sections/2. Unions Intersections and Narrowing/2.1. Union Types and Discriminants.md>)
 
 1. **Definition** (A | B)
 2. **Good** (discriminant property)
@@ -32,7 +32,7 @@
 
 ---
 
-### [2.2. Intersection and Never](<./sections/2. Unions, Intersections and Narrowing/2.2. Intersection and Never.md>)
+### [2.2. Intersection and Never](<./sections/2. Unions Intersections and Narrowing/2.2. Intersection and Never.md>)
 
 1. **Definition** (A & B)
 2. **Use** (mixins)
@@ -40,7 +40,7 @@
 
 ---
 
-### [2.3. Control-Flow Narrowing (if, in, typeof)](<./sections/2. Unions, Intersections and Narrowing/2.3. Control-Flow Narrowing if in typeof.md>)
+### [2.3. Control-Flow Narrowing (if, in, typeof)](<./sections/2. Unions Intersections and Narrowing/2.3. Control-Flow Narrowing if in typeof.md>)
 
 1. **Mechanism** (control flow analysis)
 2. **Example** (typeof guard)
@@ -48,9 +48,9 @@
 
 ---
 
-## 3. Enums, Tuples and Special Primitives
+## 3. Enums Tuples and Special Primitives
 
-### [3.1. Enums vs Union Literals (when enums hurt)](<./sections/3. Enums, Tuples and Special Primitives/3.1. Enums vs Union Literals when enums hurt.md>)
+### [3.1. Enums vs Union Literals (when enums hurt)](<./sections/3. Enums Tuples and Special Primitives/3.1. Enums vs Union Literals when enums hurt.md>)
 
 1. **Tradeoff** (enum emit vs union)
 2. **Bad** (ambient enums)
@@ -58,7 +58,7 @@
 
 ---
 
-### [3.2. Tuples, readonly and Labels](<./sections/3. Enums, Tuples and Special Primitives/3.2. Tuples readonly and Labels.md>)
+### [3.2. Tuples, readonly and Labels](<./sections/3. Enums Tuples and Special Primitives/3.2. Tuples readonly and Labels.md>)
 
 1. **Definition** (fixed-length arrays)
 2. **Example** (labeled tuples)
