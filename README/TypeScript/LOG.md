@@ -98,4 +98,5 @@
   - Section 06/3 `3. Utilities and Branding` (2 leaves) — created `06/.../3. Utilities and Branding/3.1. Utility Types Partial Required Pick Omit etc..md`, `3.2. Branded and Nominal Types.md`.
   - Section 07/1 `1. Modules and Resolution` (2 leaves) — created `07/.../1. Modules and Resolution/1.1. ESM vs CommonJS and Module Resolution node16 bundler.md`, `1.2. Paths BaseUrl and Monorepo Aliases.md`.
   - Section 07/2 `2. Declaration Files and Ambient` (2 leaves) — created `07/.../2. Declaration Files and Ambient/2.1. d.ts DefinitelyTyped and lib.md`, `2.2. Ambient Modules and Augmentation.md`.
+  - Section 07/3 `3. Namespaces and Legacy` (1 leaf) — created `07/.../3. Namespaces and Legacy/3.1. Namespace vs Module when namespace is legacy.md`.
 
