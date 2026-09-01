@@ -100,4 +100,5 @@
   - Section 07/2 `2. Declaration Files and Ambient` (2 leaves) — created `07/.../2. Declaration Files and Ambient/2.1. d.ts DefinitelyTyped and lib.md`, `2.2. Ambient Modules and Augmentation.md`.
   - Section 07/3 `3. Namespaces and Legacy` (1 leaf) — created `07/.../3. Namespaces and Legacy/3.1. Namespace vs Module when namespace is legacy.md`.
   - Section 08/1 `1. tsconfig Foundations` (2 leaves) — created `08/.../1. tsconfig Foundations/1.1. Target Module Lib and Emit.md`, `1.2. Strict Family strict noImplicitAny strictNullChecks.md`.
+  - Section 08/2 `2. Project References and Build` (2 leaves) — created `08/.../2. Project References and Build/2.1. Project References and Composite.md`, `2.2. IsolatedModules, TranspileOnly and SWC/esbuild.md`.
 
