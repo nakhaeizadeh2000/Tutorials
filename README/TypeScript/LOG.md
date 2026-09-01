@@ -90,4 +90,5 @@
   - Section 04/1 `1. Function Types and Context` (2 leaves) — created `04/.../1. Function Types and Context/1.1. Function Type Expressions and Call Signatures.md`, `1.2. Optional Rest and Void.md`.
   - Section 04/2 `2. Overloads and Generics in Functions` (2 leaves) — created `04/.../2. Overloads and Generics in Functions/2.1. Overload Signatures when overloads help.md`, `2.2. Generic Functions and Constraints.md`.
   - Section 04/3 `3. This, Callbacks and Async Functions` (2 leaves) — created `04/.../3. This, Callbacks and Async Functions/3.1. this Parameter and Callback Variance.md`, `3.2. Async Functions and Promise Typing.md`.
+  - Section 05/1 `1. Classes and Modifiers` (2 leaves) — created `05/.../1. Classes and Modifiers/1.1. Class Types public private protected.md`, `1.2. Abstract Implements and Constructors.md`.
 
