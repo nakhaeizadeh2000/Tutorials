@@ -107,4 +107,5 @@
   - Section 09/3 `3. Editor and DX` (1 leaf) — created `09/.../3. Editor and DX/3.1. Editor Integration and Auto-Types.md`.
   - Section 10/1 `1. Migrating JS to TS` (2 leaves) — created `10/.../1. Migrating JS to TS/1.1. allowJs checkJs and JSDoc Migration.md`, `1.2. any unknown and Gradual Typing.md`.
   - Section 10/2 `2. Interop and Boundaries` (2 leaves) — created `10/.../2. Interop and Boundaries/2.1. Zod Valibot and Runtime Validation TS erasure bridge.md`, `2.2. CJS/ESM Interop and Typing External Libs.md`.
+  - Section 10/3 `3. Performance and Emit Gaps` (1 leaf) — created `10/.../3. Performance and Emit Gaps/3.1. Const Enum Erased Types and Perf Traps.md`.
 
