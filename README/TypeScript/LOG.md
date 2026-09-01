@@ -118,9 +118,10 @@
 - Done:
   - Fix 1 — `06/2.1` double-dot filename: renamed `README/TypeScript/06 Advanced Types Conditional Mapped Template Literal/sections/2. Mapped, Template Literal and Key Remapping/2.1. Mapped Types and Modifiers -readonly -..md` → `2.1. Mapped Types and Modifiers -readonly -.md` (single dot) to match `06/README.md:27` link.
   - Fix 2 — `08/2.2` nested leaf flatten: moved `README/TypeScript/08 Configuration Strictness and Build Pipeline/sections/2. Project References and Build/2.2. IsolatedModules, TranspileOnly and SWC/esbuild.md` → `2. Project References and Build/2.2. IsolatedModules TranspileOnly and SWC esbuild.md` (flat, sanitized comma/slash), removed empty nested dir, updated `08/README.md:35` link and 5 cross-links (`01 3.1`, `02 3.1`, `07 1.1`, `07 3.1`, `10 3.1`) to new flat path.
-- Decisions: sanitized leaf filename removes `,` and `/` per PROMPT §8 (filenames no `, ( ) : ? &`), keeps spaces; `git mv` preserves history; cross-link bulk fix via `python3` replace of encoded `%20` paths.
-- Files touched: renamed 1 leaf file (08/2.2) via `git mv`, removed 1 dir, modified `08/README.md`, modified 5 leaves (`01 3.1`, `02 3.1`, `07 1.1`, `07 3.1`, `10 3.1`), modified `README/TypeScript/LOG.md`.
-- Links fixed / added: `08/README.md:35` now resolves to flat leaf; cross-links `.../2.2.%20IsolatedModules%20TranspileOnly%20and%20SWC%20esbuild.md` now correct (verified `ls -l` shows flat file).
-- Verification: `ls -l "08 .../2. Project References and Build/"` shows 2 flat leaves (2.1 + 2.2), `find .../sections/*/*.md | wc -l` still 62, `grep -r "IsolatedModules,.*SWC/esbuild"` returns 0.
-- Next steps: unit 3 — flatten 10/2.2 nested leaf.
+  - Fix 3 — `10/2.2` nested leaf flatten: moved `README/TypeScript/10 Migration Interop and Runtime Gaps/sections/2. Interop and Boundaries/2.2. CJS/ESM Interop and Typing External Libs.md` → `2. Interop and Boundaries/2.2. CJS ESM Interop and Typing External Libs.md` (flat, sanitized `/`), removed empty dir, updated `10/README.md:35` link and 1 cross-link (`07 1.1`) to new flat path.
+- Decisions: sanitized leaf filenames remove `,` and `/` per PROMPT §8 (filenames no `, ( ) : ? &`), keeps spaces; `git mv` preserves history; cross-link bulk fixes via `python3` replace of encoded `%20` paths for both 08 and 10.
+- Files touched: renamed 2 leaf files (08/2.2, 10/2.2) via `git mv`, removed 2 dirs, modified `08/README.md` + `10/README.md`, modified 6 leaves (`01 3.1`, `02 3.1`, `07 1.1`×2, `07 3.1`, `10 3.1`), modified `README/TypeScript/LOG.md`.
+- Links fixed / added: `08/README.md:35` and `10/README.md:35` now resolve to flat leaves; cross-links `.../2.2.%20IsolatedModules%20TranspileOnly%20and%20SWC%20esbuild.md` and `.../2.2.%20CJS%20ESM%20...` now correct (verified `ls -l` shows flat files).
+- Verification: `ls -l "08 .../2. Project References and Build/"` shows 2 flat leaves, `ls -l "10 .../2. Interop and Boundaries/"` shows 2 flat leaves, `find .../sections/*/*.md | wc -l` stays 62, `grep -r "CJS/ESM"` in links now 0 (only heading slash remains), `grep -r "IsolatedModules,.*SWC/esbuild"` 0.
+- Next steps: unit 4 — rename 7 section folders removing commas.
 

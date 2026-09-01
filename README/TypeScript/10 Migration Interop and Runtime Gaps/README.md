@@ -32,7 +32,7 @@
 
 ---
 
-### [2.2. CJS/ESM Interop and Typing External Libs](<./sections/2. Interop and Boundaries/2.2. CJS/ESM Interop and Typing External Libs.md>)
+### [2.2. CJS/ESM Interop and Typing External Libs](<./sections/2. Interop and Boundaries/2.2. CJS ESM Interop and Typing External Libs.md>)
 
 1. **Problem** (interop)
 2. **Fix** (esModuleInterop)
