@@ -93,4 +93,5 @@
   - Section 05/1 `1. Classes and Modifiers` (2 leaves) — created `05/.../1. Classes and Modifiers/1.1. Class Types public private protected.md`, `1.2. Abstract Implements and Constructors.md`.
   - Section 05/2 `2. Generics Deep Dive` (2 leaves) — created `05/.../2. Generics Deep Dive/2.1. Type Parameters Defaults and Constraints.md`, `2.2. Variance In Out and Collections.md`.
   - Section 05/3 `3. Mixins and Decorators` (2 leaves) — created `05/.../3. Mixins and Decorators/3.1. Mixin Pattern class as function.md`, `3.2. Decorators 5.0 stage-3 and Metadata.md`.
+  - Section 06/1 `1. Conditional and Infer` (2 leaves) — created `06/.../1. Conditional and Infer/1.1. Conditional Types and Distributivity.md`, `1.2. Infer and Pattern Matching.md`.
 
