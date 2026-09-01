@@ -82,4 +82,5 @@
 - Links fixed / added: intra-track links to `02 1.1`, `01 2.1/2.2/3.1`, `10 1.1/1.2/2.1`, `08 1.2`, JS track link, `05 3.2`, `06 3.2`, `03 2.2`, `10 3.1`, `02 2.1/3.1`, `03 1.1`, `06 2.2/3.1`; all angle-bracket form.
 - Verification: 8 files exist (`find README/TypeScript -name "*.md" | wc -l` shows leaves + indexes), domains `01` fully resolved, `02/1` resolved, `grep` no duplicate, examples self-contained.
 - Next steps: implement section 02/2 `2. Unions, Intersections and Narrowing` (3 leaves) as next unit.
+  - Section 02/2 `2. Unions, Intersections and Narrowing` (3 leaves) — created `02/.../2. Unions, Intersections and Narrowing/2.1. Union Types and Discriminants.md`, `2.2. Intersection and Never.md`, `2.3. Control-Flow Narrowing if in typeof.md`.
 
