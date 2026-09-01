@@ -32,7 +32,7 @@
 
 ---
 
-### [2.2. IsolatedModules, TranspileOnly and SWC/esbuild](<./sections/2. Project References and Build/2.2. IsolatedModules, TranspileOnly and SWC/esbuild.md>)
+### [2.2. IsolatedModules, TranspileOnly and SWC/esbuild](<./sections/2. Project References and Build/2.2. IsolatedModules TranspileOnly and SWC esbuild.md>)
 
 1. **Definition** (isolatedModules)
 2. **Example** (SWC)
