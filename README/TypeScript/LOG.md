@@ -79,3 +79,5 @@
 - Links fixed / added: intra-track links to `02 1.1`, `01 2.1/2.2/3.1`, `10 1.1/1.2/2.1`, `08 1.2`, JS track link, `05 3.2`; all angle-bracket form.
 - Verification: 3 files exist (`ls` shows 3 `.md`), domain index links now resolve to files (spaces handled), `grep` no duplicate concept intro (linked instead), typescript examples are self-contained.
 - Next steps: implement section 01/2 `2. Mental Model — Structural Types and Erasure` (2 leaves) as next unit.
+  - Section 01/2 `2. Mental Model — Structural Types and Erasure` (2 leaves) — created `README/TypeScript/01 TypeScript Fundamentals and Mental Model/sections/2. Mental Model — Structural Types and Erasure/2.1. Structural Typing vs Nominal duck typing at type level.md`, `2.2. Erasure and Emit no runtime types.md` (promises: Definition/Example/Mistake, Definition/Problem/Good).
+
