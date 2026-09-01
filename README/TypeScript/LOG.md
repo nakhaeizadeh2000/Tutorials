@@ -92,4 +92,5 @@
   - Section 04/3 `3. This, Callbacks and Async Functions` (2 leaves) — created `04/.../3. This, Callbacks and Async Functions/3.1. this Parameter and Callback Variance.md`, `3.2. Async Functions and Promise Typing.md`.
   - Section 05/1 `1. Classes and Modifiers` (2 leaves) — created `05/.../1. Classes and Modifiers/1.1. Class Types public private protected.md`, `1.2. Abstract Implements and Constructors.md`.
   - Section 05/2 `2. Generics Deep Dive` (2 leaves) — created `05/.../2. Generics Deep Dive/2.1. Type Parameters Defaults and Constraints.md`, `2.2. Variance In Out and Collections.md`.
+  - Section 05/3 `3. Mixins and Decorators` (2 leaves) — created `05/.../3. Mixins and Decorators/3.1. Mixin Pattern class as function.md`, `3.2. Decorators 5.0 stage-3 and Metadata.md`.
 
