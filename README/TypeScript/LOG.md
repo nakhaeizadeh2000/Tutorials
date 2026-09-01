@@ -81,4 +81,5 @@
 - Verification: 5 files exist (`ls` shows 5 `.md`), domain `01` index links for sections 1-2 now resolve, `grep` no duplicate concept intro (linked instead), typescript examples self-contained.
 - Next steps: implement section 01/3 `3. Toolchain First Look` (1 leaf) as next unit.
   - Section 01/3 `3. Toolchain First Look` (1 leaf) — created `01/.../3. Toolchain First Look/3.1. tsc tsx and ts-node Overview when to use which.md` (promises: Choice/Bad/Link).
+  - Section 02/1 `1. Primitives and Literals` (2 leaves) — created `02/.../1. Primitives and Literals/1.1. Primitives string number boolean bigint symbol.md`, `1.2. Literal Types and const Assertions.md`.
 
