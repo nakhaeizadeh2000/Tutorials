@@ -52,7 +52,7 @@
 
 ## 4. Important Points and Mentor Checklist
 
-### [4.1. 4.1. tsconfig and Build Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. tsconfig and Build Checklist.md>)
+### [4.1. tsconfig and Build Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. tsconfig and Build Checklist.md>)
 
 1. **Definition** (target vs lib, strict+noUnchecked, composite+isolated)
 2. **Checklist** (PR gate: target es2022, strict + noUnchecked, isolatedModules)
@@ -62,7 +62,7 @@
 
 ## 5. Common Pitfalls to Production Bugs
 
-### [5.1. 5.1. Target and Isolated Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Target and Isolated Pitfalls.md>)
+### [5.1. Target and Isolated Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Target and Isolated Pitfalls.md>)
 
 1. **Pitfall** (target es5 bloat, allowJs false misses JS)
 2. **Consequence** (bundle size, silent JS bugs)
@@ -72,7 +72,7 @@
 
 ## 6. Interview Q and A
 
-### [6.1. 6.1. Interview Config and Build](<./sections/6. Interview Q and A/6.1. 6.1. Interview Config and Build.md>)
+### [6.1. Interview Config and Build](<./sections/6. Interview Q and A/6.1. Interview Config and Build.md>)
 
 1. **Q: isolatedModules?** (single-file transpile)
 2. **Q: lib polyfills?** (no, types only)
@@ -82,7 +82,7 @@
 
 ## 7. Overlaps to Avoid
 
-### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where stops — config only, not modules/lint)
 2. **Comparison** (07 for d.ts, 09 for lint)

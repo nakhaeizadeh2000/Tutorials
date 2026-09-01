@@ -60,7 +60,7 @@
 
 ## 4. Important Points and Mentor Checklist
 
-### [4.1. 4.1. Overloads and Generics Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Overloads and Generics Checklist.md>)
+### [4.1. Overloads and Generics Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Overloads and Generics Checklist.md>)
 
 1. **Definition** (what senior must enforce — overload vs union, void semantics, this: void)
 2. **Checklist** (PR gate: overload when return changes, void ignore, this arrow/bind)
@@ -70,7 +70,7 @@
 
 ## 5. Common Pitfalls to Production Bugs
 
-### [5.1. 5.1. Void and This Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Void and This Pitfalls.md>)
+### [5.1. Void and This Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Void and This Pitfalls.md>)
 
 1. **Pitfall** (floating promise, this loss, void param misuse)
 2. **Consequence** (unhandled rejection, undefined this)
@@ -80,7 +80,7 @@
 
 ## 6. Interview Q and A
 
-### [6.1. 6.1. Interview Overloads and Async](<./sections/6. Interview Q and A/6.1. 6.1. Interview Overloads and Async.md>)
+### [6.1. Interview Overloads and Async](<./sections/6. Interview Q and A/6.1. Interview Overloads and Async.md>)
 
 1. **Q: Why () => 42 assignable to () => void?** (void means ignore)
 2. **Q: Overload vs generic?** (per-input return vs preserve caller type)
@@ -90,7 +90,7 @@
 
 ## 7. Overlaps to Avoid
 
-### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where stops — function types only, not class generics)
 2. **Comparison** (sibling 05 for class generics, 06 for infer)

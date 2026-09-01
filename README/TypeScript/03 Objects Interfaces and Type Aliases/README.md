@@ -60,7 +60,7 @@
 
 ## 4. Important Points and Mentor Checklist
 
-### [4.1. 4.1. Objects and Interfaces Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Objects and Interfaces Checklist.md>)
+### [4.1. Objects and Interfaces Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Objects and Interfaces Checklist.md>)
 
 1. **Definition** (what senior must enforce — object vs Object vs {}, interface vs type, freshness)
 2. **Checklist** (PR gate: ban Object/{}, require derive via Pick/Omit, check excess)
@@ -70,7 +70,7 @@
 
 ## 5. Common Pitfalls to Production Bugs
 
-### [5.1. 5.1. Excess and Wrapper Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Excess and Wrapper Pitfalls.md>)
+### [5.1. Excess and Wrapper Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Excess and Wrapper Pitfalls.md>)
 
 1. **Pitfall** (Object accepts primitives, interface for union impossible)
 2. **Consequence** (silent structural mix-up, excess typo hidden via staleness)
@@ -80,7 +80,7 @@
 
 ## 6. Interview Q and A
 
-### [6.1. 6.1. Interview Objects and Types](<./sections/6. Interview Q and A/6.1. 6.1. Interview Objects and Types.md>)
+### [6.1. Interview Objects and Types](<./sections/6. Interview Q and A/6.1. Interview Objects and Types.md>)
 
 1. **Q: object vs Object?** (non-primitive vs boxed legacy)
 2. **Q: When interface vs type?** (public API interface, union type)
@@ -90,7 +90,7 @@
 
 ## 7. Overlaps to Avoid
 
-### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where this domain stops — objects only, not primitives or advanced mapped)
 2. **Comparison** (sibling domains for unions, advanced utilities)

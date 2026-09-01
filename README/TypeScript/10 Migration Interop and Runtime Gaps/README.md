@@ -52,7 +52,7 @@
 
 ## 4. Important Points and Mentor Checklist
 
-### [4.1. 4.1. Migration and Validation Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Migration and Validation Checklist.md>)
+### [4.1. Migration and Validation Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Migration and Validation Checklist.md>)
 
 1. **Definition** (allowJs→JSDoc→TS, unknown safe, validator at boundary)
 2. **Checklist** (PR gate: allowJs+checkJs, unknown+guard, Zod at fetch, esModuleInterop)
@@ -62,7 +62,7 @@
 
 ## 5. Common Pitfalls to Production Bugs
 
-### [5.1. 5.1. Any and Const Enum Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Any and Const Enum Pitfalls.md>)
+### [5.1. Any and Const Enum Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Any and Const Enum Pitfalls.md>)
 
 1. **Pitfall** (as User lies, const enum breaks isolated, any[] hides)
 2. **Consequence** (undefined field, deploy mismatch)
@@ -72,7 +72,7 @@
 
 ## 6. Interview Q and A
 
-### [6.1. 6.1. Interview Migration and Gaps](<./sections/6. Interview Q and A/6.1. 6.1. Interview Migration and Gaps.md>)
+### [6.1. Interview Migration and Gaps](<./sections/6. Interview Q and A/6.1. Interview Migration and Gaps.md>)
 
 1. **Q: unknown vs any?** (checked top)
 2. **Q: Bridge erasure?** (codec parse then infer)
@@ -82,7 +82,7 @@
 
 ## 7. Overlaps to Avoid
 
-### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where stops — bridge only, not fundamentals/build)
 2. **Comparison** (01 for erasure, 08 for allowJs/target)

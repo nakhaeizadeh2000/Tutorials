@@ -60,7 +60,7 @@
 
 ## 4. Important Points and Mentor Checklist
 
-### [4.1. 4.1. Class and Variance Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Class and Variance Checklist.md>)
+### [4.1. Class and Variance Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Class and Variance Checklist.md>)
 
 1. **Definition** (class as type+value, variance in/out, mixin limit)
 2. **Checklist** (PR gate: #private for secret, in out, mixin ≤2)
@@ -70,7 +70,7 @@
 
 ## 5. Common Pitfalls to Production Bugs
 
-### [5.1. 5.1. Private and Mixin Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Private and Mixin Pitfalls.md>)
+### [5.1. Private and Mixin Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Private and Mixin Pitfalls.md>)
 
 1. **Pitfall** (private not secret, deep mixin opaque)
 2. **Consequence** (leak, unreadable hover)
@@ -80,7 +80,7 @@
 
 ## 6. Interview Q and A
 
-### [6.1. 6.1. Interview Classes and Variance](<./sections/6. Interview Q and A/6.1. 6.1. Interview Classes and Variance.md>)
+### [6.1. Interview Classes and Variance](<./sections/6. Interview Q and A/6.1. Interview Classes and Variance.md>)
 
 1. **Q: private vs #private?** (checker vs WeakMap)
 2. **Q: Variance?** (Array invariant, ReadonlyArray covariant)
@@ -90,7 +90,7 @@
 
 ## 7. Overlaps to Avoid
 
-### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where stops — class/generic only, not advanced infer)
 2. **Comparison** (04 for function generics, 06 for infer)

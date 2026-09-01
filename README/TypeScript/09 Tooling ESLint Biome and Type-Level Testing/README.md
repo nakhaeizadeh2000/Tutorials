@@ -52,7 +52,7 @@
 
 ## 4. Important Points and Mentor Checklist
 
-### [4.1. 4.1. Lint and Type-Test Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. 4.1. Lint and Type-Test Checklist.md>)
+### [4.1. Lint and Type-Test Checklist](<./sections/4. Important Points and Mentor Checklist/4.1. Lint and Type-Test Checklist.md>)
 
 1. **Definition** (Biome speed vs typescript-eslint depth, organizeImports, tsc gate)
 2. **Checklist** (PR gate: biome check + eslint typed + tsc --noEmit required)
@@ -62,7 +62,7 @@
 
 ## 5. Common Pitfalls to Production Bugs
 
-### [5.1. 5.1. Type-Aware Lint Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. 5.1. Type-Aware Lint Pitfalls.md>)
+### [5.1. Type-Aware Lint Pitfalls](<./sections/5. Common Pitfalls to Production Bugs/5.1. Type-Aware Lint Pitfalls.md>)
 
 1. **Pitfall** (no type-aware lint → floating promise missed)
 2. **Consequence** (unhandled rejection)
@@ -72,7 +72,7 @@
 
 ## 6. Interview Q and A
 
-### [6.1. 6.1. Interview Tooling and CI](<./sections/6. Interview Q and A/6.1. 6.1. Interview Tooling and CI.md>)
+### [6.1. Interview Tooling and CI](<./sections/6. Interview Q and A/6.1. Interview Tooling and CI.md>)
 
 1. **Q: Biome replace tsc?** (no, partial)
 2. **Q: projectService?** (auto-discovery for refs)
@@ -82,7 +82,7 @@
 
 ## 7. Overlaps to Avoid
 
-### [7.1. 7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. 7.1. Boundaries What Is Covered Elsewhere.md>)
+### [7.1. Boundaries What Is Covered Elsewhere](<./sections/7. Overlaps to Avoid/7.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where stops — lint only, not build/migration)
 2. **Comparison** (08 for build, 10 for migration)

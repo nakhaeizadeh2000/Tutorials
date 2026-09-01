@@ -42,7 +42,7 @@
 
 ## 3. Important Points and Mentor Checklist
 
-### [3.1. 3.1. Mentor Synthesis Checklist](<./sections/3. Important Points and Mentor Checklist/3.1. 3.1. Mentor Synthesis Checklist.md>)
+### [3.1. Mentor Synthesis Checklist](<./sections/3. Important Points and Mentor Checklist/3.1. Mentor Synthesis Checklist.md>)
 
 1. **Definition** (whiteboard Pick/ReturnType, reject checklist, teach JS→types)
 2. **Checklist** (PR gate: explain before write, ban any/!/as, junior-first)
@@ -52,7 +52,7 @@
 
 ## 4. Common Pitfalls to Production Bugs
 
-### [4.1. 4.1. Teaching Pitfalls](<./sections/4. Common Pitfalls to Production Bugs/4.1. 4.1. Teaching Pitfalls.md>)
+### [4.1. Teaching Pitfalls](<./sections/4. Common Pitfalls to Production Bugs/4.1. Teaching Pitfalls.md>)
 
 1. **Pitfall** (starting with infer before primitives, over-generic)
 2. **Consequence** (audience lost, API noise)
@@ -62,7 +62,7 @@
 
 ## 5. Interview Q and A
 
-### [5.1. 5.1. Interview Synthesis](<./sections/5. Interview Q and A/5.1. 5.1. Interview Synthesis.md>)
+### [5.1. Interview Synthesis](<./sections/5. Interview Q and A/5.1. Interview Synthesis.md>)
 
 1. **Q: Implement Pick?** (mapped)
 2. **Q: When generic?** (reused)
@@ -72,7 +72,7 @@
 
 ## 6. Overlaps to Avoid
 
-### [6.1. 6.1. Boundaries What Is Covered Elsewhere](<./sections/6. Overlaps to Avoid/6.1. 6.1. Boundaries What Is Covered Elsewhere.md>)
+### [6.1. Boundaries What Is Covered Elsewhere](<./sections/6. Overlaps to Avoid/6.1. Boundaries What Is Covered Elsewhere.md>)
 
 1. **Definition** (where stops — synthesis, not new types)
 2. **Comparison** (all prior domains prerequisites)
