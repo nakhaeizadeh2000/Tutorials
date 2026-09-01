@@ -95,4 +95,5 @@
   - Section 05/3 `3. Mixins and Decorators` (2 leaves) — created `05/.../3. Mixins and Decorators/3.1. Mixin Pattern class as function.md`, `3.2. Decorators 5.0 stage-3 and Metadata.md`.
   - Section 06/1 `1. Conditional and Infer` (2 leaves) — created `06/.../1. Conditional and Infer/1.1. Conditional Types and Distributivity.md`, `1.2. Infer and Pattern Matching.md`.
   - Section 06/2 `2. Mapped, Template Literal and Key Remapping` (3 leaves) — created `06/.../2. Mapped, Template Literal and Key Remapping/2.1. Mapped Types and Modifiers -readonly -..md`, `2.2. Template Literal Types and Intrinsic.md`, `2.3. Key Remapping via as and Filter.md`.
+  - Section 06/3 `3. Utilities and Branding` (2 leaves) — created `06/.../3. Utilities and Branding/3.1. Utility Types Partial Required Pick Omit etc..md`, `3.2. Branded and Nominal Types.md`.
 
