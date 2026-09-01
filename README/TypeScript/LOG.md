@@ -83,4 +83,5 @@
 - Verification: 8 files exist (`find README/TypeScript -name "*.md" | wc -l` shows leaves + indexes), domains `01` fully resolved, `02/1` resolved, `grep` no duplicate, examples self-contained.
 - Next steps: implement section 02/2 `2. Unions, Intersections and Narrowing` (3 leaves) as next unit.
   - Section 02/2 `2. Unions, Intersections and Narrowing` (3 leaves) — created `02/.../2. Unions, Intersections and Narrowing/2.1. Union Types and Discriminants.md`, `2.2. Intersection and Never.md`, `2.3. Control-Flow Narrowing if in typeof.md`.
+  - Section 02/3 `3. Enums, Tuples and Special Primitives` (2 leaves) — created `02/.../3. Enums, Tuples and Special Primitives/3.1. Enums vs Union Literals when enums hurt.md`, `3.2. Tuples readonly and Labels.md`.
 
