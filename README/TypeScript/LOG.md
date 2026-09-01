@@ -105,4 +105,5 @@
   - Section 09/1 `1. Lint and Format` (2 leaves) — created `09/.../1. Lint and Format/1.1. ESLint + typescript-eslint vs Biome.md`, `1.2. Consistent Code and Import Sort.md`.
   - Section 09/2 `2. Type-Level Testing and CI` (2 leaves) — created `09/.../2. Type-Level Testing and CI/2.1. tsd expect-type and dtslint.md`, `2.2. tsc --noEmit in CI and Pre-commit.md`.
   - Section 09/3 `3. Editor and DX` (1 leaf) — created `09/.../3. Editor and DX/3.1. Editor Integration and Auto-Types.md`.
+  - Section 10/1 `1. Migrating JS to TS` (2 leaves) — created `10/.../1. Migrating JS to TS/1.1. allowJs checkJs and JSDoc Migration.md`, `1.2. any unknown and Gradual Typing.md`.
 
