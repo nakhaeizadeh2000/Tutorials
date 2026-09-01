@@ -75,11 +75,11 @@
 - Done:
   - Section 01/1 `1. What TypeScript Is and Why It Exists` (3 leaves) — created `01/.../1. What TypeScript Is and Why It Exists/1.1. What TypeScript Is vs JavaScript erasable types.md`, `1.2. Why Types Matter correctness docs refactoring.md`, `1.3. History and 5.6 Era what is stable now.md`.
   - Section 01/2 `2. Mental Model — Structural Types and Erasure` (2 leaves) — created `01/.../2. Mental Model — Structural Types and Erasure/2.1. Structural Typing vs Nominal duck typing at type level.md`, `2.2. Erasure and Emit no runtime types.md`.
-- Decisions: leaf anatomy mirrors domain index bullets 1:1 with `### k) **Label**` parts; used `typescript` fences (runnable), bad vs good pairs, cross-links via angle-bracket relative paths; version pinned to 5.6 era; erasure emphasized as zero-runtime cost.
-- Files touched: created 5 leaf files in `01` (3 in `1. What TypeScript...`, 2 in `2. Mental Model...` — listed in Done); modified `README/TypeScript/LOG.md` (this entry).
-- Links fixed / added: intra-track links to `02 1.1`, `01 2.1/2.2/3.1`, `10 1.1/1.2/2.1`, `08 1.2`, JS track link, `05 3.2`, `06 3.2`, `03 2.2`, `10 3.1`; all angle-bracket form.
-- Verification: 5 files exist (`ls` shows 5 `.md`), domain `01` index links for sections 1-2 now resolve, `grep` no duplicate concept intro (linked instead), typescript examples self-contained.
-- Next steps: implement section 01/3 `3. Toolchain First Look` (1 leaf) as next unit.
-  - Section 01/3 `3. Toolchain First Look` (1 leaf) — created `01/.../3. Toolchain First Look/3.1. tsc tsx and ts-node Overview when to use which.md` (promises: Choice/Bad/Link).
+  - Section 01/3 `3. Toolchain First Look` (1 leaf) — created `01/.../3. Toolchain First Look/3.1. tsc tsx and ts-node Overview when to use which.md`.
   - Section 02/1 `1. Primitives and Literals` (2 leaves) — created `02/.../1. Primitives and Literals/1.1. Primitives string number boolean bigint symbol.md`, `1.2. Literal Types and const Assertions.md`.
+- Decisions: leaf anatomy mirrors domain index bullets 1:1 with `### k) **Label**` parts; used `typescript` fences (runnable), bad vs good pairs, cross-links via angle-bracket relative paths; version pinned to 5.6 era; erasure emphasized as zero-runtime cost.
+- Files touched: created 8 leaf files (6 in `01`, 2 in `02/1` — listed in Done); modified `README/TypeScript/LOG.md` (this entry).
+- Links fixed / added: intra-track links to `02 1.1`, `01 2.1/2.2/3.1`, `10 1.1/1.2/2.1`, `08 1.2`, JS track link, `05 3.2`, `06 3.2`, `03 2.2`, `10 3.1`, `02 2.1/3.1`, `03 1.1`, `06 2.2/3.1`; all angle-bracket form.
+- Verification: 8 files exist (`find README/TypeScript -name "*.md" | wc -l` shows leaves + indexes), domains `01` fully resolved, `02/1` resolved, `grep` no duplicate, examples self-contained.
+- Next steps: implement section 02/2 `2. Unions, Intersections and Narrowing` (3 leaves) as next unit.
 
