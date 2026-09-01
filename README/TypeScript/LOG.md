@@ -102,4 +102,5 @@
   - Section 08/1 `1. tsconfig Foundations` (2 leaves) — created `08/.../1. tsconfig Foundations/1.1. Target Module Lib and Emit.md`, `1.2. Strict Family strict noImplicitAny strictNullChecks.md`.
   - Section 08/2 `2. Project References and Build` (2 leaves) — created `08/.../2. Project References and Build/2.1. Project References and Composite.md`, `2.2. IsolatedModules, TranspileOnly and SWC/esbuild.md`.
   - Section 08/3 `3. Publishing and Versioning` (1 leaf) — created `08/.../3. Publishing and Versioning/3.1. Declaration Maps Source Maps and Publishing.md`.
+  - Section 09/1 `1. Lint and Format` (2 leaves) — created `09/.../1. Lint and Format/1.1. ESLint + typescript-eslint vs Biome.md`, `1.2. Consistent Code and Import Sort.md`.
 
