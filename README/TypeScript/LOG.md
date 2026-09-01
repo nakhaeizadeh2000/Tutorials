@@ -104,4 +104,5 @@
   - Section 08/3 `3. Publishing and Versioning` (1 leaf) — created `08/.../3. Publishing and Versioning/3.1. Declaration Maps Source Maps and Publishing.md`.
   - Section 09/1 `1. Lint and Format` (2 leaves) — created `09/.../1. Lint and Format/1.1. ESLint + typescript-eslint vs Biome.md`, `1.2. Consistent Code and Import Sort.md`.
   - Section 09/2 `2. Type-Level Testing and CI` (2 leaves) — created `09/.../2. Type-Level Testing and CI/2.1. tsd expect-type and dtslint.md`, `2.2. tsc --noEmit in CI and Pre-commit.md`.
+  - Section 09/3 `3. Editor and DX` (1 leaf) — created `09/.../3. Editor and DX/3.1. Editor Integration and Auto-Types.md`.
 
