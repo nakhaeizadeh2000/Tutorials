@@ -86,4 +86,5 @@
   - Section 02/3 `3. Enums, Tuples and Special Primitives` (2 leaves) — created `02/.../3. Enums, Tuples and Special Primitives/3.1. Enums vs Union Literals when enums hurt.md`, `3.2. Tuples readonly and Labels.md`.
   - Section 03/1 `1. Objects, Interfaces and Type Aliases` (2 leaves) — created `03/.../1. Objects, Interfaces and Type Aliases/1.1. object vs Object vs {}.md`, `1.2. Interface vs Type Alias when to use which.md`.
   - Section 03/2 `2. Properties, Optionality and Readonly` (2 leaves) — created `03/.../2. Properties, Optionality and Readonly/2.1. Optional readonly and Index Signatures.md`, `2.2. Excess Property Checks and Freshness.md`.
+  - Section 03/3 `3. Composition and Utility Basics` (2 leaves) — created `03/.../3. Composition and Utility Basics/3.1. Composition over Inheritance intersection for extension.md`, `3.2. Utility Picks Partial Pick Record intro.md`.
 
