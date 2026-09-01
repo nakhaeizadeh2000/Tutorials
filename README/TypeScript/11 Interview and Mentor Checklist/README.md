@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Interview Patterns
 
@@ -42,21 +42,23 @@
 
 ## 3. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Whiteboard `Pick`/`ReturnType`** (explain before write — tests model, not memory)
+- **Reject checklist** (ban `any`/`!`/`as` across boundary without validator, require `Zod` guard)
+- **Teach JS→types** (start from runtime bug, add type that catches it — junior-first)
 
 ---
 
 ## 4. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (starting with `infer` before primitives, over-engineering generic for single use)
+- **Consequence** (audience lost, API noise)
 
 ---
 
 ## 5. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: When generic?** A: only if reused across ≥3 call sites with different `T`
+- **Q: Why `void` accepts `() => number`?** A: caller ignores return
 
 ---
 
@@ -64,6 +66,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- All prior domains are prerequisites — this domain synthesizes
-
----
+Links: All prior domains are prerequisites — this domain synthesizes interview/mentor, not new types.

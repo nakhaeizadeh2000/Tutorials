@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Conditional and Infer
 
@@ -68,21 +68,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Distributive control** (naked `T` distributes; wrap `[T]` to keep whole, used in `Exclude`/`Extract`)
+- **`infer` pattern** (capture type that makes pattern match — `ReturnType`, `Awaited`)
+- **Key remapping `as never`** (filter via `never` — `Omit` pattern)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (forgot bracket → surprising `IsNever<never>` yields `never`, recursive conditional blows stack)
+- **Consequence** (type collapses to `never`, checker recursion limit hit)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: Implement `Pick`?** A: `{[P in K]: T[P]}`
+- **Q: Why does `ToArray<string|number>` distribute?** A: naked `T extends` loops
 
 ---
 
@@ -90,6 +92,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `02`/`03` cover basic unions/objects — this domain is advanced only
-
----
+Links: [02 Primitive Literal and Union Types](<../02%20Primitive%20Literal%20and%20Union%20Types/README.md>) and [03 Objects Interfaces and Type Aliases](<../03%20Objects%20Interfaces%20and%20Type%20Aliases/README.md>) cover basic unions/objects — advanced only here.

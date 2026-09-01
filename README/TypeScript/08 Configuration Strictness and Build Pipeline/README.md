@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. tsconfig Foundations
 
@@ -52,21 +52,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **`target` vs `lib`** (`lib` types, `target` emit — `lib` can be newer but needs polyfill)
+- **`strict`+`noUncheckedIndexedAccess`** (enable both day one; `exactOptionalPropertyTypes` stricter)
+- **`composite`+`isolatedModules`** (refs for monorepo, `verbatimModuleSyntax` for single-file transpile parity)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (`target es5` emits helpers bloat, `allowJs:false` misses JS during migration)
+- **Consequence** (bundle size + parse cost, silent JS bugs)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: `isolatedModules`?** A: each file transpilable alone — bans `const enum` cross-file
+- **Q: `lib` polyfills runtime?** A: no, types only
 
 ---
 
@@ -74,6 +76,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `07` covers declaration files, `09` covers lint — not duplicated
-
----
+Links: [07 Modules Namespaces and Declaration Files](<../07%20Modules%20Namespaces%20and%20Declaration%20Files/README.md>) covers `d.ts` emit, [09 Tooling ESLint Biome and Type-Level Testing](<../09%20Tooling%20ESLint%20Biome%20and%20Type-Level%20Testing/README.md>) covers typecheck CI — config only here.

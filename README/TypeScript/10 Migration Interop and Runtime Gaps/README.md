@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Migrating JS to TS
 
@@ -52,21 +52,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **`allowJs`+`checkJs`+`// @ts-check`** (incremental JSDoc → rename file-by-file, no big-bang)
+- **`unknown` as safe `any`** (ban `any` via `no-explicit-any`, guard before use)
+- **Validator at every unknown boundary** (Zod/Valibot `parse` + `z.infer`, `esModuleInterop` for CJS)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (`JSON.parse(s) as User` lies, `const enum` breaks `isolatedModules`, `any[]` hides)
+- **Consequence** (runtime `undefined` field, deploy-time emit mismatch)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: `unknown` vs `any`?** A: `unknown` checked top, must narrow
+- **Q: How to bridge erasure?** A: codec — schema `parse` then `infer`
 
 ---
 
@@ -74,6 +76,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `01` covers fundamentals, `08` covers emit — migration is bridge
-
----
+Links: [01 TypeScript Fundamentals and Mental Model](<../01%20TypeScript%20Fundamentals%20and%20Mental%20Model/README.md>) covers erasure, [08 Configuration Strictness and Build Pipeline](<../08%20Configuration%20Strictness%20and%20Build%20Pipeline/README.md>) covers `allowJs`/`target` — bridge only here.

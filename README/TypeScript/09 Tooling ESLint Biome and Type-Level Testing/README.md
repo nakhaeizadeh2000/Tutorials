@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Lint and Format
 
@@ -52,21 +52,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Biome for speed, `typescript-eslint` for depth** (`no-floating-promises` needs `projectService`)
+- **`biome check --write` single pass** (lint+format+sort, `organizeImports` on)
+- **`tsc --noEmit` gate** (required CI check, cache `.tsbuildinfo`)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (no type-aware lint → floating promise `load()` unhandled, `await 42` missed)
+- **Consequence** (unhandled rejection in prod)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: Does `biome` replace `tsc`?** A: no, checker partial — `tsc --noEmit` still required
+- **Q: `projectService`?** A: auto-discovery for refs, faster than `project`
 
 ---
 
@@ -74,6 +76,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `08` covers build, `10` covers migration — lint is focus here
-
----
+Links: [08 Configuration Strictness and Build Pipeline](<../08%20Configuration%20Strictness%20and%20Build%20Pipeline/README.md>) covers build, [10 Migration Interop and Runtime Gaps](<../10%20Migration%20Interop%20and%20Runtime%20Gaps/README.md>) covers migration — lint/type-tests only here.

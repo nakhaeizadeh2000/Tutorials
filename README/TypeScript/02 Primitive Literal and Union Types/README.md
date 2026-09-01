@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Primitives and Literals
 
@@ -68,21 +68,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Literal vs wrapper** (enforce `string` not `String` via `no-wrapper-object-types`, use `as const` for literals)
+- **Exhaustiveness** (discriminant `kind` + `never` check — adding variant is compile error)
+- **Tuple readonly** (default to `readonly [A,B]` — prevents `push` length-violation)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (`const enum` without `isolatedModules`, `let x = "hi"` widening to `string`) — typo not caught
+- **Consequence** (runtime `undefined`/`never` from impossible intersection, floating `any` from `Object`)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: Union `A|B` vs intersection `A&B`?** A: union = or, intersection = and — Venn
+- **Q: Why does `ToArray<string|number>` become `string[]|number[]`?** A: distributive naked `T`
 
 ---
 
@@ -90,6 +92,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `03` covers objects/interfaces, `06` covers utilities — not duplicated
-
----
+Links: [03 Objects Interfaces and Type Aliases](<../03%20Objects%20Interfaces%20and%20Type%20Aliases/README.md>) covers object shapes and excess checks, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers advanced utilities — this domain is primitives/unions only.

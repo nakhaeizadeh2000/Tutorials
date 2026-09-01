@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. What TypeScript Is and Why It Exists
 
@@ -60,21 +60,25 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Erasable mental model** (demo .ts→.js emit, require discriminant/Zod at every unknown boundary)
+- **Strict-first** (enable `strict` + `noUncheckedIndexedAccess` from day one, teach `unknown` vs `any`)
+- **Toolchain split** (tsx for run, `tsc --noEmit` for check — two processes, never conflate)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (`as` at boundary lies, `any` everywhere hides bugs) — still compiles but crashes at `email.toLowerCase()`
+- **Consequence** (runtime TypeError despite zero type errors) — validate once at edge, trust inside
+- **Guard** (ban `any`/`!`/`as` at PR, require `Zod`/`isUser` guard)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: Why does `typeof null === "object"` still affect TS?** A: JS runtime quirk preserved; TS types `object` correctly rejects `null` via `strictNullChecks`
+- **Q: Erasable types cost?** A: Zero runtime, checker cost only — measure `tsc --extendedDiagnostics`
+- **Q: When to use `any`?** A: Never in app code; `unknown` + narrow
 
 ---
 
@@ -82,6 +86,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `02` covers primitives/literals, `07` covers modules — not re-taught here
-
----
+Links to sibling domains: [02 Primitive Literal and Union Types](<../02%20Primitive%20Literal%20and%20Union%20Types/README.md>) covers primitives/literals, [07 Modules Namespaces and Declaration Files](<../07%20Modules%20Namespaces%20and%20Declaration%20Files/README.md>) covers module resolution — not re-taught here.

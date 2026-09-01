@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Function Types and Context
 
@@ -60,21 +60,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Overload vs union** (overload when return changes per input, union when return same)
+- **Void semantics** (`void` = caller ignores return, not `undefined`; `() => void` accepts `() => number`)
+- **`this: void`** (type callbacks with `this: void` to forbid `this`, fix loss with arrow/bind)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (floating promise without `no-floating-promises`, `this` loss passing method as callback)
+- **Consequence** (unhandled rejection, `this` is `undefined` at call)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: Why is `() => 42` assignable to `() => void`?** A: `void` means caller ignores
+- **Q: When overload over generic?** A: overload for per-input return narrowing, generic for preserving caller type
 
 ---
 
@@ -82,6 +84,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `05` covers generics in classes, `06` covers conditional types — not duplicated
-
----
+Links: [05 Classes Generics and Mixins](<../05%20Classes%20Generics%20and%20Mixins/README.md>) covers class generics, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers `infer` — function basics only.

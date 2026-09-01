@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Objects Interfaces and Type Aliases
 
@@ -60,21 +60,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Precise `object` vs `Object` vs `{}`** (ban `Object`/`{}` via `ban-types`, use `object` or `Record<string,unknown>`)
+- **Excess freshness** (literal checked strictly, variable structurally — teach typo `retris` demo)
+- **Derive, don’t duplicate** (require `Pick`/`Omit` instead of hand-copied subsets)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (`object` accepts array/function, `{}` accepts primitives, `interface` for union impossible)
+- **Consequence** (silent structural mix-up — `Customer` where `Product` expected)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: `object` vs `Object`?** A: `object` = non-primitive, `Object` = boxed legacy
+- **Q: When `interface` vs `type`?** A: public API → interface (mergeable), composition/union → type
 
 ---
 
@@ -82,6 +84,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `02` covers unions, `06` covers mapped types — see there
-
----
+Links: [02 Primitive Literal and Union Types](<../02%20Primitive%20Literal%20and%20Union%20Types/README.md>) covers unions, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers mapped types — object basics only here.

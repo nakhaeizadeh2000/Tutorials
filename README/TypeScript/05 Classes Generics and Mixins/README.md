@@ -1,8 +1,8 @@
 ## 0. Prerequisites and version map
 
-- **Prereq** (requires `README/JavaScript` fundamentals — types build on JS runtime)
-- **Era** (TypeScript 5.6, roadmap.sh TypeScript)
-- **Overlap** (see § Overlaps to avoid at end)
+- **Prereq** (requires [JavaScript track](<../../JavaScript/README.md>) fundamentals — types build on JS runtime; see [JS 01 Fundamentals](<../../JavaScript/01%20Fundamentals%20and%20Mental%20Model/README.md>))
+- **Era** (TypeScript 5.6 era, August 2026 — [Handbook](<https://www.typescriptlang.org/docs/>) + [roadmap.sh TypeScript](<https://roadmap.sh/typescript>))
+- **Overlap** (see §7 Overlaps to avoid at end)
 
 ## 1. Classes and Modifiers
 
@@ -60,21 +60,23 @@
 
 ## 4. Important Points and Mentor Checklist
 
-- **Checklist** (what senior must enforce)
-- **Mentor** (how to teach and review)
+- **Class as type+value** (private `private` vs `#private` — TS-private erased, `#` hard)
+- **Variance `in out`** (readonly `out` covariant, setter `in` contravariant, mutable invariant)
+- **Mixin limit** (chain ≤2, beyond use `type &` + functions)
 
 ---
 
 ## 5. Common Pitfalls to Production Bugs
 
-- **Pitfall** (any, non-null assertion, enum)
-- **Consequence** (runtime bug despite compile)
+- **Pitfall** (`private` not runtime secret, deep mixin chain opaque hover `A&B&C&D`)
+- **Consequence** (Nominal leak, hard-to-debug instantiation errors)
 
 ---
 
 ## 6. Interview Q and A
 
-- **Q/A** (type challenge, tradeoff)
+- **Q: `private` vs `#private`?** A: TS `private` is checker-only structural trick, `#` is WeakMap-backed
+- **Q: When `abstract` vs composition?** A: abstract only for shared state + `instanceof`
 
 ---
 
@@ -82,6 +84,4 @@
 
 Links to sibling domains that already cover adjacent material.
 
-- `04` covers function generics, `06` covers infer — not duplicated
-
----
+Links: [04 Functions Overloads and Call Signatures](<../04%20Functions%20Overloads%20and%20Call%20Signatures/README.md>) covers function generics, [06 Advanced Types Conditional Mapped Template Literal](<../06%20Advanced%20Types%20Conditional%20Mapped%20Template%20Literal/README.md>) covers `infer` — class/generic basics here.
