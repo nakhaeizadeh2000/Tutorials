@@ -83,7 +83,7 @@ Rules for indexes:
 
 - The domain index is the single table of contents for the domain; leaf files mirror it 1:1 (same titles, same numbers).
 - Each leaf entry gets 3–5 summary bullets with bold lead labels — these are the *promise* of the leaf, and the leaf must deliver exactly that, expanded.
-- Standard late sections per domain (in this spirit): **Important points / mentor checklist**, **Common pitfalls → production bugs**, **Interview Q&A**, **Overlaps to avoid**.
+- Standard late sections per domain (Important points / mentor checklist, Common pitfalls → production bugs, Interview Q&A, Overlaps to avoid) MUST be implemented as numbered `## N. Section` entries with leaf links `### [N.1. Title](<./sections/N. Section name/N.1. Leaf topic name.md>)` and corresponding `sections/N. Section name/` folders/files — not as README-only bullet placeholders. They follow the same `M.k.` leaf contract (§2 layout), Template B link form, and leaf anatomy (§2 leaf document anatomy, §8 style) as any other section, and are verified like any other section.
 - All relative links use the `[text](<path>)` angle-bracket form because folder names contain spaces.
 
 ### Leaf document anatomy (`M.k. ….md`)
