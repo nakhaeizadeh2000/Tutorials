@@ -103,4 +103,5 @@
   - Section 08/2 `2. Project References and Build` (2 leaves) — created `08/.../2. Project References and Build/2.1. Project References and Composite.md`, `2.2. IsolatedModules, TranspileOnly and SWC/esbuild.md`.
   - Section 08/3 `3. Publishing and Versioning` (1 leaf) — created `08/.../3. Publishing and Versioning/3.1. Declaration Maps Source Maps and Publishing.md`.
   - Section 09/1 `1. Lint and Format` (2 leaves) — created `09/.../1. Lint and Format/1.1. ESLint + typescript-eslint vs Biome.md`, `1.2. Consistent Code and Import Sort.md`.
+  - Section 09/2 `2. Type-Level Testing and CI` (2 leaves) — created `09/.../2. Type-Level Testing and CI/2.1. tsd expect-type and dtslint.md`, `2.2. tsc --noEmit in CI and Pre-commit.md`.
 
