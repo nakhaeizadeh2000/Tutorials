@@ -95,15 +95,16 @@
 - Done:
   - [unit 01] Created domain 03 index `README/TypeScript/03 Basic Types and Annotations/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 3 so only resolving links remain — committed as `feat(typescript): add 03 Basic Types domain index`
   - [unit 02] Created leaf `03/sections/1. The Primitive Family/1.1. string number boolean and the wrapper pitfall.md` (workhorses vs wrappers, widening teaser, good vs bad Map-key bug) — verified `tsc --strict` ok; wrapper `String` correctly flagged by mental lint rule, widening example errors as intended
+  - [unit 03] Created leaf `03/sections/1. The Primitive Family/1.2. bigint and symbol the ES-era primitives.md` (bigint lane vs number, unique symbol identity, JSON/ interop costs; good vs bad BigInt mixing + Map bug) — verified `tsc --strict --target es2022` ok; `1n + 1` correctly errors, unique symbol identity preserved
 - Decisions:
   - Section names avoid commas for filesystem safety (`3. Annotations Inference and Literals` not `3. Annotations, Inference and Literals`) per PROMPT.md:175; index bullets still describe commas parenthetically.
   - Track README lists only implemented modules (now 3 rows) per §2 so every link resolves; forward references to domains 04/07/08/09/11/13 remain textual until those domains land.
 - Files touched:
-  - Created: `README/TypeScript/03 Basic Types and Annotations/README.md`; 7 section directories under `README/TypeScript/03 Basic Types and Annotations/sections/`
-  - Modified: `README/TypeScript/README.md` (added row 3), `README/TypeScript/LOG.md` (opened Session 2 IN PROGRESS)
+  - Created: `README/TypeScript/03 Basic Types and Annotations/README.md`; 7 section directories under `README/TypeScript/03 Basic Types and Annotations/sections/`; `03/sections/1. The Primitive Family/1.1.`, `1.2.`, `1.3.` leaves (3 leaves section 1 complete)
+  - Modified: `README/TypeScript/README.md` (added row 3), `README/TypeScript/LOG.md` (incremental Done after each leaf)
 - Links fixed / added:
   - Added row 3 link `[Basic Types and Annotations](<03 Basic Types and Annotations/README.md>)` (angle-bracket literal-space, resolves); domain README 13 leaf links + 5 prerequisites/overlap links verified resolving (angle-bracket form, relative `../` depth); 7 section folder names verified no punctuation violations.
 - Verification:
   - Link check pre-leaf: `grep -R "\[.*\](<"` count for new domain README = 18 links, 0 `%20`, 0 broken (spot-checked 5 relative depths: `../01 Fundamentals...` → resolves, leaf `./sections/1. The Primitive Family/...` → will resolve once leaves land)
 - Next steps:
-  - Continue Session 2 units 02–14 (leaves 1.1→7.1); next unit is `1.1. string number boolean and the wrapper pitfall.md`.
+  - Continue Session 2 units 05–14 (leaves 2.1→7.1); next unit is `2.1. any the unchecked escape hatch.md`.
