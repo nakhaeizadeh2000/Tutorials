@@ -37,11 +37,12 @@
   - [unit 01] Created track plan + index — `README/TypeScript/README.md` (Template A, 2 rows, TypeScript 5.9 era) + opened `README/TypeScript/LOG.md` IN PROGRESS — committed as `feat(typescript): bootstrap track skeleton`
   - [unit 02] Created domain 01 index `README/TypeScript/01 Fundamentals and Mental Model/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders — committed as `feat(typescript): add 01 Fundamentals domain index`
   - [unit 03] Created leaf `01/1.1. From JavaScript to TypeScript history superset claim and why it exists.md` (superset/history/why+good vs bad runnable) — verified with `tsc --strict` ok
+  - [unit 04] Created leaves `01/1.2. Design goals and non-goals.md` + `01/1.3. Superset soundness and the type system flavor.md` (goals/non-goals table, structural vs nominal, soundness holes + good/bad runnable) — verified `tsc --strict` ok + emit shows erasure
 - Decisions:
   - Curriculum mirrors JavaScript track's 20+4 shape (20 topical + 4 Update indexes) but re-centered on TypeScript's type system, tooling, and migration concerns — avoids duplicating JavaScript mechanics (explicit DRY boundary in 01/7.1).
   - Domain 01 late sections (4–7) follow §86 amendment: real leaf files per numbered section, not README-only bullets.
 - Files touched:
-  - Created: `README/TypeScript/README.md`, `README/TypeScript/LOG.md`, `README/TypeScript/01 Fundamentals and Mental Model/README.md` + 7 section dirs, `sections/1. What TypeScript is/1.1. From JavaScript to TypeScript history superset claim and why it exists.md`
+  - Created: `README/TypeScript/README.md`, `README/TypeScript/LOG.md`, `README/TypeScript/01 Fundamentals and Mental Model/README.md` + 7 section dirs, `sections/1. What TypeScript is/1.1.`, `1.2.`, `1.3.` leaves
   - Modified: `README/TypeScript/LOG.md` (incremental Done after each leaf)
 - Links fixed / added:
   - Track rows 1–2 verified resolving (angle-bracket literal-space form); domain 01 prerequisites link to `../JavaScript/...` verified at write time
