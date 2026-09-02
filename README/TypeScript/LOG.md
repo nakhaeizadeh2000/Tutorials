@@ -41,6 +41,7 @@
   - [unit 05] Created section 2 leaves `01/2.1. Type erasure`, `01/2.2. Static vs runtime`, `01/2.3. Language server` (erasure table + emit proof, boundary validation with predicate + zod, hover/computed-type demo) — verified `tsc --strict` ok + emit shows erased interfaces/generics
   - [unit 06] Created section 3 leaves `01/3.1. Compilation pipeline`, `01/3.2. Executing TypeScript`, `01/3.3. Choosing erasable syntax` (pipeline outputs table, three execution paths, erasable inventory with --erasableSyntaxOnly enforcement) — verified `tsc --strict --erasableSyntaxOnly` ok; enum correctly fails under flag
   - [unit 07] Created late-section leaves `01/4.1. Fundamentals checklist`, `01/5.1. Real production bugs`, `01/6.1. Common interview QA`, `01/7.1. Boundaries` (checklist + 4-incident pitfalls + 6 QA + DRY boundaries) — verified `tsc --strict` ok; all runnable examples exit 0
+  - [unit 08] Created domain 02 index `README/TypeScript/02 The Type System Core/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders
 - Decisions:
   - Curriculum mirrors JavaScript track's 20+4 shape (20 topical + 4 Update indexes) but re-centered on TypeScript's type system, tooling, and migration concerns — avoids duplicating JavaScript mechanics (explicit DRY boundary in 01/7.1).
   - Domain 01 late sections (4–7) follow §86 amendment: real leaf files per numbered section, not README-only bullets.
