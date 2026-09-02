@@ -26,6 +26,10 @@
     "glob": "allow",
     "grep": "allow",
     "webfetch": "allow",
-    "websearch": "allow"
+    "websearch": "allow",
+    "external_directory": {
+      "*": "ask",
+      "/tmp/opencode/**": "allow"
+    }
   }
 }
