@@ -41,7 +41,12 @@ Also check for a dangling `Status: IN PROGRESS` entry at the end of LOG.md:
 
 This write MUST be the first write to disk in the session.
 
-Derive the minimal plan: list every file to create/edit (domains, sections, leaves, indexes).
+Derive the plan: list every file to create/edit (domains, sections, leaves, indexes).
+
+**Plan scope — critical:**
+- If user says `rest of sections and domains`, `till finishing completely`, `all remaining`, `complete the track`, `until the end`, or similar — Plan = **ALL remaining unimplemented domains/sections/leaves** for that track, in curriculum order (`NN` prefix). Compare `README/<Track>/README.md` (implemented) vs full curriculum in `README/<Track>/LOG.md` or root `README.md` to find gaps. Do NOT limit to one domain.
+- Otherwise Plan = the minimal set implied by the request (e.g. one domain, one section).
+- When Plan is full-track, you MUST loop continuously through every domain/leaf in order without stopping after one domain and without asking the user for the next command. Only stop when the last domain's last leaf is committed and LOG is closed to `DONE`. Use `PARTIAL` + precise `Next steps` only if you hit context/token limits — then the next `/tutorial-continue` will resume from there.
 
 Then create or append to `README/<Track>/LOG.md`:
 
@@ -138,7 +143,7 @@ Depth ramps junior → mentor within the leaf. No filler. Code fences tagged wit
    # e.g. feat(typescript): add 01 Fundamentals / 1.1 What is TypeScript - establish engine vs runtime model
    ```
 
-**Then repeat for next unit `a2 -> b2 -> c2 -> commit`.** Never log or commit multiple leaves together.
+**Then repeat for next unit `a2 -> b2 -> c2 -> commit` until Plan is exhausted.** Never log or commit multiple leaves together. When Plan is full-track, this loop spans multiple domains/sections automatically — do not break after one domain.
 
 ---
 
