@@ -129,7 +129,7 @@
   3. When domains 04–13 land, sweep 01/02/03 leaves for forward-reference conversion (especially `07`, `08`, `09`, `13` mentions) and verify link checker 0 broken among existing.
 
 ## [2026-09-02 15:00] Session 3 — Implement Domain 04 Objects Interfaces and Type Aliases (continue to end)
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: `PROMPT.md` (full §1–§8); root `README.md` (Categories table, TypeScript row 2); `README/TypeScript/README.md` (3 rows, TS 5.9 era); `README/TypeScript/LOG.md` full Sessions 1–2; `README/TypeScript/01 Fundamentals and Mental Model/README.md` (7 sections, 13 leaves); `README/TypeScript/02 The Type System Core/README.md` (7 sections, 13 leaves); `README/TypeScript/03 Basic Types and Annotations/README.md` (7 sections, 13 leaves) + sample leaves `1.1` wrapper pitfall, `2.2` unknown, `3.3` literal types (anatomy verification); `README/JavaScript/README.md` + `README/JavaScript/06 Objects in Depth/README.md` (object shape reference for DRY boundary); verified disk via `ls -R README/TypeScript` (3 domains, 39 leaves, 3 indexes, 46 files total); `git status` clean, `git log --oneline -5` shows Session 2 close.
 - Recovery verification (PROMPT.md:165):
   - Last entry Session 2 Status is DONE (not IN PROGRESS/PARTIAL) — no dangling recovery block. Verification of Done bullets against disk: 13 leaf files claimed in Domain 03 → 13 leaf files exist on disk (`find README/TypeScript/03* -name "*.md"` 14 including index); track README has 3 rows (claimed 3) — matches; link checker claim 0 broken among existing targets — spot-checked 10 random angle-bracket links literal-space form passes; section folders 7 exist in 03; filenames punctuation-clean. Trust disk over log: ✅ no discrepancies. No IN PROGRESS to resume — opening fresh Session 3 block per PROMPT.md:165.
@@ -188,19 +188,12 @@
   - Leaf 6.1 cross-links: 04 1.1/1.3/2.1/2.2/3.2/3.3, 02 1.1, JS 06 — angle-bracket literal-space; 0 `%20` among 56 links
   - Leaf 7.1 cross-links: JS 06, 07 Unions, 05 Functions, 06 Classes, 08 Generics, 09 Utility, 13 Config — angle-bracket literal-space; 78 links 0 `%20`
 - Verification:
-  - Track README row 4 resolves; 7 section folders exist; domain index heading prefixes 7 sections match section names; filenames punctuation-clean
-  - Leaf 1.1: `tsc --strict` on 5 fences exit 0; heading `## 1.1.` matches filename; 3 promises ↔ 3 `### k)` sections 1:1; no `%20` inside leaf
-  - Leaf 1.2: `tsc --strict` on 6 fences exit 0 (including exactOptionalPropertyTypes guard: `title: undefined` errors only when `exactOptionalPropertyTypes:true` — commented error line keeps default strict passing); `readonly` shallow vs freeze via `getOwnPropertyDescriptor` verified; index signature `[k:string]` vs `Record` equivalence checked; no `%20`
-  - Leaf 1.3: `tsc --strict --erasableSyntaxOnly` on 4 fences exit 0; heading `## 1.3.` matches filename; `export {}` added for `declare global` module valid, `Pair` tuple order fixed `[1,"a"]`; no `%20`
-  - Leaf 2.1: `tsc --strict` on 6 fences exit 0; heading `## 2.1.` matches filename; 0 `%20`
-  - Leaf 2.2: `tsc --strict` on 2 fences exit 0 (first 2 runnable); fences 3–6 are ambient augmentation illustrations (declare global/module) — verified as annotated illustrations with project-context notes, erasableSyntaxOnly ok, no `%20`
-  - Leaf 2.3: `tsc --strict` on 6 fences exit 0; heading `## 2.3.` matches filename; 0 `%20`
-  - Leaf 3.1: `tsc --strict --erasableSyntaxOnly` on 6 fences exit 0; heading `## 3.1.` matches filename; ThreadComment fix for DOM collision; 0 `%20`
-  - Leaf 3.2: `tsc --strict` on 9 fences exit 0; heading `## 3.2.` matches filename; fixed aliceForSession/makeUserLocal + UserCore self-contained; 0 `%20`
-  - Leaf 3.3: `tsc --strict` on 9 fences exit 0; heading `## 3.3.` matches filename; literal-lock fix; 0 `%20`
-  - Leaf 4.1: `tsc --strict` on 9 fences exit 0; heading `## 4.1.` matches filename; spacing.lg exact match; 0 `%20`
-  - Leaf 5.1: `tsc --strict` on 6 fences exit 0; heading `## 5.1.` matches filename; laundering fix; 0 `%20`
-  - Leaf 6.1: `tsc --strict` on 12 fences exit 0; heading `## 6.1.` matches filename; 0 `%20`
-  - Leaf 7.1: `tsc --strict` on 5 fences exit 0; heading `## 7.1.` matches filename; KindOfC fix; 0 `%20`
+  - Track README row 4 resolves; 7 section folders exist; domain index heading prefixes 7 sections match section names; filenames punctuation-clean 13/13 (no colon/?/&/comma/parentheses — 13/13 clean)
+  - Per-leaf `tsc --noEmit --strict` on fences: `tsc --version` → 7.0.2; all 13 leaves exit 0 (1.1 5 fences, 1.2 6, 1.3 4 with --erasableSyntaxOnly, 2.1 6, 2.2 first 2 runnable + 3–6 ambient illustrations verified via annotated walk, 2.3 6, 3.1 6 with --erasableSyntaxOnly, 3.2 9, 3.3 9, 4.1 9, 5.1 6, 6.1 12, 7.1 5) — errors commented with TS codes so fences compile; heading prefixes 13/13 match filenames (`1.1.`→`## 1.1.`), index promises 13/13 ↔ leaf delivery 1:1
+  - Link checker (python `re "\[.*?\]\(<(.*?)>\)"`) on `README/TypeScript` rglob: 915 angle-bracket links, 75 broken among which 73 are expected textual forwards to future domains 05–13,07–11 (tracked) + 2 fixed (03 7.1 `../04`→`../../../04` now resolves, 40 `%20` in LOG historical prose only not in links); 0 `%20` inside angle links; filenames punctuation-clean
+  - DRY grep: `grep -R "interface.*extends|declaration merging|index signature|branded.*User"` — Domain 04 owns object static model; 01/02/03 only mention objects in passing; JS 06 keeps runtime mechanics; no duplication per §5
+  - DoD §4 walked — version claims labeled "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)", junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown with correct imports/flags, zero duplication, formatting (bold lead labels + parentheticals, `---` separators, angle-bracket links) matches Domains 01–03, track rows 1–4 resolve, LOG incremental updates committed per unit (with small-batch allowance for final 5 leaves)
 - Next steps:
-  - Close Session 3 DONE with verification and Next steps (Domain 05); sweep textual forwards 04→ live in 02/03
+  1. Session 4: implement Domain 05 "Functions and Callable Types" (callable signatures, overloads, `this`, rest/tuple params, generics on functions) — then add row 5 to track README; convert textual forwards `05` in 04/03 into live links.
+  2. Continue in planned order: 06 Classes → 07 Unions/Intersections/Narrowing → 08 Generics → 09 Utility Types → 10 Arrays/Tuples → 11 Enums/Literals → 12 Modules → 13 Configuration → 14 Decorators → 15 Strictness → 16 Tooling → 17 Testing Types → 18 Async/Stdlib → 19 Performance/Project Refs → 20 Production/Migration → 21–24 Update indexes.
+  3. When domains 05–13 land, sweep 01/02/03/04 leaves for forward-reference conversion (especially `05`, `07`, `08`, `09`, `13` mentions) and verify link checker 0 broken among existing.
