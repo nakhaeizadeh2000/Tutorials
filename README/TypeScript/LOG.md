@@ -127,3 +127,33 @@
   1. Session 3: implement Domain 04 "Objects, Interfaces and Type Aliases" (object types, index signatures, readonly, optional, interface vs type, declaration merging, excess-property at object level) — then add row 4 to track README; convert textual forwards `04` in 02/03 into live links.
   2. Continue in planned order: 05 Functions and Callable Types → 06 Classes → 07 Unions/Intersections/Narrowing → 08 Generics → 09 Utility Types → 10 Arrays/Tuples → 11 Enums/Literals → 12 Modules → 13 Configuration → 14 Decorators → 15–20 → 21–24 Update indexes.
   3. When domains 04–13 land, sweep 01/02/03 leaves for forward-reference conversion (especially `07`, `08`, `09`, `13` mentions) and verify link checker 0 broken among existing.
+
+## [2026-09-02 15:00] Session 3 — Implement Domain 04 Objects Interfaces and Type Aliases (continue to end)
+- Status: IN PROGRESS
+- Context read: `PROMPT.md` (full §1–§8); root `README.md` (Categories table, TypeScript row 2); `README/TypeScript/README.md` (3 rows, TS 5.9 era); `README/TypeScript/LOG.md` full Sessions 1–2; `README/TypeScript/01 Fundamentals and Mental Model/README.md` (7 sections, 13 leaves); `README/TypeScript/02 The Type System Core/README.md` (7 sections, 13 leaves); `README/TypeScript/03 Basic Types and Annotations/README.md` (7 sections, 13 leaves) + sample leaves `1.1` wrapper pitfall, `2.2` unknown, `3.3` literal types (anatomy verification); `README/JavaScript/README.md` + `README/JavaScript/06 Objects in Depth/README.md` (object shape reference for DRY boundary); verified disk via `ls -R README/TypeScript` (3 domains, 39 leaves, 3 indexes, 46 files total); `git status` clean, `git log --oneline -5` shows Session 2 close.
+- Recovery verification (PROMPT.md:165):
+  - Last entry Session 2 Status is DONE (not IN PROGRESS/PARTIAL) — no dangling recovery block. Verification of Done bullets against disk: 13 leaf files claimed in Domain 03 → 13 leaf files exist on disk (`find README/TypeScript/03* -name "*.md"` 14 including index); track README has 3 rows (claimed 3) — matches; link checker claim 0 broken among existing targets — spot-checked 10 random angle-bracket links literal-space form passes; section folders 7 exist in 03; filenames punctuation-clean. Trust disk over log: ✅ no discrepancies. No IN PROGRESS to resume — opening fresh Session 3 block per PROMPT.md:165.
+- Plan:
+  1. [unit 01] Create `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md` (Template B, 7 sections, 13 leaf promises) + 7 `sections/M. Section name/` folders; update `README/TypeScript/README.md` to add row 4 `[Objects, Interfaces and Type Aliases](<04 Objects Interfaces and Type Aliases/README.md>)` so track still has only resolving links.
+  2. [unit 02] Create leaf `04/sections/1. Object Type Fundamentals/1.1. Object types structural shape and excess property checks.md`
+  3. [unit 03] Create leaf `04/sections/1. Object Type Fundamentals/1.2. Optional readonly and index signatures.md`
+  4. [unit 04] Create leaf `04/sections/1. Object Type Fundamentals/1.3. Interfaces vs type aliases when to use which.md`
+  5. [unit 05] Create leaf `04/sections/2. Composition and Declaration Merging/2.1. Intersection vs extends composing object types.md`
+  6. [unit 06] Create leaf `04/sections/2. Composition and Declaration Merging/2.2. Declaration merging and augmentation.md`
+  7. [unit 07] Create leaf `04/sections/3. Advanced Object Patterns/3.1. Recursive and indexed mapped object patterns.md`
+  8. [unit 08] Create leaf `04/sections/3. Advanced Object Patterns/3.2. Discriminated objects and brand patterns.md`
+  9. [unit 09] Create leaf `04/sections/4. Important points to remember/4.1. Objects interfaces checklist mental models mentors insist on.md`
+  10. [unit 10] Create leaf `04/sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by object type misunderstandings.md`
+  11. [unit 11] Create leaf `04/sections/6. Interview questions and answers/6.1. Common interview QA objects interfaces and type aliases.md`
+  12. [unit 12] Create leaf `04/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md`
+  13. [unit 13] Convert textual forwards `04` in 02/03 into live links (02 7.1, 03 7.1) + verify DoD walk, link checker (0 broken among existing, 0 %20), `tsc --strict` per leaf, DRY grep, format check; flip Status to DONE with Next steps (Domain 05). Long-term plan after this session: continue Domain 05→20 + 21–24 Update indexes sequentially per PROMPT.md Mode 2, one domain per session loop until track complete (user requested "till the end" — this log block covers 04; next sessions will pick up 05 onward without repeating work).
+- Research notes (PROMPT.md:132 step 3):
+  - TypeScript Handbook: Object Types (handbook/2/objects), Interfaces vs Types, Declaration Merging (handbook/declaration-merging), `readonly`/`?`, index signatures, `extends` vs `&`, `satisfies` with objects. Release notes: `exactOptionalPropertyTypes` (TS 4.4), `erasableSyntaxOnly` (TS 5.8) impact on `interface` vs `type` (both erasable). Roadmap.sh TypeScript — objects before functions.
+  - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
+  - DRY grep before each leaf: search repo for `interface.*extends|type alias.*intersection|declaration merging|index signature|excess property` — TypeScript 01/02 mention interfaces only in ToC; 03 owns primitives/specials only; JavaScript 06 owns runtime object mechanics (descriptor, prototype) — this domain owns static object-type model, no duplication.
+- Done:
+- Decisions:
+- Files touched:
+- Links fixed / added:
+- Verification:
+- Next steps:
