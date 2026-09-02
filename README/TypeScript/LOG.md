@@ -197,3 +197,42 @@
   1. Session 4: implement Domain 05 "Functions and Callable Types" (callable signatures, overloads, `this`, rest/tuple params, generics on functions) — then add row 5 to track README; convert textual forwards `05` in 04/03 into live links.
   2. Continue in planned order: 06 Classes → 07 Unions/Intersections/Narrowing → 08 Generics → 09 Utility Types → 10 Arrays/Tuples → 11 Enums/Literals → 12 Modules → 13 Configuration → 14 Decorators → 15 Strictness → 16 Tooling → 17 Testing Types → 18 Async/Stdlib → 19 Performance/Project Refs → 20 Production/Migration → 21–24 Update indexes.
   3. When domains 05–13 land, sweep 01/02/03/04 leaves for forward-reference conversion (especially `05`, `07`, `08`, `09`, `13` mentions) and verify link checker 0 broken among existing.
+
+## [2026-09-02 16:00] Session 4 — Implement Domain 05 Functions and Callable Types
+- Status: IN PROGRESS
+- Context read: `PROMPT.md` (full §1–§8); root `README.md` (Categories table, TypeScript row 2); `README/TypeScript/README.md` (4 rows, TS 5.9 era); `README/TypeScript/LOG.md` full Sessions 1–3; `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md` (7 sections, 13 leaves) + sample leaf `1.1. Object types structural shape and excess property checks` (anatomy verification); `README/TypeScript/03 Basic Types and Annotations/README.md` + `02 The Type System Core/README.md` (variance/overload prerequisites); `README/JavaScript/README.md` + `README/JavaScript/02 Functions/README.md` (JS runtime function mechanics for DRY boundary); verified disk via `find README/TypeScript -name "*.md"` (57 files: 4 domain indexes + 52 leaves? 4*13=52 but 39+13=52? Actually 13*4=52 leaves + 4 indexes + track + LOG = 58 minus one? verified via ls -R) + `git log --oneline -10` + `git status` clean (branch ahead 10)
+- Recovery verification (PROMPT.md:165):
+  - Last entry Session 3 Status is DONE (not IN PROGRESS/PARTIAL) — no dangling recovery block. Verification of Done bullets against disk: 13 leaf files claimed in Domain 04 → 13 leaf files exist on disk (`find README/TypeScript/04* -name "*.md"` 14 including index); track README has 4 rows (claimed 4) — matches; 7 section folders in 04 verified via `ls -R` (7 exist: 1. Object Type Fundamentals, 2. Composition and Declaration Merging, 3. Advanced Object Types, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid); link checker claim 0 `%20` inside angle links — spot-checked 10 random links literal-space form passes; filenames punctuation-clean. Trust disk over log: ✅ no discrepancies. No IN PROGRESS to resume — opening fresh Session 4 block per PROMPT.md:165.
+- Plan:
+  1. [unit 01] Create `README/TypeScript/05 Functions and Callable Types/README.md` (Template B, 7 sections, 13 leaf promises) + 7 `sections/M. Section name/` folders; update `README/TypeScript/README.md` to add row 5 `[Functions and Callable Types](<05 Functions and Callable Types/README.md>)` so track still has only resolving links.
+  2. [unit 02] Create leaf `05/sections/1. Function Type Fundamentals/1.1. Function type syntax call signatures and callable objects.md`
+  3. [unit 03] Create leaf `05/sections/1. Function Type Fundamentals/1.2. Parameters optional default rest and destructuring.md`
+  4. [unit 04] Create leaf `05/sections/1. Function Type Fundamentals/1.3. Return types void never and contextual inference.md`
+  5. [unit 05] Create leaf `05/sections/2. Overloads and Generics/2.1. Function overloads call signatures and implementation compatibility.md`
+  6. [unit 06] Create leaf `05/sections/2. Overloads and Generics/2.2. Generic functions inference constraints defaults and scope.md`
+  7. [unit 07] Create leaf `05/sections/2. Overloads and Generics/2.3. Rest parameters tuple types and variadic composition.md`
+  8. [unit 08] Create leaf `05/sections/3. Advanced Callable Patterns/3.1. this parameter explicit typing and arrow vs function capture.md`
+  9. [unit 09] Create leaf `05/sections/3. Advanced Callable Patterns/3.2. Callback variance strictFunctionTypes and bivariance pitfalls.md`
+  10. [unit 10] Create leaf `05/sections/3. Advanced Callable Patterns/3.3. Type guards predicates asserts and satisfies on functions.md`
+  11. [unit 11] Create leaf `05/sections/4. Important points to remember/4.1. Functions checklist mental models mentors insist on.md`
+  12. [unit 12] Create leaf `05/sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by function type misunderstandings.md`
+  13. [unit 13] Create leaf `05/sections/6. Interview questions and answers/6.1. Common interview QA functions and callable types.md`
+  14. [unit 14] Create leaf `05/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md`
+  15. Final verification: DoD walk, link checker (0 broken among existing, 0 `%20`), `tsc --strict` per leaf, DRY grep, format check; flip Status to DONE with Next steps (Domain 06).
+- Research notes (PROMPT.md:132 step 3):
+  - TypeScript Handbook: Functions (handbook/2/functions), Call Signatures, Overloads, `this` parameter, Rest Parameters, Generics, Type Predicates (`is`), Assertion Signatures (`asserts`), `satisfies` on callables. Release notes: `strictFunctionTypes` (TS 2.6), `useUnknownInCatchVariables`, `erasableSyntaxOnly` (TS 5.8) impact on function type syntax (all erasable). Roadmap.sh TypeScript — functions before classes/objects; overloads before generics.
+  - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
+  - DRY grep before each leaf: search repo for `call signature|overload.*implementation|strictFunctionTypes|type predicate|asserts.*is` — TypeScript 02 covers variance generally, 04 covers objects; this domain owns callable-specific model, no duplication. JavaScript 02 Functions owns runtime mechanics (closure, `this` binding, hoisting) — this domain owns static callable types only.
+- Done:
+  - [unit 01] Created domain 05 index `README/TypeScript/05 Functions and Callable Types/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 5 so only resolving links remain — verified 7 folders exist, track 5 rows resolve
+- Decisions:
+  - Domain 05 shape: 13-leaf (3+3+3 topical + 4 meta) to match 01–04 density; section 1 owns param/return fundamentals, section 2 owns overloads/generics/variadic, section 3 owns this/variance/guards — late sections are real leaves per §86. Track README lists only implemented modules (now 5 rows) per §2 so every link resolves.
+- Files touched:
+  - Created: `README/TypeScript/05 Functions and Callable Types/README.md`; 7 section directories under `README/TypeScript/05 Functions and Callable Types/sections/` (1. Function Type Fundamentals, 2. Overloads and Generics, 3. Advanced Callable Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
+  - Modified: `README/TypeScript/README.md` (added row 5), `README/TypeScript/LOG.md` (opened Session 4 IN PROGRESS + unit 01 Done)
+- Links fixed / added:
+  - Added row 5 link `[Functions and Callable Types](<05 Functions and Callable Types/README.md>)` (angle-bracket literal-space, resolves); domain README 21 links (13 leaf + 8 prerequisite/overlap) — 5 prerequisite links verified resolving where target exists; 0 `%20`
+- Verification:
+  - Track README row 5 resolves; 7 section folders exist; domain index heading prefixes 7 sections match folder names; filenames punctuation-clean 0/13 yet (index only)
+- Next steps:
+  - Continue Session 4 units 02–14 (leaves 1.1→7.1) in order; after each leaf update LOG in place + git commit per PROMPT §6.4; final verification then flip Status to DONE with Next steps (Domain 06).
