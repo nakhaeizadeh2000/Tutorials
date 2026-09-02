@@ -153,14 +153,17 @@
   - DRY grep before each leaf: search repo for `interface.*extends|type alias.*intersection|declaration merging|index signature|excess property` — TypeScript 01/02 mention interfaces only in ToC; 03 owns primitives/specials only; JavaScript 06 owns runtime object mechanics (descriptor, prototype) — this domain owns static object-type model, no duplication.
 - Done:
   - [unit 01] Created domain 04 index `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 4 so only resolving links remain — committed as `feat(typescript): add 04 Objects Interfaces domain index`
+  - [unit 02] Created leaf `04/sections/1. Object Type Fundamentals/1.1. Object types structural shape and excess property checks.md` (structural shape + width/depth, freshness heuristic, satisfies vs as vs wider target; runnable width, depth, freshness leak, satisfies table) — verified `tsc --strict` ok on 5 fences; 0 broken links inside leaf among existing targets
 - Decisions:
   - Section names avoid commas for filesystem safety (same pattern as Domain 03 `3. Annotations Inference and Literals`) — bullets still describe commas parenthetically. Chose 13-leaf shape (3+3+3 topical + 4 meta) to match Domains 01–03 density and avoid on-disk `10.` prefix issues.
 - Files touched:
-  - Created: `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md`; 7 section directories under `README/TypeScript/04 Objects Interfaces and Type Aliases/sections/` (1. Object Type Fundamentals, 2. Composition and Declaration Merging, 3. Advanced Object Types, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
-  - Modified: `README/TypeScript/README.md` (added row 4), `README/TypeScript/LOG.md` (opened Session 3 IN PROGRESS + unit 01 Done)
+  - Created: `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md`; 7 section directories under `README/TypeScript/04 Objects Interfaces and Type Aliases/sections/` (1. Object Type Fundamentals, 2. Composition and Declaration Merging, 3. Advanced Object Types, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid); `04/sections/1. Object Type Fundamentals/1.1. Object types structural shape and excess property checks.md` (unit 02 complete)
+  - Modified: `README/TypeScript/README.md` (added row 4), `README/TypeScript/LOG.md` (opened Session 3 IN PROGRESS + units 01–02 Done)
 - Links fixed / added:
-  - Added row 4 link `[Objects, Interfaces and Type Aliases](<04 Objects Interfaces and Type Aliases/README.md>)` (angle-bracket literal-space, resolves); domain README 18 links (13 leaf + 5 prerequisite/overlap) — 13 leaf links are placeholders until leaves land (expected broken); 5 prerequisite links verified resolving where target exists; fixed `%20` → literal-space in overlap forwards (02 %20 not present after correction)
+  - Added row 4 link `[Objects, Interfaces and Type Aliases](<04 Objects Interfaces and Type Aliases/README.md>)` (angle-bracket literal-space, resolves); domain README 18 links (13 leaf + 5 prerequisite/overlap) — 13 leaf links are placeholders until leaves land (expected broken); 5 prerequisite links verified resolving where target exists; fixed `%20` → literal-space in overlap forwards
+  - Leaf 1.1 cross-links: 02 1.1, 02 1.2, 01 2.1, JS 06, 03 3.1/3.3, 04 1.3/2.1/3.3 — angle-bracket literal-space, verified resolving where target exists
 - Verification:
   - Track README row 4 resolves; 7 section folders exist; domain index heading prefixes 7 sections match section names; filenames punctuation-clean
+  - Leaf 1.1: `tsc --strict` on 5 fences exit 0; heading `## 1.1.` matches filename; 3 promises ↔ 3 `### k)` sections 1:1; no `%20` inside leaf
 - Next steps:
-  - Continue Session 3: units 02–12 (leaves 1.1→7.1) one by one, updating LOG.md + git commit per unit
+  - Continue Session 3: units 03–12 (leaves 1.2→7.1) one by one, updating LOG.md + git commit per unit
