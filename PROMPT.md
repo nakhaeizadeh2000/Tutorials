@@ -2,7 +2,7 @@
 
 **How to use:** When you start any new chat/agent session to create or extend a tutorial here, open with:
 
-> Read `PROMPT.md` and follow it exactly. Task: **\<your task\>** (e.g., “add a Python track”, “extend the C# LINQ domain with section 11 about …”).
+> Read `PROMPT.md` and follow it exactly. Task: **\<your task\>** (e.g., “add a Python track”, “extend the JavaScript Arrays domain with section 11 about …”).
 
 Everything below is binding. If this file conflicts with an ad-hoc request, follow the request but record the deviation in the track `LOG.md`.
 
@@ -12,19 +12,19 @@ Everything below is binding. If this file conflicts with an ad-hoc request, foll
 
 This repository hosts deep, production-grade tutorials for languages, technologies, and frameworks — zero-to-hero and beyond (senior, expert, mentor depth). Every tutorial must:
 
-- Follow the **latest stable version** of the subject and current industry best practices (verify against official documentation and reputable sources when unsure; label version-specific claims, e.g. “as of C# 15 era”).
-- Serve the full audience ladder: **junior** (clear fundamentals, plain definitions, runnable examples) → **mid** (idiomatic usage, patterns) → **senior** (design trade-offs, performance, testing) → **expert** (runtime/internals, edge cases, AOT/JIT/GC-level realities) → **mentor** (how to teach it, review checklists, API-design guidance, interview Q&A).
+- Follow the **latest stable version** of the subject and current industry best practices (verify against official documentation and reputable sources when unsure; label version-specific claims, e.g. “as of ECMAScript 2026 era”).
+- Serve the full audience ladder: **junior** (clear fundamentals, plain definitions, runnable examples) → **mid** (idiomatic usage, patterns) → **senior** (design trade-offs, performance, testing) → **expert** (runtime/internals, edge cases, JIT/GC/engine-level realities) → **mentor** (how to teach it, review checklists, API-design guidance, interview Q&A).
 - Teach **good practices AND bad practices**: every anti-pattern shown must explain *why* it hurts (correctness, performance, maintainability) and what to do instead.
 - Embed **SOLID, clean-code, and DRY principles** — both *in the content taught* and *in how the documentation itself is organized*.
 - Be **boilerplate-free**: never rewrite or duplicate content that exists elsewhere in the repo. Link to it instead (see §5).
 
-## 2. Repository layout contract (match the existing C# track exactly)
+## 2. Repository layout contract (match the existing JavaScript track exactly)
 
 ```text
 README.md                                  ← root index: intro + Categories table linking each track
 PROMPT.md                                  ← this file (never edit while executing a task; propose changes in LOG instead)
 README/
-  <Track>/                                 ← e.g. CSharp, Python, TypeScript (no spaces in track folder name)
+  <Track>/                                 ← e.g. JavaScript, TypeScript, Python (no spaces in track folder name)
     README.md                              ← track index: ordered module table (see template A)
     LOG.md                                 ← append-only work log (see §7) — REQUIRED for every track
     DOCUMENTATION_*.md                     ← optional generated reports
@@ -37,7 +37,7 @@ README/
           ...
 ```
 
-Version-feature modules (when applicable) follow the C# pattern: dedicated index folders `Update <Subject> <Version>/` listed at the end of the track table, each pointing into topical domains instead of duplicating them.
+Version-feature modules (when applicable) follow the JavaScript pattern: dedicated index folders `Update ECMAScript <Year>/` listed at the end of the track table, each pointing into topical domains instead of duplicating them.
 
 ### Template A — track index (`README/<Track>/README.md`)
 
@@ -171,6 +171,6 @@ Rules:
 
 - Headings mirror numbering (`## 3.` / `### 3.2.` / `### 2)` inside leaves); no orphan headings.
 - Bold lead labels + parentheticals for bullets; tables for enumerations; `---` between major sections.
-- Code fences tagged with the real language (`csharp`, `python`, …); comments in examples teach, not decorate.
+- Code fences tagged with the real language (`javascript`, `typescript`, …); comments in examples teach, not decorate.
 - Filenames: no colons, question marks, ampersands, commas, or parentheses; spaces allowed; keep the `M.k. ` numeric prefix.
 - Tone: direct, technical, opinionated-with-justification. No marketing fluff, no filler intros/outros.
