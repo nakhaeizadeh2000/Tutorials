@@ -32,7 +32,13 @@
       "mkdir *": "allow",
       "node *": "allow",
       "npm *": "allow",
-      "npx *": "allow"
+      "npx *": "allow",
+      "python": "allow",
+      "python *": "allow",
+      "python3": "allow",
+      "python3 *": "allow",
+      "pip *": "allow",
+      "pip3 *": "allow"
     },
     "edit": "allow",
     "read": "allow",
