@@ -5,9 +5,11 @@ Tutorials about languages, technologies, and frameworks — from zero to hero an
 # Use this to Extend the Tutorials via AI chat/agents
 use these prompts in proper places:
 `Give me a git commit message of changes we made`,
-`Read PROMPT.md and follow it exactly. Task:...`,
+`Read PROMPT.md and follow it exactly. Task:...` (classic — still works, AGENTS.md enforces PROMPT.md automatically),
 `Read PROMPT.md and follow it exactly. Task: Lets add a new tutorial for pure JS language.`,
-`Read PROMPT.md and follow it exactly. Task: add JavaScript domain 05`
+`Read PROMPT.md and follow it exactly. Task: add JavaScript domain 05`,
+`/tutorial lets deep dive into TypeScript track` (harness shortcut — runs tutorial-builder skill loop),
+`/tutorial-continue` (resume last IN PROGRESS/PARTIAL session from LOG.md Next steps)
 
 ## Categories
 
