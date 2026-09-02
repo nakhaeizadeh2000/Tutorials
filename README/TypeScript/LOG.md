@@ -94,6 +94,7 @@
   - DRY grep before each leaf: search repo for `any vs unknown|never.*exhaust|const assertion|strictNullChecks|widening` — TypeScript 01/02 mention these only in passing; no full treatment yet, so Domain 03 owns them.
 - Done:
   - [unit 01] Created domain 03 index `README/TypeScript/03 Basic Types and Annotations/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 3 so only resolving links remain — committed as `feat(typescript): add 03 Basic Types domain index`
+  - [unit 02] Created leaf `03/sections/1. The Primitive Family/1.1. string number boolean and the wrapper pitfall.md` (workhorses vs wrappers, widening teaser, good vs bad Map-key bug) — verified `tsc --strict` ok; wrapper `String` correctly flagged by mental lint rule, widening example errors as intended
 - Decisions:
   - Section names avoid commas for filesystem safety (`3. Annotations Inference and Literals` not `3. Annotations, Inference and Literals`) per PROMPT.md:175; index bullets still describe commas parenthetically.
   - Track README lists only implemented modules (now 3 rows) per §2 so every link resolves; forward references to domains 04/07/08/09/11/13 remain textual until those domains land.
