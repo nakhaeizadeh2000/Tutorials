@@ -4,7 +4,7 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ## 0. Prerequisites
 
-[01 Fundamentals and Mental Model](<../01%20Fundamentals%20and%20Mental%20Model/README.md>) — especially [2.1. Type erasure](<../01%20Fundamentals%20and%20Mental%20Model/sections/2.%20How%20TypeScript%20doesnt%20execute/2.1.%20Type%20erasure%20what%20survives%20compilation.md>) (erasure) and [1.3. Superset, soundness](<../01%20Fundamentals%20and%20Mental%20Model/sections/1.%20What%20TypeScript%20is/1.3.%20Superset%20soundness%20and%20the%20type%20system%20flavor.md>) (structural, sound vs useful). JavaScript object model from [JavaScript 06 Objects in Depth](<../../JavaScript/06%20Objects%20in%20Depth/README.md>).
+[01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>) — especially [2.1. Type erasure](<../01 Fundamentals and Mental Model/sections/2. How TypeScript doesnt execute/2.1. Type erasure what survives compilation.md>) (erasure) and [1.3. Superset, soundness](<../01 Fundamentals and Mental Model/sections/1. What TypeScript is/1.3. Superset soundness and the type system flavor.md>) (structural, sound vs useful). JavaScript object model from [JavaScript 06 Objects in Depth](<../../JavaScript/06 Objects in Depth/README.md>).
 
 ## 1. Structural typing
 
@@ -111,7 +111,7 @@ The type system underneath the syntax: structural assignability, the separation 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
 1. **JavaScript mechanics** — [JavaScript track](<../../JavaScript/README.md>).
-2. **Basic type inventory** (`string`, `number`, `any`/`unknown`/`never`/`void`, literal types) — [03 Basic Types and Annotations](../03%20Basic%20Types%20and%20Annotations/README.md) (textual forward until it lands).
-3. **Utility types and type transformations** (mapped, conditional, `infer`, template literals) — [09 Utility Types and Type Transformations](../09%20Utility%20Types%20and%20Type%20Transformations/README.md) (textual).
-4. **Configuration and variance flags** (`strictFunctionTypes`, `strictPropertyInitialization`) — [13 Configuration and Compiler Options](../13%20Configuration%20and%20Compiler%20Options/README.md) (textual).
+2. **Basic type inventory** (`string`, `number`, `any`/`unknown`/`never`/`void`, literal types) — [03 Basic Types and Annotations](../03 Basic Types and Annotations/README.md) (textual forward until it lands).
+3. **Utility types and type transformations** (mapped, conditional, `infer`, template literals) — [09 Utility Types and Type Transformations](../09 Utility Types and Type Transformations/README.md) (textual).
+4. **Configuration and variance flags** (`strictFunctionTypes`, `strictPropertyInitialization`) — [13 Configuration and Compiler Options](../13 Configuration and Compiler Options/README.md) (textual).
 

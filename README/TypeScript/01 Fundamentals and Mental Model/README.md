@@ -1,10 +1,10 @@
 # Fundamentals and Mental Model
 
-The map before the territory: what TypeScript actually is, how its type system relates to JavaScript, how compilation and type erasure work, and how to run TypeScript today. Everything later in this track builds on these mental models. Assumes you can already read and write JavaScript — for language fundamentals see the [JavaScript track](<../JavaScript/README.md>).
+The map before the territory: what TypeScript actually is, how its type system relates to JavaScript, how compilation and type erasure work, and how to run TypeScript today. Everything later in this track builds on these mental models. Assumes you can already read and write JavaScript — for language fundamentals see the [JavaScript track](<../../JavaScript/README.md>).
 
 ## 0. Prerequisites
 
-JavaScript fundamentals (values, scope, closures, prototypes, async) — covered in [JavaScript 01 Fundamentals](<../JavaScript/01 Fundamentals and Mental Model/README.md>) through [JavaScript 05 Functions Deep Dive](<../JavaScript/05 Functions Deep Dive/README.md>). No prior TypeScript knowledge required.
+JavaScript fundamentals (values, scope, closures, prototypes, async) — covered in [JavaScript 01 Fundamentals](<../../JavaScript/01 Fundamentals and Mental Model/README.md>) through [JavaScript 05 Functions Deep Dive](<../../JavaScript/05 Functions Deep Dive/README.md>). No prior TypeScript knowledge required.
 
 ## 1. What TypeScript is
 
@@ -108,8 +108,8 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **JavaScript language mechanics** (values, scope, closures, prototypes, async) — [JavaScript track](<../JavaScript/README.md>).
+1. **JavaScript language mechanics** (values, scope, closures, prototypes, async) — [JavaScript track](<../../JavaScript/README.md>).
 2. **Deep type system mechanics** (structural typing details, variance, conditional types) — [02 The Type System Core](<../02 The Type System Core/README.md>).
-3. **Configuration deep dive** (`tsconfig` flags, project references) — [13 Configuration and Compiler Options](../13%20Configuration%20and%20Compiler%20Options/README.md) (textual forward reference until that domain lands).
-4. **Decorators and metadata** — [14 Decorators and Metadata](../14%20Decorators%20and%20Metadata/README.md) (textual).
+3. **Configuration deep dive** (`tsconfig` flags, project references) — [13 Configuration and Compiler Options](../13 Configuration and Compiler Options/README.md) (textual forward reference until that domain lands).
+4. **Decorators and metadata** — [14 Decorators and Metadata](../14 Decorators and Metadata/README.md) (textual).
 

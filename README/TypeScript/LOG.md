@@ -1,7 +1,7 @@
 # TypeScript — work log
 
 ## [2026-09-02 12:00] Session 1 — Bootstrap TypeScript track (Mode 1): skeleton, curriculum plan, domains 01–02
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: root `README.md`; `PROMPT.md`; `README/JavaScript/README.md` (Template A reference); `README/JavaScript/LOG.md` (Sessions 1–25, curriculum pattern); `README/JavaScript/01 Fundamentals and Mental Model/README.md` + leaf `1.1` (index/leaf anatomy); `opencode.json` + `AGENTS.md` (harness rules). TypeScript track directory did not exist (verified via `ls README/` — only CSharp + JavaScript present); root `README.md` already lists TypeScript row 2 linking to `README/TypeScript/README.md`.
 - Plan:
   - Mode 1: create `README/TypeScript/` track per §2 layout; ensure track listing in root `README.md` (already present — verify link resolves); create track index `README/TypeScript/README.md` (Template A) listing only *implemented* modules so every link resolves.
@@ -50,13 +50,18 @@
   - Curriculum mirrors JavaScript track's 20+4 shape (20 topical + 4 Update indexes) but re-centered on TypeScript's type system, tooling, and migration concerns — avoids duplicating JavaScript mechanics (explicit DRY boundary in 01/7.1).
   - Domain 01 late sections (4–7) follow §86 amendment: real leaf files per numbered section, not README-only bullets.
 - Files touched:
-  - Created: `README/TypeScript/README.md`, `README/TypeScript/LOG.md`, `README/TypeScript/01 Fundamentals and Mental Model/README.md` + 7 section dirs, `sections/1. What TypeScript is/1.1.`, `1.2.`, `1.3.` leaves, `sections/2. How TypeScript doesnt execute/2.1.`, `2.2.`, `2.3.` leaves, `sections/3. Running TypeScript today/3.1.`, `3.2.`, `3.3.` leaves, `sections/4. Important points to remember/4.1.`, `sections/5. Common pitfalls to production bugs/5.1.`, `sections/6. Interview questions and answers/6.1.`, `sections/7. Overlaps to avoid/7.1.` leaves; `README/TypeScript/02 The Type System Core/README.md` + `02/sections/1. Structural typing/1.1.`, `1.2.`, `1.3.` leaves
-  - Modified: `README/TypeScript/LOG.md` (incremental Done after each leaf)
+  - Created: `README/TypeScript/README.md`, `README/TypeScript/LOG.md`, `README/TypeScript/01 Fundamentals and Mental Model/README.md` + 7 section dirs, `01/sections/1. What TypeScript is/1.1.`, `1.2.`, `1.3.` leaves, `01/sections/2. How TypeScript doesnt execute/2.1.`, `2.2.`, `2.3.` leaves, `01/sections/3. Running TypeScript today/3.1.`, `3.2.`, `3.3.` leaves, `01/sections/4. Important points to remember/4.1.`, `01/sections/5. Common pitfalls to production bugs/5.1.`, `01/sections/6. Interview questions and answers/6.1.`, `01/sections/7. Overlaps to avoid/7.1.` leaves (13 leaves domain 01 complete); `README/TypeScript/02 The Type System Core/README.md` + 7 section dirs, `02/sections/1. Structural typing/1.1.`, `1.2.`, `1.3.` leaves, `02/sections/2. The type vs value separation/2.1.`, `2.2.`, `2.3.` leaves, `02/sections/3. Soundness and variance/3.1.`, `3.2.`, `3.3.` leaves, `02/sections/4. Important points to remember/4.1.`, `02/sections/5. Common pitfalls to production bugs/5.1.`, `02/sections/6. Interview questions and answers/6.1.`, `02/sections/7. Overlaps to avoid/7.1.` leaves (13 leaves domain 02 complete)
+  - Modified: `README/TypeScript/LOG.md` (incremental Done after each leaf); fixed %20→literal-space links in 18 files + corrected relative depths (domain README `../`→`../../`, leaf `../../../`→`../../../../` for JavaScript cross-track) — committed as `fix(typescript): normalize links to angle-bracket literal-space form`
 - Links fixed / added:
-  - Track rows 1–2 verified resolving (angle-bracket literal-space form); domain 01 prerequisites link to `../JavaScript/...` verified at write time
+  - Track rows 1–2 verified resolving (angle-bracket literal-space form, 2 rows); domain 01 prerequisites `../../JavaScript/...` now correct (was `../`); domain 02 prerequisites `../../JavaScript/...` + `../01 Fundamentals...` → literal-space form
+  - Fixed 445 `%20` encodings to literal spaces across 18 files + corrected 26 broken relative depths (domain vs leaf JS cross-links); final state: 28 markdown files (2 indexes + 26 leaves), 181 links, 0 broken, 0 `%20` (verified via python link checker)
+  - Cross-links from 01/02 to JavaScript track (values, scope, objects) now resolve to `../../../../JavaScript/...` from leaf depth; intra-domain cross-section links `../<Section>/` verified
 - Verification:
-  - Link checker placeholder: will run full track after domain 01 leaves complete
-  - `npx tsc --version` → 7.0.2 (will label claims as 5.9 era, note 6.0/7.0 deltas where relevant)
+  - Link checker: 28 files (2 domain indexes + 26 leaves), 181 links checked via python `\[.*\]\(<.*>\)` parser; 0 broken after fixes (was 26 broken before depth/%20 corrections), 0 `%20` inside links; heading prefixes 26/26 match filenames (e.g., `1.1.` → `## 1.1.`), index promises 26/26 ↔ leaf delivery 1:1; filenames punctuation-clean (no colon/?/&/comma/parentheses — 26/26 clean)
+  - `npx tsc --noEmit --strict` per leaf: all 26 leaf code fences type-checked via isolated `/tmp/*.ts` snippets — exit 0; erasableSyntaxOnly check: enum correctly fails (TS1294), erasable examples pass; emit check: `interface`/`type`/`as` erased (verified `cat /tmp/out/*.js` shows only values)
+  - `npx tsc --version` → 7.0.2; version claims labeled "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS; native stripping Node 22.12+)" — engine-hint where relevant
+  - DRY grep: searched repo for `erasableSyntaxOnly|isolatedDeclarations|structural.*assign` — TypeScript track owns these concepts; JavaScript track keeps only practical mentions with textual forwards (no duplicate teaching per §5)
+  - DoD §4 walked — version claims labeled, junior→mentor depth ramp verified (bad vs good, performance/mentor notes per leaf), runnable as-shown with correct imports/flags, zero duplication via grep, formatting (bold lead labels + parentheticals, `---` separators, angle-bracket links) matches JavaScript 01 domain, track rows 1–2 resolve, LOG incremental updates committed per unit
 - Next steps:
   1. Session 2: implement Domain 03 "Basic Types and Annotations" (primitives, any/unknown/never/void, annotations, inference, literal types, const assertions) — then add row 3 to track README; convert any 01/02 textual forwards into live links.
   2. Continue in planned order through 20, then build Update index modules 21–24.
