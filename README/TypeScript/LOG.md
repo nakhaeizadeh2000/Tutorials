@@ -293,11 +293,12 @@
   - DRY grep before each leaf: search repo for `class.*extends.*implements|parameter properties|private.*protected|abstract.*override|mixin.*class` — TypeScript 01 covers erasure, 02 covers structural/nominal, 04 covers object types, 05 covers function this/variance; this domain owns class-specific static model, no duplication. JavaScript 07 Prototypes and Classes owns runtime prototype/instance mechanics — this domain owns static class types only.
 - Done:
   - [unit 01] Created domain 06 index `README/TypeScript/06 Classes and Object-Oriented Types/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 6 so only resolving links remain — committed as `feat(typescript): add 06 Classes domain index`
+  - [unit 02] Created leaf `06/sections/1. Class Type Fundamentals/1.1. Class as type and value duality instance vs constructor.md` (dual declaration + instance vs static + construct signatures; runnable duality + bridge + factory) — verified `tsc --strict` ok on 6 fences; 0 `%20` among 24 links
 - Decisions:
   - Section names avoid commas for filesystem safety (same as 03 `3. Annotations Inference and Literals`) — bullets still describe commas parenthetically. Chose 13-leaf shape (3+3+3 topical + 4 meta) to match Domains 01–05 density.
 - Files touched:
-  - Created: `README/TypeScript/06 Classes and Object-Oriented Types/README.md`; 7 section directories under `README/TypeScript/06 Classes and Object-Oriented Types/sections/` (1. Class Type Fundamentals, 2. Inheritance and Polymorphism, 3. Advanced Class Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
-  - Modified: `README/TypeScript/README.md` (added row 6), `README/TypeScript/LOG.md` (opened Session 5 IN PROGRESS + unit 01 Done)
+  - Created: `README/TypeScript/06 Classes and Object-Oriented Types/README.md`; 7 section directories under `README/TypeScript/06 Classes and Object-Oriented Types/sections/` (1. Class Type Fundamentals, 2. Inheritance and Polymorphism, 3. Advanced Class Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid); `06/sections/1. Class Type Fundamentals/1.1. Class as type and value duality instance vs constructor.md` (unit 02 complete)
+  - Modified: `README/TypeScript/README.md` (added row 6), `README/TypeScript/LOG.md` (opened Session 5 IN PROGRESS + units 01–02 Done)
 - Links fixed / added:
   - Added row 6 link `[Classes and Object-Oriented Types](<06 Classes and Object-Oriented Types/README.md>)` (angle-bracket literal-space, resolves); domain README 22 links (13 leaf + 9 prerequisite/overlap) — 13 leaf links are placeholders until leaves land (expected broken); prerequisite links verified resolving where target exists; 0 `%20`
 - Verification:
