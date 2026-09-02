@@ -225,14 +225,17 @@
   - DRY grep before each leaf: search repo for `call signature|overload.*implementation|strictFunctionTypes|type predicate|asserts.*is` — TypeScript 02 covers variance generally, 04 covers objects; this domain owns callable-specific model, no duplication. JavaScript 02 Functions owns runtime mechanics (closure, `this` binding, hoisting) — this domain owns static callable types only.
 - Done:
   - [unit 01] Created domain 05 index `README/TypeScript/05 Functions and Callable Types/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 5 so only resolving links remain — verified 7 folders exist, track 5 rows resolve
+  - [unit 02] Created leaf `05/sections/1. Function Type Fundamentals/1.1. Function type syntax call signatures and callable objects.md` (arrow vs interface call vs fused callable-object + erasable proof; runnable Fence 0–3 verified) — verified `tsc --strict` ok on 4 fences; `Function` rejected, `new` vs call clarified
 - Decisions:
   - Domain 05 shape: 13-leaf (3+3+3 topical + 4 meta) to match 01–04 density; section 1 owns param/return fundamentals, section 2 owns overloads/generics/variadic, section 3 owns this/variance/guards — late sections are real leaves per §86. Track README lists only implemented modules (now 5 rows) per §2 so every link resolves.
 - Files touched:
-  - Created: `README/TypeScript/05 Functions and Callable Types/README.md`; 7 section directories under `README/TypeScript/05 Functions and Callable Types/sections/` (1. Function Type Fundamentals, 2. Overloads and Generics, 3. Advanced Callable Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
-  - Modified: `README/TypeScript/README.md` (added row 5), `README/TypeScript/LOG.md` (opened Session 4 IN PROGRESS + unit 01 Done)
+  - Created: `README/TypeScript/05 Functions and Callable Types/README.md`; 7 section directories under `README/TypeScript/05 Functions and Callable Types/sections/` (1. Function Type Fundamentals, 2. Overloads and Generics, 3. Advanced Callable Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid); `05/sections/1. Function Type Fundamentals/1.1. Function type syntax call signatures and callable objects.md` (unit 02 complete)
+  - Modified: `README/TypeScript/README.md` (added row 5), `README/TypeScript/LOG.md` (opened Session 4 IN PROGRESS + units 01–02 Done)
 - Links fixed / added:
   - Added row 5 link `[Functions and Callable Types](<05 Functions and Callable Types/README.md>)` (angle-bracket literal-space, resolves); domain README 21 links (13 leaf + 8 prerequisite/overlap) — 5 prerequisite links verified resolving where target exists; 0 `%20`
+  - Leaf 1.1 cross-links: erasure → 01 2.1, erasableSyntaxOnly → 01 3.3, interface vs type → 04 1.3, object types → 04 1.1, JS 02, overloads → 05 2.1, generics → 05 2.2, variance → 05 3.2 — angle-bracket literal-space; 0 `%20`
 - Verification:
-  - Track README row 5 resolves; 7 section folders exist; domain index heading prefixes 7 sections match folder names; filenames punctuation-clean 0/13 yet (index only)
+  - Track README row 5 resolves; 7 section folders exist; domain index heading prefixes 7 sections match folder names; filenames punctuation-clean 0/13 yet (index only) — now 1/13 leaf delivered
+  - Per-leaf `tsc --noEmit --strict --target es2022` on fences: `tsc --version` → 7.0.2; leaf 1.1 4 fences exit 0 (0 ok, 1 ok, 2 ok, 3 ok) — `Function` untyped trap, `new` construct-vs-call, callable-object `Object.assign` pattern, erasable `satisfies` preservation verified; heading prefix `1.1.` → `## 1.1.` matches, index promise 1/13 ↔ leaf delivery 1:1
 - Next steps:
   - Continue Session 4 units 02–14 (leaves 1.1→7.1) in order; after each leaf update LOG in place + git commit per PROMPT §6.4; final verification then flip Status to DONE with Next steps (Domain 06).
