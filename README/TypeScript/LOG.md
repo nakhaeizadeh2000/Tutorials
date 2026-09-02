@@ -152,8 +152,15 @@
   - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
   - DRY grep before each leaf: search repo for `interface.*extends|type alias.*intersection|declaration merging|index signature|excess property` — TypeScript 01/02 mention interfaces only in ToC; 03 owns primitives/specials only; JavaScript 06 owns runtime object mechanics (descriptor, prototype) — this domain owns static object-type model, no duplication.
 - Done:
+  - [unit 01] Created domain 04 index `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 4 so only resolving links remain — committed as `feat(typescript): add 04 Objects Interfaces domain index`
 - Decisions:
+  - Section names avoid commas for filesystem safety (same pattern as Domain 03 `3. Annotations Inference and Literals`) — bullets still describe commas parenthetically. Chose 13-leaf shape (3+3+3 topical + 4 meta) to match Domains 01–03 density and avoid on-disk `10.` prefix issues.
 - Files touched:
+  - Created: `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md`; 7 section directories under `README/TypeScript/04 Objects Interfaces and Type Aliases/sections/` (1. Object Type Fundamentals, 2. Composition and Declaration Merging, 3. Advanced Object Types, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
+  - Modified: `README/TypeScript/README.md` (added row 4), `README/TypeScript/LOG.md` (opened Session 3 IN PROGRESS + unit 01 Done)
 - Links fixed / added:
+  - Added row 4 link `[Objects, Interfaces and Type Aliases](<04 Objects Interfaces and Type Aliases/README.md>)` (angle-bracket literal-space, resolves); domain README 18 links (13 leaf + 5 prerequisite/overlap) — 13 leaf links are placeholders until leaves land (expected broken); 5 prerequisite links verified resolving where target exists; fixed `%20` → literal-space in overlap forwards (02 %20 not present after correction)
 - Verification:
+  - Track README row 4 resolves; 7 section folders exist; domain index heading prefixes 7 sections match section names; filenames punctuation-clean
 - Next steps:
+  - Continue Session 3: units 02–12 (leaves 1.1→7.1) one by one, updating LOG.md + git commit per unit

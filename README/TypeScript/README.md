@@ -7,6 +7,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 1 | [Fundamentals and Mental Model](<01 Fundamentals and Mental Model/README.md>) |
 | 2 | [The Type System Core](<02 The Type System Core/README.md>) |
 | 3 | [Basic Types and Annotations](<03 Basic Types and Annotations/README.md>) |
+| 4 | [Objects, Interfaces and Type Aliases](<04 Objects Interfaces and Type Aliases/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
