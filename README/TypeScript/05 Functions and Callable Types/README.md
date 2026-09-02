@@ -1,6 +1,6 @@
 # Functions and Callable Types
 
-How TypeScript types the only value that *does* something — functions and every callable shape: call signatures, parameter patterns, return-type contracts, overloads, `this` typing, generic callables, and the variance rules that govern callback safety. Runtime function mechanics (closure, `this` binding, hoisting) live in [JavaScript 02 Functions](<../../JavaScript/02 Functions/README.md>); this domain owns the static callable-type model.
+How TypeScript types the only value that *does* something — functions and every callable shape: call signatures, parameter patterns, return-type contracts, overloads, `this` typing, generic callables, and the variance rules that govern callback safety. Runtime function mechanics (closure, `this` binding, hoisting) live in [JavaScript 02 Functions](<../../JavaScript/05 Functions Deep Dive/README.md>); this domain owns the static callable-type model.
 
 ## 0. Prerequisites
 
@@ -110,7 +110,7 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **JavaScript runtime mechanics** (closure, hoisting, `this` binding, `arguments`) — [JavaScript 02 Functions](<../../JavaScript/02 Functions/README.md>).
+1. **JavaScript runtime mechanics** (closure, hoisting, `this` binding, `arguments`) — [JavaScript 02 Functions](<../../JavaScript/05 Functions Deep Dive/README.md>).
 2. **Classes and `this` in OO** (constructors, private fields, method decorators) — [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>) (textual forward).
 3. **Unions, intersections, and narrowing at call sites** (discriminated unions, control-flow narrowing) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>) (textual forward).
 4. **Generics deep dive** (variance with `in`/`out`, conditional types, `infer` on functions) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) (textual forward; this domain only covers generics *on callables*).
