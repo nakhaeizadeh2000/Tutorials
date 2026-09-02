@@ -3,12 +3,18 @@
   "instructions": ["AGENTS.md", "PROMPT.md"],
   "permission": {
     "bash": {
+      "*": "ask",
       "git *": "allow",
       "ls *": "allow",
+      "cat *": "allow",
+      "head *": "allow",
+      "tail *": "allow",
+      "wc *": "allow",
+      "grep *": "allow",
+      "find *": "allow",
       "node *": "allow",
       "npm *": "allow",
-      "npx *": "allow",
-      "*": "ask"
+      "npx *": "allow"
     },
     "edit": "allow",
     "read": "allow",
