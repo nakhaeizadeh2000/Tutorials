@@ -265,3 +265,41 @@
   1. Session 5: implement Domain 06 "Classes and Object-Oriented Types" (class types, constructors, modifiers, abstract, `this` in OO, mixins) — then add row 6 to track README; convert textual forwards `06` in 04/05 into live links.
   2. Continue in planned order: 07 Unions/Intersections/Narrowing → 08 Generics → 09 Utility Types → 10 Arrays/Tuples → 11 Enums/Literals → 12 Modules → 13 Configuration → 14 Decorators → 15 Strictness → 16 Tooling → 17 Testing Types → 18 Async/Stdlib → 19 Performance/Project Refs → 20 Production/Migration → 21–24 Update indexes.
   3. When domains 06–13 land, sweep 01–05 leaves for forward-reference conversion (especially `06`, `07`, `08`, `09`, `13` mentions) and verify link checker 0 broken among existing.
+
+## [2026-09-02 17:00] Session 5 — Implement Domain 06 Classes and Object-Oriented Types
+- Status: IN PROGRESS
+- Context read: `PROMPT.md` (full §1–§8); root `README.md` (Categories table, TypeScript row 2); `README/TypeScript/README.md` (5 rows, TS 5.9 era); `README/TypeScript/LOG.md` full Sessions 1–4; `README/TypeScript/04 Objects Interfaces and Type Aliases/README.md` (7 sections, 13 leaves) + `README/TypeScript/05 Functions and Callable Types/README.md` (7 sections, 13 leaves) + sample leaf `04/1.1` (anatomy verification); `README/JavaScript/README.md` + `README/JavaScript/07 Prototypes and Classes/README.md` (JS runtime class/prototype mechanics for DRY boundary); verified disk via `find README/TypeScript -name "*.md"` (72 files: 5 domain indexes + 65 leaves + track README + LOG) + `git log --oneline -10` + `git status` clean (branch ahead 14)
+- Recovery verification (PROMPT.md:165):
+  - Last entry Session 4 Status is DONE (not IN PROGRESS/PARTIAL) — no dangling recovery block. Verification of Done bullets against disk: 13 leaf files claimed in Domain 05 → 13 leaf files exist on disk (`find README/TypeScript/05* -name "*.md"` 14 including index); track README has 5 rows (claimed 5) — matches; 7 section folders in 05 verified via `ls -R` (7 exist: 1. Function Type Fundamentals, 2. Overloads and Generics, 3. Advanced Callable Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid); link checker claim 0 `%20` inside angle links — spot-checked 10 random links literal-space form passes; filenames punctuation-clean. Trust disk over log: ✅ no discrepancies. No IN PROGRESS to resume — opening fresh Session 5 block per PROMPT.md:165.
+- Plan:
+  1. [unit 01] Create `README/TypeScript/06 Classes and Object-Oriented Types/README.md` (Template B, 7 sections, 13 leaf promises) + 7 `sections/M. Section name/` folders; update `README/TypeScript/README.md` to add row 6 `[Classes and Object-Oriented Types](<06 Classes and Object-Oriented Types/README.md>)` so track still has only resolving links.
+  2. [unit 02] Create leaf `06/sections/1. Class Type Fundamentals/1.1. Class as type and value duality instance vs constructor.md`
+  3. [unit 03] Create leaf `06/sections/1. Class Type Fundamentals/1.2. Constructors parameter properties and instance creation.md`
+  4. [unit 04] Create leaf `06/sections/1. Class Type Fundamentals/1.3. Access modifiers and encapsulation public private protected readonly.md`
+  5. [unit 05] Create leaf `06/sections/2. Inheritance and Polymorphism/2.1. Extends implements and structural class compatibility.md`
+  6. [unit 06] Create leaf `06/sections/2. Inheritance and Polymorphism/2.2. Abstract classes and members when abstract beats interface.md`
+  7. [unit 07] Create leaf `06/sections/2. Inheritance and Polymorphism/2.3. Override and polymorphic this typing.md`
+  8. [unit 08] Create leaf `06/sections/3. Advanced Class Patterns/3.1. Static members generics and static blocks.md`
+  9. [unit 09] Create leaf `06/sections/3. Advanced Class Patterns/3.2. Mixins and class composition without inheritance.md`
+  10. [unit 10] Create leaf `06/sections/3. Advanced Class Patterns/3.3. Class type queries InstanceType and constructor signatures.md`
+  11. [unit 11] Create leaf `06/sections/4. Important points to remember/4.1. Classes checklist mental models mentors insist on.md`
+  12. [unit 12] Create leaf `06/sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by class type misunderstandings.md`
+  13. [unit 13] Create leaf `06/sections/6. Interview questions and answers/6.1. Common interview QA classes and object-oriented types.md`
+  14. [unit 14] Create leaf `06/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md`
+  15. Final verification: DoD walk, link checker (0 broken among existing, 0 `%20`), `tsc --strict` per leaf, DRY grep, format check; flip Status to DONE with Next steps (Domain 07).
+- Research notes (PROMPT.md:132 step 3):
+  - TypeScript Handbook: Classes (handbook/2/classes), Constructors, `private`/`protected`/`public`/`readonly`, `#private` ECMAScript fields, `abstract`, `override`, `static` blocks (ES2022), `this` parameter in class methods, Generic Classes, Mixins (handbook/mixins), `InstanceType`/`ConstructorParameters` utility, `abstract` construct signatures. Release notes: `override` (TS 4.3), `static` blocks and `#private` (TS 4.4+), `erasableSyntaxOnly` (TS 5.8) — `private`/`abstract`/`override` are erasable, `enum` trap not in class domain. Roadmap.sh TypeScript — classes after functions/objects; unions/generics next.
+  - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
+  - DRY grep before each leaf: search repo for `class.*extends.*implements|parameter properties|private.*protected|abstract.*override|mixin.*class` — TypeScript 01 covers erasure, 02 covers structural/nominal, 04 covers object types, 05 covers function this/variance; this domain owns class-specific static model, no duplication. JavaScript 07 Prototypes and Classes owns runtime prototype/instance mechanics — this domain owns static class types only.
+- Done:
+  - [unit 01] Created domain 06 index `README/TypeScript/06 Classes and Object-Oriented Types/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 6 so only resolving links remain — committed as `feat(typescript): add 06 Classes domain index`
+- Decisions:
+  - Section names avoid commas for filesystem safety (same as 03 `3. Annotations Inference and Literals`) — bullets still describe commas parenthetically. Chose 13-leaf shape (3+3+3 topical + 4 meta) to match Domains 01–05 density.
+- Files touched:
+  - Created: `README/TypeScript/06 Classes and Object-Oriented Types/README.md`; 7 section directories under `README/TypeScript/06 Classes and Object-Oriented Types/sections/` (1. Class Type Fundamentals, 2. Inheritance and Polymorphism, 3. Advanced Class Patterns, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
+  - Modified: `README/TypeScript/README.md` (added row 6), `README/TypeScript/LOG.md` (opened Session 5 IN PROGRESS + unit 01 Done)
+- Links fixed / added:
+  - Added row 6 link `[Classes and Object-Oriented Types](<06 Classes and Object-Oriented Types/README.md>)` (angle-bracket literal-space, resolves); domain README 22 links (13 leaf + 9 prerequisite/overlap) — 13 leaf links are placeholders until leaves land (expected broken); prerequisite links verified resolving where target exists; 0 `%20`
+- Verification:
+  - Track README row 6 resolves; 7 section folders exist; domain index heading prefixes 7 sections match folder names; filenames punctuation-clean (13/13 placeholders)
+- Next steps: continue Session 5 units 02–14 sequentially per Plan; after 06 lands sweep 04/05 textual forwards `06` into live links and verify 0 broken among existing
