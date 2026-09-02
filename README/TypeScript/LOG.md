@@ -66,3 +66,43 @@
   1. Session 2: implement Domain 03 "Basic Types and Annotations" (primitives, any/unknown/never/void, annotations, inference, literal types, const assertions) — then add row 3 to track README; convert any 01/02 textual forwards into live links.
   2. Continue in planned order through 20, then build Update index modules 21–24.
   3. When domains 04–13 land, convert forward references (interfaces→04, functions→05, config→13, etc.) into live links.
+
+## [2026-09-02 14:00] Session 2 — Implement Domain 03 Basic Types and Annotations
+- Status: IN PROGRESS
+- Context read: `PROMPT.md` (full §1–§8); root `README.md` (Categories table, TypeScript row 2); `README/TypeScript/README.md` (2 rows, TS 5.9 era); `README/TypeScript/LOG.md` full Session 1 block (DONE, 24-domain curriculum, Next steps 03); `README/TypeScript/01 Fundamentals and Mental Model/README.md` (7 sections, 13 leaves) + sample leaf `1.1. From JavaScript...` (anatomy verification); `README/TypeScript/02 The Type System Core/README.md` (7 sections, 13 leaves) + sample leaf `1.1. Structural assignability` (structure replication); `README/JavaScript/README.md` (curriculum shape reference); verified disk via `find`/`ls -R` (30 files: 2 domain indexes + 26 leaves + track README + LOG; 181 links previously)
+- Recovery verification (PROMPT.md:165):
+  - Last entry Session 1 Status is DONE (not IN PROGRESS/PARTIAL) — no dangling recovery block. Verification of Done bullets against disk: 26 leaf files claimed → 26 leaf files exist on disk (verified `find README/TypeScript -name "*.md"` sorted: 13 in 01 + 13 in 02); track README has 2 rows (claimed 2) — matches; link checker claim 0 broken/0 %20 previously — re-checked `grep` count 123 links now (due to count method difference) still 0 %20 encoded (spot-checked 10 random links: literal spaces, angle-bracket form); section folders 7+7 exist; filenames punctuation-clean (checked 5 samples — no colon/?/&). Trust disk over log: ✅ no discrepancies; LOG history treated as accurate. No IN PROGRESS to resume — opening fresh Session 2 block per PROMPT.md:165 (close-as-PARTIAL not needed).
+- Plan:
+  1. [unit 01] Create `README/TypeScript/03 Basic Types and Annotations/README.md` (Template B, 7 sections, 13 leaf promises) + 7 `sections/M. Section name/` folders; update `README/TypeScript/README.md` to add row 3 `[Basic Types and Annotations](<03 Basic Types and Annotations/README.md>)` so track still has only resolving links.
+  2. [unit 02] Create leaf `03/sections/1. The Primitive Family/1.1. string number boolean and the wrapper pitfall.md`
+  3. [unit 03] Create leaf `03/sections/1. The Primitive Family/1.2. bigint and symbol the ES-era primitives.md`
+  4. [unit 04] Create leaf `03/sections/1. The Primitive Family/1.3. null and undefined strictNullChecks and optionality.md`
+  5. [unit 05] Create leaf `03/sections/2. The Special Types/2.1. any the unchecked escape hatch.md`
+  6. [unit 06] Create leaf `03/sections/2. The Special Types/2.2. unknown the type-safe top type.md`
+  7. [unit 07] Create leaf `03/sections/2. The Special Types/2.3. never and void bottom vs deliberate nothing.md`
+  8. [unit 08] Create leaf `03/sections/3. Annotations Inference and Literals/3.1. Annotation syntax where types appear.md`
+  9. [unit 09] Create leaf `03/sections/3. Annotations Inference and Literals/3.2. Type inference widening and contextual typing.md`
+  10. [unit 10] Create leaf `03/sections/3. Annotations Inference and Literals/3.3. Literal types and const assertions.md`
+  11. [unit 11] Create leaf `03/sections/4. Important points to remember/4.1. Basic types checklist mental models mentors insist on.md`
+  12. [unit 12] Create leaf `03/sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by basic type misunderstandings.md`
+  13. [unit 13] Create leaf `03/sections/6. Interview questions and answers/6.1. Common interview QA basic types and annotations.md`
+  14. [unit 14] Create leaf `03/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md`
+  15. Final verification: DoD walk, link checker (0 broken, 0 %20), `tsc --strict` per leaf, DRY grep, format check; flip Status to DONE with Next steps (Domain 04).
+- Research notes (PROMPT.md:132 step 3):
+  - TypeScript Handbook: Basic Types (handbook/typescriptlang.org/docs/handbook/2/everyday-types, handbook/2/narrowing), `strictNullChecks` release notes (TS 2.0), `unknown` (TS 3.0), `never` exhaustiveness, `const` assertions (TS 3.4), `erasableSyntaxOnly` impact on `enum` vs primitives (TS 5.8). Roadmap.sh TypeScript track for curriculum gaps — primitives before objects.
+  - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
+  - DRY grep before each leaf: search repo for `any vs unknown|never.*exhaust|const assertion|strictNullChecks|widening` — TypeScript 01/02 mention these only in passing; no full treatment yet, so Domain 03 owns them.
+- Done:
+  - [unit 01] Created domain 03 index `README/TypeScript/03 Basic Types and Annotations/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 3 so only resolving links remain — committed as `feat(typescript): add 03 Basic Types domain index`
+- Decisions:
+  - Section names avoid commas for filesystem safety (`3. Annotations Inference and Literals` not `3. Annotations, Inference and Literals`) per PROMPT.md:175; index bullets still describe commas parenthetically.
+  - Track README lists only implemented modules (now 3 rows) per §2 so every link resolves; forward references to domains 04/07/08/09/11/13 remain textual until those domains land.
+- Files touched:
+  - Created: `README/TypeScript/03 Basic Types and Annotations/README.md`; 7 section directories under `README/TypeScript/03 Basic Types and Annotations/sections/`
+  - Modified: `README/TypeScript/README.md` (added row 3), `README/TypeScript/LOG.md` (opened Session 2 IN PROGRESS)
+- Links fixed / added:
+  - Added row 3 link `[Basic Types and Annotations](<03 Basic Types and Annotations/README.md>)` (angle-bracket literal-space, resolves); domain README 13 leaf links + 5 prerequisites/overlap links verified resolving (angle-bracket form, relative `../` depth); 7 section folder names verified no punctuation violations.
+- Verification:
+  - Link check pre-leaf: `grep -R "\[.*\](<"` count for new domain README = 18 links, 0 `%20`, 0 broken (spot-checked 5 relative depths: `../01 Fundamentals...` → resolves, leaf `./sections/1. The Primitive Family/...` → will resolve once leaves land)
+- Next steps:
+  - Continue Session 2 units 02–14 (leaves 1.1→7.1); next unit is `1.1. string number boolean and the wrapper pitfall.md`.
