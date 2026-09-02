@@ -39,11 +39,12 @@
   - [unit 03] Created leaf `01/1.1. From JavaScript to TypeScript history superset claim and why it exists.md` (superset/history/why+good vs bad runnable) — verified with `tsc --strict` ok
   - [unit 04] Created leaves `01/1.2. Design goals and non-goals.md` + `01/1.3. Superset soundness and the type system flavor.md` (goals/non-goals table, structural vs nominal, soundness holes + good/bad runnable) — verified `tsc --strict` ok + emit shows erasure
   - [unit 05] Created section 2 leaves `01/2.1. Type erasure`, `01/2.2. Static vs runtime`, `01/2.3. Language server` (erasure table + emit proof, boundary validation with predicate + zod, hover/computed-type demo) — verified `tsc --strict` ok + emit shows erased interfaces/generics
+  - [unit 06] Created section 3 leaves `01/3.1. Compilation pipeline`, `01/3.2. Executing TypeScript`, `01/3.3. Choosing erasable syntax` (pipeline outputs table, three execution paths, erasable inventory with --erasableSyntaxOnly enforcement) — verified `tsc --strict --erasableSyntaxOnly` ok; enum correctly fails under flag
 - Decisions:
   - Curriculum mirrors JavaScript track's 20+4 shape (20 topical + 4 Update indexes) but re-centered on TypeScript's type system, tooling, and migration concerns — avoids duplicating JavaScript mechanics (explicit DRY boundary in 01/7.1).
   - Domain 01 late sections (4–7) follow §86 amendment: real leaf files per numbered section, not README-only bullets.
 - Files touched:
-  - Created: `README/TypeScript/README.md`, `README/TypeScript/LOG.md`, `README/TypeScript/01 Fundamentals and Mental Model/README.md` + 7 section dirs, `sections/1. What TypeScript is/1.1.`, `1.2.`, `1.3.` leaves, `sections/2. How TypeScript doesnt execute/2.1.`, `2.2.`, `2.3.` leaves
+  - Created: `README/TypeScript/README.md`, `README/TypeScript/LOG.md`, `README/TypeScript/01 Fundamentals and Mental Model/README.md` + 7 section dirs, `sections/1. What TypeScript is/1.1.`, `1.2.`, `1.3.` leaves, `sections/2. How TypeScript doesnt execute/2.1.`, `2.2.`, `2.3.` leaves, `sections/3. Running TypeScript today/3.1.`, `3.2.`, `3.3.` leaves
   - Modified: `README/TypeScript/LOG.md` (incremental Done after each leaf)
 - Links fixed / added:
   - Track rows 1–2 verified resolving (angle-bracket literal-space form); domain 01 prerequisites link to `../JavaScript/...` verified at write time
