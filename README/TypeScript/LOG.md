@@ -43,6 +43,7 @@
   - [unit 07] Created late-section leaves `01/4.1. Fundamentals checklist`, `01/5.1. Real production bugs`, `01/6.1. Common interview QA`, `01/7.1. Boundaries` (checklist + 4-incident pitfalls + 6 QA + DRY boundaries) — verified `tsc --strict` ok; all runnable examples exit 0
   - [unit 08] Created domain 02 index `README/TypeScript/02 The Type System Core/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders — committed as `feat(typescript): add 02 Type System Core domain index`
   - [unit 09] Created section 1 leaves `02/1.1. Structural assignability`, `02/1.2. Excess property checks`, `02/1.3. Nominal branding` (width/depth subtyping, freshness triggers vs escapes, branding pattern with zero emit) — verified `tsc --strict` ok; fresh literal correctly errors, via-var silent
+  - [unit 10] Created section 2 leaves `02/2.1. Type vs value spaces`, `02/2.2. Declaration spaces`, `02/2.3. Type queries` (dual universe with class duality, three declaration spaces + interface merging, typeof/keyof/T[K] synthesis) — verified `tsc --strict` ok; emit shows erasure for queries
 - Decisions:
   - Curriculum mirrors JavaScript track's 20+4 shape (20 topical + 4 Update indexes) but re-centered on TypeScript's type system, tooling, and migration concerns — avoids duplicating JavaScript mechanics (explicit DRY boundary in 01/7.1).
   - Domain 01 late sections (4–7) follow §86 amendment: real leaf files per numbered section, not README-only bullets.
