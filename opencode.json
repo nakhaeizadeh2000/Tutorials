@@ -12,6 +12,11 @@
       "wc *": "allow",
       "grep *": "allow",
       "find *": "allow",
+      "echo *": "allow",
+      "printf *": "allow",
+      "pwd": "allow",
+      "pwd *": "allow",
+      "mkdir *": "allow",
       "node *": "allow",
       "npm *": "allow",
       "npx *": "allow"
