@@ -354,8 +354,12 @@
   - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
   - DRY grep before each leaf: search repo for `discriminated union|exhaustive.*never|type predicate|asserts.*is|typeof.*narrowing` — TypeScript 02 covers variance, 03 covers `never`/`void` and literals, 04 covers `&` vs `extends` at object level, 05 covers predicates on callables; this domain owns union/intersection type algebra and control-flow narrowing, no duplication. JavaScript track keeps runtime narrowing (`typeof` quirks) — this domain owns static narrowing.
 - Done:
+  - [unit 01] Created domain 07 index `README/TypeScript/07 Unions Intersections and Narrowing/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 7 so only resolving links remain
 - Decisions:
 - Files touched:
+  - Created: `README/TypeScript/07 Unions Intersections and Narrowing/README.md`; 7 section directories under `README/TypeScript/07 Unions Intersections and Narrowing/sections/` (1. Union Types, 2. Intersection Types, 3. Control Flow Narrowing, 4. Important points to remember, 5. Common pitfalls to production bugs, 6. Interview questions and answers, 7. Overlaps to avoid)
+  - Modified: `README/TypeScript/README.md` (added row 7), `README/TypeScript/LOG.md` (opened Session 6 IN PROGRESS + unit 01 Done)
 - Links fixed / added:
+  - Added row 7 link `[Unions, Intersections and Narrowing](<07 Unions Intersections and Narrowing/README.md>)` (angle-bracket literal-space, resolves); domain README 22 links (13 leaf + 9 prerequisite/overlap) — 13 leaf links are placeholders until leaves land (expected broken among existing until leaves exist); 9 prerequisite links verified resolving where target exists (01–06 and JS)
 - Verification:
 - Next steps:
