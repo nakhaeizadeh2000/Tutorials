@@ -1,5 +1,23 @@
 # TypeScript — work log
 
+## [2026-09-03 09:30] Session 7 — Continue TypeScript deep dive through all remaining domains 08–24
+- Status: IN PROGRESS
+- Context read: `PROMPT.md` (full §1–§8); root `README.md`; `README/TypeScript/README.md`; full `README/TypeScript/LOG.md` (Sessions 1–6); implemented domain indexes and representative leaves for Domains 01–07; relevant JavaScript track indexes for runtime DRY boundaries.
+- Plan:
+  - Implement every remaining curriculum module in order: 08 Generics Deep Dive; 09 Utility Types and Type Transformations; 10 Arrays Tuples and Collections; 11 Enums and Literal Types; 12 Modules Namespaces and Declaration Files; 13 Configuration and Compiler Options; 14 Decorators and Metadata; 15 Strictness Errors and Validation; 16 Tooling Language Server and Ecosystem; 17 Testing Types; 18 Async Types and Standard Library; 19 Performance Project References and Scaling; 20 Production Checklist Migration and Interoperability; 21 Update TypeScript 5.6; 22 Update TypeScript 5.7; 23 Update TypeScript 5.8; 24 Update TypeScript 5.9 and 6.0.
+  - For each domain, create its Template B index, seven section directories, thirteen leaf files (three topical leaves plus four required late-section leaves), update the track index, convert relevant forward links, verify examples and links, update this block, and commit the unit before continuing.
+  - Finish with a repository-wide TypeScript link/format/DRY verification and close this block with precise next steps.
+- Done:
+- Decisions:
+  - The user’s explicit “domains 8 until 24 one after another” is a full-track scope override; the prior Session 6 Next steps are not used as a stopping boundary.
+  - Version-sensitive claims will use the existing TypeScript 5.9 / 6.0-beta era label from the track, with official TypeScript documentation and roadmap.sh used for research.
+- Files touched:
+  - Modified: `README/TypeScript/LOG.md` (opened this session)
+- Links fixed / added:
+- Research notes:
+- Verification:
+- Next steps: Implement Domain 08 first, then continue sequentially through Domain 24 without stopping after a single domain.
+
 ## [2026-09-02 12:00] Session 1 — Bootstrap TypeScript track (Mode 1): skeleton, curriculum plan, domains 01–02
 - Status: DONE
 - Context read: root `README.md`; `PROMPT.md`; `README/JavaScript/README.md` (Template A reference); `README/JavaScript/LOG.md` (Sessions 1–25, curriculum pattern); `README/JavaScript/01 Fundamentals and Mental Model/README.md` + leaf `1.1` (index/leaf anatomy); `opencode.json` + `AGENTS.md` (harness rules). TypeScript track directory did not exist (verified via `ls README/` — only CSharp + JavaScript present); root `README.md` already lists TypeScript row 2 linking to `README/TypeScript/README.md`.
