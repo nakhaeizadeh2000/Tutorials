@@ -327,3 +327,35 @@
   1. Session 6: implement Domain 07 "Unions, Intersections and Narrowing" (discriminated unions, narrowing, exhaustiveness) — then add row 7 to track README; convert textual forwards `07` in 03/04/05/06 into live links.
   2. Continue in planned order: 08 Generics Deep Dive → 09 Utility Types and Type Transformations → 10 Arrays, Tuples and Collections → 11 Enums and Literal Types → 12 Modules, Namespaces and Declaration Files → 13 Configuration and Compiler Options → 14 Decorators and Metadata → 15 Strictness, Errors and Validation → 16 Tooling → 17 Testing Types → 18 Async/Stdlib → 19 Performance/Project Refs → 20 Production/Migration → 21–24 Update indexes.
   3. When domains 07–13 land, sweep 01–06 leaves for forward-reference conversion (especially `07`, `08`, `09`, `13`, `14` mentions) and verify link checker 0 broken among existing.
+
+## [2026-09-03 09:00] Session 6 — Implement Domain 07 Unions Intersections and Narrowing
+- Status: IN PROGRESS
+- Context read: `PROMPT.md` (full §1–§8); root `README.md` (Categories table, TypeScript row 2); `README/TypeScript/README.md` (6 rows, TS 5.9 era); `README/TypeScript/LOG.md` full Sessions 1–5; `README/TypeScript/06 Classes and Object-Oriented Types/README.md` (7 sections, 13 leaves) + `05 Functions and Callable Types/README.md` (7 sections, 13 leaves) + sample leaf `06/1.1` (anatomy verification); `README/JavaScript/README.md` + `README/JavaScript/02 Functions/README.md` (JS narrowing reference for DRY boundary); verified disk via `find README/TypeScript -name "*.md"` (86 files: 6 domain indexes + 78 leaves + track README + LOG) + `git log --oneline -10` + `git status` clean
+- Recovery verification (PROMPT.md:165):
+  - Last entry Session 5 Status is DONE (not IN PROGRESS/PARTIAL) — no dangling recovery block. Verification of Done bullets against disk: 13 leaf files claimed in Domain 06 → 13 leaf files exist on disk (`find README/TypeScript/06* -name "*.md"` 14 including index); track README has 6 rows (claimed 6) — matches; 7 section folders in 06 verified via `ls -R` (7 exist); link checker claim 0 `%20` inside angle links — spot-checked 10 random links literal-space form passes; filenames punctuation-clean. Trust disk over log: ✅ no discrepancies. No IN PROGRESS to resume — opening fresh Session 6 block per PROMPT.md:165.
+- Plan:
+  1. [unit 01] Create `README/TypeScript/07 Unions Intersections and Narrowing/README.md` (Template B, 7 sections, 13 leaf promises) + 7 `sections/M. Section name/` folders; update `README/TypeScript/README.md` to add row 7 `[Unions, Intersections and Narrowing](<07 Unions Intersections and Narrowing/README.md>)` so track still has only resolving links.
+  2. [unit 02] Create leaf `07/sections/1. Union Types/1.1. Union fundamentals member access and the common property rule.md`
+  3. [unit 03] Create leaf `07/sections/1. Union Types/1.2. Discriminated unions the tagged pattern that scales.md`
+  4. [unit 04] Create leaf `07/sections/1. Union Types/1.3. Literal unions enums vs unions and exhaustiveness.md`
+  5. [unit 05] Create leaf `07/sections/2. Intersection Types/2.1. Intersection fundamentals merging object shapes.md`
+  6. [unit 06] Create leaf `07/sections/2. Intersection Types/2.2. The never trap conflicting intersections and impossible states.md`
+  7. [unit 07] Create leaf `07/sections/2. Intersection Types/2.3. Unions and intersections distributive behavior and primitive intersections.md`
+  8. [unit 08] Create leaf `07/sections/3. Control Flow Narrowing/3.1. Built-in narrowers typeof instanceof in and equality.md`
+  9. [unit 09] Create leaf `07/sections/3. Control Flow Narrowing/3.2. Exhaustiveness never and switch narrowing.md`
+  10. [unit 10] Create leaf `07/sections/3. Control Flow Narrowing/3.3. Custom narrowers predicates asserts and type guards on unions.md`
+  11. [unit 11] Create leaf `07/sections/4. Important points to remember/4.1. Unions intersections narrowing checklist mental models mentors insist on.md`
+  12. [unit 12] Create leaf `07/sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by union and narrowing misunderstandings.md`
+  13. [unit 13] Create leaf `07/sections/6. Interview questions and answers/6.1. Common interview QA unions intersections and narrowing.md`
+  14. [unit 14] Create leaf `07/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md`
+  15. Final verification: DoD walk, link checker (0 broken among existing, 0 `%20`), `tsc --strict` per leaf, DRY grep, format check; flip Status to DONE with Next steps (Domain 08).
+- Research notes (PROMPT.md:132 step 3):
+  - TypeScript Handbook: Everyday Types — Union/Intersection, Narrowing (handbook/2/narrowing), Discriminating Unions, Exhaustiveness with `never`, `in` operator narrowing, `typeof`/`instanceof` narrowing, Control Flow Analysis. Release notes: `exactOptionalPropertyTypes` (TS 4.4) interplay with unions, `erasableSyntaxOnly` (TS 5.8) — union/intersection syntax is erasable. Roadmap.sh TypeScript — unions before generics.
+  - Version label to use: "as of TypeScript 5.9 era (Aug 2026: TS 5.9 stable, 6.0 beta; Node 24 Active LTS)".
+  - DRY grep before each leaf: search repo for `discriminated union|exhaustive.*never|type predicate|asserts.*is|typeof.*narrowing` — TypeScript 02 covers variance, 03 covers `never`/`void` and literals, 04 covers `&` vs `extends` at object level, 05 covers predicates on callables; this domain owns union/intersection type algebra and control-flow narrowing, no duplication. JavaScript track keeps runtime narrowing (`typeof` quirks) — this domain owns static narrowing.
+- Done:
+- Decisions:
+- Files touched:
+- Links fixed / added:
+- Verification:
+- Next steps:
