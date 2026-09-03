@@ -9,7 +9,8 @@ use these prompts in proper places:
 `Read PROMPT.md and follow it exactly. Task: Lets add a new tutorial for pure JS language.`,
 `Read PROMPT.md and follow it exactly. Task: add JavaScript domain 05`,
 `/tutorial lets deep dive into TypeScript track` (harness shortcut — runs tutorial-builder skill loop),
-`/tutorial-continue` (resume last IN PROGRESS/PARTIAL session from LOG.md Next steps)
+`/tutorial-continue` (resume last IN PROGRESS/PARTIAL session from LOG.md Next steps),
+`/tutorial-continue Deep Dive into Next TypeScript Track Domain`
 
 ## Categories
 
