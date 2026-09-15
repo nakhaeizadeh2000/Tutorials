@@ -398,7 +398,7 @@
   3. When domains 08–13 land, sweep 01–07 leaves for forward-reference conversion (especially `08`, `09`, `13`, `14` mentions) and verify link checker 0 broken among existing.
 
 ## [2026-09-03 09:30] Session 7 — Continue TypeScript deep dive through all remaining domains 08–24
-- Status: IN PROGRESS
+- Status: PARTIAL
 - Context read: `PROMPT.md` (full §1–§8); root `README.md`; `README/TypeScript/README.md`; full `README/TypeScript/LOG.md` (Sessions 1–6); implemented domain indexes and representative leaves for Domains 01–07; relevant JavaScript track indexes for runtime DRY boundaries.
 - Plan:
   - Implement every remaining curriculum module in order: 08 Generics Deep Dive; 09 Utility Types and Type Transformations; 10 Arrays Tuples and Collections; 11 Enums and Literal Types; 12 Modules Namespaces and Declaration Files; 13 Configuration and Compiler Options; 14 Decorators and Metadata; 15 Strictness Errors and Validation; 16 Tooling Language Server and Ecosystem; 17 Testing Types; 18 Async Types and Standard Library; 19 Performance Project References and Scaling; 20 Production Checklist Migration and Interoperability; 21 Update TypeScript 5.6; 22 Update TypeScript 5.7; 23 Update TypeScript 5.8; 24 Update TypeScript 5.9 and 6.0.
@@ -420,6 +420,7 @@
   - [unit 12] Created leaf `08/sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by generic misunderstandings.md` (any-fallback price crash, object-bound SKU rejection, widened route-table auth gap, CI-only TS2589; runnable fetchJson/norm/reg/Capped examples) — verified `tsc --strict` ok on 4 fences; added `export {}` for top-level await module marker
   - [unit 13] Created leaf `08/sections/6. Interview questions and answers/6.1. Common interview QA generics deep dive.md` (5 Q&A: scopes, constraints-vs-precision, explicit-arg situations, infer binding, in/out enforcement; runnable perCall/longest/empty/ElemOf/Source examples) — verified `tsc --strict` ok on 5 fences
   - [unit 14] Created leaf `08/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md` (5 boundaries: functions→05, utility→09 forward, objects/classes→04/06, unions→07, config→13 forward; runnable overload-vs-generic/MyExclude/Shelf/never-sink examples) — verified `tsc --strict` ok on 5 fences
+  - [unit 15] Link-fix set: (a) 08 leaves — two-digit cross-domain `](../NN` → `](../../../NN` in 10 files (08 index untouched, correct at `../` depth); (b) old leaves — `08 Generics` forwards `../08`/`../../08` → `../../../08` in 5 files (03/3.3, 03/7.1, 04/7.1, 06/2.2, 06/3.2); now all 08↔01–07 links resolve both directions; (c) pre-existing bugs found by verification: 13 old-leaf files (03/04/05/06/07) had two-digit cross-domain `../NN`/`../../NN` at leaf depth, and 6 Domain-07 files had intra-domain `../../N.`/`./1.3.` at leaf depth — all corrected to `../../../NN` / `../N.` (+ `../1. Union Types/1.3.` for the misplaced `./1.3.`). One self-caused incident mid-unit: the first repair script emitted `/` instead of space after `NN` in 13 files — detected by re-running the checker (broken stayed 174 instead of dropping), repaired and re-verified before committing.
 - Decisions:
   - The user’s explicit “domains 8 until 24 one after another” is a full-track scope override; the prior Session 6 Next steps are not used as a stopping boundary.
   - Version-sensitive claims will use the existing TypeScript 5.9 / 6.0-beta era label from the track, with official TypeScript documentation and roadmap.sh used for research.
@@ -428,13 +429,24 @@
 - Files touched:
   - Modified: `README/TypeScript/LOG.md` (opened this session)
   - Created: `README/TypeScript/08 Generics Deep Dive/README.md` + 7 section dirs; Modified: `README/TypeScript/README.md` (row 8)
+  - Created (+1 commit each): 08 leaves 1.1, 1.2, 1.3, 2.1, 2.2, 2.3, 3.1, 3.2, 3.3, 4.1, 5.1, 6.1, 7.1 (13 leaves, domain 08 complete)
+  - Modified (link-fix unit 15): 10 files under `08 Generics Deep Dive/sections/` (depth fix); 5 old-domain leaves (08-forward depth); 13 old-domain leaves (pre-existing cross-domain depth); 6 Domain-07 leaves (pre-existing intra-domain depth) — 5 files overlap both sets; unique files touched by unit 15: 29
 - Links fixed / added:
-  - Added row 8 link `[Generics Deep Dive](<08 Generics Deep Dive/README.md>)` (angle-bracket literal-space, resolves); domain 08 index 13 leaf links are placeholders until leaves land (expected broken); prerequisite links to 01/02/03/05 resolve.
+  - Added row 8 link `[Generics Deep Dive](<08 Generics Deep Dive/README.md>)` (angle-bracket literal-space, resolves); domain 08 index 13 leaf links resolve; prerequisite links to 01/02/03/05 resolve.
+  - Unit 15: all angle-bracket links between existing domains (01–08 + JavaScript track) now resolve; remaining broken links target only future domains 09–24 (expected) + 2 historical LOG placeholders.
 - Research notes:
   - TypeScript Handbook: Generics (handbook/2/generics), Generic Constraints, `infer` (handbook/2/conditional-types + infer), Variance annotations `in`/`out` (TS 4.7 release notes), Variadic Tuple Types (TS 4.0), `erasableSyntaxOnly` (TS 5.8 — generics erasable). Roadmap.sh TypeScript — generics after unions, before utility types.
   - DRY grep: `infer|variadic` hits in 04/05/06 are passing mentions; 05/2.2 owns function-level inference/constraints/defaults basics; 04/3.1 owns non-generic recursive objects; 06/3.1 owns generic-class intro — Domain 08 owns declaration-site mechanics + inference control + variance + recursive/variadic (no duplication per §5).
 - Verification:
-- Next steps: Implement Domain 08 first, then continue sequentially through Domain 24 without stopping after a single domain.
+  - `tsc --strict` (`--target es2022` where needed): all 13 new leaves exit 0 — 1.1: 3 fences, 1.2: 3, 1.3: 3, 2.1: 3, 2.2: 3, 2.3: 3, 3.1: 3, 3.2: 3, 3.3: 3, 4.1: 4, 5.1: 4 (added `export {}` for top-level await), 6.1: 5, 7.1: 5 — 46 fences total. Fixes during verification: `Cache`→`KVCache`, `Element`→`ElemOf` (DOM lib collisions), object-bound string rejection + bare-recursion + liar-variance kept as commented error demos, tuple-counter depth arithmetic simplified to `Seen extends 0[]` pattern.
+  - Link checker (python `re "\[.*?\]\(<(.*?)>\)"` over `README/TypeScript` rglob): 114 files, 1934 angle-bracket links, 0 `%20`, 110 broken — every one targets future domains 09/10/11/12/13/14/17/18/19 (expected textual forwards) or 2 historical LOG placeholders; 0 unexpected (all 01–08 + JS targets resolve, verified after unit-15 repair + mid-unit separator incident repair).
+  - Headings 13/13 match filenames, index promises 13/13 ↔ leaf delivery 1:1, filenames punctuation-clean 13/13.
+  - DRY: Domain 08 owns declaration sites/inference control/constraints-defaults/infer/in-out/recursive/variadic; 05/2.2 (function basics), 04/3.1 (plain recursion), 06/3.1 (class intro) cross-linked, not re-taught.
+  - DoD §4 walked for all 13 leaves: version labels, junior→mentor ramp, good-vs-bad with consequences, runnable fences, formatting (bold labels + parentheticals, `---`, angle-bracket links, `typescript` fences) matches 01–07.
+- Next steps:
+  1. Resume INSIDE this Session 7 block (it is the recovery point per PROMPT.md:165 — keep appending Done bullets here, do not open a fresh block until 09–24 are all landed): Domain 08 is DONE on disk (index + 13 leaves + row 8 + link-fix unit 15 committed). Next unit is Domain 09 "Utility Types and Type Transformations" index + row 9, then its 13 leaves in order (1.1 Mapped-type fundamentals → … → 7.1 Boundaries), converting `09` textual forwards in 04/05/07/08 into live links as it lands.
+  2. Continue sequentially per Session 7 Plan: 10 Arrays Tuples and Collections → 11 Enums and Literal Types → 12 Modules Namespaces and Declaration Files → 13 Configuration and Compiler Options → 14 Decorators and Metadata → 15 Strictness Errors and Validation → 16 Tooling → 17 Testing Types → 18 Async/Stdlib → 19 Performance/Project Refs → 20 Production/Migration → 21–24 Update indexes — one unit → LOG update → commit → next unit, without stopping after a domain.
+  3. When 09 lands, sweep 08 leaves for `09`-forward conversion (2.2, 2.3, 3.2, 4.1, 6.1, 7.1 link to it); when 13 lands, sweep 08 + earlier leaves for `13`-forward conversion. Flip this block to DONE only when Domain 24's last leaf is committed + repo-wide verification passes.
 - Files touched:
   - Modified: `README/TypeScript/LOG.md` (opened this session)
 - Links fixed / added:
