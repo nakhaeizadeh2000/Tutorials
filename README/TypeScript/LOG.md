@@ -440,6 +440,7 @@
   - [unit 30] Create domain 10 index `README/TypeScript/10 Arrays Tuples and Collections/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; update track `README/TypeScript/README.md` row 10 so only resolving links remain — committed as `feat(typescript): add 10 Arrays Tuples domain index`
   - [unit 31] Created leaf `10/sections/1. Array Types/1.1. Array type syntax and element checking.md` (T[]-vs-Array style rule, per-position element checking, never[] forcing annotation; runnable spelling/matrix/push examples) — verified `tsc --strict` ok on 3 fences
   - [unit 32] Created leaf `10/sections/1. Array Types/1.2. Readonly arrays and mutable vs frozen arrays.md` (readonly signatures advertise non-mutation, mutable-to-readonly flow with copy-not-cast, as-const-plus-freeze pair; runnable total/render/ROUTES examples) — verified `tsc --strict` ok on 3 fences
+  - [unit 33] Created leaf `10/sections/1. Array Types/1.3. Array methods map filter reduce typed precisely.md` (predicate narrowing vs Boolean, reduce init discipline, mutating-vs-copying method contracts; runnable filter/byRegion/top3 examples) — verified `tsc --strict` ok on 3 fences
 - Decisions:
   - The user’s explicit “domains 8 until 24 one after another” is a full-track scope override; the prior Session 6 Next steps are not used as a stopping boundary.
   - Version-sensitive claims will use the existing TypeScript 5.9 / 6.0-beta era label from the track, with official TypeScript documentation and roadmap.sh used for research.
