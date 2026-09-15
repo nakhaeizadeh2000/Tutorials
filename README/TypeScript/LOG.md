@@ -416,6 +416,7 @@
   - [unit 08] Created leaf `08/sections/3. Variance and Advanced Generic Patterns/3.1. Variance in out annotations and generic positions.md` (out/in direction contracts, TS2378 declaration-site errors, annotate-public-stable rule; runnable Source/Sink/Parser examples) — verified `tsc --strict` ok on 3 fences
   - [unit 09] Created leaf `08/sections/3. Variance and Advanced Generic Patterns/3.2. Recursive generic types and self-referential patterns.md` (wrapped rule, Json/DeepReadonly/Msg sites, tuple-counter depth budget; runnable JsonVal/TreeNode/DeepRO/CappedRO examples) — verified `tsc --strict` ok on 3 fences
   - [unit 10] Created leaf `08/sections/3. Variance and Advanced Generic Patterns/3.3. Variadic tuple generics pipe concat and rest capture.md` (labeled tuple rest, concat/pipe joints, capture-vs-any transparency; runnable debounce/pipe/timed examples) — verified `tsc --strict` ok on 3 fences
+  - [unit 11] Created leaf `08/sections/4. Important points to remember/4.1. Generics checklist mental models mentors insist on.md` (erase/label, constrain-minimal-default-generous, scope-first, infer-plus-tuples synthesis; runnable decode/show/Slot/timed examples) — verified `tsc --strict` ok on 4 fences
 - Decisions:
   - The user’s explicit “domains 8 until 24 one after another” is a full-track scope override; the prior Session 6 Next steps are not used as a stopping boundary.
   - Version-sensitive claims will use the existing TypeScript 5.9 / 6.0-beta era label from the track, with official TypeScript documentation and roadmap.sh used for research.
