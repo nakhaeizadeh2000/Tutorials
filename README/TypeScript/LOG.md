@@ -405,9 +405,23 @@
   - For each domain, create its Template B index, seven section directories, thirteen leaf files (three topical leaves plus four required late-section leaves), update the track index, convert relevant forward links, verify examples and links, update this block, and commit the unit before continuing.
   - Finish with a repository-wide TypeScript link/format/DRY verification and close this block with precise next steps.
 - Done:
+  - [recovery 2026-09-15] Verified Session 7 IN PROGRESS against disk: `find README/TypeScript -name "*.md"` → 100 files (7 domain indexes + 91 leaves + track README + LOG); track README has 7 rows — matches Sessions 1–6 DONE claims; Done list empty so nothing to re-verify; `git status` clean, HEAD `c99997c`. Trust disk over log: no discrepancies. Resuming inside same block per PROMPT.md:165. Scope override confirmed: Plan = ALL remaining 08–24 (Session 7 block already full-track; user "Deep Dive into Next TypeScript Track Domain" continuation keeps that scope).
+  - [unit 01] Created domain 08 index `README/TypeScript/08 Generics Deep Dive/README.md` (Template B, 7 sections, 13 leaf promises) + 7 section folders; updated track `README/TypeScript/README.md` row 8 so only resolving links remain
 - Decisions:
   - The user’s explicit “domains 8 until 24 one after another” is a full-track scope override; the prior Session 6 Next steps are not used as a stopping boundary.
   - Version-sensitive claims will use the existing TypeScript 5.9 / 6.0-beta era label from the track, with official TypeScript documentation and roadmap.sh used for research.
+  - Resume-inside (not fresh block): Session 7 Done was empty, disk matches, Plan already full-track — appending Done bullets here.
+  - Domain 08 shape: 13-leaf (3+3+3 topical + 4 meta) matching 01–07 density; function-level generic basics stay in 05/2.2 (cross-linked, not re-taught); utility/mapped/conditional transforms stay in 09 (forward link); this domain owns declaration sites, inference control, constraints/defaults, infer, in/out variance, recursive and variadic patterns.
+- Files touched:
+  - Modified: `README/TypeScript/LOG.md` (opened this session)
+  - Created: `README/TypeScript/08 Generics Deep Dive/README.md` + 7 section dirs; Modified: `README/TypeScript/README.md` (row 8)
+- Links fixed / added:
+  - Added row 8 link `[Generics Deep Dive](<08 Generics Deep Dive/README.md>)` (angle-bracket literal-space, resolves); domain 08 index 13 leaf links are placeholders until leaves land (expected broken); prerequisite links to 01/02/03/05 resolve.
+- Research notes:
+  - TypeScript Handbook: Generics (handbook/2/generics), Generic Constraints, `infer` (handbook/2/conditional-types + infer), Variance annotations `in`/`out` (TS 4.7 release notes), Variadic Tuple Types (TS 4.0), `erasableSyntaxOnly` (TS 5.8 — generics erasable). Roadmap.sh TypeScript — generics after unions, before utility types.
+  - DRY grep: `infer|variadic` hits in 04/05/06 are passing mentions; 05/2.2 owns function-level inference/constraints/defaults basics; 04/3.1 owns non-generic recursive objects; 06/3.1 owns generic-class intro — Domain 08 owns declaration-site mechanics + inference control + variance + recursive/variadic (no duplication per §5).
+- Verification:
+- Next steps: Implement Domain 08 first, then continue sequentially through Domain 24 without stopping after a single domain.
 - Files touched:
   - Modified: `README/TypeScript/LOG.md` (opened this session)
 - Links fixed / added:

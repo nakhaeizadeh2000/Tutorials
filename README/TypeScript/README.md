@@ -11,6 +11,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 5 | [Functions and Callable Types](<05 Functions and Callable Types/README.md>) |
 | 6 | [Classes and Object-Oriented Types](<06 Classes and Object-Oriented Types/README.md>) |
 | 7 | [Unions, Intersections and Narrowing](<07 Unions Intersections and Narrowing/README.md>) |
+| 8 | [Generics Deep Dive](<08 Generics Deep Dive/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
