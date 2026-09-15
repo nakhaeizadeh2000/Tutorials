@@ -14,6 +14,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 8 | [Generics Deep Dive](<08 Generics Deep Dive/README.md>) |
 | 9 | [Utility Types and Type Transformations](<09 Utility Types and Type Transformations/README.md>) |
 | 10 | [Arrays, Tuples and Collections](<10 Arrays Tuples and Collections/README.md>) |
+| 11 | [Enums and Literal Types](<11 Enums and Literal Types/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
