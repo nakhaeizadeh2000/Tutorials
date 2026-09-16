@@ -114,6 +114,6 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 2. **Mapped/conditional transforms over collections** (`Partial`, `Exclude`, `DeepPartial`, `Awaited` on arrays) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
 3. **Object-type composition and literal basics** (`&` vs `extends`, literals, `as const` sources, `satisfies`) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>) + [03 Basic Types and Annotations](<../03 Basic Types and Annotations/README.md>).
 4. **Union algebra and narrowing over elements** (distributivity, discriminants, exhaustiveness on element unions) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-5. **Compiler strictness flags** (`strict`, `noUncheckedIndexedAccess`, `--erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (textual forward).
+5. **Compiler strictness flags** (`strict`, `noUncheckedIndexedAccess`, `--erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)

@@ -114,6 +114,6 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 2. **Erasable syntax and execution pipelines** (what erases, `--erasableSyntaxOnly`, running TS under tsc/bundlers/Node) — [01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>).
 3. **Type-vs-value spaces and class duality** (dual universes, dual exports, `typeof` queries) — [02 The Type System Core](<../02 The Type System Core/README.md>) + [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
 4. **Generic inference over imported types** (constraints, `infer`, variance across module boundaries) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>).
-5. **Compiler options and project configuration** (`module`, `moduleResolution`, `isolatedModules`, `declaration` flags) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (textual forward).
+5. **Compiler options and project configuration** (`module`, `moduleResolution`, `isolatedModules`, `declaration` flags) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)

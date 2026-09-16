@@ -114,6 +114,6 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 2. **Utility types and mapped/conditional transforms** (`Partial`/`Pick`/`Exclude`, `keyof` mapping) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>) (textual forward).
 3. **Object-type composition and class hierarchies** (`&` vs `extends`, `implements`, mixins) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>) + [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
 4. **Union/intersection algebra and narrowing** (distributivity in practice, discriminants) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-5. **Compiler strictness flags** (`strict`, `strictFunctionTypes`, `--erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (textual forward).
+5. **Compiler strictness flags** (`strict`, `strictFunctionTypes`, `--erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)

@@ -114,6 +114,6 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 2. **Union algebra, narrowing, and exhaustiveness mechanics** (distributivity, discriminants, `never` sinks, predicates) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
 3. **Template composition and literal preservation through transforms** (intrinsics, key generation, `satisfies` pairs, return-`M` joints) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
 4. **Erasable-syntax inventory and execution pipelines** (what erases, `--erasableSyntaxOnly` enforcement, running TS) — [01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>).
-5. **Compiler strictness flags** (`strict`, `isolatedModules`, `--erasableSyntaxOnly` configuration) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (textual forward).
+5. **Compiler strictness flags** (`strict`, `isolatedModules`, `--erasableSyntaxOnly` configuration) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)
