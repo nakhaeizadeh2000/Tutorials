@@ -19,6 +19,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 13 | [Configuration and Compiler Options](<13 Configuration and Compiler Options/README.md>) |
 | 14 | [Decorators and Metadata](<14 Decorators and Metadata/README.md>) |
 | 15 | [Strictness, Errors and Validation](<15 Strictness Errors and Validation/README.md>) |
+| 16 | [Tooling, Language Server and Ecosystem](<16 Tooling Language Server and Ecosystem/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
