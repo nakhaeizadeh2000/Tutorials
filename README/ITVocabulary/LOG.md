@@ -156,6 +156,7 @@
   - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–04 form.
 - Done:
   - [unit 1] Created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 5
+  - [unit 2] Created leaf `1.1. Data vs information structured vs unstructured.md`
 - Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02
 - Verification:
