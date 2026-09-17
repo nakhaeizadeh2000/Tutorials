@@ -29,6 +29,7 @@
   - [unit 4] Created leaf `1.2. How to decode unknown terms.md`
   - [unit 5] Created leaf `2.1. Hardware software OS and platform.md`
   - [unit 6] Created leaf `2.2. Data units bit byte and encoding basics.md`
+  - [unit 7] Created leaf `2.3. Programs processes compile vs interpret.md`
 - Files touched: created `README/ITVocabulary/README.md`, created `README/ITVocabulary/LOG.md`, created `README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md`, created `.../sections/1. Learning vocabulary like a professional/1.1. Why precise vocabulary matters.md`
 - Links fixed / added: track index links Domain 01 README (to be created in unit 2) + back-link to root README; root README row #3 already pointed here, now resolves
 - Verification:
