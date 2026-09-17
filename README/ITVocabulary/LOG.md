@@ -203,7 +203,7 @@
 - Next steps: Session 7 — Domain 07 Teamwork Agile and Interview Vocabulary (final domain): domain README (Template B) + leaves (agile/sprint/standup-process words, roles/stakeholder words, feedback/career-ladder words, checklist, interview QA, overlaps). Track complete after Session 7 — verify full-track links + DRY sweep, then close track.
 
 ## [2026-09-17 15:00] Session 7 — Domain 07 Teamwork Agile and Interview Vocabulary (final)
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–7), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–6 DONE), README/ITVocabulary/README.md (lists Domains 01–06). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 06 README + 7 leaves match Session 6 Done claims, tree clean at c00174d. No discrepancies.
 - Plan (resumed from Session 6 Next steps; no scope override in request — final domain):
   1. Unit 1 — open this entry + create 07 domain README (Template B, sections 1–2 + 4–6) + track README row 7
@@ -230,7 +230,8 @@
   - [unit 7] Created leaf `5.1. Common interview QA teamwork and career.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
   - [unit 9] Upgraded Domain-07 placeholders → real Domain 07 README (Domain 03 + 06 leaf 6.1s)
-- Files touched: created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
-- Links fixed / added: track README row 7 → Domain 07 README; domain 07 §0 prerequisites link Domains 01/03
-- Verification:
-- Next steps: (pending — filled at close)
+  - [unit 10] Final sweep: retired ALL remaining `(planned, see LOG)` prose + one `LOG.md` link placeholder (01/§3.1, 01/§3.2, 01/§2.2, 02/§6.1 ×3, 02/§2.2, 02/§1.2) → live Domain 04/05/06/07 READMEs
+- Files touched: created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md`, modified `README/ITVocabulary/README.md` (row 7), created `.../sections/1. Rhythm words/1.1. Sprint backlog and velocity.md`, created `.../sections/1. Rhythm words/1.2. Standup retro and demo as process.md`, created `.../sections/2. People words/2.1. Roles stakeholders and ownership.md`, created `.../sections/2. People words/2.2. Feedback ladder and one-on-ones.md`, created `.../sections/4. Important points to remember/4.1. Teamwork vocabulary checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA teamwork and career.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`; modified Domain 03 + 06 leaf 6.1s (Domain-07 upgrades); modified 01/§3.1, 01/§3.2, 01/§2.2, 02/§6.1, 02/§2.2, 02/§1.2 (final sweep)
+- Links fixed / added: track README row 7 → Domain 07 README (track index now complete: 7/7 rows); domain 07 §0 prerequisites link Domains 01/03; leaves cross-link Domains 01/03/06; units 9–10 retired every placeholder in the track
+- Verification: TRACK COMPLETE — full check over all 61 track md files: 310/310 real `[text](<path>)` targets resolve, 0 broken; zero `(planned, see LOG)` remnants (grep-confirmed); DRY sweep — no concept treated twice (spot-check `thundering herd` lives only in Domain 04 index+leaf); all 7 domain READMEs + track index conform to Templates A/B; every leaf delivers its index promises with junior→mentor ramp; filenames clean with `M.k.` prefixes. DoD satisfied track-wide.
+- Next steps: TRACK COMPLETE — no further sessions planned. Future work (new sessions only if requested): refresh leaves as industry usage shifts; add `Update <Year>` index modules only if a vocabulary domain outgrows its shape (unlikely for a words-track); sibling tracks (Git, Databases, Cloud, Leadership) should link back to this track's leaves instead of redefining terms.
