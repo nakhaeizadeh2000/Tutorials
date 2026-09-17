@@ -23,7 +23,8 @@
   - 10 commits ahead of origin/main (ITVocabulary Sessions 6–7 work) are left unpushed — push needs explicit user approval per repo git rules; not part of this session.
 - Done:
   - [unit 1] Created `README/Git/README.md` (Template A track index, lists Domain 01) + opened this LOG entry
-- Files touched: created `README/Git/LOG.md`, created `README/Git/README.md`
+  - [unit 2] Created `README/Git/01 Git Fundamentals and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises)
+- Files touched: created `README/Git/LOG.md`, created `README/Git/README.md`, created `README/Git/01 Git Fundamentals and Mental Model/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #4 already pointed here, now resolves
 - Verification:
 - Next steps:
