@@ -170,7 +170,7 @@
 - Next steps: Session 6 — Domain 06 Security Cloud and DevOps Vocabulary (next `NN`): domain README (Template B) + leaves (threat/vulnerability/CVE, auth/IAM/secret, CI/CD-pipeline/deploy words, checklist, interview QA, overlaps), then Domain 07 to finish the track. Outstanding link upgrades: `LOG.md`-placeholders for Domain 06 in Domain 01/03/04/05 leaf 6.1s → real README when 06 lands.
 
 ## [2026-09-17 14:30] Session 6 — Domain 06 Security Cloud and DevOps Vocabulary
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–6), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–5 DONE), README/ITVocabulary/README.md (lists Domains 01–05). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 05 README + 7 leaves match Session 5 Done claims, tree clean at 24c2707. No discrepancies.
 - Plan (resumed from Session 5 Next steps; no scope override in request):
   1. Unit 1 — open this entry + create 06 domain README (Template B, sections 1–2 + 4–6) + track README row 6
@@ -197,7 +197,7 @@
   - [unit 7] Created leaf `5.1. Common interview QA safety and flow vocabulary.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
   - [unit 9] Upgraded Domain-06 placeholders → real Domain 06 README (Domain 01/03/04/05 leaf 6.1s) + Domain-05 placeholder in Domain 04 leaf 6.1
-- Files touched: created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
-- Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04
-- Verification:
-- Next steps: (pending — filled at close)
+- Files touched: created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md`, modified `README/ITVocabulary/README.md` (row 6), created `.../sections/1. Safety words/1.1. Threat vulnerability CVE and patch.md`, created `.../sections/1. Safety words/1.2. Auth identity secrets and least privilege.md`, created `.../sections/2. Flow words/2.1. Pipeline observe and incident words.md`, created `.../sections/2. Flow words/2.2. On-call runbook hotfix and rollback words.md`, created `.../sections/4. Important points to remember/4.1. Safety checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA safety and flow vocabulary.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`; modified Domain 01/03/04/05 leaf 6.1s (link upgrades)
+- Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04; leaf 2.1 → Domain 03 §2.1 + Domain 01 §3.1; leaf 1.2 → Domain 04 §2.1; unit 9 retired all Domain-06 + one Domain-05 `LOG.md`-placeholders
+- Verification: link checker over whole track (53 files) — 256/256 real targets resolve, 0 broken (backticked doc-text lines skipped). DoD walk per leaf: junior definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — threat-modeling/pentest/pipeline-YAML/flag-ops named-not-taught, deferred to future Security/DevOps/Cloud tracks; release-shape words cross-linked to Domain 03, not duplicated.
+- Next steps: Session 7 — Domain 07 Teamwork Agile and Interview Vocabulary (final domain): domain README (Template B) + leaves (agile/sprint/standup-process words, roles/stakeholder words, feedback/career-ladder words, checklist, interview QA, overlaps). Track complete after Session 7 — verify full-track links + DRY sweep, then close track.
