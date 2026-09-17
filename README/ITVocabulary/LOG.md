@@ -24,7 +24,8 @@
   - Leaf examples are usage snippets (good vs bad sentences/commands) rather than programs — labeled as such; this is the honest "runnable" form for a vocabulary track.
 - Done:
   - [unit 1] Created `README/ITVocabulary/README.md` (Template A track index, lists Domain 01) + opened this LOG entry
-- Files touched: created `README/ITVocabulary/README.md`, created `README/ITVocabulary/LOG.md`
+  - [unit 2] Created `README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md` (Template B index, sections 1–6, 10 leaf promises)
+- Files touched: created `README/ITVocabulary/README.md`, created `README/ITVocabulary/LOG.md`, created `README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md`
 - Links fixed / added: track index links Domain 01 README (to be created in unit 2) + back-link to root README; root README row #3 already pointed here, now resolves
 - Verification:
 - Next steps: (pending — filled at close)
