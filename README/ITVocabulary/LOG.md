@@ -130,6 +130,7 @@
   - [unit 6] Created leaf `4.1. Networking vocabulary checklist mentors insist on.md`
   - [unit 7] Created leaf `5.1. Common interview QA networking vocabulary.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
+  - [unit 9] Upgraded Domain 01 leaf 6.1 placeholders → real READMEs (Domain 04 + Domains 02/03)
 - Files touched: created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–02
 - Verification:
