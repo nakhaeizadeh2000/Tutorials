@@ -67,6 +67,7 @@
   - [unit 7] Created leaf `3.2. Aliases and config that compress the daily loop.md`
   - [unit 8] Created leaf `4.1. Workflow checklist habits mentors insist on.md`
   - [unit 9] Created leaf `5.1. Common interview QA workflow and history.md`
+  - [unit 10] Created leaf `6.1. Boundaries what is covered elsewhere.md`
 - Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves
 - Verification:
