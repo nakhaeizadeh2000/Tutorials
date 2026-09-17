@@ -22,6 +22,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 16 | [Tooling, Language Server and Ecosystem](<16 Tooling Language Server and Ecosystem/README.md>) |
 | 17 | [Testing Types](<17 Testing Types/README.md>) |
 | 18 | [Async Types and Standard Library](<18 Async Types and Standard Library/README.md>) |
+| 19 | [Performance, Project References and Scaling](<19 Performance Project References and Scaling/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
