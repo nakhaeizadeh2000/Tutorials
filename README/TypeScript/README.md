@@ -27,6 +27,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 21 | [Update TypeScript 5.6 (index)](<21 Update TypeScript 5.6/README.md>) |
 | 22 | [Update TypeScript 5.7 (index)](<22 Update TypeScript 5.7/README.md>) |
 | 23 | [Update TypeScript 5.8 (index)](<23 Update TypeScript 5.8/README.md>) |
+| 24 | [Update TypeScript 5.9 and 6.0 (index)](<24 Update TypeScript 5.9 and 6.0/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
