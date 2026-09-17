@@ -195,6 +195,7 @@
   - [unit 5] Created leaf `2.2. On-call runbook hotfix and rollback words.md`
   - [unit 6] Created leaf `4.1. Safety checklist mentors insist on.md`
   - [unit 7] Created leaf `5.1. Common interview QA safety and flow vocabulary.md`
+  - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
 - Files touched: created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04
 - Verification:
