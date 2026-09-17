@@ -161,6 +161,7 @@
   - [unit 4] Created leaf `2.1. Model token and prompt.md`
   - [unit 5] Created leaf `2.2. Training vs inference and hallucination.md`
   - [unit 6] Created leaf `4.1. Data vocabulary checklist mentors insist on.md`
+  - [unit 7] Created leaf `5.1. Common interview QA data and AI vocabulary.md`
 - Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02
 - Verification:
