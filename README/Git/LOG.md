@@ -24,7 +24,8 @@
 - Done:
   - [unit 1] Created `README/Git/README.md` (Template A track index, lists Domain 01) + opened this LOG entry
   - [unit 2] Created `README/Git/01 Git Fundamentals and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises)
-- Files touched: created `README/Git/LOG.md`, created `README/Git/README.md`, created `README/Git/01 Git Fundamentals and Mental Model/README.md`
+  - [unit 3] Created leaf `1.1. What Git is and why snapshots win.md`
+- Files touched: created `README/Git/LOG.md`, created `README/Git/README.md`, created `README/Git/01 Git Fundamentals and Mental Model/README.md`, created `.../sections/1. Thinking in snapshots/1.1. What Git is and why snapshots win.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #4 already pointed here, now resolves
 - Verification:
 - Next steps:
