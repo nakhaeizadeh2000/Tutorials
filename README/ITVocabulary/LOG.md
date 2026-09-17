@@ -95,6 +95,7 @@
   - [unit 3] Created leaf `1.2. Pull request review and conflicts.md`
   - [unit 4] Created leaf `2.1. Build test release and deploy.md`
   - [unit 5] Created leaf `3.1. Refactor tech debt legacy and cleanup.md`
+  - [unit 6] Created leaf `4.1. Engineering terms checklist mentors insist on.md`
 - Files touched: created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
 - Verification:
