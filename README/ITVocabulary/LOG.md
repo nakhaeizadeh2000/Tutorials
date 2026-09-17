@@ -73,7 +73,7 @@
 - Next steps: Session 3 — Domain 03 Software Development and Engineering Terms (next `NN`): domain README (Template B) + leaves (repo/branch/commit, build/test/release, refactor/debt/code-review words, checklist, interview QA, overlaps), then 04–07 in order. Outstanding link upgrades: three `LOG.md`-placeholder links in Domain 01 leaf 6.1 → real READMEs when domains 04–06 land.
 
 ## [2026-09-17 13:00] Session 3 — Domain 03 Software Development and Engineering Terms
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (§1–30 binding core re-read; full read in Sessions 1–2), README/ITVocabulary/LOG.md (full — Sessions 1–2 DONE), README/ITVocabulary/README.md (lists Domains 01–02). Recovery: grep for `Status: IN PROGRESS|PARTIAL` found only historical prose in a TypeScript LOG line, no live entries; disk verified — Domain 02 README + 7 leaves match Session 2 Done claims, tree clean at 20dfa37. No discrepancies.
 - Plan (resumed from Session 2 Next steps; no scope override in request):
   1. Unit 1 — open this entry + create 03 domain README (Template B, sections 1–3 + 4–6) + track README row 3
@@ -98,7 +98,7 @@
   - [unit 6] Created leaf `4.1. Engineering terms checklist mentors insist on.md`
   - [unit 7] Created leaf `5.1. Common interview QA engineering terms.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
-- Files touched: created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md`, modified `README/ITVocabulary/README.md`
-- Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
-- Verification:
-- Next steps: (pending — filled at close)
+- Files touched: created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md`, modified `README/ITVocabulary/README.md` (row 3), created `.../sections/1. Change words/1.1. Repo branch commit and merge.md`, created `.../sections/1. Change words/1.2. Pull request review and conflicts.md`, created `.../sections/2. Ship words/2.1. Build test release and deploy.md`, created `.../sections/3. Health words/3.1. Refactor tech debt legacy and cleanup.md`, created `.../sections/4. Important points to remember/4.1. Engineering terms checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA engineering terms.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`
+- Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02; leaf 2.1 → Domain 02 §2.1
+- Verification: link checker over whole track — 124/124 real `[text](<path>)` targets resolve, 0 broken (3 backticked doc-text matches skipped, pre-existing). Caught + fixed own defect pre-commit: stray non-English word in leaf 3.1 replaced with English. DoD walk per leaf: junior-readable definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — git commands/pipelines/test code named-not-taught, mechanics deferred to Git/Testing/Domain 06-07 via links.
+- Next steps: Session 4 — Domain 04 Networks Web and Internet Vocabulary (next `NN`): domain README (Template B) + leaves (protocol/packet, DNS, HTTP/request verbs/status, latency vs bandwidth, checklist, interview QA, overlaps), then 05–07 in order. Outstanding link upgrades: `LOG.md`-placeholder links in Domain 01 leaf 6.1 (×3) and Domain 03 leaf 6.1 (Domain 06) → real READMEs as domains 04–06 land.
