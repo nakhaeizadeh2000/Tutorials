@@ -62,6 +62,7 @@
   - [unit 2] Created leaf `1.1. Partial staging and the atomic commit.md`
   - [unit 3] Created leaf `1.2. Commit messages reviewers thank you for.md`
   - [unit 4] Created leaf `2.1. Log filtering formatting and the questions log answers.md`
+  - [unit 5] Created leaf `2.2. Show blame and archaeology without blame games.md`
 - Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves
 - Verification:
