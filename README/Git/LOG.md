@@ -69,6 +69,8 @@
   - [unit 9] Created leaf `5.1. Common interview QA workflow and history.md`
   - [unit 10] Created leaf `6.1. Boundaries what is covered elsewhere.md`
   - [unit 11] Upgraded Domain 01 leaf 6.1 Domain-02 forward-line → live Domain 02 README link
+  - [unit 12] Link-fix pass: 8 cross-domain `../../01…` links in Domain 02 leaves corrected to `../../../01…` (leaf dirs sit one level deeper than assumed) + 1 same-track `./1.1…` corrected to `../1. Composing commits/1.1…`; re-check 89/89 resolve, 0 broken
+- Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves
 - Verification:
