@@ -125,6 +125,7 @@
   - [unit 1] Created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 4
   - [unit 2] Created leaf `1.1. Protocol packet and address.md`
   - [unit 3] Created leaf `1.2. DNS names to numbers.md`
+  - [unit 4] Created leaf `2.1. HTTP requests verbs and status codes.md`
 - Files touched: created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–02
 - Verification:
