@@ -158,6 +158,7 @@
   - [unit 1] Created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 5
   - [unit 2] Created leaf `1.1. Data vs information structured vs unstructured.md`
   - [unit 3] Created leaf `1.2. Database table query and index.md`
+  - [unit 4] Created leaf `2.1. Model token and prompt.md`
 - Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02
 - Verification:
