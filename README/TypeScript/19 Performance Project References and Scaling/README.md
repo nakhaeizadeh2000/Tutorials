@@ -114,6 +114,6 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 2. **Tooling operation and debugging** (navigation, lint tiers, publint/attw, playgrounds, version playbooks) — [16 Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>).
 3. **Generic/transform mechanics under budget** (recursion, distribution, deep transforms, carve-out shapes) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) + [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
 4. **Module organization and declaration authoring** (import/export forms, d.ts practice, publishing wiring) — [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>).
-5. **Production release and migration practice** (checklists, migrations, interop, observability) — [20 Production Checklist, Migration and Interoperability](<../20 Production Checklist Migration and Interoperability/README.md>) (textual forward).
+5. **Production release and migration practice** (checklists, migrations, interop, observability) — [20 Production Checklist, Migration and Interoperability](<../20 Production Checklist Migration and Interoperability/README.md>).
 
 [← Back to track](<../README.md>)
