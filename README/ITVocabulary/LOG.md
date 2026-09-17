@@ -137,7 +137,7 @@
 - Next steps: Session 5 — Domain 05 Data Databases and AI Vocabulary (next `NN`): domain README (Template B) + leaves (data vs information, database/table/query, AI model/token/training vs inference, checklist, interview QA, overlaps), then 06–07. Outstanding link upgrades: `LOG.md`-placeholders in Domain 01 leaf 6.1 (Domains 05–06) + Domain 02/03/04 leaf 6.1s (Domains 05–06) → real READMEs as 05–06 land.
 
 ## [2026-09-17 14:00] Session 5 — Domain 05 Data Databases and AI Vocabulary
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–5), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–4 DONE), README/ITVocabulary/README.md (lists Domains 01–04). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 04 README + 7 leaves match Session 4 Done claims, tree clean at 367435b. No discrepancies.
 - Plan (resumed from Session 4 Next steps; no scope override in request):
   1. Unit 1 — open this entry + create 05 domain README (Template B, sections 1–2 + 4–6) + track README row 5
@@ -164,7 +164,7 @@
   - [unit 7] Created leaf `5.1. Common interview QA data and AI vocabulary.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
   - [unit 9] Upgraded Domain 01 leaf 6.1 Domain-05 placeholder → real Domain 05 README
-- Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
-- Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02
-- Verification:
-- Next steps: (pending — filled at close)
+- Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md` (row 5), created `.../sections/1. Data words/1.1. Data vs information structured vs unstructured.md`, created `.../sections/1. Data words/1.2. Database table query and index.md`, created `.../sections/2. AI words/2.1. Model token and prompt.md`, created `.../sections/2. AI words/2.2. Training vs inference and hallucination.md`, created `.../sections/4. Important points to remember/4.1. Data vocabulary checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA data and AI vocabulary.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`; modified Domain 01 leaf 6.1 (Domain-05 link upgrade)
+- Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02; leaf 1.2 → Domain 02 §1.1; unit 9 retired the Domain-05 `LOG.md`-placeholder in Domain 01 leaf 6.1
+- Verification: link checker over whole track (45 files) — 210/210 real targets resolve, 0 broken (backticked doc-text lines skipped). Caught + fixed own typo pre-commit (`is_media` → English in leaf 4.1). DoD walk per leaf: junior definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — SQL/ML-internals/pipelines named-not-taught, deferred to Databases/ORM/AI/Domain 06 via links.
+- Next steps: Session 6 — Domain 06 Security Cloud and DevOps Vocabulary (next `NN`): domain README (Template B) + leaves (threat/vulnerability/CVE, auth/IAM/secret, CI/CD-pipeline/deploy words, checklist, interview QA, overlaps), then Domain 07 to finish the track. Outstanding link upgrades: `LOG.md`-placeholders for Domain 06 in Domain 01/03/04/05 leaf 6.1s → real README when 06 lands.
