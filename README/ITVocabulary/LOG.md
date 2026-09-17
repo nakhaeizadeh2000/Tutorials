@@ -40,3 +40,27 @@
 - Links fixed / added: track index links Domain 01 README (to be created in unit 2) + back-link to root README; root README row #3 already pointed here, now resolves; unit 13: 3 outbound sibling-track links fixed (`../../../../` level)
 - Verification: link checker over all 13 md files — 47/47 `[text](<path>)` targets resolve, 0 broken. DoD walk per leaf: junior-readable first half (plain definitions + good/bad usage snippets), expert/mentor second half (trade-offs, consequences, mentor notes); every anti-pattern labeled with why; filenames free of `: , ? & ( )` with `M.k.` prefixes; domain/track indexes updated in same units; DRY — mechanics owned by JS/TS/Git tracks are linked, not re-taught (grep-confirmed no prior ITVocabulary coverage existed; single-source-of-truth preserved). Examples are usage snippets labeled as such (honest runnable form for a vocabulary track).
 - Next steps: Session 2 — Domain 02 Hardware Infrastructure and Platforms (next `NN`): create domain README (Template B) + leaves (CPU/RAM/storage, client vs server, localhost vs cloud, checklist, interview QA, overlaps), then continue 03–07 in order. Upgrade the three `LOG.md`-placeholder links in leaf 6.1 to real domain READMEs as domains 04–06 land.
+
+## [2026-09-17 12:30] Session 2 — Domain 02 Hardware Infrastructure and Platforms
+- Status: IN PROGRESS
+- Context read: PROMPT.md (full §1–§8), root README.md (IT Vocabulary still #3), README/ITVocabulary/LOG.md (full — Session 1 DONE, no IN PROGRESS/PARTIAL anywhere; all tracks' LOGs grep-confirmed DONE), README/ITVocabulary/README.md (lists Domain 01 only). Recovery: disk verified — 13 md files match Session 1 Done claims, working tree clean at 78c7ac4. No discrepancies; trust log + disk, nothing to redo.
+- Plan (resumed from Session 1 Next steps; no scope override in request):
+  1. Unit 1 — open this entry (this write) + create 02 domain README (Template B, sections 1–2 + 4–6) + add track README row 2
+  2. Unit 2 — leaf 1.1. CPU RAM and storage the working trio
+  3. Unit 3 — leaf 1.2. Client vs server who serves whom
+  4. Unit 4 — leaf 2.1. Localhost staging and production environments
+  5. Unit 5 — leaf 2.2. Cloud words region zone instance and managed
+  6. Unit 6 — leaf 4.1. Infrastructure checklist mentors insist on
+  7. Unit 7 — leaf 5.1. Common interview QA infrastructure vocabulary
+  8. Unit 8 — leaf 6.1. Boundaries what is covered elsewhere
+  9. Final verification + close entry
+- Research notes: hardware/cloud vocabulary is stable reference knowledge (standard CS + cloud-provider glossary consensus: region/zone/instance per AWS/GCP/Azure shared meaning). No version-sensitive claims; track-level "August 2026 era" line covers dating. roadmap.sh DevOps/cloud paths confirm region/zone/instance/managed-service as the core beginner set — no gaps added.
+- Decisions:
+  - Domain 02 stays at naming level (what each word points to); how servers/VMs/containers *work* belongs to future Linux/Docker/Cloud tracks — DRY boundary enforced in leaf 6.1.
+  - Leaf examples remain good-vs-bad usage snippets, matching Domain 01's established honest-runnable form.
+- Done:
+  - [unit 1] Created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 2
+- Files touched: created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md`, modified `README/ITVocabulary/README.md`
+- Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves 2.1 + 2.3
+- Verification:
+- Next steps: (pending — filled at close)
