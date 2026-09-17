@@ -38,7 +38,7 @@
 - Next steps: Session 2 — Domain 02 Core Workflow Add Commit and Inspect (next `NN`): domain README (Template B) + leaves (partial staging, log filtering/formatting, show/blame archaeology, gitignore, aliases), then 03–07 in order. Outstanding: upgrade Domain 01 leaf 6.1 `(planned, see LOG)` forward-lines to live links as domains 02–07 land.
 
 ## [2026-09-17 17:00] Session 2 — Domain 02 Core Workflow Add Commit and Inspect
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding; full read Session 1), root README.md (Git #4, unchanged), README/Git/LOG.md (full — Session 1 DONE), README/Git/README.md (lists Domain 01 only), README/Git/01 Git Fundamentals and Mental Model/README.md (Template B reference for Domain 02 shape). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 01 README + 8 leaves match Session 1 Done claims, tree clean. No discrepancies; trust log + disk, nothing to redo.
 - Plan (resumed from Session 1 Next steps; no scope override in request):
   1. Unit 1 — open this entry (this write) + create 02 domain README (Template B, sections 1–6) + track README row 2
@@ -73,5 +73,5 @@
 - Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves
-- Verification:
-- Next steps:
+- Verification: DoD walk per leaf — junior-readable first half (definitions + verbatim git commands), expert/mentor second half (trade-offs, performance notes, mentor notes); anti-patterns labeled with why; link checker over all 20 Git md files — 89/89 real `[text](<path>)` targets resolve, 0 broken (unit-12 pass fixed 9 depth bugs: cross-domain leaf links need `../../../`, verified by re-run); 0 `%20`; filenames clean; domain+track indexes updated in unit 1; DRY — model theory stays in Domain 01 (linked, never re-taught), release automation deferred to Domain 06, rescue to Domain 05. One pre-commit cleanup (invalid `pull.ff` keystroke passage in leaf 3.2 simplified to the single correct line).
+- Next steps: Session 3 — Domain 03 Branching Merging and Conflicts (next `NN`): domain README (Template B) + leaves (branch create/switch, fast-forward vs true merges, conflict markers and resolution, rerere), then 04–07 in order. Outstanding: upgrade Domain 01 + 02 leaf 6.1 `(planned, see LOG)` forward-lines to live links as domains 03–07 land (Domain-02 lines already live).
