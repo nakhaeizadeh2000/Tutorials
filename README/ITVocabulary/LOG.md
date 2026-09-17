@@ -168,3 +168,28 @@
 - Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02; leaf 1.2 → Domain 02 §1.1; unit 9 retired the Domain-05 `LOG.md`-placeholder in Domain 01 leaf 6.1
 - Verification: link checker over whole track (45 files) — 210/210 real targets resolve, 0 broken (backticked doc-text lines skipped). Caught + fixed own typo pre-commit (`is_media` → English in leaf 4.1). DoD walk per leaf: junior definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — SQL/ML-internals/pipelines named-not-taught, deferred to Databases/ORM/AI/Domain 06 via links.
 - Next steps: Session 6 — Domain 06 Security Cloud and DevOps Vocabulary (next `NN`): domain README (Template B) + leaves (threat/vulnerability/CVE, auth/IAM/secret, CI/CD-pipeline/deploy words, checklist, interview QA, overlaps), then Domain 07 to finish the track. Outstanding link upgrades: `LOG.md`-placeholders for Domain 06 in Domain 01/03/04/05 leaf 6.1s → real README when 06 lands.
+
+## [2026-09-17 14:30] Session 6 — Domain 06 Security Cloud and DevOps Vocabulary
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–6), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–5 DONE), README/ITVocabulary/README.md (lists Domains 01–05). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 05 README + 7 leaves match Session 5 Done claims, tree clean at 24c2707. No discrepancies.
+- Plan (resumed from Session 5 Next steps; no scope override in request):
+  1. Unit 1 — open this entry + create 06 domain README (Template B, sections 1–2 + 4–6) + track README row 6
+  2. Unit 2 — leaf 1.1. Threat vulnerability CVE and patch
+  3. Unit 3 — leaf 1.2. Auth identity secrets and least privilege
+  4. Unit 4 — leaf 2.1. Pipeline observe and incident words
+  5. Unit 5 — leaf 2.2. On-call runbook hotfix and rollback words
+  6. Unit 6 — leaf 4.1. Safety checklist mentors insist on
+  7. Unit 7 — leaf 5.1. Common interview QA safety and flow vocabulary
+  8. Unit 8 — leaf 6.1. Boundaries what is covered elsewhere
+  9. Unit 9 — link upgrades: Domain-06 placeholders in Domain 01/03/04/05 leaf 6.1s → real Domain 06 README
+  10. Final verification + close entry
+- Research notes: security/DevOps vocabulary per industry consensus (CVE/NIST naming; CWE/CVSS at naming level; CI/CD meanings stable). No version-sensitive claims. DRY check: exploit/pentest/pipeline-config mechanics belong to future Security/DevOps/Cloud tracks — naming level only. Deploy basics already live in Domain 03 §2.1 — referenced, not repeated.
+- Decisions:
+  - Leaf 2.2 covers operate-side words (on-call/runbook/hotfix/rollback-as-action); Domain 03 owns build→release pipeline + release-shape words — cross-linked, not duplicated.
+  - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–05 form.
+- Done:
+  - [unit 1] Created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 6
+- Files touched: created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
+- Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04
+- Verification:
+- Next steps: (pending — filled at close)

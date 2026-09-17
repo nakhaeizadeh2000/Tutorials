@@ -9,6 +9,7 @@ Keywords, acronyms, and professional jargon — the language developers speak in
 | 3 | [Software Development and Engineering Terms](<03 Software Development and Engineering Terms/README.md>) |
 | 4 | [Networks Web and Internet Vocabulary](<04 Networks Web and Internet Vocabulary/README.md>) |
 | 5 | [Data Databases and AI Vocabulary](<05 Data Databases and AI Vocabulary/README.md>) |
+| 6 | [Security Cloud and DevOps Vocabulary](<06 Security Cloud and DevOps Vocabulary/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
