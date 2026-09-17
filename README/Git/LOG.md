@@ -31,6 +31,7 @@
   - [unit 7] Created leaf `3.1. Init clone config and your first commit.md`
   - [unit 8] Created leaf `4.1. Fundamentals checklist mentors insist on.md`
   - [unit 9] Created leaf `5.1. Common interview QA fundamentals.md`
+  - [unit 10] Created leaf `6.1. Boundaries what is covered elsewhere.md`
 - Files touched: created `README/Git/LOG.md`, created `README/Git/README.md`, created `README/Git/01 Git Fundamentals and Mental Model/README.md`, created `.../sections/1. Thinking in snapshots/1.1. What Git is and why snapshots win.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #4 already pointed here, now resolves
 - Verification:
