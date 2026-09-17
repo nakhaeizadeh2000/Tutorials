@@ -114,6 +114,6 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 2. **Async testing practice** (rejection tests, float detection, abort doubles, fake timers) — [17 Testing Types](<../17 Testing Types/README.md>).
 3. **Return-type and variance mechanics** (void/never callbacks, strictFunctionTypes, contextual inference) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
 4. **Runtime configuration and module pairing** (targets, libs, module/resolution per runtime) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-5. **Performance engineering at scale** (check-time budgets, references architecture, event-loop tuning) — [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>) (textual forward).
+5. **Performance engineering at scale** (check-time budgets, references architecture, event-loop tuning) — [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>).
 
 [← Back to track](<../README.md>)

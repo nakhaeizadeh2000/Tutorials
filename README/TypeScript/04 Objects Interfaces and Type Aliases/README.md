@@ -111,7 +111,7 @@ How TypeScript models *object shapes* statically: structural object types, optio
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
 1. **JavaScript runtime mechanics** (descriptors, prototype, enumeration) — [JavaScript 06 Objects in Depth](<../../JavaScript/06 Objects in Depth/README.md>).
-2. **Unions, intersections, and narrowing** (type-level composition, `in`/`is` guards, discriminant unions) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>) (textual forward until that domain lands; this domain only reaches `&`/`extends` on object shapes).
+2. **Unions, intersections, and narrowing** (type-level composition, `in`/`is` guards, discriminant unions) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>) (this domain only reaches `&`/`extends` on object shapes).
 3. **Functions and classes** (callable signatures, methods, accessors) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>) + [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>) (textual).
 4. **Generics / utility-type transformations** (mapped, conditional, `infer`, template literals building object shapes) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) + [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>) (textual).
 5. **Configuration deep dive** (`exactOptionalPropertyTypes`, `strictNullChecks`, `erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (textual).

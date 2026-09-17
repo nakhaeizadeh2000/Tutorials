@@ -113,7 +113,7 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 1. **Assertion mechanics and error-as-value modeling** (predicates, asserts, Result, schemas, parse discipline) — [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>).
 2. **Conditional/infer/utility mechanics under test** (distribution, homomorphic mapping, stdlib sources) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) + [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
 3. **Test execution and runners** (suites, coverage, e2e behavior, Playwright) — future Testing track (this domain proves statics; runners prove behavior).
-4. **Async runtime behavior** (event loop, timers, cancellation propagation) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>) (textual forward).
+4. **Async runtime behavior** (event loop, timers, cancellation propagation) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>).
 5. **Packaging gates and declaration emit** (exports maps, attw/publint operation, d.ts authoring) — [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>) + [16 Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>).
 
 [← Back to track](<../README.md>)

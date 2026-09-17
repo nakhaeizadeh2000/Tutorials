@@ -113,7 +113,7 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 1. **Object-type composition details** (freshness, `readonly`/optional, declaration merging) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>).
 2. **Function-level variance and callable overloads** (contravariance, overloads vs unions on params) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
 3. **Class hierarchies as union alternatives** (`extends`/`implements`/`abstract` vs discriminated unions) — [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
-4. **Generics, conditional types, and mapped types over unions** (distributive `T extends U ? …` and `keyof` filtering) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) + [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>) (textual forwards).
+4. **Generics, conditional types, and mapped types over unions** (distributive `T extends U ? …` and `keyof` filtering) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) + [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
 5. **Compiler strictness flags** (`strictNullChecks`, `noImplicitAny`, `--strict`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)

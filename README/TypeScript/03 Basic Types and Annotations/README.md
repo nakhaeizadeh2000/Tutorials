@@ -110,7 +110,7 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Objects, interfaces, and type aliases** — [04 Objects, Interfaces and Type Aliases](../04 Objects Interfaces and Type Aliases/README.md) (textual forward until that domain lands).
+1. **Objects, interfaces, and type aliases** — [04 Objects, Interfaces and Type Aliases](../04 Objects Interfaces and Type Aliases/README.md).
 2. **Unions, intersections, and narrowing** — [07 Unions, Intersections and Narrowing](../07 Unions Intersections and Narrowing/README.md) (textual).
 3. **Enums and their non-erasable cost** — [01 Fundamentals 3.3 Choosing erasable syntax](<../01 Fundamentals and Mental Model/sections/3. Running TypeScript today/3.3. Choosing erasable syntax the zero-cost interop rule.md>) + [11 Enums and Literal Types](../11 Enums and Literal Types/README.md) (textual).
 4. **Generics and utility-type transformations** — [08 Generics Deep Dive](../08 Generics Deep Dive/README.md) + [09 Utility Types and Type Transformations](../09 Utility Types and Type Transformations/README.md) (textual).

@@ -110,6 +110,6 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 1. **JavaScript language mechanics** (values, scope, closures, prototypes, async) — [JavaScript track](<../../JavaScript/README.md>).
 2. **Deep type system mechanics** (structural typing details, variance, conditional types) — [02 The Type System Core](<../02 The Type System Core/README.md>).
-3. **Configuration deep dive** (`tsconfig` flags, project references) — [13 Configuration and Compiler Options](../13 Configuration and Compiler Options/README.md) (textual forward reference until that domain lands).
+3. **Configuration deep dive** (`tsconfig` flags, project references) — [13 Configuration and Compiler Options](../13 Configuration and Compiler Options/README.md).
 4. **Decorators and metadata** — [14 Decorators and Metadata](../14 Decorators and Metadata/README.md) (textual).
 

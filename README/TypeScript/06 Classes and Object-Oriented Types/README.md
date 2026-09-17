@@ -113,7 +113,7 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 1. **JavaScript runtime mechanics** (prototype chain, `super`, `new.target`, field initialization order) — [JavaScript 07 Prototypes and Classes](<../../JavaScript/07 Prototypes and Classes/README.md>).
 2. **Object types and declaration merging** (structural object shapes, `interface` merging, `extends` vs `&` on objects) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>).
 3. **Functions and callable types** (`this` parameter, callback variance, overloads, generics on functions) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
-4. **Unions, intersections, and narrowing** (discriminated unions, control-flow narrowing, exhaustiveness) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>) (textual forward).
-5. **Decorators and metadata** (class/method/field decorators) — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) (textual forward; this domain only reaches `override`/`abstract`/`static`).
+4. **Unions, intersections, and narrowing** (discriminated unions, control-flow narrowing, exhaustiveness) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
+5. **Decorators and metadata** (class/method/field decorators) — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) (this domain only reaches `override`/`abstract`/`static`).
 
 [← Back to track](<../README.md>)

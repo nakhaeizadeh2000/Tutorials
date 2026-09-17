@@ -113,7 +113,7 @@ How TypeScript *proves* correctness at runtime boundaries — assertion function
 1. **Predicate/assert mechanics and narrowing theory** (signatures, callables, union narrowers, exhaustiveness sinks) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>) + [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
 2. **Strict flags and configuration** (family bundle, trio, pairing, migration sequencing) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 3. **Unknown/never/any behavior and nullability intents** (top types, bottom types, escape hatches, null-vs-undefined) — [03 Basic Types and Annotations](<../03 Basic Types and Annotations/README.md>).
-4. **Decorator-driven validation and testing decorated code** (rule registration, DI rebinding, order assertions) — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) + [17 Testing Types](<../17 Testing Types/README.md>) (textual forward).
-5. **Async error propagation and runtime handling** (rejections, unhandledrejection, top-level architecture per runtime) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>) (textual forward).
+4. **Decorator-driven validation and testing decorated code** (rule registration, DI rebinding, order assertions) — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) + [17 Testing Types](<../17 Testing Types/README.md>).
+5. **Async error propagation and runtime handling** (rejections, unhandledrejection, top-level architecture per runtime) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>).
 
 [← Back to track](<../README.md>)

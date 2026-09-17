@@ -111,9 +111,9 @@ How TypeScript types the only value that *does* something — functions and ever
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
 1. **JavaScript runtime mechanics** (closure, hoisting, `this` binding, `arguments`) — [JavaScript 02 Functions](<../../JavaScript/05 Functions Deep Dive/README.md>).
-2. **Classes and `this` in OO** (constructors, private fields, method decorators) — [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>) (textual forward).
-3. **Unions, intersections, and narrowing at call sites** (discriminated unions, control-flow narrowing) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>) (textual forward).
-4. **Generics deep dive** (variance with `in`/`out`, conditional types, `infer` on functions) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) (textual forward; this domain only covers generics *on callables*).
+2. **Classes and `this` in OO** (constructors, private fields, method decorators) — [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
+3. **Unions, intersections, and narrowing at call sites** (discriminated unions, control-flow narrowing) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
+4. **Generics deep dive** (variance with `in`/`out`, conditional types, `infer` on functions) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) (this domain only covers generics *on callables*).
 5. **Configuration** (`strictFunctionTypes`, `noImplicitThis`, `useUnknownInCatchVariables` on catch callbacks) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)

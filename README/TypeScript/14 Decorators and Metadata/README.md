@@ -113,7 +113,7 @@ How TypeScript annotates classes and members with reusable behavior — TC39 sta
 1. **Class mechanics and mixin composition** (duality, constructors, `extends`/`implements`, function-form mixins) — [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
 2. **Higher-order functions and callable patterns** (wrappers, overloads, `this` typing, variance on callables) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
 3. **Compiler flags for emit behavior** (`experimentalDecorators`, `emitDecoratorMetadata`, `isolatedModules` interplay) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-4. **Validation at boundaries and testing decorated code** (schemas, assertion functions, test doubles for decorated classes) — [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>) + [17 Testing Types](<../17 Testing Types/README.md>) (textual forwards).
+4. **Validation at boundaries and testing decorated code** (schemas, assertion functions, test doubles for decorated classes) — [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>) + [17 Testing Types](<../17 Testing Types/README.md>).
 5. **NestJS-style framework mastery** (full DI containers, module systems, production wiring) — [15 NestJS track](<../NestJS/README.md>) (textual forward; track does not exist yet — forward recorded for curriculum order).
 
 [← Back to track](<../README.md>)

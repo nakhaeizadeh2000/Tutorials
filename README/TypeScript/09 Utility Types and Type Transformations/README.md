@@ -113,7 +113,7 @@ How TypeScript *computes* new types from old ones — mapped types (`{ [K in key
 1. **Generic declaration mechanics** (sites, inference, constraints, `in`/`out`, recursion theory) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>).
 2. **Object-type composition primitives** (`&` vs `extends`, merging, `keyof`/`T[K]` queries) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>).
 3. **Union/intersection algebra and narrowing** (distributivity at shape level, discriminants, exhaustiveness) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-4. **Arrays, tuples, and template-literal element patterns** (variadic composition, tuple `infer`) — [10 Arrays, Tuples and Collections](<../10 Arrays Tuples and Collections/README.md>) (textual forward).
+4. **Arrays, tuples, and template-literal element patterns** (variadic composition, tuple `infer`) — [10 Arrays, Tuples and Collections](<../10 Arrays Tuples and Collections/README.md>).
 5. **Compiler strictness and emit flags** (`strict`, `--erasableSyntaxOnly`, `isolatedDeclarations`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
 
 [← Back to track](<../README.md>)

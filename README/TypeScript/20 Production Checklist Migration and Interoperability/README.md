@@ -114,6 +114,6 @@ How TypeScript *ships and survives* — production checklists (release gates com
 2. **Tooling operation and version playbooks** (tsserver, lint tiers, gates operation, upgrade playbooks) — [16 Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>).
 3. **Test construction and gate composition** (assertions, doubles, matrices, CI triage) — [17 Testing Types](<../17 Testing Types/README.md>).
 4. **Async evaluation and scale engineering** (promises, combinators, budgets, references) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>) + [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>).
-5. **Version-feature indexes** (what changed per release, mapped to topical domains) — [21 Update TypeScript 5.6](<../21 Update TypeScript 5.6/README.md>) + [22 Update TypeScript 5.7](<../22 Update TypeScript 5.7/README.md>) + [23 Update TypeScript 5.8](<../23 Update TypeScript 5.8/README.md>) + [24 Update TypeScript 5.9 and 6.0](<../24 Update TypeScript 5.9 and 6.0/README.md>) (textual forwards until 21–24 land).
+5. **Version-feature indexes** (what changed per release, mapped to topical domains) — [21 Update TypeScript 5.6](<../21 Update TypeScript 5.6/README.md>) + [22 Update TypeScript 5.7](<../22 Update TypeScript 5.7/README.md>) + [23 Update TypeScript 5.8](<../23 Update TypeScript 5.8/README.md>) + [24 Update TypeScript 5.9 and 6.0](<../24 Update TypeScript 5.9 and 6.0/README.md>).
 
 [← Back to track](<../README.md>)
