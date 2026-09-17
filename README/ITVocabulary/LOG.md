@@ -104,7 +104,7 @@
 - Next steps: Session 4 — Domain 04 Networks Web and Internet Vocabulary (next `NN`): domain README (Template B) + leaves (protocol/packet, DNS, HTTP/request verbs/status, latency vs bandwidth, checklist, interview QA, overlaps), then 05–07 in order. Outstanding link upgrades: `LOG.md`-placeholder links in Domain 01 leaf 6.1 (×3) and Domain 03 leaf 6.1 (Domain 06) → real READMEs as domains 04–06 land.
 
 ## [2026-09-17 13:30] Session 4 — Domain 04 Networks Web and Internet Vocabulary
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–4), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–3 DONE), README/ITVocabulary/README.md (lists Domains 01–03). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 03 README + 7 leaves match Session 3 Done claims, tree clean at eec0fe9. No discrepancies.
 - Plan (resumed from Session 3 Next steps; no scope override in request):
   1. Unit 1 — open this entry + create 04 domain README (Template B, sections 1–2 + 4–6) + track README row 4
@@ -131,7 +131,7 @@
   - [unit 7] Created leaf `5.1. Common interview QA networking vocabulary.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
   - [unit 9] Upgraded Domain 01 leaf 6.1 placeholders → real READMEs (Domain 04 + Domains 02/03)
-- Files touched: created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
-- Links fixed / added: track README row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–02
-- Verification:
-- Next steps: (pending — filled at close)
+- Files touched: created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md`, modified `README/ITVocabulary/README.md` (row 4), created `.../sections/1. How messages travel/1.1. Protocol packet and address.md`, created `.../sections/1. How messages travel/1.2. DNS names to numbers.md`, created `.../sections/2. Web talk/2.1. HTTP requests verbs and status codes.md`, created `.../sections/2. Web talk/2.2. Latency vs bandwidth and timeouts.md`, created `.../sections/4. Important points to remember/4.1. Networking vocabulary checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA networking vocabulary.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`; modified Domain 01 leaf 6.1 (link upgrades)
+- Links fixed / added: track README row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–02; leaf 2.1 → Domain 02 §1.2; unit 9 retired two `LOG.md`-placeholder links in Domain 01 leaf 6.1
+- Verification: link checker over whole track (37 files) — 167/167 real targets resolve, 0 broken (backticked doc-text lines skipped). DoD walk per leaf: junior definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — handshakes/TLS/sockets/API-design named-not-taught, deferred to future Networks/API/Cloud tracks.
+- Next steps: Session 5 — Domain 05 Data Databases and AI Vocabulary (next `NN`): domain README (Template B) + leaves (data vs information, database/table/query, AI model/token/training vs inference, checklist, interview QA, overlaps), then 06–07. Outstanding link upgrades: `LOG.md`-placeholders in Domain 01 leaf 6.1 (Domains 05–06) + Domain 02/03/04 leaf 6.1s (Domains 05–06) → real READMEs as 05–06 land.
