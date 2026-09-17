@@ -6,6 +6,7 @@ Keywords, acronyms, and professional jargon — the language developers speak in
 |---|--------|
 | 1 | [Core IT Concepts and Professional Jargon](<01 Core IT Concepts and Professional Jargon/README.md>) |
 | 2 | [Hardware Infrastructure and Platforms](<02 Hardware Infrastructure and Platforms/README.md>) |
+| 3 | [Software Development and Engineering Terms](<03 Software Development and Engineering Terms/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

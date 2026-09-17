@@ -71,3 +71,27 @@
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves 2.1 + 2.3
 - Verification: link checker over all 21 track md files — 82/82 real `[text](<path>)` targets resolve, 0 broken (single regex hit on backticked doc text `` `[text](<path>)` `` in Session 1 verification line is a false positive, pre-existing). DoD walk per leaf: junior-readable first half, expert/mentor second half; anti-patterns with consequences; filenames free of `: , ? & ( )` with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — grep-confirmed no prior coverage of zone/instance/hyper-threading concepts in JS/TS tracks; mechanics deferred to future Linux/Docker/Cloud tracks via links.
 - Next steps: Session 3 — Domain 03 Software Development and Engineering Terms (next `NN`): domain README (Template B) + leaves (repo/branch/commit, build/test/release, refactor/debt/code-review words, checklist, interview QA, overlaps), then 04–07 in order. Outstanding link upgrades: three `LOG.md`-placeholder links in Domain 01 leaf 6.1 → real READMEs when domains 04–06 land.
+
+## [2026-09-17 13:00] Session 3 — Domain 03 Software Development and Engineering Terms
+- Status: IN PROGRESS
+- Context read: PROMPT.md (§1–30 binding core re-read; full read in Sessions 1–2), README/ITVocabulary/LOG.md (full — Sessions 1–2 DONE), README/ITVocabulary/README.md (lists Domains 01–02). Recovery: grep for `Status: IN PROGRESS|PARTIAL` found only historical prose in a TypeScript LOG line, no live entries; disk verified — Domain 02 README + 7 leaves match Session 2 Done claims, tree clean at 20dfa37. No discrepancies.
+- Plan (resumed from Session 2 Next steps; no scope override in request):
+  1. Unit 1 — open this entry + create 03 domain README (Template B, sections 1–3 + 4–6) + track README row 3
+  2. Unit 2 — leaf 1.1. Repo branch commit and merge
+  3. Unit 3 — leaf 1.2. Pull request review and conflicts
+  4. Unit 4 — leaf 2.1. Build test release and deploy
+  5. Unit 5 — leaf 3.1. Refactor tech debt legacy and cleanup
+  6. Unit 6 — leaf 4.1. Engineering terms checklist mentors insist on
+  7. Unit 7 — leaf 5.1. Common interview QA engineering terms
+  8. Unit 8 — leaf 6.1. Boundaries what is covered elsewhere
+  9. Final verification + close entry
+- Research notes: VCS/build/release vocabulary is stable industry consensus (git docs for command names used at naming level only; CI/CD/release meanings per standard DevOps usage). No version-sensitive claims. DRY check: Git mechanics belong to future Git track — this domain stays at naming level.
+- Decisions:
+  - Git *commands* are named, never taught — one line each; how branching/merging works belongs to the Git track (boundary in leaf 6.1).
+  - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–02 form.
+- Done:
+  - [unit 1] Created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md` (Template B index, sections 1–3 + 4–6, 7 leaf promises) + added track README row 3
+- Files touched: created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md`, modified `README/ITVocabulary/README.md`
+- Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
+- Verification:
+- Next steps: (pending — filled at close)
