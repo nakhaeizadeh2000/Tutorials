@@ -102,3 +102,28 @@
 - Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02; leaf 2.1 → Domain 02 §2.1
 - Verification: link checker over whole track — 124/124 real `[text](<path>)` targets resolve, 0 broken (3 backticked doc-text matches skipped, pre-existing). Caught + fixed own defect pre-commit: stray non-English word in leaf 3.1 replaced with English. DoD walk per leaf: junior-readable definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — git commands/pipelines/test code named-not-taught, mechanics deferred to Git/Testing/Domain 06-07 via links.
 - Next steps: Session 4 — Domain 04 Networks Web and Internet Vocabulary (next `NN`): domain README (Template B) + leaves (protocol/packet, DNS, HTTP/request verbs/status, latency vs bandwidth, checklist, interview QA, overlaps), then 05–07 in order. Outstanding link upgrades: `LOG.md`-placeholder links in Domain 01 leaf 6.1 (×3) and Domain 03 leaf 6.1 (Domain 06) → real READMEs as domains 04–06 land.
+
+## [2026-09-17 13:30] Session 4 — Domain 04 Networks Web and Internet Vocabulary
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–4), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–3 DONE), README/ITVocabulary/README.md (lists Domains 01–03). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 03 README + 7 leaves match Session 3 Done claims, tree clean at eec0fe9. No discrepancies.
+- Plan (resumed from Session 3 Next steps; no scope override in request):
+  1. Unit 1 — open this entry + create 04 domain README (Template B, sections 1–2 + 4–6) + track README row 4
+  2. Unit 2 — leaf 1.1. Protocol packet and address
+  3. Unit 3 — leaf 1.2. DNS names to numbers
+  4. Unit 4 — leaf 2.1. HTTP requests verbs and status codes
+  5. Unit 5 — leaf 2.2. Latency vs bandwidth and timeouts
+  6. Unit 6 — leaf 4.1. Networking vocabulary checklist mentors insist on
+  7. Unit 7 — leaf 5.1. Common interview QA networking vocabulary
+  8. Unit 8 — leaf 6.1. Boundaries what is covered elsewhere
+  9. Unit 9 — link upgrade: Domain 01 leaf 6.1 Domain-04 placeholder → real Domain 04 README
+  10. Final verification + close entry
+- Research notes: networking vocabulary per IETF/MDN consensus (protocol/packet/DNS/HTTP semantics stable for decades). No version-sensitive claims. DRY check: packet mechanics/socket programming belong to future tracks — naming level only.
+- Decisions:
+  - Protocol internals (TCP handshakes, TLS negotiation) named-not-taught; how-packets-move belongs to future Networks/System tracks.
+  - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–03 form.
+- Done:
+  - [unit 1] Created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 4
+- Files touched: created `README/ITVocabulary/04 Networks Web and Internet Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
+- Links fixed / added: track README row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–02
+- Verification:
+- Next steps: (pending — filled at close)
