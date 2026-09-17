@@ -60,6 +60,7 @@
   - Leaf examples remain good-vs-bad usage snippets, matching Domain 01's established honest-runnable form.
 - Done:
   - [unit 1] Created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 2
+  - [unit 2] Created leaf `1.1. CPU RAM and storage the working trio.md`
 - Files touched: created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves 2.1 + 2.3
 - Verification:
