@@ -65,6 +65,7 @@
   - [unit 4] Created leaf `2.1. Localhost staging and production environments.md`
   - [unit 5] Created leaf `2.2. Cloud words region zone instance and managed.md`
   - [unit 6] Created leaf `4.1. Infrastructure checklist mental models mentors insist on.md`
+  - [unit 7] Created leaf `5.1. Common interview QA infrastructure vocabulary.md`
 - Files touched: created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves 2.1 + 2.3
 - Verification:
