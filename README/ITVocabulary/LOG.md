@@ -34,6 +34,7 @@
   - [unit 9] Created leaf `3.2. Meeting jargon standup sync blockers and shipped.md`
   - [unit 10] Created leaf `4.1. Core concepts checklist mental models mentors insist on.md`
   - [unit 11] Created leaf `5.1. Common interview QA core IT vocabulary.md`
+  - [unit 12] Created leaf `6.1. Boundaries what is covered elsewhere.md`
 - Files touched: created `README/ITVocabulary/README.md`, created `README/ITVocabulary/LOG.md`, created `README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md`, created `.../sections/1. Learning vocabulary like a professional/1.1. Why precise vocabulary matters.md`
 - Links fixed / added: track index links Domain 01 README (to be created in unit 2) + back-link to root README; root README row #3 already pointed here, now resolves
 - Verification:
