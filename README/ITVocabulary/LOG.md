@@ -93,6 +93,7 @@
   - [unit 1] Created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md` (Template B index, sections 1–3 + 4–6, 7 leaf promises) + added track README row 3
   - [unit 2] Created leaf `1.1. Repo branch commit and merge.md`
   - [unit 3] Created leaf `1.2. Pull request review and conflicts.md`
+  - [unit 4] Created leaf `2.1. Build test release and deploy.md`
 - Files touched: created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
 - Verification:
