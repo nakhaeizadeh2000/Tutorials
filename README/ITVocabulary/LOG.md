@@ -63,6 +63,7 @@
   - [unit 2] Created leaf `1.1. CPU RAM and storage the working trio.md`
   - [unit 3] Created leaf `1.2. Client vs server who serves whom.md`
   - [unit 4] Created leaf `2.1. Localhost staging and production environments.md`
+  - [unit 5] Created leaf `2.2. Cloud words region zone instance and managed.md`
 - Files touched: created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves 2.1 + 2.3
 - Verification:
