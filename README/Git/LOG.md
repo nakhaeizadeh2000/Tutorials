@@ -59,6 +59,7 @@
   - Commit-message conventions live here (1.2), not in Domain 06 workflows: messages are written at commit time, and Domain 06 will assume the habit.
 - Done:
   - [unit 1] Created `README/Git/02 Core Workflow Add Commit and Inspect/README.md` (Template B index, sections 1–6, 8 leaf promises) + added track README row 2
+  - [unit 2] Created leaf `1.1. Partial staging and the atomic commit.md`
 - Files touched: created `README/Git/02 Core Workflow Add Commit and Inspect/README.md`, modified `README/Git/README.md` (row 2)
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves
 - Verification:
