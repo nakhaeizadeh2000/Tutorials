@@ -226,6 +226,7 @@
   - [unit 3] Created leaf `1.2. Standup retro and demo as process.md`
   - [unit 4] Created leaf `2.1. Roles stakeholders and ownership.md`
   - [unit 5] Created leaf `2.2. Feedback ladder and one-on-ones.md`
+  - [unit 6] Created leaf `4.1. Teamwork vocabulary checklist mentors insist on.md`
 - Files touched: created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 7 → Domain 07 README; domain 07 §0 prerequisites link Domains 01/03
 - Verification:
