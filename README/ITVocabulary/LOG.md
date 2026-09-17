@@ -223,6 +223,7 @@
 - Done:
   - [unit 1] Created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 7
   - [unit 2] Created leaf `1.1. Sprint backlog and velocity.md`
+  - [unit 3] Created leaf `1.2. Standup retro and demo as process.md`
 - Files touched: created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 7 → Domain 07 README; domain 07 §0 prerequisites link Domains 01/03
 - Verification:
