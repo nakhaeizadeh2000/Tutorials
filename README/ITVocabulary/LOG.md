@@ -201,3 +201,28 @@
 - Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04; leaf 2.1 → Domain 03 §2.1 + Domain 01 §3.1; leaf 1.2 → Domain 04 §2.1; unit 9 retired all Domain-06 + one Domain-05 `LOG.md`-placeholders
 - Verification: link checker over whole track (53 files) — 256/256 real targets resolve, 0 broken (backticked doc-text lines skipped). DoD walk per leaf: junior definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — threat-modeling/pentest/pipeline-YAML/flag-ops named-not-taught, deferred to future Security/DevOps/Cloud tracks; release-shape words cross-linked to Domain 03, not duplicated.
 - Next steps: Session 7 — Domain 07 Teamwork Agile and Interview Vocabulary (final domain): domain README (Template B) + leaves (agile/sprint/standup-process words, roles/stakeholder words, feedback/career-ladder words, checklist, interview QA, overlaps). Track complete after Session 7 — verify full-track links + DRY sweep, then close track.
+
+## [2026-09-17 15:00] Session 7 — Domain 07 Teamwork Agile and Interview Vocabulary (final)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–7), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–6 DONE), README/ITVocabulary/README.md (lists Domains 01–06). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 06 README + 7 leaves match Session 6 Done claims, tree clean at c00174d. No discrepancies.
+- Plan (resumed from Session 6 Next steps; no scope override in request — final domain):
+  1. Unit 1 — open this entry + create 07 domain README (Template B, sections 1–2 + 4–6) + track README row 7
+  2. Unit 2 — leaf 1.1. Sprint backlog and velocity
+  3. Unit 3 — leaf 1.2. Standup retro and demo as process
+  4. Unit 4 — leaf 2.1. Roles stakeholders and ownership
+  5. Unit 5 — leaf 2.2. Feedback ladder and one-on-ones
+  6. Unit 6 — leaf 4.1. Teamwork vocabulary checklist mentors insist on
+  7. Unit 7 — leaf 5.1. Common interview QA teamwork and career
+  8. Unit 8 — leaf 6.1. Boundaries what is covered elsewhere
+  9. Unit 9 — link upgrades: Domain-07 placeholders in older leaf 6.1s → real Domain 07 README
+  10. Final verification (full-track links + DRY sweep) + close entry + close track
+- Research notes: agile vocabulary per Scrum Guide / industry consensus (sprint, backlog, velocity, retro); career-ladder words per standard leveling usage. No version-sensitive claims. DRY check: Domain 01 §3.2 owns meeting-contract angle of standup/sync/retro — Domain 07 covers the *process* angle (cadence, artifacts, purpose) and cross-links, never re-teaches.
+- Decisions:
+  - Standup/retro/demo appear twice deliberately with split angles (01 = meeting contracts, 07 = agile process purpose) — the one sanctioned overlap, linked both ways.
+  - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–06 form.
+- Done:
+  - [unit 1] Created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 7
+- Files touched: created `README/ITVocabulary/07 Teamwork Agile and Interview Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
+- Links fixed / added: track README row 7 → Domain 07 README; domain 07 §0 prerequisites link Domains 01/03
+- Verification:
+- Next steps: (pending — filled at close)
