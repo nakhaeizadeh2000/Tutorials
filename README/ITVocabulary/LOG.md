@@ -135,3 +135,28 @@
 - Links fixed / added: track README row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–02; leaf 2.1 → Domain 02 §1.2; unit 9 retired two `LOG.md`-placeholder links in Domain 01 leaf 6.1
 - Verification: link checker over whole track (37 files) — 167/167 real targets resolve, 0 broken (backticked doc-text lines skipped). DoD walk per leaf: junior definitions + good/bad snippets first half, trade-offs + mentor notes second half; filenames clean with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — handshakes/TLS/sockets/API-design named-not-taught, deferred to future Networks/API/Cloud tracks.
 - Next steps: Session 5 — Domain 05 Data Databases and AI Vocabulary (next `NN`): domain README (Template B) + leaves (data vs information, database/table/query, AI model/token/training vs inference, checklist, interview QA, overlaps), then 06–07. Outstanding link upgrades: `LOG.md`-placeholders in Domain 01 leaf 6.1 (Domains 05–06) + Domain 02/03/04 leaf 6.1s (Domains 05–06) → real READMEs as 05–06 land.
+
+## [2026-09-17 14:00] Session 5 — Domain 05 Data Databases and AI Vocabulary
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding; full reads Sessions 1–2, core re-reads 3–5), root README.md (IT Vocabulary #3, unchanged), README/ITVocabulary/LOG.md (full — Sessions 1–4 DONE), README/ITVocabulary/README.md (lists Domains 01–04). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 04 README + 7 leaves match Session 4 Done claims, tree clean at 367435b. No discrepancies.
+- Plan (resumed from Session 4 Next steps; no scope override in request):
+  1. Unit 1 — open this entry + create 05 domain README (Template B, sections 1–2 + 4–6) + track README row 5
+  2. Unit 2 — leaf 1.1. Data vs information structured vs unstructured
+  3. Unit 3 — leaf 1.2. Database table query and index
+  4. Unit 4 — leaf 2.1. Model token and prompt
+  5. Unit 5 — leaf 2.2. Training vs inference and hallucination
+  6. Unit 6 — leaf 4.1. Data vocabulary checklist mentors insist on
+  7. Unit 7 — leaf 5.1. Common interview QA data and AI vocabulary
+  8. Unit 8 — leaf 6.1. Boundaries what is covered elsewhere
+  9. Unit 9 — link upgrades: Domain 01 leaf 6.1 Domain-05 placeholder → real Domain 05 README
+  10. Final verification + close entry
+- Research notes: data/DB/AI vocabulary per standard usage (relational docs for DB terms; provider-neutral LLM glossary consensus for token/prompt/training/inference). No version-sensitive claims. DRY check: SQL/query mechanics belong to future Databases track; ML internals to future AI topics — naming level only.
+- Decisions:
+  - Query languages and model architectures named-not-taught; what-each-word-points-to stays, how-it-works defers.
+  - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–04 form.
+- Done:
+  - [unit 1] Created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 5
+- Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
+- Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02
+- Verification:
+- Next steps: (pending — filled at close)
