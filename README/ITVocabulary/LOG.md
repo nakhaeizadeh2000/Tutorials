@@ -159,6 +159,7 @@
   - [unit 2] Created leaf `1.1. Data vs information structured vs unstructured.md`
   - [unit 3] Created leaf `1.2. Database table query and index.md`
   - [unit 4] Created leaf `2.1. Model token and prompt.md`
+  - [unit 5] Created leaf `2.2. Training vs inference and hallucination.md`
 - Files touched: created `README/ITVocabulary/05 Data Databases and AI Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 5 → Domain 05 README; domain 05 §0 prerequisites link Domains 01–02
 - Verification:
