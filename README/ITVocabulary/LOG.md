@@ -97,6 +97,7 @@
   - [unit 5] Created leaf `3.1. Refactor tech debt legacy and cleanup.md`
   - [unit 6] Created leaf `4.1. Engineering terms checklist mentors insist on.md`
   - [unit 7] Created leaf `5.1. Common interview QA engineering terms.md`
+  - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
 - Files touched: created `README/ITVocabulary/03 Software Development and Engineering Terms/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
 - Verification:
