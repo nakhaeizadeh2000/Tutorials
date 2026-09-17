@@ -189,6 +189,7 @@
   - Leaf examples remain good-vs-bad usage snippets, matching Domains 01–05 form.
 - Done:
   - [unit 1] Created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md` (Template B index, sections 1–2 + 4–6, 7 leaf promises) + added track README row 6
+  - [unit 2] Created leaf `1.1. Threat vulnerability CVE and patch.md`
 - Files touched: created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04
 - Verification:
