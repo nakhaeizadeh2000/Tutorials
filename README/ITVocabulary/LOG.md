@@ -1,7 +1,7 @@
 # IT Vocabulary — work log
 
 ## [2026-09-17 12:00] Session 1 — Deep dive: create track + Domain 01 Core IT Concepts
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (full §1–§8), root README.md (Categories table — IT Vocabulary already listed at #3), README/TypeScript/README.md + README/JavaScript/README.md (Template A reference), README/JavaScript/01 Fundamentals and Mental Model/README.md (Template B reference), one JS leaf + one Overlaps leaf (anatomy/style reference). README/ITVocabulary/ did not exist — Mode 1 new track, no recovery needed (no prior IN PROGRESS entry).
 - Plan:
   1. Unit 1 — track README.md (Template A) + this LOG open entry
@@ -35,7 +35,8 @@
   - [unit 10] Created leaf `4.1. Core concepts checklist mental models mentors insist on.md`
   - [unit 11] Created leaf `5.1. Common interview QA core IT vocabulary.md`
   - [unit 12] Created leaf `6.1. Boundaries what is covered elsewhere.md`
-- Files touched: created `README/ITVocabulary/README.md`, created `README/ITVocabulary/LOG.md`, created `README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md`, created `.../sections/1. Learning vocabulary like a professional/1.1. Why precise vocabulary matters.md`
-- Links fixed / added: track index links Domain 01 README (to be created in unit 2) + back-link to root README; root README row #3 already pointed here, now resolves
-- Verification:
-- Next steps: (pending — filled at close)
+  - [unit 13] Fixed 3 outbound links (added missing `../` level): 2.1 → JavaScript track, 6.1 → JavaScript + TypeScript tracks
+- Files touched: created `README/ITVocabulary/README.md`, created `README/ITVocabulary/LOG.md`, created `README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md`, created `.../sections/1. Learning vocabulary like a professional/1.1. Why precise vocabulary matters.md`, created `.../sections/1. Learning vocabulary like a professional/1.2. How to decode unknown terms.md`, created `.../sections/2. Core computing concepts/2.1. Hardware software OS and platform.md`, created `.../sections/2. Core computing concepts/2.2. Data units bit byte and encoding basics.md`, created `.../sections/2. Core computing concepts/2.3. Programs processes compile vs interpret.md`, created `.../sections/3. Everyday professional jargon/3.1. Core acronyms API SDK SLA KPI and friends.md`, created `.../sections/3. Everyday professional jargon/3.2. Meeting jargon standup sync blockers and shipped.md`, created `.../sections/4. Important points to remember/4.1. Core concepts checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA core IT vocabulary.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`; modified 2.1 + 6.1 (link fixes)
+- Links fixed / added: track index links Domain 01 README (to be created in unit 2) + back-link to root README; root README row #3 already pointed here, now resolves; unit 13: 3 outbound sibling-track links fixed (`../../../../` level)
+- Verification: link checker over all 13 md files — 47/47 `[text](<path>)` targets resolve, 0 broken. DoD walk per leaf: junior-readable first half (plain definitions + good/bad usage snippets), expert/mentor second half (trade-offs, consequences, mentor notes); every anti-pattern labeled with why; filenames free of `: , ? & ( )` with `M.k.` prefixes; domain/track indexes updated in same units; DRY — mechanics owned by JS/TS/Git tracks are linked, not re-taught (grep-confirmed no prior ITVocabulary coverage existed; single-source-of-truth preserved). Examples are usage snippets labeled as such (honest runnable form for a vocabulary track).
+- Next steps: Session 2 — Domain 02 Hardware Infrastructure and Platforms (next `NN`): create domain README (Template B) + leaves (CPU/RAM/storage, client vs server, localhost vs cloud, checklist, interview QA, overlaps), then continue 03–07 in order. Upgrade the three `LOG.md`-placeholder links in leaf 6.1 to real domain READMEs as domains 04–06 land.
