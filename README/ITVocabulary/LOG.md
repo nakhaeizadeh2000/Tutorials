@@ -42,7 +42,7 @@
 - Next steps: Session 2 — Domain 02 Hardware Infrastructure and Platforms (next `NN`): create domain README (Template B) + leaves (CPU/RAM/storage, client vs server, localhost vs cloud, checklist, interview QA, overlaps), then continue 03–07 in order. Upgrade the three `LOG.md`-placeholder links in leaf 6.1 to real domain READMEs as domains 04–06 land.
 
 ## [2026-09-17 12:30] Session 2 — Domain 02 Hardware Infrastructure and Platforms
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (full §1–§8), root README.md (IT Vocabulary still #3), README/ITVocabulary/LOG.md (full — Session 1 DONE, no IN PROGRESS/PARTIAL anywhere; all tracks' LOGs grep-confirmed DONE), README/ITVocabulary/README.md (lists Domain 01 only). Recovery: disk verified — 13 md files match Session 1 Done claims, working tree clean at 78c7ac4. No discrepancies; trust log + disk, nothing to redo.
 - Plan (resumed from Session 1 Next steps; no scope override in request):
   1. Unit 1 — open this entry (this write) + create 02 domain README (Template B, sections 1–2 + 4–6) + add track README row 2
@@ -67,7 +67,7 @@
   - [unit 6] Created leaf `4.1. Infrastructure checklist mental models mentors insist on.md`
   - [unit 7] Created leaf `5.1. Common interview QA infrastructure vocabulary.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
-- Files touched: created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md`, modified `README/ITVocabulary/README.md`
+- Files touched: created `README/ITVocabulary/02 Hardware Infrastructure and Platforms/README.md`, modified `README/ITVocabulary/README.md` (row 2), created `.../sections/1. Inside the machine/1.1. CPU RAM and storage the working trio.md`, created `.../sections/1. Inside the machine/1.2. Client vs server who serves whom.md`, created `.../sections/2. Where code lives and runs/2.1. Localhost staging and production environments.md`, created `.../sections/2. Where code lives and runs/2.2. Cloud words region zone instance and managed.md`, created `.../sections/4. Important points to remember/4.1. Infrastructure checklist mental models mentors insist on.md`, created `.../sections/5. Interview questions and answers/5.1. Common interview QA infrastructure vocabulary.md`, created `.../sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves 2.1 + 2.3
-- Verification:
-- Next steps: (pending — filled at close)
+- Verification: link checker over all 21 track md files — 82/82 real `[text](<path>)` targets resolve, 0 broken (single regex hit on backticked doc text `` `[text](<path>)` `` in Session 1 verification line is a false positive, pre-existing). DoD walk per leaf: junior-readable first half, expert/mentor second half; anti-patterns with consequences; filenames free of `: , ? & ( )` with `M.k.` prefixes; domain+track indexes updated in unit 1; DRY — grep-confirmed no prior coverage of zone/instance/hyper-threading concepts in JS/TS tracks; mechanics deferred to future Linux/Docker/Cloud tracks via links.
+- Next steps: Session 3 — Domain 03 Software Development and Engineering Terms (next `NN`): domain README (Template B) + leaves (repo/branch/commit, build/test/release, refactor/debt/code-review words, checklist, interview QA, overlaps), then 04–07 in order. Outstanding link upgrades: three `LOG.md`-placeholder links in Domain 01 leaf 6.1 → real READMEs when domains 04–06 land.
