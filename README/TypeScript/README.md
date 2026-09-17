@@ -24,6 +24,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 18 | [Async Types and Standard Library](<18 Async Types and Standard Library/README.md>) |
 | 19 | [Performance, Project References and Scaling](<19 Performance Project References and Scaling/README.md>) |
 | 20 | [Production Checklist, Migration and Interoperability](<20 Production Checklist Migration and Interoperability/README.md>) |
+| 21 | [Update TypeScript 5.6 (index)](<21 Update TypeScript 5.6/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
