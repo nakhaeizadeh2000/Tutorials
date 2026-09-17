@@ -196,6 +196,7 @@
   - [unit 6] Created leaf `4.1. Safety checklist mentors insist on.md`
   - [unit 7] Created leaf `5.1. Common interview QA safety and flow vocabulary.md`
   - [unit 8] Created leaf `6.1. Boundaries what is covered elsewhere.md`
+  - [unit 9] Upgraded Domain-06 placeholders → real Domain 06 README (Domain 01/03/04/05 leaf 6.1s) + Domain-05 placeholder in Domain 04 leaf 6.1
 - Files touched: created `README/ITVocabulary/06 Security Cloud and DevOps Vocabulary/README.md`, modified `README/ITVocabulary/README.md`
 - Links fixed / added: track README row 6 → Domain 06 README; domain 06 §0 prerequisites link Domains 01/03/04
 - Verification:
