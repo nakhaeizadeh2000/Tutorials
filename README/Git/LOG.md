@@ -1,7 +1,7 @@
 # Git — work log
 
 ## [2026-09-17 16:00] Session 1 — Create track + Domain 01 Git Fundamentals and Mental Model
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (full §1–§8, binding), root README.md (Categories table — Git & GitHub already listed at #4, link target did not exist), README/JavaScript/README.md + README/TypeScript/README.md (Template A reference), README/ITVocabulary/README.md (most recent Template A), README/ITVocabulary/LOG.md (full — all 7 sessions DONE, TRACK COMPLETE), README/ITVocabulary/01 Core IT Concepts and Professional Jargon/README.md (Template B reference). README/Git/ did not exist — Mode 1 new track, no recovery needed (grep found no live `Status: IN PROGRESS` entries; only historical prose mentions).
 - Plan (Mode 1 new track; Domain 01 fully implemented this session, domains 02–07 later):
   1. Unit 1 — open this entry (this write) + create track README.md (Template A, lists Domain 01)
@@ -34,5 +34,5 @@
   - [unit 10] Created leaf `6.1. Boundaries what is covered elsewhere.md`
 - Files touched: created `README/Git/LOG.md`, created `README/Git/README.md`, created `README/Git/01 Git Fundamentals and Mental Model/README.md`, created `.../sections/1. Thinking in snapshots/1.1. What Git is and why snapshots win.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #4 already pointed here, now resolves
-- Verification:
-- Next steps:
+- Verification: DoD walk per leaf — junior-readable first half (plain definitions + verbatim runnable git commands), expert/mentor second half (trade-offs, performance notes, mentor notes); every anti-pattern labeled with why; era label "September 2026 era / Git 2.55" on track index; link checker over all 11 Git md files — 43/43 real `[text](<path>)` targets resolve, 0 broken; filenames free of `: , ? & ( )` with `M.k.` prefixes (badchar scan 0 hits); domain+track indexes created in units 1–2; DRY — grep-confirmed no prior Git-mechanics coverage, ITVocabulary naming-level leaves linked not re-taught. One typo caught and fixed pre-commit (`\frac` in leaf 5.1).
+- Next steps: Session 2 — Domain 02 Core Workflow Add Commit and Inspect (next `NN`): domain README (Template B) + leaves (partial staging, log filtering/formatting, show/blame archaeology, gitignore, aliases), then 03–07 in order. Outstanding: upgrade Domain 01 leaf 6.1 `(planned, see LOG)` forward-lines to live links as domains 02–07 land.
