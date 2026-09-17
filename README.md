@@ -21,8 +21,8 @@ Recommended mentor path order — follow top-to-bottom (junior → mid → senio
 | — | C# (independent track) | [Open the C# track](<README/CSharp/README.md>) |
 | 1 | JavaScript — language foundation | [Open the JavaScript track](<README/JavaScript/README.md>) |
 | 2 | TypeScript — typed JavaScript | [Open the TypeScript track](<README/TypeScript/README.md>) |
-| 3 | Git & GitHub — version control, workflows & collaboration | [Open the Git track](<README/Git/README.md>) |
-| 4 | IT Vocabulary — keywords, acronyms & professional jargon | [Open the IT Vocabulary track](<README/ITVocabulary/README.md>) |
+| 3 | IT Vocabulary — keywords, acronyms & professional jargon | [Open the IT Vocabulary track](<README/ITVocabulary/README.md>) |
+| 4 | Git & GitHub — version control, workflows & collaboration | [Open the Git track](<README/Git/README.md>) |
 | 5 | Algorithm Design — thinking & best algorithm | [Open the Algorithm Design track](<README/AlgorithmDesign/README.md>) |
 | 6 | Design Patterns — SOLID & patterns | [Open the Design Patterns track](<README/DesignPatterns/README.md>) |
 | 7 | Node.js — runtime & backend base | [Open the Node.js track](<README/NodeJS/README.md>) |
