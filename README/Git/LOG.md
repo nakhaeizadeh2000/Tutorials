@@ -142,6 +142,7 @@
   - [unit D4-5] Created leaf `04/sections/2. GitHub collaboration/2.2. Pull request flow propose review and merge.md` (branch-push-propose unit, staged reading, delete-on-merge; git-side verified: push -u new-branch lines; `gh` absent in env so gh lines labeled documented-per-manual)
   - [unit D4-6] Created leaf `04/sections/3. Staying current/3.1. Keeping forks and branches current.md` (downhill sync order, rebase-private/merge-public, stale-PR rot; verified: fetch --all two-remote lines rc=0, two-name fetch fatal rc=128 gotcha, rebase up-to-date rc=0)
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Remotes checklist habits mentors insist on.md` (fetch-first ritual, pair-on-birth, small-and-fresh synthesis; commands reference verified D4-2…D4-6 probes)
+  - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA remotes and pull requests.md` (fetch-vs-pull judgment, rejected-push exercise, PR walkthrough; outputs reference verified probes)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
 - Links fixed / added:
