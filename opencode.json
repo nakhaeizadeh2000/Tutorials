@@ -1,54 +1,5 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "instructions": ["AGENTS.md", "PROMPT.md"],
-  "permission": {
-    "bash": {
-      "*": "ask",
-      "git *": "allow",
-      "ls *": "allow",
-      "cat": "allow",
-      "cat *": "allow",
-      "head": "allow",
-      "head *": "allow",
-      "tail": "allow",
-      "tail *": "allow",
-      "wc": "allow",
-      "wc *": "allow",
-      "grep": "allow",
-      "grep *": "allow",
-      "find": "allow",
-      "find *": "allow",
-      "sort": "allow",
-      "sort *": "allow",
-      "uniq": "allow",
-      "uniq *": "allow",
-      "which": "allow",
-      "which *": "allow",
-      "command *": "allow",
-      "echo *": "allow",
-      "printf *": "allow",
-      "pwd": "allow",
-      "pwd *": "allow",
-      "mkdir *": "allow",
-      "node *": "allow",
-      "npm *": "allow",
-      "npx *": "allow",
-      "python": "allow",
-      "python *": "allow",
-      "python3": "allow",
-      "python3 *": "allow",
-      "pip *": "allow",
-      "pip3 *": "allow"
-    },
-    "edit": "allow",
-    "read": "allow",
-    "glob": "allow",
-    "grep": "allow",
-    "webfetch": "allow",
-    "websearch": "allow",
-    "external_directory": {
-      "*": "ask",
-      "/tmp/opencode/**": "allow"
-    }
-  }
+  "permission": "allow"
 }
