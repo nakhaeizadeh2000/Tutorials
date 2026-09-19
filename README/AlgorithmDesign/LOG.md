@@ -42,6 +42,9 @@
   - [unit D2-6] Created leaf `02/sections/3. Searching and selection/3.2. Selection heapsort preview and the sort lower bound.md` (quickselect pruning, decision-tree floor, heap promise; verified: median exact + 40188 vs ~132877 sorting)
   - [unit D2-7] Created leaf `02/sections/4. Important points to remember/4.1. Sorting checklist habits mentors insist on.md` (stability-required, input-first, library-first synthesis; references verified D2-2…D2-6 material)
   - [unit D2-8] Created leaf `02/sections/5. Interview questions and answers/5.1. Common interview QA sorts searches and bounds.md` (hand-sort narration, duplicates invariant, lower-bound proof; references verified domain numbers)
+  - [unit D2-9] Created leaf `02/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (analysis → 01, structures/paradigms → 03–06, words → ITVocabulary map; repaired truncated write pre-commit via Read + targeted edit)
+  - [unit D2-10] Upgraded Domain 01 Domain-02 forwards → live links (01/6.1 body + guidance + cross-links; 01/1.2 lower-bound/pivot/code-comment; 01/2.1 binary-search shape + cross-links; 01/3.1 threshold comment + cross-links; 01/4.1 quickselect comment; code comments reworded to live-link-below since fences can't link)
+  - [unit D2-11] Link verification: 117 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `./2.2.` → `../2. Linearithmic sorts/2.2.` bug in 02/3.2 pre-commit; converted 3 premature live links to future domains 03/04/06 in 02/6.1 to textual forwards per no-dead-links rule); Domain 02 promises 9/9 ↔ leaves 9/9; heading prefixes 9/9 match
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
