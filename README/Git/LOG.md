@@ -160,6 +160,7 @@
   - [unit D6-1] Created `README/Git/06 Workflows Tags Stash and Releases/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
   - [unit D6-2] Created leaf `06/sections/1. Branching strategy/1.1. Trunk-based GitHub Flow and GitFlow shapes.md` (three shapes, protection-as-enforcement, deploy-reality choice; forge rules labeled documented-per-GitHub-docs)
   - [unit D6-3] Created leaf `06/sections/1. Branching strategy/1.2. Merge policy squash merge commit or rebase.md` (three histories, forge enforcement, merge queues; queue/protection labeled documented-per-GitHub-docs)
+  - [unit D6-4] Created leaf `06/sections/2. Marking and shelving/2.1. Tags marking releases that never move.md` (annotated objects, semver contract, deliberate push; verified: tag list, describe v0.1.0)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
