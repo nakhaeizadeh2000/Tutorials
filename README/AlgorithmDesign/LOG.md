@@ -29,6 +29,7 @@
   - [unit 4] Created leaf `01/sections/1. The notation/1.2. Best worst and average cases.md` (worst-as-contract, best-dismissal, distribution-named averages; verified comparison counts 1/5001/10000 on n=10000)
   - [unit 5] Created leaf `01/sections/2. Analyzing algorithms/2.1. Time analysis loops recurrence and amortization.md` (dominant-op counting, recurrence trees, amortized aggregates; verified: pairs 4950 exact, T(1024)=11264 exact, copies/push 1.02 and 1.31)
   - [unit 6] Created leaf `01/sections/2. Analyzing algorithms/2.2. Space analysis and the time-memory trade.md` (auxiliary-vs-total, stack bills, budgeted trades; verified: memo sizes 9/19/29, V8 depth ~13920 RangeError)
+  - [unit 7] Created leaf `01/sections/3. Measuring performance/3.1. Measuring what analysis predicts.md` (warmed harness, doubling ratios, constant crossovers; verified textbook ratios 2.01 linear and 4.06 quadratic)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
