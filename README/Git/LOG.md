@@ -97,7 +97,8 @@
   - Conflict resolution taught as a calm mechanical loop (markers → decide → test → add → commit), not a crisis skill.
 - Done:
   - [unit 1] Created `README/Git/03 Branching Merging and Conflicts/README.md` (Template B index, sections 1–6, 8 leaf promises) + added track README row 3
-- Files touched: created `README/Git/03 Branching Merging and Conflicts/README.md`, modified `README/Git/README.md` (row 3)
+  - [unit 2] Created leaf `1.1. Creating switching and deleting branches.md` (switch -c gap removal, carry-vs-refuse dirty rule with exact refusal text, -d guard vs -D intent; verified on Git 2.53.0: -d merged rc=0, unmerged rc=1 with "not fully merged", carry rc=0, overwrite-block rc=1)
+- Files touched: created `README/Git/03 Branching Merging and Conflicts/README.md`, modified `README/Git/README.md` (row 3); created `.../sections/1. Branches in daily use/1.1. Creating switching and deleting branches.md`
 - Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
 - Verification:
 - Next steps:
