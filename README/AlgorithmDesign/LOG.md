@@ -22,7 +22,7 @@
   - Next-track choice: root README mentor-path order puts Algorithm Design at #5 (first unimplemented track — JS/TS/ITVocabulary/Git complete on disk). Git Session 4 Next steps names it explicitly.
   - Examples in JavaScript run with `node` (repo's foundation language; every claim-bearing snippet executed before writing). Complexity annotations travel with every fence.
   - Domain 01 teaches analysis only (notation, cases, measurement); every data-structure/algorithm mechanic deferred to domains 02–06 to respect DRY single-source-of-truth.
-  - Domain 02 shape (9 leaves: 1 quadratic + 2 linearithmic + 2 search/select + checklist + QA + boundaries); heaps/string-matching deferred to 03–04 with forwards.
+  - Domain 02 shape (8 leaves: 1 quadratic + 2 linearithmic + 2 search/select + checklist + QA + boundaries); heaps/string-matching deferred to 03–04 with forwards.
 - Done:
   - [unit 1] Created `README/AlgorithmDesign/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #5 already pointed here — now resolves, no root edit needed)
   - [unit 2] Created `README/AlgorithmDesign/01 Complexity and Algorithmic Thinking/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (caught + fixed own `%20`-encoded Git cross-link pre-commit)
@@ -34,7 +34,7 @@
   - [unit 8] Created leaf `01/sections/4. Important points to remember/4.1. Complexity checklist habits mentors insist on.md` (bounds-first, worst-first, verify-curves synthesis; references verified units 3–7)
   - [unit 9] Created leaf `01/sections/5. Interview questions and answers/5.1. Common interview QA complexity and analysis.md` (loop pricing, quadratic judgment, recurrence derivation; references verified domain numbers)
   - [unit 10] Created leaf `01/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics → JS track with verified 08/4.1 target, algorithms → 02–06, words → ITVocabulary map; drafted via /tmp first to verify JS target path)
-  - [unit D2-1] Created `README/AlgorithmDesign/02 Sorting and Searching/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 2 (verified pre-claims: insertion 0/4950 shifts, Lomuto depth 199 on sorted 200, V8 sort stable)
+  - [unit D2-1] Created `README/AlgorithmDesign/02 Sorting and Searching/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2 (verified pre-claims: insertion 0/4950 shifts, Lomuto depth 199 on sorted 200, V8 sort stable)
   - [unit D2-2] Created leaf `02/sections/1. Quadratic sorts/1.1. Insertion selection and bubble why they survive.md` (virtues, contract table, hybrids; verified: selection 120 comps exact + 8 swaps, insertion stable / selection unstable orders)
   - [unit D2-3] Created leaf `02/sections/2. Linearithmic sorts/2.1. Merge sort the divide-and-conquer flagship.md` (recurrence instantiated, stability guarantee, external sorting; verified: 5044/4932 comps at n=1000 vs 9966 ceiling)
   - [unit D2-4] Created leaf `02/sections/2. Linearithmic sorts/2.2. Quicksort partition pivots and the worst case.md` (Lomuto invariant, pivot defenses, royalty-vs-liability; verified: collapse 19900 exact + depth 200, shuffled 167915 comps + depth 33)
@@ -44,10 +44,10 @@
   - [unit D2-8] Created leaf `02/sections/5. Interview questions and answers/5.1. Common interview QA sorts searches and bounds.md` (hand-sort narration, duplicates invariant, lower-bound proof; references verified domain numbers)
   - [unit D2-9] Created leaf `02/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (analysis → 01, structures/paradigms → 03–06, words → ITVocabulary map; repaired truncated write pre-commit via Read + targeted edit)
   - [unit D2-10] Upgraded Domain 01 Domain-02 forwards → live links (01/6.1 body + guidance + cross-links; 01/1.2 lower-bound/pivot/code-comment; 01/2.1 binary-search shape + cross-links; 01/3.1 threshold comment + cross-links; 01/4.1 quickselect comment; code comments reworded to live-link-below since fences can't link)
-  - [unit D2-11] Link verification: 117 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `./2.2.` → `../2. Linearithmic sorts/2.2.` bug in 02/3.2 pre-commit; converted 3 premature live links to future domains 03/04/06 in 02/6.1 to textual forwards per no-dead-links rule); Domain 02 promises 9/9 ↔ leaves 9/9; heading prefixes 9/9 match
+  - [unit D2-11] Link verification: 117 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `./2.2.` → `../2. Linearithmic sorts/2.2.` bug in 02/3.2 pre-commit; converted 3 premature live links to future domains 03/04/06 in 02/6.1 to textual forwards per no-dead-links rule); Domain 02 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match (log lines claiming 9 corrected — disk 8 wins per PROMPT.md:165)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
   - [unit 10] link checker over AlgorithmDesign track (11 md files): 51 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `../../LOG.md` → `../../../LOG.md` depth bug in 01/6.1 cross-links pre-commit); Domain 01 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match filenames
-  - [unit D2-1] track rows 1–2 resolve; domain 02 index 9 leaf links are placeholders until leaves land (expected); prerequisites (01 index, JS 08 index) resolve
+  - [unit D2-1] track rows 1–2 resolve; domain 02 index 8 leaf links are placeholders until leaves land (expected); prerequisites (01 index, JS 08 index) resolve
 - Next steps:
