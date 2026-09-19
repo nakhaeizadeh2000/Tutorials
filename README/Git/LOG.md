@@ -75,3 +75,29 @@
 - Links fixed / added: track README row 2 → Domain 02 README; domain 02 §0 prerequisites link Domain 01 leaves
 - Verification: DoD walk per leaf — junior-readable first half (definitions + verbatim git commands), expert/mentor second half (trade-offs, performance notes, mentor notes); anti-patterns labeled with why; link checker over all 20 Git md files — 89/89 real `[text](<path>)` targets resolve, 0 broken (unit-12 pass fixed 9 depth bugs: cross-domain leaf links need `../../../`, verified by re-run); 0 `%20`; filenames clean; domain+track indexes updated in unit 1; DRY — model theory stays in Domain 01 (linked, never re-taught), release automation deferred to Domain 06, rescue to Domain 05. One pre-commit cleanup (invalid `pull.ff` keystroke passage in leaf 3.2 simplified to the single correct line).
 - Next steps: Session 3 — Domain 03 Branching Merging and Conflicts (next `NN`): domain README (Template B) + leaves (branch create/switch, fast-forward vs true merges, conflict markers and resolution, rerere), then 04–07 in order. Outstanding: upgrade Domain 01 + 02 leaf 6.1 `(planned, see LOG)` forward-lines to live links as domains 03–07 land (Domain-02 lines already live).
+
+## [2026-09-18 08:00] Session 3 — Domain 03 Branching Merging and Conflicts
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding; full reads Sessions 1–2), root README.md (Git #4, unchanged), README/Git/LOG.md (full — Sessions 1–2 DONE), README/Git/README.md (lists Domains 01–02). Recovery: grep for live `Status: IN PROGRESS|PARTIAL` across all track LOGs — none; disk verified — Domain 02 README + 8 leaves match Session 2 Done claims, tree clean. No discrepancies; trust log + disk, nothing to redo.
+- Plan (resumed from Session 2 Next steps; no scope override in request):
+  1. Unit 1 — open this entry (this write) + create 03 domain README (Template B, sections 1–6) + track README row 3
+  2. Unit 2 — leaf 1.1. Creating switching and deleting branches
+  3. Unit 3 — leaf 1.2. Short-lived branches and the feature-branch habit
+  4. Unit 4 — leaf 2.1. Fast-forward vs true merges
+  5. Unit 5 — leaf 2.2. Reading conflict markers and resolving without fear
+  6. Unit 6 — leaf 3.1. Rerere and merge confidence
+  7. Unit 7 — leaf 4.1. Branching checklist mentors insist on
+  8. Unit 8 — leaf 5.1. Common interview QA branching and merging
+  9. Unit 9 — leaf 6.1. Boundaries what is covered elsewhere
+  10. Unit 10 — link upgrades: Domain 01 + 02 leaf 6.1 Domain-03 forward-lines → live Domain 03 README
+  11. Final verification (DoD + links + DRY) + close entry
+- Research notes: branching/merging facts are stable Git knowledge (Pro Git Ch. 3 covers branch/switch/merge/conflicts/rerere; `git switch`/`git restore` since 2.23 are the taught spellings, `checkout` noted as legacy). No version-sensitive claims — track-level September 2026 era label applies.
+- Decisions:
+  - Domain 03 owns local branching end-to-end (create → work → join → delete); remotes/tracking-branch sync stays in Domain 04, rebase-based joining stays in Domain 05 — both linked, never taught here.
+  - Conflict resolution taught as a calm mechanical loop (markers → decide → test → add → commit), not a crisis skill.
+- Done:
+  - [unit 1] Created `README/Git/03 Branching Merging and Conflicts/README.md` (Template B index, sections 1–6, 8 leaf promises) + added track README row 3
+- Files touched: created `README/Git/03 Branching Merging and Conflicts/README.md`, modified `README/Git/README.md` (row 3)
+- Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02
+- Verification:
+- Next steps:
