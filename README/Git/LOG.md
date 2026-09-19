@@ -110,3 +110,36 @@
 - Links fixed / added: track README row 3 → Domain 03 README; domain 03 §0 prerequisites link Domains 01–02; [unit 10] Domain 01 + 02 leaf 6.1 Domain-03 lines now live links to Domain 03 README
 - Verification: DoD walk per leaf — junior-readable first half (plain definitions + verbatim runnable git commands with verified outputs), expert/mentor second half (trade-offs, performance notes, mentor notes); every anti-pattern labeled with why; link checker over all 29 Git md files — 149/149 real `[text](<path>)` targets resolve, 0 broken, 0 `%20`; filenames free of `: , ? & ( )` with `M.k.` prefixes (badchar scan 0 hits); heading prefixes 8/8 match filenames; index promises 8/8 ↔ leaf delivery 1:1; domain+track indexes created in unit 1; DRY — model theory stays in Domain 01 (linked, never re-taught), remotes/rebase/strategy deferred to Domains 04–06 via textual forwards; all command claims executed on Git 2.53.0 before writing (switch -c, -d refusal rc=1, carry rc=0, overwrite-block rc=1, FF/no-ff/--ff-only rc=128, CONFLICT+UU, abort restore, --merged audit, Recorded/Resolved rerere lines). Self-repair note: an early LOG edit duplicated the entry tail (Links/Verification/Next steps) — deduped before close, history after unit 3 is clean.
 - Next steps: Session 4 — Domain 04 Remotes GitHub and Pull Requests (next `NN`): domain README (Template B) + leaves (fetch/pull/push, tracking branches, forks, PR flow, fork currency), then 05–07 in order. Outstanding: upgrade Domain 01/02/03 leaf 6.1 `(planned, see LOG)` forward-lines to live links as domains 04–07 land (Domain-03 lines already live).
+
+## [2026-09-19 07:22] Session 4 — Domains 04–07 to track completion (resume from Session 3 Next steps)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding, full); root README.md (Git #4); README/Git/README.md (rows 1–3); README/Git/LOG.md full Sessions 1–3; README/Git/03 + 02 domain READMEs (Template B); sample leaf 03/2.1 (anatomy/style); disk `find` (Domain 03 README + 8 leaves match Session 3 Done claims — no discrepancies; total 30 md files).
+- Recovery verification (PROMPT.md:165): no live `Status: IN PROGRESS|PARTIAL` in any track LOG (JS 24 modules DONE track-complete; TS 24 modules DONE track-complete; ITVocabulary 7/7 DONE track-complete; Git Sessions 1–3 DONE). Session 3 Done bullets verified against disk (9 files under `03 Branching Merging and Conflicts/` present, 1:1). Trust disk over log: no discrepancies, nothing to redo. Fresh Session 4 block. No scope override in request (no `rest of`/`till finishing`/`complete`) → resume from Session 3 Next steps: Domain 04, then 05–07 in order until track complete.
+- Plan (Mode 2, one unit = one leaf/index/link-set → LOG update → commit, looping without stopping):
+  1. Unit D4-1 — open this entry (this write) + create 04 domain README (Template B, sections 1–6) + track README row 4
+  2. Unit D4-2 — leaf 1.1. Fetch pull and push
+  3. Unit D4-3 — leaf 1.2. Tracking branches and upstream
+  4. Unit D4-4 — leaf 2.1. Forks clones and remotes
+  5. Unit D4-5 — leaf 2.2. Pull request flow review and merge
+  6. Unit D4-6 — leaf 3.1. Keeping forks and branches current
+  7. Unit D4-7 — leaf 4.1. Remotes checklist mentors insist on
+  8. Unit D4-8 — leaf 5.1. Common interview QA remotes and PRs
+  9. Unit D4-9 — leaf 6.1. Boundaries what is covered elsewhere
+  10. Unit D4-10 — link upgrades: 01/02/03 leaf 6.1 Domain-04 lines → live Domain 04 README
+  11. Units D5-1…D5-10 — Domain 05 Undo Fix and Rewrite History (README + leaves: restore/reset/checkout paths, revert, amend, rebase interactive, reflog rescue, checklist, QA, boundaries) + row 5 + link upgrades
+  12. Units D6-1…D6-10 — Domain 06 Workflows Tags Stash and Releases (README + leaves: trunk vs flow, tags, stash, release lines, checklist, QA, boundaries) + row 6 + link upgrades
+  13. Units D7-1…D7-9 — Domain 07 Production Checklist Security and Collaboration Mastery (README + leaves: signing, secret hygiene, hooks/CI gates, collaboration contracts, checklist, QA, boundaries) + row 7 + retire ALL remaining `(planned, see LOG)` placeholders track-wide
+  14. Final verification (DoD + links + DRY) + close entry DONE (PARTIAL only on context limits)
+- Full remaining curriculum: 04 Remotes GitHub and Pull Requests ← now; 05 Undo Fix and Rewrite History; 06 Workflows Tags Stash and Releases; 07 Production Checklist Security and Collaboration Mastery. Track complete after Domain 07.
+- Research notes: remotes/sync facts are stable Git knowledge (Pro Git Ch. 2–3: remote/fetch/pull/push, tracking branches; GitHub Docs: fork/PR flow). `git switch`/`restore` since 2.23 are taught spellings. No version-sensitive claims — track-level September 2026 era (Git 2.55) applies. DRY grep: no prior remotes-mechanics coverage in repo (Domains 01–03 name remotes only, defer mechanics here).
+- Decisions:
+  - Domain 04 shape mirrors 01–03 (8 leaves: 2 sync + 2 GitHub + 1 currency + checklist + QA + boundaries); rebase-vs-merge policy and history rewrite stay textual forwards to Domains 05/06 (no dead links).
+- Done:
+  - [unit D4-1] Created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
+- Files touched:
+  - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
+- Links fixed / added:
+  - [unit D4-1] track row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–03 (all resolve)
+- Verification:
+  - [unit D4-1] domain index 8 leaf links are placeholders until leaves land (expected); 3 prerequisite links resolve; track rows 1–4 resolve
+- Next steps:
