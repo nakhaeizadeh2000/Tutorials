@@ -26,6 +26,7 @@
   - [unit 1] Created `README/AlgorithmDesign/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #5 already pointed here — now resolves, no root edit needed)
   - [unit 2] Created `README/AlgorithmDesign/01 Complexity and Algorithmic Thinking/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (caught + fixed own `%20`-encoded Git cross-link pre-commit)
   - [unit 3] Created leaf `01/sections/1. The notation/1.1. What Big-O actually promises.md` (bounds-vs-clocks, dominant term, ladder-as-budgets; verified on Node v20.20.2 warmed-up: linear 20k→40k 0.013→0.028ms ~2.1x, quad 800→1600 0.900→2.722ms ~3x; caught + fixed own `%20` JS cross-link pre-commit)
+  - [unit 4] Created leaf `01/sections/1. The notation/1.2. Best worst and average cases.md` (worst-as-contract, best-dismissal, distribution-named averages; verified comparison counts 1/5001/10000 on n=10000)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
