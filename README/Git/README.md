@@ -10,6 +10,7 @@ Distributed version control with Git plus collaboration on GitHub — from first
 | 4 | [Remotes, GitHub, and Pull Requests](<04 Remotes GitHub and Pull Requests/README.md>) |
 | 5 | [Undo, Fix, and Rewrite History](<05 Undo Fix and Rewrite History/README.md>) |
 | 6 | [Workflows, Tags, Stash, and Releases](<06 Workflows Tags Stash and Releases/README.md>) |
+| 7 | [Production Checklist, Security, and Collaboration Mastery](<07 Production Checklist Security and Collaboration Mastery/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
