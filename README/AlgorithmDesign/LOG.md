@@ -24,6 +24,7 @@
   - Domain 01 teaches analysis only (notation, cases, measurement); every data-structure/algorithm mechanic deferred to domains 02–06 to respect DRY single-source-of-truth.
 - Done:
   - [unit 1] Created `README/AlgorithmDesign/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #5 already pointed here — now resolves, no root edit needed)
+  - [unit 2] Created `README/AlgorithmDesign/01 Complexity and Algorithmic Thinking/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (caught + fixed own `%20`-encoded Git cross-link pre-commit)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
