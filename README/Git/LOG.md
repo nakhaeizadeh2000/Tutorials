@@ -172,6 +172,7 @@
   - [unit D7-2] Created leaf `07/sections/1. Trust/1.1. Signing commits and tags.md` (prove-vs-assert, verify-at-gates, key lifecycle; verified: unsigned absence + verify-commit rc=1; key setup labeled documented-per-git-docs)
   - [unit D7-3] Created leaf `07/sections/1. Trust/1.2. Secret hygiene and leak response.md` (prevent-scan-rotate-surgery order; verified: shape-check grep trips on planted AKIA fixture line 1)
   - [unit D7-4] Created leaf `07/sections/2. Team enforcement/2.1. Hooks and CI gates.md` (hooks-vs-gates split, four-gate coverage, fast-and-honest discipline; gates labeled documented-per-forge-docs)
+  - [unit D7-5] Created leaf `07/sections/2. Team enforcement/2.2. Review etiquette and collaboration contracts.md` (kind-precision reviews, author-owned loop, written contracts; no new commands — process leaf)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
