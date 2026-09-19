@@ -139,6 +139,7 @@
   - [unit D4-2] Created leaf `04/sections/1. Syncing with remotes/1.1. Fetch pull and push.md` (fetch-read vs pull-join, push refusal contract, inspect-before-join ritual; all outputs verified on Git 2.53.0: fetch mirror line, rejected non-fast-forward rc=1, ahead1/behind1, --ff-only fatal rc=128)
   - [unit D4-3] Created leaf `04/sections/1. Syncing with remotes/1.2. Tracking branches and upstream.md` (upstream pairing, read-only mirrors, ahead/behind table; verified: -u pairing line, no-upstream fatal rc=128, branch -vv ahead1/behind1)
   - [unit D4-4] Created leaf `04/sections/2. GitHub collaboration/2.1. Forks clones and remotes.md` (fork-vs-clone rule, origin/upstream directions, clone-once discipline; verified: remote -v 4 lines, fetch upstream new-branch mirror rc=0, branch -r both families; real repo remotes untouched)
+  - [unit D4-5] Created leaf `04/sections/2. GitHub collaboration/2.2. Pull request flow propose review and merge.md` (branch-push-propose unit, staged reading, delete-on-merge; git-side verified: push -u new-branch lines; `gh` absent in env so gh lines labeled documented-per-manual)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
 - Links fixed / added:
