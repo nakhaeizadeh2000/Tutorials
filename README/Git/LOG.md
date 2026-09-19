@@ -175,6 +175,7 @@
   - [unit D7-5] Created leaf `07/sections/2. Team enforcement/2.2. Review etiquette and collaboration contracts.md` (kind-precision reviews, author-owned loop, written contracts; no new commands — process leaf)
   - [unit D7-6] Created leaf `07/sections/3. Production operations/3.1. Incidents bisect and hotfix trains.md` (logarithmic bisect, freeze-fix-forward, short trains; verified: full bisect start/bad/good/reset session outputs)
   - [unit D7-7] Created leaf `07/sections/4. Important points to remember/4.1. Production checklist habits mentors insist on.md` (proven-trust, gates-vs-judgment, playbook synthesis; references verified D7-2…D7-6 material)
+  - [unit D7-8] Created leaf `07/sections/5. Interview questions and answers/5.1. Common interview QA production Git mastery.md` (secret-order, red-main pressure, review-system design; references domain material)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
