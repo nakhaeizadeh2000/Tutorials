@@ -41,6 +41,7 @@
   - [unit D2-5] Created leaf `02/sections/3. Searching and selection/3.1. Binary search and its bound variants.md` (halving, invariant-first, bound compositions; verified: 20 comps vs 21 ceiling on 2M, insertion point, run length 2, empty 0 comps; caught + fixed own `%20` Git cross-link pre-commit)
   - [unit D2-6] Created leaf `02/sections/3. Searching and selection/3.2. Selection heapsort preview and the sort lower bound.md` (quickselect pruning, decision-tree floor, heap promise; verified: median exact + 40188 vs ~132877 sorting)
   - [unit D2-7] Created leaf `02/sections/4. Important points to remember/4.1. Sorting checklist habits mentors insist on.md` (stability-required, input-first, library-first synthesis; references verified D2-2…D2-6 material)
+  - [unit D2-8] Created leaf `02/sections/5. Interview questions and answers/5.1. Common interview QA sorts searches and bounds.md` (hand-sort narration, duplicates invariant, lower-bound proof; references verified domain numbers)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
