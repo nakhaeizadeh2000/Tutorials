@@ -154,6 +154,8 @@
   - [unit D5-6] Created leaf `05/sections/3. Rescue and recovery/3.1. Reflog the seatbelt under everything.md` (movement journal, re-label recovery, local-and-finite coverage; verified: full reflog trail, log --all count 0 for orphan, branch-rescue restoration)
   - [unit D5-7] Created leaf `05/sections/4. Important points to remember/4.1. Undo checklist habits mentors insist on.md` (golden rule, status-plus-bookmark, lease-and-reflog synthesis; references verified D5-2…D5-6 probes)
   - [unit D5-8] Created leaf `05/sections/5. Interview questions and answers/5.1. Common interview QA undo rewrite and recovery.md` (wrong-branch trap, reset/revert/restore tree, force-push incident; references verified probes)
+  - [unit D5-9] Created leaf `05/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (joining → 03/04, policy → 06, trust → 07, composition/model → 02/01 map)
+  - [unit D5-10] Upgraded Domain 01 + 02 + 03 + 04 leaf 6.1 Domain-05 signpost lines → live Domain 05 README links (list items, body, boundary-rule, cross-links; code comment reworded to live-link-below since fences can't link)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
@@ -163,4 +165,5 @@
 - Verification:
   - [unit D4-1] domain index 8 leaf links are placeholders until leaves land (expected); 3 prerequisite links resolve; track rows 1–4 resolve
   - [unit D4-10] link checker over all Git md files: 204 angle-bracket targets, 4 broken — all 4 are backticked doc-text inside LOG history (pre-existing false-positive class, same as Sessions 1–3 notes); real content links 200/200 resolve, 0 `%20`; Domain 04 index promises 8/8 ↔ leaves 8/8 present; heading prefixes 8/8 match filenames
+  - [unit D5-10] link checker: 266 angle-bracket targets, 5 broken — all 5 backticked doc-text in LOG history (same class); real content 261/261 resolve, 0 `%20`; Domain 05 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match
 - Next steps:
