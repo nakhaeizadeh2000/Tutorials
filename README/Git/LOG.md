@@ -165,6 +165,8 @@
   - [unit D6-6] Created leaf `06/sections/3. Release automation/3.1. Changelogs from Conventional Commits.md` (parseable capital, derive-vs-decide, gate enforcement; verified: grep-selectable feat/fix subjects; pipeline/lint labeled documented-per-project-docs)
   - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Workflow checklist habits mentors insist on.md` (strategy-written, tags-vs-branches, shelf-and-automate synthesis; references verified D6-2…D6-6 material)
   - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA workflows tags and releases.md` (strategy derivation, tag-move trust, pipeline design; references domain material)
+  - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics → 01–05, trust → 07, words → ITVocabulary map)
+  - [unit D6-10] Upgraded Domain 01 + 02 + 03 + 04 + 05 leaf 6.1 Domain-06 signpost lines → live Domain 06 README links (list items, bodies, boundary-rules, cross-links; code comments reworded to live-link-below since fences can't link)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
@@ -176,4 +178,5 @@
   - [unit D4-1] domain index 8 leaf links are placeholders until leaves land (expected); 3 prerequisite links resolve; track rows 1–4 resolve
   - [unit D4-10] link checker over all Git md files: 204 angle-bracket targets, 4 broken — all 4 are backticked doc-text inside LOG history (pre-existing false-positive class, same as Sessions 1–3 notes); real content links 200/200 resolve, 0 `%20`; Domain 04 index promises 8/8 ↔ leaves 8/8 present; heading prefixes 8/8 match filenames
   - [unit D5-10] link checker: 266 angle-bracket targets, 5 broken — all 5 backticked doc-text in LOG history (same class); real content 261/261 resolve, 0 `%20`; Domain 05 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match
+  - [unit D6-10] link checker: 339 targets, 5 broken — all 5 backticked doc-text in LOG history (same class); real content 334/334 resolve, 0 `%20` (caught + fixed 2 real `./` → `../Section/` bugs in 06/3.1 cross-links pre-commit, same failure class Sessions 2–3); Domain 06 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match
 - Next steps:
