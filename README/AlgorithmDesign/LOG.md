@@ -38,6 +38,7 @@
   - [unit D2-2] Created leaf `02/sections/1. Quadratic sorts/1.1. Insertion selection and bubble why they survive.md` (virtues, contract table, hybrids; verified: selection 120 comps exact + 8 swaps, insertion stable / selection unstable orders)
   - [unit D2-3] Created leaf `02/sections/2. Linearithmic sorts/2.1. Merge sort the divide-and-conquer flagship.md` (recurrence instantiated, stability guarantee, external sorting; verified: 5044/4932 comps at n=1000 vs 9966 ceiling)
   - [unit D2-4] Created leaf `02/sections/2. Linearithmic sorts/2.2. Quicksort partition pivots and the worst case.md` (Lomuto invariant, pivot defenses, royalty-vs-liability; verified: collapse 19900 exact + depth 200, shuffled 167915 comps + depth 33)
+  - [unit D2-5] Created leaf `02/sections/3. Searching and selection/3.1. Binary search and its bound variants.md` (halving, invariant-first, bound compositions; verified: 20 comps vs 21 ceiling on 2M, insertion point, run length 2, empty 0 comps; caught + fixed own `%20` Git cross-link pre-commit)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
