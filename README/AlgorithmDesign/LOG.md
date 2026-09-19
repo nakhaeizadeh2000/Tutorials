@@ -31,6 +31,7 @@
   - [unit 6] Created leaf `01/sections/2. Analyzing algorithms/2.2. Space analysis and the time-memory trade.md` (auxiliary-vs-total, stack bills, budgeted trades; verified: memo sizes 9/19/29, V8 depth ~13920 RangeError)
   - [unit 7] Created leaf `01/sections/3. Measuring performance/3.1. Measuring what analysis predicts.md` (warmed harness, doubling ratios, constant crossovers; verified textbook ratios 2.01 linear and 4.06 quadratic)
   - [unit 8] Created leaf `01/sections/4. Important points to remember/4.1. Complexity checklist habits mentors insist on.md` (bounds-first, worst-first, verify-curves synthesis; references verified units 3–7)
+  - [unit 9] Created leaf `01/sections/5. Interview questions and answers/5.1. Common interview QA complexity and analysis.md` (loop pricing, quadratic judgment, recurrence derivation; references verified domain numbers)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
