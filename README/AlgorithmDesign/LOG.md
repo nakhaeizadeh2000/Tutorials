@@ -36,6 +36,7 @@
   - [unit 10] Created leaf `01/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics → JS track with verified 08/4.1 target, algorithms → 02–06, words → ITVocabulary map; drafted via /tmp first to verify JS target path)
   - [unit D2-1] Created `README/AlgorithmDesign/02 Sorting and Searching/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 2 (verified pre-claims: insertion 0/4950 shifts, Lomuto depth 199 on sorted 200, V8 sort stable)
   - [unit D2-2] Created leaf `02/sections/1. Quadratic sorts/1.1. Insertion selection and bubble why they survive.md` (virtues, contract table, hybrids; verified: selection 120 comps exact + 8 swaps, insertion stable / selection unstable orders)
+  - [unit D2-3] Created leaf `02/sections/2. Linearithmic sorts/2.1. Merge sort the divide-and-conquer flagship.md` (recurrence instantiated, stability guarantee, external sorting; verified: 5044/4932 comps at n=1000 vs 9966 ceiling)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
