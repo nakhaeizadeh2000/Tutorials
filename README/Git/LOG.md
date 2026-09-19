@@ -135,6 +135,7 @@
 - Decisions:
   - Domain 04 shape mirrors 01–03 (8 leaves: 2 sync + 2 GitHub + 1 currency + checklist + QA + boundaries); rebase-vs-merge policy and history rewrite stay textual forwards to Domains 05/06 (no dead links).
   - Domain 05 shape mirrors 04 (8 leaves: 2 safe-undo + 2 rewrite + 1 rescue + checklist + QA + boundaries); merge policy stays forward to 06, trust to 07.
+  - Domain 06 shape (8 leaves: 2 strategy + 2 marking/shelving + 1 release automation + checklist + QA + boundaries); trust/gates stay forward to 07.
 - Done:
   - [unit D4-1] Created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
   - [unit D4-2] Created leaf `04/sections/1. Syncing with remotes/1.1. Fetch pull and push.md` (fetch-read vs pull-join, push refusal contract, inspect-before-join ritual; all outputs verified on Git 2.53.0: fetch mirror line, rejected non-fast-forward rc=1, ahead1/behind1, --ff-only fatal rc=128)
@@ -156,9 +157,11 @@
   - [unit D5-8] Created leaf `05/sections/5. Interview questions and answers/5.1. Common interview QA undo rewrite and recovery.md` (wrong-branch trap, reset/revert/restore tree, force-push incident; references verified probes)
   - [unit D5-9] Created leaf `05/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (joining → 03/04, policy → 06, trust → 07, composition/model → 02/01 map)
   - [unit D5-10] Upgraded Domain 01 + 02 + 03 + 04 leaf 6.1 Domain-05 signpost lines → live Domain 05 README links (list items, body, boundary-rule, cross-links; code comment reworded to live-link-below since fences can't link)
+  - [unit D6-1] Created `README/Git/06 Workflows Tags Stash and Releases/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
+  - [unit D6-1] created `README/Git/06 Workflows Tags Stash and Releases/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 6)
 - Links fixed / added:
   - [unit D4-1] track row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–03 (all resolve)
   - [unit D4-10] 01/6.1 + 02/6.1 Domain-04 list lines → live links; 03/6.1 body + boundary-rule Domain-04 mentions → live links (4 lines total)
