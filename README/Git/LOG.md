@@ -163,6 +163,7 @@
   - [unit D6-4] Created leaf `06/sections/2. Marking and shelving/2.1. Tags marking releases that never move.md` (annotated objects, semver contract, deliberate push; verified: tag list, describe v0.1.0)
   - [unit D6-5] Created leaf `06/sections/2. Marking and shelving/2.2. Stash shelving half-done work.md` (pause cycle, named inventory, local-short doctrine; verified: push/list/pop/drop round-trip outputs)
   - [unit D6-6] Created leaf `06/sections/3. Release automation/3.1. Changelogs from Conventional Commits.md` (parseable capital, derive-vs-decide, gate enforcement; verified: grep-selectable feat/fix subjects; pipeline/lint labeled documented-per-project-docs)
+  - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Workflow checklist habits mentors insist on.md` (strategy-written, tags-vs-branches, shelf-and-automate synthesis; references verified D6-2…D6-6 material)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
