@@ -144,10 +144,13 @@
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Remotes checklist habits mentors insist on.md` (fetch-first ritual, pair-on-birth, small-and-fresh synthesis; commands reference verified D4-2…D4-6 probes)
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA remotes and pull requests.md` (fetch-vs-pull judgment, rejected-push exercise, PR walkthrough; outputs reference verified probes)
   - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (label/join theory → 01/03, rewrite → 05, policy/trust → 06/07 map)
+  - [unit D4-10] Upgraded Domain 01 + 02 + 03 leaf 6.1 Domain-04 signpost lines → live Domain 04 README links (same `[...](<../../../04 .../README.md>)` form as Session 3 upgrades; 03 body + boundary-rule lines both live)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
 - Links fixed / added:
   - [unit D4-1] track row 4 → Domain 04 README; domain 04 §0 prerequisites link Domains 01–03 (all resolve)
+  - [unit D4-10] 01/6.1 + 02/6.1 Domain-04 list lines → live links; 03/6.1 body + boundary-rule Domain-04 mentions → live links (4 lines total)
 - Verification:
   - [unit D4-1] domain index 8 leaf links are placeholders until leaves land (expected); 3 prerequisite links resolve; track rows 1–4 resolve
+  - [unit D4-10] link checker over all Git md files: 204 angle-bracket targets, 4 broken — all 4 are backticked doc-text inside LOG history (pre-existing false-positive class, same as Sessions 1–3 notes); real content links 200/200 resolve, 0 `%20`; Domain 04 index promises 8/8 ↔ leaves 8/8 present; heading prefixes 8/8 match filenames
 - Next steps:
