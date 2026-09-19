@@ -149,6 +149,7 @@
   - [unit D5-1] Created `README/Git/05 Undo Fix and Rewrite History/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 5
   - [unit D5-2] Created leaf `05/sections/1. Undoing safely/1.1. Restore reset and unstaging without fear.md` (unstage-vs-discard areas, --staged/--source/--soft/mixed/hard table; verified: restore --staged leaves ' M', amend hash change, soft keeps index staged)
   - [unit D5-3] Created leaf `05/sections/1. Undoing safely/1.2. Revert the public undo.md` (append-only revert, -m 1 merge parent, revert-conflict loop; verified: Revert commit hash chain, merge+revert -m 1 outputs)
+  - [unit D5-4] Created leaf `05/sections/2. Rewriting history/2.1. Amend fixing the last commit.md` (tip replacement, orphan semantics, lease-push; verified: 5e3a9cd -> 16e80b4 replacement)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
