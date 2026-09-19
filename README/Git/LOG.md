@@ -152,6 +152,7 @@
   - [unit D5-4] Created leaf `05/sections/2. Rewriting history/2.1. Amend fixing the last commit.md` (tip replacement, orphan semantics, lease-push; verified: 5e3a9cd -> 16e80b4 replacement)
   - [unit D5-5] Created leaf `05/sections/2. Rewriting history/2.2. Rebase and cherry-pick replaying commits.md` (replay onto new base, interactive script, single-commit picks; verified: rebase success line, up-to-date rc=0, cherry-pick new hash, empty-pick detection; caught + fixed own non-English artifact pre-commit)
   - [unit D5-6] Created leaf `05/sections/3. Rescue and recovery/3.1. Reflog the seatbelt under everything.md` (movement journal, re-label recovery, local-and-finite coverage; verified: full reflog trail, log --all count 0 for orphan, branch-rescue restoration)
+  - [unit D5-7] Created leaf `05/sections/4. Important points to remember/4.1. Undo checklist habits mentors insist on.md` (golden rule, status-plus-bookmark, lease-and-reflog synthesis; references verified D5-2…D5-6 probes)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
