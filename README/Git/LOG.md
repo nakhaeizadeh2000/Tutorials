@@ -158,6 +158,7 @@
   - [unit D5-9] Created leaf `05/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (joining → 03/04, policy → 06, trust → 07, composition/model → 02/01 map)
   - [unit D5-10] Upgraded Domain 01 + 02 + 03 + 04 leaf 6.1 Domain-05 signpost lines → live Domain 05 README links (list items, body, boundary-rule, cross-links; code comment reworded to live-link-below since fences can't link)
   - [unit D6-1] Created `README/Git/06 Workflows Tags Stash and Releases/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
+  - [unit D6-2] Created leaf `06/sections/1. Branching strategy/1.1. Trunk-based GitHub Flow and GitFlow shapes.md` (three shapes, protection-as-enforcement, deploy-reality choice; forge rules labeled documented-per-GitHub-docs)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
   - [unit D5-1] created `README/Git/05 Undo Fix and Rewrite History/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 5)
