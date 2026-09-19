@@ -136,6 +136,7 @@
   - Domain 04 shape mirrors 01–03 (8 leaves: 2 sync + 2 GitHub + 1 currency + checklist + QA + boundaries); rebase-vs-merge policy and history rewrite stay textual forwards to Domains 05/06 (no dead links).
 - Done:
   - [unit D4-1] Created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
+  - [unit D4-2] Created leaf `04/sections/1. Syncing with remotes/1.1. Fetch pull and push.md` (fetch-read vs pull-join, push refusal contract, inspect-before-join ritual; all outputs verified on Git 2.53.0: fetch mirror line, rejected non-fast-forward rc=1, ahead1/behind1, --ff-only fatal rc=128)
 - Files touched:
   - [unit D4-1] created `README/Git/04 Remotes GitHub and Pull Requests/README.md` (+ 6 section dirs); modified `README/Git/README.md` (row 4)
 - Links fixed / added:
