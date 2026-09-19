@@ -32,7 +32,9 @@
   - [unit 7] Created leaf `01/sections/3. Measuring performance/3.1. Measuring what analysis predicts.md` (warmed harness, doubling ratios, constant crossovers; verified textbook ratios 2.01 linear and 4.06 quadratic)
   - [unit 8] Created leaf `01/sections/4. Important points to remember/4.1. Complexity checklist habits mentors insist on.md` (bounds-first, worst-first, verify-curves synthesis; references verified units 3–7)
   - [unit 9] Created leaf `01/sections/5. Interview questions and answers/5.1. Common interview QA complexity and analysis.md` (loop pricing, quadratic judgment, recurrence derivation; references verified domain numbers)
+  - [unit 10] Created leaf `01/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics → JS track with verified 08/4.1 target, algorithms → 02–06, words → ITVocabulary map; drafted via /tmp first to verify JS target path)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
+  - [unit 10] link checker over AlgorithmDesign track (11 md files): 51 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `../../LOG.md` → `../../../LOG.md` depth bug in 01/6.1 cross-links pre-commit); Domain 01 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match filenames
 - Next steps:
