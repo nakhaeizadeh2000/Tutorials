@@ -54,6 +54,7 @@
   - [unit D3-6] Created leaf `03/sections/3. Stacks queues and strings/3.1. Monotonic stacks and queue discipline.md` (dominance resolution, deque dual-eviction, LIFO/FIFO design; verified: nextGreater, slidingMax classic, parens matrix)
   - [unit D3-7] Created leaf `03/sections/3. Stacks queues and strings/3.2. String matching without the naive scan.md` (naive baseline, KMP no-rescan, Rabin-Karp rolling; verified: naive 176, KMP table + match-at-10 in 23 comps, RK [10])
   - [unit D3-8] Created leaf `03/sections/4. Important points to remember/4.1. Linear-techniques checklist habits mentors insist on.md` (structure-first, invariant-first, amortize-explicitly synthesis; references verified D3-2…D3-7)
+  - [unit D3-9] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA pointers windows and strings.md` (two-sum variants, substring narration, KMP linearity; references verified domain numbers)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md` (rows 1–3 added across units 2/D2-1/D3-1); created `01 Complexity and Algorithmic Thinking/README.md` + 8 leaves (units 2–10); created `02 Sorting and Searching/README.md` + 8 leaves (units D2-1–D2-9); created `03 Linear Structures and Two-Pointer Techniques/README.md` (unit D3-1, leaves pending)
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
