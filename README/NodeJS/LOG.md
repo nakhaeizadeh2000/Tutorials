@@ -23,6 +23,7 @@
 - Done:
   - [unit 1] Created `README/NodeJS/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #7 already pointed here — now resolves, no root edit needed)
   - [unit 2] Created `README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (local `node --version` = v20.20.2 for example verification)
+  - [unit 3] Created leaf `01/sections/1. Runtime identity and setup/1.1. What Node.js is and is not.md` (three-box model, platform swap, runtime-vs-framework layers; verified versions probe v8 11.3.244.8/uv 1.46.0, window-undefined probe, node:fs good 4 lines, bare http listen; caught + fixed own premature live links to unbuilt domains pre-commit per no-dead-links rule)
 - Files touched: created `README/NodeJS/LOG.md`, created `README/NodeJS/README.md`; created `01 Runtime Fundamentals and Mental Model/README.md` (+ 6 section dirs)
 - Links fixed / added:
 - Verification:
