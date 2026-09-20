@@ -27,6 +27,7 @@
   - [unit 4] Created leaf `01/sections/1. Runtime identity and setup/1.2. Installing managing and pinning versions.md` (dual-pin contract, LTS calendar, five-probe handshake; verified all probes on v20.20.2 Iron/openssl 3.0.19/fetch function; caught + fixed own openssl version comment pre-commit)
   - [unit 5] Created leaf `01/sections/2. Process and modules/2.1. The process model globals and lifecycle.md` (argv/env/exitCode contracts, module-relative resolution, graceful SIGTERM; verified exit 1/0 paths, cwd-vs-module divergence, unref natural exit, drain-then-number shutdown)
   - [unit 6] Created leaf `01/sections/2. Process and modules/2.2. Modules in Node CJS and ESM interop.md` (two loaders one resolver, type+extension mapping, default-import discipline; verified require-identity true, type:module mapping, interop trio, dynamic-import fallback)
+  - [unit 7] Created leaf `01/sections/3. Execution model/3.1. The Node event loop phases in practice.md` (phase itinerary, nextTick-vs-immediate liveness, pool-vs-loop diagnosis; verified I/O immediate-first, queue order 1-5, blocked timer 300 vs 100, pool parallel; caught + fixed own 400ms estimate pre-commit)
 - Files touched: created `README/NodeJS/LOG.md`, created `README/NodeJS/README.md`; created `01 Runtime Fundamentals and Mental Model/README.md` (+ 6 section dirs)
 - Links fixed / added:
 - Verification:
