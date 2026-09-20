@@ -10,6 +10,7 @@ Thinking in algorithms and choosing the best one — complexity analysis, sortin
 | 4 | [Hashing, Trees, and Heaps](<04 Hashing Trees and Heaps/README.md>) |
 | 5 | [Graphs](<05 Graphs/README.md>) |
 | 6 | [Dynamic Programming, Greedy, and Backtracking](<06 Dynamic Programming Greedy and Backtracking/README.md>) |
+| 7 | [Production Problem Solving and Interview Mastery](<07 Production Problem Solving and Interview Mastery/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
