@@ -72,6 +72,7 @@
   - [unit D3-2] Created leaf `03/sections/1. Files and paths/1.1. Reading and writing files without blocking.md` (promises-first, flag contracts, size rule; verified round trip, EEXIST guard, size decision)
   - [unit D3-3] Created leaf `03/sections/1. Files and paths/1.2. Paths metadata and watching.md` (join+contain, stat-first, hint-vs-truth watching; verified joined path, REFUSED traversal, stat codes, watcher event→v2)
   - [unit D3-4] Created leaf `03/sections/2. Streams and pipelines/2.1. Readable writable and transform.md` (uniform I/O, pipeline lifecycle, staged transforms; verified uniform consumer 2/5, pipeline uppercase + propagated failure, split-across-seams records)
+  - [unit D3-5] Created leaf `03/sections/2. Streams and pipelines/2.2. Backpressure and stream errors.md` (write/drain contract, destroy-on-error, paused default; verified false→drained, rejected + closed true, 300 bytes paced; caught + fixed own labeled-block oddity + own require-in-ESM crash pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
