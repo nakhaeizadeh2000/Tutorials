@@ -24,6 +24,7 @@
   - Domain 01 teaches analysis only (notation, cases, measurement); every data-structure/algorithm mechanic deferred to domains 02–06 to respect DRY single-source-of-truth.
   - Domain 02 shape (8 leaves: 1 quadratic + 2 linearithmic + 2 search/select + checklist + QA + boundaries); heaps/string-matching deferred to 03–04 with forwards.
   - Domain 03 shape (9 leaves: 2 pointers + 2 windows + 2 stacks-strings + checklist + QA + boundaries); heaps/graphs/DP stay forward to 04–06.
+  - Domain 04 shape (9 leaves: 2 hashing + 2 trees + 2 heaps-tries + checklist + QA + boundaries); graphs/DP stay forward to 05–06.
 - Done:
   - [unit 1] Created `README/AlgorithmDesign/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #5 already pointed here — now resolves, no root edit needed)
   - [unit 2] Created `README/AlgorithmDesign/01 Complexity and Algorithmic Thinking/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (caught + fixed own `%20`-encoded Git cross-link pre-commit)
@@ -57,7 +58,8 @@
   - [unit D3-9] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA pointers windows and strings.md` (two-sum variants, substring narration, KMP linearity; references verified domain numbers)
   - [unit D3-10] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (analysis → 01/02, heavier → 04–06, words → ITVocabulary map) + upgraded 02/6.1 string-matching forwards (body + cross-links) → live 03/3.2 links
   - [unit D3-11] Link verification: 176 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `./2.1.` → `../2. Sliding windows/2.1.` bug in 03/3.2 pre-commit, same failure class); Domain 03 promises 9/9 ↔ leaves 9/9; heading prefixes 9/9 match
-- Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md` (rows 1–3 added across units 2/D2-1/D3-1); created `01 Complexity and Algorithmic Thinking/README.md` + 8 leaves (units 2–10); created `02 Sorting and Searching/README.md` + 8 leaves (units D2-1–D2-9); created `03 Linear Structures and Two-Pointer Techniques/README.md` (unit D3-1, leaves pending)
+  - [unit D4-1] Created `README/AlgorithmDesign/04 Hashing Trees and Heaps/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 4 (verified pre-claims: prefix-sum count 4, BST depth 10 vs 4, heap extraction order)
+- Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md` (rows 1–4 added across units 2/D2-1/D3-1/D4-1); created `01 Complexity and Algorithmic Thinking/README.md` + 8 leaves (units 2–10); created `02 Sorting and Searching/README.md` + 8 leaves (units D2-1–D2-11 incl. count fix); created `03 Linear Structures and Two-Pointer Techniques/README.md` + 9 leaves (units D3-1–D3-11); created `04 Hashing Trees and Heaps/README.md` (unit D4-1, leaves pending)
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
   - [unit 10] link checker over AlgorithmDesign track (11 md files): 51 angle-bracket targets, 0 broken, 0 `%20` in links (caught + fixed 1 real `../../LOG.md` → `../../../LOG.md` depth bug in 01/6.1 cross-links pre-commit); Domain 01 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match filenames
