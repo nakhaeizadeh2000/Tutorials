@@ -55,6 +55,7 @@
 - Research notes: npm/package facts are stable platform knowledge (npm docs — package.json fields, semver, lockfiles, scripts, npx; nodejs.org modules docs — resolution algorithm). DRY grep for `package.json` outside NodeJS: TS 16 owns package *health/tooling* (publint/attw, upgrade playbooks) and TS 12 owns *publishing types* (exports map, typesVersions) — this domain owns the *Node runtime* side (install/load contract, resolution walk, scripts execution, lockfile reproducibility) and links out (boundaries in leaf 6.1). Examples verified per unit with npm/node on local v20.20.2.
 - Decisions:
   - Domain 02 shape (8 leaves: 2 identity-versions + 2 scripts-binaries + 1 layout-resolution + checklist + QA + boundaries); files/streams stay forward to 03.
+  - Domain 03 shape (8 leaves: 2 files-paths + 2 streams-pipelines + 1 binary-buffers + checklist + QA + boundaries); networking stays forward to 04. DRY: TS 18/3.2 owns AsyncIterable *language* mechanics, JS 16/1.2 owns JSON streaming *limits* — this domain owns Node's fs/stream/buffer *runtime APIs* and links out.
 - Done:
   - [unit D2-1] Created `README/NodeJS/02 Packages Scripts and Project Layout/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2 (local npm 10.8.2 / node v20.20.2; caught + fixed own non-English fragment pre-commit)
   - [unit D2-2] Created leaf `02/sections/1. Package identity and versions/1.1. package.json as install and load contract.md` (three audiences, loading fields, manifest-vs-npmrc enforcement; verified npm pkg get trio, engines read, notsup exit 1 via .npmrc; caught + fixed own wrong depth `../../` → `../../../`, and own false engineStrict-aborts claim — npm 10 warns, .npmrc refuses — pre-commit)
@@ -66,7 +67,8 @@
   - [unit D2-8] Created leaf `02/sections/5. Interview questions and answers/5.1. Common interview QA packages and layout.md` (walk trace, ci judgment, phantom find-and-fix + rapid-fire; verified resolve path exact, ci restore 7.8.5, phantom true/false/nested)
   - [unit D2-9] Created leaf `02/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (execution → 01, authoring → TS 16/12, deeper runtime → 03–07 textual; verified all 3 TS targets exist on disk)
   - [unit D2-10] Upgraded 01 Domain-02 forwards → live 02 links (engines→1.2, layout→index ×2; 3 exact-match replacements); full track sweep: 107 angle-bracket targets, 0 broken, 0 `%20`; Domain 02 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match; caught + fixed 8 own cross-track depth bugs `../../../` → `../../../../` in 02/1.2+2.1+6.1 pre-commit (remaining 03–07 textual forwards intentional)
-- Files touched: created `02 Packages Scripts and Project Layout/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
+- Files touched: created `02 Packages Scripts and Project Layout/README.md` (+ 6 section dirs); modified track `README.md` (row 2); created `03 Files Streams and Buffers/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
+  - [unit D3-1] Created `README/NodeJS/03 Files Streams and Buffers/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3
 - Links fixed / added:
 - Verification:
 - Next steps:
