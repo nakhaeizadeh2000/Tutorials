@@ -61,6 +61,7 @@
   - [unit D2-3] Created leaf `02/sections/1. Package identity and versions/1.2. Versions lockfiles and reproducible installs.md` (semver promises, lockfile freeze, tree verification; verified live registry install semver 7.8.5, wipe + ci restore identical, explain chain, integrity hash)
   - [unit D2-4] Created leaf `02/sections/2. Scripts and binaries/2.1. npm scripts as the task layer.md` (project CLI, lifecycle + .bin room, composition ladder; verified script listing, pre-then-main order 1986/1987, .bin on PATH, && chain; caught + fixed own probe-sequencing confusion — blocks self-contained via rewrite — pre-commit)
   - [unit D2-5] Created leaf `02/sections/2. Scripts and binaries/2.2. Binaries npx and executed packages.md` (bin→shim contract, pinned one-shot exec, global exception list; verified cowsay shim executes, exec leaves dir empty, globals short list)
+  - [unit D2-6] Created leaf `02/sections/3. Layout and resolution/3.1. node_modules resolution and project layout.md` (upward walk, conventional layout, hoisting phantoms; verified createRequire upward hit, layout find, string-width phantom resolves-but-undeclared nested under cowsay; caught + fixed own non-English fragment + own convoluted require demo pre-commit)
 - Files touched: created `02 Packages Scripts and Project Layout/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
