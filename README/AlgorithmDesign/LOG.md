@@ -67,3 +67,29 @@
   - [unit D2-11/D3-11] full link sweeps at each domain close (117 → 176 targets, 0 broken real; backticked LOG prose excluded as known false-positive class); promise↔leaf 1:1 per domain; headings match filenames
   - Session-1 DoD walk (§4) for completed Domains 01–03: junior-readable first halves (plain definitions + runnable node fences), expert/mentor second halves (trade-offs, performance, mentor notes); every anti-pattern labeled with why; all claim-bearing snippets executed on Node v20.20.2 before writing (timings, counts, tables, orders recorded in Done bullets); zero duplication (DRY grep at open: no prior Big-O/complexity coverage; JS 08/09/11 mechanics linked, never re-taught); formatting matches Git-track neighbors (bold labels, angle-bracket literal-space links, `---` separators, `javascript` fences); 2 self-caught defects fixed pre-commit (truncated 02/6.1 write repaired via Read+edit; leaf-count 9→8 corrected disk-wins); filenames punctuation-clean; tree clean, 35 commits.
 - Next steps: Session 2 — resume INSIDE this track (no recovery needed beyond reading this block): implement Domain 04 leaves in index order (6 section dirs already exist from unit D4-1): D4-2 leaf `1.1. Hash maps average O1 honest worst cases.md`, D4-3 `1.2. Prefix sums and frequency patterns.md`, D4-4 `2.1. Binary search trees ordered maps with a shadow.md`, D4-5 `2.2. Traversals inorder pre post and level.md`, D4-6 `3.1. Heaps priority queues and heapsort proper.md`, D4-7 `3.2. Tries and multi-pattern matching.md`, D4-8 `4.1. Structures checklist habits mentors insist on.md`, D4-9 `5.1. Common interview QA hashing trees and heaps.md`, D4-10 `6.1. Boundaries what is covered elsewhere.md`, D4-11 link upgrades (01/02/03 Domain-04 forwards → live 04 links) + full link sweep. Verified pre-claims ready to reuse (unit D4-1 Done bullet): prefix-sum count 4, BST depth 10 vs 4, heap extraction order. Then Domain 05 Graphs → 06 DP/Greedy/Backtracking → 07 Production/Interview Mastery in curriculum order (see Full planned curriculum above), then TRACK-COMPLETE verification + retire all `(planned, see LOG)` forwards track-wide + close DONE.
+
+## [2026-09-20 05:42] Session 2 — Domain 04 leaves + Domains 05–07 to track completion
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding, §§1–8 — full reads in prior sessions, skill harness reloaded); root README.md (Categories table — Algorithm Design at #5, link resolves since Session 1); README/AlgorithmDesign/README.md (Template A, rows 1–4); README/AlgorithmDesign/LOG.md (full — Session 1 PARTIAL); README/AlgorithmDesign/04 Hashing Trees and Heaps/README.md (Template B, sections 1–6, 9 leaf promises).
+- Recovery verification (PROMPT.md:165): last entry Session 1 Status is PARTIAL (clean close, immutable — opening fresh Session 2 block, not editing history). Verified EVERY Done bullet against disk — trust disk over log: track README rows 1–4 present; 01 index + 8 leaves on disk (units 2–10 ✓); 02 index + 8 leaves (D2-1–D2-9 ✓); 03 index + 9 leaves (D3-1–D3-10 ✓); 04 index + 6 section dirs + 0 leaves (D4-1 ✓, leaves pending as logged); 31 md files total (4 indexes + 25 leaves + track README + LOG ✓); tree clean at 3b28adf; Node v20.20.2. ✅ Zero discrepancies — nothing to redo, nothing to repair.
+- Plan (resume from Session 1 Next steps — no scope override in request; loop without stopping, one unit → LOG update → commit):
+  1. Unit D4-2 — leaf `04/sections/1. Hashing/1.1. Hash maps average O1 honest worst cases.md`
+  2. Unit D4-3 — leaf `04/sections/1. Hashing/1.2. Prefix sums and frequency patterns.md`
+  3. Unit D4-4 — leaf `04/sections/2. Trees/2.1. Binary search trees ordered maps with a shadow.md`
+  4. Unit D4-5 — leaf `04/sections/2. Trees/2.2. Traversals inorder pre post and level.md`
+  5. Unit D4-6 — leaf `04/sections/3. Heaps and tries/3.1. Heaps priority queues and heapsort proper.md`
+  6. Unit D4-7 — leaf `04/sections/3. Heaps and tries/3.2. Tries and multi-pattern matching.md`
+  7. Unit D4-8 — leaf `04/sections/4. Important points to remember/4.1. Structures checklist habits mentors insist on.md`
+  8. Unit D4-9 — leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA hashing trees and heaps.md`
+  9. Unit D4-10 — leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`
+  10. Unit D4-11 — link upgrades (01/02/03 Domain-04 forwards → live 04 links) + full link sweep
+  11. Units D5-1… — Domain 05 Graphs (index + leaves + row 5 + upgrades), then 06 DP/Greedy/Backtracking, then 07 Production/Interview Mastery, in curriculum order
+  12. Final verification (DoD + links + DRY + retire all `(planned, see LOG)` forwards) + close DONE (PARTIAL only on context limits)
+- Research notes: hashing/tree/heap facts are stable CS knowledge (CLRS Ch. 11–12, 6, 19; open-addressing vs chaining, red-black guarantees). DRY grep at Session 1 open: JS 09 owns Map/Set *mechanics* (linked, never re-taught); Git 07 mentions dynamic programming/Dijkstra by name only. This domain owns hashing analysis, BST/traversal mechanics, heap/PQ mechanics, tries. Examples in JavaScript, verified per unit on Node v20.20.2.
+- Decisions:
+- Done:
+  - [unit D4-2] Created leaf `04/sections/1. Hashing/1.1. Hash maps average O1 honest worst cases.md` (bucket/resize machinery, adversarial degradation, relation modeling; verified: chains 10 uniform vs 10000 degenerate, twoSum [0,4], flat ns/op lookups)
+- Files touched: created `04/sections/1. Hashing/1.1. Hash maps average O1 honest worst cases.md`
+- Links fixed / added:
+- Verification:
+- Next steps:
