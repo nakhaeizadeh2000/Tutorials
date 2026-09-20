@@ -8,6 +8,7 @@ Timeless object-oriented design — SOLID principles, the GoF pattern catalog, a
 | 2 | [Creational Patterns](<02 Creational Patterns/README.md>) |
 | 3 | [Structural Patterns](<03 Structural Patterns/README.md>) |
 | 4 | [Behavioral Patterns: Command and Control](<04 Behavioral Patterns Command and Control/README.md>) |
+| 5 | [Behavioral Patterns: Distribution and Interpretation](<05 Behavioral Patterns Distribution and Interpretation/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
