@@ -26,6 +26,7 @@
   - [unit 3] Created leaf `01/sections/1. Runtime identity and setup/1.1. What Node.js is and is not.md` (three-box model, platform swap, runtime-vs-framework layers; verified versions probe v8 11.3.244.8/uv 1.46.0, window-undefined probe, node:fs good 4 lines, bare http listen; caught + fixed own premature live links to unbuilt domains pre-commit per no-dead-links rule)
   - [unit 4] Created leaf `01/sections/1. Runtime identity and setup/1.2. Installing managing and pinning versions.md` (dual-pin contract, LTS calendar, five-probe handshake; verified all probes on v20.20.2 Iron/openssl 3.0.19/fetch function; caught + fixed own openssl version comment pre-commit)
   - [unit 5] Created leaf `01/sections/2. Process and modules/2.1. The process model globals and lifecycle.md` (argv/env/exitCode contracts, module-relative resolution, graceful SIGTERM; verified exit 1/0 paths, cwd-vs-module divergence, unref natural exit, drain-then-number shutdown)
+  - [unit 6] Created leaf `01/sections/2. Process and modules/2.2. Modules in Node CJS and ESM interop.md` (two loaders one resolver, type+extension mapping, default-import discipline; verified require-identity true, type:module mapping, interop trio, dynamic-import fallback)
 - Files touched: created `README/NodeJS/LOG.md`, created `README/NodeJS/README.md`; created `01 Runtime Fundamentals and Mental Model/README.md` (+ 6 section dirs)
 - Links fixed / added:
 - Verification:
