@@ -57,6 +57,7 @@
   - Domain 02 shape (8 leaves: 2 identity-versions + 2 scripts-binaries + 1 layout-resolution + checklist + QA + boundaries); files/streams stay forward to 03.
 - Done:
   - [unit D2-1] Created `README/NodeJS/02 Packages Scripts and Project Layout/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2 (local npm 10.8.2 / node v20.20.2; caught + fixed own non-English fragment pre-commit)
+  - [unit D2-2] Created leaf `02/sections/1. Package identity and versions/1.1. package.json as install and load contract.md` (three audiences, loading fields, manifest-vs-npmrc enforcement; verified npm pkg get trio, engines read, notsup exit 1 via .npmrc; caught + fixed own wrong depth `../../` → `../../../`, and own false engineStrict-aborts claim — npm 10 warns, .npmrc refuses — pre-commit)
 - Files touched: created `02 Packages Scripts and Project Layout/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
