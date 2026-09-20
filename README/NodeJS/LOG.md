@@ -64,6 +64,7 @@
   - [unit D2-6] Created leaf `02/sections/3. Layout and resolution/3.1. node_modules resolution and project layout.md` (upward walk, conventional layout, hoisting phantoms; verified createRequire upward hit, layout find, string-width phantom resolves-but-undeclared nested under cowsay; caught + fixed own non-English fragment + own convoluted require demo pre-commit)
   - [unit D2-7] Created leaf `02/sections/4. Important points to remember/4.1. Packaging checklist habits mentors insist on.md` (manifest+lock gate, named-scripts local-bins, declared-ness; verified gate gaps-exit-1 + complete-exit-0, declared deps cowsay, tree print; caught + fixed own confusing parenthetical pre-commit)
   - [unit D2-8] Created leaf `02/sections/5. Interview questions and answers/5.1. Common interview QA packages and layout.md` (walk trace, ci judgment, phantom find-and-fix + rapid-fire; verified resolve path exact, ci restore 7.8.5, phantom true/false/nested)
+  - [unit D2-9] Created leaf `02/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (execution → 01, authoring → TS 16/12, deeper runtime → 03–07 textual; verified all 3 TS targets exist on disk)
 - Files touched: created `02 Packages Scripts and Project Layout/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
