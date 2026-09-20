@@ -30,6 +30,7 @@
   - [unit 7] Created leaf `01/sections/3. Execution model/3.1. The Node event loop phases in practice.md` (phase itinerary, nextTick-vs-immediate liveness, pool-vs-loop diagnosis; verified I/O immediate-first, queue order 1-5, blocked timer 300 vs 100, pool parallel; caught + fixed own 400ms estimate pre-commit)
   - [unit 8] Created leaf `01/sections/4. Important points to remember/4.1. Runtime checklist habits mentors insist on.md` (pin-print-probe, exit-code API, phase-aware scheduling synthesis; verified boot print, exit 2/0 paths, chunked yield with clean exit; caught + fixed own unverified lag claim pre-commit)
   - [unit 9] Created leaf `01/sections/5. Interview questions and answers/5.1. Common interview QA runtime fundamentals.md` (layered threading answer, priced CJS/ESM judgment, canonical trace + rapid-fire; verified layers probe 1/4/6, trace A-E, interop rule)
+  - [unit 10] Created leaf `01/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (language mechanics → JS 13/14, deeper runtime → Domains 02–06 textual, frameworks/words → framework tracks + ITVocabulary; caught + fixed own non-English fragment + own 2-up cross-track depth bug `../../` → `../../../../` pre-commit)
 - Files touched: created `README/NodeJS/LOG.md`, created `README/NodeJS/README.md`; created `01 Runtime Fundamentals and Mental Model/README.md` (+ 6 section dirs)
 - Links fixed / added:
 - Verification:
