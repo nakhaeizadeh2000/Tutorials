@@ -24,6 +24,7 @@
   - Domain 01 teaches SOLID + composition/coupling only; every GoF pattern mechanic deferred to domains 02–05 to respect DRY single-source-of-truth.
 - Done:
   - [unit 1] Created `README/DesignPatterns/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #6 already pointed here — now resolves, no root edit needed)
+  - [unit 2] Created `README/DesignPatterns/01 SOLID Principles and Design Foundations/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders
 - Files touched: created `README/DesignPatterns/LOG.md`, created `README/DesignPatterns/README.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #6 already pointed here, now resolves
 - Verification:
