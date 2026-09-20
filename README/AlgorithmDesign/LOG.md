@@ -114,3 +114,31 @@
 - Verification:
   - Session-2 DoD walk (§4) for Domains 04–05: junior-readable first halves, expert/mentor second halves; anti-patterns labeled with why; all claim-bearing snippets executed on Node v20.20.2 before writing (bucket chains, prefix counts, BST depths/orders, traversal strings, heap builds/extractions, trie nodes, BFS/DFS/Dijkstra/UF probes, density arithmetic — recorded in Done bullets); zero duplication (JS 09 mechanics, Git bisect naming linked never re-taught); formatting matches track neighbors; 2 self-caught defects fixed pre-commit (non-English artifact in 04/4.1; `./`-depth link bugs — same failure class as Session 1); link sweeps 278 → 352 targets, 0 broken real; filenames punctuation-clean; tree clean.
 - Next steps: Session 3 — resume INSIDE this track (read this block + track README + 06 prerequisites only): create `06 Dynamic Programming Greedy and Backtracking/` in index order — D6-1 domain README (Template B, sections 1–6) + 6 section dirs + track README row 6 (suggested 9 leaves: 1.1 memoization-vs-tabulation, 1.2 classic 1D DP, 2.1 2D/grid DP, 2.2 DAG-DP + shortest-path variants, 3.1 greedy + exchange arguments, 3.2 backtracking + pruning, 4.1 checklist, 5.1 QA, 6.1 boundaries), then D6-2…D6-10 leaves + D6-11 upgrades (01/02/03/04/05 Domain-06 forwards → live 06 links) + sweep; then Domain 07 Production Problem Solving and Interview Mastery (index + leaves + row 7 + retire ALL remaining `(planned, see LOG)` forwards track-wide); then TRACK-COMPLETE verification (full link sweep, DRY grep, DoD walk) + close DONE. Suggested leaf order/claims mirror this session's pattern (probe-first, verify-every-number, one unit → LOG → commit).
+
+## [2026-09-20 06:15] Session 3 — Domains 06–07 to track completion
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding — full reads in prior sessions, skill harness reloaded); root README.md (Categories table — Algorithm Design at #5); README/AlgorithmDesign/README.md (Template A, rows 1–5); README/AlgorithmDesign/LOG.md (full — Sessions 1–2 PARTIAL); Session 2 Next steps (handoff).
+- Recovery verification (PROMPT.md:165): last entry Session 2 Status is PARTIAL (clean close, immutable — opening fresh Session 3 block). Verified EVERY Session 2 Done bullet against disk — trust disk over log: 04 index + 9 leaves (D4-2…D4-10 ✓); 42-forward sweep applied (spot-checked live 04 links resolve); 05 index + 8 leaves (D5-1…D5-9 ✓); 21-forward sweep applied; track rows 1–5 present; 01:8 / 02:8 / 03:9 / 04:9 / 05:8 leaves on disk; 49 md files total (5 indexes + 42 leaves + track README + LOG ✓); tree clean at a093963; Node v20.20.2. ✅ Zero discrepancies — nothing to redo, nothing to repair.
+- Plan (resume from Session 2 Next steps — no scope override in request; loop without stopping, one unit → LOG update → commit, until track complete):
+  1. Unit D6-1 — create `06 Dynamic Programming Greedy and Backtracking/README.md` (Template B, sections 1–6, 9 leaf promises) + 6 section dirs + track README row 6
+  2. Unit D6-2 — leaf `06/sections/1. DP foundations/1.1. Memoization vs tabulation.md`
+  3. Unit D6-3 — leaf `06/sections/1. DP foundations/1.2. Classic 1D DP stairs rob houses.md`
+  4. Unit D6-4 — leaf `06/sections/2. Two dimensions/2.1. Grid DP paths and obstacles.md`
+  5. Unit D6-5 — leaf `06/sections/2. Two dimensions/2.2. DAG DP and shortest-path variants.md`
+  6. Unit D6-6 — leaf `06/sections/3. Greedy and backtracking/3.1. Greedy exchange arguments.md`
+  7. Unit D6-7 — leaf `06/sections/3. Greedy and backtracking/3.2. Backtracking with pruning.md`
+  8. Unit D6-8 — leaf `06/sections/4. Important points to remember/4.1. DP checklist habits mentors insist on.md`
+  9. Unit D6-9 — leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA DP greedy backtracking.md`
+  10. Unit D6-10 — leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md`
+  11. Unit D6-11 — link upgrades (01/02/03/04/05 Domain-06 forwards → live 06 links) + full link sweep
+  12. Units D7-1… — Domain 07 Production Problem Solving and Interview Mastery (index + 8 leaves + row 7), then retire ALL remaining `(planned, see LOG)` forwards track-wide
+  13. Final TRACK-COMPLETE verification (full link sweep, DRY grep, DoD walk) + close DONE
+- Research notes: DP/greedy/backtracking facts are stable CS knowledge (CLRS Ch. 15–16; optimal substructure, overlapping subproblems, exchange arguments, backtracking with constraint propagation). DRY: Domain 01 §2.2 owns memoization-cost framing (linked); Domain 03 §3.2 owns KMP/edit-distance mentions (linked); Domain 05 owns DAG-topo/Dijkstra consumed by DAG-DP (linked). This domain owns DP formulations, greedy correctness, backtracking search. Examples verified per unit on Node v20.20.2.
+- Decisions:
+  - Domain 06 shape (9 leaves: 2 foundations + 2 two-dimensions + 2 greedy-backtracking + checklist + QA + boundaries); mastery stays forward to 07.
+- Done:
+  - [unit D6-1] Created `README/AlgorithmDesign/06 Dynamic Programming Greedy and Backtracking/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 6 (verified pre-claims: naive fib(25) 242785 calls vs memo 49 + table 24, rob 12, grid 3x7 paths 28)
+- Files touched: created `06 Dynamic Programming Greedy and Backtracking/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
+- Links fixed / added: track row 6 → Domain 06 README (placeholders for leaves as expected); prerequisites (01, 03, 05) resolve
+- Verification: track rows 1–6 resolve; 9 leaf links are placeholders until leaves land (expected)
+- Next steps:
