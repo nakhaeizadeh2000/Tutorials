@@ -6,6 +6,7 @@ Timeless object-oriented design — SOLID principles, the GoF pattern catalog, a
 |---|--------|
 | 1 | [SOLID Principles and Design Foundations](<01 SOLID Principles and Design Foundations/README.md>) |
 | 2 | [Creational Patterns](<02 Creational Patterns/README.md>) |
+| 3 | [Structural Patterns](<03 Structural Patterns/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
