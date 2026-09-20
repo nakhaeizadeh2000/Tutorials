@@ -22,7 +22,8 @@
   - Track index lists Domain 01 only; rows 02–07 appended as each domain lands (no dead links — matches Algo/Patterns convention).
 - Done:
   - [unit 1] Created `README/NodeJS/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #7 already pointed here — now resolves, no root edit needed)
-- Files touched: created `README/NodeJS/LOG.md`, created `README/NodeJS/README.md`
+  - [unit 2] Created `README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (local `node --version` = v20.20.2 for example verification)
+- Files touched: created `README/NodeJS/LOG.md`, created `README/NodeJS/README.md`; created `01 Runtime Fundamentals and Mental Model/README.md` (+ 6 section dirs)
 - Links fixed / added:
 - Verification:
 - Next steps:
