@@ -71,6 +71,7 @@
   - [unit D3-1] Created `README/NodeJS/03 Files Streams and Buffers/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3
   - [unit D3-2] Created leaf `03/sections/1. Files and paths/1.1. Reading and writing files without blocking.md` (promises-first, flag contracts, size rule; verified round trip, EEXIST guard, size decision)
   - [unit D3-3] Created leaf `03/sections/1. Files and paths/1.2. Paths metadata and watching.md` (join+contain, stat-first, hint-vs-truth watching; verified joined path, REFUSED traversal, stat codes, watcher event→v2)
+  - [unit D3-4] Created leaf `03/sections/2. Streams and pipelines/2.1. Readable writable and transform.md` (uniform I/O, pipeline lifecycle, staged transforms; verified uniform consumer 2/5, pipeline uppercase + propagated failure, split-across-seams records)
 - Links fixed / added:
 - Verification:
 - Next steps:
