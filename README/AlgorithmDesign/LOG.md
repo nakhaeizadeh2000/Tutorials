@@ -140,7 +140,8 @@
   - [unit D6-1] Created `README/AlgorithmDesign/06 Dynamic Programming Greedy and Backtracking/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 6 (verified pre-claims: naive fib(25) 242785 calls vs memo 49 + table 24, rob 12, grid 3x7 paths 28)
   - [unit D6-2] Created leaf `06/sections/1. DP foundations/1.1. Memoization vs tabulation.md` (overlap admission, control-flow envelopes, state-first design; verified collapse numbers; caught + fixed own non-English artifact pre-commit)
   - [unit D6-3] Created leaf `06/sections/1. DP foundations/1.2. Classic 1D DP stairs robbery and partitions.md` (compositions, take-skip, split decisions; verified: stairs 8/89/10946, rob 12 vs greedy 11, wordBreak true/false)
-- Files touched: created `06 Dynamic Programming Greedy and Backtracking/README.md` (+ 6 section dirs); modified track `README.md` (row 6); created `06/sections/1. DP foundations/1.1. Memoization vs tabulation.md`; created `06/sections/1. DP foundations/1.2. Classic 1D DP stairs robbery and partitions.md`
+  - [unit D6-4] Created leaf `06/sections/2. Two dimensions/2.1. Grid DP paths and obstacles.md` (counting recurrence, zero-seed obstacles, one-row rolling; verified: paths 28, middle-blocked 2, start-blocked 0, min-path 7)
+- Files touched: created `06 Dynamic Programming Greedy and Backtracking/README.md` (+ 6 section dirs); modified track `README.md` (row 6); created `06/sections/1. DP foundations/1.1. Memoization vs tabulation.md`; created `06/sections/1. DP foundations/1.2. Classic 1D DP stairs robbery and partitions.md`; created `06/sections/2. Two dimensions/2.1. Grid DP paths and obstacles.md`
 - Links fixed / added: track row 6 → Domain 06 README (placeholders for leaves as expected); prerequisites (01, 03, 05) resolve
 - Verification: track rows 1–6 resolve; 9 leaf links are placeholders until leaves land (expected)
 - Next steps:
