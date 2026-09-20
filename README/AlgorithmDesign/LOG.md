@@ -50,6 +50,7 @@
   - [unit D3-2] Created leaf `03/sections/1. Two pointers/1.1. Opposite-ends and same-direction patterns.md` (convergence elimination, reader/writer contracts, sortedness admission; verified twoSum steps in pre-probe)
   - [unit D3-3] Created leaf `03/sections/1. Two pointers/1.2. Linked-list pointers fast-slow reversal merge.md` (Floyd rendezvous + entrance, save-first surgery, access-vs-splice trade; verified: cycle true/start 2/acyclic false, reversal, merge)
   - [unit D3-4] Created leaf `03/sections/2. Sliding windows/2.1. Fixed windows sums in one pass.md` (admit-drop exchange, monotonicity amortization, seed/edge disciplines; verified: maxSum 9, negatives -5)
+  - [unit D3-5] Created leaf `03/sections/2. Sliding windows/2.2. Variable windows longest and shortest.md` (expand-shrink-record, missing-counter validity, monotonicity admission; verified: 3/1/0 + BANC/a/empty-string)
 - Files touched: created `README/AlgorithmDesign/LOG.md`, created `README/AlgorithmDesign/README.md` (rows 1–3 added across units 2/D2-1/D3-1); created `01 Complexity and Algorithmic Thinking/README.md` + 8 leaves (units 2–10); created `02 Sorting and Searching/README.md` + 8 leaves (units D2-1–D2-9); created `03 Linear Structures and Two-Pointer Techniques/README.md` (unit D3-1, leaves pending)
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #5 already pointed here, now resolves
 - Verification:
