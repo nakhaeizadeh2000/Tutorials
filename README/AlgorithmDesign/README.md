@@ -6,6 +6,7 @@ Thinking in algorithms and choosing the best one — complexity analysis, sortin
 |---|--------|
 | 1 | [Complexity and Algorithmic Thinking](<01 Complexity and Algorithmic Thinking/README.md>) |
 | 2 | [Sorting and Searching](<02 Sorting and Searching/README.md>) |
+| 3 | [Linear Structures and Two-Pointer Techniques](<03 Linear Structures and Two-Pointer Techniques/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
