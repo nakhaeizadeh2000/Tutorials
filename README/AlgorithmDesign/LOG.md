@@ -89,7 +89,8 @@
 - Decisions:
 - Done:
   - [unit D4-2] Created leaf `04/sections/1. Hashing/1.1. Hash maps average O1 honest worst cases.md` (bucket/resize machinery, adversarial degradation, relation modeling; verified: chains 10 uniform vs 10000 degenerate, twoSum [0,4], flat ns/op lookups)
-- Files touched: created `04/sections/1. Hashing/1.1. Hash maps average O1 honest worst cases.md`
+  - [unit D4-3] Created leaf `04/sections/1. Hashing/1.2. Prefix sums and frequency patterns.md` (range-as-lookup, count-then-judge, budgeted trades; verified: sum-K count 4, anagram groups, first-unique 0/2)
+- Files touched: created `04/sections/1. Hashing/1.1. Hash maps average O1 honest worst cases.md`; created `04/sections/1. Hashing/1.2. Prefix sums and frequency patterns.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
