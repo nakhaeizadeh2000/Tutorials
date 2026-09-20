@@ -69,6 +69,7 @@
   - [unit D2-10] Upgraded 01 Domain-02 forwards → live 02 links (engines→1.2, layout→index ×2; 3 exact-match replacements); full track sweep: 107 angle-bracket targets, 0 broken, 0 `%20`; Domain 02 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match; caught + fixed 8 own cross-track depth bugs `../../../` → `../../../../` in 02/1.2+2.1+6.1 pre-commit (remaining 03–07 textual forwards intentional)
 - Files touched: created `02 Packages Scripts and Project Layout/README.md` (+ 6 section dirs); modified track `README.md` (row 2); created `03 Files Streams and Buffers/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
   - [unit D3-1] Created `README/NodeJS/03 Files Streams and Buffers/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3
+  - [unit D3-2] Created leaf `03/sections/1. Files and paths/1.1. Reading and writing files without blocking.md` (promises-first, flag contracts, size rule; verified round trip, EEXIST guard, size decision)
 - Links fixed / added:
 - Verification:
 - Next steps:
