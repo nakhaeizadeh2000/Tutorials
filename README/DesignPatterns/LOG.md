@@ -25,7 +25,8 @@
 - Done:
   - [unit 1] Created `README/DesignPatterns/README.md` (Template A track index, lists Domain 01) + opened this LOG entry (root README row #6 already pointed here — now resolves, no root edit needed)
   - [unit 2] Created `README/DesignPatterns/01 SOLID Principles and Design Foundations/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders
-- Files touched: created `README/DesignPatterns/LOG.md`, created `README/DesignPatterns/README.md`
+  - [unit 3] Created leaf `01/sections/1. Responsibility and extension/1.1. Single responsibility and cohesion.md` (reasons-not-duties, cadence splits, god-object invoices; verified `tsc --strict` + behavioral equivalence 18/18)
+- Files touched: created `README/DesignPatterns/LOG.md`, created `README/DesignPatterns/README.md`; created `01 SOLID Principles and Design Foundations/README.md` (+ 6 section dirs); created `01/sections/1. Responsibility and extension/1.1. Single responsibility and cohesion.md`
 - Links fixed / added: track index → Domain 01 README (to be created in unit 2) + back-link to root README; root README row #6 already pointed here, now resolves
-- Verification:
+- Verification: `tsc --strict` (v7.0.2) + `node` on emit per leaf (unit 3: exit 0, outputs match claims)
 - Next steps:
