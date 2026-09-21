@@ -77,6 +77,7 @@
   - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. Data-path checklist habits mentors insist on.md` (async+pipelined gate, paced+torn-down+checksummed, named crossings; verified copy identical, 690 bytes hashed inline, hostile fixture lossy-view proof)
   - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA files streams buffers.md` (10 GB design, backpressure equation, API-selection tree + rapid-fire; verified 200000 reconciled, 640 queued, whole-read 12 bytes)
   - [unit D3-9] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (execution/packaging → 01/02, protocol → TS 18/JS 10, deeper runtime → 04–07 textual; verified both cross-track targets exist)
+  - [unit D3-10] Upgraded 01+02 Domain-03 forwards → live 03 index links (2 exact-match replacements); full track sweep: 158 angle-bracket targets, 0 broken, 0 `%20`; Domain 03 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match; filenames clean (remaining 04–07 textual forwards intentional)
 - Links fixed / added:
 - Verification:
 - Next steps:
