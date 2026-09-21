@@ -103,6 +103,7 @@
   - [unit D5-10] Upgraded 01/02/03/04 Domain-05 forwards → live 05 links (14 exact-match replacements: workers→2.1 ×5, maps→index ×8, plus 1 code-comment reword); full track sweep: 279 angle-bracket targets, 0 broken, 0 `%20`; Domain 05 promises 8/8 ↔ leaves 8/8; caught + fixed 2 own cross-track `../../../DesignPatterns` depth bugs + own 9-vs-8 count error pre-commit (03/3.1 crypto forward left textual — lands beyond 05; remaining 06–07 textual forwards intentional)
   - [unit D6-1] Created `README/NodeJS/06 Debugging Configuring and Shipping/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
   - [unit D6-2] Created leaf `06/sections/1. Debugging and profiling/1.1. Inspecting servers and workers.md` (localhost-only inspect, report autopsies, layered narrowing; verified ws URL + exit 0, report JavaScript API + true, layer framework/app; caught + fixed own wait:true hang (120s timeout) + own writeReport import crash pre-commit — both real findings)
+  - [unit D6-3] Created leaf `06/sections/1. Debugging and profiling/1.2. CPU and memory profiles with action.md` (flame-first CPU, snapshot-diff memory, receipt contract; verified .cpuprofile written, snapshot >1MB valid JSON start, same-length receipt; caught + fixed own bogus readFileSync option pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
