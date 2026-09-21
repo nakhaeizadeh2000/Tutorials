@@ -104,6 +104,7 @@
   - [unit D6-1] Created `README/NodeJS/06 Debugging Configuring and Shipping/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
   - [unit D6-2] Created leaf `06/sections/1. Debugging and profiling/1.1. Inspecting servers and workers.md` (localhost-only inspect, report autopsies, layered narrowing; verified ws URL + exit 0, report JavaScript API + true, layer framework/app; caught + fixed own wait:true hang (120s timeout) + own writeReport import crash pre-commit — both real findings)
   - [unit D6-3] Created leaf `06/sections/1. Debugging and profiling/1.2. CPU and memory profiles with action.md` (flame-first CPU, snapshot-diff memory, receipt contract; verified .cpuprofile written, snapshot >1MB valid JSON start, same-length receipt; caught + fixed own bogus readFileSync option pre-commit)
+  - [unit D6-4] Created leaf `06/sections/2. Configuring and logging/2.1. Env config validated at boot.md` (single boundary, schema+freeze, redaction; verified typed config + named error, frozen + mutation refused + named list, redacted output exact; caught + fixed own duplicated cross-link pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
