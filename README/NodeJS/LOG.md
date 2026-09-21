@@ -82,6 +82,7 @@
   - [unit D4-1] Created `README/NodeJS/04 Events Networking and HTTP/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
   - [unit D4-2] Created leaf `04/sections/1. Events/1.1. EventEmitter subscribe and error.md` (ordered sync emit, terminal error channel, leak tripwire; verified order string, routed exit 0 vs unguarded throw, MaxListeners warning + budget 50)
   - [unit D4-3] Created leaf `04/sections/1. Events/1.2. Event patterns beyond basics.md` (prepend/once ordering, async decoupling, owned boundaries; verified guard-first + count 2, emit-before-handlers + routed error, boundary a,b|2; caught + fixed own count-1 and own completion-order claims pre-commit)
+  - [unit D4-4] Created leaf `04/sections/2. Networking/2.1. TCP sockets with net.md` (stream-shaped sockets, scoped accepts, idle reaping; verified echo round trip, isolated n:1,n:1, zombie reaped on timeout)
 - Links fixed / added:
 - Verification:
 - Next steps:
