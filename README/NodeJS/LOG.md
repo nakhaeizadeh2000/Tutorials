@@ -75,6 +75,7 @@
   - [unit D3-5] Created leaf `03/sections/2. Streams and pipelines/2.2. Backpressure and stream errors.md` (write/drain contract, destroy-on-error, paused default; verified false→drained, rejected + closed true, 300 bytes paced; caught + fixed own labeled-block oddity + own require-in-ESM crash pre-commit)
   - [unit D3-6] Created leaf `03/sections/3. Binary data/3.1. Buffers encodings and binary truth.md` (bytes-first, alloc shapes, spec framing; verified 7 bytes vs 5 chars + round trip, alloc-zeroed/unsafe-filled/detached/framed/BE 258 vs LE 513; recovery: file survived interruption uncommitted — fix intact, logged + committed on resume; caught + fixed own wrong-depth `./2.2` pre-commit)
   - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. Data-path checklist habits mentors insist on.md` (async+pipelined gate, paced+torn-down+checksummed, named crossings; verified copy identical, 690 bytes hashed inline, hostile fixture lossy-view proof)
+  - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA files streams buffers.md` (10 GB design, backpressure equation, API-selection tree + rapid-fire; verified 200000 reconciled, 640 queued, whole-read 12 bytes)
 - Links fixed / added:
 - Verification:
 - Next steps:
