@@ -108,6 +108,7 @@
   - [unit D6-5] Created leaf `06/sections/2. Configuring and logging/2.2. Structured logging that pays.md` (JSON+reqId, boundaries-not-loops, drain-before-death; verified parseable true, tail preserved true; caught + fixed own duplicated cross-link pre-commit)
   - [unit D6-6] Created leaf `06/sections/3. Shipping/3.1. Containers healthchecks graceful deploys.md` (layered images, split probes, drain sequence; verified split verdicts 200/503 + 200, clean drain exit 0; caught + fixed own wrong-depth cross-links + own keep-alive-holding-drain demo bug (Connection: close — real finding) pre-commit)
   - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Delivery checklist habits mentors insist on.md` (observable-by-default, explicit venues, graceful sequence; verified flags audit + honest 200, venue/refused, drained-numbered outcome)
+  - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA debugging config shipping.md` (triage order, leak procedure, zero-drop rollout + rapid-fire; verified lag 0 + heap 3.5MB, growth slope, 10/10 in-flight drain; caught + fixed own staggered-load demo (post-close arrivals refuse by design — real finding) pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
