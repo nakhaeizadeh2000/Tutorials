@@ -117,6 +117,7 @@
   - [unit D7-3] Created leaf `07/sections/1. Production judgment/1.2. Capacity and graceful degradation.md` (Little's-law capacity, layered shedding, limits inventory; verified 360/23/1 arithmetic, stale + static tiers; caught + fixed own garbage token + convoluted assert pre-commit)
   - [unit D7-4] Created leaf `07/sections/2. Review and design/2.1. Reviewing Node code.md` (gates-first order, priced numbers, failure approval; verified gate 2|0, timeout 800 + pool 5, failure approved)
   - [unit D7-5] Created leaf `07/sections/2. Review and design/2.2. API design for Node services.md` (explicit contracts, cursor pagination, actionable failures; verified envelope 200/404, pages 100/100/50-null, remedy envelope; caught + fixed own confused inline comment pre-commit)
+  - [unit D7-6] Created leaf `07/sections/3. Full-system synthesis/3.1. One request every layer.md` (cradle-to-grave trace, per-span budgets, cold narration; verified spans + double:42, budget verdict compute:250>100 + total 262)
 - Links fixed / added:
 - Verification:
 - Next steps:
