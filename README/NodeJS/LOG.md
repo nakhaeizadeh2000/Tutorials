@@ -110,6 +110,7 @@
   - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Delivery checklist habits mentors insist on.md` (observable-by-default, explicit venues, graceful sequence; verified flags audit + honest 200, venue/refused, drained-numbered outcome)
   - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA debugging config shipping.md` (triage order, leak procedure, zero-drop rollout + rapid-fire; verified lag 0 + heap 3.5MB, growth slope, 10/10 in-flight drain; caught + fixed own staggered-load demo (post-close arrivals refuse by design — real finding) pre-commit)
   - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (tooling → JS 15/18, runtime/packaging → 01/02, synthesis → 07 textual; verified JS 18/5.1 target exists)
+  - [unit D6-10] Upgraded 01/02/03/04/05 Domain-06 forwards → live 06 links (8 exact-match replacements: inspect→1.1, flame→1.2, maps→index ×5, plus 1 clarity reword); full track sweep: 338 angle-bracket targets, 0 broken, 0 `%20`; Domain 06 promises 8/8 ↔ leaves 8/8 (remaining 07 textual forwards intentional)
 - Links fixed / added:
 - Verification:
 - Next steps:
