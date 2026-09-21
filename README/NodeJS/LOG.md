@@ -80,6 +80,7 @@
   - [unit D3-9] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (execution/packaging → 01/02, protocol → TS 18/JS 10, deeper runtime → 04–07 textual; verified both cross-track targets exist)
   - [unit D3-10] Upgraded 01+02 Domain-03 forwards → live 03 index links (2 exact-match replacements); full track sweep: 158 angle-bracket targets, 0 broken, 0 `%20`; Domain 03 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match; filenames clean (remaining 04–07 textual forwards intentional)
   - [unit D4-1] Created `README/NodeJS/04 Events Networking and HTTP/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
+  - [unit D4-2] Created leaf `04/sections/1. Events/1.1. EventEmitter subscribe and error.md` (ordered sync emit, terminal error channel, leak tripwire; verified order string, routed exit 0 vs unguarded throw, MaxListeners warning + budget 50)
 - Links fixed / added:
 - Verification:
 - Next steps:
