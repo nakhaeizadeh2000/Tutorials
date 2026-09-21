@@ -88,6 +88,7 @@
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Conversation checklist habits mentors insist on.md` (guarded+budgeted events, timed+capped sockets, bare-first order; verified handled/routed/budget-20, 200:got:4 + 413, trio ok/true/true)
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA events sockets HTTP.md` (C10K multiplexing, leak diagnosis story, adversarial upload trace + rapid-fire; verified 200/200 echoes, warning fires + counts 7/0, 200:ok:11 + 413)
   - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (data path → 03, design/test → Patterns 04/JS 20, frameworks/deeper → tracks + 05–07 textual; verified both cross-track targets exist)
+  - [unit D4-10] Upgraded 01/02/03 Domain-04 forwards → live 04 links (bare-server→3.1, map entries→index ×3; 4 exact-match replacements + 1 code-comment reword); full track sweep: 214 angle-bracket targets, 0 broken, 0 `%20`; Domain 04 promises 8/8 ↔ leaves 8/8; caught + fixed 2 own same-section `./1.1` depth bugs pre-commit (remaining 05–07 textual forwards intentional)
 - Links fixed / added:
 - Verification:
 - Next steps:
