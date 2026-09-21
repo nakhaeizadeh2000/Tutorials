@@ -120,6 +120,7 @@
   - [unit D7-6] Created leaf `07/sections/3. Full-system synthesis/3.1. One request every layer.md` (cradle-to-grave trace, per-span budgets, cold narration; verified spans + double:42, budget verdict compute:250>100 + total 262)
   - [unit D7-7] Created leaf `07/sections/4. Important points to remember/4.1. Mastery checklist habits mentors insist on.md` (fluency inventory, receipts habit, teaching transfer; verified exact fence 7/7 green, JSON 0ms, transfer 1/2; caught + fixed own hardcoded local path pre-commit)
   - [unit D7-8] Created leaf `07/sections/5. Interview questions and answers/5.1. Common interview QA judgment synthesis.md` (systems design, live triage, five-minute teaching + rapid-fire; verified shortener round trip + typed 400, triage numbers, A–E demo; caught + fixed own main-context order overclaim (weather, not contract — real finding) pre-commit)
+  - [unit D7-9] Created leaf `07/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics → 01–06 map, frameworks/platform → tracks + docs, words/careers → ITV + future tracks textual; caught + fixed own dead links to unbuilt tracks pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
