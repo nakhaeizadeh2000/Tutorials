@@ -113,6 +113,7 @@
   - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (tooling → JS 15/18, runtime/packaging → 01/02, synthesis → 07 textual; verified JS 18/5.1 target exists)
   - [unit D6-10] Upgraded 01/02/03/04/05 Domain-06 forwards → live 06 links (8 exact-match replacements: inspect→1.1, flame→1.2, maps→index ×5, plus 1 clarity reword); full track sweep: 338 angle-bracket targets, 0 broken, 0 `%20`; Domain 06 promises 8/8 ↔ leaves 8/8 (remaining 07 textual forwards intentional)
   - [unit D7-1] Created `README/NodeJS/07 Production Node Use and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
+  - [unit D7-2] Created leaf `07/sections/1. Production judgment/1.1. Selecting architectures under constraints.md` (constraints-first, boring-wins, ADRs; verified coresNeeded 20, parts 4/novel 1; caught + fixed own ugly same-section link pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
