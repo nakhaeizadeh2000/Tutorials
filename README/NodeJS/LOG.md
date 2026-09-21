@@ -106,6 +106,7 @@
   - [unit D6-3] Created leaf `06/sections/1. Debugging and profiling/1.2. CPU and memory profiles with action.md` (flame-first CPU, snapshot-diff memory, receipt contract; verified .cpuprofile written, snapshot >1MB valid JSON start, same-length receipt; caught + fixed own bogus readFileSync option pre-commit)
   - [unit D6-4] Created leaf `06/sections/2. Configuring and logging/2.1. Env config validated at boot.md` (single boundary, schema+freeze, redaction; verified typed config + named error, frozen + mutation refused + named list, redacted output exact; caught + fixed own duplicated cross-link pre-commit)
   - [unit D6-5] Created leaf `06/sections/2. Configuring and logging/2.2. Structured logging that pays.md` (JSON+reqId, boundaries-not-loops, drain-before-death; verified parseable true, tail preserved true; caught + fixed own duplicated cross-link pre-commit)
+  - [unit D6-6] Created leaf `06/sections/3. Shipping/3.1. Containers healthchecks graceful deploys.md` (layered images, split probes, drain sequence; verified split verdicts 200/503 + 200, clean drain exit 0; caught + fixed own wrong-depth cross-links + own keep-alive-holding-drain demo bug (Connection: close — real finding) pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
