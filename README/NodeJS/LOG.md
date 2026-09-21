@@ -98,6 +98,7 @@
   - [unit D5-6] Created leaf `05/sections/3. Multi-core servers/3.1. cluster for multi-core servers.md` (shared port, externalized state, workload decision tree; verified sharing true + 4/4 served + refork true + no strays, external total 6, tree routes 3/3; caught + fixed own drafting debris, own both-pids claim (distribution load-dependent), own orphan-risking refork demo pre-commit)
   - [unit D5-7] Created leaf `05/sections/4. Important points to remember/4.1. Parallelism checklist habits mentors insist on.md` (isolate-by-default, supervise-everything, measure-contention; verified cores/pool print, msg|error|exit:1 supervision, knee timings; caught + fixed own CJS+await fence pre-commit)
   - [unit D5-8] Created leaf `05/sections/5. Interview questions and answers/5.1. Common interview QA processes workers cluster.md` (offload routing, isolation judgment, external sessions + rapid-fire; verified hash off-loop, thread-vs-pid distinction, session consistent + no strays; caught + fixed own placeholder debris + own convoluted session assert pre-commit)
+  - [unit D5-9] Created leaf `05/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (execution → 01, plumbing/patterns → 03 + Patterns, observe/ship → 06/07 textual; caught + fixed own typo pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
