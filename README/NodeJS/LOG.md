@@ -91,6 +91,7 @@
   - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (data path → 03, design/test → Patterns 04/JS 20, frameworks/deeper → tracks + 05–07 textual; verified both cross-track targets exist)
   - [unit D4-10] Upgraded 01/02/03 Domain-04 forwards → live 04 links (bare-server→3.1, map entries→index ×3; 4 exact-match replacements + 1 code-comment reword); full track sweep: 214 angle-bracket targets, 0 broken, 0 `%20`; Domain 04 promises 8/8 ↔ leaves 8/8; caught + fixed 2 own same-section `./1.1` depth bugs pre-commit (remaining 05–07 textual forwards intentional)
   - [unit D5-1] Created `README/NodeJS/05 Child Processes Workers and Clustering/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 5
+  - [unit D5-2] Created leaf `05/sections/1. Child processes/1.1. spawn exec and execFile compared.md` (three shapes, shell-free argv, supervised lifecycle; verified all-true trio, hostile verbatim + no pwned file, closed:0/ENOENT/timeout-killed)
 - Links fixed / added:
 - Verification:
 - Next steps:
