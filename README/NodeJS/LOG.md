@@ -57,6 +57,7 @@
   - Domain 02 shape (8 leaves: 2 identity-versions + 2 scripts-binaries + 1 layout-resolution + checklist + QA + boundaries); files/streams stay forward to 03.
   - Domain 03 shape (8 leaves: 2 files-paths + 2 streams-pipelines + 1 binary-buffers + checklist + QA + boundaries); networking stays forward to 04. DRY: TS 18/3.2 owns AsyncIterable *language* mechanics, JS 16/1.2 owns JSON streaming *limits* — this domain owns Node's fs/stream/buffer *runtime APIs* and links out.
   - Domain 04 shape (8 leaves: 2 events-emitters + 2 sockets-networking + 1 bare-HTTP + checklist + QA + boundaries); processes stay forward to 05. DRY: Patterns 04/2.1 owns Observer *design*, JS 20/4.1 owns emitter *testing* — this domain owns Node's events/net/http *runtime APIs* and links out.
+  - Domain 05 shape (9 leaves: 2 child-processes + 2 worker-threads + 1 cluster + checklist + QA + boundaries); debugging stays forward to 06. DRY: grep finds only prose mentions of cluster/workers elsewhere — this domain owns child_process/worker_threads/cluster *runtime APIs* outright.
 - Done:
   - [unit D2-1] Created `README/NodeJS/02 Packages Scripts and Project Layout/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2 (local npm 10.8.2 / node v20.20.2; caught + fixed own non-English fragment pre-commit)
   - [unit D2-2] Created leaf `02/sections/1. Package identity and versions/1.1. package.json as install and load contract.md` (three audiences, loading fields, manifest-vs-npmrc enforcement; verified npm pkg get trio, engines read, notsup exit 1 via .npmrc; caught + fixed own wrong depth `../../` → `../../../`, and own false engineStrict-aborts claim — npm 10 warns, .npmrc refuses — pre-commit)
@@ -89,6 +90,7 @@
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA events sockets HTTP.md` (C10K multiplexing, leak diagnosis story, adversarial upload trace + rapid-fire; verified 200/200 echoes, warning fires + counts 7/0, 200:ok:11 + 413)
   - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (data path → 03, design/test → Patterns 04/JS 20, frameworks/deeper → tracks + 05–07 textual; verified both cross-track targets exist)
   - [unit D4-10] Upgraded 01/02/03 Domain-04 forwards → live 04 links (bare-server→3.1, map entries→index ×3; 4 exact-match replacements + 1 code-comment reword); full track sweep: 214 angle-bracket targets, 0 broken, 0 `%20`; Domain 04 promises 8/8 ↔ leaves 8/8; caught + fixed 2 own same-section `./1.1` depth bugs pre-commit (remaining 05–07 textual forwards intentional)
+  - [unit D5-1] Created `README/NodeJS/05 Child Processes Workers and Clustering/README.md` (Template B index, sections 1–6, 9 leaf promises) + 6 section folders + added track README row 5
 - Links fixed / added:
 - Verification:
 - Next steps:
