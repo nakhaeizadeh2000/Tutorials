@@ -109,6 +109,7 @@
   - [unit D6-6] Created leaf `06/sections/3. Shipping/3.1. Containers healthchecks graceful deploys.md` (layered images, split probes, drain sequence; verified split verdicts 200/503 + 200, clean drain exit 0; caught + fixed own wrong-depth cross-links + own keep-alive-holding-drain demo bug (Connection: close — real finding) pre-commit)
   - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Delivery checklist habits mentors insist on.md` (observable-by-default, explicit venues, graceful sequence; verified flags audit + honest 200, venue/refused, drained-numbered outcome)
   - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA debugging config shipping.md` (triage order, leak procedure, zero-drop rollout + rapid-fire; verified lag 0 + heap 3.5MB, growth slope, 10/10 in-flight drain; caught + fixed own staggered-load demo (post-close arrivals refuse by design — real finding) pre-commit)
+  - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (tooling → JS 15/18, runtime/packaging → 01/02, synthesis → 07 textual; verified JS 18/5.1 target exists)
 - Links fixed / added:
 - Verification:
 - Next steps:
