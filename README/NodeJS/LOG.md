@@ -84,6 +84,7 @@
   - [unit D4-3] Created leaf `04/sections/1. Events/1.2. Event patterns beyond basics.md` (prepend/once ordering, async decoupling, owned boundaries; verified guard-first + count 2, emit-before-handlers + routed error, boundary a,b|2; caught + fixed own count-1 and own completion-order claims pre-commit)
   - [unit D4-4] Created leaf `04/sections/2. Networking/2.1. TCP sockets with net.md` (stream-shaped sockets, scoped accepts, idle reaping; verified echo round trip, isolated n:1,n:1, zombie reaped on timeout)
   - [unit D4-5] Created leaf `04/sections/2. Networking/2.2. DNS and connection behavior.md` (lookup-vs-resolve, bounded jittered retries, pooled keep-alive; verified localhost v4 + ENOTFOUND, ECONNREFUSED cap ~97ms, reuse false→true; caught + fixed own response-vs-request reusedSocket bug pre-commit)
+  - [unit D4-6] Created leaf `04/sections/3. HTTP without frameworks/3.1. Bare nodehttp servers and clients.md` (hand routing, capped bodies, fetch-vs-http; verified 200/200/404, trio 200/413/400, fetch+http 200s; caught + fixed own pooled-socket-hang (agent:false) + own wrong-depth cross-links pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
