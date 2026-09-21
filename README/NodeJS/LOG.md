@@ -59,6 +59,7 @@
   - Domain 04 shape (8 leaves: 2 events-emitters + 2 sockets-networking + 1 bare-HTTP + checklist + QA + boundaries); processes stay forward to 05. DRY: Patterns 04/2.1 owns Observer *design*, JS 20/4.1 owns emitter *testing* — this domain owns Node's events/net/http *runtime APIs* and links out.
   - Domain 05 shape (8 leaves: 2 child-processes + 2 worker-threads + 1 cluster + checklist + QA + boundaries); debugging stays forward to 06. DRY: grep finds only prose mentions of cluster/workers elsewhere — this domain owns child_process/worker_threads/cluster *runtime APIs* outright.
   - Domain 06 shape (8 leaves: 2 debug-profile + 2 config-logging + 1 shipping + checklist + QA + boundaries); synthesis stays forward to 07. DRY: JS 15 owns debugger/inspector *tooling mechanics*, JS 18 owns heap/GC *measurement* — this domain owns *service* debugging (servers/workers), env config, structured logging, and shipping; links out.
+  - Domain 07 shape (8 leaves: 2 production-judgment + 2 review-design + 1 synthesis-trace + checklist + QA + boundaries); track complete after Domain 07. DRY: capstone synthesizes 01–06 receipts — no new mechanics, judgment + method only.
 - Done:
   - [unit D2-1] Created `README/NodeJS/02 Packages Scripts and Project Layout/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2 (local npm 10.8.2 / node v20.20.2; caught + fixed own non-English fragment pre-commit)
   - [unit D2-2] Created leaf `02/sections/1. Package identity and versions/1.1. package.json as install and load contract.md` (three audiences, loading fields, manifest-vs-npmrc enforcement; verified npm pkg get trio, engines read, notsup exit 1 via .npmrc; caught + fixed own wrong depth `../../` → `../../../`, and own false engineStrict-aborts claim — npm 10 warns, .npmrc refuses — pre-commit)
@@ -111,6 +112,7 @@
   - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA debugging config shipping.md` (triage order, leak procedure, zero-drop rollout + rapid-fire; verified lag 0 + heap 3.5MB, growth slope, 10/10 in-flight drain; caught + fixed own staggered-load demo (post-close arrivals refuse by design — real finding) pre-commit)
   - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (tooling → JS 15/18, runtime/packaging → 01/02, synthesis → 07 textual; verified JS 18/5.1 target exists)
   - [unit D6-10] Upgraded 01/02/03/04/05 Domain-06 forwards → live 06 links (8 exact-match replacements: inspect→1.1, flame→1.2, maps→index ×5, plus 1 clarity reword); full track sweep: 338 angle-bracket targets, 0 broken, 0 `%20`; Domain 06 promises 8/8 ↔ leaves 8/8 (remaining 07 textual forwards intentional)
+  - [unit D7-1] Created `README/NodeJS/07 Production Node Use and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
 - Links fixed / added:
 - Verification:
 - Next steps:

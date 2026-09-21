@@ -10,6 +10,7 @@ The Node.js runtime and backend base — how Node executes JavaScript outside th
 | 4 | [Events, Networking, and HTTP](<04 Events Networking and HTTP/README.md>) |
 | 5 | [Child Processes, Workers, and Clustering](<05 Child Processes Workers and Clustering/README.md>) |
 | 6 | [Debugging, Configuring, and Shipping](<06 Debugging Configuring and Shipping/README.md>) |
+| 7 | [Production Node Use and Interview Mastery](<07 Production Node Use and Interview Mastery/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
