@@ -95,6 +95,7 @@
   - [unit D5-3] Created leaf `05/sections/1. Child processes/1.2. fork and IPC channels.md` (same-runtime delegation, enveloped protocol, bounded supervision; verified sum 42, envelope true, 2 crashes then cap with logged deaths)
   - [unit D5-4] Created leaf `05/sections/2. Worker threads/2.1. Messaging and transfer.md` (parallel isolates, transfer ownership, id-routed pools; verified off-loop sum, detached + 14, pooled true; caught + fixed own CJS+await un-runnable fences (→ESM), own once-per-task pool bug (all fire per reply — real finding, id dispatch), own missing stop handle pre-commit)
   - [unit D5-5] Created leaf `05/sections/2. Worker threads/2.2. Shared memory done carefully.md` (Atomics discipline, share-little budget, measure-first gate; verified exact 200000, flag coordination, 1 MB clone 0.56ms; caught + fixed own drafting artifact pre-commit)
+  - [unit D5-6] Created leaf `05/sections/3. Multi-core servers/3.1. cluster for multi-core servers.md` (shared port, externalized state, workload decision tree; verified sharing true + 4/4 served + refork true + no strays, external total 6, tree routes 3/3; caught + fixed own drafting debris, own both-pids claim (distribution load-dependent), own orphan-risking refork demo pre-commit)
 - Links fixed / added:
 - Verification:
 - Next steps:
