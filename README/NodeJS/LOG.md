@@ -56,6 +56,7 @@
 - Decisions:
   - Domain 02 shape (8 leaves: 2 identity-versions + 2 scripts-binaries + 1 layout-resolution + checklist + QA + boundaries); files/streams stay forward to 03.
   - Domain 03 shape (8 leaves: 2 files-paths + 2 streams-pipelines + 1 binary-buffers + checklist + QA + boundaries); networking stays forward to 04. DRY: TS 18/3.2 owns AsyncIterable *language* mechanics, JS 16/1.2 owns JSON streaming *limits* — this domain owns Node's fs/stream/buffer *runtime APIs* and links out.
+  - Domain 04 shape (8 leaves: 2 events-emitters + 2 sockets-networking + 1 bare-HTTP + checklist + QA + boundaries); processes stay forward to 05. DRY: Patterns 04/2.1 owns Observer *design*, JS 20/4.1 owns emitter *testing* — this domain owns Node's events/net/http *runtime APIs* and links out.
 - Done:
   - [unit D2-1] Created `README/NodeJS/02 Packages Scripts and Project Layout/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2 (local npm 10.8.2 / node v20.20.2; caught + fixed own non-English fragment pre-commit)
   - [unit D2-2] Created leaf `02/sections/1. Package identity and versions/1.1. package.json as install and load contract.md` (three audiences, loading fields, manifest-vs-npmrc enforcement; verified npm pkg get trio, engines read, notsup exit 1 via .npmrc; caught + fixed own wrong depth `../../` → `../../../`, and own false engineStrict-aborts claim — npm 10 warns, .npmrc refuses — pre-commit)
@@ -78,6 +79,7 @@
   - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA files streams buffers.md` (10 GB design, backpressure equation, API-selection tree + rapid-fire; verified 200000 reconciled, 640 queued, whole-read 12 bytes)
   - [unit D3-9] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (execution/packaging → 01/02, protocol → TS 18/JS 10, deeper runtime → 04–07 textual; verified both cross-track targets exist)
   - [unit D3-10] Upgraded 01+02 Domain-03 forwards → live 03 index links (2 exact-match replacements); full track sweep: 158 angle-bracket targets, 0 broken, 0 `%20`; Domain 03 promises 8/8 ↔ leaves 8/8; heading prefixes 8/8 match; filenames clean (remaining 04–07 textual forwards intentional)
+  - [unit D4-1] Created `README/NodeJS/04 Events Networking and HTTP/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
 - Links fixed / added:
 - Verification:
 - Next steps:
