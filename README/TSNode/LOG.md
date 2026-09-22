@@ -39,3 +39,32 @@
 - Links: 134/134 angle-bracket targets resolve, 0 broken, 0 `%20`; ZERO unbuilt-file forwards (textual domain forwards only, outside link syntax).
 - Files: 11 md (track README + LOG + domain index + 8 leaves); filenames punctuation-clean; headings match throughout.
 - Next steps: PARTIAL — Domain 01 complete (track README 1/7 rows). Continue in order: Domain 02 Configuration and tsconfig for Execution (index + section folders + leaves: base/delta architectures, monorepo configs, module-pair matrix, `paths` runtime story, allowImportingTs deep dive + checklist/QA/boundaries) → Domains 03–07 per the full planned curriculum above. Resume by opening a fresh Session 2 block (this block closes PARTIAL). Known-accepted remainders: (a) `/tmp/tsprobe/*` scratch probes live outside the repo (intentional — not committed); (b) `tsx`/stripping rows in 2.1 ladder + 5.1 table documented from official sources, not executed locally (single source of truth in TS 01/3.2).
+
+## [2026-09-22 14:21] Session 2 — Domain 02 Configuration and tsconfig for Execution (Domains 03–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read Session 1, skill harness reloaded; tree clean so byte-identical, no re-read needed); root README.md (TS-Node #8, unchanged); README/TSNode/LOG.md (full — Session 1 PARTIAL, recovery point); README/TSNode/README.md (1/7 rows); README/TSNode/01 Execution Foundations and Mental Model/README.md (Template B reference + Domain-02 textual forwards to retire). Recovery: grep for live `- Status: IN PROGRESS` — none (S1 closed PARTIAL = this recovery point). Disk verified — S1 Done 11/11: track README + domain 01 index + 8/8 leaves + LOG all present (11 md); git log shows 11 tsnode commits, tree clean; /tmp/tsprobe survives (big/cjs/erase/esm/gate.sh). No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 first, then 03–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D2-1 — create 02 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 2
+  3. Unit D2-2 — leaf 1.1. Base and delta tsconfigs
+  4. Unit D2-3 — leaf 1.2. Monorepo configs and project scoping
+  5. Unit D2-4 — leaf 2.1. The module pair matrix for execution
+  6. Unit D2-5 — leaf 2.2. allowImportingTs and extension rewriting
+  7. Unit D2-6 — leaf 3.1. paths and baseUrl that run
+  8. Unit D2-7 — leaf 4.1. Config checklist habits mentors insist on
+  9. Unit D2-8 — leaf 5.1. Common interview QA configuration
+  10. Unit D2-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D2-10 — retire Domain 01 textual Domain-02 forwards → live links + full track sweep
+  12. Units D3+ — Domains 03–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: ts-node Configuration docs (typestrong.org/tsconfig — CLI flags before entrypoint; `ts-node` object in tsconfig with camelCase programmatic names incl. transpileOnly/files/compilerOptions ts-node-only overrides; --skipProject/--project; search relative to entrypoint per tsc rules, --cwdMode/cwd fallback; sample extends ts-node/node16; @tsconfig/bases bundled; default config = newest @tsconfig/bases for node+TS; `ts-node --showConfig` diagnostic; node flags via NODE_OPTIONS only). roadmap.sh TS page still JS shell (spine from official docs, consistent with S1). DRY grep for allowImportingTs/paths: TS 22 owns rewriteRelativeImportExtensions *release note*, TS 12 owns module *forms*, TS 13 owns *flag semantics*, 01/3.1 owns loader-hook + `paths` *symptom* — this domain owns the *config-side* story (extends architecture, scoping, pair matrix, AIT deep dive, paths checker-vs-runtime gap + bridge); Domain 03 will own the *loader-side* resolver recipe (split recorded so 01/3.1's "Domain 03 paths recipe" forward stays accurate).
+- Decisions:
+  - Domain 02 shape (8 leaves: 2 config-architecture + 2 pairs-specifiers + 1 paths-runtime + checklist + QA + boundaries); loader internals stay forward to 03, watch/REPL to 04, sourcemaps to 05, builds to 06.
+  - Split ruling: 02 owns paths *config + bridge* (diagnose the gap, wire tsconfig-paths); 03 owns the *custom-resolver recipe* (implementing resolution in loader hooks). 01/3.1's forward already points at 03's recipe — stays valid.
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit D2-1] Created `README/TSNode/02 Configuration and tsconfig for Execution/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2
+- Files touched: created `02 Configuration and tsconfig for Execution/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:

@@ -5,6 +5,7 @@ The TypeScript execution layer for Node.js — how `.ts` files actually run on N
 | # | Module |
 |---|--------|
 | 1 | [Execution Foundations and Mental Model](<01 Execution Foundations and Mental Model/README.md>) |
+| 2 | [Configuration and tsconfig for Execution](<02 Configuration and tsconfig for Execution/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
