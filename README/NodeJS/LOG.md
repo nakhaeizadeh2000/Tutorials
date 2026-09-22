@@ -128,3 +128,24 @@
   - Links: 401/401 angle-bracket targets resolve, 0 `%20`; ZERO `(planned, see LOG)` forwards outside LOG history.
   - Files: 65 md (7 indexes + 56 leaves + track README + LOG); filenames punctuation-clean; headings match throughout.
 - Next steps: TRACK COMPLETE — all 7 domains implemented, track README 7/7 rows, 401/401 content links resolve. Known-accepted remainders: (a) backticked doc-text in LOG history reads as broken to naive checkers (pre-existing class, not real links); (b) `/tmp/nodeprobe/*` + `/tmp/*.mjs|*.cjs` scratch probes live outside the repo (intentional — not committed); (c) 03/3.1 crypto-operating-on-bytes forward still textual (no dedicated crypto leaf — lands only if a future revision adds one). Suggested next work (new session/block only if requested): start the next track per root README mentor-path order (#8 TS-Node — TypeScript execution in Node); refresh leaves as industry usage shifts.
+
+## [2026-09-22 09:00] Session 3 — Expand Event Loop: timer lifetime + threadpool sizing (Domain 01 §3)
+- Status: IN PROGRESS
+- Context read: root README.md (Node.js #7); README/NodeJS/README.md (7/7 rows); README/NodeJS/LOG.md (full S1 PARTIAL + S2 DONE TRACK COMPLETE); README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md (Template B, §3 has only 3.1); leaf 01/3.1 (phases, nextTick-vs-immediate, pool-behind-loop —owns scheduling, mentions unref/UV_THREADPOOL_SIZE only in passing); JS 13/2.1 (owns language timers/phases — DRY boundary); TS 18/3.3 (owns timer type duality — DRY boundary). Disk verified — 7 domains + 56 leaves present, git log Session 2 close commit on top, tree clean. User confirmed "Yes, expand Event Loop" (timers, nextTick, libuv, pool tuning).
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — leaf 01/3.2 Timers handles ref unref and process lifetime + domain README §3 entry
+  3. Unit 3 — leaf 01/3.3 libuv threadpool sizing and queue diagnosis + domain README §3 entry
+  4. Final verification (DoD + links + DRY + node runs) + close entry DONE/PARTIAL
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Created leaf `01/sections/3. Execution model/3.2. Timers handles ref unref and process lifetime.md` (lifetime votes, refresh/close/dispose, shutdown interplay; verified hasRef true→false + instant exit, ref restore, refresh 200→~302ms, dispose-cancel clean exit, promises abort AbortError; caught + fixed own unref'd-demo-never-fires + own `using`-keyword SyntaxError on node v20 → Symbol.dispose method form pre-commit) + domain README §3 3.2 entry (3 promise bullets)
+- Decisions:
+  - Scope: 2 new leaves in Domain 01 §3 (3.2 timer lifetime, 3.3 threadpool sizing) — §3 currently only 3.1; §§4–6 untouched (no renumber). DRY: JS 13/2.1 owns language timer mechanics + clamping, TS 18/3.3 owns timer type duality — new leaves own Node runtime lifetime (ref/unref/refresh/hasRef, exit rule) + pool operations (which ops use pool, UV_THREADPOOL_SIZE start-only, queue diagnosis) and link out.
+  - Research notes: nodejs.org Learn "The Node.js Event Loop" (phases timers→pending→poll→check→close, poll controls timers, nextTickQueue outside loop, I/O-context immediate-first deterministic, main-context race nondeterministic, exit when no I/O/timers waiting); nodejs.org API v26.9.0 Timers (Timeout/Immediate ref/unref/hasRef/refresh/close, Symbol.dispose v20.5+, delay clamp 1..2147483647 NaN→1, promises API ref/signal options); roadmap.sh/nodejs spine confirms runtime → event-loop/timers → thread-pool as core spine (page JS-rendered, spine taken from prior sessions + Learn guide).
+- Files touched:
+  - Modified `README/NodeJS/LOG.md` (Session 3 entry + unit 2 Done)
+  - Created `README/NodeJS/01 Runtime Fundamentals and Mental Model/sections/3. Execution model/3.2. Timers handles ref unref and process lifetime.md`; modified `README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md` (§3 3.2 entry)
+- Links fixed / added:
+- Verification:
+- Next steps:

@@ -46,6 +46,12 @@ What the Node.js runtime is and how programs live inside it: the V8-plus-libuv m
 2. **`process.nextTick` vs `setImmediate`** (starvation vs phase-yield — the scheduling choice that decides latency and liveness).
 3. **The pool behind the loop** (libuv threads for fs/DNS/crypto — blocking the loop vs queueing the pool, measured not guessed).
 
+### [3.2. Timers handles, ref unref, and process lifetime](<./sections/3. Execution model/3.2. Timers handles ref unref and process lifetime.md>)
+
+1. **Handles are lifetime votes** (ref'd holds the loop, unref'd witnesses — the exit rule priced in seconds).
+2. **refresh, close, and clear without realloc** (idle timeouts refreshed in place — reactivation guarded, churn avoided).
+3. **Shutdown interplay** (housekeeping unref'd out of the drain, foreground sleeps signal-cancelled — SIGTERM to exit 0).
+
 ---
 
 ## 4. Important points to remember (runtime)
