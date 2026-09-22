@@ -52,6 +52,12 @@ What the Node.js runtime is and how programs live inside it: the V8-plus-libuv m
 2. **refresh, close, and clear without realloc** (idle timeouts refreshed in place — reactivation guarded, churn avoided).
 3. **Shutdown interplay** (housekeeping unref'd out of the drain, foreground sleeps signal-cancelled — SIGTERM to exit 0).
 
+### [3.3. libuv threadpool sizing and queue diagnosis](<./sections/3. Execution model/3.3. libuv threadpool sizing and queue diagnosis.md>)
+
+1. **Which work uses the pool** (fs, lookup, crypto, zlib — sockets and resolve bypass; the map every diagnosis starts from).
+2. **Size start-only from measurement** (`UV_THREADPOOL_SIZE` before boot, p99-driven, never above cores — the one-line lever).
+3. **Diagnose the box before prescribing** (lag probe plus pool histogram — saturated pool, blocked loop, or overloaded host).
+
 ---
 
 ## 4. Important points to remember (runtime)

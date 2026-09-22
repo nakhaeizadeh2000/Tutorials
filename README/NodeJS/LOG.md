@@ -140,12 +140,14 @@
 - Done:
   - [unit 1] Opened this Session 3 entry (first write on disk)
   - [unit 2] Created leaf `01/sections/3. Execution model/3.2. Timers handles ref unref and process lifetime.md` (lifetime votes, refresh/close/dispose, shutdown interplay; verified hasRef true→false + instant exit, ref restore, refresh 200→~302ms, dispose-cancel clean exit, promises abort AbortError; caught + fixed own unref'd-demo-never-fires + own `using`-keyword SyntaxError on node v20 → Symbol.dispose method form pre-commit) + domain README §3 3.2 entry (3 promise bullets)
+  - [unit 3] Created leaf `01/sections/3. Execution model/3.3. libuv threadpool sizing and queue diagnosis.md` (pool map fs/lookup/crypto/zlib vs kernel sockets + resolve, UV_THREADPOOL_SIZE start-only p99-driven sizing, two-probe box diagnosis; verified 4x100k pool4 ~70–95ms vs pool1 ~265ms, lag drift single-digit idle; caught + fixed own unref'd-probe-exits-before-tick → ref'd demo with production-unref note + own overprecise ~92ms → range pre-commit) + domain README §3 3.3 entry (3 promise bullets)
 - Decisions:
   - Scope: 2 new leaves in Domain 01 §3 (3.2 timer lifetime, 3.3 threadpool sizing) — §3 currently only 3.1; §§4–6 untouched (no renumber). DRY: JS 13/2.1 owns language timer mechanics + clamping, TS 18/3.3 owns timer type duality — new leaves own Node runtime lifetime (ref/unref/refresh/hasRef, exit rule) + pool operations (which ops use pool, UV_THREADPOOL_SIZE start-only, queue diagnosis) and link out.
   - Research notes: nodejs.org Learn "The Node.js Event Loop" (phases timers→pending→poll→check→close, poll controls timers, nextTickQueue outside loop, I/O-context immediate-first deterministic, main-context race nondeterministic, exit when no I/O/timers waiting); nodejs.org API v26.9.0 Timers (Timeout/Immediate ref/unref/hasRef/refresh/close, Symbol.dispose v20.5+, delay clamp 1..2147483647 NaN→1, promises API ref/signal options); roadmap.sh/nodejs spine confirms runtime → event-loop/timers → thread-pool as core spine (page JS-rendered, spine taken from prior sessions + Learn guide).
 - Files touched:
-  - Modified `README/NodeJS/LOG.md` (Session 3 entry + unit 2 Done)
+  - Modified `README/NodeJS/LOG.md` (Session 3 entry + units 2–3 Done)
   - Created `README/NodeJS/01 Runtime Fundamentals and Mental Model/sections/3. Execution model/3.2. Timers handles ref unref and process lifetime.md`; modified `README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md` (§3 3.2 entry)
+  - Created `README/NodeJS/01 Runtime Fundamentals and Mental Model/sections/3. Execution model/3.3. libuv threadpool sizing and queue diagnosis.md`; modified `README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md` (§3 3.3 entry)
 - Links fixed / added:
 - Verification:
 - Next steps:
