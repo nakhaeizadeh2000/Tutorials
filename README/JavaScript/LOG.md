@@ -1172,3 +1172,26 @@
   2. When ES2027 lands, convert this index's §7 "NOT in ES2026" into live links to the new `25 Update ECMAScript 2027/README.md`.
   3. No further curriculum domains pending — track now complete at 24 modules (20 topical + 4 Updates per Session 1 plan). Future work is refresh/update mode per §3 Mode 3.
 
+## [2026-09-22 09:30] Session 26 — Fix 13/1.2 main-module timer ordering comment (nondeterministic, not F-before-E)
+- Status: DONE
+- Context read: root `README.md` (JS #1); track `README.md` (rows 1–24); full `LOG.md` (Sessions 1–25, no IN PROGRESS — S25 DONE is recovery point); domain `13 Async Event Loop and Promises/README.md` (§1 promises); leaf `13/sections/1. Event loop and the job queue/1.2. Microtasks vs macrotasks queueMicrotask and starvation.md` (full — §2 ordering lab); Node track leaf `01/3.1` (owns I/O-context immediate-first vs main-context race). Disk verified — leaf + README present, tree clean. User asked "is micro/macro covered completely?" → answered yes + flagged this nit → user said "yes" to fixing.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — edit leaf 13/1.2 §2 ordering-lab comment (F/E nondeterministic from main + why) + verify with node runs
+  3. Final verification (fence still exits 0, links intact) + close entry DONE
+- Done:
+  - [unit 1] Opened this Session 26 entry (first write on disk)
+  - [unit 2] Edited leaf `13/sections/1. Event loop and the job queue/1.2. Microtasks vs macrotasks queueMicrotask and starvation.md` §2 ordering-lab comment: `// Typical Node: A → G → B → C → D → F → E` → stable prefix + `F vs E in EITHER order (varies run to run)` with cross-ref to 2.1 for the deterministic I/O-context rule. No index change (promise bullets unchanged — comment-only fix inside delivered promise).
+- Decisions:
+  - Comment-only fix, no promise/index change: §2 promise ("ordering and platform quirks") already promised quirks — the edit makes the leaf deliver it exactly. Chose to keep the demo code identical (only the comment changed) so all prior verification of the fence still holds.
+- Files touched:
+  - Modified `README/JavaScript/LOG.md` (Session 26 entry)
+  - Modified `README/JavaScript/13 Async Event Loop and Promises/sections/1. Event loop and the job queue/1.2. Microtasks vs macrotasks queueMicrotask and starvation.md` (§2 comment, 3 lines)
+- Links fixed / added:
+  - None (no links added/changed; existing cross-link to 2.1 referenced by name, resolves as before)
+- Verification:
+  - Empirics on node v20.20.2: main-module `setTimeout(0)` vs `setImmediate` across 6 runs alternated (E,F / F,E / E,F) — nondeterminism proven, comment accurate.
+  - Edited §2 fence re-run exit 0: stable prefix A → G → B → C → D confirmed, F/E tail varies per run — matches new comment.
+  - Filenames/headings/promises untouched; leaf still matches domain README §1 3-bullet promise 1:1.
+- Next steps: DONE — nit fixed. No further work pending; track remains 24 modules complete.
+
