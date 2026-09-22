@@ -25,7 +25,8 @@
   - [unit 1] Opened this Session 1 entry (first write on disk)
   - [unit 2] Created `README/TSNode/README.md` (Template A track index, lists Domain 01) — root README row #8 now resolves, no root edit needed
   - [unit 3] Created `README/TSNode/01 Execution Foundations and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (caught + fixed own wrong-depth NodeJS cross-link pre-commit and own wrong-case 6th section dir pre-commit)
-- Files touched: created `README/TSNode/LOG.md`, created `README/TSNode/README.md`; created `01 Execution Foundations and Mental Model/README.md` (+ 6 section dirs)
+  - [unit 4] Created leaf `01/sections/1. Execution identity and setup/1.1. What ts-node is and is not.md` (hook-not-runtime, two modes, honest leaderboard; verified ts-node 10.9.2 + TS 5.9.3: hook run prints, bare node SyntaxError, full-mode TS2322 gate, transpile-only runs; real findings: ts-node 10 crashes under TS 7.0.2 peer-incompat + `-e` eval quirk + TS5109 without explicit tsconfig — probe pinned to TS 5.9.3 + script files + explicit module)
+- Files touched: created `README/TSNode/LOG.md`, created `README/TSNode/README.md`; created `01 Execution Foundations and Mental Model/README.md` (+ 6 section dirs); created leaf 1.1
 - Links fixed / added: track index → TypeScript + NodeJS track READMEs (both resolve) + back-link to root README; Domain 01 row targets planned index (lands unit 3)
 - Verification:
 - Next steps:
