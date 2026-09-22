@@ -130,7 +130,7 @@
 - Next steps: TRACK COMPLETE — all 7 domains implemented, track README 7/7 rows, 401/401 content links resolve. Known-accepted remainders: (a) backticked doc-text in LOG history reads as broken to naive checkers (pre-existing class, not real links); (b) `/tmp/nodeprobe/*` + `/tmp/*.mjs|*.cjs` scratch probes live outside the repo (intentional — not committed); (c) 03/3.1 crypto-operating-on-bytes forward still textual (no dedicated crypto leaf — lands only if a future revision adds one). Suggested next work (new session/block only if requested): start the next track per root README mentor-path order (#8 TS-Node — TypeScript execution in Node); refresh leaves as industry usage shifts.
 
 ## [2026-09-22 09:00] Session 3 — Expand Event Loop: timer lifetime + threadpool sizing (Domain 01 §3)
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: root README.md (Node.js #7); README/NodeJS/README.md (7/7 rows); README/NodeJS/LOG.md (full S1 PARTIAL + S2 DONE TRACK COMPLETE); README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md (Template B, §3 has only 3.1); leaf 01/3.1 (phases, nextTick-vs-immediate, pool-behind-loop —owns scheduling, mentions unref/UV_THREADPOOL_SIZE only in passing); JS 13/2.1 (owns language timers/phases — DRY boundary); TS 18/3.3 (owns timer type duality — DRY boundary). Disk verified — 7 domains + 56 leaves present, git log Session 2 close commit on top, tree clean. User confirmed "Yes, expand Event Loop" (timers, nextTick, libuv, pool tuning).
 - Plan:
   1. Unit 1 — open this entry (this write)
@@ -150,4 +150,7 @@
   - Created `README/NodeJS/01 Runtime Fundamentals and Mental Model/sections/3. Execution model/3.3. libuv threadpool sizing and queue diagnosis.md`; modified `README/NodeJS/01 Runtime Fundamentals and Mental Model/README.md` (§3 3.3 entry)
 - Links fixed / added:
 - Verification:
-- Next steps:
+  - DoD walk (§4): both leaves junior-first-half (plain definitions + runnable node fences) / expert-mentor second half (queue economics, mentor notes); every anti-pattern labeled with why; all claim-bearing snippets executed on node v20.20.2 (outputs in Done bullets); zero duplication (JS 13/2.1 mechanics + TS 18/3.3 types linked never re-taught; 3.1 scheduling assumed, lifetime + pool operations new); formatting matches neighbors (bold labels, angle-bracket literal-space links, `---`, `javascript`/`bash` fences); filenames punctuation-clean; headings match (§3 promises ↔ `### k)` parts 3/3 each).
+  - Links: 37/37 angle-bracket targets across the 2 new leaves + domain README resolve, 0 broken, 0 `%20` (script sweep).
+  - Files: track now 67 md (7 indexes + 58 leaves + track README + LOG); §§4–6 untouched, no renumber.
+- Next steps: DONE — Domain 01 §3 now 3.1 + 3.2 + 3.3; Event Loop expansion complete per user request. Suggested next (new session only if requested): continue mentor-path order (#8 TS-Node) or name further Node gaps explicitly.
