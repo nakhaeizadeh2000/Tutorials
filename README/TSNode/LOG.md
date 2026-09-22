@@ -24,7 +24,8 @@
 - Done:
   - [unit 1] Opened this Session 1 entry (first write on disk)
   - [unit 2] Created `README/TSNode/README.md` (Template A track index, lists Domain 01) — root README row #8 now resolves, no root edit needed
-- Files touched: created `README/TSNode/LOG.md`, created `README/TSNode/README.md`
+  - [unit 3] Created `README/TSNode/01 Execution Foundations and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (caught + fixed own wrong-depth NodeJS cross-link pre-commit and own wrong-case 6th section dir pre-commit)
+- Files touched: created `README/TSNode/LOG.md`, created `README/TSNode/README.md`; created `01 Execution Foundations and Mental Model/README.md` (+ 6 section dirs)
 - Links fixed / added: track index → TypeScript + NodeJS track READMEs (both resolve) + back-link to root README; Domain 01 row targets planned index (lands unit 3)
 - Verification:
 - Next steps:
