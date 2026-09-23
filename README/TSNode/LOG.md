@@ -112,6 +112,7 @@
   - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. Hooks checklist habits mentors insist on.md` (trace evidence, order pins, async-tax accounting; verified gate3.sh HOOKS-GREEN exit 0 + reversed-order trace-absence; link sweep: only 5.1 forward outstanding)
   - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA hooks.md` (three autopsies + 6 rapid-fire drills; all outputs previously executed except drill-5 stripping claim honestly labeled reasoned-not-executed; caught + fixed own malformed drill bold pre-commit; link sweep fully OK, 0 forwards)
   - [unit D3-9] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (contract/craft split, track-internal map, middle-layer boundary with exact targets incl. NodeJS 05 + JS 15/5.3 — both verified on disk; caught + fixed own 6× wrong-depth `../../01|02` links pre-commit via script — edit-tool round-trip mangled dot sequences, sweep-verified after)
+  - [unit D3-10] Retired 01+02 textual Domain-03 forwards → live links (5 exact-match replacements: 01/3.1 ×2, 01/6.1, 02/3.1, 02/6.1; 04–07 textual forwards intentionally remain); full track sweep: 377 angle-bracket targets, 0 broken, 0 `%20`; Domain 03 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves
 - Files touched: created `03 ESM CJS and Loader Hooks Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
