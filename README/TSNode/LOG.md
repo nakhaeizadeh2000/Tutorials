@@ -80,3 +80,31 @@
   - Links: 250/250 angle-bracket targets resolve (134 S1 + 116 new), 0 broken, 0 `%20`; remaining `(planned, see LOG)` textuals only for unbuilt domains 03–07.
   - Files: 20 md (track README + LOG + 2 domain indexes + 16 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 02).
 - Next steps: PARTIAL — Domains 01–02 complete (track README 2/7 rows, 250/250 links). Continue in order: Domain 03 ESM CJS and Loader Hooks Deep Dive (index + section folders + leaves per S1 curriculum: custom resolve/load hooks, transformer plugins, runtime paths recipe + checklist/QA/boundaries; needs Phase-2 research on module.register + ts-node ESM/transpiler APIs) → Domains 04–07 per S1 full planned curriculum. Resume by opening a fresh Session 3 block (this block closes PARTIAL). Then upgrade 01+02 textual forwards → live 03 links as it lands. Known-accepted remainders: (a) `/tmp/tsprobe/*` scratch probes outside repo (intentional); (b) `tsx`/stripping rows documented from official sources (single source of truth TS 01/3.2).
+
+## [2026-09-23 13:01] Session 3 — Domain 03 ESM CJS and Loader Hooks Deep Dive (Domains 04–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–2, skill harness reloaded; tree clean so byte-identical); root README.md (TS-Node #8, unchanged); README/TSNode/LOG.md (full — Sessions 1–2 PARTIAL, recovery point); README/TSNode/README.md (2/7 rows); README/TSNode/02 Configuration and tsconfig for Execution/README.md (Template B reference + Domain-03 textual forwards to retire). Recovery: grep for live `- Status: IN PROGRESS` — none (S2 closed PARTIAL = this recovery point). Disk verified — S2 Done 11/11: track README 2 rows + domain 02 index + 8/8 leaves + LOG all present (20 md); git log shows S2 close commit on top, tree clean; /tmp/tsprobe survives (ait/big/cfg/cjs/erase/esm/mono/mx/pw/gate.sh/gate2.sh). Domain-03 textual forwards located (01/3.1 ×2, 01/6.1 ×1, 02/3.1 ×1, 02/6.1 ×1). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 first, then 04–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D3-1 — create 03 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 3
+  3. Unit D3-2 — leaf 1.1. resolve and load the two-stage pipeline
+  4. Unit D3-3 — leaf 1.2. register versus loader flag
+  5. Unit D3-4 — leaf 2.1. Authoring a resolve hook
+  6. Unit D3-5 — leaf 2.2. Authoring a load hook
+  7. Unit D3-6 — leaf 3.1. The runtime paths recipe
+  8. Unit D3-7 — leaf 4.1. Hooks checklist habits mentors insist on
+  9. Unit D3-8 — leaf 5.1. Common interview QA hooks
+  10. Unit D3-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D3-10 — retire 01+02 textual Domain-03 forwards → live links + full track sweep
+  12. Units D4+ — Domains 04–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Node.js node:module docs v26.10.0 (two hook families: sync in-thread `module.registerHooks({resolve, load})` v23.5+/v22.15+ RC, vs async loader-thread `module.register(specifier)` — Stability 0 DEPRECATED v25.9.0, runtime DEP0205 v26 — sync recommended; chain LIFO via nextX delegation, missing shortCircuit throws; registration via --import/--require flags, programmatic (dynamic import after), data: URL; sync hooks deregisterable, not inherited by workers by default; async caveats: no shared globals, CJS gaps, createRequire unaffected; load final formats incl. `commonjs-typescript`/`module-typescript`; `module.stripTypeScriptTypes` RC). ts-node "How it works" (hooks for .ts/.tsx/.js/.jsx between disk-read and execute; respects tsconfig as tsc; sourcemap hooks; .js→.ts remap). ts-node ESM page slug 404s (docs restructure — ESM material taken from Usage/Configuration pages fetched S1 + live probes instead). roadmap.sh TS still JS shell (spine from official docs). DRY grep for registerHooks/nextResolve/shortCircuit/loader-thread: zero coverage outside TSNode LOG — Domain 03 owns loader hooks outright. Local v20.20.2: registerHooks AND stripTypeScriptTypes undefined, module.register present — all custom-hook probes use the async family (same family ts-node/esm uses); registerHooks claims version-gated.
+- Decisions:
+  - Domain 03 shape (8 leaves: 2 hook-pipeline + 2 custom-hooks + 1 paths-recipe + checklist + QA + boundaries); watch/REPL stay forward to 04, sourcemaps to 05, builds to 06. Transformer *plugins* (ts-node custom transformers) ride inside 2.2's load-hook leaf as the compile-stage counterpart — one leaf, both transform stories, no extra section.
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit D3-1] Created `README/TSNode/03 ESM CJS and Loader Hooks Deep Dive/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3 (caught + fixed own non-English fragment in Decisions line pre-commit)
+- Files touched: created `03 ESM CJS and Loader Hooks Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
