@@ -151,6 +151,7 @@
   - [unit D4-6] Created leaf `04/sections/3. Test wiring/3.1. Test runners executing TypeScript.md` (stdlib combination, suite delta, single wiring; verified TAP ok + TS1259-then-delta-fix; link sweep: only 5.1 forward outstanding)
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Workflow checklist habits mentors insist on.md` (bounce rite, full composition, clock-split gate; verified gate4.sh WORKFLOW-GREEN exit 0; caught + fixed own garbled fragment pre-commit; link sweep: only 5.1 forward outstanding)
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA workflow.md` (watchlist diagnosis, loop profiling, wiring trace + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
+  - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (loop/mechanism split, track-internal map, loop-around boundary with exact targets incl. JS 01/3.2 + JS 20 + TS 19 — all verified on disk; caught + fixed own 2× double-slash paths pre-commit)
 - Files touched: created `04 Development Workflow Watch REPL and Editors/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
