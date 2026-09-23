@@ -67,6 +67,7 @@
   - [unit D2-2] Created leaf `02/sections/1. Config architecture/1.1. Base and delta tsconfigs.md` (extends economics, ts-node object, showConfig evidence; verified extends run + base-edit propagation via showConfig + merged ts-node object output; caught + fixed own 3× `%20` cross-links pre-commit; link sweep: only 1.2 forward outstanding)
   - [unit D2-3] Created leaf `02/sections/1. Config architecture/1.2. Monorepo configs and project scoping.md` (entry-relative search, explicit pins, defaults bet; verified showConfig project receipt + nested inheritance + loose tri-behavior via --project and TS_NODE_PROJECT + `--project` rejects entry paths; link sweep fully OK)
   - [unit D2-4] Created leaf `02/sections/2. Module pairs and specifiers/2.1. The module pair matrix for execution.md` (door→pair lookup, half-pair discipline, shape/door agreement; verified esnext-through-require Unknown-extension + matrix receipts from S1/S2 probes; link sweep: only 2.2 + 3.1 forwards outstanding)
+  - [unit D2-5] Created leaf `02/sections/2. Module pairs and specifiers/2.2. allowImportingTsExtensions and extension rewriting.md` (write-ts-ship-js triple, flag-name trap, pair-or-perish; verified AIT-CHECK-OK + emit rewrite + loader run + TS5023 wrong-name (own memory bug, kept as material); caught + fixed own drafting-debris link pre-commit; link sweep: only 3.1/4.1/5.1 forwards outstanding)
 - Files touched: created `02 Configuration and tsconfig for Execution/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
