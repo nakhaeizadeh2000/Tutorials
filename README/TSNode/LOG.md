@@ -160,3 +160,31 @@
   - Links: 518/518 angle-bracket targets resolve (377 S1–S3 + 141 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt domains 05–07.
   - Files: 38 md (track README + LOG + 4 domain indexes + 32 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 04).
 - Next steps: PARTIAL — Domains 01–04 complete (track README 4/7 rows, 518/518 links). Continue in order: Domain 05 Debugging Sourcemaps and Profiling TypeScript (index + section folders + leaves per S1 curriculum: sourcemap mechanics for TS, inspector against compiled/hooked code, CPU/memory profiles + checklist/QA/boundaries; needs Phase-2 research on ts-node sourcemap support + Node inspector/profile flags) → Domains 06–07 per S1 full planned curriculum. Resume by opening a fresh Session 5 block (this block closes PARTIAL). Then upgrade 01–04 textual forwards → live 05 links as it lands. Known-accepted remainders: (a) `/tmp/tsprobe/*` scratch probes outside repo (intentional, incl. wf/ + hks/ + gates); (b) `tsx`/stripping rows documented from official sources (single source of truth TS 01/3.2); (c) ts-node-dev row documented-not-installed.
+
+## [2026-09-23 15:16] Session 5 — Domain 05 Debugging Sourcemaps and Profiling TypeScript (Domains 06–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–4, skill harness reloaded; tree clean so byte-identical); root README.md (TS-Node #8, unchanged); README/TSNode/LOG.md (full — Sessions 1–4 PARTIAL, recovery point); README/TSNode/README.md (4/7 rows); README/TSNode/04 Development Workflow Watch REPL and Editors/README.md (Template B reference + Domain-05 textual forwards to retire). Recovery: grep for live `- Status: IN PROGRESS` — none (S4 closed PARTIAL = this recovery point). Disk verified — S4 Done 11/11: track README 4 rows + domain 04 index + 8/8 leaves + LOG all present (38 md); git log shows S4 close commit on top, tree clean; /tmp/tsprobe survives (incl. wf/, hks/, gates 1–4). Domain-05 textual forwards located (01/1.1 prose ×1, 01/6.1, 02/6.1, 03/6.1, 04/6.1, 04/2.2 ×2). No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 first, then 06–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D5-1 — create 05 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 5
+  3. Unit D5-2 — leaf 1.1. Sourcemaps under ts-node
+  4. Unit D5-3 — leaf 1.2. Reading mapped stack traces
+  5. Unit D5-4 — leaf 2.1. Inspector against compiled code
+  6. Unit D5-5 — leaf 2.2. CPU and memory profiles of TS services
+  7. Unit D5-6 — leaf 3.1. Triage order for TS services
+  8. Unit D5-7 — leaf 4.1. Observability checklist habits mentors insist on
+  9. Unit D5-8 — leaf 5.1. Common interview QA debugging
+  10. Unit D5-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D5-10 — retire 01–04 textual Domain-05 forwards → live links + full track sweep
+  12. Units D6+ — Domains 06–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: ts-node Options page (full flag reference that also backfills S1–S4: -i/--interactive, --typeCheck opposite of transpileOnly, --logError/--pretty, TS_NODE_DEBUG, --scope/scopeDir, moduleTypes, TS_NODE_HISTORY, noExperimentalReplAwait, experimentalResolver extension-remap + future paths/rootDirs mapping, experimentalSpecifierResolution, preferTsExts, --emit+compilerHost, --files, --ignoreDiagnostics, -O/-P env forms; recipes/REPL/ESM slugs 404 — restructure). roadmap.sh TS still JS shell. DRY grep for enable-source-maps/inlineSourceMap/cpu-prof/heap-prof/prepareStackTrace: JS 15 owns map/inspector/stack *mechanics*, JS 19 owns --cpu-prof/flame *methodology*, NodeJS 06 owns service CPU/heap profiles *with action*, TS 01/3.2 owns emit-side map mention — this domain owns the *TypeScript layer* (ts-node automatic inline maps in traces, reading mapped TS stacks, inspector against hooked code, profiles attributed to .ts, triage order). Probes: bundled @cspotcode/source-map-support confirmed via npm ls; traces name trace.ts:2:9/:6:3 in BOTH modes flagless; --enable-source-maps redundant-but-harmless under hook; --cpu-prof valid JSON 5940 nodes attributed to file:///.../busy.ts with hot frames; --heap-prof writes .heapprofile. Noted gap (not built): experimentalResolver — resolution-owned, candidate for a Domain 03 refresh note in a future session, not a new leaf here.
+- Decisions:
+  - Domain 05 shape (8 leaves: 2 sourcemaps + 2 inspector-profiles + 1 triage + checklist + QA + boundaries); builds/containers stay forward to 06, synthesis to 07. *Measurement* mechanics (heap/GC numbers) stay in JS 18, *service* debugging (servers/workers) in NodeJS 06, *protocol* mechanics in JS 15 — this domain owns the *TypeScript layer*: maps naming .ts, inspector against hooked code, profiles attributed to sources.
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit D5-1] Created `README/TSNode/05 Debugging Sourcemaps and Profiling TypeScript/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 5
+- Files touched: created `05 Debugging Sourcemaps and Profiling TypeScript/README.md` (+ 6 section dirs); modified track `README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:
