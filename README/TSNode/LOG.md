@@ -148,6 +148,7 @@
   - [unit D4-3] Created leaf `04/sections/1. Watch and restart/1.2. Nodemon and restarter discipline compared.md` (extension watchlist, three-restarter rule, pinned commands; verified nodemon no-restart-without-`-e-ts` + restart-with-it; ts-node-dev honestly labeled documented-not-installed (installer SIGTERM-killed); caught + fixed own U+FFFD mojibake pre-commit via byte-level replace; link sweep: only 4.1 forward outstanding)
   - [unit D4-4] Created leaf `04/sections/2. REPL and editors/2.1. The ts-node REPL.md` (piped vs interactive, shared config, promotion rule; verified pipe eval exit 0 + full-mode [stdin].ts TS2322 + transpile-only runs; caught + fixed own 2× same-dir 1.1 links (→ `../1. Watch and restart/`) pre-commit; link sweep: only 2.2/4.1 forwards outstanding)
   - [unit D4-5] Created leaf `04/sections/2. REPL and editors/2.2. Editor and debugger integration.md` (launch wiring, inspect proof, wiring/mechanics split; verified Debugger-listening + program output + launch.json JSON-OK; link sweep: only 4.1 forward outstanding)
+  - [unit D4-6] Created leaf `04/sections/3. Test wiring/3.1. Test runners executing TypeScript.md` (stdlib combination, suite delta, single wiring; verified TAP ok + TS1259-then-delta-fix; link sweep: only 5.1 forward outstanding)
 - Files touched: created `04 Development Workflow Watch REPL and Editors/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
