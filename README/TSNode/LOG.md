@@ -104,6 +104,7 @@
 - Done:
   - [unit 1] Opened this Session 3 entry (first write on disk)
   - [unit D3-1] Created `README/TSNode/03 ESM CJS and Loader Hooks Deep Dive/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3 (caught + fixed own non-English fragment in Decisions line pre-commit)
+  - [unit D3-2] Created leaf `03/sections/1. Hook pipeline/1.1. resolve and load the two-stage pipeline.md` (stage split, LIFO nesting, eager-link ordering; verified resolve-without-load isolation + both flag orders print/throw + version-sensitivity note; link sweep: only 1.2/2.1/2.2/3.1 forwards outstanding)
 - Files touched: created `03 ESM CJS and Loader Hooks Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
