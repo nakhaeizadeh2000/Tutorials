@@ -107,6 +107,7 @@
   - [unit D3-2] Created leaf `03/sections/1. Hook pipeline/1.1. resolve and load the two-stage pipeline.md` (stage split, LIFO nesting, eager-link ordering; verified resolve-without-load isolation + both flag orders print/throw + version-sensitivity note; link sweep: only 1.2/2.1/2.2/3.1 forwards outstanding)
   - [unit D3-3] Created leaf `03/sections/1. Hook pipeline/1.2. register versus loader flags versus registerHooks.md` (three forms, thread tax, deprecation migration; verified all three forms print identically + floor check undefined/function + --import preload; sync branch honestly labeled unverifiable-on-v20; caught + fixed own unlabeled trap sketch pre-commit; link sweep: only 2.1/2.2/3.1/4.1 forwards outstanding)
   - [unit D3-4] Created leaf `03/sections/2. Custom hooks/2.1. Authoring a resolve hook.md` (match-map-delegate, chain guardrail, targeted tracing; verified ERR_LOADER_CHAIN_INCOMPLETE verbatim + both-order trace presence/absence; link sweep: only 2.2/3.1/4.1 forwards outstanding)
+  - [unit D3-5] Created leaf `03/sections/2. Custom hooks/2.2. Authoring a load hook.md` (source shapes, envelope spread, text-vs-AST ladder; verified Buffer-source trap + token transform + S1 SWC rung cited; link sweep: only 3.1 forward outstanding)
 - Files touched: created `03 ESM CJS and Loader Hooks Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
