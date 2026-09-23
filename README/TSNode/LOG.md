@@ -120,3 +120,31 @@
   - Links: 377/377 angle-bracket targets resolve (250 S1–S2 + 127 new), 0 broken, 0 `%20`; remaining `(planned, see LOG)` textuals only for unbuilt domains 04–07.
   - Files: 29 md (track README + LOG + 3 domain indexes + 24 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 03).
 - Next steps: PARTIAL — Domains 01–03 complete (track README 3/7 rows, 377/377 links). Continue in order: Domain 04 Development Workflow Watch REPL and Editors (index + section folders + leaves per S1 curriculum: watch/restart recipes incl. hook composition in watch loops, REPL mastery, editor/debugger integration, test-runner wiring + checklist/QA/boundaries; needs Phase-2 research on ts-node watch/recipes docs + REPL options) → Domains 05–07 per S1 full planned curriculum. Resume by opening a fresh Session 4 block (this block closes PARTIAL). Then upgrade 01–03 textual forwards → live 04 links as it lands. Known-accepted remainders: (a) `/tmp/tsprobe/*` scratch probes outside repo (intentional, incl. hks/ hook files); (b) `tsx`/stripping rows documented from official sources (single source of truth TS 01/3.2); (c) sync-hook branch + stripping-composition drill labeled unverifiable/reasoned on v20 floor.
+
+## [2026-09-23 14:22] Session 4 — Domain 04 Development Workflow Watch REPL and Editors (Domains 05–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–3, skill harness reloaded; tree clean so byte-identical); root README.md (TS-Node #8, unchanged); README/TSNode/LOG.md (full — Sessions 1–3 PARTIAL, recovery point); README/TSNode/README.md (3/7 rows); README/TSNode/03 ESM CJS and Loader Hooks Deep Dive/README.md (Template B reference + Domain-04 textual forwards to retire). Recovery: grep for live `- Status: IN PROGRESS` — none (S3 closed PARTIAL = this recovery point). Disk verified — S3 Done 11/11: track README 3 rows + domain 03 index + 8/8 leaves + LOG all present (29 md); git log shows S3 close commit on top, tree clean; /tmp/tsprobe survives (incl. hks/, gate3.sh). Domain-04 textual forwards located (01/1.2 ×1, 01/6.1, 02/6.1, 03/6.1). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 first, then 05–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D4-1 — create 04 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 4
+  3. Unit D4-2 — leaf 1.1. Watch mode that restarts right
+  4. Unit D4-3 — leaf 1.2. Nodemon and ts-node-dev compared
+  5. Unit D4-4 — leaf 2.1. The ts-node REPL
+  6. Unit D4-5 — leaf 2.2. Editor and debugger integration
+  7. Unit D4-6 — leaf 3.1. Test runners executing TypeScript
+  8. Unit D4-7 — leaf 4.1. Workflow checklist habits mentors insist on
+  9. Unit D4-8 — leaf 5.1. Common interview QA workflow
+  10. Unit D4-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D4-10 — retire 01–03 textual Domain-04 forwards → live links + full track sweep
+  12. Units D5+ — Domains 05–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: ts-node recipes/REPL pages 404 (docs restructure, same class as S3 ESM slug — workflow material taken from live probes + Prior knowledge of nodemon/ts-node-dev CLIs instead). roadmap.sh TS still JS shell. DRY grep for nodemon/--watch/REPL/launch.json/node:test: JS 01/3.2 owns `node --watch` basics, JS 15/5.3 owns inspector/launch.json *mechanics* + watch mention, JS 20 owns node:test *runner mechanics*, TS 19 owns tsc --watch/incremental/-b *modes*, TS 01/3.1 owns emit --watch — this domain owns *ts-node inside* those loops (hook composition in watchers, REPL operation, TS launch wiring, TS test execution). Probes: node --watch + hook (run→Restarting→re-run), nodemon 3.1.14 (default exts MISS .ts — verified no-restart; `-e ts` restarts), ts-node-dev install SIGTERM-killed by tool timeout (not registry — documented-only, honestly labeled), REPL pipe (evaluates, exit 0), --inspect + hook (Debugger listening + output), node --test + hook (TAP ok after esModuleInterop delta — real friction kept).
+- Decisions:
+  - Domain 04 shape (8 leaves: 2 watch-restart + 2 REPL-editors + 1 test-wiring + checklist + QA + boundaries); sourcemaps stay forward to 05, builds to 06. Debugger *mechanics* (inspector protocol, flags) stay in JS 15/NodeJS 06 — this domain owns the *wiring* (launch configs, hook composition in watch loops/workers).
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit D4-1] Created `README/TSNode/04 Development Workflow Watch REPL and Editors/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
+- Files touched: created `04 Development Workflow Watch REPL and Editors/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
