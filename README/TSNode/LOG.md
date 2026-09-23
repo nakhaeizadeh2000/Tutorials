@@ -110,6 +110,7 @@
   - [unit D3-5] Created leaf `03/sections/2. Custom hooks/2.2. Authoring a load hook.md` (source shapes, envelope spread, text-vs-AST ladder; verified Buffer-source trap + token transform + S1 SWC rung cited; link sweep: only 3.1 forward outstanding)
   - [unit D3-6] Created leaf `03/sections/3. Runtime recipes/3.1. The runtime paths recipe.md` (two-half recipe, order pin, convergence rule; verified checker+runtime end-to-end + TS2307 explicit-extension fix + both orders; link sweep: only 4.1/5.1 forwards outstanding)
   - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. Hooks checklist habits mentors insist on.md` (trace evidence, order pins, async-tax accounting; verified gate3.sh HOOKS-GREEN exit 0 + reversed-order trace-absence; link sweep: only 5.1 forward outstanding)
+  - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA hooks.md` (three autopsies + 6 rapid-fire drills; all outputs previously executed except drill-5 stripping claim honestly labeled reasoned-not-executed; caught + fixed own malformed drill bold pre-commit; link sweep fully OK, 0 forwards)
 - Files touched: created `03 ESM CJS and Loader Hooks Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
