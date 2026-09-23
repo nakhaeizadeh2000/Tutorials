@@ -184,6 +184,7 @@
 - Done:
   - [unit 1] Opened this Session 5 entry (first write on disk)
   - [unit D5-1] Created `README/TSNode/05 Debugging Sourcemaps and Profiling TypeScript/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 5
+  - [unit D5-2] Created leaf `05/sections/1. Sourcemaps/1.1. Sourcemaps under ts-node.md` (bundled remap, flag redundancy, transpile identity; verified @cspotcode dep + identical traces both modes + flag-invariant output; link sweep: only 1.2/4.1 forwards outstanding)
 - Files touched: created `05 Debugging Sourcemaps and Profiling TypeScript/README.md` (+ 6 section dirs); modified track `README.md` (row 5)
 - Links fixed / added:
 - Verification:
