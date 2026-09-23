@@ -147,6 +147,7 @@
   - [unit D4-2] Created leaf `04/sections/1. Watch and restart/1.1. Watch mode that restarts right.md` (stdlib loop, graph observation, loop-mode rule; verified boot→edit→Restarting→new-output for entry AND dependency + `node: bad option: --project` (own flag error, kept as material); link sweep: only 1.2/4.1 forwards outstanding)
   - [unit D4-3] Created leaf `04/sections/1. Watch and restart/1.2. Nodemon and restarter discipline compared.md` (extension watchlist, three-restarter rule, pinned commands; verified nodemon no-restart-without-`-e-ts` + restart-with-it; ts-node-dev honestly labeled documented-not-installed (installer SIGTERM-killed); caught + fixed own U+FFFD mojibake pre-commit via byte-level replace; link sweep: only 4.1 forward outstanding)
   - [unit D4-4] Created leaf `04/sections/2. REPL and editors/2.1. The ts-node REPL.md` (piped vs interactive, shared config, promotion rule; verified pipe eval exit 0 + full-mode [stdin].ts TS2322 + transpile-only runs; caught + fixed own 2× same-dir 1.1 links (→ `../1. Watch and restart/`) pre-commit; link sweep: only 2.2/4.1 forwards outstanding)
+  - [unit D4-5] Created leaf `04/sections/2. REPL and editors/2.2. Editor and debugger integration.md` (launch wiring, inspect proof, wiring/mechanics split; verified Debugger-listening + program output + launch.json JSON-OK; link sweep: only 4.1 forward outstanding)
 - Files touched: created `04 Development Workflow Watch REPL and Editors/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
