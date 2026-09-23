@@ -71,6 +71,7 @@
   - [unit D2-6] Created leaf `02/sections/3. Paths runtime/3.1. paths and baseUrl that run.md` (two-resolver split, tsconfig-paths bridge, erasure economics; verified PATHS-CHECK-OK + MODULE_NOT_FOUND + bridge fix + erased variant both-green; caught + fixed own unverified erased claim (verified pre-commit) + own non-English fragment pre-commit; link sweep: only 5.1 forward outstanding)
   - [unit D2-7] Created leaf `02/sections/4. Important points to remember/4.1. Config checklist habits mentors insist on.md` (evidence-first, proven scope, merge-time contract; verified gate2.sh CONFIG-GREEN exit 0 + exit 20 on entry-as-project + back-to-back both-gates green; link sweep: only 5.1 forward outstanding)
   - [unit D2-8] Created leaf `02/sections/5. Interview questions and answers/5.1. Common interview QA configuration.md` (three autopsies + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
+  - [unit D2-9] Created leaf `02/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (meaning/wiring split, track-internal map, runtime boundary with exact targets incl. JS 15/5.3 + NodeJS 06 — both verified on disk)
 - Files touched: created `02 Configuration and tsconfig for Execution/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
