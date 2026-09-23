@@ -144,6 +144,7 @@
 - Done:
   - [unit 1] Opened this Session 4 entry (first write on disk)
   - [unit D4-1] Created `README/TSNode/04 Development Workflow Watch REPL and Editors/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
+  - [unit D4-2] Created leaf `04/sections/1. Watch and restart/1.1. Watch mode that restarts right.md` (stdlib loop, graph observation, loop-mode rule; verified boot→edit→Restarting→new-output for entry AND dependency + `node: bad option: --project` (own flag error, kept as material); link sweep: only 1.2/4.1 forwards outstanding)
 - Files touched: created `04 Development Workflow Watch REPL and Editors/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
