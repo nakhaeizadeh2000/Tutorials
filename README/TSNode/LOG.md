@@ -152,6 +152,7 @@
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Workflow checklist habits mentors insist on.md` (bounce rite, full composition, clock-split gate; verified gate4.sh WORKFLOW-GREEN exit 0; caught + fixed own garbled fragment pre-commit; link sweep: only 5.1 forward outstanding)
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA workflow.md` (watchlist diagnosis, loop profiling, wiring trace + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
   - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (loop/mechanism split, track-internal map, loop-around boundary with exact targets incl. JS 01/3.2 + JS 20 + TS 19 — all verified on disk; caught + fixed own 2× double-slash paths pre-commit)
+  - [unit D4-10] Retired 01–03 textual Domain-04 forwards → live links (4 exact-match replacements: 01/1.2, 01/6.1, 02/6.1, 03/6.1; 05–07 textual forwards intentionally remain); full track sweep: 518 angle-bracket targets, 0 broken, 0 `%20`; repo-wide mojibake grep clean; Domain 04 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves
 - Files touched: created `04 Development Workflow Watch REPL and Editors/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
