@@ -65,6 +65,7 @@
   - [unit 1] Opened this Session 2 entry (first write on disk)
   - [unit D2-1] Created `README/TSNode/02 Configuration and tsconfig for Execution/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2
   - [unit D2-2] Created leaf `02/sections/1. Config architecture/1.1. Base and delta tsconfigs.md` (extends economics, ts-node object, showConfig evidence; verified extends run + base-edit propagation via showConfig + merged ts-node object output; caught + fixed own 3× `%20` cross-links pre-commit; link sweep: only 1.2 forward outstanding)
+  - [unit D2-3] Created leaf `02/sections/1. Config architecture/1.2. Monorepo configs and project scoping.md` (entry-relative search, explicit pins, defaults bet; verified showConfig project receipt + nested inheritance + loose tri-behavior via --project and TS_NODE_PROJECT + `--project` rejects entry paths; link sweep fully OK)
 - Files touched: created `02 Configuration and tsconfig for Execution/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
