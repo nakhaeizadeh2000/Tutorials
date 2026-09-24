@@ -200,3 +200,31 @@
   - Links: 677/677 angle-bracket targets resolve (518 S1–S4 + 159 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt domains 06–07.
   - Files: 47 md (track README + LOG + 5 domain indexes + 40 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 05).
 - Next steps: PARTIAL — Domains 01–05 complete (track README 5/7 rows, 677/677 links). Continue in order: Domain 06 Shipping Builds Dist and Containers (index + section folders + leaves per S1 curriculum: build configs, dist layout, map shipping, Docker multi-stage, CI gates + checklist/QA/boundaries; needs Phase-2 research on tsc build configs + Docker multi-stage TS patterns) → Domain 07 per S1 full planned curriculum. Resume by opening a fresh Session 6 block (this block closes PARTIAL). Then upgrade 01–05 textual forwards → live 06 links as it lands. Known-accepted remainders: (a) `/tmp/tsprobe/*` scratch probes outside repo (intentional, incl. dbg/ + gates); (b) `tsx`/stripping rows documented from official sources (single source of truth TS 01/3.2); (c) experimentalResolver gap (resolution-owned, candidate Domain 03 refresh note); (d) async-fixture + sick-shapes labeled derived/recognition.
+
+## [2026-09-24 10:26] Session 6 — Domain 06 Shipping Builds Dist and Containers (Domain 07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–5, skill harness reloaded; tree clean so byte-identical); root README.md (TS-Node #8, unchanged); README/TSNode/LOG.md (full — Sessions 1–5 PARTIAL, recovery point); README/TSNode/README.md (5/7 rows); README/TSNode/05 Debugging Sourcemaps and Profiling TypeScript/README.md (Template B reference + Domain-06 textual forwards to retire). Recovery: grep for live `- Status: IN PROGRESS` — none (S5 closed PARTIAL = this recovery point). Disk verified — S5 Done 11/11: track README 5 rows + domain 05 index + 8/8 leaves + LOG all present (47 md); git log shows S5 close commit on top, tree clean; /tmp/tsprobe survives (incl. dbg/, gates 1–5). Domain-06 forwards located (link-form: 01/4.1 ×2, 01/6.1, 02/6.1, 03/6.1, 04/6.1, 05/1.1 ×2, 05/3.1; prose: 03/2.2, 03/3.1, 05/2.1, 05/3.1 ×2). No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 first, then 07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D6-1 — create 06 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 6
+  3. Unit D6-2 — leaf 1.1. The build tsconfig
+  4. Unit D6-3 — leaf 1.2. Emit verification
+  5. Unit D6-4 — leaf 2.1. dist layout that deploys
+  6. Unit D6-5 — leaf 2.2. Docker multi-stage for TS
+  7. Unit D6-6 — leaf 3.1. CI gates for TS services
+  8. Unit D6-7 — leaf 4.1. Shipping checklist habits mentors insist on
+  9. Unit D6-8 — leaf 5.1. Common interview QA shipping
+  10. Unit D6-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D6-10 — retire 01–05 textual Domain-06 forwards → live links + full track sweep
+  12. Units D7+ — Domain 07 to TRACK COMPLETE while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: DRY grep for outDir/rootDir/multi-stage/declarationMap/dist: TS 01/3.1 owns emit pipeline table, TS 12/3.1 owns declaration authoring, TS 12/3.3 owns publishing/exports maps, TS 16/2.3 owns publint/attw health, TS 19 owns project-reference/build modes — this domain owns the *service-shipping* story (build tsconfig, dist layout, map shipping, multi-stage TS image, CI type gates). Docker daemon v29.7.2 available — image actually built + run. Probes: tsc build emit (dist + .map, no declarations for services) + `node dist` runs + dist trace mapped to src/app.ts:6:9 with flag vs dist/app.js:9:11 without (positions genuinely differ); Docker multi-stage real failures kept as material (extends-across-context TS5083 + missing @types/node TS2580 — fixed via self-contained build config); container runs as USER node, mapped trace inside image though src/ absent (positions travel in map; sourcesContent absent here so context falls back to dist text); image 245MB; gate6.sh SHIP-GREEN exit 0 (stages 60–63). pyyaml available for CI YAML validation.
+- Decisions:
+  - Domain 06 shape (8 leaves: 2 build-configs + 2 dist-containers + 1 CI-gates + checklist + QA + boundaries); synthesis stays forward to 07. *Container/orchestration* mechanics (Dockerfiles, K8s) stay in the Docker track / NodeJS 06 service mechanics — this domain owns the *TypeScript half*: build tsconfig, dist layout, map shipping, multi-stage TS image, CI type gates.
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit D6-1] Created `README/TSNode/06 Shipping Builds Dist and Containers/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
+- Files touched: created `06 Shipping Builds Dist and Containers/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
+- Links fixed / added:
+- Verification:
+- Next steps:
