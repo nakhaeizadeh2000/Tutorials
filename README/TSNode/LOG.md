@@ -232,6 +232,7 @@
   - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Shipping checklist habits mentors insist on.md` (no-hook grep, map invariant, smoke contract; verified gate7.sh SHIP-CHECK-GREEN exit 0 (stages 70–72); link sweep: only 5.1 forward outstanding)
   - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA shipping.md` (priced boundary, context autopsy, proof trace + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
   - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (artifact/mechanics split, track-final map, ships-what-they-built boundary with exact targets incl. TS 12/3.1+3.3, TS 16/2.3, TS 19 — all verified on disk; link sweep fully OK, 0 forwards)
+  - [unit D6-10] Retired 01–05 textual Domain-06 forwards → live links (16 exact-match replacements: 01/4.1 ×2, 01/6.1, 02/6.1, 03/2.2, 03/3.1, 03/6.1, 04/6.1, 05/1.1 ×2, 05/2.1, 05/3.1 ×4, 05/6.1; 07 textual forwards intentionally remain); full track sweep: 840 angle-bracket targets, 0 broken, 0 `%20`; caught + fixed own same-domain mislink (06/1.2 → 05/3.1 written as `../3.` — sweep-caught); Domain 06 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves
 - Files touched: created `06 Shipping Builds Dist and Containers/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
 - Links fixed / added:
 - Verification:
