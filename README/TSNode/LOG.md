@@ -227,6 +227,7 @@
   - [unit D6-2] Created leaf `06/sections/1. Build configs/1.1. The build tsconfig.md` (emission delta, context-boundary rule, builder-scope types; verified dist inventory + TS5083 extends-escape + TS2580 missing-types, both fixed in-probe; link sweep: only 2.2 forward outstanding)
   - [unit D6-3] Created leaf `06/sections/1. Build configs/1.2. Emit verification.md` (four-gate emit, twin parity probes, freshness invariant; verified gate quartet + hook/artifact twin pair + control; caught + fixed own cannot-link debris pre-commit; link sweep: only 2.2/3.1/4.1 forwards outstanding)
   - [unit D6-4] Created leaf `06/sections/2. Dist and containers/2.1. dist layout that deploys.md` (declared tree shape, minimal file set, manifest flip; verified mirrored inventory + bare-Node artifact run; link sweep: only 2.2 forwards outstanding)
+  - [unit D6-5] Created leaf `06/sections/2. Dist and containers/2.2. Docker multi-stage for TS.md` (two-stage split, hardening trio, srcless mapped traces; verified image build+run 245MB + USER-node execution + in-container /app/src/app.ts:6:9 mapping; link sweep: only 4.1 forwards outstanding)
 - Files touched: created `06 Shipping Builds Dist and Containers/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
 - Links fixed / added:
 - Verification:
