@@ -229,6 +229,7 @@
   - [unit D6-4] Created leaf `06/sections/2. Dist and containers/2.1. dist layout that deploys.md` (declared tree shape, minimal file set, manifest flip; verified mirrored inventory + bare-Node artifact run; link sweep: only 2.2 forwards outstanding)
   - [unit D6-5] Created leaf `06/sections/2. Dist and containers/2.2. Docker multi-stage for TS.md` (two-stage split, hardening trio, srcless mapped traces; verified image build+run 245MB + USER-node execution + in-container /app/src/app.ts:6:9 mapping; link sweep: only 4.1 forwards outstanding)
   - [unit D6-6] Created leaf `06/sections/3. CI gates/3.1. CI gates for TS services.md` (merged pipeline, dependency order, gate6; verified YAML-OK 8 steps + gate6 SHIP-GREEN; link sweep: only 4.1 forwards outstanding)
+  - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Shipping checklist habits mentors insist on.md` (no-hook grep, map invariant, smoke contract; verified gate7.sh SHIP-CHECK-GREEN exit 0 (stages 70–72); link sweep: only 5.1 forward outstanding)
 - Files touched: created `06 Shipping Builds Dist and Containers/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
 - Links fixed / added:
 - Verification:
