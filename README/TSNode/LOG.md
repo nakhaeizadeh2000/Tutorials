@@ -189,6 +189,7 @@
   - [unit D5-4] Created leaf `05/sections/2. Inspector and profiles/2.1. Inspector against compiled code.md` (binding contract, -brk proof, source-terms evaluation; verified --inspect-brk listener-without-output + S4 --inspect base; caught + fixed own typo pre-commit; link sweep: only 2.2/4.1 forwards outstanding)
   - [unit D5-5] Created leaf `05/sections/2. Inspector and profiles/2.2. CPU and memory profiles of TS services.md` (.ts attribution, heap alongside, transferred discipline; verified .cpuprofile valid 5940 nodes + hot frames under busy.ts URL + .heapprofile written; caught + fixed own placeholder-link debris pre-commit (JS 18 path verified); link sweep: only 3.1 forward outstanding)
   - [unit D5-6] Created leaf `05/sections/3. Production triage/3.1. Triage order for TS services.md` (layer-exonerating sequence, map-failure short-circuit, artifact parity; replays S3 order case as triage narrative + constructed pivot from verified pieces; link sweep: only 4.1 forwards outstanding)
+  - [unit D5-7] Created leaf `05/sections/4. Important points to remember/4.1. Observability checklist habits mentors insist on.md` (mapping assertion, rehearsed profiling, posted order; verified gate5.sh OBSERVE-GREEN exit 0 (stages 50/51/52); link sweep: only 5.1 forward outstanding)
 - Files touched: created `05 Debugging Sourcemaps and Profiling TypeScript/README.md` (+ 6 section dirs); modified track `README.md` (row 5)
 - Links fixed / added:
 - Verification:
