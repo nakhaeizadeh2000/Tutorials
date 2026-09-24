@@ -225,6 +225,7 @@
   - [unit 1] Opened this Session 6 entry (first write on disk)
   - [unit D6-1] Created `README/TSNode/06 Shipping Builds Dist and Containers/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6
   - [unit D6-2] Created leaf `06/sections/1. Build configs/1.1. The build tsconfig.md` (emission delta, context-boundary rule, builder-scope types; verified dist inventory + TS5083 extends-escape + TS2580 missing-types, both fixed in-probe; link sweep: only 2.2 forward outstanding)
+  - [unit D6-3] Created leaf `06/sections/1. Build configs/1.2. Emit verification.md` (four-gate emit, twin parity probes, freshness invariant; verified gate quartet + hook/artifact twin pair + control; caught + fixed own cannot-link debris pre-commit; link sweep: only 2.2/3.1/4.1 forwards outstanding)
 - Files touched: created `06 Shipping Builds Dist and Containers/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
 - Links fixed / added:
 - Verification:
