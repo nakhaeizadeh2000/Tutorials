@@ -231,6 +231,7 @@
   - [unit D6-6] Created leaf `06/sections/3. CI gates/3.1. CI gates for TS services.md` (merged pipeline, dependency order, gate6; verified YAML-OK 8 steps + gate6 SHIP-GREEN; link sweep: only 4.1 forwards outstanding)
   - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Shipping checklist habits mentors insist on.md` (no-hook grep, map invariant, smoke contract; verified gate7.sh SHIP-CHECK-GREEN exit 0 (stages 70–72); link sweep: only 5.1 forward outstanding)
   - [unit D6-8] Created leaf `06/sections/5. Interview questions and answers/5.1. Common interview QA shipping.md` (priced boundary, context autopsy, proof trace + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
+  - [unit D6-9] Created leaf `06/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (artifact/mechanics split, track-final map, ships-what-they-built boundary with exact targets incl. TS 12/3.1+3.3, TS 16/2.3, TS 19 — all verified on disk; link sweep fully OK, 0 forwards)
 - Files touched: created `06 Shipping Builds Dist and Containers/README.md` (+ 6 section dirs); modified track `README.md` (row 6)
 - Links fixed / added:
 - Verification:
