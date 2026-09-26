@@ -109,6 +109,7 @@
   - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. MongoDB checklist habits mentors insist on.md` (server-side summaries, access-driven models, idempotent writes; verified gate3.sh exit 30 on planted spread + MONGO-GREEN exit 0; link sweep: only 5.1 forward outstanding)
   - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA MongoDB.md` (modeling screen, pipeline screen, exactly-once drill + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
   - [unit D3-9] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (foundations/twins split, track-internal map, depth/design/map split with exact targets — all verified on disk; link sweep fully OK, 0 forwards)
+  - [unit D3-10] Retired 01–02 textual Domain-03 forwards → live links (5 exact-match replacements: 01/2.2 ×2 → 2.1 leaf, 01/3.1 → 2.1 leaf, 01/6.1 + 02/6.1 → 03 index; 04–07 textual forwards intentionally remain); final full-track sweep: 307 angle-bracket targets, 0 broken, 0 `%20`; Domain 03 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves; filenames punctuation-clean
 - Files touched: created `03 MongoDB Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
