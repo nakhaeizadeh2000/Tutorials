@@ -63,6 +63,7 @@
   - [unit D2-1] Created `README/Databases/02 Postgres Deep Dive/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2
   - [unit D2-2] Created leaf `02/sections/1. Query depth/1.1. Joins across tables.md` (INNER matches, LEFT loneliness, ON-vs-WHERE split; verified live: inner 1 row, left 2 rows with NULL, IS NULL finds bo, empty filtered set; link sweep: only not-yet-written forwards outstanding)
   - [unit D2-3] Created leaf `02/sections/1. Query depth/1.2. Aggregates and grouping.md` (five functions, per-group summaries, HAVING-after-WHERE; verified live: 4-row aggregates, per-customer GROUP BY, HAVING survivor, COUNT-twins 2-vs-1; caught + fixed own drafting aside pre-commit; link sweep: only not-yet-written forwards outstanding)
+  - [unit D2-4] Created leaf `02/sections/2. Shape and speed/2.1. Schema and constraints that protect.md` (declared types, three refusals, cheapest-tests; verified live: 4 named refusals verbatim + driver 23505/constraint surfacing; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `02 Postgres Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
