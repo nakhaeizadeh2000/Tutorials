@@ -31,6 +31,7 @@
   - [unit 8] Created leaf `01/sections/3. Choosing/3.1. Choosing Postgres or MongoDB.md` (questions-first, relational default, monoglot start; verified live JOIN round-trip with enforced FK; link sweep: only not-yet-written forwards outstanding)
   - [unit 9] Created leaf `01/sections/4. Important points to remember/4.1. Data checklist habits mentors insist on.md` (prove rite, grep-gate, four facts; verified gate1.sh exit 11 on planted interpolation + DATA-GREEN exit 0 clean; caught + fixed own drafting-debris link pre-commit; link sweep fully OK, 0 forwards)
   - [unit 10] Created leaf `01/sections/5. Interview questions and answers/5.1. Common interview QA database foundations.md` (shape-choice screen, wiring trace, live injection demo + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
+  - [unit 11] Created leaf `01/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (naming/seam/enum split, track-internal map, usage/design/map split with exact targets incl. TS 11/5.1 + JS 11/3.1 — all verified on disk; final full-track sweep: 98 angle-bracket targets, 0 broken, 0 `%20`; Domain 01 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves; filenames punctuation-clean)
 - Files touched: created `README/Databases/LOG.md`, created `README/Databases/README.md`
 - Links fixed / added: track index → ITVocabulary README (resolves) + back-link to root README; DatabaseDesign/ORM kept textual (targets unbuilt)
 - Links fixed / added:
