@@ -117,3 +117,31 @@
   - Links: 307/307 angle-bracket targets resolve (200 S1–S2 + 107 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt domains 04–07.
   - Files: 29 md (track README + LOG + 3 domain indexes + 24 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 03).
 - Next steps: PARTIAL — Domains 01–03 complete (track README 3/7 rows, 307/307 links). Continue in order: Domain 04 Node.js Data Access Drivers and Pooling (index + section folders + leaves: pg Pool, MongoClient topology, checkout discipline, migrations basis + checklist/QA/boundaries; live PG probes via pg Pool against dbprobe) → Domains 05–07 per S1 full planned curriculum. Resume by opening a fresh Session 4 block (this block closes PARTIAL). Then upgrade 01–03 textual forwards → live 04 links as it lands. Known-accepted remainders: (a) `/tmp/dbprobe/*` scratch probes outside repo (intentional — not committed); (b) Mongo server snippets documented-not-executed (kernel 6.19 vs SERVER-121912 + registry EOF); (c) dbprobe container + demo/ledger/guarded/perf tables remain (needed for later sessions — do not remove).
+
+## [2026-09-26 14:59] Session 4 — Domain 04 Node.js Data Access Drivers and Pooling (Domains 05–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–3, skill harness reloaded; tree clean so byte-identical); root README.md (Databases #9, unchanged); README/Databases/LOG.md (full — Sessions 1–3 PARTIAL, recovery point); README/Databases/README.md (3/7 rows); README/Databases/03 MongoDB Deep Dive/README.md (Template B reference). Recovery: grep for live `- Status: IN PROGRESS` — none (S3 closed PARTIAL = this recovery point). Disk verified — S3 Done 11/11: track README 3 rows + domain 03 index + 8/8 leaves + LOG all present (29 md); git log shows S3 close commit on top, tree clean; dbprobe running. Domain-04 textual forwards located (link-form: 01/1.2 ×2, 01/6.1, 02/2.1, 02/3.1, 02/6.1, 03/6.1). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 first, then 05–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D4-1 — create 04 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 4
+  3. Unit D4-2 — leaf 1.1. pg Pool that serves
+  4. Unit D4-3 — leaf 1.2. MongoClient topology without a server
+  5. Unit D4-4 — leaf 2.1. Checkout discipline
+  6. Unit D4-5 — leaf 2.2. Migrations basis
+  7. Unit D4-6 — leaf 3.1. Retries timeouts and backoff
+  8. Unit D4-7 — leaf 4.1. Access checklist habits mentors insist on
+  9. Unit D4-8 — leaf 5.1. Common interview QA data access
+  10. Unit D4-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D4-10 — retire 01–03 textual Domain-04 forwards → live links + full track sweep
+  12. Units D5+ — Domains 05–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: DRY grep for Pool/connection-pool/maxPoolSize/topology/migration: no *connection* mechanics coverage repo-wide (NodeJS libuv threadpool = worker threads, JS promise pooling = concurrency caps — both different things, no links needed; migration *mentions* in 01/02/NodeJS without discipline mechanics) — Domain 04 owns connection pooling + checkout + migration discipline outright. Semantics: pg Pool API (verified live: query, totalCount/idleCount, end-drain) + MongoDB driver topology options documented from 8.3 manual + driver API (no mongod on this floor). No roadmap.sh spine (JS shells — consistent finding).
+- Decisions:
+  - Domain 04 shape (8 leaves: 2 drivers + 2 checkout-migrations + 1 resilience + checklist + QA + boundaries); transactions theory stays forward to 05, perf/ops to 06. MongoClient topology documented from driver API + 8.3 manual (no mongod on this floor); pg Pool verified live per unit.
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit D4-1] Created `README/Databases/04 Node.js Data Access Drivers and Pooling/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 4
+- Files touched: created `04 Node.js Data Access Drivers and Pooling/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
