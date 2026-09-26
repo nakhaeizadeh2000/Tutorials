@@ -39,3 +39,29 @@
 - Links: 98/98 angle-bracket targets resolve, 0 broken, 0 `%20`; ZERO unbuilt-file forwards (textual domain forwards only, outside link syntax).
 - Files: 11 md (track README + LOG + domain index + 8 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves).
 - Next steps: PARTIAL — Domain 01 complete (track README 1/7 rows). Continue in order: Domain 02 Postgres Deep Dive (index + section folders + leaves: SQL beyond CRUD, schema and constraints, indexes and EXPLAIN, transactions basis + checklist/QA/boundaries; needs live PG probes, same container) → Domains 03–07 per the full planned curriculum above. Resume by opening a fresh Session 2 block (this block closes PARTIAL). Known-accepted remainders: (a) `/tmp/dbprobe/*` scratch probes live outside the repo (intentional — not committed); (b) Mongo server snippets documented-not-executed (no mongod on this floor — kernel 6.19 vs SERVER-121912 + registry EOF); (c) dbprobe container remains running (needed for Session 2 — do not remove).
+
+## [2026-09-26 12:38] Session 2 — Domain 02 Postgres Deep Dive (Domains 03–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read Session 1, skill harness reloaded; tree clean so byte-identical); root README.md (Databases #9, unchanged); README/Databases/LOG.md (full — Session 1 PARTIAL, recovery point); README/Databases/README.md (1/7 rows); README/Databases/01 Database Foundations and Mental Model/README.md (Template B reference). Recovery: grep for live `- Status: IN PROGRESS` — none (S1 closed PARTIAL = this recovery point). Disk verified — S1 Done 11/11: track README + domain 01 index + 8/8 leaves + LOG all present (11 md); git log shows S1 close commit on top, tree clean; dbprobe container running PostgreSQL 16.15. No discrepancies (cosmetic duplicated Verification line in S1 block left as immutable history); trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 first, then 03–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D2-1 — create 02 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 2
+  3. Unit D2-2 — leaf 1.1. Joins across tables
+  4. Unit D2-3 — leaf 1.2. Aggregates and grouping
+  5. Unit D2-4 — leaf 2.1. Schema and constraints that protect
+  6. Unit D2-5 — leaf 2.2. Indexes and EXPLAIN
+  7. Unit D2-6 — leaf 3.1. Transactions basis
+  8. Unit D2-7 — leaf 4.1. Postgres checklist habits mentors insist on
+  9. Unit D2-8 — leaf 5.1. Common interview QA Postgres
+  10. Unit D2-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: DRY grep for JOIN/GROUP BY/EXPLAIN/CREATE INDEX/BEGIN/COMMIT/FOREIGN KEY: zero mechanics coverage repo-wide (only mentions + ITV 05/1.2's "read one EXPLAIN" onboarding advice + Databases 01's single demo JOIN) — Domain 02 owns join/aggregate/constraint/index/txn mechanics outright. Semantics: stable PostgreSQL SQL (unchanged across 14–18 for all constructs taught here) verified live per unit on 16.15; version page fetched S1 (18 Current). No roadmap.sh spine (pages are JS shells — consistent S1 finding).
+- Decisions:
+  - Domain 02 shape (8 leaves: 2 query-depth + 2 schema-index + 1 transactions + checklist + QA + boundaries); jsonb/operators stay forward to later use where earned, drivers/pooling to 04, full ACID/isolation theory to 05.
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit D2-1] Created `README/Databases/02 Postgres Deep Dive/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 2
+- Files touched: created `02 Postgres Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
