@@ -106,6 +106,7 @@
   - [unit D3-4] Created leaf `03/sections/2. Modeling and speed/2.1. Embed versus reference.md` (read-locality nesting, shared-truth links, 16MB ceiling math; verified BSON sizing: 138-byte order 0.0008%, 335k items-to-ceiling; link sweep: only not-yet-written forwards outstanding)
   - [unit D3-5] Created leaf `03/sections/2. Modeling and speed/2.2. Document indexes.md` (ESR compounds, unique identity, explain proof; verified ESR ordering logic + compound spec locally; server spelling documented from 8.3 manual labeled; link sweep: only not-yet-written forwards outstanding)
   - [unit D3-6] Created leaf `03/sections/3. Writes/3.1. Writes ids and idempotency.md` (dedup keys, atomic upserts, ordered bulk; verified retry simulation + upsert shape locally; server spelling documented from 8.3 manual labeled; link sweep: only 4.1 forward outstanding)
+  - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. MongoDB checklist habits mentors insist on.md` (server-side summaries, access-driven models, idempotent writes; verified gate3.sh exit 30 on planted spread + MONGO-GREEN exit 0; link sweep: only 5.1 forward outstanding)
 - Files touched: created `03 MongoDB Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
