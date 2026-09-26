@@ -10,6 +10,7 @@ The TypeScript execution layer for Node.js — how `.ts` files actually run on N
 | 4 | [Development Workflow Watch REPL and Editors](<04 Development Workflow Watch REPL and Editors/README.md>) |
 | 5 | [Debugging Sourcemaps and Profiling TypeScript](<05 Debugging Sourcemaps and Profiling TypeScript/README.md>) |
 | 6 | [Shipping Builds Dist and Containers](<06 Shipping Builds Dist and Containers/README.md>) |
+| 7 | [Production TS Execution and Interview Mastery](<07 Production TS Execution and Interview Mastery/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

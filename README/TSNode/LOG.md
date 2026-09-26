@@ -240,3 +240,30 @@
   - Links: 840/840 angle-bracket targets resolve (677 S1–S5 + 163 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt Domain 07.
   - Files: 56 md (track README + LOG + 6 domain indexes + 48 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 06).
 - Next steps: PARTIAL — Domains 01–06 complete (track README 6/7 rows, 840/840 links). FINAL: Domain 07 Production TS Execution and Interview Mastery (index + section folders + 8 leaves per S1 curriculum: production judgment under constraints, reviewing Node+TS code, API design for TS services, full-system synthesis trace, mastery checklist, interview QA synthesis, boundaries + TRACK-COMPLETE retirement of all 07 forwards + final full-track verification). Suggested Domain 07 shape (8 leaves mirroring NodeJS 07): 1.1 Selecting architectures under constraints, 1.2 Capacity and graceful degradation, 2.1 Reviewing Node+TS code, 2.2 API design for TS services, 3.1 One request every layer (synthesis trace), 4.1 Mastery checklist, 5.1 Interview QA synthesis, 6.1 Boundaries. Resume by opening a fresh Session 7 block (this block closes PARTIAL). Then upgrade 01–06 textual forwards → live 07 links + close TRACK COMPLETE DONE. Known-accepted remainders: (a) `/tmp/tsprobe/*` scratch probes outside repo (intentional, incl. ship/ + gates + Dockerfile); (b) `tsx`/stripping rows documented from official sources (single source of truth TS 01/3.2); (c) experimentalResolver gap (candidate Domain 03 refresh note); (d) ship-probe Docker image remains local (untagged for registry — scratch).
+
+## [2026-09-26 09:13] Session 7 — Domain 07 Production TS Execution and Interview Mastery to TRACK COMPLETE
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–6, skill harness reloaded; tree clean so byte-identical); root README.md (TS-Node #8, unchanged); README/TSNode/LOG.md (full — Sessions 1–6 PARTIAL, recovery point); README/TSNode/README.md (6/7 rows); README/TSNode/06 Shipping Builds Dist and Containers/README.md (Template B reference); README/NodeJS/07 Production Node Use and Interview Mastery/README.md (capstone shape reference — mirrored). Recovery: grep for live `- Status: IN PROGRESS` — none (S6 closed PARTIAL = this recovery point). Disk verified — S6 Done 11/11: track README 6 rows + domain 06 index + 8/8 leaves + LOG all present (56 md); git log shows S6 close commit on top, tree clean; /tmp/tsprobe survives (incl. ship/, gates 1–7). Domain-07 textual forwards located (01/6.1, 02/6.1, 03/6.1, 04/6.1, 05/6.1, 06/6.1 ×3). No discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S6 immutable). No scope override in request → resume from S6 Next steps: Domain 07 to TRACK COMPLETE.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D7-1 — create 07 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 7
+  3. Unit D7-2 — leaf 1.1. Selecting architectures under constraints
+  4. Unit D7-3 — leaf 1.2. Capacity and graceful degradation
+  5. Unit D7-4 — leaf 2.1. Reviewing Node+TS code
+  6. Unit D7-5 — leaf 2.2. API design for TS services
+  7. Unit D7-6 — leaf 3.1. One request every layer
+  8. Unit D7-7 — leaf 4.1. Mastery checklist
+  9. Unit D7-8 — leaf 5.1. Interview QA synthesis
+  10. Unit D7-9 — leaf 6.1. Boundaries
+  11. Unit D7-10 — retire 01–06 textual Domain-07 forwards → live links + full track sweep (TRACK COMPLETE)
+  12. Final verification (DoD + links + DRY) + close entry DONE
+- Research notes: Capstone synthesis — no new external facts required (judgment + method over receipts from 01–06). Shape mirrors NodeJS 07 (read: index + 8 leaf promises + section dirs; this domain stays TS-execution-flavored: runners/configs/loaders/loops/maps/artifacts instead of runtime/packaging/data-path). DRY grep for capstone titles (Selecting architectures/graceful degradation/Reviewing Node/API design/One request/Mastery checklist/Interview QA synthesis): zero content coverage outside TSNode LOG — synthesis owned here outright. Probes (sanity, /tmp/tsprobe): ts-node v10.9.2 + tsc 5.9.3 + node v20.20.2 confirmed; Little's-law arithmetic verified (200 rps × 0.25s = 50 cores); ship/dist inventory intact (app/main + maps). roadmap.sh TS still JS shell (consistent with S1–S6; spine from official docs + prior sessions).
+- Decisions:
+  - Domain 07 shape mirrors NodeJS 07 (8 leaves: 2 judgment + 2 review/design + 1 synthesis + checklist + QA + boundaries); capstone synthesizes 01–06 receipts — no new mechanics, judgment + method only.
+- Done:
+  - [unit 1] Opened this Session 7 entry (first write on disk)
+  - [unit D7-1] Created `README/TSNode/07 Production TS Execution and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
+- Files touched: created `07 Production TS Execution and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
+- Links fixed / added:
+- Verification:
+- Next steps:
