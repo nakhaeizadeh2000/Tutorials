@@ -66,6 +66,7 @@
   - [unit D2-4] Created leaf `02/sections/2. Shape and speed/2.1. Schema and constraints that protect.md` (declared types, three refusals, cheapest-tests; verified live: 4 named refusals verbatim + driver 23505/constraint surfacing; link sweep: only not-yet-written forwards outstanding)
   - [unit D2-5] Created leaf `02/sections/2. Shape and speed/2.2. Indexes and EXPLAIN.md` (write/read bargain, plan reading, ANALYZE actuals; verified live on 50k rows: Seq Scan 769.59 → Bitmap Index Scan 323.72, actual rows=1, Execution 0.073ms; link sweep: only not-yet-written forwards outstanding)
   - [unit D2-6] Created leaf `02/sections/3. Atomicity/3.1. Transactions basis.md` (all-or-nothing, planned ROLLBACK, connection binding; verified live: transfer conservation 70/80, rollback absence, unwrapped partial persistence; link sweep: only not-yet-written forwards outstanding)
+  - [unit D2-7] Created leaf `02/sections/4. Important points to remember/4.1. Postgres checklist habits mentors insist on.md` (shape discipline, two-timings rule, unit gating; verified FK index creation + gate2.sh exit 20 on planted unfiltered UPDATE + PG-GREEN exit 0; link sweep: only 5.1 forward outstanding)
 - Files touched: created `02 Postgres Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
