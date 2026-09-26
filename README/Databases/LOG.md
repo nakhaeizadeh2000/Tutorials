@@ -108,6 +108,7 @@
   - [unit D3-6] Created leaf `03/sections/3. Writes/3.1. Writes ids and idempotency.md` (dedup keys, atomic upserts, ordered bulk; verified retry simulation + upsert shape locally; server spelling documented from 8.3 manual labeled; link sweep: only 4.1 forward outstanding)
   - [unit D3-7] Created leaf `03/sections/4. Important points to remember/4.1. MongoDB checklist habits mentors insist on.md` (server-side summaries, access-driven models, idempotent writes; verified gate3.sh exit 30 on planted spread + MONGO-GREEN exit 0; link sweep: only 5.1 forward outstanding)
   - [unit D3-8] Created leaf `03/sections/5. Interview questions and answers/5.1. Common interview QA MongoDB.md` (modeling screen, pipeline screen, exactly-once drill + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
+  - [unit D3-9] Created leaf `03/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (foundations/twins split, track-internal map, depth/design/map split with exact targets — all verified on disk; link sweep fully OK, 0 forwards)
 - Files touched: created `03 MongoDB Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
