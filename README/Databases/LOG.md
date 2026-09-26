@@ -77,3 +77,31 @@
   - Links: 200/200 angle-bracket targets resolve (98 S1 + 102 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt domains 03–07.
   - Files: 20 md (track README + LOG + 2 domain indexes + 16 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 02).
 - Next steps: PARTIAL — Domains 01–02 complete (track README 2/7 rows, 200/200 links). Continue in order: Domain 03 MongoDB Deep Dive (index + section folders + leaves: aggregation pipelines, embed-vs-reference, document indexes + checklist/QA/boundaries; honest scope note stands — no mongod on this floor, document server snippets from 8.3 manual labeled per snippet, execute driver-local probes) → Domains 04–07 per S1 full planned curriculum. Resume by opening a fresh Session 3 block (this block closes PARTIAL). Then upgrade 01–02 textual forwards → live 03 links as it lands. Known-accepted remainders: (a) `/tmp/dbprobe/*` scratch probes outside repo (intentional — not committed); (b) Mongo server snippets documented-not-executed (kernel 6.19 vs SERVER-121912 + registry EOF); (c) dbprobe container + demo/ledger/guarded/perf tables remain (needed for later sessions — do not remove).
+
+## [2026-09-26 13:18] Session 3 — Domain 03 MongoDB Deep Dive (Domains 04–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–2, skill harness reloaded; tree clean so byte-identical); root README.md (Databases #9, unchanged); README/Databases/LOG.md (full — Sessions 1–2 PARTIAL, recovery point); README/Databases/README.md (2/7 rows); README/Databases/02 Postgres Deep Dive/README.md (Template B reference). Recovery: grep for live `- Status: IN PROGRESS` — none (S2 closed PARTIAL = this recovery point). Disk verified — S2 Done 11/11: track README 2 rows + domain 02 index + 8/8 leaves + LOG all present (20 md); git log shows S2 close commit on top, tree clean; dbprobe running. Domain-03 textual forwards located (01/2.2 ×2 link-form, 01/3.1 ×1, 01/6.1, 02/6.1). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 first, then 04–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D3-1 — create 03 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 3
+  3. Unit D3-2 — leaf 1.1. Aggregation pipelines
+  4. Unit D3-3 — leaf 1.2. Query operators and projections
+  5. Unit D3-4 — leaf 2.1. Embed versus reference
+  6. Unit D3-5 — leaf 2.2. Document indexes
+  7. Unit D3-6 — leaf 3.1. Writes, ids, and idempotency
+  8. Unit D3-7 — leaf 4.1. MongoDB checklist habits mentors insist on
+  9. Unit D3-8 — leaf 5.1. Common interview QA MongoDB
+  10. Unit D3-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D3-10 — retire 01–02 textual Domain-03 forwards → live links + full track sweep
+  12. Units D4+ — Domains 04–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: DRY grep for aggregation-pipeline/$group/$lookup/createIndex/embed-reference/idempotency-mechanics: zero mechanics coverage repo-wide (only 01/02 textual forwards + ITV idempotency-keys *vocabulary*) — Domain 03 owns pipeline/operator/modeling/index/write mechanics outright. Server-executed snippets documented from MongoDB 8.3 manual labeled per snippet (no mongod on this floor — S1 scope note stands); driver-local probes executed (BSON Decimal128/Long round-trip; match→group→sort stage semantics over in-memory docs: 2 matched, sum 24.98; ObjectId mechanics in S1). No roadmap.sh spine (JS shells — consistent finding).
+- Decisions:
+  - Domain 03 shape (8 leaves: 2 query-depth + 2 modeling-index + 1 writes-ids + checklist + QA + boundaries); transactions stay forward to 05, drivers/pooling to 04, perf/ops to 06. Server-executed snippets documented from MongoDB 8.3 manual labeled per snippet (no mongod on this floor); driver-local probes (BSON, ObjectId, aggregation-builder shape) executed.
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit D3-1] Created `README/Databases/03 MongoDB Deep Dive/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3
+- Files touched: created `03 MongoDB Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
