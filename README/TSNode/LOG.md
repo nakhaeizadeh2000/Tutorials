@@ -267,6 +267,7 @@
   - [unit D7-3] Created leaf `07/sections/1. Production judgment/1.2. Capacity and graceful degradation.md` (budgets arithmetic, layered degradation, designed bounds; verified sizing arithmetic 100 slots/2+1 instances; link sweep: only 2.1/5.1 forwards outstanding)
   - [unit D7-4] Created leaf `07/sections/2. Review and design/2.1. Reviewing Node+TS code.md` (gates-first, priced constants, failure-path approval; verified manifest grep + gate7 SHIP-CHECK-GREEN; link sweep: only 4.1 forwards outstanding)
   - [unit D7-5] Created leaf `07/sections/2. Review and design/2.2. API design for TS services.md` (explicit contracts, boundary types, remedy-bearing failures; verified envelope probe both lines via ts-node transpile-only; link sweep: only 5.1 forward outstanding)
+  - [unit D7-6] Created leaf `07/sections/3. Full-system synthesis/3.1. One request every layer.md` (cradle-to-grave trace, per-layer budgets, cold narration; verified layer-budget spans sum + slowest identification; link sweep: only 4.1/5.1 forwards outstanding)
 - Files touched: created `07 Production TS Execution and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
