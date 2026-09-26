@@ -263,6 +263,7 @@
 - Done:
   - [unit 1] Opened this Session 7 entry (first write on disk)
   - [unit D7-1] Created `README/TSNode/07 Production TS Execution and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
+  - [unit D7-2] Created leaf `07/sections/1. Production judgment/1.1. Selecting architectures under constraints.md` (constraints-first, boring-wins, ADRs; verified Little's-law arithmetic 50 cores; link sweep fully OK, 0 forwards)
 - Files touched: created `07 Production TS Execution and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
