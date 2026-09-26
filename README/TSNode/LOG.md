@@ -270,6 +270,7 @@
   - [unit D7-6] Created leaf `07/sections/3. Full-system synthesis/3.1. One request every layer.md` (cradle-to-grave trace, per-layer budgets, cold narration; verified layer-budget spans sum + slowest identification; link sweep: only 4.1/5.1 forwards outstanding)
   - [unit D7-7] Created leaf `07/sections/4. Important points to remember/4.1. Mastery checklist habits mentors insist on.md` (fluency inventory, receipts standard, teaching transfer; verified md-count probe; link sweep: only 5.1 forward outstanding)
   - [unit D7-8] Created leaf `07/sections/5. Interview questions and answers/5.1. Common interview QA judgment synthesis.md` (systems screen, incident screen, mentoring screen + 7 rapid-fire drills; all outputs previously verified S1–S6; link sweep fully OK, 0 forwards)
+  - [unit D7-9] Created leaf `07/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics/frameworks/careers split mirroring NodeJS 07/6.1; all cross-track targets verified on disk; link sweep fully OK, 0 forwards)
 - Files touched: created `07 Production TS Execution and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
