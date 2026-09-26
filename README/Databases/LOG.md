@@ -24,6 +24,7 @@
   - [unit 1] Opened this Session 1 entry (first write on disk)
   - [unit 2] Created `README/Databases/README.md` (Template A track index, lists Domain 01) — root README row #9 now resolves, no root edit needed (caught + fixed own dead links to unbuilt DatabaseDesign/ORM tracks pre-commit → textual forwards)
   - [unit 3] Created `README/Databases/01 Database Foundations and Mental Model/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders (link sweep: only not-yet-written leaf forwards outstanding, 0 broken existing targets incl. ITV 05 index)
+  - [unit 4] Created leaf `01/sections/1. Database identity and setup/1.1. What databases are and are not.md` (three properties, two shapes, three impostors; verified live on PG 16.15: shared 1/1, queryable 0, durable across `docker restart`; link sweep: only not-yet-written forwards outstanding, cross-track targets verified on disk)
 - Files touched: created `README/Databases/LOG.md`, created `README/Databases/README.md`
 - Links fixed / added: track index → ITVocabulary README (resolves) + back-link to root README; DatabaseDesign/ORM kept textual (targets unbuilt)
 - Links fixed / added:
