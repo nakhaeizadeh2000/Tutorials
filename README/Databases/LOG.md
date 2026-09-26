@@ -101,6 +101,7 @@
 - Done:
   - [unit 1] Opened this Session 3 entry (first write on disk)
   - [unit D3-1] Created `README/Databases/03 MongoDB Deep Dive/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 3
+  - [unit D3-2] Created leaf `03/sections/1. Query depth/1.1. Aggregation pipelines.md` (stage composition, server-side economy, incremental authoring; verified driver-local stage runner: 2 matched, sum 24.98; server spelling documented from 8.3 manual labeled; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `03 MongoDB Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
