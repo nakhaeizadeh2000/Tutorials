@@ -265,6 +265,7 @@
   - [unit D7-1] Created `README/TSNode/07 Production TS Execution and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
   - [unit D7-2] Created leaf `07/sections/1. Production judgment/1.1. Selecting architectures under constraints.md` (constraints-first, boring-wins, ADRs; verified Little's-law arithmetic 50 cores; link sweep fully OK, 0 forwards)
   - [unit D7-3] Created leaf `07/sections/1. Production judgment/1.2. Capacity and graceful degradation.md` (budgets arithmetic, layered degradation, designed bounds; verified sizing arithmetic 100 slots/2+1 instances; link sweep: only 2.1/5.1 forwards outstanding)
+  - [unit D7-4] Created leaf `07/sections/2. Review and design/2.1. Reviewing Node+TS code.md` (gates-first, priced constants, failure-path approval; verified manifest grep + gate7 SHIP-CHECK-GREEN; link sweep: only 4.1 forwards outstanding)
 - Files touched: created `07 Production TS Execution and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
