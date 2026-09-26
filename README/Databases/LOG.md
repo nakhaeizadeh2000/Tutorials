@@ -28,6 +28,7 @@
   - [unit 5] Created leaf `01/sections/1. Database identity and setup/1.2. Connecting from Node.md` (five-fact URLs, handshake rite, secret boundary; verified PG+Mongo URL parses, live pg handshake {ok:1}, env-loaded handshake, gitignore match, Mongo fail-fast MongoServerSelectionError; honest scope: no Mongo server on this floor — kernel 6.19 vs SERVER-121912 + registry EOF ×3, recorded; link sweep: only not-yet-written forwards outstanding)
   - [unit 6] Created leaf `01/sections/2. First queries/2.1. First Postgres queries.md` (CRUD cycle, bound parameters, result witnesses; verified live on PG 16.15: O'Reilly round-trip, interpolation 42601 death, rowCount/RETURNING per statement; link sweep: only not-yet-written forwards outstanding)
   - [unit 7] Created leaf `01/sections/2. First queries/2.2. First MongoDB operations.md` (CRUD arc, object-query injection sibling, _id contract; verified ObjectId probe live (hex24/unique/has-time); server snippets documented from 8.3 manual labeled per snippet; link sweep: only not-yet-written forwards outstanding)
+  - [unit 8] Created leaf `01/sections/3. Choosing/3.1. Choosing Postgres or MongoDB.md` (questions-first, relational default, monoglot start; verified live JOIN round-trip with enforced FK; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `README/Databases/LOG.md`, created `README/Databases/README.md`
 - Links fixed / added: track index → ITVocabulary README (resolves) + back-link to root README; DatabaseDesign/ORM kept textual (targets unbuilt)
 - Links fixed / added:
