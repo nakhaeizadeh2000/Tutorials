@@ -65,6 +65,7 @@
   - [unit D2-3] Created leaf `02/sections/1. Query depth/1.2. Aggregates and grouping.md` (five functions, per-group summaries, HAVING-after-WHERE; verified live: 4-row aggregates, per-customer GROUP BY, HAVING survivor, COUNT-twins 2-vs-1; caught + fixed own drafting aside pre-commit; link sweep: only not-yet-written forwards outstanding)
   - [unit D2-4] Created leaf `02/sections/2. Shape and speed/2.1. Schema and constraints that protect.md` (declared types, three refusals, cheapest-tests; verified live: 4 named refusals verbatim + driver 23505/constraint surfacing; link sweep: only not-yet-written forwards outstanding)
   - [unit D2-5] Created leaf `02/sections/2. Shape and speed/2.2. Indexes and EXPLAIN.md` (write/read bargain, plan reading, ANALYZE actuals; verified live on 50k rows: Seq Scan 769.59 → Bitmap Index Scan 323.72, actual rows=1, Execution 0.073ms; link sweep: only not-yet-written forwards outstanding)
+  - [unit D2-6] Created leaf `02/sections/3. Atomicity/3.1. Transactions basis.md` (all-or-nothing, planned ROLLBACK, connection binding; verified live: transfer conservation 70/80, rollback absence, unwrapped partial persistence; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `02 Postgres Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 2)
 - Links fixed / added:
 - Verification:
