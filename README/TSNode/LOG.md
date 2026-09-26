@@ -271,6 +271,7 @@
   - [unit D7-7] Created leaf `07/sections/4. Important points to remember/4.1. Mastery checklist habits mentors insist on.md` (fluency inventory, receipts standard, teaching transfer; verified md-count probe; link sweep: only 5.1 forward outstanding)
   - [unit D7-8] Created leaf `07/sections/5. Interview questions and answers/5.1. Common interview QA judgment synthesis.md` (systems screen, incident screen, mentoring screen + 7 rapid-fire drills; all outputs previously verified S1–S6; link sweep fully OK, 0 forwards)
   - [unit D7-9] Created leaf `07/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (mechanics/frameworks/careers split mirroring NodeJS 07/6.1; all cross-track targets verified on disk; link sweep fully OK, 0 forwards)
+  - [unit D7-10] Retired 01–06 textual Domain-07 forwards → live links (9 exact-match replacements: 01/6.1, 02/6.1, 03/6.1, 04/6.1, 05/6.1, 06/6.1 ×3 leaf/index links + 06/6.1 assume-line) + cleaned 5 stale assume-foundation prose lines → live endpoint links; full track sweep: 1019 angle-bracket targets, 0 broken, 0 `%20`; ZERO `(planned, see LOG)` textuals outside LOG history; Domain 07 promises 8/8 ↔ leaves 8/8
 - Files touched: created `07 Production TS Execution and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
