@@ -104,6 +104,7 @@
   - [unit D3-2] Created leaf `03/sections/1. Query depth/1.1. Aggregation pipelines.md` (stage composition, server-side economy, incremental authoring; verified driver-local stage runner: 2 matched, sum 24.98; server spelling documented from 8.3 manual labeled; link sweep: only not-yet-written forwards outstanding)
   - [unit D3-3] Created leaf `03/sections/1. Query depth/1.2. Query operators and projections.md` (operator vocabulary, projection narrowing, structural allowlists; verified BSON round-trip + local match/project: 1 survivor, secret trimmed; link sweep: only not-yet-written forwards outstanding)
   - [unit D3-4] Created leaf `03/sections/2. Modeling and speed/2.1. Embed versus reference.md` (read-locality nesting, shared-truth links, 16MB ceiling math; verified BSON sizing: 138-byte order 0.0008%, 335k items-to-ceiling; link sweep: only not-yet-written forwards outstanding)
+  - [unit D3-5] Created leaf `03/sections/2. Modeling and speed/2.2. Document indexes.md` (ESR compounds, unique identity, explain proof; verified ESR ordering logic + compound spec locally; server spelling documented from 8.3 manual labeled; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `03 MongoDB Deep Dive/README.md` (+ 6 section dirs); modified track `README.md` (row 3)
 - Links fixed / added:
 - Verification:
