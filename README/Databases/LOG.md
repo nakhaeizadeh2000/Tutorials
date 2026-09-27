@@ -226,6 +226,7 @@
   - [unit D6-4] Created leaf `06/sections/2. Survival/2.1. Backups that restore.md` (round-trip proof, rehearsal discipline, honest PITR; verified live: 148KB dump → restorecheck → counts 1/1 + 4/4 → cleaned; caught + fixed own typo debris pre-commit; link sweep: only not-yet-written forwards outstanding)
   - [unit D6-5] Created leaf `06/sections/2. Survival/2.2. Postgres in containers.md` (named volumes, files-plus-env config, isready healthchecks; verified live: anonymous-volume orphans witnessed, config paths located, pg_isready exit 0; link sweep: only not-yet-written forwards outstanding)
   - [unit D6-6] Created leaf `06/sections/3. Visibility/3.1. Observability for data.md` (four-signal dashboard, catalog evidence, approach alerts; verified live: 99.3% cache, connection counts, bloat top-3; caught + fixed own typo debris pre-commit; link sweep: only 4.1/5.1 forwards outstanding)
+  - [unit D6-7] Created leaf `06/sections/4. Important points to remember/4.1. Operations checklist habits mentors insist on.md` (receipted changes, proven recovery, signaled dashboard; verified gate6.sh exit 60 on pending index + OPS-GREEN exit 0; link sweep: only 5.1 forward outstanding)
 - Files touched: created `06 Performance Backup and Operations/README.md` (+ 6 section dirs); modified track `README.md` (row 6 + duplicate-row-5 repair)
 - Links fixed / added:
 - Verification:
