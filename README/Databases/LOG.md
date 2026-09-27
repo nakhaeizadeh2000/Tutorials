@@ -157,3 +157,31 @@
   - Links: 442/442 angle-bracket targets resolve (307 S1–S3 + 135 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt domains 05–07.
   - Files: 38 md (track README + LOG + 4 domain indexes + 32 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 04).
 - Next steps: PARTIAL — Domains 01–04 complete (track README 4/7 rows, 442/442 links). Continue in order: Domain 05 Transactions Consistency and Integrity (index + section folders + leaves: ACID, isolation levels, MVCC, constraints-as-integrity + checklist/QA/boundaries; live PG probes: isolation anomalies demonstrated with concurrent clients) → Domains 06–07 per S1 full planned curriculum. Resume by opening a fresh Session 5 block (this block closes PARTIAL). Then upgrade 01–04 textual forwards → live 05 links as it lands. Known-accepted remainders: (a) `/tmp/dbprobe/*` scratch probes outside repo (intentional — not committed); (b) Mongo server snippets documented-not-executed (kernel 6.19 vs SERVER-121912 + registry EOF); (c) dbprobe container recreated 2026-09-26 mid-S4 after unexplained disappearance — reseeded fixtures; S1–S4 early units' committed outputs remain valid (executed pre-disappearance).
+
+## [2026-09-27 10:38] Session 5 — Domain 05 Transactions Consistency and Integrity (Domains 06–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–4, skill harness reloaded; tree clean so byte-identical); root README.md (Databases #9, unchanged); README/Databases/LOG.md (full — Sessions 1–4 PARTIAL, recovery point); README/Databases/README.md (4/7 rows); README/Databases/04 Node.js Data Access Drivers and Pooling/README.md (Template B reference). Recovery: grep for live `- Status: IN PROGRESS` — none (S4 closed PARTIAL = this recovery point). Disk verified — S4 Done 11/11: track README 4 rows + domain 04 index + 8/8 leaves + LOG all present (38 md); git log shows S4 close commit on top, tree clean; dbprobe running. Domain-05 link-form forwards located (01/6.1, 02/3.1 ×2, 02/6.1, 03/2.1, 03/3.1 ×2, 03/6.1, 04/6.1). No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 first, then 06–07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D5-1 — create 05 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 5
+  3. Unit D5-2 — leaf 1.1. ACID that holds
+  4. Unit D5-3 — leaf 1.2. Isolation levels and anomalies
+  5. Unit D5-4 — leaf 2.1. MVCC snapshots not locks
+  6. Unit D5-5 — leaf 2.2. Constraints as integrity
+  7. Unit D5-6 — leaf 3.1. Distributed honesty 2PC and sagas
+  8. Unit D5-7 — leaf 4.1. Integrity checklist habits mentors insist on
+  9. Unit D5-8 — leaf 5.1. Common interview QA consistency
+  10. Unit D5-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D5-10 — retire 01–04 textual Domain-05 forwards → live links + full track sweep
+  12. Units D6+ — Domains 06–07 in curriculum order while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: DRY grep for ACID/isolation-levels/READ COMMITTED/SERIALIZABLE/MVCC/dirty-read/2PC/saga-mechanics: zero mechanics coverage repo-wide (DesignPatterns 06/5.1 names sagas as event-choreography vocabulary — different home, linked in 3.1; prose "phantom" matches unrelated) — Domain 05 owns ACID/isolation/MVCC/distributed-integrity outright. Default isolation verified `read committed` on dbprobe; ledger fixture recreated (100/50 — vanished-container gap closed for S5 probes). Semantics: stable PostgreSQL concurrency behavior (unchanged 14–18 for all constructs taught) verified live per unit with concurrent pg clients; Mongo multi-doc transactions documented from 8.3 manual labeled per snippet. No roadmap.sh spine (JS shells — consistent finding).
+- Decisions:
+  - Domain 05 shape (8 leaves: 2 ACID-isolation + 2 MVCC-constraints + 1 distributed + checklist + QA + boundaries); perf/ops stay forward to 06, synthesis to 07. Anomalies demonstrated live with concurrent pg clients on dbprobe; Mongo multi-doc transactions documented from 8.3 manual (no mongod on this floor).
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit D5-1] Created `README/Databases/05 Transactions Consistency and Integrity/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 5
+- Files touched: created `05 Transactions Consistency and Integrity/README.md` (+ 6 section dirs); modified track `README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:

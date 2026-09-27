@@ -8,6 +8,7 @@ Postgres & Mongo usage — how to store, query, choose, and operate the two data
 | 2 | [Postgres Deep Dive](<02 Postgres Deep Dive/README.md>) |
 | 3 | [MongoDB Deep Dive](<03 MongoDB Deep Dive/README.md>) |
 | 4 | [Node.js Data Access Drivers and Pooling](<04 Node.js Data Access Drivers and Pooling/README.md>) |
+| 5 | [Transactions Consistency and Integrity](<05 Transactions Consistency and Integrity/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
