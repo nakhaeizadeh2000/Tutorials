@@ -184,6 +184,7 @@
   - [unit D5-2] Created leaf `05/sections/1. Guarantees/1.1. ACID that holds.md` (atomicity/durability witnessed, consistency-as-constraints, isolation preview; verified live: conservation 70/80, 23514 refusal with state preserved, restart survival, read-committed default; link sweep fully OK after D5-1 index landed)
   - [unit D5-3] Created leaf `05/sections/1. Guarantees/1.2. Isolation levels and anomalies.md` (read-committed default, priced anomalies, evidence-gated serializable; verified live with concurrent clients: dirty-blocked 100, nonrepeatable 100→50, lost-update 110; link sweep: only not-yet-written forwards outstanding)
   - [unit D5-4] Created leaf `05/sections/2. Mechanisms/2.1. MVCC snapshots not locks.md` (non-blocking reads, version stamps, bounded lock queues; verified live: 2ms unblocked read, xmin/xmax stamps, 55P03 at 504ms; real findings kept: SET-LOCAL-outside-txn hang + leaked-connection cleanup; link sweep: only not-yet-written forwards outstanding)
+  - [unit D5-5] Created leaf `05/sections/2. Mechanisms/2.2. Constraints as integrity.md` (deferred checks, exclusion ranges, TOCTOU fusion; verified live: child-first commit, overlap refusal with DETAIL, concurrent racers 23505 + exactly 1 row; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `05 Transactions Consistency and Integrity/README.md` (+ 6 section dirs); modified track `README.md` (row 5); created leaf 1.1
 - Links fixed / added:
 - Verification:
