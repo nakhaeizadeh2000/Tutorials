@@ -149,6 +149,7 @@
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Access checklist habits mentors insist on.md` (sized pools, bound units, budgeted resilience; verified gate4.sh exit 40 on bare Pool + ACCESS-GREEN exit 0; link sweep: only 5.1 forward outstanding)
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA data access.md` (sizing screen, binding screen, evolution drill + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
   - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (access sandwich, track-internal map, access/design/map split with exact targets — all verified on disk; link sweep fully OK, 0 forwards)
+  - [unit D4-10] Retired 01–03 textual Domain-04 forwards → live links (8 exact-match replacements: 01/1.2 ×2 → 1.1 leaf, 01/6.1 + 02/6.1 + 03/6.1 → 04 index, 02/2.1 → 2.2 leaf, 02/3.1 ×2 → 2.1 leaf; 05–07 textual forwards intentionally remain); final full-track sweep: 442 angle-bracket targets, 0 broken, 0 `%20`; Domain 04 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves; filenames punctuation-clean
 - Files touched: created `04 Node.js Data Access Drivers and Pooling/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
