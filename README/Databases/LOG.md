@@ -197,3 +197,31 @@
   - Links: 588/588 angle-bracket targets resolve (442 S1–S4 + 146 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt domains 06–07.
   - Files: 47 md (track README + LOG + 5 domain indexes + 40 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 05).
 - Next steps: PARTIAL — Domains 01–05 complete (track README 5/7 rows, 588/588 links). Continue in order: Domain 06 Performance Backup and Operations (index + section folders + leaves: EXPLAIN-at-scale, vacuum/bloat, backups/restores, containers/observability + checklist/QA/boundaries; live PG probes: bloat measurement, backup/restore round-trip) → Domain 07 per S1 full planned curriculum. Resume by opening a fresh Session 6 block (this block closes PARTIAL). Then upgrade 01–05 textual forwards → live 06 links as it lands. Known-accepted remainders: (a) `/tmp/dbprobe/*` scratch probes outside repo (intentional — not committed); (b) Mongo server snippets documented-not-executed (kernel 6.19 vs SERVER-121912 + registry EOF); (c) dbprobe live with max_prepared_transactions=10 (S5 change — 2PC enabled) + txn_demo/defer_*/bookings/outbox/racers fixtures remain (needed for later sessions — do not remove).
+
+## [2026-09-27 11:26] Session 6 — Domain 06 Performance Backup and Operations (Domain 07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–5, skill harness reloaded; tree clean so byte-identical); root README.md (Databases #9, unchanged); README/Databases/LOG.md (full — Sessions 1–5 PARTIAL, recovery point); README/Databases/README.md (5/7 rows + 1 duplicated row — see discrepancy); README/Databases/05 Transactions Consistency and Integrity/README.md (Template B reference). Recovery: grep for live `- Status: IN PROGRESS` — none (S5 closed PARTIAL = this recovery point). Disk verified — S5 Done 11/11: track README rows + domain 05 index + 8/8 leaves + LOG all present (47 md); git log shows S5 close commit on top, tree clean; dbprobe running. DISCREPANCY (trust disk over log): track README.md lists Domain 05 twice (lines 11–12 identical `| 5 |` rows — duplication introduced during S5's row-5 addition, never claimed in Done; S5's 588/588 sweep counted link targets, not table rows, so it passed unnoticed). Repair in unit D6-1 (remove duplicate + add row 6, logged explicitly). Otherwise no discrepancies; nothing to redo. Fresh Session 6 block (S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 first, then 07 without stopping while feasible.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D6-1 — create 06 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 6 + REMOVE duplicated row-5 (recovery repair)
+  3. Unit D6-2 — leaf 1.1. EXPLAIN at scale
+  4. Unit D6-3 — leaf 1.2. Vacuum and bloat
+  5. Unit D6-4 — leaf 2.1. Backups that restore
+  6. Unit D6-5 — leaf 2.2. Postgres in containers
+  7. Unit D6-6 — leaf 3.1. Observability for data
+  8. Unit D6-7 — leaf 4.1. Operations checklist habits mentors insist on
+  9. Unit D6-8 — leaf 5.1. Common interview QA operations
+  10. Unit D6-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D6-10 — retire 01–05 textual Domain-06 forwards → live links + full track sweep
+  12. Units D7+ — Domain 07 to TRACK COMPLETE while feasible, same loop
+  13. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: DRY grep for pg_dump/pg_restore/VACUUM/n_dead_tup/pg_stat/WAL/PITR/slow-log/pg_stat_statements: zero ops-mechanics coverage repo-wide (only mentions: 01/4.1 backup-story recitation, 05/2.1 vacuum guidance, 02/4.1 unused-index audits, ITV runbook vocabulary) — Domain 06 owns backup/vacuum/observability/container mechanics outright. Probes: pg_dump+pg_restore present in dbprobe image; n_dead_tup visible per table (txn_demo: 9 dead — live bloat on tap); shared_preload_libraries EMPTY (no pg_stat_statements here — documented honestly, slow-query coverage via EXPLAIN + logs instead). No roadmap.sh spine (JS shells — consistent finding).
+- Decisions:
+  - Domain 06 shape (8 leaves: 2 perf + 2 backup-containers + 1 observability + checklist + QA + boundaries); synthesis stays forward to 07. Bloat/backup/observability verified live on dbprobe (pg_stat views, pg_dump/pg_restore round-trip, container inspection).
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit D6-1] Created `README/Databases/06 Performance Backup and Operations/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 6 + REMOVED duplicated row-5 (S5 recovery discrepancy repaired, logged here); caught + fixed own 2 drafting artifacts pre-commit (percent-encoded placeholder link, spaced bold label)
+- Files touched: created `06 Performance Backup and Operations/README.md` (+ 6 section dirs); modified track `README.md` (row 6 + duplicate-row-5 repair)
+- Links fixed / added:
+- Verification:
+- Next steps:
