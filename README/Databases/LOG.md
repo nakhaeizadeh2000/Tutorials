@@ -189,6 +189,7 @@
   - [unit D5-7] Created leaf `05/sections/4. Important points to remember/4.1. Integrity checklist habits mentors insist on.md` (wired lifecycle + deliberate levels, constraints + race tests, explicit distribution; verified gate5.sh exit 50 on ROLLBACK-less unit + INTEGRITY-GREEN exit 0; link sweep: only 5.1 forward outstanding)
   - [unit D5-8] Created leaf `05/sections/5. Interview questions and answers/5.1. Common interview QA consistency.md` (default screen, clobber screen, distribution drill + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
   - [unit D5-9] Created leaf `05/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (lifecycle/access split, track-internal map, model/design/map split with exact targets — all verified on disk; link sweep fully OK, 0 forwards)
+  - [unit D5-10] Retired 01–04 textual Domain-05 forwards → live links (9 exact-match replacements: 01/6.1 → 05 index, 02/3.1 ×2 → 1.2 leaf, 02/6.1 → 05 index, 03/2.1 + 03/3.1 ×2 → 1.1 leaf, 03/6.1 + 04/6.1 → 05 index; 06–07 textual forwards intentionally remain); final full-track sweep: 588 angle-bracket targets, 0 broken, 0 `%20`; Domain 05 promises 8/8 ↔ leaves 8/8; heading parts 3/3 × 8 leaves; filenames punctuation-clean
 - Files touched: created `05 Transactions Consistency and Integrity/README.md` (+ 6 section dirs); modified track `README.md` (row 5); created leaf 1.1
 - Links fixed / added:
 - Verification:
