@@ -145,6 +145,7 @@
   - [unit D4-3] Created leaf `04/sections/1. Drivers/1.2. MongoClient topology without a server.md` (declared options, bounded waits, singleton client; verified driver-local option echo + bounded-fail 2024ms; server semantics documented from 8.3 manual labeled; link sweep: only not-yet-written forwards outstanding)
   - [unit D4-4] Created leaf `04/sections/2. Discipline/2.1. Checkout discipline.md` (pooled lifecycle, exclusive hold, finally-release; verified live: checkout 1/0, conserved 65/85, released 1/1; link sweep: only not-yet-written forwards outstanding)
   - [unit D4-5] Created leaf `04/sections/2. Discipline/2.2. Migrations basis.md` (versioned files, expand-contract, prove-before-mutate; verified live: tracked apply + idempotent rerun + contract-after-backfill; real findings kept: printf-%s-eaten SQL + reversed-order SET NOT NULL failure; link sweep: only not-yet-written forwards outstanding)
+  - [unit D4-6] Created leaf `04/sections/3. Resilience/3.1. Retries timeouts and backoff.md` (bounded hops, keyed retries, jittered backoff; verified live post-recreation: 57014 at 514ms + backoff shape; incident: dbprobe container vanished mid-session (cause unknown, not this session) — recreated same image + reseeded fixtures, all probes re-verified after; link sweep: only 4.1 forward outstanding)
 - Files touched: created `04 Node.js Data Access Drivers and Pooling/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
