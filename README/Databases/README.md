@@ -10,6 +10,7 @@ Postgres & Mongo usage — how to store, query, choose, and operate the two data
 | 4 | [Node.js Data Access Drivers and Pooling](<04 Node.js Data Access Drivers and Pooling/README.md>) |
 | 5 | [Transactions Consistency and Integrity](<05 Transactions Consistency and Integrity/README.md>) |
 | 6 | [Performance Backup and Operations](<06 Performance Backup and Operations/README.md>) |
+| 7 | [Production Data Use and Interview Mastery](<07 Production Data Use and Interview Mastery/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

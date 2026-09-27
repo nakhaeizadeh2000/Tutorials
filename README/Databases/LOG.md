@@ -237,3 +237,30 @@
   - Links: 694/694 angle-bracket targets resolve (588 S1–S5 + 106 new), 0 broken, 0 `%20`; repo-wide mojibake grep clean; remaining `(planned, see LOG)` textuals only for unbuilt Domain 07.
   - Files: 56 md (track README + LOG + 6 domain indexes + 48 leaves); filenames punctuation-clean; headings match throughout (3/3 parts × 8 leaves in 06).
 - Next steps: PARTIAL — Domains 01–06 complete (track README 6/7 rows, 694/694 links). FINAL: Domain 07 Production Data Use and Interview Mastery (index + section folders + 8 leaves: capacity judgment, review checklists, full-system synthesis trace, mastery checklist, interview QA synthesis, boundaries + TRACK-COMPLETE retirement of all 07 forwards + final full-track verification). Resume by opening a fresh Session 7 block (this block closes PARTIAL). Known-accepted remainders: (a) `/tmp/dbprobe/*` scratch probes outside repo (intentional — not committed); (b) Mongo server snippets documented-not-executed (kernel 6.19 vs SERVER-121912 + registry EOF); (c) dbprobe live (anonymous volume, max_prepared_transactions=10) + all fixtures remain (needed for Session 7 only if probes demand — track otherwise complete).
+
+## [2026-09-27 12:56] Session 7 — Domain 07 Production Data Use and Interview Mastery to TRACK COMPLETE
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads Sessions 1–6, skill harness reloaded; tree clean so byte-identical); root README.md (Databases #9, unchanged); README/Databases/LOG.md (full — Sessions 1–6 PARTIAL, recovery point); README/Databases/README.md (6/7 rows, duplicate repaired); README/Databases/06 Performance Backup and Operations/README.md (Template B reference); README/NodeJS/07 Production Node Use and Interview Mastery/README.md (capstone shape reference — mirrored). Recovery: grep for live `- Status: IN PROGRESS` — none (S6 closed PARTIAL = this recovery point). Disk verified — S6 Done 11/11: track README 6 rows + domain 06 index + 8/8 leaves + LOG all present (56 md); duplicate-row-5 repair confirmed on disk (single row 5); git log shows S6 close commit on top, tree clean; dbprobe running. No discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S6 immutable). No scope override in request → resume from S6 Next steps: Domain 07 to TRACK COMPLETE.
+- Plan:
+  1. Unit 1 — open this entry (this write)
+  2. Unit D7-1 — create 07 index README (Template B, sections 1–6, 8 promises) + 6 section folders + track README row 7
+  3. Unit D7-2 — leaf 1.1. Capacity judgment under constraints
+  4. Unit D7-3 — leaf 1.2. Growth planning without panic
+  5. Unit D7-4 — leaf 2.1. Reviewing data code
+  6. Unit D7-5 — leaf 2.2. Data API contracts
+  7. Unit D7-6 — leaf 3.1. One write every layer
+  8. Unit D7-7 — leaf 4.1. Mastery checklist
+  9. Unit D7-8 — leaf 5.1. Interview QA synthesis
+  10. Unit D7-9 — leaf 6.1. Boundaries what is covered elsewhere
+  11. Unit D7-10 — retire 01–06 textual Domain-07 forwards → live links + full track sweep (TRACK COMPLETE)
+  12. Final verification (DoD + links + DRY) + close entry DONE
+- Research notes: DRY grep for capacity/N+1/denormal/read-replica/shard/partition mechanics: mentions only (pool sizing in 04/1.1, sharding implications in 03 leaves, N+1 literacy across domains — no capacity/sharding mechanics taught anywhere) — Domain 07 owns *judgment synthesis* outright (no new mechanics: capacity judgment, review, contracts, full-system trace, mastery, QA). Shape mirrors NodeJS 07 (read: index + capstone intro + prerequisites + §§1–3 promises; this domain stays data-flavored: stores/queries/gates instead of runtime/packaging). No roadmap.sh spine (JS shells — consistent finding).
+- Decisions:
+  - Domain 07 shape mirrors NodeJS 07 (8 leaves: 2 judgment + 2 review/design + 1 synthesis + checklist + QA + boundaries); capstone synthesizes 01–06 receipts — no new mechanics, judgment + method only.
+- Done:
+  - [unit 1] Opened this Session 7 entry (first write on disk)
+  - [unit D7-1] Created `README/Databases/07 Production Data Use and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
+- Files touched: created `07 Production Data Use and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
+- Links fixed / added:
+- Verification:
+- Next steps:
