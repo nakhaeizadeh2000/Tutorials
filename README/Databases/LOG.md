@@ -265,6 +265,7 @@
   - [unit D7-4] Created leaf `07/sections/2. Review and design/2.1. Reviewing data code.md` (gates-first, priced constants, failure-path approval; verified gates 1+2+4 all green in one pass; caught + fixed own 2 drafting meta-commentaries pre-commit; link sweep fully OK, 0 forwards)
   - [unit D7-5] Created leaf `07/sections/2. Review and design/2.2. Data API contracts.md` (versioned shapes, keyset pagination, remedy-bearing errors; verified live keyset pages [1,2]+[3,4] + envelope both lines; link sweep: only 5.1 forward outstanding)
   - [unit D7-6] Created leaf `07/sections/3. Full-system synthesis/3.1. One write every layer.md` (cradle-to-grave trace, per-layer budgets, cold narration; verified spans sum + 55ms live round trip (probe row cleaned after); caught + fixed own wrong-track cross-link pre-commit via script; link sweep: only 4.1/5.1 forwards outstanding)
+  - [unit D7-7] Created leaf `07/sections/4. Important points to remember/4.1. Mastery checklist habits mentors insist on.md` (fluency inventory, receipts standard, teaching transfer; verified md-count probe 62 mid-build; link sweep: only 5.1 forward outstanding)
 - Files touched: created `07 Production Data Use and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
