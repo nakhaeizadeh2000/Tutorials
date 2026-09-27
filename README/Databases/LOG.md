@@ -262,6 +262,7 @@
   - [unit D7-1] Created `README/Databases/07 Production Data Use and Interview Mastery/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 7
   - [unit D7-2] Created leaf `07/sections/1. Production judgment/1.1. Capacity judgment under constraints.md` (constraints-first, boring-wins, capacity arithmetic; verified Little's-law fleet math EXCEEDS verdict + dated triggers; caught + fixed own 2 malformed cross-links pre-commit (wrong-track SWC ref, bracket pseudo-link); link sweep: only not-yet-written forwards outstanding)
   - [unit D7-3] Created leaf `07/sections/1. Production judgment/1.2. Growth planning without panic.md` (dated thresholds, reads-first scaling, phased migrations at scale; verified threshold evaluator + live 50001 row count; link sweep: only not-yet-written forwards outstanding)
+  - [unit D7-4] Created leaf `07/sections/2. Review and design/2.1. Reviewing data code.md` (gates-first, priced constants, failure-path approval; verified gates 1+2+4 all green in one pass; caught + fixed own 2 drafting meta-commentaries pre-commit; link sweep fully OK, 0 forwards)
 - Files touched: created `07 Production Data Use and Interview Mastery/README.md` (+ 6 section dirs); modified track `README.md` (row 7)
 - Links fixed / added:
 - Verification:
