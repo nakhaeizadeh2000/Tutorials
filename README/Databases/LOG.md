@@ -148,6 +148,7 @@
   - [unit D4-6] Created leaf `04/sections/3. Resilience/3.1. Retries timeouts and backoff.md` (bounded hops, keyed retries, jittered backoff; verified live post-recreation: 57014 at 514ms + backoff shape; incident: dbprobe container vanished mid-session (cause unknown, not this session) — recreated same image + reseeded fixtures, all probes re-verified after; link sweep: only 4.1 forward outstanding)
   - [unit D4-7] Created leaf `04/sections/4. Important points to remember/4.1. Access checklist habits mentors insist on.md` (sized pools, bound units, budgeted resilience; verified gate4.sh exit 40 on bare Pool + ACCESS-GREEN exit 0; link sweep: only 5.1 forward outstanding)
   - [unit D4-8] Created leaf `04/sections/5. Interview questions and answers/5.1. Common interview QA data access.md` (sizing screen, binding screen, evolution drill + 6 rapid-fire drills; all outputs previously executed this session; link sweep fully OK, 0 forwards)
+  - [unit D4-9] Created leaf `04/sections/6. Overlaps to avoid/6.1. Boundaries what is covered elsewhere.md` (access sandwich, track-internal map, access/design/map split with exact targets — all verified on disk; link sweep fully OK, 0 forwards)
 - Files touched: created `04 Node.js Data Access Drivers and Pooling/README.md` (+ 6 section dirs); modified track `README.md` (row 4)
 - Links fixed / added:
 - Verification:
