@@ -182,6 +182,7 @@
   - [unit 1] Opened this Session 5 entry (first write on disk)
   - [unit D5-1] Created `README/Databases/05 Transactions Consistency and Integrity/README.md` (Template B index, sections 1–6, 8 leaf promises) + 6 section folders + added track README row 5 (caught own ordering slip — leaf 1.1 written before index; index landed next unit, sweep re-verified clean after)
   - [unit D5-2] Created leaf `05/sections/1. Guarantees/1.1. ACID that holds.md` (atomicity/durability witnessed, consistency-as-constraints, isolation preview; verified live: conservation 70/80, 23514 refusal with state preserved, restart survival, read-committed default; link sweep fully OK after D5-1 index landed)
+  - [unit D5-3] Created leaf `05/sections/1. Guarantees/1.2. Isolation levels and anomalies.md` (read-committed default, priced anomalies, evidence-gated serializable; verified live with concurrent clients: dirty-blocked 100, nonrepeatable 100→50, lost-update 110; link sweep: only not-yet-written forwards outstanding)
 - Files touched: created `05 Transactions Consistency and Integrity/README.md` (+ 6 section dirs); modified track `README.md` (row 5); created leaf 1.1
 - Links fixed / added:
 - Verification:
