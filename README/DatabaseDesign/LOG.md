@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `02 …/sections/1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md` (3 promises) — DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned; fixed own link errors pre-commit (`%20` + same-track depth `../../` → `../../../`)
   - [unit 5] Leaf `02 …/sections/1. Dependencies and atomicity/1.2. First normal form atomic values.md` (3 promises) — DDL + array operators verified on PostgreSQL 16.15 (dbprobe), residue cleaned
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2), created leaf `1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md`, created leaf `1. Dependencies and atomicity/1.2. First normal form atomic values.md`
+  - [unit 6] Leaf `02 …/sections/2. The core ladder/2.1. Second and third normal form.md` (3 promises) — split DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2), created leaf `1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md`, created leaf `1. Dependencies and atomicity/1.2. First normal form atomic values.md`, created leaf `2. The core ladder/2.1. Second and third normal form.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
