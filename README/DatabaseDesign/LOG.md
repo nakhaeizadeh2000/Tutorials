@@ -1,5 +1,32 @@
 # DatabaseDesign — work log
 
+## [2026-09-28 11:07] Session 2 — Domain 02 Normalization Deep Dive
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Session 1 DONE, all 11 units verified on disk, Next steps names Domain 02); README/DatabaseDesign/README.md (1/7 rows); README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md (Template B reference + link lesson: literal spaces, `../../../../` cross-track depth, real folder names only). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none (prior hits are historical mentions inside Context-read lines). Disk verified — Session 1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves); git log head a6a873f, tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
+- Plan (Domain 02 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (theory sources, DRY grep) + record
+  3. Unit 3 — create `02 Normalization Deep Dive/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Functional dependencies the one idea behind every normal form
+  5. Unit 5 — leaf 1.2. First normal form atomic values
+  6. Unit 6 — leaf 2.1. Second and third normal form
+  7. Unit 7 — leaf 2.2. BCNF fourth and fifth normal forms
+  8. Unit 8 — leaf 3.1. Deliberate denormalization with priced trade-offs
+  9. Unit 9 — leaf 4.1. Normalization review checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA normalization
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: normalization theory is stable textbook knowledge — Codd 1971/72 (1NF/2NF/3NF), Boyce–Codd 1974 (BCNF), Fagin 1977 (4NF/5NF); no version-sensitive claims, labeled "as of September 2026" only for tooling. No roadmap.sh spine (database-design 404s, sql shell — established Session 1). Local verification: PostgreSQL 16.15 via docker dbprobe (violating-vs-normalized DDL pairs executed per leaf). DRY grep (`normal form|denormal|BCNF|functional depend|transitive depend`): hits are only this track's own forward refs + Databases 6.1 boundary pointers deferring normalization here — no full treatment exists; Domain 02 owns it.
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (theory sources, DRY grep — no competing coverage)
+  - [unit 3] Created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-28 09:34] Session 1 — Create track + Domain 01 Modeling Foundations (Domains 02–07 next)
 - Status: DONE
 - Context read: PROMPT.md (binding, §§1–8 — full read this session, skill harness reloaded); root README.md (Categories table — Database Design already listed at #10, link target did not exist); README/Databases/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names Database Design as next track); README/Databases/README.md (Template A reference, September 2026 era). Recovery: grep for live `- Status: IN PROGRESS` across all track LOGs — none (JS/TS/ITV/Git/AlgoDesign/Patterns/NodeJS/TSNode/Databases all close DONE). Disk verified — `ls README/` showed no DatabaseDesign dir (created empty this session via mkdir check only, no files), tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. User chose option 1 "Start Database Design track" → Mode 1, Domain 01 first (PARTIAL + precise Next steps only on context limits).
