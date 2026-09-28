@@ -1,5 +1,34 @@
 # DatabaseDesign — work log
 
+## [2026-09-28 15:28] Session 3 — Domain 03 Document Modeling for Scale
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–2 DONE, S2 Next steps names Domain 03); README/DatabaseDesign/README.md (2/7 rows); README/DatabaseDesign/02 Normalization Deep Dive/README.md (Template B reference + standing link rules). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S2 Done 11/11 present (domain 02 index + 6 section dirs + 8/8 leaves); git log head f98b9e0, tree clean. dbprobe PostgreSQL 16.15 up. Mongo: NO live verification available — mongoprobe container gone, mongo:8 image fails on kernel 6.19 (SERVER-121912 incompatibility, confirmed via docker logs, container removed). Mitigation recorded in Decisions. No discrepancies otherwise; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
+- Plan (Domain 03 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (document-modeling sources, DRY grep) + record
+  3. Unit 3 — create `03 Document Modeling for Scale/README.md` (Template B, sections 1–6) + 6 section folders + track README row 3
+  4. Unit 4 — leaf 1.1. Aggregates the unit of document modeling
+  5. Unit 5 — leaf 1.2. Access patterns drive document shape
+  6. Unit 6 — leaf 2.1. Embed when together
+  7. Unit 7 — leaf 2.2. Reference when apart
+  8. Unit 8 — leaf 3.1. Schema patterns that scale
+  9. Unit 9 — leaf 3.2. Versioning and shape migration (split from patterns — distinct promise: contracts + migration economics)
+  10. Unit 10 — leaf 4.1. Document modeling checklist mentors insist on
+  11. Unit 11 — leaf 5.1. Common interview QA document modeling
+  12. Unit 12 — leaf 6.1. Boundaries what is covered elsewhere
+  13. Final verification (DoD + links + DRY + JSON validation) + close entry DONE/PARTIAL
+- Research notes: document-modeling sources — MongoDB official "Building with Patterns" series (subset, computed, bucket, extended reference, schema versioning, approximation, attribute, outlier, tree patterns — stable documented patterns, version-free); DDD aggregates (Evans/Vernon — consistency boundaries, version-free theory); 16MB document limit (stable server constant, as-of-September-2026 era). DRY grep (`embed|aggregate root|bucket pattern|subset pattern|computed pattern|extended reference`): Databases 03 leaf 2.1 owns embed-vs-reference *read-locality* guidance + 16MB ceiling math + snapshot-vs-truth — Domain 03 does NOT re-teach those (links instead); UNOCCUPIED and owned here: aggregate-as-consistency-boundary lens, access-pattern-first procedure, named schema patterns catalog (bucket/subset/computed/extended-reference/versioning), polymorphic/versioned schemas, shape migration. Named-pattern grep (`bucket|subset pattern|computed pattern|schema versioning|polymorphic|approximation|extended reference|attribute pattern`) in Databases 03: zero hits — confirmed unowned. "Aggregate" hits in Databases 03 are aggregation pipelines ($group), not DDD aggregates — no conflict.
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Research recorded (pattern sources, DRY boundary vs Databases 03 leaf 2.1 — complementary lenses, named patterns confirmed unowned)
+  - [unit 3] Created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` (Template B domain index, sections 1–6, 9 leaves with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
+- Decisions:
+  - No live Mongo (kernel 6.19 vs mongo:8 incompatibility): document examples written as strict-JSON documents (string ids/dates, no shell-only constructors) and machine-validated with a JSON-parse script; query/mechanics claims deferred by link to Databases 03 MongoDB Deep Dive (owns mechanics); design rules (this domain's content) need no engine — they are access-pattern reasoning. Verification section records this substitution honestly.
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-28 11:07] Session 2 — Domain 02 Normalization Deep Dive
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Session 1 DONE, all 11 units verified on disk, Next steps names Domain 02); README/DatabaseDesign/README.md (1/7 rows); README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md (Template B reference + link lesson: literal spaces, `../../../../` cross-track depth, real folder names only). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none (prior hits are historical mentions inside Context-read lines). Disk verified — Session 1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves); git log head a6a873f, tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
