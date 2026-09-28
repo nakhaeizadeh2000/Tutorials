@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-28 15:28] Session 3 — Domain 03 Document Modeling for Scale
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–2 DONE, S2 Next steps names Domain 03); README/DatabaseDesign/README.md (2/7 rows); README/DatabaseDesign/02 Normalization Deep Dive/README.md (Template B reference + standing link rules). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S2 Done 11/11 present (domain 02 index + 6 section dirs + 8/8 leaves); git log head f98b9e0, tree clean. dbprobe PostgreSQL 16.15 up. Mongo: NO live verification available — mongoprobe container gone, mongo:8 image fails on kernel 6.19 (SERVER-121912 incompatibility, confirmed via docker logs, container removed). Mitigation recorded in Decisions. No discrepancies otherwise; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
 - Plan (Domain 03 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,11 +31,17 @@
   - [unit 8] Leaf `03 …/sections/3. Patterns and change/3.1. Schema patterns that scale.md` (3 promises — bucket/subset/computed) — 6 JSON blocks machine-validated (parse OK)
   - [unit 9] Leaf `03 …/sections/3. Patterns and change/3.2. Versioning and shape migration.md` (3 promises) — 6 JSON blocks machine-validated (parse OK)
   - [unit 10] Leaf `03 …/sections/4. Mentor checklist/4.1. Document modeling checklist mentors insist on.md` (3 promises — process leaf; 6 illustrative JSON blocks parse OK)
-  - [unit 11] Leaf `03 …/sections/5. Interview QA/5.1. Common interview QA document modeling.md` (3 promises — process leaf; 6 illustrative JSON blocks parse OK)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3), created leaf `1. Aggregates and access/1.1. Aggregates the unit of document modeling.md`, created leaf `1. Aggregates and access/1.2. Access patterns drive document shape.md`, created leaf `2. Embed or reference/2.1. Embed when together.md`, created leaf `2. Embed or reference/2.2. Reference when apart.md`, created leaf `3. Patterns and change/3.1. Schema patterns that scale.md`, created leaf `3. Patterns and change/3.2. Versioning and shape migration.md`, created leaf `4. Mentor checklist/4.1. Document modeling checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA document modeling.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 12] Leaf `03 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — inbound/forward/outward boundary map)
+- Decisions:
+  - Domain 03 mirrors Domains 01–02 shape (6 sections, 9 leaves — extra 3.2 split justified: versioning/migration is a distinct promise from patterns catalog; §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY boundary vs Databases 03 leaf 2.1 held by complementary lenses: Databases owns read-locality + ceiling math + snapshot-vs-truth framing; Domain 03 owns consistency-boundary lens, access-catalog procedure, named patterns catalog, versioning/migration, checklists/QA. Named-pattern grep in Databases 03 pre-build: zero hits — confirmed unowned.
+  - Verification re-caught the standing link lesson a third session running: same-track depth `../../` → `../../../` (in 6.1, 13 occurrences) + bare same-dir `2.2.` links in 3.1/4.1/5.1 (4 occurrences) — all fixed pre-close via scripted replace + re-check. Standing rule now scripted: after writing leaves, run replace pass + link checker before committing 6.1-class leaves.
+  - Infra notes: mongoprobe gone + mongo:8 unrunnable on kernel 6.19 (SERVER-121912, container removed after log inspection) → strict-JSON + parser validation substitution (recorded Unit 1, honored all session). dbprobe found Exited (255) at verification time — restarted cleanly, data intact, 0 `dd_` residue (no DDL run this session — nothing to clean).
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3), created 9 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 3.2, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 3 (resolves); domain index 9 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Domains 01–02 leaves, Databases 03/02/05/06/07 + track indices, DesignPatterns 06, track LOG at `../../../LOG.md`)
+- Verification: 239/239 relative links resolve track-wide (script-checked with unquote — S1 48 + S2 80 + S3 111); 48 JSON blocks / 55 documents machine-parse across 9 Domain 03 leaves (comment-stripped, multi-doc-tolerant parser); DRY grep — `bucket/subset/computed pattern|schemaVersion|extended reference` zero hits outside this track; DoD: era-labeled, junior-first halves, trade-offs priced, runnable strict-JSON examples, neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 4 — Domain 04 Relationships at Scale (FK discipline at volume, junction growth, polymorphism relationally, hot keys) per S1 curriculum; then 05–07 in order. Track README row 4 appended when 04 lands.
 
 ## [2026-09-28 11:07] Session 2 — Domain 02 Normalization Deep Dive
 - Status: DONE
