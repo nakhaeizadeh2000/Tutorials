@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-28 11:07] Session 2 — Domain 02 Normalization Deep Dive
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Session 1 DONE, all 11 units verified on disk, Next steps names Domain 02); README/DatabaseDesign/README.md (1/7 rows); README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md (Template B reference + link lesson: literal spaces, `../../../../` cross-track depth, real folder names only). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none (prior hits are historical mentions inside Context-read lines). Disk verified — Session 1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves); git log head a6a873f, tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
 - Plan (Domain 02 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -21,7 +21,6 @@
   - [unit 1] Opened this Session 2 entry (first write on disk)
   - [unit 2] Research recorded (theory sources, DRY grep — no competing coverage)
   - [unit 3] Created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
-- Decisions:
   - [unit 4] Leaf `02 …/sections/1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md` (3 promises) — DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned; fixed own link errors pre-commit (`%20` + same-track depth `../../` → `../../../`)
   - [unit 5] Leaf `02 …/sections/1. Dependencies and atomicity/1.2. First normal form atomic values.md` (3 promises) — DDL + array operators verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 6] Leaf `02 …/sections/2. The core ladder/2.1. Second and third normal form.md` (3 promises) — split DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
@@ -29,10 +28,15 @@
   - [unit 8] Leaf `02 …/sections/3. Judgment/3.1. Deliberate denormalization with priced trade-offs.md` (3 promises) — materialized-view + CONCURRENTLY DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 9] Leaf `02 …/sections/4. Mentor checklist/4.1. Normalization review checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
   - [unit 10] Leaf `02 …/sections/5. Interview QA/5.1. Common interview QA normalization.md` (3 promises — process leaf, no DDL surface)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2), created leaf `1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md`, created leaf `1. Dependencies and atomicity/1.2. First normal form atomic values.md`, created leaf `2. The core ladder/2.1. Second and third normal form.md`, created leaf `2. The core ladder/2.2. BCNF fourth and fifth normal forms.md`, created leaf `3. Judgment/3.1. Deliberate denormalization with priced trade-offs.md`, created leaf `4. Mentor checklist/4.1. Normalization review checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA normalization.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `02 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — inbound/forward/outward boundary map)
+- Decisions:
+  - Domain 02 mirrors Domain 01's shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries) — consistent track rhythm, Template B + PROMPT.md:86 compliant.
+  - Verification re-caught the Session 1 link lesson: `%20`-encoding in 1.1 (fixed pre-commit) and same-track depth `../../` → `../../../` in 1.1 + 6.1 (fixed pre-close). Standing rule: literal spaces, count depth from file (section dir → `../` = sections, `../../` = own domain, `../../../` = track, `../../../../` = README/), `ls` before cross-linking.
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 2 (resolves); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Domain 01 leaves, Databases 02/03/05/06/07 verified real names, track LOG at `../../../LOG.md`)
+- Verification: 128/128 relative links resolve track-wide (script-checked with unquote — includes Session 1's 48); all leaf DDL executed on PostgreSQL 16.15 via dbprobe (dependency/anomaly pairs, repeating-groups vs arrays with GIN + overlap ops, 2NF/3NF splits, BCNF/4NF/5NF shapes, materialized view + CONCURRENTLY refresh — `dd_` scratch, 0 residue confirmed); DRY grep — `materialized view|second/third normal` zero hits outside this track, normalization mentions elsewhere are forwards here; DoD: version-free theory labeled, junior-first halves, trade-offs priced, runnable examples, neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 3 — Domain 03 Document Modeling for Scale (aggregate boundaries, embed-vs-reference, schema patterns, shape migration) per S1 curriculum; then 04–07 in order. Track README row 3 appended when 03 lands.
 
 ## [2026-09-28 09:34] Session 1 — Create track + Domain 01 Modeling Foundations (Domains 02–07 next)
 - Status: DONE
