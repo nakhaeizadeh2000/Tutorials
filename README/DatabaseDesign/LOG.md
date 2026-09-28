@@ -29,7 +29,8 @@
   - [unit 6] Leaf `03 …/sections/2. Embed or reference/2.1. Embed when together.md` (3 promises) — 6 JSON blocks machine-validated (parse OK)
   - [unit 7] Leaf `03 …/sections/2. Embed or reference/2.2. Reference when apart.md` (3 promises) — 6 JSON blocks machine-validated (parse OK)
   - [unit 8] Leaf `03 …/sections/3. Patterns and change/3.1. Schema patterns that scale.md` (3 promises — bucket/subset/computed) — 6 JSON blocks machine-validated (parse OK)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3), created leaf `1. Aggregates and access/1.1. Aggregates the unit of document modeling.md`, created leaf `1. Aggregates and access/1.2. Access patterns drive document shape.md`, created leaf `2. Embed or reference/2.1. Embed when together.md`, created leaf `2. Embed or reference/2.2. Reference when apart.md`, created leaf `3. Patterns and change/3.1. Schema patterns that scale.md`
+  - [unit 9] Leaf `03 …/sections/3. Patterns and change/3.2. Versioning and shape migration.md` (3 promises) — 6 JSON blocks machine-validated (parse OK)
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3), created leaf `1. Aggregates and access/1.1. Aggregates the unit of document modeling.md`, created leaf `1. Aggregates and access/1.2. Access patterns drive document shape.md`, created leaf `2. Embed or reference/2.1. Embed when together.md`, created leaf `2. Embed or reference/2.2. Reference when apart.md`, created leaf `3. Patterns and change/3.1. Schema patterns that scale.md`, created leaf `3. Patterns and change/3.2. Versioning and shape migration.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
