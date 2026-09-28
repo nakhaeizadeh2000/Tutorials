@@ -1,6 +1,6 @@
 # Database Design track (recommended order, September 2026 era)
 
-Modeling for huge apps — how to shape relational schemas that survive growth: entities, keys, normal forms, relationships, evolution, and capacity modeling — from zero to hero and beyond (junior to mentor depth). Hands-on Postgres & Mongo *usage* lives in the [Databases track](<../Databases/README.md>); object mappers live in the [ORM track](<../ORM/README.md>) (planned sibling per root README — textual forward, no dead link by design). This track assumes working SQL and teaches *design*: decisions that outlive code. Version-sensitive claims are labeled (as of September 2026: PostgreSQL 18 is Current; modeling theory itself is version-free).
+Modeling for huge apps — how to shape relational schemas that survive growth: entities, keys, normal forms, relationships, evolution, and capacity modeling — from zero to hero and beyond (junior to mentor depth). Hands-on Postgres & Mongo *usage* lives in the [Databases track](<../Databases/README.md>); object mappers will live in the ORM track (planned sibling per root README — textual forward, target unbuilt, no dead link by design). This track assumes working SQL and teaches *design*: decisions that outlive code. Version-sensitive claims are labeled (as of September 2026: PostgreSQL 18 is Current; modeling theory itself is version-free).
 
 | # | Module |
 |---|--------|

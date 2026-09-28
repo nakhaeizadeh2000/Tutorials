@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-28 09:34] Session 1 — Create track + Domain 01 Modeling Foundations (Domains 02–07 next)
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding, §§1–8 — full read this session, skill harness reloaded); root README.md (Categories table — Database Design already listed at #10, link target did not exist); README/Databases/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names Database Design as next track); README/Databases/README.md (Template A reference, September 2026 era). Recovery: grep for live `- Status: IN PROGRESS` across all track LOGs — none (JS/TS/ITV/Git/AlgoDesign/Patterns/NodeJS/TSNode/Databases all close DONE). Disk verified — `ls README/` showed no DatabaseDesign dir (created empty this session via mkdir check only, no files), tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. User chose option 1 "Start Database Design track" → Mode 1, Domain 01 first (PARTIAL + precise Next steps only on context limits).
 - Plan (Mode 1 new track; Domain 01 fully implemented this session, domains 02–07 next in order):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,12 @@
   - [unit 8] Leaf `01 …/sections/3. First design moves/3.1. From requirements to tables.md` (3 promises, bookstore worked example) — full 6-table DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 9] Leaf `01 …/sections/4. Mentor checklist/4.1. Modeling checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
   - [unit 10] Leaf `01 …/sections/5. Interview QA/5.1. Common interview QA modeling foundations.md` (3 promises — process leaf, no DDL surface)
-- Files touched: created `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/README.md`, created `README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. What modeling means/1.1. What data modeling is and is not.md`, created leaf `1. What modeling means/1.2. Entities relationships and cardinality.md`, created leaf `2. Identity and keys/2.1. Surrogate versus natural keys.md`, created leaf `2. Identity and keys/2.2. Identity at scale.md`, created leaf `3. First design moves/3.1. From requirements to tables.md`, created leaf `4. Mentor checklist/4.1. Modeling checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA modeling foundations.md`
-- Links fixed / added: track index → Databases README (resolves) + back-link to root README; ORM kept textual (target unbuilt)
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `01 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — outbound/inbound/future boundary map)
+- Decisions:
+  - Track index lists Domain 01 only; rows 02–07 appended as each domain lands (no dead links — matches Databases/TSNode convention). Root README row #10 already points here — creating the track README resolves it, no root edit needed.
+  - Verification caught 3 link classes, all fixed pre-close: (a) `%20`-encoding → literal spaces (neighbor convention, angle-bracket form); (b) cross-track depth `../../../` → `../../../../` (leaf sits 4 deep from README/); (c) fabricated Databases/DesignPatterns folder names replaced with real ones (`02 Postgres Deep Dive`, `03 MongoDB Deep Dive`, `05 Transactions Consistency and Integrity`, `06 Performance Backup and Operations`, `06 Modern Patterns and Anti-Patterns` — verified on disk, not from memory). Track README ORM reference made textual (target unbuilt). Lesson recorded: never write cross-links from memory — `ls` first.
+- Files touched: created `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/README.md`, created `README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md` + 6 `sections/` folders, created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track index → Databases README (resolves) + back-link to root README; ORM kept textual (target unbuilt); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Databases 02/03/05/06–07, DesignPatterns 06, track LOG)
+- Verification: 48/48 relative links resolve (script-checked); all leaf DDL executed on PostgreSQL 16.15 via dbprobe (`dd_` scratch tables, 0 residue confirmed); DRY grep — idempotency/cardinality only mentioned in logs/glossaries, modeling discipline unowned elsewhere; DoD: era-labeled, junior-first halves, trade-off-justified practices, runnable examples, neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 2 — Domain 02 Normalization Deep Dive (1NF→5NF, dependencies, denormalization judgment) per plan above; then 03–07 in order. Track README row 2 appended when 02 lands.
