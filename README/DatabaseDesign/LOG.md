@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (theory sources, DRY grep — no competing coverage)
   - [unit 3] Created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2)
+  - [unit 4] Leaf `02 …/sections/1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md` (3 promises) — DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned; fixed own link errors pre-commit (`%20` + same-track depth `../../` → `../../../`)
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/02 Normalization Deep Dive/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 2), created leaf `1. Dependencies and atomicity/1.1. Functional dependencies the one idea behind every normal form.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
