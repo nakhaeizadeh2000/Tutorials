@@ -26,7 +26,8 @@
   - [unit 3] Created `README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders
   - [unit 4] Leaf `01 …/sections/1. What modeling means/1.1. What data modeling is and is not.md` (3 promises) — DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 5] Leaf `01 …/sections/1. What modeling means/1.2. Entities relationships and cardinality.md` (3 promises) — junction-table DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
-- Files touched: created `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/README.md`, created `README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. What modeling means/1.1. What data modeling is and is not.md`, created leaf `1. What modeling means/1.2. Entities relationships and cardinality.md`
+  - [unit 6] Leaf `01 …/sections/2. Identity and keys/2.1. Surrogate versus natural keys.md` (3 promises) — DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: created `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/README.md`, created `README/DatabaseDesign/01 Modeling Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. What modeling means/1.1. What data modeling is and is not.md`, created leaf `1. What modeling means/1.2. Entities relationships and cardinality.md`, created leaf `2. Identity and keys/2.1. Surrogate versus natural keys.md`
 - Links fixed / added: track index → Databases README (resolves) + back-link to root README; ORM kept textual (target unbuilt)
 - Links fixed / added:
 - Verification:
