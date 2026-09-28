@@ -24,7 +24,8 @@
   - [unit 3] Created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` (Template B domain index, sections 1–6, 9 leaves with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
 - Decisions:
   - No live Mongo (kernel 6.19 vs mongo:8 incompatibility): document examples written as strict-JSON documents (string ids/dates, no shell-only constructors) and machine-validated with a JSON-parse script; query/mechanics claims deferred by link to Databases 03 MongoDB Deep Dive (owns mechanics); design rules (this domain's content) need no engine — they are access-pattern reasoning. Verification section records this substitution honestly.
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3)
+  - [unit 4] Leaf `03 …/sections/1. Aggregates and access/1.1. Aggregates the unit of document modeling.md` (3 promises) — 6 strict-JSON blocks machine-validated (parse OK, no live Mongo per Decisions)
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/03 Document Modeling for Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 3), created leaf `1. Aggregates and access/1.1. Aggregates the unit of document modeling.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
