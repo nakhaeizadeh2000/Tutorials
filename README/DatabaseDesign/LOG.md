@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (evolution/partitioning sources, DRY grep with target-content check — no competing coverage)
   - [unit 3] Created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 5)
+  - [unit 4] Leaf `05 …/sections/1. Schema evolution/1.1. Expand and contract migrations.md` (3 promises) — phased DDL (add-nullable → backfill → SET NOT NULL → NOT VALID → VALIDATE) verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 5), created leaf `1. Schema evolution/1.1. Expand and contract migrations.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
