@@ -1,5 +1,32 @@
 # DatabaseDesign — work log
 
+## [2026-09-29 16:26] Session 6 — Domain 06 Modeling for Operations
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–5 DONE, S5 Next steps names Domain 06); README/DatabaseDesign/README.md (5/7 rows); README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md (Template B reference + standing link rules: literal spaces, depth counting, verify targets' content). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S5 Done 11/11 present (domain 05 index + 6 section dirs + 8/8 leaves); git log head 1fc51bd, tree clean. dbprobe PostgreSQL 16.15 up. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 final session next).
+- Plan (Domain 06 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (operations-modeling sources, DRY grep) + record
+  3. Unit 3 — create `06 Modeling for Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Audit trails that answer questions
+  5. Unit 5 — leaf 1.2. Soft deletes done deliberately
+  6. Unit 6 — leaf 2.1. Outbox pattern for reliable publishing
+  7. Unit 7 — leaf 2.2. Job tables and queues in the database
+  8. Unit 8 — leaf 3.1. Feature flags and config storage
+  9. Unit 9 — leaf 4.1. Operations-modeling checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA operations modeling
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: operations-modeling sources — transactional outbox pattern (industry standard: Fowler/Kleppmann lineage — atomic record + relay + idempotent consume — version-free); audit/history table design (effective dating, history tables — standard temporal practice); SKIP LOCKED work queues (PostgreSQL queueing pattern — stable); feature-flag storage (targeting rules, kill switches — industry practice). DRY grep (`outbox|audit trail|soft delete|SKIP LOCKED|feature flag|job queue|effective dat` + target check): Databases 05 leaf 3.1 owns outbox *pattern + mechanics* (transactional recording, relay process, idempotent consumers, runnable JS) — Domain 06/2.1 does NOT re-teach it (links instead); owned here: outbox *table design* (payload shape, relay cursors, ordering, relayed-row purge). `soft.delete|SKIP LOCKED|feature.flag` outside DatabaseDesign: only TS compiler-flag/type-guard fragments — unrelated. Audit-trail *table design*, soft-delete *design* (UNIQUE interplay, purge path), job-table *schema*, flag/config *schema*: all unowned — Domain 06 owns them. Databases 06 owns backup/monitoring mechanics (linked, not repeated).
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit 2] Research recorded (outbox pattern owner found in Databases 05/3.1 — complementary split; soft-delete/SKIP LOCKED/flag schemas confirmed unowned)
+  - [unit 3] Created `README/DatabaseDesign/06 Modeling for Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-29 10:47] Session 5 — Domain 05 Evolution Growth and Partitioning
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–4 DONE, S4 Next steps names Domain 05); README/DatabaseDesign/README.md (4/7 rows); README/DatabaseDesign/04 Relationships at Scale/README.md (Template B reference + standing link rules: literal spaces, depth counting, verify targets' content). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S4 Done 11/11 present (domain 04 index + 6 section dirs + 8/8 leaves); git log head 0900f88, tree clean. dbprobe PostgreSQL 16.15 up. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
