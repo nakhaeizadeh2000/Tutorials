@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `04 …/sections/1. Foreign keys at volume/1.1. Foreign keys that survive traffic.md` (3 promises) — FK + index + policy DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 5] Leaf `04 …/sections/1. Foreign keys at volume/1.2. Self-references and hierarchies.md` (3 promises) — self-FK + recursive CTE + closure + ltree 1.2 verified on PostgreSQL 16.15 (dbprobe); scratch tables cleaned (ltree extension left installed — idempotent infra, disclosed)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4), created leaf `1. Foreign keys at volume/1.1. Foreign keys that survive traffic.md`, created leaf `1. Foreign keys at volume/1.2. Self-references and hierarchies.md`
+  - [unit 6] Leaf `04 …/sections/2. Many-to-many and polymorphism/2.1. Junction tables at scale.md` (3 promises) — junction + reverse covering index DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4), created leaf `1. Foreign keys at volume/1.1. Foreign keys that survive traffic.md`, created leaf `1. Foreign keys at volume/1.2. Self-references and hierarchies.md`, created leaf `2. Many-to-many and polymorphism/2.1. Junction tables at scale.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
