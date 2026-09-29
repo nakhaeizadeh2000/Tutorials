@@ -8,6 +8,7 @@ Modeling for huge apps — how to shape relational schemas that survive growth: 
 | 2 | [Normalization Deep Dive](<02 Normalization Deep Dive/README.md>) |
 | 3 | [Document Modeling for Scale](<03 Document Modeling for Scale/README.md>) |
 | 4 | [Relationships at Scale](<04 Relationships at Scale/README.md>) |
+| 5 | [Evolution Growth and Partitioning](<05 Evolution Growth and Partitioning/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

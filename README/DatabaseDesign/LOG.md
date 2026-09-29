@@ -1,5 +1,32 @@
 # DatabaseDesign — work log
 
+## [2026-09-29 10:47] Session 5 — Domain 05 Evolution Growth and Partitioning
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–4 DONE, S4 Next steps names Domain 05); README/DatabaseDesign/README.md (4/7 rows); README/DatabaseDesign/04 Relationships at Scale/README.md (Template B reference + standing link rules: literal spaces, depth counting, verify targets' content). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S4 Done 11/11 present (domain 04 index + 6 section dirs + 8/8 leaves); git log head 0900f88, tree clean. dbprobe PostgreSQL 16.15 up. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
+- Plan (Domain 05 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (evolution/partitioning sources, DRY grep) + record
+  3. Unit 3 — create `05 Evolution Growth and Partitioning/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Expand and contract migrations
+  5. Unit 5 — leaf 1.2. Backward-compatible discipline
+  6. Unit 6 — leaf 2.1. Capacity modeling with measured triggers
+  7. Unit 7 — leaf 2.2. Partitioning keys that prune
+  8. Unit 8 — leaf 3.1. Archival and lifecycle tiers
+  9. Unit 9 — leaf 4.1. Evolution review checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA evolution and growth
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: evolution/partitioning sources — expand/contract migration pattern (industry standard zero-downtime practice: expand → migrate → contract — version-free procedure); PostgreSQL declarative partitioning (PARTITION BY RANGE/LIST/HASH — stable since v10, as-of-September-2026 era); capacity planning (growth-rate math — version-free); retention/archival tiers (hot/warm/cold + purge discipline — practice, not version). DRY grep (`expand.*contract|zero-downtime migration|partitioning|table partitioning|data retention|archival|capacity model|cold storage` + target check): hits are this track's own mentions/forwards + NodeJS QA passing mentions; Databases 02 "partition" hit is GROUP BY grouping language, "contract" hits are shape-as-contract — both unrelated. NO expand/contract-migration, table-partitioning-design, capacity-modeling, or archival-policy treatment exists; Domain 05 owns all four. Databases 02 owns migration *execution mechanics* (DDL safety — linked, not repeated).
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (evolution/partitioning sources, DRY grep with target-content check — no competing coverage)
+  - [unit 3] Created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-29 08:40] Session 4 — Domain 04 Relationships at Scale
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–3 DONE, S3 Next steps names Domain 04); README/DatabaseDesign/README.md (3/7 rows); README/DatabaseDesign/03 Document Modeling for Scale/README.md (Template B reference + standing link rules, scripted replace pass). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S3 Done 12/12 present (domain 03 index + 6 section dirs + 9/9 leaves); git log head f616bf6, tree clean. dbprobe PostgreSQL 16.15 up (Up 14 hours). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
