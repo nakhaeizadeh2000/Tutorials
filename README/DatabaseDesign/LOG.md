@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-29 10:47] Session 5 — Domain 05 Evolution Growth and Partitioning
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–4 DONE, S4 Next steps names Domain 05); README/DatabaseDesign/README.md (4/7 rows); README/DatabaseDesign/04 Relationships at Scale/README.md (Template B reference + standing link rules: literal spaces, depth counting, verify targets' content). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S4 Done 11/11 present (domain 04 index + 6 section dirs + 8/8 leaves); git log head 0900f88, tree clean. dbprobe PostgreSQL 16.15 up. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
 - Plan (Domain 05 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `05 …/sections/2. Growth and capacity/2.2. Partitioning keys that prune.md` (3 promises) — declarative partitioning + pruning (single-partition plan) verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 8] Leaf `05 …/sections/3. Lifecycle and retention/3.1. Archival and lifecycle tiers.md` (3 promises) — DETACH + cold-copy + batched-purge DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 9] Leaf `05 …/sections/4. Mentor checklist/4.1. Evolution review checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
-  - [unit 10] Leaf `05 …/sections/5. Interview QA/5.1. Common interview QA evolution and growth.md` (3 promises — process leaf, no DDL surface)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 5), created leaf `1. Schema evolution/1.1. Expand and contract migrations.md`, created leaf `1. Schema evolution/1.2. Backward-compatible discipline.md`, created leaf `2. Growth and capacity/2.1. Capacity modeling with measured triggers.md`, created leaf `2. Growth and capacity/2.2. Partitioning keys that prune.md`, created leaf `3. Lifecycle and retention/3.1. Archival and lifecycle tiers.md`, created leaf `4. Mentor checklist/4.1. Evolution review checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA evolution and growth.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `05 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — outward/twin/operations boundary map)
+- Decisions:
+  - Domain 05 mirrors Domains 01–04 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY: pre-build grep + target-content check (GROUP BY "partition" and shape-"contract" hits unrelated; NodeJS expand/contract mention is deploy-context) — NO expand/contract-migration, table-partitioning-design, capacity-modeling, or archival-policy treatment exists; Domain 05 owns all four. Post-build spot check (`legal_hold|expand/contract`) confirms mention-only elsewhere.
+  - Link discipline: 427/427 with exactly one break (bare same-dir `2.2.` link in 4.1 — the recurring class, fixed pre-close). Standing rules routine; checker run before every close.
+  - Infra: dbprobe up throughout (PG 16.15); all DDL verified live with `dd_` scratch tables (phased DDL, additive safety, storage-size probes, declarative partitioning + pruning plan, DETACH + cold-copy + batched purge), 0 residue.
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 5), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 5 (resolves); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Databases 02/05/06/07 with verified paths, Domain 03 §3.2 twin, Domain 06 forward textual, track LOG at `../../../LOG.md`); 1 bare-link fix in 4.1 pre-close
+- Verification: 427/427 relative links resolve track-wide (script-checked with unquote — S1 48 + S2 80 + S3 111 + S4 99 + S5 89); all leaf DDL executed on PostgreSQL 16.15 via dbprobe (`dd_` scratch, 0 residue); DRY grep — expand/contract, partitioning-design, capacity-modeling, archival-policy, legal-hold treatments unowned elsewhere; DoD: era-labeled, junior-first halves, trade-offs priced, runnable examples, neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 6 — Domain 06 Modeling for Operations (observability schemas, audit trails, outbox pattern, job tables, flag storage) per S1 curriculum; then 07 in order. Track README row 6 appended when 06 lands.
 
 ## [2026-09-29 08:40] Session 4 — Domain 04 Relationships at Scale
 - Status: DONE
