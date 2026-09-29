@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (hierarchy/polymorphic/skew sources, DRY grep — no competing relational coverage)
   - [unit 3] Created `README/DatabaseDesign/04 Relationships at Scale/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4)
+  - [unit 4] Leaf `04 …/sections/1. Foreign keys at volume/1.1. Foreign keys that survive traffic.md` (3 promises) — FK + index + policy DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4), created leaf `1. Foreign keys at volume/1.1. Foreign keys that survive traffic.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
