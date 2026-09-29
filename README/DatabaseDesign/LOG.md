@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-29 08:40] Session 4 — Domain 04 Relationships at Scale
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–3 DONE, S3 Next steps names Domain 04); README/DatabaseDesign/README.md (3/7 rows); README/DatabaseDesign/03 Document Modeling for Scale/README.md (Template B reference + standing link rules, scripted replace pass). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S3 Done 12/12 present (domain 03 index + 6 section dirs + 9/9 leaves); git log head f616bf6, tree clean. dbprobe PostgreSQL 16.15 up (Up 14 hours). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
 - Plan (Domain 04 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `04 …/sections/2. Many-to-many and polymorphism/2.2. Polymorphic associations done honestly.md` (3 promises) — exclusive-arc CHECK + supertype DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 8] Leaf `04 …/sections/3. Skew and hot relationships/3.1. Hot keys and skew.md` (3 promises) — sharded-counter + keyset DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 9] Leaf `04 …/sections/4. Mentor checklist/4.1. Relationship review checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
-  - [unit 10] Leaf `04 …/sections/5. Interview QA/5.1. Common interview QA relationships at scale.md` (3 promises — process leaf, no DDL surface)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4), created leaf `1. Foreign keys at volume/1.1. Foreign keys that survive traffic.md`, created leaf `1. Foreign keys at volume/1.2. Self-references and hierarchies.md`, created leaf `2. Many-to-many and polymorphism/2.1. Junction tables at scale.md`, created leaf `2. Many-to-many and polymorphism/2.2. Polymorphic associations done honestly.md`, created leaf `3. Skew and hot relationships/3.1. Hot keys and skew.md`, created leaf `4. Mentor checklist/4.1. Relationship review checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA relationships at scale.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `04 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — inbound/inheritance/outward boundary map)
+- Decisions:
+  - Domain 04 mirrors Domains 01–03 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY: two grep rounds pre-build (`polymorphic|exclusive arc|closure|ltree|celebrity|hot key|skew` + `nested set|adjacency|supertype|fan-out`) — hits are NodeJS event fan-out/pub-sub, TS polymorphic types, plus this track's own mentions; NO relational relationship-scale treatment exists. Post-build DRY caught one misattribution: keyset-pagination mechanics linked to Databases 02 (which has zero keyset coverage — verified by grep) → all 5 references repointed to the true owner Databases 07 §2.2 Data API contracts (verified on disk). Sharded counters mentioned once in Databases 05 transactional context (redesign-aside, no treatment) — full DDL + economics owned here, no conflict. Lesson: verify link *targets'* content, not just their paths.
+  - Link discipline: 333/333 on first checker pass (no replace pass needed — careful writing held); +5 keyset repoint links → 338/338 final. Standing rules (literal spaces, depth counting, `ls` before cross-linking) now routine.
+  - Infra: dbprobe up throughout (PG 16.15); all DDL verified live with `dd_` scratch tables, 0 residue (ltree extension left installed from S4U5 — idempotent, disclosed S4U5).
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 4 (resolves); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Domains 01–02 leaves, Databases 02/05/06/07 with verified real names, DesignPatterns 06, track LOG at `../../../LOG.md`); 5 keyset-mechanics references repointed Databases 02 → Databases 07 §2.2 (true owner, verified)
+- Verification: 338/338 relative links resolve track-wide (script-checked with unquote — S1 48 + S2 80 + S3 111 + S4 99); all leaf DDL executed on PostgreSQL 16.15 via dbprobe (FK+index+policy, self-FK + recursive CTE + closure + ltree 1.2, junction + reverse covering index, exclusive-arc CHECK + supertype, sharded counters + keyset shape — `dd_` scratch, 0 residue); DRY grep — exclusive-arc/closure/sharded-counter full treatments unowned elsewhere (keyset mechanics correctly attributed to Databases 07 §2.2); DoD: era-labeled, junior-first halves, trade-offs priced, runnable examples, neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 5 — Domain 05 Evolution Growth and Partitioning (expand/contract migration, capacity modeling, partitioning keys, archival) per S1 curriculum; then 06–07 in order. Track README row 5 appended when 05 lands.
 
 ## [2026-09-28 15:28] Session 3 — Domain 03 Document Modeling for Scale
 - Status: DONE
