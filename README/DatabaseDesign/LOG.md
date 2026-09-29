@@ -1,5 +1,32 @@
 # DatabaseDesign — work log
 
+## [2026-09-29 08:40] Session 4 — Domain 04 Relationships at Scale
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–3 DONE, S3 Next steps names Domain 04); README/DatabaseDesign/README.md (3/7 rows); README/DatabaseDesign/03 Document Modeling for Scale/README.md (Template B reference + standing link rules, scripted replace pass). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S3 Done 12/12 present (domain 03 index + 6 section dirs + 9/9 leaves); git log head f616bf6, tree clean. dbprobe PostgreSQL 16.15 up (Up 14 hours). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
+- Plan (Domain 04 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (relationship-scale sources, DRY grep) + record
+  3. Unit 3 — create `04 Relationships at Scale/README.md` (Template B, sections 1–6) + 6 section folders + track README row 4
+  4. Unit 4 — leaf 1.1. Foreign keys that survive traffic
+  5. Unit 5 — leaf 1.2. Self-references and hierarchies
+  6. Unit 6 — leaf 2.1. Junction tables at scale
+  7. Unit 7 — leaf 2.2. Polymorphic associations done honestly
+  8. Unit 8 — leaf 3.1. Hot keys and skew
+  9. Unit 9 — leaf 4.1. Relationship review checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA relationships at scale
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: relationship-scale sources — hierarchy modeling options (adjacency list, closure table, nested sets, PostgreSQL ltree extension — all stable, version-free theory; ltree is contrib, available since forever, as-of-September-2026 era); polymorphic patterns (exclusive arcs, supertype/subtype tables — standard SQL modeling literature); fan-out/celebrity problem (social-graph scale literature — version-free); FK discipline (PostgreSQL FKs not auto-indexed — engine behavior owned by Databases 02, decision rules here). DRY grep (`polymorphic|exclusive arc|closure table|ltree|celebrity|hot key|skew` + `nested set|adjacency list|supertype|fan-out|fanout`): hits are NodeJS event fan-out/pub-sub, TS polymorphic types and perf checklists, plus this track's own mentions (03/3.2 discriminator, 01/3.1 junctions) — NO relational relationship-scale treatment exists; Domain 04 owns FK-at-volume, hierarchies, junctions-at-scale, polymorphic associations, hot-key skew.
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit 2] Research recorded (hierarchy/polymorphic/skew sources, DRY grep — no competing relational coverage)
+  - [unit 3] Created `README/DatabaseDesign/04 Relationships at Scale/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/04 Relationships at Scale/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-28 15:28] Session 3 — Domain 03 Document Modeling for Scale
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–2 DONE, S2 Next steps names Domain 03); README/DatabaseDesign/README.md (2/7 rows); README/DatabaseDesign/02 Normalization Deep Dive/README.md (Template B reference + standing link rules). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S2 Done 11/11 present (domain 02 index + 6 section dirs + 8/8 leaves); git log head f98b9e0, tree clean. dbprobe PostgreSQL 16.15 up. Mongo: NO live verification available — mongoprobe container gone, mongo:8 image fails on kernel 6.19 (SERVER-121912 incompatibility, confirmed via docker logs, container removed). Mitigation recorded in Decisions. No discrepancies otherwise; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
