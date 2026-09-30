@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (DRY grep — synthesis scope confirmed unowned; reference-not-reteach rule set)
   - [unit 3] Created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7)
+  - [unit 4] Leaf `07 …/sections/1. Track synthesis/1.1. The modeling method end to end.md` (3 promises) — capstone DDL (customers/orders/outbox shapes) verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created leaf `1. Track synthesis/1.1. The modeling method end to end.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
