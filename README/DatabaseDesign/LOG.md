@@ -26,7 +26,8 @@
   - [unit 5] Leaf `07 …/sections/1. Track synthesis/1.2. Design review as a practice.md` (3 promises — process leaf, no DDL surface; 2 writing glitches caught post-write via grep, fixed pre-commit)
   - [unit 6] Leaf `07 …/sections/2. Production incidents/2.1. Classic modeling incidents and their fixes.md` (3 promises — orphan storm, ceiling collision, fiction dashboard, each traced to home domains; 1 writing glitch fixed pre-commit)
   - [unit 7] Leaf `07 …/sections/2. Production incidents/2.2. From incidents to prevention.md` (3 promises — artifact postmortems, scheduled prevention, story bank)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created leaf `1. Track synthesis/1.1. The modeling method end to end.md`, created leaf `1. Track synthesis/1.2. Design review as a practice.md`, created leaf `2. Production incidents/2.1. Classic modeling incidents and their fixes.md`, created leaf `2. Production incidents/2.2. From incidents to prevention.md`
+  - [unit 8] Leaf `07 …/sections/3. Interview mastery/3.1. Cross-domain interview synthesis.md` (3 promises — traveling answers, system-design adjacency, method narration)
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created leaf `1. Track synthesis/1.1. The modeling method end to end.md`, created leaf `1. Track synthesis/1.2. Design review as a practice.md`, created leaf `2. Production incidents/2.1. Classic modeling incidents and their fixes.md`, created leaf `2. Production incidents/2.2. From incidents to prevention.md`, created leaf `3. Interview mastery/3.1. Cross-domain interview synthesis.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
