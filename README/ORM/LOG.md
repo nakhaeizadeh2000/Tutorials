@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `02 …/sections/1. Schema authoring/1.1. Models fields and attributes.md` (3 promises) — richer schema (enum/relations/defaults) validate + generate passing; enum defaults + nested connect-create + include run live on dbprobe (outputs verified, tables + PG enum type dropped, 0 residue)
   - [unit 5] Leaf `02 …/sections/1. Schema authoring/1.2. Relations in schema.md` (3 promises) — extended schema (1-1 unique FK, implicit + explicit m-n) validate + generate passing; nested 1-1 create, implicit connect + include, explicit create-with-grade + nested include all run live on dbprobe (outputs verified, tables dropped, 0 residue); 1 writing glitch fixed pre-commit
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2), created leaf `1. Schema authoring/1.1. Models fields and attributes.md`, created leaf `1. Schema authoring/1.2. Relations in schema.md`
+  - [unit 6] Leaf `02 …/sections/2. Migrations and client/2.1. Migrate tooling that stays honest.md` (3 promises) — migrate diff/status/deploy behaviors verified live on Prisma 7.10.0 against shared dbprobe WITHOUT mutating it (diff renders reviewable SQL; dev correctly refuses shared DB without reset; deploy correctly refuses unbaselined DB with P3005 + pointer; 0 residue — nothing created); 1 writing glitch fixed pre-commit
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2), created leaf `1. Schema authoring/1.1. Models fields and attributes.md`, created leaf `1. Schema authoring/1.2. Relations in schema.md`, created leaf `2. Migrations and client/2.1. Migrate tooling that stays honest.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
