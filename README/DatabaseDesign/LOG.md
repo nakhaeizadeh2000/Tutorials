@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-30 12:58] Session 7 (final) — Domain 07 Production Modeling and Interview Mastery + TRACK COMPLETE
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — head re-read this session, full reads S1–S6 on file); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (Session 6 block + S6 Next steps names Domain 07 final; S1–S5 history on file, all DONE); README/DatabaseDesign/README.md (6/7 rows); README/DatabaseDesign/06 Modeling for Operations/README.md (Template B reference + standing link rules: literal spaces, depth counting, verify targets' content). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S6 Done 11/11 present (domain 06 index + 6 section dirs + 8/8 leaves); git log head b2e72a3, tree clean. dbprobe PostgreSQL 16.15 up. No discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S1–S6 immutable). No scope override in request → resume from S6 Next steps: Domain 07 + TRACK COMPLETE closeout (final domain per S1 curriculum — Plan exhausts the track).
 - Plan (Domain 07 fully implemented + track closeout this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `07 …/sections/2. Production incidents/2.2. From incidents to prevention.md` (3 promises — artifact postmortems, scheduled prevention, story bank)
   - [unit 8] Leaf `07 …/sections/3. Interview mastery/3.1. Cross-domain interview synthesis.md` (3 promises — traveling answers, system-design adjacency, method narration)
   - [unit 9] Leaf `07 …/sections/4. Mentor checklist/4.1. Mentor checklist for the whole track.md` (3 promises — teaching order, drills + capstones, graduation gates)
-  - [unit 10] Leaf `07 …/sections/5. Interview QA/5.1. Common interview QA production modeling.md` (3 promises — staff loop, trade-offs, revisit; 1 writing glitch fixed pre-commit)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created leaf `1. Track synthesis/1.1. The modeling method end to end.md`, created leaf `1. Track synthesis/1.2. Design review as a practice.md`, created leaf `2. Production incidents/2.1. Classic modeling incidents and their fixes.md`, created leaf `2. Production incidents/2.2. From incidents to prevention.md`, created leaf `3. Interview mastery/3.1. Cross-domain interview synthesis.md`, created leaf `4. Mentor checklist/4.1. Mentor checklist for the whole track.md`, created leaf `5. Interview QA/5.1. Common interview QA production modeling.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `07 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — track edges, sibling consumption, method travel)
+- Decisions:
+  - Domain 07 mirrors Domains 01–06 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant. Synthesis rule enforced throughout: reference-not-reteach (every incident/lesson links its home domain; new content is connections only — method sequence, incident→domain mapping, review meta-process, mentor order).
+  - DRY: pre-build grep (postmortem/blameless/incident-review hits are NodeJS runtime + own mentions — no modeling-incident catalog or track synthesis exists); post-build spot check (`B-C-P-B|story bank|traveling answer`) zero hits elsewhere.
+  - Link discipline: 665/665 on first checker pass (incl. deep Databases 05 paths). Standing rules routine all session.
+  - Infra: dbprobe up throughout (PG 16.15); capstone DDL verified live with `dd_` scratch tables, 0 residue. Two writing glitches caught post-write via grep (fixed pre-commit).
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 7 (resolves — 7/7 rows); domain index 8 leaf links + back-link; inter-leaf cross-links (all six prior domains referenced); 6.1 boundary map (Databases track + 05/06/07 with verified deep paths, DesignPatterns 06, Domains 01–06 leaves, track LOG at `../../../LOG.md`)
+- Verification: 665/665 relative links resolve track-wide (script-checked with unquote — S1 48 + S2 80 + S3 111 + S4 99 + S5 89 + S6 111 + S7 127); capstone DDL executed on PostgreSQL 16.15 via dbprobe (`dd_` scratch, 0 residue); DRY grep — synthesis/method-travel/story-bank treatments unowned elsewhere; DoD: era-labeled, junior-first halves, trade-offs priced, runnable examples, neighbor tone matched, indexes updated, LOG appended. Root README row 10 resolves (no root edit needed — track registered Session 1).
+- Status: DONE
+- Next steps: TRACK COMPLETE 7/7 — Database Design track finished (66 md files: LOG + track README + 7 domain indexes + 57 leaves). Future work (new sessions only): refresh/update per PROMPT.md Mode 3 as PostgreSQL evolves; next track per root README order is ORM (#11, planned sibling — textual forwards from this track's 6.1 leaves will resolve when ORM lands).
 
 ## [2026-09-29 16:26] Session 6 — Domain 06 Modeling for Operations
 - Status: DONE
