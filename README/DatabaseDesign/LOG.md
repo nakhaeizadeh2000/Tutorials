@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `07 …/sections/1. Track synthesis/1.1. The modeling method end to end.md` (3 promises) — capstone DDL (customers/orders/outbox shapes) verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 5] Leaf `07 …/sections/1. Track synthesis/1.2. Design review as a practice.md` (3 promises — process leaf, no DDL surface; 2 writing glitches caught post-write via grep, fixed pre-commit)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created leaf `1. Track synthesis/1.1. The modeling method end to end.md`, created leaf `1. Track synthesis/1.2. Design review as a practice.md`
+  - [unit 6] Leaf `07 …/sections/2. Production incidents/2.1. Classic modeling incidents and their fixes.md` (3 promises — orphan storm, ceiling collision, fiction dashboard, each traced to home domains; 1 writing glitch fixed pre-commit)
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/07 Production Modeling and Interview Mastery/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 7), created leaf `1. Track synthesis/1.1. The modeling method end to end.md`, created leaf `1. Track synthesis/1.2. Design review as a practice.md`, created leaf `2. Production incidents/2.1. Classic modeling incidents and their fixes.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
