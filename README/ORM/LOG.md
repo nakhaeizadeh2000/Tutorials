@@ -23,7 +23,8 @@
   - [unit 3] Created `README/ORM/02 Prisma Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
 - Decisions:
   - [unit 4] Leaf `02 …/sections/1. Schema authoring/1.1. Models fields and attributes.md` (3 promises) — richer schema (enum/relations/defaults) validate + generate passing; enum defaults + nested connect-create + include run live on dbprobe (outputs verified, tables + PG enum type dropped, 0 residue)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2), created leaf `1. Schema authoring/1.1. Models fields and attributes.md`
+  - [unit 5] Leaf `02 …/sections/1. Schema authoring/1.2. Relations in schema.md` (3 promises) — extended schema (1-1 unique FK, implicit + explicit m-n) validate + generate passing; nested 1-1 create, implicit connect + include, explicit create-with-grade + nested include all run live on dbprobe (outputs verified, tables dropped, 0 residue); 1 writing glitch fixed pre-commit
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2), created leaf `1. Schema authoring/1.1. Models fields and attributes.md`, created leaf `1. Schema authoring/1.2. Relations in schema.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
