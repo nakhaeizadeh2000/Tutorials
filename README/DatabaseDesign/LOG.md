@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (outbox pattern owner found in Databases 05/3.1 — complementary split; soft-delete/SKIP LOCKED/flag schemas confirmed unowned)
   - [unit 3] Created `README/DatabaseDesign/06 Modeling for Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6)
+  - [unit 4] Leaf `06 …/sections/1. History and deletion/1.1. Audit trails that answer questions.md` (3 promises) — trigger-mirror + effective-dating DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created leaf `1. History and deletion/1.1. Audit trails that answer questions.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
