@@ -25,7 +25,8 @@
   - [unit 3] Created `README/ORM/README.md` (Template A track index, lists Domain 01) + `README/ORM/01 Data Access Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders — root README row #11 now resolves, no root edit needed
 - Decisions:
   - [unit 4] Leaf `01 …/sections/1. Why data-access layers/1.1. What problem data-access layers solve and create.md` (3 promises) — TS snippets tsc --strict clean (temp files, deleted pre-commit, tree verified clean); pg parameterized query run live on dbprobe (row returned, table dropped, 0 residue); BIGINT-returns-string gotcha verified live and recorded in-leaf
-- Files touched: created `README/ORM/LOG.md`, created `README/ORM/README.md`, created `README/ORM/01 Data Access Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. Why data-access layers/1.1. What problem data-access layers solve and create.md`
+  - [unit 5] Leaf `01 …/sections/1. Why data-access layers/1.2. Query builders versus ORMs versus raw drivers.md` (3 promises) — raw + Drizzle snippets tsc --strict clean against real packages (temp files, deleted pre-commit); Drizzle select run live on dbprobe (typed row returned, table dropped, 0 residue); Prisma/TypeORM sketches orientation-only (full mechanics deferred to Domains 02–03)
+- Files touched: created `README/ORM/LOG.md`, created `README/ORM/README.md`, created `README/ORM/01 Data Access Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. Why data-access layers/1.1. What problem data-access layers solve and create.md`, created leaf `1. Why data-access layers/1.2. Query builders versus ORMs versus raw drivers.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
