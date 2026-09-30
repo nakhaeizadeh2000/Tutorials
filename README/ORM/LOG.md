@@ -1,5 +1,32 @@
 # ORM — work log
 
+## [2026-09-30 14:43] Session 2 — Domain 02 Prisma Deep Dive
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1 ORM on file; PROMPT.md/root README.md unchanged (git log: last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/ORM/README.md (1/7 rows); README/ORM/01 Data Access Foundations and Mental Model/README.md (Template B reference + standing link/rules: literal spaces, depth counting, verify targets' content, global-module verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves); git log head 9445687, tree clean. dbprobe PostgreSQL 16.15 up. Prisma 7.10.0 global + generated-client pattern from S1 on file. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
+- Plan (Domain 02 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (Prisma 7 docs specifics, DRY grep) + record
+  3. Unit 3 — create `02 Prisma Deep Dive/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Models fields and attributes
+  5. Unit 5 — leaf 1.2. Relations in schema
+  6. Unit 6 — leaf 2.1. Migrate tooling that stays honest
+  7. Unit 7 — leaf 2.2. Client queries and relations
+  8. Unit 8 — leaf 3.1. N+1 strategies and raw escapes
+  9. Unit 9 — leaf 4.1. Prisma checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA Prisma
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Prisma 7.10.0 CLI verified live (`prisma --help`, `prisma migrate --help`) — commands: init/bootstrap/dev/generate/db/migrate/studio/validate/format; migrate subcommands dev/reset/deploy/status/resolve/diff (baselining via `migrate resolve` — verified in help text). DRY grep (`prisma migrate|migrate.*prisma|prisma include|relation|queryRaw|transaction`): hits are only this track's own Domain 01 mentions/forwards — NO Prisma deep treatment exists; Domain 02 owns schema authoring, migrate tooling, client relations/queries, N+1 strategies, raw escapes. Verification setup reused from S1 (global prisma/adapter/client, dbprobe TCP localhost:5433/`probe`, temp-dirs-in-repo deleted pre-commit).
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (Prisma 7 CLI surface verified live, DRY grep — no competing coverage)
+  - [unit 3] Created `README/ORM/02 Prisma Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-30 14:11] Session 1 — Create track + Domain 01 Data Access Foundations (Domains 02–07 next)
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign on file; PROMPT.md/root README.md unchanged since long before (git log: last touches 49a1003/4ad143a, unrelated) — deltas re-verified this session, no re-read needed beyond change check); root README.md (Categories table — ORM already listed at #11, link target did not exist); README/DatabaseDesign/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names ORM as next track); README/DatabaseDesign/README.md (Template A reference, September 2026 era). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (all PARTIAL hits are closed-session history, immutable per PROMPT.md:165). Disk verified — DatabaseDesign TRACK COMPLETE on disk (7/7 domains, 7/7 rows, 66 md files, HEAD 4d62abd closeout, tree clean); `ls README/` shows no ORM dir. No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. No scope override in request → Mode 1 new track, Domain 01 only (02–07 future sessions, per convention).
