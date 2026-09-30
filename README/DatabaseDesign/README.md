@@ -10,6 +10,7 @@ Modeling for huge apps — how to shape relational schemas that survive growth: 
 | 4 | [Relationships at Scale](<04 Relationships at Scale/README.md>) |
 | 5 | [Evolution Growth and Partitioning](<05 Evolution Growth and Partitioning/README.md>) |
 | 6 | [Modeling for Operations](<06 Modeling for Operations/README.md>) |
+| 7 | [Production Modeling and Interview Mastery](<07 Production Modeling and Interview Mastery/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
