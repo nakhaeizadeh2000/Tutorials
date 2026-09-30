@@ -1,7 +1,7 @@
 # DatabaseDesign — work log
 
 ## [2026-09-29 16:26] Session 6 — Domain 06 Modeling for Operations
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full read this session); root README.md (Database Design #10, unchanged); README/DatabaseDesign/LOG.md (full — Sessions 1–5 DONE, S5 Next steps names Domain 06); README/DatabaseDesign/README.md (5/7 rows); README/DatabaseDesign/05 Evolution Growth and Partitioning/README.md (Template B reference + standing link rules: literal spaces, depth counting, verify targets' content). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S5 Done 11/11 present (domain 05 index + 6 section dirs + 8/8 leaves); git log head 1fc51bd, tree clean. dbprobe PostgreSQL 16.15 up. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 final session next).
 - Plan (Domain 06 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `06 …/sections/2. Coordination out of the database/2.2. Job tables and queues in the database.md` (3 promises) — claim-work SKIP LOCKED + coherence-CHECK rejection + state-machine DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 8] Leaf `06 …/sections/3. Runtime configuration/3.1. Feature flags and config storage.md` (3 promises) — flag-table + targeting-evaluation DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned; stray non-ASCII glitch caught and fixed pre-commit (non-ASCII scan clean: only standard ←/§/≪ remain)
   - [unit 9] Leaf `06 …/sections/4. Mentor checklist/4.1. Operations-modeling checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
-  - [unit 10] Leaf `06 …/sections/5. Interview QA/5.1. Common interview QA operations modeling.md` (3 promises — process leaf, no DDL surface)
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created leaf `1. History and deletion/1.1. Audit trails that answer questions.md`, created leaf `1. History and deletion/1.2. Soft deletes done deliberately.md`, created leaf `2. Coordination out of the database/2.1. Outbox tables designed for relay.md`, created leaf `2. Coordination out of the database/2.2. Job tables and queues in the database.md`, created leaf `3. Runtime configuration/3.1. Feature flags and config storage.md`, created leaf `4. Mentor checklist/4.1. Operations-modeling checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA operations modeling.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `06 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — transaction/backup/application boundary map)
+- Decisions:
+  - Domain 06 mirrors Domains 01–05 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY: pre-build grep + target-content check found Databases 05/3.1 owning outbox *pattern + mechanics* → 06/2.1 owns outbox *table design* only (pattern linked, never re-taught — including a declined-duplication tombstone paragraph instead of a BAD example). Soft-delete/SKIP LOCKED/flag-schema/audit-table-design/effective-dating confirmed unowned (TS hits are compiler-flag fragments). Post-build spot check (`outbox table|claim SKIP LOCKED|partial unique|effective dat`) zero hits elsewhere.
+  - Link discipline: 538/538 on first checker pass (incl. deep Databases 05 paths verified: 3. Distribution/3.1, 1. Guarantees/1.1, 2. Mechanisms/2.2 — all resolve). Standing rules routine.
+  - Infra: dbprobe up throughout (PG 16.15); all DDL verified live with `dd_` scratch tables (audit trigger + history, partial-unique reuse, outbox relay-claim + purge, SKIP LOCKED claim + coherence-CHECK rejection, flag targeting eval), 0 residue. One stray non-ASCII glitch caught post-write in 3.1 (fixed pre-commit; scan confirms only standard ←/§/≪ remain).
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 6 (resolves); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Databases 05/06/07 with verified deep paths, DesignPatterns 06, Domains 01–05 leaves, track LOG at `../../../LOG.md`)
+- Verification: 538/538 relative links resolve track-wide (script-checked with unquote — S1 48 + S2 80 + S3 111 + S4 99 + S5 89 + S6 111); all leaf DDL executed on PostgreSQL 16.15 via dbprobe (`dd_` scratch, 0 residue); DRY grep — outbox-table/claim-work/partial-unique/effective-dating/flag-schema treatments unowned elsewhere (outbox pattern correctly attributed to Databases 05 §3.1); DoD: era-labeled, junior-first halves, trade-offs priced, runnable examples, neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 7 (final) — Domain 07 Production Modeling and Interview Mastery (track synthesis, production incidents review, cross-domain interview QA, track boundaries) per S1 curriculum. Track README row 7 appended when 07 lands; then TRACK COMPLETE closeout (full link sweep + root README check + final commit).
 
 ## [2026-09-29 10:47] Session 5 — Domain 05 Evolution Growth and Partitioning
 - Status: DONE
