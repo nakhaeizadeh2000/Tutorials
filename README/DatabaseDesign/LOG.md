@@ -23,7 +23,8 @@
   - [unit 3] Created `README/DatabaseDesign/06 Modeling for Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
 - Decisions:
   - [unit 4] Leaf `06 …/sections/1. History and deletion/1.1. Audit trails that answer questions.md` (3 promises) — trigger-mirror + effective-dating DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created leaf `1. History and deletion/1.1. Audit trails that answer questions.md`
+  - [unit 5] Leaf `06 …/sections/1. History and deletion/1.2. Soft deletes done deliberately.md` (3 promises) — partial-unique reuse-after-delete verified on PostgreSQL 16.15 (dbprobe), residue cleaned
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created leaf `1. History and deletion/1.1. Audit trails that answer questions.md`, created leaf `1. History and deletion/1.2. Soft deletes done deliberately.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
