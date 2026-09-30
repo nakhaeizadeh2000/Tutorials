@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `06 …/sections/1. History and deletion/1.1. Audit trails that answer questions.md` (3 promises) — trigger-mirror + effective-dating DDL verified on PostgreSQL 16.15 (dbprobe), residue cleaned
   - [unit 5] Leaf `06 …/sections/1. History and deletion/1.2. Soft deletes done deliberately.md` (3 promises) — partial-unique reuse-after-delete verified on PostgreSQL 16.15 (dbprobe), residue cleaned
-- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created leaf `1. History and deletion/1.1. Audit trails that answer questions.md`, created leaf `1. History and deletion/1.2. Soft deletes done deliberately.md`
+  - [unit 6] Leaf `06 …/sections/2. Coordination out of the database/2.1. Outbox tables designed for relay.md` (3 promises) — outbox table + SKIP LOCKED relay-claim + windowed purge verified on PostgreSQL 16.15 (dbprobe), residue cleaned; pattern itself linked to Databases 05 §3.1 (not re-taught)
+- Files touched: modified `README/DatabaseDesign/LOG.md`, created `README/DatabaseDesign/06 Modeling for Operations/README.md` + 6 `sections/` folders, modified `README/DatabaseDesign/README.md` (row 6), created leaf `1. History and deletion/1.1. Audit trails that answer questions.md`, created leaf `1. History and deletion/1.2. Soft deletes done deliberately.md`, created leaf `2. Coordination out of the database/2.1. Outbox tables designed for relay.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
