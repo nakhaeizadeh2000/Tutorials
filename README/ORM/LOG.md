@@ -25,7 +25,8 @@
   - [unit 4] Leaf `06 …/sections/1. Connections and transactions/1.1. Pool sizing per tool.md` (3 promises) — pool-queueing (max:1 → 1539ms) + statement_timeout cancellation verified live on dbprobe; PrismaPg adapter typings inspected (Pool/Client passthrough confirmed); 2 writing glitches fixed pre-commit
   - [unit 5] Leaf `06 …/sections/1. Connections and transactions/1.2. Transaction discipline at scale.md` (3 promises) — Drizzle db.transaction rollback-on-throw verified live (outputs verified); no DDL surface (discipline leaf — mechanics linked to Databases 05)
   - [unit 6] Leaf `06 …/sections/2. Operating mappers/2.1. Production observability per mapper.md` (3 promises) — slow-query wrapper detection (326ms over 200ms) + pg_stat_activity pool visibility verified live on dbprobe; 2 writing glitches fixed pre-commit
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6), created leaf `1. Connections and transactions/1.1. Pool sizing per tool.md`, created leaf `1. Connections and transactions/1.2. Transaction discipline at scale.md`, created leaf `2. Operating mappers/2.1. Production observability per mapper.md`
+  - [unit 7] Leaf `06 …/sections/2. Operating mappers/2.2. Upgrade operations without drama.md` (3 promises — process leaf, no DDL surface; 1 mangled cross-link caught + fixed pre-commit)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6), created leaf `1. Connections and transactions/1.1. Pool sizing per tool.md`, created leaf `1. Connections and transactions/1.2. Transaction discipline at scale.md`, created leaf `2. Operating mappers/2.1. Production observability per mapper.md`, created leaf `2. Operating mappers/2.2. Upgrade operations without drama.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
