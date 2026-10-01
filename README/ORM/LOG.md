@@ -1,5 +1,32 @@
 # ORM — work log
 
+## [2026-10-01 08:55] Session 4 — Domain 04 Drizzle Deep Dive
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S3 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–3 DONE, S3 Next steps names Domain 04); README/ORM/README.md (3/7 rows); README/ORM/03 TypeORM Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S3 Done 11/11 present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); git log head 87597ae, tree clean. dbprobe PostgreSQL 16.15 up. Drizzle 0.45.3 global (S1 on file: pgTable/bigint/text/eq + drizzle() verified live). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
+- Plan (Domain 04 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (Drizzle 0.45 kit/relations specifics, DRY grep) + record
+  3. Unit 3 — create `04 Drizzle Deep Dive/README.md` (Template B, sections 1–6) + 6 section folders + track README row 4
+  4. Unit 4 — leaf 1.1. Schema as code
+  5. Unit 5 — leaf 1.2. Relations declared beside tables
+  6. Unit 6 — leaf 2.1. Queries composed, not concatenated
+  7. Unit 7 — leaf 2.2. Migrations via drizzle-kit
+  8. Unit 8 — leaf 3.1. Relational queries and N+1
+  9. Unit 9 — leaf 4.1. Drizzle checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA Drizzle
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Drizzle 0.45.3 API verified live via require — `relations()` exists, `defineRelations` does NOT (0.45 uses relations()); helpers sql/and/desc/count present. drizzle-kit 0.31.11 installed global, `--help` verified — commands: generate/migrate/introspect/push/studio/up/check/drop/export. DRY grep (`drizzle-kit|drizzle relation|defineRelations|db.query`): hits are only this track's own Domain 01–03 mentions/forwards — NO Drizzle deep treatment exists; Domain 04 owns schema-as-code, relations, query composition, kit migrations, relational queries/N+1. Verification setup reused (global drizzle-orm/pg, dbprobe TCP localhost:5433/`probe`, tsc --strict, temp-dirs-in-repo deleted pre-commit, live .mjs runs).
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit 2] Research recorded (Drizzle 0.45 API + kit commands verified live, DRY grep — no competing coverage)
+  - [unit 3] Created `README/ORM/04 Drizzle Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-01 08:31] Session 3 — Domain 03 TypeORM Deep Dive
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S2 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–2 DONE, S2 Next steps names Domain 03); README/ORM/README.md (2/7 rows); README/ORM/02 Prisma Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S2 Done 11/11 present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); git log head 10a885e, tree clean. dbprobe PostgreSQL 16.15 up. TypeORM 1.1.1 global (S1–S2 on file: DataSource/Entity/BaseEntity/Repository verified, legacy decorator flags pass TS 7.0.2). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
