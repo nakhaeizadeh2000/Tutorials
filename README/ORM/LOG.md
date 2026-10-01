@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (DRY grep with target check — no competing per-tool coverage)
   - [unit 3] Created `README/ORM/06 Production ORM Use/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6)
+  - [unit 4] Leaf `06 …/sections/1. Connections and transactions/1.1. Pool sizing per tool.md` (3 promises) — pool-queueing (max:1 → 1539ms) + statement_timeout cancellation verified live on dbprobe; PrismaPg adapter typings inspected (Pool/Client passthrough confirmed); 2 writing glitches fixed pre-commit
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6), created leaf `1. Connections and transactions/1.1. Pool sizing per tool.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
