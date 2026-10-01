@@ -23,7 +23,8 @@
   - [unit 3] Created `README/ORM/04 Drizzle Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
 - Decisions:
   - [unit 4] Leaf `04 …/sections/1. Schema as code/1.1. Schema as code.md` (3 promises) — table with pgEnum/varchar/identity/index + insert/select run live on dbprobe (defaults applied, typed row returned, tables + type dropped, 0 residue); tsc --strict clean; key discovery: insert without `.generatedAlwaysAsIdentity()` fails tsc (TS2769 — explicitness enforced by compiler, recorded in-leaf)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4), created leaf `1. Schema as code/1.1. Schema as code.md`
+  - [unit 5] Leaf `04 …/sections/1. Schema as code/1.2. Relations declared beside tables.md` (3 promises) — relations() + db.query both directions run live on dbprobe (outputs verified, tables dropped, 0 residue); discoveries: `relations` imports from drizzle-orm root (not pg-core — import error caught live), db.query needs schema passed (DrizzleTypeError caught live)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4), created leaf `1. Schema as code/1.1. Schema as code.md`, created leaf `1. Schema as code/1.2. Relations declared beside tables.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
