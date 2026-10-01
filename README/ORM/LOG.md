@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `04 …/sections/1. Schema as code/1.1. Schema as code.md` (3 promises) — table with pgEnum/varchar/identity/index + insert/select run live on dbprobe (defaults applied, typed row returned, tables + type dropped, 0 residue); tsc --strict clean; key discovery: insert without `.generatedAlwaysAsIdentity()` fails tsc (TS2769 — explicitness enforced by compiler, recorded in-leaf)
   - [unit 5] Leaf `04 …/sections/1. Schema as code/1.2. Relations declared beside tables.md` (3 promises) — relations() + db.query both directions run live on dbprobe (outputs verified, tables dropped, 0 residue); discoveries: `relations` imports from drizzle-orm root (not pg-core — import error caught live), db.query needs schema passed (DrizzleTypeError caught live)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4), created leaf `1. Schema as code/1.1. Schema as code.md`, created leaf `1. Schema as code/1.2. Relations declared beside tables.md`
+  - [unit 6] Leaf `04 …/sections/2. Composition and migration/2.1. Queries composed, not concatenated.md` (3 promises) — dynamic conditions-array + groupBy/having run live on dbprobe (outputs verified, table dropped, 0 residue); `$dynamic` export checked (absent as named export in 0.45 — conditions arrays suffice, recorded); 1 leaked meta-glitch fixed pre-commit
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4), created leaf `1. Schema as code/1.1. Schema as code.md`, created leaf `1. Schema as code/1.2. Relations declared beside tables.md`, created leaf `2. Composition and migration/2.1. Queries composed, not concatenated.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
