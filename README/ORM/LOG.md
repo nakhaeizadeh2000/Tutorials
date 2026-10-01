@@ -1,5 +1,32 @@
 # ORM — work log
 
+## [2026-10-01 09:53] Session 6 — Domain 06 Production ORM Use
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S5 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–5 DONE, S5 Next steps names Domain 06); README/ORM/README.md (5/7 rows); README/ORM/05 Comparing and Choosing/README.md (Template B reference + standing link/rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S5 Done 11/11 present (domain 05 index + 6 section dirs + 8/8 leaves = 9 md); no `.tmp-verify` on disk; git log head 1f81588 (removal commit), tree clean. dbprobe PostgreSQL 16.15 up. Discrepancy found + corrected (trust disk over log): S5 block claims "`.tmp-verify/` removed pre-close, never committed" — git history shows it WAS committed in 1d759eb (36 files incl. generated client + symlink) and removed post-close in 1f81588. S5 block is immutable DONE history, so the correction lives here: scratch was committed accidentally (broad `git add README/ORM`), removed minutes later; final state clean, no content impact (scratch only, never referenced by any leaf). Standing rule hardened: `rm -rf` scratch BEFORE the final `git add`, scoped-path adds only — enforced every unit this session. No other discrepancies; nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 final session next).
+- Plan (Domain 06 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (production-ops sources, DRY grep) + record
+  3. Unit 3 — create `06 Production ORM Use/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Pool sizing per tool
+  5. Unit 5 — leaf 1.2. Transaction discipline at scale
+  6. Unit 6 — leaf 2.1. Production observability per mapper
+  7. Unit 7 — leaf 2.2. Upgrade operations without drama
+  8. Unit 8 — leaf 3.1. Slow-query response playbook
+  9. Unit 9 — leaf 4.1. Production checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA production ORM
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: production-ORM sources — pool sizing math (connections vs database limits vs concurrency — version-free practice); transaction discipline (isolation choices, timeout bounds — Databases 05 mechanics owned there); upgrade operations (rehearsals, canaries — practice). DRY grep (`pool siz|pool exhaust|statement timeout|slow query|pgbouncer|connection limit` + `connection_limit|poolSize|prisma pool|typeorm pool|drizzle pool`): hits are this track's mentions, Databases 04 pooling mechanics (internals owned there), NodeJS production-QA mentions — NO per-tool pool configuration, transaction-through-mapper discipline, ORM observability, or upgrade-ops treatment exists; Domain 06 owns all four. Databases 04 owns pool/driver internals, Databases 05–06 own transactions/monitoring mechanics (all linked, not repeated). Verification: live pool-behavior probes on dbprobe (pool exhaustion demo, statement_timeout enforcement, pg_stat_activity observation) + tsc checks; temp-dirs-in-repo deleted pre-commit, scoped-path commits only (S5 lesson enforced).
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit 2] Research recorded (DRY grep with target check — no competing per-tool coverage)
+  - [unit 3] Created `README/ORM/06 Production ORM Use/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-01 09:28] Session 5 — Domain 05 Comparing and Choosing
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S4 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–4 DONE, S4 Next steps names Domain 05); README/ORM/README.md (4/7 rows); README/ORM/04 Drizzle Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S4 Done 11/11 present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); git log head fee83ad, tree clean. dbprobe PostgreSQL 16.15 up. All three tools live-verified S1–S4 (Prisma 7.10.0, TypeORM 1.1.1, Drizzle 0.45.3). No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
