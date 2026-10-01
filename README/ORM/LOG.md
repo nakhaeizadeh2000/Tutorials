@@ -23,7 +23,8 @@
   - [unit 3] Created `README/ORM/03 TypeORM Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
 - Decisions:
   - [unit 4] Leaf `03 …/sections/1. Entities and relations/1.1. Entities and decorators that mean something.md` (3 promises) — entity (enum + unique + CreateDateColumn + defaults) repository round-trip run live on dbprobe (outputs verified, table dropped, 0 residue); 1.x API surface verified (EntityRepository/getCustomRepository gone, .extend() present); 1 writing glitch fixed pre-commit
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/03 TypeORM Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 3), created leaf `1. Entities and relations/1.1. Entities and decorators that mean something.md`
+  - [unit 5] Leaf `03 …/sections/1. Entities and relations/1.2. Relations the TypeORM way.md` (3 promises) — cascade save + relations include + implicit m-n connect/include run live on dbprobe (outputs verified, tables dropped, 0 residue); junction column convention discovered via metadata probe after a guessed-name failure (t_studentId wrong, tStudentId right — recorded in-leaf as probe-don't-guess lesson)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/03 TypeORM Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 3), created leaf `1. Entities and relations/1.1. Entities and decorators that mean something.md`, created leaf `1. Entities and relations/1.2. Relations the TypeORM way.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
