@@ -1,7 +1,7 @@
 # ORM — work log
 
 ## [2026-10-01 08:55] Session 4 — Domain 04 Drizzle Deep Dive
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S3 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–3 DONE, S3 Next steps names Domain 04); README/ORM/README.md (3/7 rows); README/ORM/03 TypeORM Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S3 Done 11/11 present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); git log head 87597ae, tree clean. dbprobe PostgreSQL 16.15 up. Drizzle 0.45.3 global (S1 on file: pgTable/bigint/text/eq + drizzle() verified live). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
 - Plan (Domain 04 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `04 …/sections/2. Composition and migration/2.2. Migrations via drizzle-kit.md` (3 promises) — kit generate/check verified live on drizzle-kit 0.31.11 (reviewable SQL + journal rendered; check non-mutating clean run; 0 residue — nothing applied to shared DB); push/migrate/check semantics from verified --help + behavior
   - [unit 8] Leaf `04 …/sections/3. Relational discipline/3.1. Relational queries and N+1.md` (3 promises) — N+1 counted live via query-counting wrapper (3 looped vs 1 batched) + columns projection verified; cross-link label cleaned pre-commit
   - [unit 9] Leaf `04 …/sections/4. Mentor checklist/4.1. Drizzle checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
-  - [unit 10] Leaf `04 …/sections/5. Interview QA/5.1. Common interview QA Drizzle.md` (3 promises — process leaf, no DDL surface)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4), created leaf `1. Schema as code/1.1. Schema as code.md`, created leaf `1. Schema as code/1.2. Relations declared beside tables.md`, created leaf `2. Composition and migration/2.1. Queries composed, not concatenated.md`, created leaf `2. Composition and migration/2.2. Migrations via drizzle-kit.md`, created leaf `3. Relational discipline/3.1. Relational queries and N+1.md`, created leaf `4. Mentor checklist/4.1. Drizzle checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA Drizzle.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `04 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — foundations/siblings/mechanics boundary map)
+- Decisions:
+  - Domain 04 mirrors Domains 01–03 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY: pre-build grep found only this track's mentions (all linked, none re-taught); API discoveries verified live (`relations` root-only, schema registration required, identity explicitness tsc-enforced, `$dynamic` named-export absent). Post-build spot check (`generatedAlwaysAsIdentity|defineRelations|db.query with`) zero hits elsewhere.
+  - Link discipline: scripted replace pass (same-track `../../0N` → `../../../0N`, cross-track `../../../DatabaseDesign/` → `../../../../DatabaseDesign/` — the recurring depth class, caught by checker across all 8 Domain 04 leaves) then re-check → 490/490 resolve (S1 113 + S2 126 + S3 116 + S4 135).
+  - Infra: dbprobe up throughout (PG 16.15); all DDL verified live with scratch tables (schema round-trips, relations both directions, dynamic composition + grouping, kit generate/check, N+1 counts — outputs verified, tables + types dropped, 0 residue); `.tmp-verify/` removed pre-close, never committed (staged paths only).
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/04 Drizzle Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 4), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 4 (resolves); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Domain 01 ×6 leaves, Domains 02–03 siblings, Databases 04/06/07 with verified paths, track LOG at `../../../LOG.md`); depth remediation across 8 leaves pre-close
+- Verification: 490/490 relative links resolve track-wide (script-checked with unquote); TS snippets tsc --strict clean against real drizzle-orm package; live runs on dbprobe PG 16.15 (all passing, 0 residue); non-ASCII scan clean (standard set only); DoD: era-labeled (Drizzle 0.45.3 + kit 0.31.11), junior-first halves, trade-offs priced, runnable examples (all executed live), neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 5 — Domain 05 Comparing and Choosing (workload-matched selection, migration between tools, cost ledgers) per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Connection facts reused: localhost:5433, password `probe`, global-module + temp-dir verification pattern.
 
 ## [2026-10-01 08:31] Session 3 — Domain 03 TypeORM Deep Dive
 - Status: DONE
