@@ -1,5 +1,32 @@
 # ORM — work log
 
+## [2026-10-01 09:28] Session 5 — Domain 05 Comparing and Choosing
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S4 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–4 DONE, S4 Next steps names Domain 05); README/ORM/README.md (4/7 rows); README/ORM/04 Drizzle Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S4 Done 11/11 present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); git log head fee83ad, tree clean. dbprobe PostgreSQL 16.15 up. All three tools live-verified S1–S4 (Prisma 7.10.0, TypeORM 1.1.1, Drizzle 0.45.3). No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
+- Plan (Domain 05 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (comparison dimensions, DRY grep — comparison must synthesize, never re-teach) + record
+  3. Unit 3 — create `05 Comparing and Choosing/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Workload-matched selection
+  5. Unit 5 — leaf 1.2. Cost ledgers per tool
+  6. Unit 6 — leaf 2.1. Migrating between tools
+  7. Unit 7 — leaf 2.2. Polyglot persistence honestly
+  8. Unit 8 — leaf 3.1. Benchmarks that inform (and deceive)
+  9. Unit 9 — leaf 4.1. Selection checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA tool selection
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: comparison sources — this track's own Domains 01–04 (positions, ledgers, idioms — all verified live S1–S4; Domain 05 synthesizes by link, never re-teaches); benchmark literacy (statement-count methodology, workload-matched measurement — version-free practice). DRY grep (comparison/benchmark/selection terms): hits are only this track's own forwards promising Domain 05 — NO comparison treatment exists; Domain 05 owns workload-matched selection, cost ledgers, inter-tool migration, polyglot discipline, benchmark literacy. Verification for synthesis domain: cross-tool live comparison (same workload, three tools, statement counts + timings measured on dbprobe) + tsc checks; temp-dirs-in-repo deleted pre-commit.
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (DRY grep — comparison scope confirmed unowned; synthesis-by-link rule set)
+  - [unit 3] Created `README/ORM/05 Comparing and Choosing/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/05 Comparing and Choosing/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-01 08:55] Session 4 — Domain 04 Drizzle Deep Dive
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S3 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–3 DONE, S3 Next steps names Domain 04); README/ORM/README.md (3/7 rows); README/ORM/03 TypeORM Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S3 Done 11/11 present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); git log head 87597ae, tree clean. dbprobe PostgreSQL 16.15 up. Drizzle 0.45.3 global (S1 on file: pgTable/bigint/text/eq + drizzle() verified live). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
