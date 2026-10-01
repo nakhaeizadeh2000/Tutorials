@@ -23,7 +23,8 @@
   - [unit 3] Created `README/ORM/05 Comparing and Choosing/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
 - Decisions:
   - [unit 4] Leaf `05 …/sections/1. Selection by workload/1.1. Workload-matched selection.md` (3 promises) — cross-tool measured comparison run live on dbprobe (5 users × 4 posts: raw-loop 6, raw-join 1, drizzle-with 1, prisma-include 2, typeorm-relations 1 — outputs verified, tables dropped, 0 residue); 1 writing glitch fixed pre-commit
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/05 Comparing and Choosing/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 5), created leaf `1. Selection by workload/1.1. Workload-matched selection.md`
+  - [unit 5] Leaf `05 …/sections/1. Selection by workload/1.2. Cost ledgers per tool.md` (3 promises — Prisma/TypeORM/Drizzle ledgers synthesized by link, never re-taught)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/05 Comparing and Choosing/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 5), created leaf `1. Selection by workload/1.1. Workload-matched selection.md`, created leaf `1. Selection by workload/1.2. Cost ledgers per tool.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
