@@ -1,5 +1,32 @@
 # ORM — work log
 
+## [2026-10-01 08:31] Session 3 — Domain 03 TypeORM Deep Dive
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S2 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–2 DONE, S2 Next steps names Domain 03); README/ORM/README.md (2/7 rows); README/ORM/02 Prisma Deep Dive/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S2 Done 11/11 present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); git log head 10a885e, tree clean. dbprobe PostgreSQL 16.15 up. TypeORM 1.1.1 global (S1–S2 on file: DataSource/Entity/BaseEntity/Repository verified, legacy decorator flags pass TS 7.0.2). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
+- Plan (Domain 03 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (TypeORM 1.x migration/testing specifics, DRY grep) + record
+  3. Unit 3 — create `03 TypeORM Deep Dive/README.md` (Template B, sections 1–6) + 6 section folders + track README row 3
+  4. Unit 4 — leaf 1.1. Entities and decorators that mean something
+  5. Unit 5 — leaf 1.2. Relations the TypeORM way
+  6. Unit 6 — leaf 2.1. Both flavors operated (ActiveRecord and DataMapper)
+  7. Unit 7 — leaf 2.2. Migrations generated and governed
+  8. Unit 8 — leaf 3.1. Loading strategies and N+1
+  9. Unit 9 — leaf 4.1. TypeORM checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA TypeORM
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: TypeORM 1.1.1 CLI verified live (`typeorm/cli.js --help`) — commands: cache:clear, entity:create, init, migration:create/generate/revert/run/show, query, schema:drop/log/sync (migration family complete: generate/show/run/revert + manual create). DRY grep (`typeorm migration|BaseEntity|getRepository|QueryBuilder`): hits are only this track's own Domain 01–02 mentions/forwards + TS decorators mechanics — NO TypeORM deep treatment exists; Domain 03 owns entities/decorators, relations, both flavors, migrations, loading/N+1, testing. Verification setup reused (global typeorm/reflect-metadata/pg, dbprobe TCP localhost:5433/`probe`, tsc with experimentalDecorators + emitDecoratorMetadata on TS 7.0.2, temp-dirs-in-repo deleted pre-commit, CJS compile for live runs).
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Research recorded (TypeORM 1.x CLI surface verified live, DRY grep — no competing coverage)
+  - [unit 3] Created `README/ORM/03 TypeORM Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/03 TypeORM Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-09-30 14:43] Session 2 — Domain 02 Prisma Deep Dive
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1 ORM on file; PROMPT.md/root README.md unchanged (git log: last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/ORM/README.md (1/7 rows); README/ORM/01 Data Access Foundations and Mental Model/README.md (Template B reference + standing link/rules: literal spaces, depth counting, verify targets' content, global-module verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves); git log head 9445687, tree clean. dbprobe PostgreSQL 16.15 up. Prisma 7.10.0 global + generated-client pattern from S1 on file. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
