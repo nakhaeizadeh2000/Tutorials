@@ -27,7 +27,8 @@
   - [unit 6] Leaf `05 …/sections/2. Changing tools/2.1. Migrating between tools.md` (3 promises — triggers, strangler, schema continuity; 2 stray-text glitches fixed pre-commit, CJK scan clean)
   - [unit 7] Leaf `05 …/sections/2. Changing tools/2.2. Polyglot persistence honestly.md` (3 promises — two-tool budget, documented boundaries, shared types)
   - [unit 8] Leaf `05 …/sections/3. Measurement honesty/3.1. Benchmarks that inform (and deceive).md` (3 promises — cites unit-4 measured numbers, no new DDL surface; 1 writing glitch fixed pre-commit)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/05 Comparing and Choosing/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 5), created leaf `1. Selection by workload/1.1. Workload-matched selection.md`, created leaf `1. Selection by workload/1.2. Cost ledgers per tool.md`, created leaf `2. Changing tools/2.1. Migrating between tools.md`, created leaf `2. Changing tools/2.2. Polyglot persistence honestly.md`, created leaf `3. Measurement honesty/3.1. Benchmarks that inform (and deceive).md`
+  - [unit 9] Leaf `05 …/sections/4. Mentor checklist/4.1. Selection checklist mentors insist on.md` (3 promises — process leaf, no DDL surface)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/05 Comparing and Choosing/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 5), created leaf `1. Selection by workload/1.1. Workload-matched selection.md`, created leaf `1. Selection by workload/1.2. Cost ledgers per tool.md`, created leaf `2. Changing tools/2.1. Migrating between tools.md`, created leaf `2. Changing tools/2.2. Polyglot persistence honestly.md`, created leaf `3. Measurement honesty/3.1. Benchmarks that inform (and deceive).md`, created leaf `4. Mentor checklist/4.1. Selection checklist mentors insist on.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
