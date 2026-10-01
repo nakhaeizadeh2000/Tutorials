@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (TypeORM 1.x CLI surface verified live, DRY grep — no competing coverage)
   - [unit 3] Created `README/ORM/03 TypeORM Deep Dive/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/03 TypeORM Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 3)
+  - [unit 4] Leaf `03 …/sections/1. Entities and relations/1.1. Entities and decorators that mean something.md` (3 promises) — entity (enum + unique + CreateDateColumn + defaults) repository round-trip run live on dbprobe (outputs verified, table dropped, 0 residue); 1.x API surface verified (EntityRepository/getCustomRepository gone, .extend() present); 1 writing glitch fixed pre-commit
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/03 TypeORM Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 3), created leaf `1. Entities and relations/1.1. Entities and decorators that mean something.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
