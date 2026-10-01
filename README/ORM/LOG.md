@@ -1,7 +1,7 @@
 # ORM — work log
 
 ## [2026-09-30 14:43] Session 2 — Domain 02 Prisma Deep Dive
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1 ORM on file; PROMPT.md/root README.md unchanged (git log: last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/ORM/README.md (1/7 rows); README/ORM/01 Data Access Foundations and Mental Model/README.md (Template B reference + standing link/rules: literal spaces, depth counting, verify targets' content, global-module verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves); git log head 9445687, tree clean. dbprobe PostgreSQL 16.15 up. Prisma 7.10.0 global + generated-client pattern from S1 on file. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
 - Plan (Domain 02 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `02 …/sections/2. Migrations and client/2.2. Client queries and relations.md` (3 promises) — findMany/include/nested-create/$transaction/$queryRaw all run live on dbprobe (outputs verified, tables + type dropped, 0 residue); caught + fixed own wrong-target link pre-commit (ORM 01/2.2 vs DatabaseDesign 01/2.2)
   - [unit 8] Leaf `02 …/sections/3. Performance discipline/3.1. N+1 strategies and raw escapes.md` (3 promises) — N+1 counted live via v7 $on(query) events (3 looped vs 2 batched), $queryRaw typed + $executeRaw live (outputs verified, tables dropped, 0 residue); v7 $use-removal discovered live (TypeError recorded in-leaf)
   - [unit 9] Leaf `02 …/sections/4. Mentor checklist/4.1. Prisma checklist mentors insist on.md` (3 promises — process leaf, no DDL surface; 1 writing glitch fixed pre-commit)
-  - [unit 10] Leaf `02 …/sections/5. Interview QA/5.1. Common interview QA Prisma.md` (3 promises — process leaf, no DDL surface)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2), created leaf `1. Schema authoring/1.1. Models fields and attributes.md`, created leaf `1. Schema authoring/1.2. Relations in schema.md`, created leaf `2. Migrations and client/2.1. Migrate tooling that stays honest.md`, created leaf `2. Migrations and client/2.2. Client queries and relations.md`, created leaf `3. Performance discipline/3.1. N+1 strategies and raw escapes.md`, created leaf `4. Mentor checklist/4.1. Prisma checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA Prisma.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `02 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — foundations/siblings/mechanics boundary map)
+- Decisions:
+  - Domain 02 mirrors Domain 01 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY: pre-build grep found only this track's own mentions — NO Prisma deep treatment exists. Post-build spot check (`migrate deploy|findUnique|batch include`) confirms mention-fragments elsewhere only (outbox batches, English words — no client mechanics).
+  - Link discipline: scripted replace pass (same-track `../../01` → `../../../01`, cross-track `../../../DatabaseDesign/` → `../../../../DatabaseDesign/` — the recurring depth class, caught by checker across all 8 Domain 02 leaves) then re-check → 239/239 resolve (S1 113 + S2 126, S1 files untouched — `](<` anchor prevents over-match, verified by file count + full re-check).
+  - Infra: dbprobe up throughout (PG 16.15); Prisma 7.10.0 generate + validate + migrate diff/status/deploy-refusal + full client round-trips (enums/defaults/nested writes/includes/transactions/raw/N+1 counts) verified live with scratch schemas, 0 residue (tables + PG enum type dropped; shared DB never mutated — dev/deploy refusals verified as safety behaviors); `.tmp-verify/` removed pre-close, never committed.
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/02 Prisma Deep Dive/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 2), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 2 (resolves); domain index 8 leaf links + back-link; inter-leaf cross-links; 6.1 boundary map (Domain 01 ×6 leaves, Databases 04/05/06/07 with verified paths, DatabaseDesign 01–06 with verified paths, track LOG at `../../../LOG.md`); depth remediation across 8 leaves pre-close
+- Verification: 239/239 relative links resolve track-wide (script-checked with unquote); TS snippets tsc --strict clean against real generated clients; live runs on dbprobe PG 16.15 (validate/generate/diff/status/deploy-refusal/N+1 counts/raw/typed — all passing, 0 residue); non-ASCII scan clean (standard set only); DoD: era-labeled (Prisma 7 stable + v8 RC noted), junior-first halves, trade-offs priced, runnable examples (all executed live), neighbor tone matched, indexes updated, LOG appended
+- Status: DONE
+- Next steps: Session 3 — Domain 03 TypeORM Deep Dive (entities/decorators, both flavors operated, repositories, migrations, testing) per plan above; then 04–07 in order. Track README row 3 appended when 03 lands. Connection facts reused: localhost:5433, password `probe`, global-module + temp-dir verification pattern.
 
 ## [2026-09-30 14:11] Session 1 — Create track + Domain 01 Data Access Foundations (Domains 02–07 next)
 - Status: DONE
