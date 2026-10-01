@@ -23,7 +23,8 @@
   - [unit 3] Created `README/ORM/06 Production ORM Use/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
 - Decisions:
   - [unit 4] Leaf `06 …/sections/1. Connections and transactions/1.1. Pool sizing per tool.md` (3 promises) — pool-queueing (max:1 → 1539ms) + statement_timeout cancellation verified live on dbprobe; PrismaPg adapter typings inspected (Pool/Client passthrough confirmed); 2 writing glitches fixed pre-commit
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6), created leaf `1. Connections and transactions/1.1. Pool sizing per tool.md`
+  - [unit 5] Leaf `06 …/sections/1. Connections and transactions/1.2. Transaction discipline at scale.md` (3 promises) — Drizzle db.transaction rollback-on-throw verified live (outputs verified); no DDL surface (discipline leaf — mechanics linked to Databases 05)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/06 Production ORM Use/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 6), created leaf `1. Connections and transactions/1.1. Pool sizing per tool.md`, created leaf `1. Connections and transactions/1.2. Transaction discipline at scale.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
