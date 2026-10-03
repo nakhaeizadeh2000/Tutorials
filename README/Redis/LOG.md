@@ -1,7 +1,7 @@
 # Redis — work log
 
 ## [2026-10-03 12:52] Session 2 — Domain 02 Caching Patterns at Scale
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S7 ORM + S1 Redis on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (Redis #12, unchanged); README/Redis/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Redis/README.md (1/7 rows); README/Redis/01 Redis Foundations and Mental Model/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, global node-redis + CJS require, redisprobe localhost:6380 plaintext). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves = 9 md); git log head 84c908e, tree clean. redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
 - Plan (Domain 02 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -33,8 +33,8 @@
 - Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2), created leaf `1. Write patterns/1.1. Cache-aside write-through write-back.md`, created leaf `1. Write patterns/1.2. Stampede prevention.md`, created leaf `2. Atomic multi-step/2.1. Lua scripting for atomic multi-step.md`, created leaf `2. Atomic multi-step/2.2. Transactions MULTI EXEC WATCH.md`, created leaf `3. Memory governance/3.1. Eviction policies and memory safety.md`, created leaf `4. Mentor checklist/4.1. Caching checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA caching patterns.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
   - [unit 12] Full-domain sweep found 15 broken links in committed leaves 1.1/1.2/2.1/2.2 (same depth class — pre-commit fixes missed them); normalized via scripted regex to `../../../01 …` / `../../../../DatabaseDesign/` → D02 85/85 resolve
-- Verification:
-- Next steps:
+- Verification: D02 85/85 relative links resolve (script-checked with unquote, post-remediation); all live commands executed on Redis 8.0.2 (write-through/handoff, NX mutex + Lua release, EVAL/EVALSHA/NOSCRIPT, WATCH abort, CONFIG/INFO memory — outputs verified, 0 dd: residue); non-ASCII = house set only (— → ≤ × ± § ← – − ≥); DRY spot-check clean (hits are unrelated-context fragments); one-unit-per-commit history held (9 commits)
+- Next steps: Session 3 — Domain 03 Streams Queues and PubSub (messaging primitives write-back drains hand off to) per S1 plan; then 04–07 in order. Track README row 3 appended when 03 lands. Standing rules for S3: literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings (normalize via anchored regex BEFORE committing — pre-commit spot-checks missed 15 this session), verify link targets' content, scoped-paths-only commits, node-redis global + CJS require, redisprobe localhost:6380 plaintext.
 
 ## [2026-10-03 09:49] Session 1 — Create track + Domain 01 Redis Foundations (Domains 02–07 next)
 - Status: DONE
