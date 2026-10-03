@@ -23,7 +23,8 @@
   - [unit 2] Research recorded (Redis 8.0.2 live + client versions, DRY grep — no competing coverage)
   - [unit 3] Created `README/Redis/README.md` (Template A track index, lists Domain 01) + `README/Redis/01 Redis Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders — root README row #12 now resolves, no root edit needed
 - Decisions:
-- Files touched: created `README/Redis/LOG.md`, created `README/Redis/README.md`, created `README/Redis/01 Redis Foundations and Mental Model/README.md` + 6 `sections/` folders
+  - [unit 4] Leaf `01 …/sections/1. What Redis is/1.1. What Redis is and is not.md` (3 promises) — INFO/PING/SET/INCR/DEL run live on Redis 8.0.2 (outputs verified, keys cleaned, 0 residue); 2 leaked thinking-notes caught + fixed pre-commit (forward ownership decided: Lua+transactions and eviction → Domain 02)
+- Files touched: created `README/Redis/LOG.md`, created `README/Redis/README.md`, created `README/Redis/01 Redis Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. What Redis is/1.1. What Redis is and is not.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
