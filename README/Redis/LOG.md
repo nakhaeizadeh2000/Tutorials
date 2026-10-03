@@ -1,7 +1,7 @@
 # Redis — work log
 
 ## [2026-10-03 15:02] Session 3 — Domain 03 Streams Queues and PubSub
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8, full read this session); root README.md (Redis #12, unchanged); README/Redis/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Redis/README.md (2/7 rows); README/Redis/02 Caching Patterns at Scale/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean; redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
 - Plan (Domain 03 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -32,8 +32,8 @@
 - Decisions:
 - Files touched: modified `README/Redis/LOG.md`, created `README/Redis/03 Streams Queues and PubSub/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 3), created leaf `1. Streams/1.1. Streams as append-only logs.md`, created leaf `1. Streams/1.2. Lists as simple queues vs streams.md`, created leaf `2. Reliable consumption/2.1. Consumer groups.md`, created leaf `2. Reliable consumption/2.2. Delivery semantics and idempotency.md`, created leaf `3. Broadcast/3.1. PubSub fire-and-forget.md`, created leaf `4. Mentor checklist/4.1. Messaging checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA messaging.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D03 108/108 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session, confirming the S2 lesson is now habit); all live commands executed on Redis 8.0.2 (XADD/XRANGE/XLEN/XTRIM, RPUSH/LLEN/BRPOP-nil, XGROUP/XREADGROUP/XPENDING/XACK/XAUTOCLAIM, SET-NX-OK/nil, Lua fencing 5-accept/3-reject, node-redis PUBLISH→1/→0 — outputs verified, 0 dd: residue); non-ASCII = house set only (— → ← § × ≠); DRY spot-check clean (XREADGROUP/XAUTOCLAIM/fencing-token hits are LOG-only outside 03); one-unit-per-commit history held (9 commits: index + 8 leaves + closeout)
+- Next steps: Session 4 — Domain 04 Persistence Replication and Sentinel (durability mechanics write-back windows defer crash semantics to) per S1 plan; then 05–07 in order. Track README row 4 appended when 04 lands. Standing rules carry over (S2+S3): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, global node-redis + CJS require (+ NODE_PATH for /tmp scripts), redisprobe localhost:6380 plaintext.
 
 ## [2026-10-03 12:52] Session 2 — Domain 02 Caching Patterns at Scale
 - Status: DONE
