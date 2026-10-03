@@ -1,5 +1,32 @@
 # Redis — work log
 
+## [2026-10-03 15:26] Session 4 — Domain 04 Persistence Replication and Sentinel
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S3 on file); README/Redis/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Redis/README.md (3/7 rows); README/Redis/03 Streams Queues and PubSub/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (PARTIAL hits are other tracks' closed-session history, immutable per PROMPT.md:165). Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean; redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
+- Plan (Domain 04 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (RDB/AOF/replication/sentinel sources, DRY grep) + record
+  3. Unit 3 — create `04 Persistence Replication and Sentinel/README.md` (Template B, sections 1–6) + 6 section folders + track README row 4
+  4. Unit 4 — leaf 1.1. RDB snapshots
+  5. Unit 5 — leaf 1.2. AOF logs and fsync policies
+  6. Unit 6 — leaf 2.1. Replication async and replicas
+  7. Unit 7 — leaf 2.2. Sentinel failover
+  8. Unit 8 — leaf 3.1. Crash semantics and durability windows
+  9. Unit 9 — leaf 4.1. Durability checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA durability
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: durability sources — RDB (fork + copy-on-write snapshots, SAVE/BGSAVE/LASTSAVE, `save` points — mechanics stable since 2.x), AOF (appendonly log, fsync always/everysec/no, BGREWRITEAOF — stable for years), replication (REPLICAOF async, full + partial PSYNC2 resync, min-replicas-to-write — async by design), Sentinel (monitor/quorum, sdown/odown, leader election + failover — topology needing ≥3 nodes, taught via config shapes + documented behavior, labeled as such), crash semantics (durability windows — honors write-back window forwards from 02/1.1 and 03/1.1). DRY grep (`appendonly|BGSAVE|AOF|Sentinel|REPLICAOF|fsync|LASTSAVE`): hits are Domain 01 §1.1/§2.2 mentions (durability adjunct, explicit "Domain 04 owns persistence fully" forwards) + Domain 02 pattern-level windows (crash semantics deferred here) + Databases relational-ACID fragments (unrelated contexts). NO RDB/AOF/replication/Sentinel treatment exists; Domain 04 owns all four. Live-surface rule this domain: single-instance-safe only (CONFIG GET save/appendonly, INFO persistence/replication, LASTSAVE, BGSAVE, ROLE) — never mutate probe topology (no REPLICAOF/CONFIG SET appendonly/Sentinel deploy); multi-node behavior taught via config shapes, labeled. Verification otherwise reused (dd: keys + DEL, 0 residue).
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit 2] Research recorded (durability sources, DRY grep with target check — no competing coverage; live-surface rule: read-only + BGSAVE only, no topology mutation)
+  - [unit 3] Created `README/Redis/04 Persistence Replication and Sentinel/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/04 Persistence Replication and Sentinel/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-03 15:02] Session 3 — Domain 03 Streams Queues and PubSub
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8, full read this session); root README.md (Redis #12, unchanged); README/Redis/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Redis/README.md (2/7 rows); README/Redis/02 Caching Patterns at Scale/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean; redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
