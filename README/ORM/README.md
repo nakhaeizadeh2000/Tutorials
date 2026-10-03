@@ -10,6 +10,7 @@ Data access for huge apps — Prisma, TypeORM, and Drizzle from foundations to p
 | 4 | [Drizzle Deep Dive](<04 Drizzle Deep Dive/README.md>) |
 | 5 | [Comparing and Choosing](<05 Comparing and Choosing/README.md>) |
 | 6 | [Production ORM Use](<06 Production ORM Use/README.md>) |
+| 7 | [Production Mastery and Interview Synthesis](<07 Production Mastery and Interview Synthesis/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

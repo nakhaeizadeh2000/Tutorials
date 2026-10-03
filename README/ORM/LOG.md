@@ -1,5 +1,32 @@
 # ORM — work log
 
+## [2026-10-03 09:35] Session 7 (final) — Domain 07 Production Mastery and Interview Synthesis + TRACK COMPLETE
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S6 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–6 DONE, S6 Next steps names Domain 07 final + closeout); README/ORM/README.md (6/7 rows); README/ORM/06 Production ORM Use/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, rm-scratch-before-add enforced, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S6 Done 11/11 present (domain 06 index + 6 section dirs + 8/8 leaves); git log head 5adb603, tree clean. dbprobe was Exited (255) — restarted cleanly, PostgreSQL 16.15 up, data intact. No other discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S1–S6 immutable). Scope per S6 Next steps: Domain 07 + TRACK COMPLETE closeout (final domain — Plan exhausts the track).
+- Plan (Domain 07 fully implemented + track closeout this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (synthesis scope, DRY grep — synthesis must reference, never re-teach) + record
+  3. Unit 3 — create `07 Production Mastery and Interview Synthesis/README.md` (Template B, sections 1–6) + 6 section folders + track README row 7
+  4. Unit 4 — leaf 1.1. The data-access method end to end
+  5. Unit 5 — leaf 1.2. Review as a practice across tools
+  6. Unit 6 — leaf 2.1. Classic data-access incidents and their fixes
+  7. Unit 7 — leaf 2.2. From incidents to prevention
+  8. Unit 8 — leaf 3.1. Cross-tool interview synthesis
+  9. Unit 9 — leaf 4.1. Mentor checklist for the whole track
+  10. Unit 10 — leaf 5.1. Common interview QA production mastery
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. TRACK COMPLETE closeout: full link sweep + DRY + DoD + root README check + close entry DONE
+- Research notes: synthesis sources — none external (Domain 07 synthesizes Domains 01–06, which are the sources; cross-referenced by link throughout). DRY grep (`B-C-P-B|story bank|traveling answer|method end to end|capstone` outside DatabaseDesign): NodeJS boundary forwards only (unrelated word matches) — NO ORM track-synthesis, incident catalog, or cross-tool method exists; Domain 07 owns all three under strict reference-not-reteach (every incident/lesson links its home domain; new content is connections only).
+- Done:
+  - [unit 1] Opened this Session 7 entry (first write on disk)
+  - [unit 2] Research recorded (DRY grep — synthesis scope confirmed unowned; reference-not-reteach rule set)
+  - [unit 3] Created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-01 09:53] Session 6 — Domain 06 Production ORM Use
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S5 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–5 DONE, S5 Next steps names Domain 06); README/ORM/README.md (5/7 rows); README/ORM/05 Comparing and Choosing/README.md (Template B reference + standing link/rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S5 Done 11/11 present (domain 05 index + 6 section dirs + 8/8 leaves = 9 md); no `.tmp-verify` on disk; git log head 1f81588 (removal commit), tree clean. dbprobe PostgreSQL 16.15 up. Discrepancy found + corrected (trust disk over log): S5 block claims "`.tmp-verify/` removed pre-close, never committed" — git history shows it WAS committed in 1d759eb (36 files incl. generated client + symlink) and removed post-close in 1f81588. S5 block is immutable DONE history, so the correction lives here: scratch was committed accidentally (broad `git add README/ORM`), removed minutes later; final state clean, no content impact (scratch only, never referenced by any leaf). Standing rule hardened: `rm -rf` scratch BEFORE the final `git add`, scoped-path adds only — enforced every unit this session. No other discrepancies; nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 final session next).
