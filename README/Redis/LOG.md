@@ -21,8 +21,9 @@
   - [unit 1] Opened this Session 3 entry (first write on disk)
   - [unit 2] Research recorded (messaging sources, DRY grep with target check — no competing coverage; S2 Redlock/fencing → 03 honored in 2.2)
   - [unit 3] Created `README/Redis/03 Streams Queues and PubSub/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
+  - [unit 4] Leaf `03 …/sections/1. Streams/1.1. Streams as append-only logs.md` (3 promises) — XADD `*`/XRANGE/XLEN/XTRIM/DEL run live on Redis 8.0.2 (time-ordered IDs, 2→1 trim outputs verified, key cleaned, 0 residue); anchored-regex normalization pre-commit (same-track/cross-track correct; 5 same-domain forwards to unbuilt 1.2/2.1/4.1 resolve as units land — verified at close sweep)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/03 Streams Queues and PubSub/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 3)
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/03 Streams Queues and PubSub/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 3), created leaf `1. Streams/1.1. Streams as append-only logs.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
