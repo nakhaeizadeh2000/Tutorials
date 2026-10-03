@@ -23,8 +23,9 @@
   - [unit 3] Created `README/Redis/03 Streams Queues and PubSub/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
   - [unit 4] Leaf `03 …/sections/1. Streams/1.1. Streams as append-only logs.md` (3 promises) — XADD `*`/XRANGE/XLEN/XTRIM/DEL run live on Redis 8.0.2 (time-ordered IDs, 2→1 trim outputs verified, key cleaned, 0 residue); anchored-regex normalization pre-commit (same-track/cross-track correct; 5 same-domain forwards to unbuilt 1.2/2.1/4.1 resolve as units land — verified at close sweep)
   - [unit 5] Leaf `03 …/sections/1. Streams/1.2. Lists as simple queues vs streams.md` (3 promises) — RPUSH/LLEN/BRPOP-hit/BRPOP-empty-nil/DEL run live on Redis 8.0.2 (FIFO orientation + 1s-timeout nil verified, key cleaned, 0 residue); normalization pre-commit (6/18 resolve now — 12 same-domain forwards to unbuilt 2.1/2.2/4.1 resolve as units land)
+  - [unit 6] Leaf `03 …/sections/2. Reliable consumption/2.1. Consumer groups.md` (3 promises) — XADD/XGROUP-CREATE/XREADGROUP-`/XPENDING/XACK/XAUTOCLAIM/DEL run live on Redis 8.0.2 (2 delivered to c1, 2 pending, ACK 1→1 pending, autoclaim to c2 outputs verified, key cleaned, 0 residue); 2 writing glitches fixed + normalization pre-commit (1/10 resolve now — 9 same-domain forwards to unbuilt 2.2/4.1 resolve as units land)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/03 Streams Queues and PubSub/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 3), created leaf `1. Streams/1.1. Streams as append-only logs.md`, created leaf `1. Streams/1.2. Lists as simple queues vs streams.md`
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/03 Streams Queues and PubSub/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 3), created leaf `1. Streams/1.1. Streams as append-only logs.md`, created leaf `1. Streams/1.2. Lists as simple queues vs streams.md`, created leaf `2. Reliable consumption/2.1. Consumer groups.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
