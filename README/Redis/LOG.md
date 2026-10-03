@@ -1,5 +1,32 @@
 # Redis — work log
 
+## [2026-10-03 15:02] Session 3 — Domain 03 Streams Queues and PubSub
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8, full read this session); root README.md (Redis #12, unchanged); README/Redis/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Redis/README.md (2/7 rows); README/Redis/02 Caching Patterns at Scale/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean; redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
+- Plan (Domain 03 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (streams/consumer-group/pubsub sources, DRY grep) + record
+  3. Unit 3 — create `03 Streams Queues and PubSub/README.md` (Template B, sections 1–6) + 6 section folders + track README row 3
+  4. Unit 4 — leaf 1.1. Streams as append-only logs
+  5. Unit 5 — leaf 1.2. Lists as simple queues vs streams
+  6. Unit 6 — leaf 2.1. Consumer groups
+  7. Unit 7 — leaf 2.2. Delivery semantics and idempotency
+  8. Unit 8 — leaf 3.1. PubSub fire-and-forget
+  9. Unit 9 — leaf 4.1. Messaging checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA messaging
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: messaging sources — Redis streams (XADD/XREAD/XRANGE/XLEN/XTRIM, stable since 5.0), consumer groups (XREADGROUP/XACK/XPENDING/XCLAIM/XAUTOCLAIM — XAUTOCLAIM since 6.2/7.0, all version-free on 8.0.2, verified live per leaf), lists-as-queues (LPUSH/BRPOP/BLMOVE), Pub/Sub (PUBLISH/SUBSCRIBE/PSUBSCRIBE + sharded SSUBSCRIBE since 7.0), delivery semantics (at-least-once + idempotent consumers + fencing tokens — honors S2 decision Redlock/fencing → Domain 03). DRY grep (`XADD|XREADGROUP|consumer group|PUBLISH|SUBSCRIBE|XAUTOCLAIM|XPENDING`): hits are boundary forwards (ORM 01/6.1, DatabaseDesign 06/6.1), DesignPatterns 06/2.2 pattern-level pub-sub/event-sourcing (no Redis commands — linked, not repeated), + Domain 01 §2.1 explicit forwards (queues/BLPOP-workers/stream durability/consumer groups → Domain 03 owns fully). NO streams/groups/pubsub treatment exists; Domain 03 owns all three. Verification setup reused (redis-cli, dd:-namespaced keys + DEL cleanup, 0 residue; node-redis subscriber for Pub/Sub leaf).
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Research recorded (messaging sources, DRY grep with target check — no competing coverage; S2 Redlock/fencing → 03 honored in 2.2)
+  - [unit 3] Created `README/Redis/03 Streams Queues and PubSub/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/03 Streams Queues and PubSub/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-03 12:52] Session 2 — Domain 02 Caching Patterns at Scale
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S7 ORM + S1 Redis on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (Redis #12, unchanged); README/Redis/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Redis/README.md (1/7 rows); README/Redis/01 Redis Foundations and Mental Model/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, global node-redis + CJS require, redisprobe localhost:6380 plaintext). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves = 9 md); git log head 84c908e, tree clean. redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
