@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `07 …/sections/1. Track synthesis/1.1. The data-access method end to end.md` (3 promises) — cross-path coherence (raw vs Drizzle identical rows) run live on dbprobe (outputs verified, table dropped, 0 residue); 2 writing glitches fixed pre-commit
   - [unit 5] Leaf `07 …/sections/1. Track synthesis/1.2. Review as a practice across tools.md` (3 promises — process leaf, no DDL surface; 1 mangled cross-link caught + fixed pre-commit)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7), created leaf `1. Track synthesis/1.1. The data-access method end to end.md`, created leaf `1. Track synthesis/1.2. Review as a practice across tools.md`
+  - [unit 6] Leaf `07 …/sections/2. Production incidents/2.1. Classic data-access incidents and their fixes.md` (3 promises — avalanche/exhaustion/upgrade incidents traced home; 1 double-phrase glitch fixed pre-commit)
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7), created leaf `1. Track synthesis/1.1. The data-access method end to end.md`, created leaf `1. Track synthesis/1.2. Review as a practice across tools.md`, created leaf `2. Production incidents/2.1. Classic data-access incidents and their fixes.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
