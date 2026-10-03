@@ -25,7 +25,8 @@
 - Decisions:
   - [unit 4] Leaf `01 …/sections/1. What Redis is/1.1. What Redis is and is not.md` (3 promises) — INFO/PING/SET/INCR/DEL run live on Redis 8.0.2 (outputs verified, keys cleaned, 0 residue); 2 leaked thinking-notes caught + fixed pre-commit (forward ownership decided: Lua+transactions and eviction → Domain 02)
   - [unit 5] Leaf `01 …/sections/1. What Redis is/1.2. Strings keys and expiry.md` (3 promises) — SET NX/EX/TTL/GETDEL/MSET verified live on Redis 8.0.2 (outputs verified, keys cleaned, 0 residue); 1 writing glitch fixed pre-commit
-- Files touched: created `README/Redis/LOG.md`, created `README/Redis/README.md`, created `README/Redis/01 Redis Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. What Redis is/1.1. What Redis is and is not.md`, created leaf `1. What Redis is/1.2. Strings keys and expiry.md`
+  - [unit 6] Leaf `01 …/sections/2. Core structures/2.1. Core structures hash list set zset.md` (3 promises) — HSET/HINCRBY/HGETALL + RPUSH/LRANGE + SADD/SISMEMBER + ZADD/ZREVRANGE all run live on Redis 8.0.2 (outputs verified, 4 keys cleaned, 0 residue); 1 leaked thinking-note fixed pre-commit (forward ownership decided: streams/queues/durability → Domain 03)
+- Files touched: created `README/Redis/LOG.md`, created `README/Redis/README.md`, created `README/Redis/01 Redis Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. What Redis is/1.1. What Redis is and is not.md`, created leaf `1. What Redis is/1.2. Strings keys and expiry.md`, created leaf `2. Core structures/2.1. Core structures hash list set zset.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
