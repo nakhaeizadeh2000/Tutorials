@@ -1,7 +1,7 @@
 # Redis — work log
 
 ## [2026-10-03 15:26] Session 4 — Domain 04 Persistence Replication and Sentinel
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S3 on file); README/Redis/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Redis/README.md (3/7 rows); README/Redis/03 Streams Queues and PubSub/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (PARTIAL hits are other tracks' closed-session history, immutable per PROMPT.md:165). Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean; redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
 - Plan (Domain 04 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -32,8 +32,8 @@
 - Decisions:
 - Files touched: modified `README/Redis/LOG.md`, created `README/Redis/04 Persistence Replication and Sentinel/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 4), created leaf `1. On-disk persistence/1.1. RDB snapshots.md`, created leaf `1. On-disk persistence/1.2. AOF logs and fsync policies.md`, created leaf `2. Copies/2.1. Replication async and replicas.md`, created leaf `2. Copies/2.2. Sentinel failover.md`, created leaf `3. Crash truth/3.1. Crash semantics and durability windows.md`, created leaf `4. Mentor checklist/4.1. Durability checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA durability.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D04 101/101 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session); live commands executed on Redis 8.0.2 where single-instance-safe (CONFIG-GET-save/BGSAVE/LASTSAVE-before-after/INFO-persistence, CONFIG-GET-appendonly/appendfsync, ROLE/INFO-replication — outputs verified, 0 dd: residue; dump.rdb in container data dir is ordinary server state); Sentinel/multi-node taught via labeled config shapes per live-surface rule (no topology mutation); non-ASCII = house set only (— – ← → ≤ § ≥ ≈ ↔); DRY spot-check clean (zero BGSAVE/appendfsync/Sentinel-config hits outside 04/LOG); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 5 — Domain 05 Cluster and Partitioning (partitioning/scale topology 04 defers write scaling to; sharded SSUBSCRIBE from 03 lands here) per S1 plan; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (S2–S4): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, single-instance-safe live surface only (read-only + BGSAVE; multi-node via labeled config shapes), global node-redis + CJS require (+ NODE_PATH for /tmp scripts), redisprobe localhost:6380 plaintext.
 
 ## [2026-10-03 15:02] Session 3 — Domain 03 Streams Queues and PubSub
 - Status: DONE
