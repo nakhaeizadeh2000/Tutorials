@@ -32,6 +32,7 @@
   - [unit 11] Leaf `02 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Domain 01 foundations + forward Domains 03–05 (textual, unbuilt) + Databases 04 mechanics; targets verified on disk, no duplication of Domain 01 6.1's specific-leaf links); 16/16 resolve first try
 - Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2), created leaf `1. Write patterns/1.1. Cache-aside write-through write-back.md`, created leaf `1. Write patterns/1.2. Stampede prevention.md`, created leaf `2. Atomic multi-step/2.1. Lua scripting for atomic multi-step.md`, created leaf `2. Atomic multi-step/2.2. Transactions MULTI EXEC WATCH.md`, created leaf `3. Memory governance/3.1. Eviction policies and memory safety.md`, created leaf `4. Mentor checklist/4.1. Caching checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA caching patterns.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
+  - [unit 12] Full-domain sweep found 15 broken links in committed leaves 1.1/1.2/2.1/2.2 (same depth class — pre-commit fixes missed them); normalized via scripted regex to `../../../01 …` / `../../../../DatabaseDesign/` → D02 85/85 resolve
 - Verification:
 - Next steps:
 
