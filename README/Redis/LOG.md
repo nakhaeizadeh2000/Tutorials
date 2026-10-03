@@ -24,7 +24,8 @@
 - Decisions:
   - [unit 4] Leaf `02 …/sections/1. Write patterns/1.1. Cache-aside write-through write-back.md` (3 promises) — write-through SET/GET + write-back LPUSH/BRPOPLPUSH handoff run live on Redis 8.0.2 (outputs verified, keys cleaned, 0 residue); 1 mangled cross-link fixed pre-commit
   - [unit 5] Leaf `02 …/sections/1. Write patterns/1.2. Stampede prevention.md` (3 promises) — NX mutex acquire/refuse + Lua wrong-token/right-token release run live on Redis 8.0.2 (outputs verified, key cleaned, 0 residue); 2 leaked thinking-notes fixed pre-commit (proxy topology → Domain 06, Redlock/fencing → Domain 03)
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2), created leaf `1. Write patterns/1.1. Cache-aside write-through write-back.md`, created leaf `1. Write patterns/1.2. Stampede prevention.md`
+  - [unit 6] Leaf `02 …/sections/2. Atomic multi-step/2.1. Lua scripting for atomic multi-step.md` (3 promises) — check-and-decrement EVAL + EVALSHA/NOSCRIPT/EXISTS/FLUSH all run live on Redis 8.0.2 (outputs verified, keys + script cache cleaned, 0 residue)
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2), created leaf `1. Write patterns/1.1. Cache-aside write-through write-back.md`, created leaf `1. Write patterns/1.2. Stampede prevention.md`, created leaf `2. Atomic multi-step/2.1. Lua scripting for atomic multi-step.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
