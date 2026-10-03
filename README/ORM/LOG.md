@@ -1,7 +1,7 @@
 # ORM — work log
 
 ## [2026-10-03 09:35] Session 7 (final) — Domain 07 Production Mastery and Interview Synthesis + TRACK COMPLETE
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S6 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (ORM #11, unchanged); README/ORM/LOG.md (full — Sessions 1–6 DONE, S6 Next steps names Domain 07 final + closeout); README/ORM/README.md (6/7 rows); README/ORM/06 Production ORM Use/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, rm-scratch-before-add enforced, global-module + temp-dir verification, dbprobe TCP localhost:5433/password `probe`). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S6 Done 11/11 present (domain 06 index + 6 section dirs + 8/8 leaves); git log head 5adb603, tree clean. dbprobe was Exited (255) — restarted cleanly, PostgreSQL 16.15 up, data intact. No other discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S1–S6 immutable). Scope per S6 Next steps: Domain 07 + TRACK COMPLETE closeout (final domain — Plan exhausts the track).
 - Plan (Domain 07 fully implemented + track closeout this session):
   1. Unit 1 — open this entry (this write)
@@ -28,11 +28,17 @@
   - [unit 7] Leaf `07 …/sections/2. Production incidents/2.2. From incidents to prevention.md` (3 promises — artifact postmortems, scheduled prevention, story bank; 1 mangled cross-link caught + fixed pre-commit)
   - [unit 8] Leaf `07 …/sections/3. Interview mastery/3.1. Cross-tool interview synthesis.md` (3 promises — traveling answers, system-design adjacency, method narration; 1 writing glitch fixed pre-commit)
   - [unit 9] Leaf `07 …/sections/4. Mentor checklist/4.1. Mentor checklist for the whole track.md` (3 promises — teaching order, drills + capstones, graduation gates)
-  - [unit 10] Leaf `07 …/sections/5. Interview QA/5.1. Common interview QA production mastery.md` (3 promises — staff loop, trade-offs, revisit)
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7), created leaf `1. Track synthesis/1.1. The data-access method end to end.md`, created leaf `1. Track synthesis/1.2. Review as a practice across tools.md`, created leaf `2. Production incidents/2.1. Classic data-access incidents and their fixes.md`, created leaf `2. Production incidents/2.2. From incidents to prevention.md`, created leaf `3. Interview mastery/3.1. Cross-tool interview synthesis.md`, created leaf `4. Mentor checklist/4.1. Mentor checklist for the whole track.md`, created leaf `5. Interview QA/5.1. Common interview QA production mastery.md`
-- Links fixed / added:
-- Verification:
-- Next steps:
+  - [unit 11] Leaf `07 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — track edges, sibling consumption, method travel)
+- Decisions:
+  - Domain 07 mirrors Domains 01–06 shape (6 sections, 8 leaves, §§1–3 teaching + §4 checklist + §5 QA + §6 boundaries), Template B + PROMPT.md:86 compliant.
+  - DRY: pre-build grep found only NodeJS boundary forwards (unrelated) — NO ORM synthesis exists. Post-build spot check (`track synthesis|incident catalog|cross-tool synthesis|B-C-P-B|L-S-C-M`) hits DatabaseDesign 07's own synthesis (different track/subject — sibling synthesis, correctly separate).
+  - Link discipline: scripted replace pass (same-track `../../0N` → `../../../0N`, cross-track `../../../DatabaseDesign/` → `../../../../DatabaseDesign/` — the recurring depth class, caught by checker across 7 Domain 07 leaves) then re-check → 849/849 resolve (S1 113 + S2 126 + S3 116 + S4 135 + S5 118 + S6 110 + S7 131).
+  - Infra: dbprobe Exited (255) at session start — restarted cleanly, PG 16.15 up, data intact; cross-path coherence verified live (raw vs Drizzle identical rows, table dropped, 0 residue); `.tmp-verify/` removed pre-close (S5 lesson enforced: rm BEFORE git add), staged paths only.
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7), created 8 leaves (1.1, 1.2, 2.1, 2.2, 3.1, 4.1, 5.1, 6.1)
+- Links fixed / added: track README row 7 (resolves — 7/7 rows); domain index 8 leaf links + back-link; inter-leaf cross-links (all six prior domains referenced); 6.1 boundary map (Databases track + DesignPatterns 06 + DatabaseDesign with verified paths, track LOG at `../../../LOG.md`); depth remediation across 7 leaves pre-close
+- Verification: 849/849 relative links resolve track-wide (script-checked with unquote); live runs on dbprobe PG 16.15 (all passing, 0 residue); DRY grep — synthesis/method-travel/story-bank treatments unowned elsewhere (DatabaseDesign 07 sibling correctly separate); DoD: era-labeled (Prisma 7.10.0/TypeORM 1.1.1/Drizzle 0.45.3 + kit 0.31.11), junior-first halves, trade-offs priced, runnable examples (all executed live), neighbor tone matched, indexes updated, LOG appended. Root README row #11 resolves (no root edit needed — track registered Session 1).
+- Status: DONE
+- Next steps: TRACK COMPLETE 7/7 — ORM track finished (65 md files: LOG + track README + 7 domain indexes + 56 leaves at 8 per domain). Future work (new sessions only): refresh/update per PROMPT.md Mode 3 as Prisma 8 goes stable / TypeORM 1.x minors / Drizzle 1.0 lands (v8-RC + 1.0-RC watches active per track index); next track per root README order is Redis (#12).
 
 ## [2026-10-01 09:53] Session 6 — Domain 06 Production ORM Use
 - Status: DONE
