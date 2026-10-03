@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (DRY grep — synthesis scope confirmed unowned; reference-not-reteach rule set)
   - [unit 3] Created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7)
+  - [unit 4] Leaf `07 …/sections/1. Track synthesis/1.1. The data-access method end to end.md` (3 promises) — cross-path coherence (raw vs Drizzle identical rows) run live on dbprobe (outputs verified, table dropped, 0 residue); 2 writing glitches fixed pre-commit
+- Files touched: modified `README/ORM/LOG.md`, created `README/ORM/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/ORM/README.md` (row 7), created leaf `1. Track synthesis/1.1. The data-access method end to end.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
