@@ -5,6 +5,7 @@ Caching & data structures for huge apps — Redis from foundations to production
 | # | Module |
 |---|--------|
 | 1 | [Redis Foundations and Mental Model](<01 Redis Foundations and Mental Model/README.md>) |
+| 2 | [Caching Patterns at Scale](<02 Caching Patterns at Scale/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

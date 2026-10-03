@@ -1,5 +1,32 @@
 # Redis — work log
 
+## [2026-10-03 12:52] Session 2 — Domain 02 Caching Patterns at Scale
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S7 ORM + S1 Redis on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (Redis #12, unchanged); README/Redis/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Redis/README.md (1/7 rows); README/Redis/01 Redis Foundations and Mental Model/README.md (Template B reference + standing rules: literal spaces, depth counting (`../../../` same-track / `../../../../` cross-track from section dirs), verify targets' content, scoped-paths-only commits, global node-redis + CJS require, redisprobe localhost:6380 plaintext). Recovery: grep for live `^- Status: IN PROGRESS` across all track LOGs — none. Disk verified — S1 Done 11/11 present (track README + domain 01 index + 6 section dirs + 8/8 leaves = 9 md); git log head 84c908e, tree clean. redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
+- Plan (Domain 02 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (caching-pattern sources, DRY grep) + record
+  3. Unit 3 — create `02 Caching Patterns at Scale/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Cache-aside write-through write-back
+  5. Unit 5 — leaf 1.2. Stampede prevention
+  6. Unit 6 — leaf 2.1. Lua scripting for atomic multi-step
+  7. Unit 7 — leaf 2.2. Transactions MULTI EXEC WATCH
+  8. Unit 8 — leaf 3.1. Eviction policies and memory safety
+  9. Unit 9 — leaf 4.1. Caching checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA caching patterns
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: caching-pattern sources — standard industry practice (cache-aside/write-through/write-back semantics; thundering-herd prevention via jitter/coalescing/locks; Lua atomicity + MULTI/EXEC/WATCH semantics from Redis docs behavior; eviction policies per use case — all version-free theory, verified live on Redis 8.0.2 behaviors). DRY grep (write-through/write-back/stampede/dogpile/singleflight + EVALSHA/MULTI-EXEC/WATCH/allkeys-lru/volatile-ttl/noeviction/maxmemory-policy): hits are ORM/NodeJS/JS fragments (retry jitter, TypeORM transactions, module interop — unrelated contexts) + this track's own forwards — NO cache-pattern/Lua/transaction/eviction treatment exists; Domain 02 owns all four. Verification setup reused (node-redis global + CJS require, redis-cli, dd:-namespaced keys + DEL cleanup, 0 residue).
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (pattern sources, DRY grep with target check — no competing coverage)
+  - [unit 3] Created `README/Redis/02 Caching Patterns at Scale/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-03 09:49] Session 1 — Create track + Domain 01 Redis Foundations (Domains 02–07 next)
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S7 ORM on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (Categories table — Redis already listed at #12, link target did not exist); README/ORM/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names Redis as next track); README/ORM/README.md (Template A reference, September 2026 era). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (all PARTIAL hits are closed-session history, immutable per PROMPT.md:165). Disk verified — ORM TRACK COMPLETE on disk (7/7 domains, 7/7 rows, 65 md files, HEAD ebacccf closeout, tree clean); `ls README/` shows no Redis dir. No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. No scope override in request → Mode 1 new track, Domain 01 only (02–07 future sessions, per convention).
