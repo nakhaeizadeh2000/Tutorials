@@ -21,8 +21,9 @@
   - [unit 1] Opened this Session 4 entry (first write on disk)
   - [unit 2] Research recorded (durability sources, DRY grep with target check — no competing coverage; live-surface rule: read-only + BGSAVE only, no topology mutation)
   - [unit 3] Created `README/Redis/04 Persistence Replication and Sentinel/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
+  - [unit 4] Leaf `04 …/sections/1. On-disk persistence/1.1. RDB snapshots.md` (3 promises) — CONFIG-GET-save-points/BGSAVE/LASTSAVE-before-after/INFO-persistence run live on Redis 8.0.2 (save triple, BGSAVE started, LASTSAVE 1791027212→1791028649, bgsave status ok verified; dump.rdb in container data dir is ordinary server state, no dd: keys touched); normalization pre-commit (0/8 resolve now — 8 same-domain forwards to unbuilt 1.2/3.1 resolve as units land)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/04 Persistence Replication and Sentinel/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 4)
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/04 Persistence Replication and Sentinel/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 4), created leaf `1. On-disk persistence/1.1. RDB snapshots.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
