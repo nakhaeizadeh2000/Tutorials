@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (pattern sources, DRY grep with target check — no competing coverage)
   - [unit 3] Created `README/Redis/02 Caching Patterns at Scale/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2)
+  - [unit 4] Leaf `02 …/sections/1. Write patterns/1.1. Cache-aside write-through write-back.md` (3 promises) — write-through SET/GET + write-back LPUSH/BRPOPLPUSH handoff run live on Redis 8.0.2 (outputs verified, keys cleaned, 0 residue); 1 mangled cross-link fixed pre-commit
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/02 Caching Patterns at Scale/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 2), created leaf `1. Write patterns/1.1. Cache-aside write-through write-back.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
