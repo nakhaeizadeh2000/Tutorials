@@ -1,5 +1,32 @@
 # Redis — work log
 
+## [2026-10-04 08:33] Session 6 — Domain 06 Production Redis Operations
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S5 on file); README/Redis/LOG.md (full — Sessions 1–5 DONE, Next steps names Domain 06); README/Redis/README.md (5/7 rows); README/Redis/05 Cluster and Partitioning/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S5 Done claims all present (domain 05 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–5; git tree clean; redisprobe Redis 8.0.2 PONG (alive from S5 rebuild). No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 future session).
+- Plan (Domain 06 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (INFO/slowlog/encoding/timeout sources, DRY grep) + record
+  3. Unit 3 — create `06 Production Redis Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Observability with INFO and metrics
+  5. Unit 5 — leaf 1.2. Slow log and latency diagnosis
+  6. Unit 6 — leaf 2.1. Memory and encoding tuning
+  7. Unit 7 — leaf 2.2. Timeouts and client management
+  8. Unit 8 — leaf 3.1. Production runbooks
+  9. Unit 9 — leaf 4.1. Operations checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA operations
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: ops sources — INFO sections (server/clients/memory/persistence/stats/replication — scraped gauges), SLOWLOG (GET/LEN + slowlog-log-slower-than/slowlog-max-len — execution-time log, not latency), CLIENT LIST/INFO (connection auditing — fd/age/idle/cmd), CLIENT KILL (surgical + SKIPME — shapes taught, not executed), timeouts (timeout/tcp-keepalive/maxclients — dead-connection reaping), encoding thresholds (hash-max-listpack-entries, stream-node-max-entries, etc. — honors 01/2.2 forward), MEMORY STATS/DOCTOR (allocator view), LATENCY HISTORY (needs latency-monitor-threshold — checked live). DRY grep (`SLOWLOG|CLIENT LIST|CLIENT KILL|maxclients|listpack|intset|LATENCY|tcp-keepalive`): hits are 01/2.2 memory-math + OBJECT ENCODING verification (explicit "encoding/threshold tuning → Domain 06" forward), checklist/QA mentions (linked, not re-taught), 03/1.1 listpack mention, 05/6.1 boundary text. NO slowlog/client-mgmt/timeout/threshold-tuning treatment exists; Domain 06 owns all four. Live-surface rule: read-only + GET/LEN only (no SLOWLOG RESET, no CLIENT KILL, no CONFIG SET); dd: keys + DEL, 0 residue.
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit 2] Research recorded (ops sources, DRY grep with target check — honors 01/2.2 encoding-tuning forward; live-surface rule: read-only, no KILL/RESET/SET)
+  - [unit 3] Created `README/Redis/06 Production Redis Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk); 1 mangled index fragment fixed pre-commit
+- Decisions:
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/06 Production Redis Operations/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 6)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-04 08:26] Session 5 — Domain 05 Cluster and Partitioning
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S4 on file); README/Redis/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Redis/README.md (4/7 rows); README/Redis/04 Persistence Replication and Sentinel/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims all present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–4; git tree clean. DISCREPANCY found + resolved: redisprobe container gone (`No such container` — host containers rebuilt overnight); rebuilt from local image `harbor.webpooyan.com/ghavanin/redis:8.0.2-bookworm-cmz` as `redisprobe -p 6380:6379` plaintext — PONG, `redis_version:8.0.2` verified before opening this entry. No other discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
