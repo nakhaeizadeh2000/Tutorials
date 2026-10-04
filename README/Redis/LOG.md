@@ -1,7 +1,7 @@
 # Redis — work log
 
 ## [2026-10-04 08:33] Session 6 — Domain 06 Production Redis Operations
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S5 on file); README/Redis/LOG.md (full — Sessions 1–5 DONE, Next steps names Domain 06); README/Redis/README.md (5/7 rows); README/Redis/05 Cluster and Partitioning/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S5 Done claims all present (domain 05 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–5; git tree clean; redisprobe Redis 8.0.2 PONG (alive from S5 rebuild). No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 future session).
 - Plan (Domain 06 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -32,8 +32,8 @@
 - Decisions:
 - Files touched: modified `README/Redis/LOG.md`, created `README/Redis/06 Production Redis Operations/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 6), created leaf `1. Observe/1.1. Observability with INFO and metrics.md`, created leaf `1. Observe/1.2. Slow log and latency diagnosis.md`, created leaf `2. Tune/2.1. Memory and encoding tuning.md`, created leaf `2. Tune/2.2. Timeouts and client management.md`, created leaf `3. Runbooks/3.1. Production runbooks.md`, created leaf `4. Mentor checklist/4.1. Operations checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA operations.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D06 80/80 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session); live commands executed on Redis 8.0.2 where read-only-safe (INFO-stats/clients hit-miss cycle, slowlog-config/LEN/LATENCY, encoding thresholds + listpack→hashtable promotion, timeout/keepalive/maxclients + CLIENT LIST — outputs verified, 0 dd: residue; no SLOWLOG RESET, no CLIENT KILL, no CONFIG SET per live-surface rule); non-ASCII = house set only (— ← → § – × plus µ microsecond unit); DRY spot-check clean (zero SLOWLOG/KILL/threshold hits outside 06/LOG); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 7 — Domain 07 Production Mastery and Interview Synthesis (LAST domain — closes the track: synthesis of 01–06 checklists, full-system scenarios, mentor capstone; TRACK COMPLETE closeout like ORM S7). Track README row 7 appended when 07 lands. Standing rules carry over (S2–S6): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, single-instance-safe live surface only, global node-redis + CJS require (+ NODE_PATH for /tmp scripts), redisprobe localhost:6380 plaintext.
 
 ## [2026-10-04 08:26] Session 5 — Domain 05 Cluster and Partitioning
 - Status: DONE
