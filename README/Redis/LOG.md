@@ -22,8 +22,9 @@
   - [unit 2] Research recorded (synthesis scope, DRY grep — composition owns, repetition banned; game-day program vs drill mechanics split with 04/3.1)
   - [unit 3] Created `README/Redis/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk — TRACK COMPLETE 7/7 rows)
   - [unit 4] Leaf `07 …/sections/1. Full-system design/1.1. Full-system caching design.md` (3 promises — synthesis leaf composing 01/02/04/06 via links, zero new mechanics); normalization pre-commit — 16/16 resolve first try (all targets built)
+  - [unit 5] Leaf `07 …/sections/1. Full-system design/1.2. Full-system messaging design.md` (3 promises — synthesis leaf composing 03 via links, zero new mechanics); 1 leaked note + wrong-depth link fixed + normalization pre-commit — 9/9 resolve (all targets built)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system caching design.md`
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system caching design.md`, created leaf `1. Full-system design/1.2. Full-system messaging design.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
