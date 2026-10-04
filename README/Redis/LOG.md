@@ -23,8 +23,9 @@
   - [unit 3] Created `README/Redis/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk — TRACK COMPLETE 7/7 rows)
   - [unit 4] Leaf `07 …/sections/1. Full-system design/1.1. Full-system caching design.md` (3 promises — synthesis leaf composing 01/02/04/06 via links, zero new mechanics); normalization pre-commit — 16/16 resolve first try (all targets built)
   - [unit 5] Leaf `07 …/sections/1. Full-system design/1.2. Full-system messaging design.md` (3 promises — synthesis leaf composing 03 via links, zero new mechanics); 1 leaked note + wrong-depth link fixed + normalization pre-commit — 9/9 resolve (all targets built)
+  - [unit 6] Leaf `07 …/sections/2. Scale and survive/2.1. Durability at scale.md` (3 promises — synthesis leaf composing 04/05 via links, zero new mechanics); normalization pre-commit — 14/14 resolve first try (all targets built)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system caching design.md`, created leaf `1. Full-system design/1.2. Full-system messaging design.md`
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system caching design.md`, created leaf `1. Full-system design/1.2. Full-system messaging design.md`, created leaf `2. Scale and survive/2.1. Durability at scale.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
