@@ -22,8 +22,9 @@
   - [unit 2] Research recorded (partitioning sources, DRY grep with target check — no competing coverage; live-surface rule: CRC16 computed locally, cluster-only via labeled shapes)
   - [unit 3] Created `README/Redis/05 Cluster and Partitioning/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
   - [unit 4] Leaf `05 …/sections/1. Slots/1.1. Hash slots and key distribution.md` (3 promises) — CRC16 slot math run locally in node (slot(dd:orders)=3253, tagged pair sharing 12568, 2000 keys → 2000 distinct slots verified; labeled computed-not-server per live-surface rule, no dd: keys on probe); normalization pre-commit (7/13 resolve now — 6 same-domain forwards to unbuilt 1.2/2.2/3.1 resolve as units land)
+  - [unit 5] Leaf `05 …/sections/1. Slots/1.2. Hash tags for colocation.md` (3 promises) — tag-extraction edge cases run locally in node (`{}`→whole-key, `{a}{b}`→first-tag, colocation holds verified; labeled computed); normalization pre-commit (7/12 resolve now — 5 forwards to unbuilt 2.1/3.1/4.1 resolve as units land)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/05 Cluster and Partitioning/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 5), created leaf `1. Slots/1.1. Hash slots and key distribution.md`
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/05 Cluster and Partitioning/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 5), created leaf `1. Slots/1.1. Hash slots and key distribution.md`, created leaf `1. Slots/1.2. Hash tags for colocation.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
