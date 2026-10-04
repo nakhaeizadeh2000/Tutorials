@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (routing-depth sources, DRY grep with target check — no competing coverage)
   - [unit 3] Created `README/Express/02 Routing and Middleware in Depth/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
   - [unit 4] Leaf `02 …/sections/1. Params/1.1. Route params and validation.md` (3 promises) — 6/6 JS blocks `node --check` clean; 1 TS placeholder resolved to verified target pre-commit + normalization (2/4 resolve now — 2 forwards to unbuilt 1.2/4.1 resolve as units land)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/02 Routing and Middleware in Depth/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 2), created leaf `1. Params/1.1. Route params and validation.md`
+  - [unit 5] Leaf `02 …/sections/1. Params/1.2. Nested routers and composition.md` (3 promises) — 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (all targets built); 1.1's forward to 1.2 now resolves
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/02 Routing and Middleware in Depth/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 2), created leaf `1. Params/1.1. Route params and validation.md`, created leaf `1. Params/1.2. Nested routers and composition.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
