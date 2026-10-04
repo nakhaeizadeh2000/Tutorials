@@ -22,8 +22,9 @@
   - [unit 2] Research recorded (ops sources, DRY grep with target check — honors 01/2.2 encoding-tuning forward; live-surface rule: read-only, no KILL/RESET/SET)
   - [unit 3] Created `README/Redis/06 Production Redis Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk); 1 mangled index fragment fixed pre-commit
   - [unit 4] Leaf `06 …/sections/1. Observe/1.1. Observability with INFO and metrics.md` (3 promises) — SET/GET-hit/GET-miss/INFO-stats/INFO-clients/DEL run live on Redis 8.0.2 (hits 1, misses 1, 17 commands, 1 client/0 blocked verified, key cleaned, 0 residue); normalization pre-commit (6/9 resolve now — 3 forwards to unbuilt 2.2/3.1 resolve as units land)
+  - [unit 5] Leaf `06 …/sections/1. Observe/1.2. Slow log and latency diagnosis.md` (3 promises) — CONFIG-GET-slowlog-*/SLOWLOG-LEN/CONFIG-GET-latency-threshold/LATENCY-LATEST run live on Redis 8.0.2 (10ms threshold, 128 cap, LEN 0, latency monitoring disabled verified; read-only); 1 weak cross-link refined + normalization pre-commit (4/6 resolve now — 2 forwards to unbuilt 3.1/4.1 resolve as units land)
 - Decisions:
-- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/06 Production Redis Operations/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 6), created leaf `1. Observe/1.1. Observability with INFO and metrics.md`
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/06 Production Redis Operations/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 6), created leaf `1. Observe/1.1. Observability with INFO and metrics.md`, created leaf `1. Observe/1.2. Slow log and latency diagnosis.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
