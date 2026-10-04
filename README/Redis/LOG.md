@@ -1,5 +1,32 @@
 # Redis — work log
 
+## [2026-10-04 08:26] Session 5 — Domain 05 Cluster and Partitioning
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S4 on file); README/Redis/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Redis/README.md (4/7 rows); README/Redis/04 Persistence Replication and Sentinel/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims all present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–4; git tree clean. DISCREPANCY found + resolved: redisprobe container gone (`No such container` — host containers rebuilt overnight); rebuilt from local image `harbor.webpooyan.com/ghavanin/redis:8.0.2-bookworm-cmz` as `redisprobe -p 6380:6379` plaintext — PONG, `redis_version:8.0.2` verified before opening this entry. No other discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
+- Plan (Domain 05 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (hash-slot/cluster-bus/resharding sources, DRY grep) + record
+  3. Unit 3 — create `05 Cluster and Partitioning/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Hash slots and key distribution
+  5. Unit 5 — leaf 1.2. Hash tags for colocation
+  6. Unit 6 — leaf 2.1. Multi-key operations in clusters
+  7. Unit 7 — leaf 2.2. Resharding and rebalancing
+  8. Unit 8 — leaf 3.1. Client routing and MOVED ASK
+  9. Unit 9 — leaf 4.1. Partitioning checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA partitioning
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: partitioning sources — hash slots (16384, CRC16(key) mod 16384 — stable since 3.0), hash tags (`{...}` substring hashed — colocation primitive), CROSSSLOT (multi-key restriction — same-slot requirement), resharding (CLUSTER SETSLOT MIGRATING/IMPORTING + MIGRATE key-by-key — online, per-slot), redirections (MOVED permanent + ASK temporary — cluster-aware clients following), sharded pub/sub (SSUBSCRIBE since 7.0 — honors 03/3.1 forward), replicas-per-shard (failover per shard — Sentinel concepts transferring, cluster-native election). DRY grep (`hash slot|CLUSTER|CROSSSLOT|hash tag|MOVED|reshard|16384`): hits are word-level mentions (resharding/cross-shard in Databases 07/DatabaseDesign 04 theory, ORM/TS fragments) + 04/6.1 textual forwards — NO slot/cluster mechanics treatment exists; Domain 05 owns all. Live-surface rule: lone probe has cluster DISABLED (`CLUSTER KEYSLOT`/`CLUSTER INFO` both ERR verified) — slot math verified locally via CRC16 in node (deterministic algorithm, labeled computed-not-server); cluster-only behavior (CROSSSLOT/MOVED/SETSLOT/MIGRATE) taught via documented shapes, labeled. Verification otherwise reused (dd: keys + DEL, 0 residue).
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (partitioning sources, DRY grep with target check — no competing coverage; live-surface rule: CRC16 computed locally, cluster-only via labeled shapes)
+  - [unit 3] Created `README/Redis/05 Cluster and Partitioning/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
+- Decisions:
+- Files touched: modified `README/Redis/LOG.md`, created `README/Redis/05 Cluster and Partitioning/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-03 15:26] Session 4 — Domain 04 Persistence Replication and Sentinel
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S3 on file); README/Redis/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Redis/README.md (3/7 rows); README/Redis/03 Streams Queues and PubSub/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (PARTIAL hits are other tracks' closed-session history, immutable per PROMPT.md:165). Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean; redisprobe Redis 8.0.2 PONG. No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
