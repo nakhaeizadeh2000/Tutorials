@@ -24,7 +24,8 @@
   - [unit 4] Leaf `02 …/sections/1. Params/1.1. Route params and validation.md` (3 promises) — 6/6 JS blocks `node --check` clean; 1 TS placeholder resolved to verified target pre-commit + normalization (2/4 resolve now — 2 forwards to unbuilt 1.2/4.1 resolve as units land)
   - [unit 5] Leaf `02 …/sections/1. Params/1.2. Nested routers and composition.md` (3 promises) — 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (all targets built); 1.1's forward to 1.2 now resolves
   - [unit 6] Leaf `02 …/sections/2. Matching/2.1. Advanced matching and wildcards.md` (3 promises — Express 5 path-to-regexp v8 syntax, era-labeled) — 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (all targets built)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/02 Routing and Middleware in Depth/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 2), created leaf `1. Params/1.1. Route params and validation.md`, created leaf `1. Params/1.2. Nested routers and composition.md`, created leaf `2. Matching/2.1. Advanced matching and wildcards.md`
+  - [unit 7] Leaf `02 …/sections/2. Matching/2.2. Custom middleware patterns.md` (3 promises) — 6/6 JS blocks `node --check` clean; 1 weak cross-link retargeted to 01/2.1 pre-commit + normalization (3/3 resolve first try, all targets built)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/02 Routing and Middleware in Depth/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 2), created leaf `1. Params/1.1. Route params and validation.md`, created leaf `1. Params/1.2. Nested routers and composition.md`, created leaf `2. Matching/2.1. Advanced matching and wildcards.md`, created leaf `2. Matching/2.2. Custom middleware patterns.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
