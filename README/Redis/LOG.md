@@ -1,7 +1,7 @@
 # Redis — work log
 
 ## [2026-10-04 08:26] Session 5 — Domain 05 Cluster and Partitioning
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Redis #12, unchanged — Categories table read S4 on file); README/Redis/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Redis/README.md (4/7 rows); README/Redis/04 Persistence Replication and Sentinel/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims all present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–4; git tree clean. DISCREPANCY found + resolved: redisprobe container gone (`No such container` — host containers rebuilt overnight); rebuilt from local image `harbor.webpooyan.com/ghavanin/redis:8.0.2-bookworm-cmz` as `redisprobe -p 6380:6379` plaintext — PONG, `redis_version:8.0.2` verified before opening this entry. No other discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
 - Plan (Domain 05 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -32,8 +32,8 @@
 - Decisions:
 - Files touched: modified `README/Redis/LOG.md`, created `README/Redis/05 Cluster and Partitioning/README.md` + 6 `sections/` folders, modified `README/Redis/README.md` (row 5), created leaf `1. Slots/1.1. Hash slots and key distribution.md`, created leaf `1. Slots/1.2. Hash tags for colocation.md`, created leaf `2. Cluster operations/2.1. Multi-key operations in clusters.md`, created leaf `2. Cluster operations/2.2. Resharding and rebalancing.md`, created leaf `3. Clients/3.1. Client routing and MOVED ASK.md`, created leaf `4. Mentor checklist/4.1. Partitioning checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA partitioning.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D05 94/94 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session); slot math verified locally in node (slot values, tag edge cases — labeled computed-not-server; lone probe has cluster DISABLED, verified ERR); cluster-only behavior (CROSSSLOT/SETSLOT/MIGRATE/MOVED/ASK) via labeled documented shapes per live-surface rule, no probe surface touched; 0 dd: residue; non-ASCII = house set only (— ← → – § ×); DRY spot-check clean (only 03/3.1 SSUBSCRIBE forward outside 05 — expected, honored in 6.1); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 6 — Domain 06 Production Redis Operations (observability/slowlog/runbooks 05 defers ops to; encoding/threshold tuning from 01 lands here) per S1 plan; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (S2–S5): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, single-instance-safe live surface only (read-only + BGSAVE; multi-node via labeled shapes; slot math computed locally), global node-redis + CJS require (+ NODE_PATH for /tmp scripts), redisprobe localhost:6380 plaintext (rebuilt 2026-10-04 from local 8.0.2 image after overnight host rebuild — recreate same way if gone again).
 
 ## [2026-10-03 15:26] Session 4 — Domain 04 Persistence Replication and Sentinel
 - Status: DONE
