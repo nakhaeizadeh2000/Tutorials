@@ -1,5 +1,31 @@
 # Express — work log
 
+## [2026-10-04 15:16] Session 2 — Domain 02 Routing and Middleware in Depth
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S1 on file); README/Express/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Express/README.md (1/7 rows); README/Express/01 Express Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S1 Done claims all present (domain 01 index + 6 section dirs + 8/8 leaves = 9 md); track README row 1; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
+- Plan (Domain 02 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (param/validation/router/wildcard sources, DRY grep) + record
+  3. Unit 3 — create `02 Routing and Middleware in Depth/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Route params and validation
+  5. Unit 5 — leaf 1.2. Nested routers and composition
+  6. Unit 6 — leaf 2.1. Advanced matching and wildcards
+  7. Unit 7 — leaf 2.2. Custom middleware patterns
+  8. Unit 8 — leaf 3.1. Async pipeline safety
+  9. Unit 9 — leaf 4.1. Routing checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA routing
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Express 5 routing depth — path-to-regexp v8 (`/*splat` named wildcards, `:param` modifiers, regex routes), `app.param()` preloaders, `mergeParams` nested routers, query parser `simple` default, async error auto-forwarding; validation via schemas (zod/express-validator concepts — runtime route validation, distinct from TS type-level). DRY grep (`zod|express-validator|mergeParams|path-to-regexp|splat|app.param(`): hits are TS type-boundary mentions (parse unknown → branded types) + NodeJS env-config validation — NO route-param validation, nested-router, or path-matching treatment exists; Domain 02 owns all three. Live-surface rule carries over (no registry — node --check + labeled docs behavior).
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (routing-depth sources, DRY grep with target check — no competing coverage)
+  - [unit 3] Created `README/Express/02 Routing and Middleware in Depth/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/02 Routing and Middleware in Depth/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-04 14:33] Session 1 — Create track + Domain 01 Express Foundations (Domains 02–07 next)
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S7 ORM + S1–S7 Redis on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (Categories table — Express already listed at #13, link target did not exist); README/Redis/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names track complete). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (PARTIAL hits are other tracks' closed-session history, immutable per PROMPT.md:165). Disk verified — Redis TRACK COMPLETE on disk (7/7 domains, 7/7 rows, HEAD 2fe9a4b closeout, tree clean); `ls README/` shows no Express dir. No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. User chose Express at session start (Mode 1 new track, Domain 01 only, 02–07 future sessions, per convention).
