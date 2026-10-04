@@ -10,6 +10,7 @@ Caching & data structures for huge apps — Redis from foundations to production
 | 4 | [Persistence Replication and Sentinel](<04 Persistence Replication and Sentinel/README.md>) |
 | 5 | [Cluster and Partitioning](<05 Cluster and Partitioning/README.md>) |
 | 6 | [Production Redis Operations](<06 Production Redis Operations/README.md>) |
+| 7 | [Production Mastery and Interview Synthesis](<07 Production Mastery and Interview Synthesis/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
