@@ -22,7 +22,8 @@
   - [unit 1] Opened this Session 1 entry (first write on disk)
   - [unit 2] Research recorded (Express 5.x sources, DRY grep with target check — no competing coverage; live-surface rule: node --check + labeled docs behavior, no registry)
   - [unit 3] Created `README/Express/README.md` (Template A track index, lists Domain 01) + `README/Express/01 Express Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders — root README row #13 now resolves, no root edit needed; track index 5/5 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/README.md`, created `README/Express/01 Express Foundations and Mental Model/README.md` + 6 `sections/` folders
+  - [unit 4] Leaf `01 …/sections/1. First app/1.1. What Express is and is not.md` (3 promises) — 6/6 JS blocks `node --check` clean (no registry, per live-surface rule; behavior per docs, labeled); normalization pre-commit (2/8 resolve now — 6 same-domain forwards to unbuilt 1.2/2.1 resolve as units land)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/README.md`, created `README/Express/01 Express Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. First app/1.1. What Express is and is not.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
