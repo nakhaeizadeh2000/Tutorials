@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (ops sources, DRY grep with target reads — NodeJS 06/2.2 title collision avoided by rename; no other competing coverage)
   - [unit 3] Created `README/Express/06 Production Express Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
   - [unit 4] Leaf `06 …/sections/1. Observe/1.1. Request metrics that matter.md` (3 promises) — bucket math RUN LIVE via node --test (2 pass, 0 fail); 6/6 JS blocks `node --check` clean; 3 wrong-track cross-links fixed pre-commit + 1 same-domain/cross-domain section-name confusion caught by checker (06 has no "2. Delivery" — probes live in 05, fixed to `../../../05 …`); normalization pre-commit — 3/3 resolve
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/06 Production Express Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 6), created leaf `1. Observe/1.1. Request metrics that matter.md`
+  - [unit 5] Leaf `06 …/sections/1. Observe/1.2. Request logging and correlation.md` (3 promises — renamed pre-build to avoid NodeJS 06/2.2 title duplication; req-scoped usage only, formats linked) — ID tests RUN LIVE via node --test (2 pass, 0 fail); 5/5 JS blocks `node --check` clean; normalization pre-commit — 4/4 resolve first try (NodeJS targets verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/06 Production Express Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 6), created leaf `1. Observe/1.1. Request metrics that matter.md`, created leaf `1. Observe/1.2. Request logging and correlation.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
