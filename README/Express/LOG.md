@@ -1,7 +1,7 @@
 # Express — work log
 
 ## [2026-10-05 12:59] Session 4 — Domain 04 Data Access and Persistence
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S3 on file); README/Express/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Express/README.md (3/7 rows); README/Express/03 Errors Validation and Security/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
 - Plan (Domain 04 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `04 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — ORM queries + Domain 03 errors (targets verified) + Domain 05 forward (textual, unbuilt); no duplication of neighbors' links); 3/3 blocks `node --check` clean; normalization pre-commit — 11/11 resolve first try (all targets built)
 - Files touched: modified `README/Express/LOG.md`, created `README/Express/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 4), created leaf `1. Service layer/1.1. Service layer extraction.md`, created leaf `1. Service layer/1.2. DTOs and response shaping.md`, created leaf `2. Transactions/2.1. ORM integration in handlers.md`, created leaf `2. Transactions/2.2. Transactions per request.md`, created leaf `3. Loading/3.1. N+1 and dataLoader.md`, created leaf `4. Mentor checklist/4.1. Persistence checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA persistence.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D04 64/64 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session); 41/41 JS blocks `node --check` clean domain-wide (no registry — examples complete/runnable with in-memory stand-ins labeled, behavior per Express 5 docs); non-ASCII = house set only (— ← → § ≤); DRY spot-check clean (ORM N+1/seam/isolation adjacent — boundaries honored via links; other hits word-level/incidental); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 5 — Domain 05 Testing Deployment and Operations (handler/service tests, supertest shapes, config gating, graceful shutdown, health probes) per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (S1–S4): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, node --check per leaf (no registry until reachable), era label Express 5.x.
 
 ## [2026-10-05 12:24] Session 3 — Domain 03 Errors Validation and Security
 - Status: DONE
