@@ -1,5 +1,31 @@
 # Express — work log
 
+## [2026-10-05 12:59] Session 4 — Domain 04 Data Access and Persistence
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S3 on file); README/Express/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Express/README.md (3/7 rows); README/Express/03 Errors Validation and Security/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
+- Plan (Domain 04 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (service-layer/ORM-integration/tx-per-request/N+1 sources, DRY grep) + record
+  3. Unit 3 — create `04 Data Access and Persistence/README.md` (Template B, sections 1–6) + 6 section folders + track README row 4
+  4. Unit 4 — leaf 1.1. Service layer extraction
+  5. Unit 5 — leaf 1.2. DTOs and response shaping
+  6. Unit 6 — leaf 2.1. ORM integration in handlers
+  7. Unit 7 — leaf 2.2. Transactions per request
+  8. Unit 8 — leaf 3.1. N+1 and dataLoader
+  9. Unit 9 — leaf 4.1. Persistence checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA persistence
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Express-side persistence — service extraction (handlers → services → repositories; req-scoped ctx via middleware/res.locals), DTO/response shaping (presenters selecting fields — over/under-fetching at HTTP boundary), ORM integration (client injection per request, never global-tx sharing), tx-per-request (begin → pass tx through services → commit/rollback with request lifecycle), N+1 at handler level (per-request dataloader instances: batching + per-request cache). DRY grep with target reads: ORM 02/3.1 owns N+1 counting + include/select strategies (Prisma-specific, verified live there); ORM 01/2.2 owns repository-seam mapping theory. BOUNDARY: Express 04 owns handler-side integration (extraction, req-scoped propagation, per-request loader instances, tx lifecycle) and LINKS ORM for query mechanics/loading strategies/isolation (never re-teaches). Live-surface rule carries over (no registry — node --check + labeled docs behavior; data-access examples use in-memory stand-ins with identical shapes, labeled).
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit 2] Research recorded (persistence-integration sources, DRY grep with target reads — ORM boundaries drawn, no other competing coverage)
+  - [unit 3] Created `README/Express/04 Data Access and Persistence/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-05 12:24] Session 3 — Domain 03 Errors Validation and Security
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S2 on file); README/Express/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Express/README.md (2/7 rows); README/Express/02 Routing and Middleware in Depth/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
