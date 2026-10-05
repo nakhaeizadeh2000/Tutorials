@@ -21,7 +21,8 @@
   - [unit 1] Opened this Session 3 entry (first write on disk)
   - [unit 2] Research recorded (error/security sources, DRY grep with target read — TS 15/2.2 boundary drawn, no other competing coverage)
   - [unit 3] Created `README/Express/03 Errors Validation and Security/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/03 Errors Validation and Security/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 3)
+  - [unit 4] Leaf `03 …/sections/1. Error design/1.1. Central error handling.md` (3 promises — honors TS 15/2.2 boundary: triage + translation integration here, hierarchies linked) — 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (TS targets verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/03 Errors Validation and Security/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 3), created leaf `1. Error design/1.1. Central error handling.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
