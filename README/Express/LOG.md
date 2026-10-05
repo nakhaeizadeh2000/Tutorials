@@ -23,7 +23,8 @@
   - [unit 3] Created `README/Express/03 Errors Validation and Security/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
   - [unit 4] Leaf `03 …/sections/1. Error design/1.1. Central error handling.md` (3 promises — honors TS 15/2.2 boundary: triage + translation integration here, hierarchies linked) — 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (TS targets verified on disk)
   - [unit 5] Leaf `03 …/sections/1. Error design/1.2. Async errors and rejections.md` (3 promises) — 6/6 JS blocks `node --check` clean; 1 self-flagged imprecise cross-link fixed pre-commit + normalization (5/5 resolve first try, all targets built)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/03 Errors Validation and Security/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 3), created leaf `1. Error design/1.1. Central error handling.md`, created leaf `1. Error design/1.2. Async errors and rejections.md`
+  - [unit 6] Leaf `03 …/sections/2. Input armor/2.1. Input schemas and sanitization.md` (3 promises) — 6/6 JS blocks `node --check` clean; normalization pre-commit (4/7 resolve now — 3 forwards to unbuilt 3.1/4.1 resolve as units land)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/03 Errors Validation and Security/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 3), created leaf `1. Error design/1.1. Central error handling.md`, created leaf `1. Error design/1.2. Async errors and rejections.md`, created leaf `2. Input armor/2.1. Input schemas and sanitization.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
