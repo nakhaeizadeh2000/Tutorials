@@ -1,7 +1,7 @@
 # Express — work log
 
 ## [2026-10-05 13:11] Session 5 — Domain 05 Testing Deployment and Operations
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S4 on file); README/Express/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Express/README.md (4/7 rows); README/Express/04 Data Access and Persistence/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims all present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–4; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
 - Plan (Domain 05 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `05 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Domains 01–04 mechanics + NodeJS containers (targets verified) + Domains 06–07 forwards (textual, unbuilt); no duplication of neighbors' links); 3/3 blocks `node --check` clean; normalization pre-commit — 13/13 resolve first try (all targets built)
 - Files touched: modified `README/Express/LOG.md`, created `README/Express/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 5), created leaf `1. Tests/1.1. Handler tests without servers.md`, created leaf `1. Tests/1.2. Service tests with fakes.md`, created leaf `2. Delivery/2.1. Config gating at deploy.md`, created leaf `2. Delivery/2.2. Graceful shutdown and probes.md`, created leaf `3. Readiness/3.1. Production checklists.md`, created leaf `4. Mentor checklist/4.1. Delivery checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA delivery.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D05 62/62 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session, including the rewritten unit 7 after its aborted first write left zero residue); 41/41 JS blocks `node --check` clean domain-wide + 11 node:test passes executed live (mock suites, service suites, boot gates — no registry; supertest shapes install-gated, labeled); non-ASCII = house set only (— – ← → §); DRY spot-check clean (supertest zero; NodeJS 06/07 process-level adjacent — boundaries honored via links); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 6 — Domain 06 Production Express Operations (metrics, logging, performance, hardening at scale) per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (S1–S5): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, node --check per leaf + node:test where dependency-free (no registry until reachable), era label Express 5.x.
 
 ## [2026-10-05 12:59] Session 4 — Domain 04 Data Access and Persistence
 - Status: DONE
