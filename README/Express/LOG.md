@@ -1,5 +1,31 @@
 # Express — work log
 
+## [2026-10-05 12:24] Session 3 — Domain 03 Errors Validation and Security
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S2 on file); README/Express/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Express/README.md (2/7 rows); README/Express/02 Routing and Middleware in Depth/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
+- Plan (Domain 03 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (error taxonomy/validation-library/security-header sources, DRY grep) + record
+  3. Unit 3 — create `03 Errors Validation and Security/README.md` (Template B, sections 1–6) + 6 section folders + track README row 3
+  4. Unit 4 — leaf 1.1. Central error handling
+  5. Unit 5 — leaf 1.2. Async errors and rejections
+  6. Unit 6 — leaf 2.1. Input schemas and sanitization
+  7. Unit 7 — leaf 2.2. Security headers and secrets
+  8. Unit 8 — leaf 3.1. Threat modeling basics
+  9. Unit 9 — leaf 4.1. Security checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA security
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Express 5 error/security depth — error-middleware chain (arity, headersSent delegation, status/statusCode conventions), operational vs programmer errors (triage: respond vs crash), async forwarding (Express 5 native), helmet header sets (CSP/HSTS/X-Frame via middleware), express-rate-limit windowing, secret handling (env access, rotation, never-log), STRIDE-lite per-route threat enumeration. DRY grep (`helmet|HttpError|express-rate-limit|threat model|STRIDE` + precise): ZERO helmet/rate-limit/STRIDE hits anywhere. ADJACENT: TypeScript 15/2.2 owns HttpError class hierarchies + instanceof narrowing + toResponse (read: 2-level hierarchies, status-driven mapping — type-level). BOUNDARY: Express 03 owns operational/programmer triage + Express middleware integration (headersSent, status conventions, async reach) and LINKS TS 15/2.2 for class design (never re-teaches hierarchies). NodeJS 06/2.1 owns boot-time env validation (linked for secrets-at-boot). Live-surface rule carries over (no registry — node --check + labeled docs behavior).
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Research recorded (error/security sources, DRY grep with target read — TS 15/2.2 boundary drawn, no other competing coverage)
+  - [unit 3] Created `README/Express/03 Errors Validation and Security/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/03 Errors Validation and Security/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-04 15:16] Session 2 — Domain 02 Routing and Middleware in Depth
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S1 on file); README/Express/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Express/README.md (1/7 rows); README/Express/01 Express Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S1 Done claims all present (domain 01 index + 6 section dirs + 8/8 leaves = 9 md); track README row 1; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
