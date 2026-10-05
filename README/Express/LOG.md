@@ -1,7 +1,7 @@
 # Express — work log
 
 ## [2026-10-04 15:16] Session 2 — Domain 02 Routing and Middleware in Depth
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S1 on file); README/Express/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Express/README.md (1/7 rows); README/Express/01 Express Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S1 Done claims all present (domain 01 index + 6 section dirs + 8/8 leaves = 9 md); track README row 1; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
 - Plan (Domain 02 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -32,8 +32,8 @@
   - [recovery 2026-10-05 09:37] Previous turn interrupted mid-unit-8-write (tool interruption, not a crash). Verified per PROMPT.md:165 — units 1–7 all present on disk (entry + research + 02 README + 6 section dirs + track row 2 + leaves 1.1/1.2/2.1/2.2; HEAD 96a4897 = unit 7 commit; tree clean); `3. Async safety/` dir EMPTY — unit 8 never landed, exactly one unit lost as designed, no partial file. Trust disk over log. Resuming INSIDE this block from unit 8 (no redo, no PARTIAL split).
 - Files touched: modified `README/Express/LOG.md`, created `README/Express/02 Routing and Middleware in Depth/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 2), created leaf `1. Params/1.1. Route params and validation.md`, created leaf `1. Params/1.2. Nested routers and composition.md`, created leaf `2. Matching/2.1. Advanced matching and wildcards.md`, created leaf `2. Matching/2.2. Custom middleware patterns.md`, created leaf `3. Async safety/3.1. Async pipeline safety.md`, created leaf `4. Mentor checklist/4.1. Routing checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA routing.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D02 47/47 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session, including post-recovery units); 42/42 JS blocks `node --check` clean domain-wide (no registry — examples complete/runnable, behavior per Express 5 docs, labeled); recovery verified units 1–7 intact, unit 8 rewritten fresh with no residue conflict; non-ASCII = house set only (— ← → §); DRY spot-check clean (zero param/router/splat mechanics hits outside Express); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 3 — Domain 03 Errors Validation and Security (central errors, input schemas, headers/secrets/threats) per plan above; then 04–07 in order. Track README row 3 appended when 03 lands. Standing rules carry over (S1–S2): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, node --check per leaf (no registry until reachable), era label Express 5.x.
 
 ## [2026-10-04 14:33] Session 1 — Create track + Domain 01 Express Foundations (Domains 02–07 next)
 - Status: DONE
