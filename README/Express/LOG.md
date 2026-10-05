@@ -1,7 +1,7 @@
 # Express — work log
 
 ## [2026-10-05 14:26] Session 6 — Domain 06 Production Express Operations
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S5 on file); README/Express/LOG.md (full — Sessions 1–5 DONE, Next steps names Domain 06); README/Express/README.md (5/7 rows); README/Express/05 Testing Deployment and Operations/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S5 Done claims all present (domain 05 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–5; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 future session).
 - Plan (Domain 06 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `06 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — NodeJS runtime (3 targets verified) + Domain 05 delivery + Domain 07 forward (textual, unbuilt); no duplication of neighbors' links); 3/3 blocks `node --check` clean; normalization pre-commit — 9/9 resolve first try (all targets built)
 - Files touched: modified `README/Express/LOG.md`, created `README/Express/06 Production Express Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 6), created leaf `1. Observe/1.1. Request metrics that matter.md`, created leaf `1. Observe/1.2. Request logging and correlation.md`, created leaf `2. Performance/2.1. Compression and payload budgets.md`, created leaf `2. Performance/2.2. Connection and event-loop health.md`, created leaf `3. Harden/3.1. Hardening at scale.md`, created leaf `4. Mentor checklist/4.1. Operations checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA operations.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D06 52/52 relative links resolve (script-checked with unquote — 4 wrong-track/placeholder links fixed pre-commit across units 4/7, plus 1 section-name confusion caught by checker; zero post-commit remediation needed); 39/39 JS blocks `node --check` clean domain-wide + 4 node:test passes executed live (bucket math, request IDs — no registry; compression/npm shapes install-gated, labeled); non-ASCII = house set only (— ← → § ×); DRY spot-check clean (NodeJS 06/2.2 title avoided by rename, 06/3.1 + 01/3.1 boundaries honored via links; ORM cardinality hits are relation-modeling, unrelated); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 7 — Domain 07 Production Mastery and Interview Synthesis (LAST domain — closes the track: synthesis of 01–06 checklists, full-system scenarios, mentor capstone; TRACK COMPLETE closeout). Track README row 7 appended when 07 lands. Standing rules carry over (S1–S6): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, node --check per leaf + node:test where dependency-free (no registry until reachable), era label Express 5.x.
 
 ## [2026-10-05 13:11] Session 5 — Domain 05 Testing Deployment and Operations
 - Status: DONE
