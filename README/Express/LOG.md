@@ -1,5 +1,31 @@
 # Express — work log
 
+## [2026-10-05 14:26] Session 6 — Domain 06 Production Express Operations
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S5 on file); README/Express/LOG.md (full — Sessions 1–5 DONE, Next steps names Domain 06); README/Express/README.md (5/7 rows); README/Express/05 Testing Deployment and Operations/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S5 Done claims all present (domain 05 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–5; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 future session).
+- Plan (Domain 06 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (metrics/logging/compression/keepalive/hardening sources, DRY grep) + record
+  3. Unit 3 — create `06 Production Express Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Request metrics that matter
+  5. Unit 5 — leaf 1.2. Structured logging that pays
+  6. Unit 6 — leaf 2.1. Compression and payload budgets
+  7. Unit 7 — leaf 2.2. Connection and event-loop health
+  8. Unit 8 — leaf 3.1. Hardening at scale
+  9. Unit 9 — leaf 4.1. Operations checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA operations
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Express ops depth — RED metrics per route (rate/errors/duration via middleware timing), req-scoped logging (correlation IDs, child loggers, per-request fields, HTTP-context redaction), compression (negotiation, CPU trade, threshold sizing), keep-alive/timeout tuning (server.keepAliveTimeout/headersTimeout, downstream agents), production hardening (trust proxy, powered-by removal, dependency audit). DRY grep with target reads: NodeJS 06/2.2 OWNS the title "Structured logging that pays" (JSON lines, boundary logging, drain) — RENAMED my leaf 1.2 to "Request logging and correlation" (req-scoped usage only: IDs, child loggers, per-line fields) to avoid title duplication; links NodeJS for format/transport/drain. NodeJS 06/3.1 owns container orchestration (linked in 05, not repeated). Zero prometheus/supertest-unrelated/helmet-duplicate hits; compression/keepalive/timeout Express-side unowned. BOUNDARY: Express 06 owns app-side ops (metrics middleware, req logging, compression config, timeout tuning, hardening checklist); NodeJS owns runtime mechanics. Live-surface rule carries over (node:test where dependency-free; node --check elsewhere).
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit 2] Research recorded (ops sources, DRY grep with target reads — NodeJS 06/2.2 title collision avoided by rename; no other competing coverage)
+  - [unit 3] Created `README/Express/06 Production Express Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/06 Production Express Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 6)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-05 13:11] Session 5 — Domain 05 Testing Deployment and Operations
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S4 on file); README/Express/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Express/README.md (4/7 rows); README/Express/04 Data Access and Persistence/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims all present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–4; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
