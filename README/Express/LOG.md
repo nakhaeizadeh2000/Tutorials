@@ -23,7 +23,8 @@
   - [unit 3] Created `README/Express/05 Testing Deployment and Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
   - [unit 4] Leaf `05 …/sections/1. Tests/1.1. Handler tests without servers.md` (3 promises) — mock req/res test RUN LIVE via node --test (2 pass, 0 fail, outputs verified); 6/6 JS blocks `node --check` clean (supertest shapes install-gated, labeled); normalization pre-commit (2/4 resolve now — 2 forwards to unbuilt 1.2 resolve as units land)
   - [unit 5] Leaf `05 …/sections/1. Tests/1.2. Service tests with fakes.md` (3 promises) — service suite + stdlib demo RUN LIVE via node --test (both fail 0, outputs verified); 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (all targets built); 1.1's 2 forwards to 1.2 now resolve
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 5), created leaf `1. Tests/1.1. Handler tests without servers.md`, created leaf `1. Tests/1.2. Service tests with fakes.md`
+  - [unit 6] Leaf `05 …/sections/2. Delivery/2.1. Config gating at deploy.md` (3 promises) — boot-schema tests RUN LIVE via node --test (3 pass, 0 fail, outputs verified); 6/6 JS blocks `node --check` clean; normalization pre-commit (4/5 resolve now — 1 forward to unbuilt 4.1 resolves as units land)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 5), created leaf `1. Tests/1.1. Handler tests without servers.md`, created leaf `1. Tests/1.2. Service tests with fakes.md`, created leaf `2. Delivery/2.1. Config gating at deploy.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
