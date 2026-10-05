@@ -10,6 +10,7 @@ Minimal backend framework for huge apps — Express from foundations to producti
 | 4 | [Data Access and Persistence](<04 Data Access and Persistence/README.md>) |
 | 5 | [Testing Deployment and Operations](<05 Testing Deployment and Operations/README.md>) |
 | 6 | [Production Express Operations](<06 Production Express Operations/README.md>) |
+| 7 | [Production Mastery and Interview Synthesis](<07 Production Mastery and Interview Synthesis/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
