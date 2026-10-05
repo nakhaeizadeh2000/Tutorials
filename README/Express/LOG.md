@@ -21,7 +21,8 @@
   - [unit 1] Opened this Session 5 entry (first write on disk)
   - [unit 2] Research recorded (delivery sources, DRY grep with target reads — NodeJS 06 boundaries drawn; live-surface tightened: node:test runs dependency-free tests)
   - [unit 3] Created `README/Express/05 Testing Deployment and Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 5)
+  - [unit 4] Leaf `05 …/sections/1. Tests/1.1. Handler tests without servers.md` (3 promises) — mock req/res test RUN LIVE via node --test (2 pass, 0 fail, outputs verified); 6/6 JS blocks `node --check` clean (supertest shapes install-gated, labeled); normalization pre-commit (2/4 resolve now — 2 forwards to unbuilt 1.2 resolve as units land)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 5), created leaf `1. Tests/1.1. Handler tests without servers.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
