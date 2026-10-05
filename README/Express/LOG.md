@@ -21,7 +21,8 @@
   - [unit 1] Opened this Session 7 entry (first write on disk)
   - [unit 2] Research recorded (synthesis scope, DRY grep — Redis 07/2.2 program boundary drawn; composition owns, repetition banned)
   - [unit 3] Created `README/Express/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk — TRACK COMPLETE 7/7 rows)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 7)
+  - [unit 4] Leaf `07 …/sections/1. Full-system design/1.1. Full-system Express design.md` (3 promises — synthesis leaf composing 01/02/03/04 via links, zero new mechanics); 5/5 JS blocks `node --check` clean; normalization pre-commit — 14/14 resolve first try (all targets built)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system Express design.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
