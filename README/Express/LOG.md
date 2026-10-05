@@ -1,7 +1,7 @@
 # Express — work log
 
 ## [2026-10-05 12:24] Session 3 — Domain 03 Errors Validation and Security
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S2 on file); README/Express/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Express/README.md (2/7 rows); README/Express/02 Routing and Middleware in Depth/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
 - Plan (Domain 03 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `03 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Domains 01–02 basics + TS theory (target verified) + Domain 04 forward (textual, unbuilt) + ORM live (target verified); no duplication of neighbors' links); 3/3 blocks `node --check` clean; normalization pre-commit — 12/12 resolve first try (all targets built)
 - Files touched: modified `README/Express/LOG.md`, created `README/Express/03 Errors Validation and Security/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 3), created leaf `1. Error design/1.1. Central error handling.md`, created leaf `1. Error design/1.2. Async errors and rejections.md`, created leaf `2. Input armor/2.1. Input schemas and sanitization.md`, created leaf `2. Input armor/2.2. Security headers and secrets.md`, created leaf `3. Threat thinking/3.1. Threat modeling basics.md`, created leaf `4. Mentor checklist/4.1. Security checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA security.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D03 62/62 relative links resolve (script-checked with unquote — zero remediation needed; pre-commit anchored-regex normalization held all session); 42/42 JS blocks `node --check` clean domain-wide (no registry — examples complete/runnable, behavior per Express 5 docs, labeled); non-ASCII = house set only (— – ← → § ≤); DRY spot-check clean (helmet/rate-limit/STRIDE zero outside Express; TS 15/2.2 HttpError adjacent — boundary honored via links; ORM/TS/Algo hits word-level); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 4 — Domain 04 Data Access and Persistence (service layer, ORM integration, transactions, N+1) per plan above; then 05–07 in order. Track README row 4 appended when 04 lands. Standing rules carry over (S1–S3): literal spaces, `../../../` same-track / `../../../../` cross-track from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, node --check per leaf (no registry until reachable), era label Express 5.x.
 
 ## [2026-10-04 15:16] Session 2 — Domain 02 Routing and Middleware in Depth
 - Status: DONE
