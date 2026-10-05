@@ -1,5 +1,31 @@
 # Express — work log
 
+## [2026-10-05 13:11] Session 5 — Domain 05 Testing Deployment and Operations
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S4 on file); README/Express/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Express/README.md (4/7 rows); README/Express/04 Data Access and Persistence/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims all present (domain 04 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–4; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
+- Plan (Domain 05 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (supertest/handler-test/deploy-probe sources, DRY grep) + record
+  3. Unit 3 — create `05 Testing Deployment and Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Handler tests without servers
+  5. Unit 5 — leaf 1.2. Service tests with fakes
+  6. Unit 6 — leaf 2.1. Config gating at deploy
+  7. Unit 7 — leaf 2.2. Graceful shutdown and probes
+  8. Unit 8 — leaf 3.1. Production checklists
+  9. Unit 9 — leaf 4.1. Delivery checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA delivery
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Express delivery — supertest shapes (app injection without listen; ZERO hits repo-wide — Express owns), handler unit tests (mock req/res), service tests with fakes (node:test stdlib — RUNNABLE live), server.close() drain in app code, /health + /ready Express endpoints, boot config gating (owned by NodeJS 06/2.1). DRY grep with target reads: NodeJS 06/3.1 owns container-level graceful deploys + liveness/readiness split + HEALTHCHECK (read: SIGTERM→close→drain→flush→exit, probe verdicts). BOUNDARY: Express 05 owns app-side delivery (drain code, probe endpoints, test shapes) and LINKS NodeJS 06/3.1 for container/orchestrator mechanics + 06/2.1 for boot validation (never re-teaches). Live-surface rule TIGHTENED this session: pure-service tests EXECUTE via node:test (stdlib, no deps); express-importing examples node --check only (no registry).
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (delivery sources, DRY grep with target reads — NodeJS 06 boundaries drawn; live-surface tightened: node:test runs dependency-free tests)
+  - [unit 3] Created `README/Express/05 Testing Deployment and Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-05 12:59] Session 4 — Domain 04 Data Access and Persistence
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Express #13, unchanged — Categories table read S3 on file); README/Express/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Express/README.md (3/7 rows); README/Express/03 Errors Validation and Security/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
