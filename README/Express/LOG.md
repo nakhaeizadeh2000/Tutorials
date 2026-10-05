@@ -23,7 +23,8 @@
   - [unit 3] Created `README/Express/04 Data Access and Persistence/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
   - [unit 4] Leaf `04 …/sections/1. Service layer/1.1. Service layer extraction.md` (3 promises) — 6/6 JS blocks `node --check` clean (in-memory stand-ins, labeled); normalization pre-commit (1/6 resolve now — 5 forwards to unbuilt 2.1/2.2 resolve as units land)
   - [unit 5] Leaf `04 …/sections/1. Service layer/1.2. DTOs and response shaping.md` (3 promises) — 6/6 JS blocks `node --check` clean; normalization pre-commit — 3/3 resolve first try (all targets built)
-- Files touched: modified `README/Express/LOG.md`, created `README/Express/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 4), created leaf `1. Service layer/1.1. Service layer extraction.md`, created leaf `1. Service layer/1.2. DTOs and response shaping.md`
+  - [unit 6] Leaf `04 …/sections/2. Transactions/2.1. ORM integration in handlers.md` (3 promises — Databases 04 pooling target verified on disk) — 6/6 JS blocks `node --check` clean; normalization pre-commit (4/8 resolve now — 4 forwards to unbuilt 2.2/3.1 resolve as units land; 1.1's 2 forwards to 2.1 now resolve)
+- Files touched: modified `README/Express/LOG.md`, created `README/Express/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Express/README.md` (row 4), created leaf `1. Service layer/1.1. Service layer extraction.md`, created leaf `1. Service layer/1.2. DTOs and response shaping.md`, created leaf `2. Transactions/2.1. ORM integration in handlers.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
