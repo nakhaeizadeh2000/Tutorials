@@ -1,7 +1,7 @@
 # Fastify — work log
 
 ## [2026-10-06 11:35] Session 3 — Domain 03 Hooks Plugins and Composition
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S2 on file); README/Fastify/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Fastify/README.md (2/7 rows); README/Fastify/02 Routing Schemas and Validation/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
 - Plan (Domain 03 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `03 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Domains 01–02 basics + Express patterns (targets verified, Express 02 index verified) + Domain 04 forward (textual, unbuilt); no duplication of neighbors' links); 3/3 blocks `node --check` clean; normalization pre-commit — 11/11 resolve first try (all targets built)
 - Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/03 Hooks Plugins and Composition/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 3), created leaf `1. Encapsulation/1.1. Encapsulation and contexts.md`, created leaf `1. Encapsulation/1.2. Plugin registration patterns.md`, created leaf `2. Extension/2.1. Decorators request reply.md`, created leaf `2. Extension/2.2. Lifecycle hooks deep dive.md`, created leaf `3. Scale/3.1. Plugin composition at scale.md`, created leaf `4. Mentor checklist/4.1. Composition checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA composition.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D03 51/51 relative links resolve (script-checked with unquote — 2 broken placeholders + 1 awkward label fixed pre-commit across units 5/8; zero post-commit remediation needed); 42/42 JS blocks `node --check` clean domain-wide + GOOD examples RUN LIVE via fastify.inject on Fastify 5.12.5 (live runs CAUGHT three factual errors pre-commit: unprefixed register mounting, onSend serialized-payload invisibility, onSend object rejection — all fixed and re-verified); non-ASCII = house set only (— → – ← §); DRY spot-check clean (zero hooks/plugin/decorator hits outside Fastify); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 4 — Domain 04 Data Access and Persistence (service layer, DTOs, ORM integration, tx per request, N+1) per plan above; then 05–07 in order. Track README row 4 appended when 04 lands. Standing rules carry over (S1–S3): literal spaces, `../../../` same-track / `../../../../` cross-track ALWAYS from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, fastify.inject() live per GOOD example + node --check all (scratch in /tmp/opencode, never in repo), era label Fastify 5.x (pinned 5.12.5).
 
 ## [2026-10-06 10:22] Session 2 — Domain 02 Routing Schemas and Validation
 - Status: DONE
