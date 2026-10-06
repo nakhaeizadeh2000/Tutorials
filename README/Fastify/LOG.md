@@ -1,5 +1,31 @@
 # Fastify — work log
 
+## [2026-10-06 13:00] Session 6 — Domain 06 Production Fastify Operations
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Categories table — Fastify #14, unchanged); README/Fastify/LOG.md (full — Sessions 1–5 DONE, Next steps names Domain 06); README/Fastify/README.md (5/7 rows); README/Express/06 Production Express Operations/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S5 Done claims present (domain 05 index + 6 section dirs incl. 1. Tests with 2/2 leaves; track README rows 1–5); no `06 …` dir; git tree clean; scratch fastify 5.12.5 intact. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 future session).
+- Plan (Domain 06 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (metrics hooks/pino/compress/hardening sources, DRY grep) + record
+  3. Unit 3 — create `06 Production Fastify Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Request metrics that matter
+  5. Unit 5 — leaf 1.2. Request logging and correlation
+  6. Unit 6 — leaf 2.1. Compression and payload budgets
+  7. Unit 7 — leaf 2.2. Connection and event-loop health
+  8. Unit 8 — leaf 3.1. Hardening at scale
+  9. Unit 9 — leaf 4.1. Operations checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA operations
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Fastify-side ops — RED metrics via onResponse hooks + reply.elapsedTime + routeOptions.url low-cardinality labels (ZERO repo hits — Fastify owns; Express 06/1.1 owns RED theory, linked); request logging via built-in pino (logger:true, req.log child loggers, requestIdHeader/genReqId/redact — usage owned here, transports owned by NodeJS 06/2.2, linked); compression via @fastify/compress (external — install-gated shapes like Express S5 supertest; negotiation/threshold theory linked to Express 06/2.1) + built-in bodyLimit; connections via server options (keepAliveTimeout/connectionTimeout/bodyLimit — shapes verified live) + loop mechanics linked to NodeJS 01/3.1; hardening via trustProxy + no x-powered-by default (verifiable live) + @fastify/helmet external shape + npm audit. DRY grep with target reads: Express 06 OWNS ops theory (RED/middleware-timing, correlation usage, compression/timeout tuning, proxy/fingerprint/audit — read index above); NodeJS 06/2.2 owns log transports + 06/3.1 orchestration + 01/3.1 loops; Fastify 01/2.1 owns pino intro mention (link, deepen here). BOUNDARY: Fastify 06 owns Fastify MECHANISMS (hook metrics, pino usage, limit/compress wiring, server options, proxy/hardening flags) and LINKS Express 06 for shared theory + NodeJS for runtime mechanics (never re-teaches either). Live-surface carries over (fastify.inject() live per GOOD example + node --check all; external-plugin shapes install-gated + labeled; scratch 5.12.5 intact).
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit 2] Research recorded (metrics hooks/pino/compress/hardening sources, DRY grep with target reads — Express 06/NodeJS boundaries drawn; mechanisms owned, theory linked). Deviation logged per PROMPT.md:7 — unit-2 research paragraph was first mis-edited into S5's closed DONE block (ambiguous oldString matched S5, not S6); repaired same-turn via scripted restore (git diff confirms 0 deletions — S5 text byte-intact) and re-recorded here. Lesson: anchor unit-2 research inserts on the session's own unit lines, never on shared plan boilerplate.
+  - [unit 3] Created `README/Fastify/06 Production Fastify Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk; 8 leaf forwards resolve as units land)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/06 Production Fastify Operations/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 6)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-06 12:30] Session 5 — Domain 05 Testing Deployment and Operations
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Categories table — Fastify #14, unchanged); README/Fastify/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Fastify/README.md (4/7 rows); README/Express/05 Testing Deployment and Operations/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims present (domain 04 index + 6 section dirs; track README rows 1–4); no `05 …` dir; git tree clean; scratch fastify 5.12.5 intact. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
