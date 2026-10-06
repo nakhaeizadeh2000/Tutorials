@@ -7,6 +7,7 @@ High-performance backend framework for huge apps — Fastify from foundations to
 | 1 | [Fastify Foundations and Mental Model](<01 Fastify Foundations and Mental Model/README.md>) |
 | 2 | [Routing Schemas and Validation](<02 Routing Schemas and Validation/README.md>) |
 | 3 | [Hooks Plugins and Composition](<03 Hooks Plugins and Composition/README.md>) |
+| 4 | [Data Access and Persistence](<04 Data Access and Persistence/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

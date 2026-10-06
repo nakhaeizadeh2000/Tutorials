@@ -1,5 +1,31 @@
 # Fastify — work log
 
+## [2026-10-06 12:00] Session 4 — Domain 04 Data Access and Persistence
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S3 on file); README/Fastify/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Fastify/README.md (3/7 rows); README/Fastify/03 Hooks Plugins and Composition/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
+- Plan (Domain 04 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (service-in-plugins/DTO/ORM-scoping/tx/N+1 sources, DRY grep) + record
+  3. Unit 3 — create `04 Data Access and Persistence/README.md` (Template B, sections 1–6) + 6 section folders + track README row 4
+  4. Unit 4 — leaf 1.1. Service layer in plugins
+  5. Unit 5 — leaf 1.2. DTOs and response shaping
+  6. Unit 6 — leaf 2.1. ORM per-request scoping
+  7. Unit 7 — leaf 2.2. Transactions per request
+  8. Unit 8 — leaf 3.1. N+1 and batching
+  9. Unit 9 — leaf 4.1. Persistence checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA persistence
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Fastify-side persistence — services as decorated plugins (encapsulation-bounded data access, team-owned stores), DTOs via response schemas (schema-driven filtering vs Express manual mapping), ORM per-request scoping (decorate db instance + per-request tx/loaders via hooks/decorateRequest), tx lifecycle bound to request hooks, N+1 via per-request loader instances + inject-asserted counts. DRY grep with target reads: Express 04 OWNS service-layer theory + DTO contracts + tx-per-request + N+1 counting (read S4-unit boundaries); ORM owns query mechanics/isolation/strategies. BOUNDARY: Fastify 04 owns Fastify MECHANISMS (decorate-scoped services, schema-driven DTOs, hook-bound tx, decorateRequest loaders) and LINKS Express 04 for shared theory + ORM for query mechanics (never re-teaches either). Live-surface carries over (fastify.inject() live per GOOD example + node --check all; scratch 5.12.5 intact).
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+  - [unit 2] Research recorded (Fastify-side persistence sources, DRY grep with target reads — Express 04/ORM boundaries drawn; mechanisms owned, theory linked)
+  - [unit 3] Created `README/Fastify/04 Data Access and Persistence/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 4)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-06 11:35] Session 3 — Domain 03 Hooks Plugins and Composition
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S2 on file); README/Fastify/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Fastify/README.md (2/7 rows); README/Fastify/02 Routing Schemas and Validation/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
