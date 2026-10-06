@@ -21,7 +21,8 @@
   - [unit 1] Opened this Session 6 entry (first write on disk)
   - [unit 2] Research recorded (metrics hooks/pino/compress/hardening sources, DRY grep with target reads — Express 06/NodeJS boundaries drawn; mechanisms owned, theory linked). Deviation logged per PROMPT.md:7 — unit-2 research paragraph was first mis-edited into S5's closed DONE block (ambiguous oldString matched S5, not S6); repaired same-turn via scripted restore (git diff confirms 0 deletions — S5 text byte-intact) and re-recorded here. Lesson: anchor unit-2 research inserts on the session's own unit lines, never on shared plan boilerplate.
   - [unit 3] Created `README/Fastify/06 Production Fastify Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 6 appended (resolves, verified on disk; 8 leaf forwards resolve as units land)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/06 Production Fastify Operations/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 6)
+  - [unit 4] Leaf `06 …/sections/1. Observe/1.1. Request metrics that matter.md` (3 promises) — RED/cardinality examples RUN LIVE via fastify.inject (count-2-avg/1-bounded-series verified); 1 Cyrillic slip caught self-reading pre-commit (fixed); 6/6 JS blocks `node --check` clean; non-house audit clean; normalization pre-commit — no-op; 4/5 resolve now (1 forward to unbuilt 1.2 resolves as units land; Express 06/1.1 + 03/2.2 targets verified)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/06 Production Fastify Operations/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 6), created leaf `1. Observe/1.1. Request metrics that matter.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
