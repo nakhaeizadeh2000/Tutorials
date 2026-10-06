@@ -1,5 +1,31 @@
 # Fastify — work log
 
+## [2026-10-06 11:35] Session 3 — Domain 03 Hooks Plugins and Composition
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S2 on file); README/Fastify/LOG.md (full — Sessions 1–2 DONE, Next steps names Domain 03); README/Fastify/README.md (2/7 rows); README/Fastify/02 Routing Schemas and Validation/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S2 Done claims all present (domain 02 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–2; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions).
+- Plan (Domain 03 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (encapsulation/avvio/decorator/hook-order sources, DRY grep) + record
+  3. Unit 3 — create `03 Hooks Plugins and Composition/README.md` (Template B, sections 1–6) + 6 section folders + track README row 3
+  4. Unit 4 — leaf 1.1. Encapsulation and contexts
+  5. Unit 5 — leaf 1.2. Plugin registration patterns
+  6. Unit 6 — leaf 2.1. Decorators request reply
+  7. Unit 7 — leaf 2.2. Lifecycle hooks deep dive
+  8. Unit 8 — leaf 3.1. Plugin composition at scale
+  9. Unit 9 — leaf 4.1. Composition checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA composition
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Fastify 5 composition depth — encapsulation contexts (avvio boot graph, plugin-scoped decorators, decorate vs decorateRequest vs decorateReply scoping rules), plugin registration (register() options/prefix, fastify-plugin skip-override escape, ready/after sequencing), full hook order (onRequest→preParsing→preValidation→preHandler→preSerialization→onSend→onResponse + onTimeout/onRequestAbort), decorator typing via generics, composition at scale (plugin trees per team, shared utilities via parent-scope decorators). DRY grep (`decorateRequest|decorateReply|fastify-plugin|setNotFoundHandler|onSend|preHandler|preValidation|preSerialization`): ZERO hits outside Fastify (broad-grep hits are unrelated encapsulation/class/package contexts). Domain 03 owns all. Live-surface carries over (fastify.inject() live per GOOD example + node --check all; scratch 5.12.5 intact).
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Research recorded (composition sources, precise DRY grep — zero competing coverage)
+  - [unit 3] Created `README/Fastify/03 Hooks Plugins and Composition/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/03 Hooks Plugins and Composition/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 3)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-06 10:22] Session 2 — Domain 02 Routing Schemas and Validation
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S1 on file); README/Fastify/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Fastify/README.md (1/7 rows); README/Fastify/01 Fastify Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S1 Done claims all present (domain 01 index + 6 section dirs + 8/8 leaves = 9 md); track README row 1; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
