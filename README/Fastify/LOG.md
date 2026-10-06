@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (composition sources, precise DRY grep — zero competing coverage)
   - [unit 3] Created `README/Fastify/03 Hooks Plugins and Composition/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 3 appended (resolves, verified on disk)
   - [unit 4] Leaf `03 …/sections/1. Encapsulation/1.1. Encapsulation and contexts.md` (3 promises) — encapsulation examples RUN LIVE via fastify.inject; live run CAUGHT a factual error (unprefixed register mounts at root — 200 not 404), fixed with prefix (404/200/200 outputs verified); 2 flagged glitches removed + normalization pre-commit — 6/6 syntax clean, 2/2 resolve first try (Express targets verified)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/03 Hooks Plugins and Composition/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 3), created leaf `1. Encapsulation/1.1. Encapsulation and contexts.md`
+  - [unit 5] Leaf `03 …/sections/1. Encapsulation/1.2. Plugin registration patterns.md` (3 promises) — register/ready/async examples RUN LIVE via fastify.inject (10-vs-50 options, ready-200, async-200s verified); 6/6 JS blocks `node --check` clean; 1 broken placeholder + 1 awkward label (both retargeted to same-leaf 1.1 avvio content, verified) fixed pre-commit + normalization (3/3 resolve first try, all targets built)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/03 Hooks Plugins and Composition/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 3), created leaf `1. Encapsulation/1.1. Encapsulation and contexts.md`, created leaf `1. Encapsulation/1.2. Plugin registration patterns.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
