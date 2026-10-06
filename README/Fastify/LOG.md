@@ -22,7 +22,8 @@
   - [unit 1] Opened this Session 1 entry (first write on disk)
   - [unit 2] Research recorded (Fastify 5.12.5 installed + inject smoke 200 verified; DRY grep with target check — no competing coverage)
   - [unit 3] Created `README/Fastify/README.md` (Template A track index, lists Domain 01) + `README/Fastify/01 Fastify Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders — root README row #14 now resolves, no root edit needed; track index 5/5 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/README.md`, created `README/Fastify/01 Fastify Foundations and Mental Model/README.md` + 6 `sections/` folders
+  - [unit 4] Leaf `01 …/sections/1. First app/1.1. What Fastify is and is not.md` (3 promises) — 3 GOOD examples RUN LIVE via fastify.inject (201-stripped/200/200 outputs verified); 6/6 JS blocks `node --check` clean; checker caught depth slip pre-commit (my normalizer mapped cross-track Express to 3 levels — fixed to 4-level `../../../../Express/`, standing rule corrected: same-track `../../../01 …`, cross-track ALWAYS `../../../../Track/`); normalization pre-commit (4/7 resolve now — 3 same-domain forwards to unbuilt 1.2/2.1 resolve as units land)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/README.md`, created `README/Fastify/01 Fastify Foundations and Mental Model/README.md` + 6 `sections/` folders, created leaf `1. First app/1.1. What Fastify is and is not.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
