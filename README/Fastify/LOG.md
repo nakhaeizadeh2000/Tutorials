@@ -21,7 +21,8 @@
   - [unit 1] Opened this Session 7 entry (first write on disk)
   - [unit 2] Research recorded (full-system/judgment/capstone sources, DRY grep with target reads — Express 07/Redis boundaries drawn; composition owned, mechanics linked)
   - [unit 3] Created `README/Fastify/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk; 8 leaf forwards resolve as units land)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 7)
+  - [unit 4] Leaf `07 …/sections/1. Full-system design/1.1. Full-system Fastify design.md` (3 promises) — vertical/contracts examples RUN LIVE via fastify.inject (vertical-holds/contracts-hold verified); 5/5 JS blocks `node --check` clean; non-house audit clean; normalization pre-commit (same-track `../../../` at write time); 14/14 resolve first try (all targets built)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system Fastify design.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
