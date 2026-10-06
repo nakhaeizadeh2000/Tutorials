@@ -1,7 +1,7 @@
 # Fastify — work log
 
 ## [2026-10-06 10:22] Session 2 — Domain 02 Routing Schemas and Validation
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S1 on file); README/Fastify/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Fastify/README.md (1/7 rows); README/Fastify/01 Fastify Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S1 Done claims all present (domain 01 index + 6 section dirs + 8/8 leaves = 9 md); track README row 1; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
 - Plan (Domain 02 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `02 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Domain 01 basics + TS theory (target verified) + Domains 03–04 forwards (textual, unbuilt); no duplication of neighbors' links); 1 typo fixed + normalization pre-commit — 3/3 syntax clean, 9/9 resolve first try (all targets built)
 - Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/02 Routing Schemas and Validation/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 2), created leaf `1. Input schemas/1.1. Params query validation depth.md`, created leaf `1. Input schemas/1.2. Response schemas and filtering.md`, created leaf `2. Schema reuse/2.1. Shared schemas and composition.md`, created leaf `2. Schema reuse/2.2. Custom validators and formats.md`, created leaf `3. Error mapping/3.1. Error mapping from validation.md`, created leaf `4. Mentor checklist/4.1. Schema checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA schemas.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D02 48/48 relative links resolve (script-checked with unquote — 1 broken placeholder + 1 awkward label + 2 wrong status claims fixed pre-commit across units 5/6/8; zero post-commit remediation needed); 41/41 JS blocks `node --check` clean domain-wide + GOOD examples RUN LIVE via fastify.inject on Fastify 5.12.5 (all outputs verified, no ports); non-ASCII = house set only (— – ← → § ×); DRY spot-check clean (zero ajv/shared-schema/FST_ERR hits outside Fastify); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout)
+- Next steps: Session 3 — Domain 03 Hooks Plugins and Composition (encapsulation depth, plugin patterns, decorators, lifecycle mastery) per plan above; then 04–07 in order. Track README row 3 appended when 03 lands. Standing rules carry over (S1–S2): literal spaces, `../../../` same-track / `../../../../` cross-track ALWAYS from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, fastify.inject() live per GOOD example + node --check all (scratch in /tmp/opencode, never in repo), era label Fastify 5.x (pinned 5.12.5).
 
 ## [2026-10-06 09:34] Session 1 — Create track + Domain 01 Fastify Foundations (Domains 02–07 next)
 - Status: DONE
