@@ -21,7 +21,8 @@
   - [unit 1] Opened this Session 4 entry (first write on disk)
   - [unit 2] Research recorded (Fastify-side persistence sources, DRY grep with target reads — Express 04/ORM boundaries drawn; mechanisms owned, theory linked)
   - [unit 3] Created `README/Fastify/04 Data Access and Persistence/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 4)
+  - [unit 4] Leaf `04 …/sections/1. Services/1.1. Service layer in plugins.md` (3 promises) — scoped-service/thin-handler examples RUN LIVE via fastify.inject (200-user/404 + 200-create/400-empty verified); 1 leaked self-correction cleaned + normalization pre-commit — 5/5 syntax clean, 4/4 resolve first try (Express 04/1.1 targets verified)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 4), created leaf `1. Services/1.1. Service layer in plugins.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
