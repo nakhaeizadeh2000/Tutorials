@@ -1,5 +1,31 @@
 # Fastify — work log
 
+## [2026-10-06 10:22] Session 2 — Domain 02 Routing Schemas and Validation
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S1 on file); README/Fastify/LOG.md (full — Session 1 DONE, Next steps names Domain 02); README/Fastify/README.md (1/7 rows); README/Fastify/01 Fastify Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S1 Done claims all present (domain 01 index + 6 section dirs + 8/8 leaves = 9 md); track README row 1; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions).
+- Plan (Domain 02 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (ajv/serializers/shared-schema sources, DRY grep) + record
+  3. Unit 3 — create `02 Routing Schemas and Validation/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Params query validation depth
+  5. Unit 5 — leaf 1.2. Response schemas and filtering
+  6. Unit 6 — leaf 2.1. Shared schemas and composition
+  7. Unit 7 — leaf 2.2. Custom validators and formats
+  8. Unit 8 — leaf 3.1. Error mapping from validation
+  9. Unit 9 — leaf 4.1. Schema checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA schemas
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Fastify 5 schema depth — ajv built-in (coerceTypes config, formats incl. custom via ajv-formats/ajv plugins, $data refs), addSchema + $ref shared schemas (dedupe + consistency), response serialization via fast-json-stringify (undeclared stripped, speed), setValidatorCompiler/setSerializerCompiler escape hatches (zod/yup integration), FST_ERR_VALIDATION shape (400 + details), per-route vs global schema discipline. DRY grep (`ajv|fast-json-stringify|addSchema|FST_ERR_VALIDATION|setValidatorCompiler`): single hit is a JS-track word mention (ajv named as example validator) — NO ajv mechanics, shared-schema, serializer, or FST_ERR treatment exists; Domain 02 owns all four. Live-surface carries over (fastify.inject() live per GOOD example + node --check all; scratch 5.12.5 intact).
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (schema-depth sources, DRY grep — single word-mention, no competing coverage)
+  - [unit 3] Created `README/Fastify/02 Routing Schemas and Validation/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/02 Routing Schemas and Validation/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-06 09:34] Session 1 — Create track + Domain 01 Fastify Foundations (Domains 02–07 next)
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 DatabaseDesign + S1–S7 ORM + S1–S7 Redis + S1–S7 Express on file; PROMPT.md/root README.md unchanged (git log last touches 49a1003/4ad143a, unrelated) — change-checked this session); root README.md (Categories table — Fastify already listed at #14, link target did not exist); README/Express/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names track complete). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (PARTIAL hits are other tracks' closed-session history, immutable per PROMPT.md:165). Disk verified — Express TRACK COMPLETE on disk (7/7 domains, 7/7 rows, HEAD 2a5fb66 closeout, tree clean); `ls README/` shows no Fastify dir. No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. User chose Fastify at session start (Mode 1 new track, Domain 01 only, 02–07 future sessions, per convention).
