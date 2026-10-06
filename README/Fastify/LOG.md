@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (Fastify-side persistence sources, DRY grep with target reads — Express 04/ORM boundaries drawn; mechanisms owned, theory linked)
   - [unit 3] Created `README/Fastify/04 Data Access and Persistence/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 4 appended (resolves, verified on disk)
   - [unit 4] Leaf `04 …/sections/1. Services/1.1. Service layer in plugins.md` (3 promises) — scoped-service/thin-handler examples RUN LIVE via fastify.inject (200-user/404 + 200-create/400-empty verified); 1 leaked self-correction cleaned + normalization pre-commit — 5/5 syntax clean, 4/4 resolve first try (Express 04/1.1 targets verified)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 4), created leaf `1. Services/1.1. Service layer in plugins.md`
+  - [unit 5] Leaf `04 …/sections/1. Services/1.2. DTOs and response shaping.md` (3 promises) — filter/version examples RUN LIVE via fastify.inject (stripped-200/versioned-200s verified); 5/5 JS blocks `node --check` clean; normalization pre-commit (correct 4-level cross-track at write time) — 4/4 resolve first try (Express 04/1.2 + 02/2.1 targets verified)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 4), created leaf `1. Services/1.1. Service layer in plugins.md`, created leaf `1. Services/1.2. DTOs and response shaping.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
