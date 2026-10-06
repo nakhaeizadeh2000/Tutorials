@@ -1,7 +1,7 @@
 # Fastify — work log
 
 ## [2026-10-06 12:00] Session 4 — Domain 04 Data Access and Persistence
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S3 on file); README/Fastify/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Fastify/README.md (3/7 rows); README/Fastify/03 Hooks Plugins and Composition/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
 - Plan (Domain 04 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -32,8 +32,8 @@
   - [unit 11] Leaf `04 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Express 04 links, ORM links, Domain 05 forward TEXTUAL per unbuilt-links rule); 3/3 blocks `node --check` clean; cross-track depth normalization (`../../../../` from section dirs) — 10/10 resolve first try, zero touchdowns outside Fastify (1 Express index + 5 Express leaf + 2 ORM anchors already verified in Express/S5 SOT sweep)
 - Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/04 Data Access and Persistence/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 4), created leaf `1. Services/1.1. Service layer in plugins.md`, created leaf `1. Services/1.2. DTOs and response shaping.md`, created leaf `2. Transactions/2.1. ORM per-request scoping.md`, created leaf `2. Transactions/2.2. Transactions per request.md`, created leaf `3. Loading/3.1. N+1 and batching.md`, created leaf `4. Mentor checklist/4.1. Persistence checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA persistence.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D04 62/62 relative links resolve domain-wide (script-checked with unquote — 9 md: domain index + 7 leaves + track-adjacent; 1 forward pair 4.1↔5.1 resolved as units landed; cross-track `../../../../` normalized pre-commit every unit; zero post-commit remediation needed); 37/37 JS blocks `node --check` clean domain-wide + GOOD examples RUN LIVE via fastify.inject on Fastify 5.12.5 (unit-scoped outputs verified per leaf, no ports); non-ASCII = house set only (— ← → §); DRY grep confirmed (theory/queries linked to Express 04 + ORM 02, mechanisms owned here — matches Express 04 boundary pattern); one-unit-per-commit history held (9 commits: index + 7 leaves + closeout); mid-session interruption recovered per PROMPT.md:165 (units 1–6 verified committed, scratch reinstalled, resumed inside block — recorded in Done)
+- Next steps: Session 5 — Domain 05 Testing Deployment and Operations (handler tests with mocks, inject-based integration, deploy gating) per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (S1–S4): literal spaces, `../../../` same-track / `../../../../` cross-track ALWAYS from section dirs, `../../sections/<M. …>/` same-domain siblings, anchored-regex normalization BEFORE every commit, verify link targets' content, scoped-paths-only commits, fastify.inject() live per GOOD example + node --check all (scratch in /tmp/opencode, never in repo), era label Fastify 5.x (pinned 5.12.5).
 
 ## [2026-10-06 11:35] Session 3 — Domain 03 Hooks Plugins and Composition
 - Status: DONE
