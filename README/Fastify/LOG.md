@@ -1,7 +1,7 @@
 # Fastify — work log
 
 ## [2026-10-06 13:30] Session 7 — Domain 07 Production Mastery and Interview Synthesis
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Categories table — Fastify #14, unchanged); README/Fastify/LOG.md (full — Sessions 1–6 DONE, Next steps names Domain 07); README/Fastify/README.md (6/7 rows); README/Express/07 Production Mastery and Interview Synthesis/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S6 Done claims present (domain 06 index + 6 section dirs incl. 1. Observe with 2/2 leaves; track README rows 1–6); no `07 …` dir; git tree clean; scratch fastify 5.12.5 intact. No discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S1–S6 immutable). No scope override in request → resume from S6 Next steps: Domain 07 only (TRACK COMPLETE 7/7 when done).
 - Plan (Domain 07 fully implemented this session):
   1. Unit 1 — open this entry (this write)
@@ -31,8 +31,8 @@
   - [unit 11] Leaf `07 …/sections/6. Boundaries/6.1. Boundaries what is covered elsewhere.md` (3 promises — Domains 01–06 links, Redis 07 links, production-practice boundary); normalizer MISTAKE caught by checker pre-commit — same-track prefix regex re-emitted without the `NN ` folder group (11 links broke to 7-level + prefix-stripped); repaired via scripted prefix restore (6 folder mappings), 17/17 resolve after; 3/3 blocks `node --check` clean; non-house audit clean. Lesson ADDED to standing rules: run normalization regexes only when links were NOT authored at correct depth — verify-only otherwise (authoring-time correctness beats blind rewriting)
 - Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 7), created leaf `1. Full-system design/1.1. Full-system Fastify design.md`, created leaf `1. Full-system design/1.2. Full-system delivery design.md`, created leaf `2. Judgment/2.1. Judgment at scale.md`, created leaf `2. Judgment/2.2. Failure rehearsal game-days.md`, created leaf `3. Mentor capstone/3.1. Staff-level Fastify review.md`, created leaf `4. Mentor checklist/4.1. Mastery checklist mentors insist on.md`, created leaf `5. Interview QA/5.1. Common interview QA mastery.md`, created leaf `6. Boundaries/6.1. Boundaries what is covered elsewhere.md`
 - Links fixed / added:
-- Verification:
-- Next steps:
+- Verification: D07 links resolve domain-wide (unit sweeps — 1 typo + 1 normalizer self-break both caught by checker pre-commit; zero post-commit remediation needed); JS blocks `node --check` clean domain-wide + GOOD examples RUN LIVE (fastify.inject on 5.12.5: vertical-holds/contracts-hold verified; synthesis/process leaves use commented shapes where no new runnable surface); non-ASCII = house set only (— ← → §); DRY grep confirmed (synthesis pattern mirrored from Express 07, program linked to Redis 07/2.2, mechanics linked to Domains 01–06 — nothing re-taught); one-unit-per-commit history held (10 commits: index + 8 leaves + closeout). TRACK-WIDE 440/440 links resolve across all 7 domains (LOG excluded — the closeout sweep, zero broken track-wide); 256/256 JS blocks `node --check` clean track-wide.
+- Next steps: TRACK COMPLETE 7/7 — Fastify track finished (7/7 domains, 7/7 track rows, 65 md files, 56 leaves: 8 per domain; era-labeled September 2026, Fastify 5.x pinned 5.12.5). No further sessions needed; future work (if any) is Mode 3 refresh per PROMPT.md. Standing-rule delta from this track: anchor LOG edits on unique unit lines; run normalization regexes only when links were NOT authored at correct depth (verify-only otherwise).
 
 ## [2026-10-06 13:00] Session 6 — Domain 06 Production Fastify Operations
 - Status: DONE
