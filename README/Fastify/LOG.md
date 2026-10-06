@@ -1,5 +1,31 @@
 # Fastify — work log
 
+## [2026-10-06 13:30] Session 7 — Domain 07 Production Mastery and Interview Synthesis
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Categories table — Fastify #14, unchanged); README/Fastify/LOG.md (full — Sessions 1–6 DONE, Next steps names Domain 07); README/Fastify/README.md (6/7 rows); README/Express/07 Production Mastery and Interview Synthesis/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S6 Done claims present (domain 06 index + 6 section dirs incl. 1. Observe with 2/2 leaves; track README rows 1–6); no `07 …` dir; git tree clean; scratch fastify 5.12.5 intact. No discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S1–S6 immutable). No scope override in request → resume from S6 Next steps: Domain 07 only (TRACK COMPLETE 7/7 when done).
+- Plan (Domain 07 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (full-system/judgment/capstone sources, DRY grep) + record
+  3. Unit 3 — create `07 Production Mastery and Interview Synthesis/README.md` (Template B, sections 1–6) + 6 section folders + track README row 7
+  4. Unit 4 — leaf 1.1. Full-system Fastify design
+  5. Unit 5 — leaf 1.2. Full-system delivery design
+  6. Unit 6 — leaf 2.1. Judgment at scale
+  7. Unit 7 — leaf 2.2. Failure rehearsal game-days
+  8. Unit 8 — leaf 3.1. Staff-level Fastify review
+  9. Unit 9 — leaf 4.1. Mastery checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA mastery
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY + TRACK-WIDE sweep) + close entry DONE/PARTIAL
+- Research notes: Fastify-side synthesis — full-system composition across Domains 01–06 (routes decorating → services scoping → data threading → tests proving → deploys gating → ops watching; composition owned here, mechanics linked per domain); delivery composition (inject suites + schema gates + close drains + dated evidence); judgment pricing (decisions windowed, load re-pricing, fashion declining); Fastify failure scenarios (kill node, dead store, slow upstream — mechanics testing via inject); staff review traversal (routes → services → data → delivery → ops); mastery QA (systems/failures/judgment live). DRY grep with target reads: Express 07 OWNS synthesis PATTERN (full-system composition shape, judgment shape, capstone shape — read index + 2.2/6.1 above, mirrored not copied); Redis 07/2.2 owns game-day PROGRAM mechanics (cadence/graduation — path verified on disk, linked); Fastify Domains 01–06 own all mechanics (linked per scenario, never re-taught). BOUNDARY: Fastify 07 owns Fastify COMPOSITION (scenarios integrating, judgment pricing, reviews traversing) and LINKS Express 07 for pattern + Redis 07 for program + Domains 01–06 for mechanics (never re-teaches any). Live-surface carries over (fastify.inject() live per GOOD example + node --check all + non-house audit per leaf; synthesis/process leaves use commented shapes where no new runnable surface; scratch 5.12.5 intact).
+- Done:
+  - [unit 1] Opened this Session 7 entry (first write on disk)
+  - [unit 2] Research recorded (full-system/judgment/capstone sources, DRY grep with target reads — Express 07/Redis boundaries drawn; composition owned, mechanics linked)
+  - [unit 3] Created `README/Fastify/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 7 appended (resolves, verified on disk; 8 leaf forwards resolve as units land)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 7)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-06 13:00] Session 6 — Domain 06 Production Fastify Operations
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Categories table — Fastify #14, unchanged); README/Fastify/LOG.md (full — Sessions 1–5 DONE, Next steps names Domain 06); README/Fastify/README.md (5/7 rows); README/Express/06 Production Express Operations/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S5 Done claims present (domain 05 index + 6 section dirs incl. 1. Tests with 2/2 leaves; track README rows 1–5); no `06 …` dir; git tree clean; scratch fastify 5.12.5 intact. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 future session).
