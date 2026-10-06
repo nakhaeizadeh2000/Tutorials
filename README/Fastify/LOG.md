@@ -1,5 +1,31 @@
 # Fastify — work log
 
+## [2026-10-06 12:30] Session 5 — Domain 05 Testing Deployment and Operations
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Categories table — Fastify #14, unchanged); README/Fastify/LOG.md (full — Sessions 1–4 DONE, Next steps names Domain 05); README/Fastify/README.md (4/7 rows); README/Express/05 Testing Deployment and Operations/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S4 Done claims present (domain 04 index + 6 section dirs; track README rows 1–4); no `05 …` dir; git tree clean; scratch fastify 5.12.5 intact. No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions).
+- Plan (Domain 05 fully implemented this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (inject testing/config-gating/shutdown sources, DRY grep) + record
+  3. Unit 3 — create `05 Testing Deployment and Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Handler tests via inject
+  5. Unit 5 — leaf 1.2. Service tests with fakes
+  6. Unit 6 — leaf 2.1. Config gating at deploy
+  7. Unit 7 — leaf 2.2. Graceful shutdown and probes
+  8. Unit 8 — leaf 3.1. Production checklists
+  9. Unit 9 — leaf 4.1. Delivery checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA delivery
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Research notes: Fastify-side delivery — inject testing via built-in light-my-request (no supertest dependency; `fastify.inject()` driving routes without listen — intro'd in 01/1.2, deepened here), service tests via node:test stdlib fakes (same shape as Express 05/1.2 — link theory, own inject-composed services), boot config gating via schema-validated env (ajv built-in — fail-fast before listen), graceful shutdown via `fastify.close()` + onClose hooks (in-flight draining, bounded timeouts), readiness via `fastify.ready()` + /live//ready split. DRY grep with target reads: Express 05 OWNS delivery theory (supertest shapes, mock/fake patterns, gate/drain/checklist discipline — read units above); NodeJS 06/3.1 owns container orchestration (SIGTERM sequencing, HEALTHCHECK) + 06/2.1 boot validation + 01/2.1 process SIGTERM; Fastify 01/1.2 owns inject intro (link, deepen here). BOUNDARY: Fastify 05 owns Fastify MECHANISMS (inject-first suites, schema-gated boot, close-hook drains, ready-gated probes) and LINKS Express 05 for shared theory + NodeJS for container/process mechanics (never re-teaches either). Live-surface carries over (fastify.inject() live per GOOD example + node --check all + node:test where dependency-free; scratch 5.12.5 intact).
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (inject/config/close sources, DRY grep with target reads — Express 05/NodeJS boundaries drawn; mechanisms owned, theory linked)
+  - [unit 3] Created `README/Fastify/05 Testing Deployment and Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk; 8 leaf forwards resolve as units land)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 5)
+- Links fixed / added:
+- Verification:
+- Next steps:
+
 ## [2026-10-06 12:00] Session 4 — Domain 04 Data Access and Persistence
 - Status: DONE
 - Context read: PROMPT.md (binding §§1–8 — change-checked via git log, PROMPT.md/root README.md untouched since 49a1003, unrelated); root README.md (Fastify #14, unchanged — Categories table read S3 on file); README/Fastify/LOG.md (full — Sessions 1–3 DONE, Next steps names Domain 04); README/Fastify/README.md (3/7 rows); README/Fastify/03 Hooks Plugins and Composition/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none. Disk verified — S3 Done claims all present (domain 03 index + 6 section dirs + 8/8 leaves = 9 md); track README rows 1–3; git tree clean; scratch install intact (fastify 5.12.5 verified this session). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions).
