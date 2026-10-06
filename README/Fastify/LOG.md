@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (inject/config/close sources, DRY grep with target reads — Express 05/NodeJS boundaries drawn; mechanisms owned, theory linked)
   - [unit 3] Created `README/Fastify/05 Testing Deployment and Operations/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 5 appended (resolves, verified on disk; 8 leaf forwards resolve as units land)
   - [unit 4] Leaf `05 …/sections/1. Tests/1.1. Handler tests via inject.md` (3 promises) — inject/contract examples RUN LIVE via fastify.inject (200-{"id":"7"}/contract-holds verified); 5/5 JS blocks `node --check` clean; normalization pre-commit — no-op (all targets already correct depth); 6/8 resolve now (2 forwards to unbuilt 1.2 resolve as units land; Express 05/1.1 + 01/1.2 + 02/1.2 targets verified)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 5), created leaf `1. Tests/1.1. Handler tests via inject.md`
+  - [unit 5] Leaf `05 …/sections/1. Tests/1.2. Service tests with fakes.md` (3 promises) — fake service suite RUN LIVE via node:test (pass, fail 0) + composed inject (200/404 composed-holds verified); 1 missing brace caught by checker pre-commit (fixed); 6/6 blocks `node --check` clean; normalization pre-commit — no-op; 7/7 resolve first try (all targets built); 1.1's 2 forwards to 1.2 now resolve
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/05 Testing Deployment and Operations/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 5), created leaf `1. Tests/1.1. Handler tests via inject.md`, created leaf `1. Tests/1.2. Service tests with fakes.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
