@@ -22,7 +22,8 @@
   - [unit 2] Research recorded (schema-depth sources, DRY grep — single word-mention, no competing coverage)
   - [unit 3] Created `README/Fastify/02 Routing Schemas and Validation/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders; track README row 2 appended (resolves, verified on disk)
   - [unit 4] Leaf `02 …/sections/1. Input schemas/1.1. Params query validation depth.md` (3 promises) — coerce/query/nest examples RUN LIVE via fastify.inject (200-coerced/400 ×3 pairs verified); 6/6 JS blocks `node --check` clean; 1 wrong status claim (201 vs live 200) fixed pre-commit + normalization (correct 4-level cross-track at write time) — 3/3 resolve first try (Express track complete, all targets built)
-- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/02 Routing Schemas and Validation/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 2), created leaf `1. Input schemas/1.1. Params query validation depth.md`
+  - [unit 5] Leaf `02 …/sections/1. Input schemas/1.2. Response schemas and filtering.md` (3 promises) — filter/compile/status examples RUN LIVE via fastify.inject (stripped-200/200/200+404 outputs verified); 6/6 JS blocks `node --check` clean; 1 broken placeholder cross-link retargeted to Express 04/1.2 (verified) pre-commit + normalization (2/4 resolve now — 2 forwards to unbuilt 2.1/3.1 resolve as units land)
+- Files touched: modified `README/Fastify/LOG.md`, created `README/Fastify/02 Routing Schemas and Validation/README.md` + 6 `sections/` folders, modified `README/Fastify/README.md` (row 2), created leaf `1. Input schemas/1.1. Params query validation depth.md`, created leaf `1. Input schemas/1.2. Response schemas and filtering.md`
 - Links fixed / added:
 - Verification:
 - Next steps:
