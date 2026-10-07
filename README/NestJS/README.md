@@ -9,6 +9,7 @@ Enterprise Node framework on TypeScript — NestJS from foundations to productio
 | 3 | [Providers Modules and DI](<03 Providers Modules and DI/README.md>) |
 | 4 | [Data Access and Persistence](<04 Data Access and Persistence/README.md>) |
 | 5 | [Testing Deployment and Operations](<05 Testing Deployment and Operations/README.md>) |
+| 6 | [Production NestJS Operations](<06 Production NestJS Operations/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
