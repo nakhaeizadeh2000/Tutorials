@@ -34,3 +34,33 @@
 - Links fixed / added:
 - Verification: D01 55/55 relative links resolve domain-wide (script-checked with unquote — 10 md: 2 indexes + 8 leaves; forward pairs resolved as units landed; zero post-commit remediation needed); 38/38 TS fences `tsc --strict --noEmit` clean domain-wide + GOOD examples COMPILED + RUN LIVE (tsc 5.9.3 + node on NestJS 12.1.2/FastifyAdapter: structure/headless/translates/graph/di/order/jobs/filters/carries/proves/unifies verified; BAD shapes compile+exit 0); non-ASCII = house set only (— ← → §); DRY grep confirmed (decorator mechanics linked to TS 14, engine linked to Fastify 01, theory contrast to Express 04 — framework usage owned here); one-unit-per-commit history held (10 commits: LOG+index + 8 leaves + closeout); USER DECISION honored throughout (Fastify adapter default, Express never taught)
 - Next steps: Session 2 — Domain 02 Controllers Routing and Validation (deep routing, guards composition, validation pipes, interceptors) per plan above; then 03–07 in order. Track README row 2 appended when 02 lands. Standing rules carry over: literal spaces, same-track/cross-track depths authored at write time + verify-only (S7 lesson), `../../sections/<M. …>/` same-domain siblings, verify link targets' content via `ls`/target-read (not memory), anchor LOG edits on unique unit lines, scoped-paths-only commits, tsc-compile + node-run every GOOD TS example + tsc-noEmit all fences + non-house audit per leaf (scratch in /tmp/opencode/nestjs-s1, never in repo), era labels NestJS 12.x + TS 5.9 + Fastify 5.x.
+
+## [2026-10-07 07:30] Session 2 — Domain 02 Controllers Routing and Validation (Domains 03–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read S1, skill harness reloaded; tree clean so byte-identical); root README.md (Categories table — NestJS #15, unchanged); README/NestJS/LOG.md (full — Session 1 DONE, recovery point); README/NestJS/README.md (1/7 rows); README/NestJS/01 NestJS Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S1 closed DONE = this recovery point). Disk verified — S1 Done 11/11: track README + domain 01 index + 8/8 leaves + LOG = 11 md on disk; git log shows S1 close commit on top, tree clean. No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 02 fully implemented this session, domains 03–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (versions, DRY grep, neighbor shapes) + record + recreate scratch
+  3. Unit 3 — create `02 Controllers Routing and Validation/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Route shapes and parameter contracts
+  5. Unit 5 — leaf 1.2. Versioning prefixes and composition
+  6. Unit 6 — leaf 2.1. Guards composition and ordering
+  7. Unit 7 — leaf 2.2. Interceptors wrapping and side-effects
+  8. Unit 8 — leaf 3.1. Validation pipes from params to bodies
+  9. Unit 9 — leaf 4.1. Routing checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA routing and validation
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 03 Providers Modules and DI, 04 Data Access and Persistence, 05 Testing Deployment and Operations, 06 Production NestJS Operations, 07 Production Mastery and Interview Synthesis. Only Domain 02 is guaranteed in this session.
+- Research notes: NestJS 12.1.2 latest per registry (Oct 2026; `npm view` this session); fastify 5.12.5 (same engine as Fastify track + S1 scratch); node v20.20.2, tsc 5.9.3 (77 pkgs reinstalled to /tmp/opencode/nestjs-s2 — S1 scratch wiped with /tmp). Neighbor shapes read: Fastify 02 (schemas/validation depth — engine-side proving, linked never re-taught), Express 02 (routing/middleware depth — minimal-framework contrast, linked never re-taught), Domain 01 (Template B + Fastify-adapter default + verify-only lesson carry over). DRY grep: `@Controller/CanActivate/ParseIntPipe/UseInterceptors` hits only in TS 14 (decorator mentions, mechanics owned there) + NestJS 01/LOG (usage owned here) — Domain 02 owns controller routing composition, guard ordering, interceptor wrapping, pipe validation depth fully. BOUNDARY: Domain 02 owns NestJS-side usage (route shapes, versioning/prefixes, guard composition, interceptor side-effects, pipe validation) and LINKS TS 14 for decorator mechanics + Fastify 02 for schema-engine proving + Express 02 for minimal contrast + Domain 01 for lifecycle order (never re-teaches any). Live-surface rule carries over (S1): TS examples COMPILE via tsc (experimentalDecorators + emitDecoratorMetadata) then RUN compiled JS with node; inject pattern `app.getHttpAdapter().getInstance().inject(...)`; outputs recorded per leaf.
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (NestJS 12.1.2 + fastify 5.12.5 via registry, DRY grep with target reads — TS 14/Express 02/Fastify 02/Domain 01 boundaries drawn; scratch recreated at /tmp/opencode/nestjs-s2, 77 pkgs, tsc 5.9.3)
+  - [unit 3] Created `README/NestJS/02 Controllers Routing and Validation/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 2 — root row #15 still resolves, no root edit needed; track index 2/2 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+  - Domain 02 shape (8 leaves: 2 routing + 2 gating + 1 pipes + checklist + QA + boundaries) — mirrors Domain 01 section shape (1.x2, 2.x2, 3.x1, 4/5/6.x1) and S1 Next-steps hint (deep routing, guards composition, validation pipes, interceptors); versioning/prefixes live in 1.2 (NestJS-side composition), DI scoping stays forward to Domain 03, data/ops stay forward to 04–06.
+  - Unbuilt-links rule carries over: forwards to Domains 03–07 stay TEXTUAL `(planned, see LOG)` until those domains land — no dead links.
+- Files touched: modified `README/NestJS/LOG.md`, created `README/NestJS/02 Controllers Routing and Validation/README.md` + 6 `sections/` folders, modified `README/NestJS/README.md` (row 2)
+- Links fixed / added:
+- Verification:
+- Next steps:
