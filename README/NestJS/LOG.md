@@ -247,6 +247,7 @@
   - [unit 1] Opened this Session 7 entry (first write on disk)
   - [unit 2] Research recorded (versions spot-checked, DRY grep — capstone terms only TEXTUAL in 02–06 boundaries, Express/Fastify 07 shapes read; scratch verified intact)
   - [unit 3] Created `README/NestJS/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 7 — root row #15 still resolves, no root edit needed; track index 7/7 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+  - [unit 4] Leaf `07 …/sections/1. Full-system design/1.1. Full-system NestJS design.md` (3 promises) — GOOD examples COMPILED + RUN LIVE from the file (composes-holds/bounds-holds/graces-holds verified: vertical sell/count, DTO + envelope contracts, labeled degraded fallback); 6/6 fences tsc-clean; non-house audit clean (house set — ← → § only); 5/5 resolve first try (all targets built; Domains 01/02/04/06 targets verified)
 - Decisions:
   - Domain 07 shape (8 leaves: 2 design + 2 judgment + 1 staff review + checklist + QA + boundaries) — mirrors Express/Fastify 07 capstone shape (1.x2, 2.x2, 3.x1, 4/5/6.x1) and S6 Next-steps hint (full-system design, capstone delivery, staff-level QA, track-complete verification); game-day program mechanics stay linked outward, synthesis stays here.
   - TRACK-COMPLETE unit 12 upgrades Domains 02–06 Domain-07 TEXTUAL forwards → live links where a specific leaf is named, then full-track sweep; general curriculum mentions stay textual (no dead links either way).
