@@ -156,3 +156,31 @@
 - Links fixed / added: track row 4 → Domain 04 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (DatabaseDesign 03/1.1 + README, DP 06/2.2 + README, ORM 01/2.2, 01/3.1, 01/1.1, 01/1.2, 02/1.2, 02/2.1, 02/2.2, 02/3.1, 03/1.2 — all targets content-verified)
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 4/7 rows, 38 md total); 63/63 relative links resolve domain-wide (script-checked); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 45 TS fences (15 GOOD runnable + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence (tsc 5.9.3) + every GOOD example COMPILED + RUN LIVE from its file (glossary-200, modules-100-3, acl-9-99, same-id, trail-3, sold-out, twins-USD, frozen-150, email-kg, bypass-25, id-c9, reload-3, kind-placed, collect-1, upcast-USD-EUR; Nest 12.1.2/FastifyAdapter 5.12.5, zero listening ports throughout); non-ASCII = house set (— ← →) + `–` in 05–07 ranges only (index + 6.1, neighbor convention, deliberate); DRY confirmed (document-aggregates→DatabaseDesign-03, event-mechanics→DP-06, seams→ORM-01, services/edges→Domain-02, hexagon→Domain-03 — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (9 commits: LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle, Fastify adapter default, Express never taught)
 - Next steps: Session 5 — Domain 05 CQRS and Event-Driven Slices per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-08 14:30] Session 5 — Domain 05 CQRS and Event-Driven Slices (Domains 06–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S4 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate S1 — change-checked, no deltas to re-read); root README.md (Clean Architecture #16, unchanged); README/CleanArchitecture/LOG.md (full — Sessions 1–4 DONE, recovery point); README/CleanArchitecture/README.md (4/7 rows); README/CleanArchitecture/04 DDD Tactical Modeling/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S4 closed DONE = this recovery point). Disk verified — S4 Done 11/11: track README 4 rows + domain 04 index + 8/8 leaves all present (38 md track-wide); git log shows S4 closeout fbc2ed6 on top, tree clean; /tmp/opencode/clean-s1 survives (node_modules symlink intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 05 fully implemented this session, domains 06–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (CQRS/projections/read-models DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `05 CQRS and Event-Driven Slices/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Commands deciding queries serving
+  5. Unit 5 — leaf 1.2. Read models serving queries
+  6. Unit 6 — leaf 2.1. Projections folding events
+  7. Unit 7 — leaf 2.2. Eventual consistency judging staleness
+  8. Unit 8 — leaf 3.1. Slices scaling reads and writes
+  9. Unit 9 — leaf 4.1. Slicing checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA CQRS and events
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 06 Persistence and Framework Isolation, 07 Production Clean Use and Interview Synthesis. Only Domain 05 is guaranteed in this session.
+- Research notes: versions spot-checked (NestJS 12.1.2 + fastify 5.12.5 via installed package.json, tsc 5.9.3 — unchanged S1–S4, same day); scratch /tmp/opencode/clean-s1 verified intact. Sources: Young CQRS (command/query separation, task-based UI); Fowler bliki (CQRS, event sourcing sketches); Vernon IDDD (saga/event patterns); Databases-track consistency literature (outbox pattern). DRY grep with target reads: `CQRS|read model|projection` hits are query-shaping/storage/type mechanics (ORM relations, DatabaseDesign normalization/capacity, TS type projections — different concepts) — zero taught CQRS, Domain 05 owns command/query split + read models + projections fully; `eventual consistency` mechanics owned by Redis 04/2.1 (async replication, WAIT, lag gauges — target read §§1–2) + Databases 05/3.1 (2PC pricing, sagas, outbox + idempotent handlers — target read §§1, linked; write-side coordination stays there) — Domain 05/2.2 owns READ-side staleness JUDGMENT only (budgets per query, UX handling, measured windows). BOUNDARY: Domain 05 owns CQRS split + read models + projection folds + staleness judgment + slice scaling; replication/consistency mechanics stay linked outward; persistence isolation stays textual for 06.
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; Young/Fowler/Vernon sources; DRY grep — CQRS/read-models/projections unowned → Domain 05 owns, Redis-04/2.1 + Databases-05/3.1 own consistency mechanics (linked); scratch verified intact)
+  - [unit 3] Created `README/CleanArchitecture/05 CQRS and Event-Driven Slices/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 5 — track index 5/5 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/CleanArchitecture/05 CQRS and Event-Driven Slices/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 5)
+- Links fixed / added: track row 5 → Domain 05 README
+- Verification:
+- Next steps: Session 6 — Domain 06 Persistence and Framework Isolation per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
