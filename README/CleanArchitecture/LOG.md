@@ -101,8 +101,9 @@
   - [unit 1] Opened this Session 3 entry (first write on disk)
   - [unit 2] Research recorded (versions spot-checked unchanged; Cockburn/Martin/NestJS-docs sources; DRY grep — hexagon theory + port-contract suites unowned → Domain 03 owns, NestJS-05/1.1 harness + ORM-01/2.2 seam linked; scratch verified intact)
   - [unit 3] Created `README/CleanArchitecture/03 Hexagonal Ports and Adapters/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 3 — track index 3/3 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+  - [unit 4] Leaf `03 …/sections/1. Hexagonal thinking/1.1. Driving versus driven ports.md` (3 promises) — GOOD examples COMPILED + RUN LIVE from the file (sides-differ/register-ada, ports-face/morning-ada, symmetry-proves/two-actors-42 verified: tsc 5.9.3 strict per-fence + node); BAD as commented shapes (tsc-clean); 6/6 fences tsc-clean; non-house audit clean (house set — → only); 3/6 resolve now (3 forwards to unbuilt 1.2/2.2/6.1 resolve as units land; 01/2.2 + 02/1.2 + 01/1.1 targets verified)
 - Decisions:
-- Files touched: created `README/CleanArchitecture/03 Hexagonal Ports and Adapters/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 3)
+- Files touched: created `README/CleanArchitecture/03 Hexagonal Ports and Adapters/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 3), created leaf `1. Hexagonal thinking/1.1. Driving versus driven ports.md`
 - Links fixed / added: track row 3 → Domain 03 README
 - Verification:
 - Next steps: Session 4 — Domain 04 DDD Tactical Modeling per plan above; then 05–07 in order. Track README row 4 appended when 04 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
