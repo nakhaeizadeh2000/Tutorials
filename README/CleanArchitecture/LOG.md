@@ -1,0 +1,29 @@
+# CleanArchitecture — work log
+
+## [2026-10-08 10:30] Session 1 — Create track + Domain 01 Clean Foundations (Domains 02–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session, skill harness reloaded); root README.md (Categories table — Clean Architecture #16 listed, link target missing until this session); README/NestJS/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names this track); README/NestJS/README.md (Template A reference, October 2026 era); README/NestJS/01 NestJS Foundations and Mental Model/README.md (Template B reference + neighbor tone); README/DesignPatterns/README.md (Template A, overlap neighbor — SOLID/GoF owned there); README/APISynthesis/README.md + README/EnterpriseApp/README.md (skeletons, gated — no content conflict). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (all PARTIAL hits are closed-session history, immutable per PROMPT.md:165). Disk verified — `ls README/` shows 17 dirs, no CleanArchitecture dir; git tree clean (HEAD f26c54e). No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. User chose Clean Architecture #16 at session start (Mode 1 new track, Domain 01 only, 02–07 future sessions, per convention — no scope override in request).
+- Plan (Mode 1 new track; Domain 01 fully implemented this session, domains 02–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (versions, DRY grep, neighbor shapes) + record + prepare scratch
+  3. Unit 3 — create track README.md (Template A, lists Domain 01) + `01 Clean Foundations and Mental Model/README.md` (Template B, sections 1–6) + 6 section folders (root README row #16 resolves, no root edit needed)
+  4. Unit 4 — leaf 1.1. What clean architecture is and is not
+  5. Unit 5 — leaf 1.2. First NestJS vertical slice
+  6. Unit 6 — leaf 2.1. Dependency rule and layer map
+  7. Unit 7 — leaf 2.2. Use cases as application core
+  8. Unit 8 — leaf 3.1. Entities own rules DTOs carry data
+  9. Unit 9 — leaf 4.1. Clean checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA clean foundations
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 02 Use Cases and Application Services, 03 Hexagonal Ports and Adapters, 04 DDD Tactical Modeling, 05 CQRS and Event-Driven Slices, 06 Persistence and Framework Isolation, 07 Production Clean Use and Interview Synthesis. Only Domain 01 is guaranteed in this session; later sessions append domains 02–07.
+- Research notes: NestJS 12.1.2 + fastify 5.12.5 live-verified this session (`npm view` + installed package.json in /tmp/opencode/nestjs-s2 scratch); node v20.20.2; tsc 5.9.3 (scratch-local binary, TS 5.9 era label). Sources: R. C. Martin Clean Architecture (2017 — dependency rule, four layers); Cockburn Hexagonal/Ports-and-Adapters (2005); Evans DDD tactical patterns (entities, value objects, aggregates); NestJS docs (modules/providers/controllers, custom providers, testing via @nestjs/testing); roadmap.sh/software-architect fetched — JS-rendered, no extractable curriculum detail (positioning only), curriculum derived from the books + NestJS docs above instead. DRY grep with target reads: `clean architecture|hexagonal|ports and adapters|CQRS` hits only APISynthesis skeleton (planned TEXT, untaught) + NestJS LOG history (mentions) — zero taught coverage, this track owns fully; `repository seam` owned by ORM 01/2.2 (persistence-side mechanics — linked, never re-taught; Clean owns the architectural role: port direction + dependency rule); SOLID/DIP owned by DesignPatterns 01 (SRP/OCP/LSP/ISP/DIP — linked, never re-taught; Clean owns layering + dependency rule built on DIP); NestJS 01/02/03 own framework usage (controllers/modules/providers/lifecycle — linked, never re-taught; Nest is the vehicle here). BOUNDARY: Domain 01 owns WHAT/WHY + first slice + dependency rule + use-case core + entity-vs-DTO split; mechanics of decorators/persistence/validation stay linked outward. Scratch: /tmp/opencode/clean-s1 created, node_modules symlinked from nestjs-s2 (77 pkgs incl. @nestjs/common+core+platform-fastify+testing, fastify, reflect-metadata, rxjs) — tsc 5.9.3 + node verification per leaf, zero listening ports (inject-only, S1 lesson carried over).
+- Done:
+  - [unit 1] Opened this Session 1 entry (first write on disk)
+  - [unit 2] Research recorded (NestJS 12.1.2 + fastify 5.12.5 via live package.json, tsc 5.9.3; book/docs sources; roadmap.sh fetched-no-detail; DRY grep with target reads — APISynthesis/ORM-01-2.2/DesignPatterns-01/NestJS boundaries drawn; scratch /tmp/opencode/clean-s1 linked)
+  - [unit 3] Created `README/CleanArchitecture/README.md` (Template A track index, lists Domain 01, NestJS-vehicle + Fastify-adapter default stated) + `README/CleanArchitecture/01 Clean Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders — root README row #16 now resolves, no root edit needed; track index 1/1 + LOG link resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/CleanArchitecture/LOG.md`, created `README/CleanArchitecture/README.md`, created `README/CleanArchitecture/01 Clean Foundations and Mental Model/README.md` + 6 `sections/` folders
+- Links fixed / added: root row #16 → CleanArchitecture README (now resolves, no root edit needed); track row 1 → Domain 01 README
+- Verification:
+- Next steps: Session 2 — Domain 02 Use Cases and Application Services per plan above; then 03–07 in order. Track README row 2 appended when 02 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
