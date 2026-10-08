@@ -95,6 +95,15 @@ Definition → What problem it solves/history → Modern guidance → Runnable e
 
 ---
 
+## ۹. قانون NestJS-first برای ترک‌های آينده (هميشه‌لود — تصميم کاربر ۲۰۲۶-۱۰-۰۸)
+
+1. در ترک‌های Clean Architecture و DDD (۱۶)، Microservices (۱۸)، Socket.IO (۲۰)، RxJS (۲۱)، APISynthesis (۲۲)، EnterpriseApp (۲۳) و هر ترک بک‌اند آينده، مثال‌ها و آموزش **بايد NestJS-محور** باشد و از آن استفاده کند — نه Express برهنه، نه Fastify برهنه.
+2. آداپتور پيش‌فرض هميشه **Fastify adapter** است (تصميم کاربر از ترک NestJS)؛ هر جا رفتار با Express adapter فرق می‌کند، يک side note کوتاه بده (بدون آموزش Express).
+3. اين قانون با `PROMPT.md:5` (DRY) تناقضی ندارد: مکانيک Express/Fastify همچنان در ترک خودشان می‌ماند و فقط لينک می‌شود؛ آنچه NestJS-first می‌شود، **vehicle مثال‌ها و طراحي** است.
+4. استثنا فقط با درخواست صريح کاربر؛ هر انحراف طبق `PROMPT.md:7` در `LOG.md` ترک ثبت شود.
+
+---
+
 ## نحوه استفاده (برای انسان)
 
 - ترک جديد: `Read PROMPT.md and follow it exactly. Task: lets add a new tutorial for TypeScript`
