@@ -78,3 +78,31 @@
 - Links fixed / added: track row 2 → Domain 02 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (NestJS 01/2.2, 02/1.1, 02/1.2, 02/3.1, 04/2.1 + README, ORM 01/2.1, 06/1.2 + README, 01/1.1, 01/1.2, 01/2.2, 01/3.1 — all targets content-verified)
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 2/7 rows, 20 md total); 68/68 relative links resolve domain-wide (script-checked); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 45 TS fences (15 GOOD runnable + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence (tsc 5.9.3) + every GOOD example COMPILED + RUN LIVE from its file (flows-arrange/inject-200, cross-cutting-40, pure-60, staged-20, fake-uow, judge-1-3, saga-3, unwind-reverse, choose-3-12, keyed-2, replay-50, order-insensitive-keys, page-25, trim-ada, v1-v2-display; Nest 12.1.2/FastifyAdapter 5.12.5, zero listening ports throughout); non-ASCII = house set (— ← →) + `–` in 03–07 ranges only (index + 6.1, neighbor convention, deliberate); DRY confirmed (tx/pool mechanics→NestJS-04/ORM-06, pipes/routing→NestJS-02, seams/mappers→ORM-01, SOLID→DP — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (9 commits: LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle, Fastify adapter default, Express never taught)
 - Next steps: Session 3 — Domain 03 Hexagonal Ports and Adapters per plan above; then 04–07 in order. Track README row 3 appended when 03 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-08 12:30] Session 3 — Domain 03 Hexagonal Ports and Adapters (Domains 04–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S2 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate S1 — change-checked, no deltas to re-read); root README.md (Clean Architecture #16, unchanged); README/CleanArchitecture/LOG.md (full — Sessions 1–2 DONE, recovery point); README/CleanArchitecture/README.md (2/7 rows); README/CleanArchitecture/02 Use Cases and Application Services/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S2 closed DONE = this recovery point). Disk verified — S2 Done 11/11: track README 2 rows + domain 02 index + 8/8 leaves all present (20 md track-wide); git log shows S2 closeout a0a19e2 on top, tree clean; /tmp/opencode/clean-s1 survives (node_modules symlink intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 3 block (S1–S2 immutable). No scope override in request → resume from S2 Next steps: Domain 03 only (04–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 03 fully implemented this session, domains 04–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (driving/driven DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `03 Hexagonal Ports and Adapters/README.md` (Template B, sections 1–6) + 6 section folders + track README row 3
+  4. Unit 4 — leaf 1.1. Driving versus driven ports
+  5. Unit 5 — leaf 1.2. The hexagon maps the app
+  6. Unit 6 — leaf 2.1. Driving adapters translate inward
+  7. Unit 7 — leaf 2.2. Driven adapters implement outward
+  8. Unit 8 — leaf 3.1. Contract tests pinning ports
+  9. Unit 9 — leaf 4.1. Hexagon checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA hexagons and adapters
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 04 DDD Tactical Modeling, 05 CQRS and Event-Driven Slices, 06 Persistence and Framework Isolation, 07 Production Clean Use and Interview Synthesis. Only Domain 03 is guaranteed in this session.
+- Research notes: versions spot-checked (NestJS 12.1.2 + fastify 5.12.5 via installed package.json, tsc 5.9.3 — unchanged S1–S2, same day); scratch /tmp/opencode/clean-s1 verified intact. Sources: Cockburn Hexagonal/Ports-and-Adapters (2005 — driving/driven sides, symmetric interface); Martin Clean Architecture ch. on boundaries (partial boundaries, plugin architecture); NestJS docs (custom providers, testing module). DRY grep with target reads: `hexagonal|driving adapter|driven adapter` hits are own-track boundary TEXT + NestJS 05/1.1 (headless inject e2e mechanics — transport-side testing, target read §§1) — zero taught hexagon theory, Domain 03 owns driving-vs-driven + hexagon mapping + adapter roles fully; `contract test|test double` hits are ORM 01/2.2 (fakes honoring the repository seam — persistence angle) + TS 14/3.3 (DI decorator mechanics) — no taught port-contract suites, Domain 03 owns contract-tests-pinning-ports (one suite proving every adapter), linking NestJS 05/1.1 for framework harness mechanics. BOUNDARY: Domain 03 owns hexagon sides + adapter roles + port contracts; harness/ORM-runner mechanics stay linked outward; DDD aggregates/events stay textual for 04/05.
+- Done:
+  - [unit 1] Opened this Session 3 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; Cockburn/Martin/NestJS-docs sources; DRY grep — hexagon theory + port-contract suites unowned → Domain 03 owns, NestJS-05/1.1 harness + ORM-01/2.2 seam linked; scratch verified intact)
+  - [unit 3] Created `README/CleanArchitecture/03 Hexagonal Ports and Adapters/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 3 — track index 3/3 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/CleanArchitecture/03 Hexagonal Ports and Adapters/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 3)
+- Links fixed / added: track row 3 → Domain 03 README
+- Verification:
+- Next steps: Session 4 — Domain 04 DDD Tactical Modeling per plan above; then 05–07 in order. Track README row 4 appended when 04 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
