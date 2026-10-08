@@ -179,8 +179,9 @@
   - [unit 1] Opened this Session 5 entry (first write on disk)
   - [unit 2] Research recorded (versions spot-checked unchanged; Young/Fowler/Vernon sources; DRY grep — CQRS/read-models/projections unowned → Domain 05 owns, Redis-04/2.1 + Databases-05/3.1 own consistency mechanics (linked); scratch verified intact)
   - [unit 3] Created `README/CleanArchitecture/05 CQRS and Event-Driven Slices/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 5 — track index 5/5 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+  - [unit 4] Leaf `05 …/sections/1. Command query split/1.1. Commands deciding queries serving.md` (3 promises) — GOOD examples COMPILED + RUN LIVE from the file (commands-decide/Nest-12.1.2-FastifyAdapter-POST-201 + GET, queries-serve/frozen-leaders-o2-o1, pressure-splits/250x-split + even-unified verified: tsc 5.9.3 strict per-fence with correct flags + node, zero listening ports); self-caught pre-commit (DOM-lib `top` collision → `leaders`, found via tsc); Nest fence via scratch node_modules (compiled inside nestjs-s2, scratch files removed post-run); BAD as commented shapes (tsc-clean); 6/6 fences tsc-clean; non-house audit clean (house set — → only); 4/6 resolve now (2 forwards to unbuilt 2.1/4.1 resolve as units land; 02/1.1 + 04/2.2 + 02/3.1 + 01/1.1 targets verified)
 - Decisions:
-- Files touched: created `README/CleanArchitecture/05 CQRS and Event-Driven Slices/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 5)
+- Files touched: created `README/CleanArchitecture/05 CQRS and Event-Driven Slices/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 5), created leaf `1. Command query split/1.1. Commands deciding queries serving.md`
 - Links fixed / added: track row 5 → Domain 05 README
 - Verification:
 - Next steps: Session 6 — Domain 06 Persistence and Framework Isolation per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
