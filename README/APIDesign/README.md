@@ -5,6 +5,7 @@ REST, GraphQL, and gRPC API design from foundations to production: style selecti
 | # | Module |
 |---|--------|
 | 1 | [API Design Foundations and Mental Model](<01 API Design Foundations and Mental Model/README.md>) |
+| 2 | [REST Depth](<02 REST Depth/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

@@ -38,3 +38,31 @@
 - Links fixed / added: root row #17 → APIDesign README (now resolves, no root edit needed); track row 1 → Domain 01 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (NodeJS 07/2.2, NestJS 01/1.2 + 01/2.1 + 01/2.2 + 01/3.1 + 02/1.1 + 02/1.2 + 02/3.1, CA 03/3.1 + 06/3.1 — all targets content-verified; standing rule: 4-level `../../../../` cross-track from section dirs)
 - Verification: DOMAIN-COMPLETE — 11 md files (track README + LOG + domain index + 8/8 leaves); 65/65 content links resolve domain-wide (script-checked, LOG-history prose excluded as known false-positive class); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 45 TS fences (15 GOOD runnable + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence with correct flags (tsc 5.9.3, DOM-lib collisions `top`/`status` fixed) + every GOOD example COMPILED + RUN LIVE from its file (lint-2, styles-3, break-cut, slice-201-404, registry-2, conform-2, precede-mock, freeze-gate, doubles-2, scope-v3, sunset-3, plan-4, envelope-4, status-7, sanitized-r7; Nest 12.1.2/FastifyAdapter 5.12.5, zero listening ports throughout); non-ASCII = house set (— →) + `–` in 02–04/02–07 ranges (neighbor convention, deliberate) + CJK 0 (research-note fragment removed); DRY confirmed (REST-mechanics→NestJS/Express/Fastify, guidance→NodeJS-07, GQL/gRPC→Domains-03–04 future — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (10 commits: LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle, Fastify adapter default, Express never taught)
 - Next steps: Session 2 — Domain 02 REST Depth per plan above; then 03–07 in order. Track README row 2 appended when 02 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-08 18:30] Session 2 — Domain 02 REST Depth (Domains 03–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read S1 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (API Design #17, unchanged); README/APIDesign/LOG.md (full — Session 1 DONE, recovery point); README/APIDesign/README.md (1/7 rows); README/APIDesign/01 API Design Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S1 closed DONE = this recovery point). Disk verified — S1 Done 11/11: track README + LOG + domain 01 index + 8/8 leaves all present (11 md); git log shows S1 closeout 2183ae5 on top, tree clean; /tmp/opencode/api-s1 survives (node_modules symlink intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 02 fully implemented this session, domains 03–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (REST verbs/pagination/idempotency/safety DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `02 REST Depth/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Resources naming nouns verbs mapping
+  5. Unit 5 — leaf 1.2. Status codes and error mapping
+  6. Unit 6 — leaf 2.1. Pagination filtering and sorting
+  7. Unit 7 — leaf 2.2. Idempotency and safe retries in REST
+  8. Unit 8 — leaf 3.1. NestJS REST slice with validation
+  9. Unit 9 — leaf 4.1. REST checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA REST depth
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 03 GraphQL Depth, 04 gRPC Depth, 05 Choosing and Unifying Styles, 06 API Operations, 07 Production API Use and Interview Synthesis. Only Domain 02 is guaranteed in this session.
+- Research notes: versions spot-checked (NestJS 12.1.2 + fastify 5.12.5 via installed package.json, tsc 5.9.3 — unchanged S1, same day); scratch /tmp/opencode/api-s1 verified intact. Sources: Fielding REST (resources, verbs, statelessness, cacheability); RFC 9110 (method semantics: safe/idempotent matrix); RFC 9457 (problem details); Stripe Atlas (idempotency keys, pagination cursors). DRY grep with target reads: HTTP-idempotency PATTERN owned by CA 02/2.2 (keys, receivers, ownership — linked; Domain 02/2.2 owns the REST angle only: method safety matrix, Idempotency-Key headers, retry guidance); write-ids owned by Databases 03/3.1 (driver angle — linked); cursor-pagination MECHANICS owned by NodeJS 07/2.2 (opaque cursors, caps — target read S1, linked); verb/status/route mechanics owned by NestJS 01/1.2 + 02 (framework usage) + Express/Fastify 02 (minimal contrast) — all linked, never re-taught. BOUNDARY: Domain 02 owns REST DESIGN (noun resources, verb mapping, status semantics, collection shaping, HTTP idempotency, NestJS REST slice); framework/driver mechanics stay linked outward; GraphQL/gRPC stay textual for 03–04.
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; Fielding/RFC-9110/RFC-9457/Stripe sources; DRY grep — idempotency-pattern→CA-02/2.2, write-ids→Databases-03/3.1, cursor-mechanics→NodeJS-07/2.2, verb/route-mechanics→NestJS/Express/Fastify (all linked); Domain 02 owns REST design; scratch verified intact)
+  - [unit 3] Created `README/APIDesign/02 REST Depth/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 2 — track index 2/2 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/APIDesign/02 REST Depth/README.md` + 6 `sections/` folders, modified `README/APIDesign/README.md` (row 2)
+- Links fixed / added: track row 2 → Domain 02 README
+- Verification:
+- Next steps: Session 3 — Domain 03 GraphQL Depth per plan above; then 04–07 in order. Track README row 3 appended when 03 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
