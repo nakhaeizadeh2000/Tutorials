@@ -40,19 +40,21 @@ Recommended mentor path order — follow top-to-bottom (junior → mid → senio
 | 19 | System Design — large-scale, scaling & tradeoffs | [Open the System Design track](<README/SystemDesign/README.md>) |
 | 20 | Socket.IO / WebSocket — realtime | [Open the Socket.IO track](<README/SocketIO/README.md>) |
 | 21 | RxJS — reactive streams | [Open the RxJS track](<README/RxJS/README.md>) |
-| 22 | React (JS) — UI with JavaScript | [Open the React JS track](<README/ReactJS/README.md>) |
-| 23 | React (TS) — UI with TypeScript | [Open the React TS track](<README/ReactTS/README.md>) |
-| 24 | Redux Toolkit — state with RTK & RTK Query | [Open the Redux Toolkit track](<README/ReduxToolkit/README.md>) |
-| 25 | Next.js — full-stack React (TS + JS when needed) | [Open the Next.js track](<README/NextJS/README.md>) |
-| 26 | Testing — Unit, Integration, Behavior with Playwright (only) | [Open the Testing track](<README/Testing/README.md>) |
-| 27 | Linux & Shell — fundamentals, Bash & scripting | [Open the Linux track](<README/Linux/README.md>) |
-| 28 | Operating Systems & System Fundamentals — mentor base | [Open the OS track](<README/OperatingSystems/README.md>) |
-| 29 | Electron — desktop mastery | [Open the Electron track](<README/Electron/README.md>) |
-| 30 | Mobile — React Native + Expo & Capacitor | [Open the Mobile track](<README/Mobile/README.md>) |
-| 31 | Docker — Docker, Kubernetes & Helm | [Open the Docker track](<README/Docker/README.md>) |
-| 32 | Nginx — reverse proxy, throttling, rate limiting & gateway | [Open the Nginx track](<README/Nginx/README.md>) |
-| 33 | Cloud & IaC — AWS, Terraform & Cloudflare | [Open the Cloud track](<README/Cloud/README.md>) |
-| 34 | DevOps — CI/CD, Jenkins & pipelines | [Open the DevOps track](<README/DevOps/README.md>) |
-| 35 | Unified Architecture — monorepo & shared code | [Open the Unified Architecture track](<README/UnifiedArchitecture/README.md>) |
-| 36 | Production Toolchain — observability, security & release | [Open the Production Toolchain track](<README/ProductionToolchain/README.md>) |
-| 37 | Mentor Capstone — staff/mentor synthesis | [Open the Mentor Capstone track](<README/MentorCapstone/README.md>) |
+| 22 | API Synthesis — cross-track mastery from tracks 01–21 (20 domains, hiring-grade) | [Open the API Synthesis track](<README/APISynthesis/README.md>) |
+| 23 | Enterprise App — huge real-world sample, engineering not coding (web + desktop + mobile) | [Open the Enterprise App track](<README/EnterpriseApp/README.md>) |
+| 24 | React (JS) — UI with JavaScript | [Open the React JS track](<README/ReactJS/README.md>) |
+| 25 | React (TS) — UI with TypeScript | [Open the React TS track](<README/ReactTS/README.md>) |
+| 26 | Redux Toolkit — state with RTK & RTK Query | [Open the Redux Toolkit track](<README/ReduxToolkit/README.md>) |
+| 27 | Next.js — full-stack React (TS + JS when needed) | [Open the Next.js track](<README/NextJS/README.md>) |
+| 28 | Testing — Unit, Integration, Behavior with Playwright (only) | [Open the Testing track](<README/Testing/README.md>) |
+| 29 | Linux & Shell — fundamentals, Bash & scripting | [Open the Linux track](<README/Linux/README.md>) |
+| 30 | Operating Systems & System Fundamentals — mentor base | [Open the OS track](<README/OperatingSystems/README.md>) |
+| 31 | Electron — desktop mastery | [Open the Electron track](<README/Electron/README.md>) |
+| 32 | Mobile — React Native + Expo & Capacitor | [Open the Mobile track](<README/Mobile/README.md>) |
+| 33 | Docker — Docker, Kubernetes & Helm | [Open the Docker track](<README/Docker/README.md>) |
+| 34 | Nginx — reverse proxy, throttling, rate limiting & gateway | [Open the Nginx track](<README/Nginx/README.md>) |
+| 35 | Cloud & IaC — AWS, Terraform & Cloudflare | [Open the Cloud track](<README/Cloud/README.md>) |
+| 36 | DevOps — CI/CD, Jenkins & pipelines | [Open the DevOps track](<README/DevOps/README.md>) |
+| 37 | Unified Architecture — monorepo & shared code | [Open the Unified Architecture track](<README/UnifiedArchitecture/README.md>) |
+| 38 | Production Toolchain — observability, security & release | [Open the Production Toolchain track](<README/ProductionToolchain/README.md>) |
+| 39 | Mentor Capstone — staff/mentor synthesis | [Open the Mentor Capstone track](<README/MentorCapstone/README.md>) |
