@@ -140,8 +140,9 @@
   - [unit 1] Opened this Session 4 entry (first write on disk)
   - [unit 2] Research recorded (versions spot-checked unchanged; Evans/Vernon sources; DRY grep — DatabaseDesign-03/1.1 owns document-aggregates, DP-06/2.2 owns event mechanics, VOs/UL/contexts unowned → Domain 04 owns tactical modeling; scratch verified intact)
   - [unit 3] Created `README/CleanArchitecture/04 DDD Tactical Modeling/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 4 — track index 4/4 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+  - [unit 4] Leaf `04 …/sections/1. Language and context/1.1. Ubiquitous language bounding contexts.md` (3 promises) — GOOD examples COMPILED + RUN LIVE from the file (language-speaks/glossary-3 + demurrage-200, contexts-bound/dual-Nest-modules-billing-100-support-3, maps-draw/ACL-9-99 verified: tsc 5.9.3 strict per-fence + node, zero listening ports); Nest fence via scratch node_modules (compiled inside nestjs-s2, scratch files removed post-run); BAD as commented shapes (tsc-clean); 6/6 fences tsc-clean; non-house audit clean (house set — → only); 3/6 resolve now (3 forwards to unbuilt 1.2/2.2/6.1 resolve as units land; 02/3.1 + 03/1.2 targets verified)
 - Decisions:
-- Files touched: created `README/CleanArchitecture/04 DDD Tactical Modeling/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 4)
+- Files touched: created `README/CleanArchitecture/04 DDD Tactical Modeling/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 4), created leaf `1. Language and context/1.1. Ubiquitous language bounding contexts.md`
 - Links fixed / added: track row 4 → Domain 04 README
 - Verification:
 - Next steps: Session 5 — Domain 05 CQRS and Event-Driven Slices per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
