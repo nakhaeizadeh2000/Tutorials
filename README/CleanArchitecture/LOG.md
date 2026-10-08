@@ -62,8 +62,9 @@
   - [unit 1] Opened this Session 2 entry (first write on disk)
   - [unit 2] Research recorded (versions spot-checked unchanged; Vernon/EIP/saga sources; DRY grep — NestJS-04/2.1 + ORM-06/1.x own tx mechanics, sagas/idempotency/application-services unowned → Domain 02 owns; scratch verified intact)
   - [unit 3] Created `README/CleanArchitecture/02 Use Cases and Application Services/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 2 — track index 2/2 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+  - [unit 4] Leaf `02 …/sections/1. Service orchestration/1.1. Application services arrange cross-cutting flows.md` (3 promises) — GOOD examples COMPILED + RUN LIVE from the file (flows-arrange/Nest-12.1.2-FastifyAdapter-inject-200-events-ordered, cross-cutting-homes/auth-then-place-40, pure-serves/two-arrangers-60 verified: tsc 5.9.3 strict per-fence + node, zero listening ports); Nest fence via scratch node_modules (compiled inside nestjs-s2, scratch files removed post-run); BAD as commented shapes (tsc-clean); 6/6 fences tsc-clean; non-house audit clean (house set — → only); 3/6 resolve now (3 forwards to unbuilt 1.2/4.1/3.1 resolve as units land; 01/2.2 + 01/1.2 + NestJS 01/2.2 targets verified)
 - Decisions:
-- Files touched: created `README/CleanArchitecture/02 Use Cases and Application Services/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 2)
+- Files touched: created `README/CleanArchitecture/02 Use Cases and Application Services/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 2), created leaf `1. Service orchestration/1.1. Application services arrange cross-cutting flows.md`
 - Links fixed / added: track row 2 → Domain 02 README
 - Verification:
 - Next steps: Session 3 — Domain 03 Hexagonal Ports and Adapters per plan above; then 04–07 in order. Track README row 3 appended when 03 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
