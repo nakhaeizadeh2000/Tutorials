@@ -3,7 +3,7 @@
 ### [1.1. What clean architecture is and is not](<./sections/1. First slice/1.1. What clean architecture is and is not.md>)
 
 1. **Architecture owns decisions** (policy separated — frameworks deferring — details depending inward)
-2. **Screaming structure ignored** (folders shouting use cases — not frameworks — intent readable)
+2. **Screaming structure** (folders shouting use cases — not frameworks — intent readable)
 3. **Costs priced honestly** (indirection billed — small apps declining — growth affording)
 
 ---
