@@ -234,3 +234,31 @@
 - Links fixed / added: track row 6 → Domain 06 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (ORM 01 README + 01/2.1 + 01/2.2, NestJS 04 README, DatabaseDesign 05/1.1, 01/1.1, 01/1.2, 01/2.1, 01/3.1, 02/1.2, 02/3.1, 03/2.2, 03/3.1, 04/2.1, 04/2.2, 05/2.2, 05/3.1 — all targets content-verified)
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 6/7 rows, 56 md total); 61/61 relative links resolve domain-wide (script-checked); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 45 TS fences (15 GOOD runnable + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence with correct flags (tsc 5.9.3) + every GOOD example COMPILED + RUN LIVE from its file (trimmed-ada, argued-1089, carried-gold, concealed-rows, map-add-remove, mapped-zz, cli-http-21, dual-token-5, upgrade-60, gated-new, bleed-rollback, hairy-strangle, grow-ada, expand-contract, matrix-4; Nest 12.1.2/FastifyAdapter 5.12.5, zero listening ports throughout); non-ASCII = house set (— ← →) + `–` in 01–04 range only (6.1, neighbor convention, deliberate); DRY confirmed (tools→ORM, wiring→NestJS-04, schemas→DatabaseDesign-05, seams→ORM-01, decisions→Domain-01, hexagon→Domain-03, models→Domain-04, slices→Domain-05 — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (9 commits: LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle, Fastify adapter default, Express never taught)
 - Next steps: Session 7 — Domain 07 Production Clean Use and Interview Synthesis (LAST domain — TRACK COMPLETE closeout per ORM S7 pattern). Track README row 7 appended when 07 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-08 16:30] Session 7 — Domain 07 Production Mastery and Interview Synthesis (LAST domain — TRACK COMPLETE)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S6 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate S1 — change-checked, no deltas to re-read); root README.md (Clean Architecture #16, unchanged); README/CleanArchitecture/LOG.md (full — Sessions 1–6 DONE, recovery point); README/CleanArchitecture/README.md (6/7 rows); README/CleanArchitecture/06 Persistence and Framework Isolation/README.md (Template B reference + neighbor tone); README/NestJS/07 Production Mastery and Interview Synthesis/README.md (capstone shape reference — mirrored). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S6 closed DONE = this recovery point). Disk verified — S6 Done 11/11: track README 6 rows + domain 06 index + 8/8 leaves all present (56 md track-wide); git log shows S6 closeout 5fc7f9b on top, tree clean; /tmp/opencode/clean-s1 survives (node_modules symlink intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 7 block (S1–S6 immutable). No scope override in request → resume from S6 Next steps: Domain 07 to TRACK COMPLETE.
+- Plan (Mode 2 extend track; Domain 07 LAST — TRACK COMPLETE closeout this session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (capstone/judgment DRY grep, neighbor capstone shapes) + record + verify scratch
+  3. Unit 3 — create `07 Production Mastery and Interview Synthesis/README.md` (Template B, sections 1–6) + 6 section folders + track README row 7
+  4. Unit 4 — leaf 1.1. Full-system clean design
+  5. Unit 5 — leaf 1.2. Full-system delivery evidence
+  6. Unit 6 — leaf 2.1. Judgment at scale
+  7. Unit 7 — leaf 2.2. Failure rehearsal game-days
+  8. Unit 8 — leaf 3.1. Staff-level clean review
+  9. Unit 9 — leaf 4.1. Mastery checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA mastery
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. TRACK-COMPLETE verification (DoD + full-track links + DRY + forward sweep) + close entry DONE
+- Full planned curriculum: none remaining — Domain 07 is the LAST domain; this session ends the track.
+- Research notes: versions spot-checked (NestJS 12.1.2 + fastify 5.12.5 via installed package.json, tsc 5.9.3 — unchanged S1–S6, same day); scratch /tmp/opencode/clean-s1 verified intact. Sources: Evans/Vernon (strategic synthesis judgment); Hohpe EIP (failure rehearsal thinking); Google SRE (game-days, blast radii); Fowler (technical-debt/quality judgment). DRY grep with target reads: game-day/staff-level mechanics owned by NestJS 07 (framework-side programs — full index read, mirrored shape), NodeJS 07 (runtime judgment/capacity), ORM/DatabaseDesign 07s (tool-side mastery) — all linked, never re-taught; Domain 07 owns CLEAN synthesis only (full-system layer traversal, dependency ledgers, boundary evidence, architecture judgment, staff review through layers). BOUNDARY: Domain 07 composes Domains 01–06 (teaching nothing twice — verify-only links back); framework/runtime/tool mastery stays linked outward; this session ends the track.
+- Done:
+  - [unit 1] Opened this Session 7 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; Evans/Vernon/SRE/Fowler sources; DRY grep — NestJS-07/NodeJS-07/tool-07s own their mastery angles (linked), CLEAN synthesis unowned → Domain 07 owns; NestJS-07 index read for shape mirror; scratch verified intact)
+  - [unit 3] Created `README/CleanArchitecture/07 Production Mastery and Interview Synthesis/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 7 — track index 7/7 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/CleanArchitecture/07 Production Mastery and Interview Synthesis/README.md` + 6 `sections/` folders, modified `README/CleanArchitecture/README.md` (row 7)
+- Links fixed / added: track row 7 → Domain 07 README
+- Verification:
+- Next steps: TRACK COMPLETE — all 7 domains implemented, track README 7/7 rows. Known-accepted remainders + suggested next work recorded at close.

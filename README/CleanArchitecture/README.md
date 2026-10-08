@@ -10,6 +10,7 @@ Enterprise layering on TypeScript — Clean Architecture, Hexagonal ports-and-ad
 | 4 | [DDD Tactical Modeling](<04 DDD Tactical Modeling/README.md>) |
 | 5 | [CQRS and Event-Driven Slices](<05 CQRS and Event-Driven Slices/README.md>) |
 | 6 | [Persistence and Framework Isolation](<06 Persistence and Framework Isolation/README.md>) |
+| 7 | [Production Mastery and Interview Synthesis](<07 Production Mastery and Interview Synthesis/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
