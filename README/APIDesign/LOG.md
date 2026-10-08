@@ -1,0 +1,29 @@
+# APIDesign — work log
+
+## [2026-10-08 17:30] Session 1 — Create track + Domain 01 API Design Foundations (Domains 02–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S7 CleanArchitecture on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (Categories table — API Design #17 listed, link target missing until this session); README/CleanArchitecture/LOG.md (tail — Session 7 DONE, TRACK COMPLETE 7/7, Next steps names this track); README/CleanArchitecture/README.md (Template A reference, October 2026 era); README/NestJS/01 NestJS Foundations and Mental Model/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (CA-S7 closed DONE TRACK COMPLETE = this recovery point). Disk verified — `ls README/` shows 18 dirs, no APIDesign dir; git tree clean (HEAD c10519b); /tmp/opencode/clean-s1 survives (node_modules symlink intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 1 block. Handoff unambiguous (CA-S7 Next steps names #17 explicitly, no gates) → proceed directly, no user question needed. No scope override in request → Mode 1 new track, Domain 01 only (02–07 future sessions, per convention).
+- Plan (Mode 1 new track; Domain 01 fully implemented this session, domains 02–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (REST/GraphQL/gRPC DRY grep, versions, neighbor shapes) + record + prepare scratch
+  3. Unit 3 — create track README.md (Template A, lists Domain 01) + `01 API Design Foundations and Mental Model/README.md` (Template B, sections 1–6) + 6 section folders (root README row #17 resolves, no root edit needed)
+  4. Unit 4 — leaf 1.1. What API design is and is not
+  5. Unit 5 — leaf 1.2. First NestJS API slice
+  6. Unit 6 — leaf 2.1. Contracts before code
+  7. Unit 7 — leaf 2.2. Versioning and evolution
+  8. Unit 8 — leaf 3.1. Errors shaped uniformly
+  9. Unit 9 — leaf 4.1. API checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA API foundations
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 02 REST Depth, 03 GraphQL Depth, 04 gRPC Depth, 05 Choosing and Unifying Styles, 06 API Operations (auth, limits, docs, contract tests), 07 Production API Use and Interview Synthesis. Only Domain 01 is guaranteed in this session; later sessions append domains 02–07.
+- Research notes: versions spot-checked (NestJS 12.1.2 + fastify 5.12.5 via installed package.json, tsc 5.9.3, node v20.20.2 — same day as CA-S7); scratch /tmp/opencode/api-s1 created, node_modules symlinked from nestjs-s2 (77 pkgs). Sources: Fielding REST dissertation (resources, representations, statelessness, HATEOAS-as-constraint); GraphQL spec + docs (schema-first, resolvers, introspection); gRPC docs (proto3, streaming, deadlines, status codes); OpenAPI 3.1 (contract-first descriptions). DRY grep with target reads: `graphql|grpc` hits are incidental only (TS variance doc-text, DP adapter-pattern name, ITVocab networks words, APISynthesis skeleton plan TEXT) — zero taught coverage, this track owns GraphQL + gRPC fully (Domains 03–04); REST mechanics scattered (NestJS 01/1.2 + 02 controllers/routing/validation, Express/Fastify minimal-framework mechanics, NodeJS 07/2.2 service-contract guidance — target read §§1–2: envelopes, path versioning, cursor pagination) — linked, never re-taught; Domain 01 owns API-DESIGN foundations (what design is, contract-first, versioning judgment, error envelopes as design); REST depth lands in Domain 02. BOUNDARY: Domain 01 owns WHAT/WHY + first slice + contract-first + versioning + error envelopes; style mechanics (REST verbs/status, GraphQL resolvers, gRPC streaming) stay textual for Domains 02–04.
+- Done:
+  - [unit 1] Opened this Session 1 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked; Fielding/GraphQL-spec/gRPC-docs/OpenAPI sources; DRY grep — GQL/gRPC unowned → track owns, REST mechanics scattered across NestJS/Express/Fastify/NodeJS-07 (linked); scratch api-s1 linked); self-caught pre-commit (stray non-English fragment in research notes removed via python, CJK-zero re-verified — same failure class as prior tracks)
+  - [unit 3] Created `README/APIDesign/README.md` (Template A track index, lists Domain 01, NestJS-vehicle + Fastify-adapter default stated) + `README/APIDesign/01 API Design Foundations and Mental Model/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders — root README row #17 now resolves, no root edit needed; track index 1/1 + LOG link resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/APIDesign/LOG.md`, created `README/APIDesign/README.md`, created `README/APIDesign/01 API Design Foundations and Mental Model/README.md` + 6 `sections/` folders
+- Links fixed / added: root row #17 → APIDesign README (now resolves, no root edit needed); track row 1 → Domain 01 README
+- Verification:
+- Next steps: Session 2 — Domain 02 REST Depth per plan above; then 03–07 in order. Track README row 2 appended when 02 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
