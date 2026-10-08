@@ -5,6 +5,7 @@ Enterprise layering on TypeScript — Clean Architecture, Hexagonal ports-and-ad
 | # | Module |
 |---|--------|
 | 1 | [Clean Foundations and Mental Model](<01 Clean Foundations and Mental Model/README.md>) |
+| 2 | [Use Cases and Application Services](<02 Use Cases and Application Services/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
