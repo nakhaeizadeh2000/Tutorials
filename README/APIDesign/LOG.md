@@ -194,3 +194,24 @@
 - Links fixed / added: track row 5 → Domain 05 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (02/1.1 + 02/3.1, 03/1.1 + 03/3.1, 04/1.1, 01/1.1 + 01/1.2 + 01/2.1 + 01/2.2 — all targets content-verified; standing rule: 4-level `../../../../` cross-track from section dirs)
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 5/7 rows, 47 md total); 59/59 relative links resolve domain-wide (script-checked, LOG-history prose excluded as known false-positive class); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 45 TS fences (15 GOOD runnable + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence with correct flags (tsc 5.9.3, DOM-lib/lib-utility collisions avoided) + every GOOD example COMPILED + RUN LIVE (scored-styles, min-total, rest-only, complete-plus-thin, approved-plus-solo, one-two-way, mobile-2, profile-fallback, single-keep, longest-404, allow-deny, refill-take, gateway-200, narrow-exact, sections-2; Nest 12.1.2/FastifyAdapter 5.12.5 live, zero listening ports throughout); non-ASCII = house set (— →) + `–` in 02–04/06–07 ranges (neighbor convention, deliberate) + CJK 0; DRY confirmed (depth→Domains-02–04, proxies→upstream, ops→Domain-06 future — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (9 commits: LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle, Fastify adapter default, Express never taught)
 - Next steps: Session 6 — Domain 06 API Operations per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-10 08:00] Session 6 — Domain 06 API Operations (Domain 07 last)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S5 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (API Design #17, unchanged); README/APIDesign/LOG.md (full — Sessions 1–5 DONE, recovery point); README/APIDesign/README.md (5/7 rows); README/APIDesign/05 Choosing and Unifying Styles/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S5 closed DONE = this recovery point). Disk verified — S5 Done 11/11: track README 5 rows + domain 05 index + 8/8 leaves all present (47 md track-wide); git log shows S5 closeout 993a898 on top, tree clean; /tmp/opencode/api-s1 + api-gql + api-grpc survive (node_modules intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 next session, per convention).
+- Plan (Mode 2 extend track; Domain 06 fully implemented this session, domain 07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (auth/limits/docs/contract-test DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `06 API Operations/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Auth verifying identities scoping access
+  5. Unit 5 — leaf 1.2. Limits enforcing quotas shedding load
+  6. Unit 6 — leaf 2.1. Docs publishing OpenAPI guiding clients
+  7. Unit 7 — leaf 2.2. Contracts testing pacts catching breaks
+  8. Unit 8 — leaf 3.1. NestJS operations slice guards throttles docs
+  9. Unit 9 — leaf 4.1. Operations checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA API operations
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 07 Production API Use and Interview Synthesis. Only Domain 06 is guaranteed in this session.
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; auth/limits/docs/pact sources; DRY grep — guard-mechanics→NestJS-02/2.1, edge-auth→05/2.2, secret-hygiene→Express-03/ITVocab-06, rate-mechanics→Express-03/Fastify-06/Redis-01/05-2.2, explicit-contracts→TSNode-07/2.2, contract-suites→Express-05/CA-03 (all linked); Domain 06 owns OPERATIONS discipline; scratch verified intact)
