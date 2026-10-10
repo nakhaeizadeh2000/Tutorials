@@ -5,6 +5,7 @@ Large-scale systems from foundations to production: interview-grade design metho
 | # | Module |
 |---|--------|
 | 1 | [System Design Foundations and Mental Model](<01 System Design Foundations and Mental Model/README.md>) |
+| 2 | [Scaling Reads and Writes](<02 Scaling Reads and Writes/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
