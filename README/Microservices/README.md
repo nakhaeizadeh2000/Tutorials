@@ -7,6 +7,7 @@ Independent deployables from foundations to production: service identity, bounda
 | 1 | [Microservices Foundations and Mental Model](<01 Microservices Foundations and Mental Model/README.md>) |
 | 2 | [Service Boundaries and Decomposition](<02 Service Boundaries and Decomposition/README.md>) |
 | 3 | [Synchronous Communication](<03 Synchronous Communication/README.md>) |
+| 4 | [Asynchronous Events and Messaging](<04 Asynchronous Events and Messaging/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
