@@ -10,6 +10,7 @@ REST, GraphQL, and gRPC API design from foundations to production: style selecti
 | 4 | [gRPC Depth](<04 gRPC Depth/README.md>) |
 | 5 | [Choosing and Unifying Styles](<05 Choosing and Unifying Styles/README.md>) |
 | 6 | [API Operations](<06 API Operations/README.md>) |
+| 7 | [Production API Use and Interview Synthesis](<07 Production API Use and Interview Synthesis/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
