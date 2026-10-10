@@ -10,6 +10,7 @@ Independent deployables from foundations to production: service identity, bounda
 | 4 | [Asynchronous Events and Messaging](<04 Asynchronous Events and Messaging/README.md>) |
 | 5 | [Resilience Patterns](<05 Resilience Patterns/README.md>) |
 | 6 | [Service Operations and Deployment](<06 Service Operations and Deployment/README.md>) |
+| 7 | [Production Mastery and Interview Synthesis](<07 Production Mastery and Interview Synthesis/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
