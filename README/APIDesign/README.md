@@ -8,6 +8,7 @@ REST, GraphQL, and gRPC API design from foundations to production: style selecti
 | 2 | [REST Depth](<02 REST Depth/README.md>) |
 | 3 | [GraphQL Depth](<03 GraphQL Depth/README.md>) |
 | 4 | [gRPC Depth](<04 gRPC Depth/README.md>) |
+| 5 | [Choosing and Unifying Styles](<05 Choosing and Unifying Styles/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

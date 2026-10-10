@@ -155,3 +155,31 @@
 - Links fixed / added: track row 4 → Domain 04 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (NodeJS 03/2.1, Databases 05/3.1, 01/1.1 + 01/1.2 + 01/2.1 + 01/2.2 + 01/3.1 + 02/1.1 + 02/1.2 + 02/2.2 — all targets content-verified; standing rule: 4-level `../../../../` cross-track from section dirs)
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 4/7 rows, 38 md total); 58/58 relative links resolve domain-wide (script-checked, LOG-history prose excluded as known false-positive class); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 45 TS fences (15 GOOD runnable + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence with node16 resolution (tsc 5.9.3, DOM-lib collisions avoided) + every GOOD example COMPILED + RUN LIVE (methods-flags, ctor-service, reuse-2, unary-ok, server-1-2-3, chooser-matrix, propagated-ms, code-4, observed-cancel, 8-code-row, rich-404, verdict-table, nest-unary-a1, shared-2-calls, nest-stream-a-b; grpc-js 1.14.6 + proto-loader 0.8.1 + microservices 12.1.2 live in api-grpc scratch, real wire throughout — in-process :0 servers + fixed-port Nest microservices); non-ASCII = house set (— →) + `–` in 05–07 ranges (neighbor convention, deliberate) + CJK 0; DRY confirmed (streams→NodeJS-03, consistency→Databases-05, REST-angles→Domain-02, contracts→Domain-01 — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (9 commits: LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle, Fastify adapter default, Express never taught)
 - Next steps: Session 5 — Domain 05 Choosing and Unifying Styles per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-08 21:30] Session 5 — Domain 05 Choosing and Unifying Styles (Domains 06–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1–S4 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (API Design #17, unchanged); README/APIDesign/LOG.md (full — Sessions 1–4 DONE, recovery point); README/APIDesign/README.md (4/7 rows); README/APIDesign/04 gRPC Depth/README.md (Template B reference + neighbor tone). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S4 closed DONE = this recovery point). Disk verified — S4 Done 11/11: track README 4 rows + domain 04 index + 8/8 leaves all present (38 md track-wide); git log shows S4 closeout a7aabc3 on top, tree clean; /tmp/opencode/api-grpc + api-gql + api-s1 survive (node_modules intact). No discrepancies; trust log + disk, nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 05 fully implemented this session, domains 06–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (BFF/gateway/federation/adapter DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `05 Choosing and Unifying Styles/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Needs matching styles judging trade-offs
+  5. Unit 5 — leaf 1.2. Decision records stating choices
+  6. Unit 6 — leaf 2.1. BFFs serving clients shaping views
+  7. Unit 7 — leaf 2.2. Gateways unifying routing auth limits
+  8. Unit 8 — leaf 3.1. NestJS unifying slice gateway plus styles
+  9. Unit 9 — leaf 4.1. Choosing checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA choosing and unifying
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 06 API Operations, 07 Production API Use and Interview Synthesis. Only Domain 05 is guaranteed in this session.
+- Research notes: versions spot-checked (NestJS 12.1.2 + fastify 5.12.5 via installed package.json, tsc 5.9.3 — unchanged S1–S4, same day); scratch /tmp/opencode/api-s1 verified intact (api-gql + api-grpc intact, unused this session). Sources: Newman Building Microservices (BFF per client, gateway aggregation); GraphQL federation docs (subgraphs, gateway composition); gRPC docs (transcoding HTTP↔gRPC); Richardson maturity + Fielding (style fit). DRY grep: `BFF|api gateway|federat` hits incidental only (mediator pattern, JS strings, ITVocab client/server, APISynthesis/EnterpriseApp skeleton plan TEXT) — ZERO taught BFF/gateway/federation coverage, Domain 05 owns fully; Nginx track unbuilt (proxy mechanics stay external/upstream). BOUNDARY: Domain 05 owns style CHOICE (needs matching, decision records) + UNIFYING (BFFs, gateways, NestJS unifying slice); proxy/transport mechanics stay linked outward; operations stay textual for 06.
+- Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; Newman/federation/transcoding sources; DRY grep — BFF/gateway/federation unowned → Domain 05 owns; scratch verified intact)
+  - [unit 3] Created `README/APIDesign/05 Choosing and Unifying Styles/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 5 — track index 5/5 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
+- Decisions:
+- Files touched: created `README/APIDesign/05 Choosing and Unifying Styles/README.md` + 6 `sections/` folders, modified `README/APIDesign/README.md` (row 5)
+- Links fixed / added: track row 5 → Domain 05 README
+- Verification:
+- Next steps: Session 6 — Domain 06 API Operations per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
