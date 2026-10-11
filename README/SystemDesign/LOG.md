@@ -154,3 +154,27 @@
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 4/7 rows, 38 md total); 97/97 relative links resolve domain-wide (script-checked). TRACK-STATE — 38 md files (4 indexes + 32 leaves + track README + LOG); 381/381 angle-bracket targets resolve track-wide (script-checked, no exclusions); 0 `%20` in links (`%20` string only inside LOG prose, pre-existing convention); 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 48 TS fences (15 GOOD runnable + 33 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence (tsc 5.9.3, DOM-lib collisions avoided) + every GOOD example COMPILED + RUN LIVE (accesses-shape, stores-match, splits-earn, queries-cover, costs-price, receipts-keep, keys-choose, splits-organize, shards-commit, guarantees-name, prices-state, boundaries-honor, stores-audit, growths-audit, promises-audit; node v20.20.2 in api-s1 scratch, zero mocks throughout); non-ASCII = house set (— →) + `–` in 05–07 ranges (neighbor convention, deliberate) + CJK 0; DRY confirmed (choice/index/partition/protocol/judgment→Databases/DatabaseDesign, shard/replica→SystemDesign-02 — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (11 commits: LOG-open + LOG+index + 8 leaves + this closeout); USER DECISIONS honored (method-first, no framework vehicle per §9 scope, Express never taught)
 - Next steps: Session 5 — Domain 05 Distributed Coordination per plan above; then 06–07 in order. Track README row 5 appended when 05 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
 - Research notes: versions spot-checked (node v20.20.2, tsc 5.9.3 via api-s1 — unchanged S1–S3, same era); scratch /tmp/opencode/api-s1 verified intact (local tsc 5.9.3 present, no new scratch — pure arithmetic fences). Sources: Kleppmann Designing Data-Intensive Applications (storage engines, partitioning, replication, consistency/CAP); Fowler (patterns language); neighbor shapes (Databases-01/3.1 store choice, Databases-02/2.2 index mechanics, Databases-05/3.1 distribution protocols, Databases-07/1.1 + 1.2 judgment/ladder, DatabaseDesign-03 embed/reference, DatabaseDesign-05/2.1 + 2.2 capacity/partition keys — all target-read headings). DRY grep with target reads: `consistency|CAP|partition|replica` across Databases/DatabaseDesign/Microservices → store/index/partition/protocol/judgment MECHANICS owned outward (linked); data DESIGN arithmetic (access-per-store choice, index cost math, partition sizing, consistency pricing) zero taught anywhere. BOUNDARY: Domain 04 owns data DESIGN (stores choosing per access, indexes pricing queries, partitions sizing growth, consistency pricing guarantees, data audits); mechanics stay linked outward; coordination stays textual for 05.
+
+## [2026-10-11 13:30] Session 5 — Domain 05 Distributed Coordination (Domains 06–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read S4 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (System Design #19, unchanged); README/SystemDesign/LOG.md (full — Sessions 1–4 DONE, recovery point); README/SystemDesign/README.md (4/7 rows); README/SystemDesign/04 Data Systems at Scale/README.md (Template B reference + neighbor tone); leaf 04/1.1 Stores choosing per access (anatomy + tone reference). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S4 closed DONE = this recovery point); worktree clean (0 status lines); git log shows S4 closeout f074f43 on top. Disk verified — S4 Done 11/11: track README 4 rows + domains 01–04 indexes + 8/8 leaves each all present (38 md track-wide). DISCREPANCY found + resolved (trust disk over log): scratch /tmp/opencode/api-s1 GONE (empty dir — host /tmp cleared since S4); rebuilt this session (`npm i typescript@5.9.3` → tsc 5.9.3 verified, node v20.20.2) before opening this entry. No other discrepancies; nothing to redo. Fresh Session 5 block (S1–S4 immutable). No scope override in request → resume from S4 Next steps: Domain 05 only (06–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 05 fully implemented this session, domains 06–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (quorum/consensus/lock/saga/idempotency DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `05 Distributed Coordination/README.md` (Template B, sections 1–6) + 6 section folders + track README row 5
+  4. Unit 4 — leaf 1.1. Quorums bounding agreement
+  5. Unit 5 — leaf 1.2. Locks fencing work
+  6. Unit 6 — leaf 2.1. Sagas sequencing steps
+  7. Unit 7 — leaf 2.2. Idempotency surviving retries
+  8. Unit 8 — leaf 3.1. Coordination audit sizing flows
+  9. Unit 9 — leaf 4.1. Coordination checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA coordination
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 06 Delivery and Evolution, 07 Production Mastery and Interview Synthesis. Only Domain 05 is guaranteed in this session.
+- Done:
+- Decisions:
+- Files touched:
+- Links fixed / added:
+- Verification:
+- Next steps: Session 6 — Domain 06 Delivery and Evolution per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
