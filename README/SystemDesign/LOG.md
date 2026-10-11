@@ -173,6 +173,9 @@
   12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
 - Full planned curriculum (future domains, in order): 06 Delivery and Evolution, 07 Production Mastery and Interview Synthesis. Only Domain 05 is guaranteed in this session.
 - Done:
+  - [unit 1] Opened this Session 5 entry (first write on disk)
+  - [unit 2] Research recorded (versions spot-checked unchanged; Kleppmann/Fowler/EIP/Richardson sources; DRY grep — election-majority math owned by SystemDesign-01/3.1 + 03/1.2 (linked, never re-taught), Sentinel quorum/election mechanics by Redis-04/2.2 (config shapes, linked), fencing-token mechanics by Redis-03/2.2 (Lua compare-and-set, linked), saga flow/judgment by CA-02/2.1 + MS-04/2.2 (linked), 2PC pricing + saga/outbox data mechanics by Databases-05/3.1 (linked), outbox tables by DatabaseDesign-06/2.1 (linked), idempotent receivers by CA-02/2.2 (linked), write ids by Databases-03/3.1 (linked), REST retry keys by APIDesign-02/2.2 (linked); Domain 05 owns COORDINATION DESIGN arithmetic (R+W intersection sizing, term/epoch fencing, lease math, lock-vs-fence judgment, 2PC-vs-saga choice per guarantees, retry budgets, coordination audits); scratch rebuilt + verified intact)
+  - [unit 3] Created `README/SystemDesign/05 Distributed Coordination/README.md` (Template B domain index, sections 1–6 with back-link) + 6 section folders + track README row 5 — track index 5/5 resolve, domain index 1/9 (8 leaf forwards resolve as units land)
 - Decisions:
 - Files touched:
 - Links fixed / added:

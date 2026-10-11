@@ -8,6 +8,7 @@ Large-scale systems from foundations to production: interview-grade design metho
 | 2 | [Scaling Reads and Writes](<02 Scaling Reads and Writes/README.md>) |
 | 3 | [Reliability and Fault Tolerance](<03 Reliability and Fault Tolerance/README.md>) |
 | 4 | [Data Systems at Scale](<04 Data Systems at Scale/README.md>) |
+| 5 | [Distributed Coordination](<05 Distributed Coordination/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
