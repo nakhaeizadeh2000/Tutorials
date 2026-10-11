@@ -115,3 +115,28 @@
 - Next steps: Session 4 — Domain 04 Data Systems at Scale per plan above; then 05–07 in order. Track README row 4 appended when 04 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
 - Research notes: versions spot-checked (node v20.20.2, tsc 5.9.3 via api-s1 — unchanged S1–S2, same era); scratch /tmp/opencode/api-s1 verified intact (no new scratch — pure arithmetic fences). Sources: Google SRE book/workbook (SLOs, error budgets, burn rates, blameless postmortems); Nygard Release It (stability patterns, cascading failures); Fowler (patterns language); game-day program shapes (Redis-07/2.2, target-read headings). DRY grep with target reads: `error budget|burn rate|game-day|game day|chaos (experiment|drill)|failover|active-active|blast radius|MTTR|runbook` → PROGRAM mechanics owned by Redis-07/2.2 (cadence/graduation/compounding, linked) + SCENARIOS by NestJS-07/2.2 + Fastify-07/2.2 (linked) + DRILL theory by Express-05/3.1 (linked) + incident RESPONSE by Git-07 (linked) + MTTR prose scattered (linked where load-bearing); SLO/error-budget ARITHMETIC + redundancy DESIGN + chaos DESIGN + failover DESIGN zero taught anywhere. BOUNDARY: Domain 03 owns reliability DESIGN (SLO math, redundancy design, chaos design, failover design, blast audit); program/scenario/drill/response mechanics stay linked outward; data stays textual for 04.
 - Research notes: versions spot-checked (node v20.20.2, tsc 5.9.3 via api-s1 — unchanged S1, same era); scratch /tmp/opencode/api-s1 verified intact (no new scratch — pure arithmetic fences). Sources: Kleppmann Designing Data-Intensive Applications (caching, replication lag, partitioning, queues); Fowler (patterns language); Nygard Release It (backpressure, steady state). DRY grep with target reads: `cache-aside|write-through|read replica|consistent hash|shard key|hot key|thundering herd|backpressure|queue depth` → write PATTERNS owned by Redis-02/1.1 + stampede by Redis-02/1.2 + eviction by Redis-02/3.1 (linked for mechanics); replica RUNGS by Databases-07/1.1 (linked); shard-key TOPOLOGY by DatabaseDesign-05 forward (linked); queue/backpressure mechanics by NestJS-06/3.1 + TSNode-07/1.2 + NodeJS-03 (linked); interview VOCAB (cache-aside/CDN/consistent-hash) by DP-07/5.1 (linked). BOUNDARY: Domain 02 owns scaling DESIGN (when/what to cache + hit-ratio math, replica lag budgets, shard-key choice + hotspot math, queue sizing + Little's law); pattern/store/runner mechanics stay linked outward; reliability stays textual for 03.
+
+## [2026-10-11 12:00] Session 4 — Domain 04 Data Systems at Scale (Domains 05–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read this session; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (System Design #19, unchanged); README/SystemDesign/LOG.md (full — Sessions 1–3 DONE, recovery point); README/SystemDesign/README.md (3/7 rows); README/SystemDesign/03 Reliability and Fault Tolerance/README.md (Template B reference + neighbor tone); leaf 03/1.1 SLOs (anatomy + tone reference). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S3 closed DONE = this recovery point); worktree clean (0 status lines); git log shows S3 closeout ad763df-era on top plus codex setup commits (non-tutorial, no disk impact). Disk verified — S3 Done 11/11: track README 3 rows + domains 01–03 indexes + 8/8 leaves each all present (29 md track-wide). No discrepancies; trust log + disk, nothing to redo. Fresh Session 4 block (S1–S3 immutable). No scope override in request → resume from S3 Next steps: Domain 04 only (05–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 04 fully implemented this session, domains 05–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (store/index/partition/consistency DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `04 Data Systems at Scale/README.md` (Template B, sections 1–6) + 6 section folders + track README row 4
+  4. Unit 4 — leaf 1.1. Stores choosing per access
+  5. Unit 5 — leaf 1.2. Indexes pricing queries
+  6. Unit 6 — leaf 2.1. Partitions sizing growth
+  7. Unit 7 — leaf 2.2. Consistency pricing guarantees
+  8. Unit 8 — leaf 3.1. Data audit sizing stores
+  9. Unit 9 — leaf 4.1. Data checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA data systems
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 05 Distributed Coordination, 06 Delivery and Evolution, 07 Production Mastery and Interview Synthesis. Only Domain 04 is guaranteed in this session.
+- Done:
+  - [unit 1] Opened this Session 4 entry (first write on disk)
+- Decisions:
+- Files touched:
+- Links fixed / added:
+- Verification:
+- Next steps:
