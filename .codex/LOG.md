@@ -36,12 +36,12 @@
 - Next steps: setup complete. Start a new Codex session in this repository and use $tutorial-continue (optionally with a track/scope), /skills, or ./.codex/bin/tutorial-continue. The first real tutorial run uses the existing track LOG recovery records and must follow the normal logged one-unit commit loop. Do not resume this integration log as tutorial work. No outstanding setup units.
 
 ## [2026-10-11 09:07] Session 2 — Add the requested root command table
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: PROMPT.md (complete); supplied AGENTS.md; root README.md; .codex/LOG.md (complete); .codex/README.md; prior verified usage guidance.
 - Plan: create CODEX_USAGE.md at the repository root with the requested eight-row command table, fill the hooks command, use portable relative links, verify the document, and commit it with this log.
-- Done: opened this session before writing the requested document.
+- Done: opened and committed this session before writing the requested document; created CODEX_USAGE.md with all eight requested entries and /hooks in the final row.
 - Decisions: this is Codex usage documentation, not tutorial generation; continue using the integration log instead of changing a track recovery log. The user explicitly requests a root document; no track/domain indexes apply. Link to the existing full guide instead of duplicating its explanations.
-- Files touched: modified .codex/LOG.md.
-- Links fixed / added: pending document creation.
-- Verification: initial working tree clean; repository search found no existing copy of the requested table.
-- Next steps: create and verify CODEX_USAGE.md, then close this session.
+- Files touched: created CODEX_USAGE.md; modified .codex/LOG.md.
+- Links fixed / added: portable root-relative links to .codex/skills/tutorial-continue/SKILL.md and .codex/README.md.
+- Verification: initial working tree clean; repository search found no existing copy of the requested table. Checked all eight table entries, both relative link targets, the /hooks cell, and git diff --check; all passed. No agent configuration or OpenCode files changed.
+- Next steps: none for this documentation request; use CODEX_USAGE.md as the root command reference.
