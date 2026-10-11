@@ -1,0 +1,47 @@
+# Codex-only project settings. Shared content policy remains in AGENTS.md + PROMPT.md.
+# Trusted project required. No user/global configuration or OpenCode files are changed.
+# Keep the model selected in Codex; use high reasoning for this research-heavy project.
+model_reasoning_effort = "high"
+web_search = "live"
+project_doc_max_bytes = 65536
+
+# Match this repository's opencode.json permission: allow for the local Codex CLI.
+# Host/organization policies and explicit launch overrides still take precedence.
+approval_policy = "never"
+sandbox_mode = "danger-full-access"
+
+developer_instructions = '''
+This is the Tutorials repository. Read the entire root PROMPT.md before project
+work and obey the existing root AGENTS.md. These shared files are the content
+policy; never edit PROMPT.md as part of a tutorial task.
+
+For a tutorial creation/extension/refresh request, load
+.codex/skills/tutorial/SKILL.md. For continuation, load
+.codex/skills/tutorial-continue/SKILL.md. Native explicit invocations are
+$tutorial and $tutorial-continue. If /tutorial or /tutorial-continue arrives as
+ordinary user prompt text, route it to the corresponding skill, preserving all
+trailing arguments. Merely discussing or configuring these commands does not
+authorize generating tutorial content.
+
+The tutorial skills own the persistent unit loop. Before each unit, confirm
+the selected track, plan, on-disk recovery state, and open log entry. Finish one
+unit with its ancestor indexes, verification, immediate LOG.md update, and
+explicit-path Git commit before starting the next. Continue across domains
+until the authorized plan is exhausted; do not ask for permission already
+provided by the tutorial request. Preserve closed log blocks. Report actual
+verification, never claim a mental check or comment-only fence is execution.
+
+After compaction, recover from the active track's complete LOG.md and Git/disk,
+then continue the same plan. A recoverable context compaction is not a reason
+to abandon a full-track request. Close the log before a normal exit.
+
+The optional tutorial_executor custom agent handles one assigned unit when
+delegation is requested/authorized and available. Keep tutorial mutations
+serial; the coordinator alone owns LOG.md and Git commits. Direct execution
+uses the same contract when no worker is used.
+
+Codex integration maintenance stays under .codex/. Use .codex/LOG.md for that
+maintenance only. Actual tutorial continuation discovers README/*/LOG.md only;
+the integration log is never a curriculum recovery candidate. Do not alter
+.opencode/, opencode.json, or shared agent rules to configure Codex.
+'''
