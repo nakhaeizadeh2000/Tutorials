@@ -34,3 +34,14 @@
 - Verification (unit 4): both launchers pass bash -n and are executable; hook source compiles and hooks.json parses; all three configured events return only the documented advisory-context output. No global hooks/trust/configuration changed. Formal fixture-based tests and final loading/isolation checks follow in unit 5.
 - Verification (unit 5): python3 .codex/tests/test_integration.py — 11/11 tests pass (exact/near-match command routing, discussion exclusion, all configured hook events, malformed input, no input execution, no permission/argument mutation, launcher root selection and literal argument preservation, TOML and concrete Markdown links). Both skills pass quick_validate.py. Real codex app-server --strict-config initialized; config/read confirms high/live/never/danger-full-access; skills/list reports tutorial and tutorial-continue enabled with repo scope and no skill errors. Explicit role-layer path resolution also exits successfully; no worker was spawned. git diff --name-only ad763df -- .opencode opencode.json AGENTS.md PROMPT.md README.md README returned no changes. git diff --check clean. Tests do not claim a full model-driven tutorial run or full enforcement; hook lifecycle trust remains host-managed.
 - Next steps: setup complete. Start a new Codex session in this repository and use $tutorial-continue (optionally with a track/scope), /skills, or ./.codex/bin/tutorial-continue. The first real tutorial run uses the existing track LOG recovery records and must follow the normal logged one-unit commit loop. Do not resume this integration log as tutorial work. No outstanding setup units.
+
+## [2026-10-11 09:07] Session 2 — Add the requested root command table
+- Status: IN PROGRESS
+- Context read: PROMPT.md (complete); supplied AGENTS.md; root README.md; .codex/LOG.md (complete); .codex/README.md; prior verified usage guidance.
+- Plan: create CODEX_USAGE.md at the repository root with the requested eight-row command table, fill the hooks command, use portable relative links, verify the document, and commit it with this log.
+- Done: opened this session before writing the requested document.
+- Decisions: this is Codex usage documentation, not tutorial generation; continue using the integration log instead of changing a track recovery log. The user explicitly requests a root document; no track/domain indexes apply. Link to the existing full guide instead of duplicating its explanations.
+- Files touched: modified .codex/LOG.md.
+- Links fixed / added: pending document creation.
+- Verification: initial working tree clean; repository search found no existing copy of the requested table.
+- Next steps: create and verify CODEX_USAGE.md, then close this session.
