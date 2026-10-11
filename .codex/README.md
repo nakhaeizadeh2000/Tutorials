@@ -119,15 +119,16 @@ unattended run.
 
 ## 5. Verification and references
 
-Run the local integration checks without model inference or tutorial changes:
+Run the local integration checks with Python 3.11+ without model inference or
+tutorial changes (the runtime reminder hook itself needs only Python 3):
 
 ```bash
 python3 .codex/tests/test_integration.py
 ```
 
-The checks cover config/skill structure, Markdown link targets, hook behavior,
-launcher quoting and root selection, and OpenCode/shared-policy isolation from
-the recorded setup baseline. Codex's `debug prompt-input` can additionally show
+The checks cover config structure, Markdown link targets, hook behavior,
+launcher quoting, root selection, and the absence of execution side effects in
+hook inputs and launcher arguments. Codex's `debug prompt-input` can additionally show
 the actual loaded instructions/skill catalog, and the strict app-server loader
 can validate the config. These checks establish loading and wiring; they do not
 prove a future model will follow every workflow step.
