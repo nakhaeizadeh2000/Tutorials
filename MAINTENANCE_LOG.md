@@ -65,3 +65,16 @@
 - Links fixed / added: none.
 - Verification: initial clean working tree on tutorial-quality-reset; concrete links in changed policies resolve; reviewed the refinement against existing shared research and DRY rules. Both agent entrypoints already load these shared files; no executable code or discovery wiring changed, so no model trial or repeated integration test claimed.
 - Next steps: complete; both agents must discover resources beyond all named examples and synthesize topic-specific instruction. No tutorial content authored.
+
+
+## [2026-10-12 13:29] Session 4 — Require three teaching sections in every leaf
+- Status: IN PROGRESS
+- Context read: complete PROMPT.md and MAINTENANCE_LOG.md; AGENTS.md teaching rules; shared QUALITY/WORKFLOW guidance; Codex config and both executor instructions; existing skill routing.
+- Plan: require Common confusion, Performance note and Mentor note in every teaching leaf, with Cross-links when needed; align shared policy, review/verification and both agent instructions; verify and commit.
+- Approval: explicit user request to update both agent configurations.
+- Done: opened this log before policy changes.
+- Decisions: applies to teaching leaf pages, including synthesis/update leaves; indexes, logs and configuration files are not teaching leaves. Keep sections meaningful and topic-specific; do not invent performance claims. Existing lessons are not rewritten by this configuration task.
+- Files touched: MAINTENANCE_LOG.md.
+- Links fixed / added: none.
+- Verification: initial Git working tree clean.
+- Next steps: implement and verify the shared leaf-section contract.
