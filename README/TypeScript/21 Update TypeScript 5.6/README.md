@@ -2,7 +2,7 @@
 
 This domain is an **index** for TypeScript 5.6-era changes (stable 2024-09-09). Deep explanations live in the linked topical domains below; this file only routes you there. No concept is re-taught here; every entry is a one-line mention + link per the anti-boilerplate law (§5).
 
-> Scope: TypeScript 5.6 added five change groups — **disallowed always-truthy/nullish checks**, **Iterator helpers + `IteratorObject`** (renamed from `BuiltinIterator`, with `ArrayIterator`/`MapIterator`/`SetIterator` subtypes), **the `--strictBuiltinIteratorReturn` flag**, **emit/build/import flags** (`--noCheck`, `--stopOnBuildErrors`, `--noUncheckedSideEffectImports`, arbitrary module identifiers), and **editor responsiveness** (region-prioritized diagnostics, commit characters, auto-import exclude patterns). All claims labeled "TS 5.6 era" below.
+> Scope: TypeScript 5.6 added five change groups — **disallowed always-truthy/nullish checks**, **Iterator helpers + `IteratorObject`** (renamed from `BuiltinIterator`, with `ArrayIterator`/`MapIterator`/`SetIterator` subtypes), **the `--strictBuiltinIteratorReturn` flag**, **emit/build/import flags** (`--noCheck`, `--stopBuildOnErrors`, `--noUncheckedSideEffectImports`, arbitrary module identifiers), and **editor responsiveness** (region-prioritized diagnostics, commit characters, auto-import exclude patterns). All claims labeled "TS 5.6 era" below.
 
 ## 1. Disallowed always-truthy and nullish checks
 
@@ -28,9 +28,15 @@ This domain is an **index** for TypeScript 5.6-era changes (stable 2024-09-09). 
 
 ### [3.1. Single-file transpilation — the skip-checking family `noCheck` belongs to](<../13 Configuration and Compiler Options/sections/2. Erasable and Isolated Toolchain/2.1. isolatedModules single-file transpilation.md>)
 
-1. **Why it exists** (`--noCheck` skips type-checking for all inputs when the goal is emit only — CI emit steps and declaration-emit pipelines stop paying for semantic analysis they discard; `--stopOnBuildErrors` makes `tsc -b` halt downstream projects after a failed reference instead of cascading noise)
+1. **Why it exists** (`--noCheck` separates emission from a full checking pass; declaration emission can still need type computation, as qualified below. `--stopBuildOnErrors` skips downstream projects when an upstream project has errors)
 2. **Production guidance** (`--noCheck` pairs with `--emitDeclarationOnly` for contract-package pipelines — see [solution builds and CI orchestration](<../19 Performance Project References and Scaling/sections/2. Project References and Builds/2.3. Solution builds and CI orchestration with tsc b.md>); without `--isolatedDeclarations` the compiler may still check what declaration emit needs — see [declaration, composite, project references](<../13 Configuration and Compiler Options/sections/3. Modules Emit and Projects/3.2. declaration composite project references.md>))
 3. **Side-effect imports** (`--noUncheckedSideEffectImports` errors when a bare `import "./polyfill"` resolves to no source file — catching typos that previously masked missing setup; the import forms themselves are catalogued in [import and export forms](<../12 Modules Namespaces and Declaration Files/sections/1. ES Modules/1.1. import and export forms named default star re-export.md>))
+
+### [3.2. Solution builds — stop downstream builds after an upstream error](<../19 Performance Project References and Scaling/sections/2. Project References and Builds/2.3. Solution builds and CI orchestration with tsc b.md>)
+
+1. **Default behavior:** Build mode from 5.6 can continue through intermediate errors and produce best-effort output. An unsuccessful build is still unsuccessful even when output exists.
+2. **Failing dependencies:** In a referenced project, `tsc -b --stopBuildOnErrors` prevents a dependent project from building after its dependency fails. It does not promise to remove old output or prevent every failing project's own emit; output suppression is a separate policy.
+3. **Verified spelling:** The supported option was checked on TypeScript 5.6.3 and 7.0.2. A clean two-project fixture reported both projects' errors without the option, and only the upstream error with the option; the dependent output was absent in the second case. Restoring valid inputs passed the build and its Node consumer. The [option reference](https://www.typescriptlang.org/tsconfig/stopBuildOnErrors.html) uses this executable spelling; the [historical release page](https://www.typescriptlang.org/docs/handbook/release-notes/typescript-5-6.html) currently spells it differently, so verify commands with the pinned compiler's build help.
 
 ---
 
@@ -58,7 +64,7 @@ This domain is an **index** for TypeScript 5.6-era changes (stable 2024-09-09). 
 
 1. **Narrowing mechanics (`typeof`/`in`/`instanceof`, discriminants, exhaustiveness)** belong in [Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>) — this index only notes the 5.6 always-truthy rejection and links there.
 2. **`lib`/`target` selection, async iteration, and timers** belong in [Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>) (here only the `IteratorObject` rename and helper-method surface).
-3. **Flag semantics (`strict` family, emit, module pairing, project references)** belong in [Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (here only what 5.6 added: `strictBuiltinIteratorReturn`, `noCheck`, `stopOnBuildErrors`, `noUncheckedSideEffectImports`).
+3. **Flag semantics (`strict` family, emit, module pairing, project references)** belong in [Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (here only what 5.6 added: `strictBuiltinIteratorReturn`, `noCheck`, `stopBuildOnErrors`, `noUncheckedSideEffectImports`).
 4. **Module forms, ambient shims, and publishing** belong in [Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>) (here only arbitrary identifiers and side-effect-import checking).
 5. **Editor operation, lint gates, and upgrade playbooks** belong in [Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>) (here only region-prioritized diagnostics, commit characters, auto-import excludes).
 
