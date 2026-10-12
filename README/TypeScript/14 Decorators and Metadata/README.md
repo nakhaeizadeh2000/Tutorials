@@ -44,9 +44,9 @@ How TypeScript annotates classes and members with reusable behavior — TC39 sta
 
 ### [2.3. Symbol.metadata and the metadata proposal](<./sections/2. Legacy and Metadata/2.3. Symbol.metadata and the metadata proposal.md>)
 
-1. **`Symbol.metadata` essentials** (standard-decorator metadata channel — `context.metadata` objects merged per class, read via `Class[Symbol.metadata]`).
-2. **Class-level metadata patterns** (route paths, validation schemas, ORM table names — data attached at definition, consumed by frameworks).
-3. **Metadata vs `reflect-metadata`** (standard channel vs legacy library — interop status, migration direction, ecosystem state as of 2026).
+1. **`Symbol.metadata` essentials** (runtime symbol initialization, compiler setup and a verified attach/read path).
+2. **Class-level metadata patterns** (typed consumers, inherited configuration and copying before mutation).
+3. **Metadata vs `reflect-metadata`** (separate stores and a real standard-first transition reader with explicit dependencies).
 
 ---
 
