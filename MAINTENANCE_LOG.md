@@ -55,13 +55,13 @@
 
 
 ## [2026-10-12 12:40] Session 3 — Make source discovery open-ended and mentor-led
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: complete PROMPT.md and MAINTENANCE_LOG.md; current AGENTS teaching priorities; QUALITY source-evaluation procedure; verified clean Git state.
 - Plan: clarify that educational resources may be principal teaching sources, all named sites are illustrative rather than an allowlist, and topic questions drive iterative discovery and synthesis; verify the shared rules and commit.
 - Approval: user explicitly asks both agents to discover varied resources beyond all named examples and work like a mentor.
-- Done: opened this session before editing policy.
+- Done: opened/committed this session, clarified open-ended source discovery in PROMPT and AGENTS, and added mentor-led research, source roles and evidence-based stopping guidance to QUALITY section 6.
 - Decisions: refine the existing shared source contract without adding a static directory of websites or claiming the supplied links were independently evaluated. No tutorial content or approval workflow changes.
-- Files touched: MAINTENANCE_LOG.md.
+- Files touched: modified PROMPT.md, AGENTS.md, .tutorial/QUALITY.md and MAINTENANCE_LOG.md.
 - Links fixed / added: none.
-- Verification: clean working tree on tutorial-quality-reset.
-- Next steps: implement and verify this policy clarification.
+- Verification: initial clean working tree on tutorial-quality-reset; concrete links in changed policies resolve; reviewed the refinement against existing shared research and DRY rules. Both agent entrypoints already load these shared files; no executable code or discovery wiring changed, so no model trial or repeated integration test claimed.
+- Next steps: complete; both agents must discover resources beyond all named examples and synthesize topic-specific instruction. No tutorial content authored.

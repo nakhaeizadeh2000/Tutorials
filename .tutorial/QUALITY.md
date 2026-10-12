@@ -132,6 +132,40 @@ conference material, original research and reproducible case studies. Evaluate
 the individual source, not just the platform. No site is universally “best” and
 no fixed number of citations proves adequate research.
 
+Do not convert example websites supplied by the user or this guide into an
+allowlist. Search by the topic, learner questions and missing evidence; discover
+additional authors, publications and resource types. Educational publications,
+specialist guides, books, courses and university material can supply the central
+explanation and learning sequence when they meet the quality criteria. They are
+not restricted to a further-reading role. Evaluate access and content actually
+available; do not claim to have read an inaccessible book or course.
+
+Distinguish source roles. A reference may establish behavior, a tutorial may
+explain it clearly, and a first-hand case study may expose its practical limits.
+Newsfeeds, aggregators and curated lists are discovery routes: follow their links
+to the underlying work before using its claims. Distinguish community Q&A from
+editorial articles even when they share a brand. Neither ranking nor a “best
+websites” list substitutes for evaluating the actual material.
+
+Work through the topic as a mentor would:
+
+1. Identify what the learner needs to understand, do, diagnose and judge at the
+   relevant stage, including likely misconceptions and prerequisite gaps.
+2. Discover and compare candidate explanations and evidence from suitable source
+   types. Follow useful references to further sources rather than stopping at the
+   first result or a familiar publisher.
+3. Investigate disagreements, unexplained steps and missing practical cases.
+   Test important claims and distinguish current recommendations from historical
+   context or one author's preference.
+4. Synthesize an original teaching sequence, examples and justified good/bad
+   practices. Map existing explanations in this repo to precise links instead
+   of reproducing them.
+
+Stop expanding the search when the learning outcomes and material claims have
+adequate support and significant contradictions are resolved or explicitly noted.
+Collecting more sites is not itself progress. If evidence remains unavailable,
+record the gap rather than disguising it with a longer bibliography.
+
 Before using a source, inspect its actual content and ask:
 
 - **Relevance:** Does it address this learning outcome or a concrete missing case?

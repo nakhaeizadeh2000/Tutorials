@@ -33,7 +33,10 @@ and navigation in existing lessons. Read PROMPT section 5 for the full contract.
 Apply that research contract to both agents: search and evaluate sources for each
 track/domain/section, including strong original articles, specialist sites,
 Medium, dev.to and Stack Overflow where relevant. Use several kinds of curriculum
-input, not roadmap.sh alone. Validate factual claims against primary evidence.
+input, not roadmap.sh alone. Named sites are examples, not search boundaries;
+discover additional teaching sources from the learner's questions and topic gaps.
+Strong educational resources may be principal teaching sources. Compare and
+synthesize them using QUALITY section 6, validating factual claims against primary evidence.
 Teach reasoned good/bad practices and practical pitfalls. Repeated concepts get
 only a brief contextual reminder plus a precise link to their full explanation.
 

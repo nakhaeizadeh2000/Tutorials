@@ -149,6 +149,16 @@ blogs, engineering-team blogs and other relevant publications. These are candida
 sources, not automatic endorsements or a requirement to cite every named site.
 Select and use the strongest relevant material after reading and evaluating it.
 
+All site names in instructions or user examples are illustrative, never a closed
+list, preferred-site quota or default search-domain restriction. Discover sources
+from the topic's learning needs, including unfamiliar publishers and authors.
+High-quality educational articles, books, courses and specialist guides may be
+principal sources for teaching a topic, not merely optional further reading.
+Distinguish a source's teaching value from its authority for a specific technical
+claim; current behavior still needs appropriate evidence. Research like a mentor:
+identify the learner's questions, compare explanations and practical experience,
+investigate gaps or contradictions, then synthesize a coherent original lesson.
+
 Official documentation, specifications, release notes and other primary evidence
 anchor current stable versions, API semantics and platform support. Original
 practitioner articles can contribute worked reasoning, measurements, production
