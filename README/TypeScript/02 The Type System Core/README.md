@@ -38,9 +38,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [2.2. Declaration spaces — type, value, and namespace](<./sections/2. The type vs value separation/2.2. Declaration spaces type value and namespace.md>)
 
-1. **Three declaration spaces** (value: `const x`; type: `type T`, `interface I`; namespace: `namespace N` / `enum E` legacy).
-2. **Merging rules** (`class` + `namespace` can merge; `type` cannot merge with `class` value; `interface` merging is nominally forbidden but declaration-merging allows same-named `interface` repetition).
-3. **Module scope vs script scope** (files are modules when they contain `import`/`export` — otherwise ambient global merging applies).
+1. **Three declaration spaces:** Distinguish type names, runtime values and qualified namespace names; predict which declarations emit code.
+2. **Merging rules:** Run accepted interface/namespace examples and reject a same-scope alias/interface collision.
+3. **Scope and augmentation:** Build a complete global augmentation project, identify the runtime provider, and diagnose a misplaced `declare global`.
 
 ### [2.3. Type queries — typeof, keyof, and indexed access](<./sections/2. The type vs value separation/2.3. Type queries typeof keyof and indexed access.md>)
 
