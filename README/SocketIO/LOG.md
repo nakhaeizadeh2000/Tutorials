@@ -36,3 +36,28 @@
 - Links fixed / added: root row #20 → SocketIO README (now resolves, no root edit); track row 1 → Domain 01 README; 8 leaf links in domain index (all resolve); cross-track links authored at correct depth + verify-only (NodeJS 04/1.1 + 04/2.1 + 04/2.2 + 04/3.1 + 03 README, DP 04/2.1 + README, APIDesign 01/2.2, ITVocab 04/2.2, Databases 05/3.1 + 07/1.2, DatabaseDesign 05/1.2, CA 02/2.2 — all targets content-verified; standing rule: 4-level `../../../../` cross-track from section dirs)
 - Verification: DOMAIN-COMPLETE — 9 md files (track README + LOG + domain index + 8/8 leaves); 103/103 relative links resolve domain-wide (script-checked). TRACK-STATE — 11 md files; 110/110 angle-bracket targets resolve track-wide (script-checked, LOG excluded); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 48 TS fences (18 GOOD runnable gateway slices + 30 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence with decorator flags (tsc 5.9.3, Nest 12.1.2/socket.io 4.8.4, default-lib collisions avoided) + every GOOD example COMPILED + RUN LIVE (upgrades-negotiate, transports-order, origins-guard, frames-type, fragments-bound, heartbeats-prove, names-register, acks-pair, broadcasts-scope, rooms-join, namespaces-isolate, fan-outs-bound, backoffs-space, sessions-recover, resubscribes-idempotent, mechanics-link, judgments-link, mastery-defers; node v20.20.2 in sio-s1 scratch, zero listening ports throughout); non-ASCII = house set (— →) + `–` in 02–07 ranges (neighbor convention, deliberate) + CJK 0; DRY confirmed (emitters→NodeJS-04/1.1, sockets/HTTP/DNS→NodeJS-04, observer→DP-04/2.1, contracts→APIDesign-01/2.2, timeouts→ITVocab-04/2.2, honesty→Databases-05/3.1, idempotency→CA-02/2.2 — zero re-teaching, boundaries leaf verify-only with Domains 02–07 textual); one-unit-per-commit history held (11 commits: LOG-open + LOG+index + 8 leaves + this closeout); USER DECISIONS honored (NestJS-vehicle per §9, Fastify adapter default, Express never taught)
 - Next steps: Session 2 — Domain 02 NestJS Gateways and Lifecycle per plan above; then 03–07 in order. Track README row 2 appended when 02 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
+
+## [2026-10-12 16:00] Session 2 — Domain 02 NestJS Gateways and Lifecycle (Domains 03–07 next)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full reads S1 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (Socket.IO #20, unchanged — Categories table read S1 on file); README/SocketIO/LOG.md (full — Session 1 DONE, recovery point); README/SocketIO/README.md (1/7 rows); README/SocketIO/01 Realtime Foundations and Mental Model/README.md (Template B reference + neighbor tone — authored S1, on file). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S1 closed DONE = this recovery point); worktree clean (0 status lines); git log shows S1 closeout bea7215 on top. Disk verified — S1 Done 11/11: track README 1 row + domain 01 index + 8/8 leaves all present (11 md track-wide). No discrepancies; trust log + disk, nothing to redo. Fresh Session 2 block (S1 immutable). No scope override in request → resume from S1 Next steps: Domain 02 only (03–07 future sessions, per convention).
+- Plan (Mode 2 extend track; Domain 02 fully implemented this session, domains 03–07 next in order):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (gateway lifecycle/guards/WsException DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `02 NestJS Gateways and Lifecycle/README.md` (Template B, sections 1–6) + 6 section folders + track README row 2
+  4. Unit 4 — leaf 1.1. Arrivals handling connections
+  5. Unit 5 — leaf 1.2. Departures cleaning disconnects
+  6. Unit 6 — leaf 2.1. Guards gating messages
+  7. Unit 7 — leaf 2.2. Failures answering errors
+  8. Unit 8 — leaf 3.1. Lifecycle audit sizing gates
+  9. Unit 9 — leaf 4.1. Gateway checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA gateways
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 03 Rooms Namespaces and Presence, 04 Scaling Out with Adapters, 05 Reliability Backpressure and Security, 06 Delivery and Evolution, 07 Production Mastery and Interview Synthesis. Only Domain 02 is guaranteed in this session.
+- Done:
+  - [unit 1] Opened this Session 2 entry (first write on disk)
+- Decisions:
+- Files touched:
+- Links fixed / added:
+- Verification:
+- Next steps:
