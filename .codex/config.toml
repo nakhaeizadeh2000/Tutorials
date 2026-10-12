@@ -1,47 +1,36 @@
-# Codex-only project settings. Shared content policy remains in AGENTS.md + PROMPT.md.
-# Trusted project required. No user/global configuration or OpenCode files are changed.
-# Keep the model selected in Codex; use high reasoning for this research-heavy project.
+# Project-scoped workflow. Keep the user's selected model and provider.
 model_reasoning_effort = "high"
 web_search = "live"
 project_doc_max_bytes = 65536
-
-# Match this repository's opencode.json permission: allow for the local Codex CLI.
-# Host/organization policies and explicit launch overrides still take precedence.
 approval_policy = "never"
 sandbox_mode = "danger-full-access"
 
 developer_instructions = '''
-This is the Tutorials repository. Read the entire root PROMPT.md before project
-work and obey the existing root AGENTS.md. These shared files are the content
-policy; never edit PROMPT.md as part of a tutorial task.
+This is the Tutorials repository. Read complete PROMPT.md and AGENTS.md.
+Shared teaching and workflow rules live in .tutorial/QUALITY.md and
+.tutorial/WORKFLOW.md. JavaScript is the editorial benchmark; current official
+sources establish technical truth. No fixed domain count or punctuation quota.
 
-For a tutorial creation/extension/refresh request, load
-.codex/skills/tutorial/SKILL.md. For continuation, load
-.codex/skills/tutorial-continue/SKILL.md. Native explicit invocations are
-$tutorial and $tutorial-continue. If /tutorial or /tutorial-continue arrives as
-ordinary user prompt text, route it to the corresponding skill, preserving all
-trailing arguments. Merely discussing or configuring these commands does not
-authorize generating tutorial content.
+Route actual tutorial tasks to .codex/skills/tutorial/SKILL.md (propose),
+.codex/skills/tutorial-continue/SKILL.md (recover), or
+.codex/skills/tutorial-review/SKILL.md (report first). Native invocations are
+$tutorial, $tutorial-continue, $tutorial-review. Preserve trailing scope. If the
+corresponding slash command arrives as ordinary text, route it likewise.
+Discussion or configuration of commands never authorizes tutorial work.
 
-The tutorial skills own the persistent unit loop. Before each unit, confirm
-the selected track, plan, on-disk recovery state, and open log entry. Finish one
-unit with its ancestor indexes, verification, immediate LOG.md update, and
-explicit-path Git commit before starting the next. Continue across domains
-until the authorized plan is exhausted; do not ask for permission already
-provided by the tutorial request. Preserve closed log blocks. Report actual
-verification, never claim a mental check or comment-only fence is execution.
+A new track needs a presented curriculum and user approval before authoring.
+A quality review needs a presented report and user approval before repairs.
+Continue preserves pending gates and already approved scope. Read the complete
+selected track LOG plus Git/disk; recover the same phase, revision, approval and
+remaining plan after compaction. Never use maintenance logs or deleted tracks'
+old history as continuation. Never automatically start the next root track.
 
-After compaction, recover from the active track's complete LOG.md and Git/disk,
-then continue the same plan. A recoverable context compaction is not a reason
-to abandon a full-track request. Close the log before a normal exit.
-
-The optional tutorial_executor custom agent handles one assigned unit when
-delegation is requested/authorized and available. Keep tutorial mutations
-serial; the coordinator alone owns LOG.md and Git commits. Direct execution
-uses the same contract when no worker is used.
-
-Codex integration maintenance stays under .codex/. Use .codex/LOG.md for that
-maintenance only. Actual tutorial continuation discovers README/*/LOG.md only;
-the integration log is never a curriculum recovery candidate. Do not alter
-.opencode/, opencode.json, or shared agent rules to configure Codex.
+For approved execution, finish one leaf with affected indexes, actually verify,
+update the active LOG immediately and commit only that unit before proceeding.
+Continue the full approved plan across domains; close the log before normal exit.
+The optional tutorial_executor handles one explicitly assigned approved unit;
+the coordinator owns logs, review and commits. Direct execution is sufficient.
+Repository policy/integration maintenance is logged in MAINTENANCE_LOG.md.
+Historical .codex/LOG.md is not a tutorial recovery candidate. Shared and OpenCode
+rules may be changed when the user requests cross-agent workflow maintenance.
 '''

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tutorial Review"
+  short_description: "Report quality findings before approved repairs"
+  default_prompt: "Use $tutorial-review for the requested scope, following its proposal, approval and recovery rules."

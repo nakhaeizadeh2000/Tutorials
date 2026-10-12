@@ -1,4 +1,4 @@
 interface:
   display_name: "Tutorial Continue"
-  short_description: "Resume verified tutorial progress and finish the planned scope"
-  default_prompt: "Use $tutorial-continue to recover the current tutorial handoff and complete its authorized plan."
+  short_description: "Resume verified work without bypassing approval"
+  default_prompt: "Use $tutorial-continue for the requested scope, following its proposal, approval and recovery rules."

@@ -2,19 +2,24 @@
 
 Tutorials about languages, technologies, and frameworks — from zero to hero and beyond (senior and expert depth).
 
-# Use this to Extend the Tutorials via AI chat/agents
-use these prompts in proper places:
-`Give me a git commit message of changes we made`,
-`Read PROMPT.md and follow it exactly. Task:...` (classic — still works, AGENTS.md enforces PROMPT.md automatically),
-`Read PROMPT.md and follow it exactly. Task: Lets add a new tutorial for pure JS language.`,
-`Read PROMPT.md and follow it exactly. Task: add JavaScript domain 05`,
-`/tutorial lets deep dive into TypeScript track` (harness shortcut — runs tutorial-builder skill loop),
-`/tutorial-continue` (resume last IN PROGRESS/PARTIAL session from LOG.md Next steps),
-`/tutorial-continue Deep Dive into Next TypeScript Track Domain`
+## Authoring and reviewing tutorials
+
+English lessons develop Junior → Mid → Senior → Master → Expert → Mentor outcomes.
+JavaScript is the editorial reference. Curricula are researched for the current
+stable subject and sized by learning needs, without a fixed domain count.
+
+| Goal | Codex | OpenCode |
+|---|---|---|
+| Propose a new track, then build after approval | `$tutorial <Track>` | `/tutorial <Track>` |
+| Continue the approved plan from verified logs | `$tutorial-continue <Track>` | `/tutorial-continue <Track>` |
+| Report quality findings, then repair after approval | `$tutorial-review <Track or domain>` | `/tutorial-review <Track or domain>` |
+
+See [command examples and approval behavior](<CODEX_USAGE.md>),
+[teaching policy](<PROMPT.md>) and [quality benchmark](<.tutorial/QUALITY.md>).
 
 ## Categories
 
-Recommended mentor path order — follow top-to-bottom (junior → mid → senior → expert → mentor). Each track's `README.md` lists its own seasons (domains) in curriculum order. Entries marked Planned have no published content yet. Their curricula will be researched and approved before authoring.
+Recommended mentor path order — follow top-to-bottom (junior → mid → senior → master → expert → mentor). Each track's `README.md` lists its own seasons (domains) in curriculum order. Entries marked Planned have no published content yet. Their curricula will be researched and approved before authoring.
 
 | # | Topic | Index |
 |---|-------|--------|

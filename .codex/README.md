@@ -1,141 +1,68 @@
-# Codex tutorial workflow
+# Codex tutorial integration
 
-## 1. Start and continue
+## 1. Three entrypoints
 
-Open this repository in Codex and start a **new session** after installing these
-files. For Codex CLI/IDE, invoke the skills explicitly:
+Use `$tutorial`, `$tutorial-continue`, or `$tutorial-review` in a new Codex session
+opened in this repository. See the shared [command table](<../CODEX_USAGE.md>)
+for examples and the corresponding OpenCode commands.
 
-```text
-$tutorial-continue
-$tutorial-continue SystemDesign
-$tutorial-continue SystemDesign — complete all remaining domains and sections
-$tutorial lets add a new tutorial for Python
-$tutorial extend TypeScript domain 03 with the requested section
-```
-
-You can also select **Tutorial** or **Tutorial Continue** through `/skills`.
-The installed Codex CLI 0.160.0 was verified to discover both skills directly
-from this repository's `.codex/skills/` compatibility location. No user-level
-installation or shared `.agents/skills/` directory is needed for that version.
-
-OpenCode's `/tutorial-continue` is a custom OpenCode slash command. These files
-do **not** register an identical slash-menu command in Codex. If a Codex client
-accepts that string as ordinary prompt text, the project instructions route it
-to the same skill. If it rejects unknown slash commands, use
-`$tutorial-continue` or `/skills`; those are the native Codex entrypoints.
-
-From a terminal at the repository root:
-
-```bash
-./.codex/bin/tutorial-continue
-./.codex/bin/tutorial-continue SystemDesign "complete all remaining domains"
-./.codex/bin/tutorial "extend TypeScript domain 03"
-```
-
-These wrappers start one interactive Codex session with the repository root and
-the skill prompt. They preserve arguments as prompt text; they do not run an
-external restart loop or call OpenCode. For non-interactive automation:
-
-```bash
-codex exec '$tutorial-continue SystemDesign — complete all remaining domains'
-```
-
-Launch that command from this repository, or use Codex's `-C` option with the
-repository path. Quote `$tutorial-continue` in shell commands so the shell does
-not interpret it as a variable.
-
-## 2. Configuration and isolation
-
-| Existing OpenCode mechanism | Codex equivalent |
+| Codex skill | Shared workflow mode |
 |---|---|
-| `opencode.json` | [config.toml](<config.toml>) |
-| Shared `AGENTS.md` and `PROMPT.md` | Same files, read unchanged; Codex also receives project routing instructions |
-| `.opencode/command/tutorial.md` | [tutorial skill](<skills/tutorial/SKILL.md>) and [terminal launcher](<bin/tutorial>) |
-| `.opencode/command/tutorial-continue.md` | [continuation skill](<skills/tutorial-continue/SKILL.md>) and [terminal launcher](<bin/tutorial-continue>) |
-| `.opencode/skills/tutorial-builder/SKILL.md` | [shared unit loop](<skills/tutorial/references/unit-loop.md>) |
-| `.opencode/agent/tutorial-executor.md` | [tutorial_executor role](<agents/tutorial_executor.toml>) |
-| `.opencode/plugin/enforce-prompt.ts` reminders | [hooks.json](<hooks.json>) and [advisory hook](<hooks/tutorial_reminder.py>) |
-| Track recovery logs | The same `README/<Track>/LOG.md` and Git history |
+| [tutorial](<skills/tutorial/SKILL.md>) | Propose a complete curriculum, wait for approval, then author it. |
+| [tutorial-continue](<skills/tutorial-continue/SKILL.md>) | Recover phase, approval and progress from complete logs plus Git/disk. |
+| [tutorial-review](<skills/tutorial-review/SKILL.md>) | Report findings first, wait for approval, then complete accepted repairs. |
 
-All integration files are under `.codex/`. Setup does not modify `.opencode/`,
-`opencode.json`, root `AGENTS.md`, root `PROMPT.md`, tutorial content, or tutorial
-logs. No global Git hooks, shell aliases, symlinks, credential/provider changes,
-or user-level Codex configuration are installed. Integration maintenance is
-recorded in [LOG.md](<LOG.md>), which tutorial discovery explicitly excludes.
+All modes load [PROMPT.md](<../PROMPT.md>), [AGENTS.md](<../AGENTS.md>),
+[WORKFLOW.md](<../.tutorial/WORKFLOW.md>) and [QUALITY.md](<../.tutorial/QUALITY.md>).
+These shared files own teaching and approval policy for both agents. There is no
+separate Codex syllabus or punctuation rule. The old
+[unit-loop reference](<skills/tutorial/references/unit-loop.md>) forwards to them.
 
-Actual tutorial runs intentionally write the shared tutorial files/logs and
-commit each unit. That lets OpenCode and Codex resume each other's work. Run
-only one tutorial writer per track/worktree at a time.
+## 2. Loading and execution
 
-## 3. Defaults and client requirements
+Repository skills use `.codex/skills/`, discovered by the installed Codex CLI.
+Use native `$skill` invocation or the client's skill selector. An OpenCode slash
+command is not automatically a Codex slash-menu registration; the project routes
+it only if the client delivers it as ordinary prompt text.
 
-- **Model** (inherited): keep the model chosen in Codex; project reasoning is
-  `high`. Sol 6.1 high is the suggested everyday choice, with Astra high for
-  difficult research/review. Use the model picker or CLI overrides to change it.
-- **Research** (live): `web_search = "live"` supports current official-source
-  verification and roadmap.sh checks; no external search account is configured.
-- **Local permissions** (OpenCode parity): `approval_policy = "never"` and
-  `sandbox_mode = "danger-full-access"` match this repository's existing
-  OpenCode `permission: allow`. Higher-priority host/organization policies and
-  explicit launch settings still govern the effective permissions.
-- **Project trust** (Codex requirement): local project config loads only for a
-  trusted project. Codex may require its normal project/hook trust review on
-  first use. This setup does not bypass trust or change global trust settings.
-- **Hooks** (advisory): startup/compaction, direct command submission, and
-  relevant tool calls receive reminders. The hook never writes files, edits
-  arguments, grants permissions, blocks actions, or proves compliance. Core
-  instructions and skills work without it. Local command hooks are not supported
-  by cloud orchestration, even when tools run on the local machine.
-- **Delegation** (optional): a coordinator can use `tutorial_executor` when
-  requested/authorized. One worker owns one assigned unit; the coordinator owns
-  logs and commits. Direct execution follows the same contract.
+The [launchers](<bin/tutorial>) invoke one interactive Codex process with the repo
+root and literal prompt arguments. They do not run a restart loop. Launchers for
+[continue](<bin/tutorial-continue>) and [review](<bin/tutorial-review>) use the same
+contract. If skill discovery is unavailable, explicitly ask the agent to read
+PROMPT.md, AGENTS.md and the exact `.codex/skills/<name>/SKILL.md` file.
 
-If a different client does not discover `.codex/skills`, use the direct fallback
-prompt below. It needs no global installation and also works when project
-settings have not been loaded by the host:
+[Project configuration](<config.toml>) preserves the selected model/provider and
+uses high reasoning and live search. Existing local permissions remain unchanged;
+host policies still apply. Project trust is managed by the client, not these files.
+[Hooks](<hooks.json>) only add advisory context where supported; they never prove
+approval, block a tool, modify arguments or certify verification. The workflow
+works through policy and skills even when local hooks are unavailable.
 
-```text
-Read PROMPT.md, AGENTS.md, and .codex/skills/tutorial-continue/SKILL.md in full.
-Follow that skill to continue the current tutorial from verified LOG.md and disk state.
-```
+The optional [executor](<agents/tutorial_executor.toml>) accepts one assigned,
+approved unit and returns evidence. The coordinator owns the log and commit.
+Do not run concurrent writers in one track/worktree. Delegation is optional and
+requires authorization under the active host instructions.
 
-## 4. Preserved workflow
+## 3. Durable state and validation
 
-The skills carry the existing sequence: complete context → verified recovery →
-LOG FIRST → research/DRY search → one unit with indexes → actual verification →
-immediate LOG update → one Git commit → next unit → final verification/closeout.
-They preserve Templates A/B, leaf anatomy and audience depth, good/bad examples,
-stable-version labels, link/filename rules, real late-section leaves,
-NestJS/Fastify defaults, explicit exceptions, and the gated future curricula.
+Tutorial state lives only in `README/<Track>/LOG.md` and verified Git/files.
+Pending approval is checkpointed PARTIAL; approved execution resumes without
+asking again. Maintenance lives in [MAINTENANCE_LOG.md](<../MAINTENANCE_LOG.md>).
+The older [integration log](<LOG.md>) is preserved history, never a tutorial handoff.
 
-Scope is taken from the request and latest relevant handoff. “All remaining”
-finishes the selected track across domain boundaries. Ordinary continuation
-follows Next steps, including a DONE session that names the next domain.
-Closed PARTIAL/DONE/BLOCKED entries stay immutable; a fresh session references
-them. An interrupted IN PROGRESS block is verified before resuming. Ordinary
-compaction recovers and continues the existing plan; true limits/blockers get an
-honest checkpoint. No finite model context or prompt can guarantee an unlimited
-unattended run.
-
-## 5. Verification and references
-
-Run the local integration checks with Python 3.11+ without model inference or
-tutorial changes (the runtime reminder hook itself needs only Python 3):
+Run offline wiring/behavior checks:
 
 ```bash
 python3 .codex/tests/test_integration.py
 ```
 
-The checks cover config structure, Markdown link targets, hook behavior,
-launcher quoting, root selection, and the absence of execution side effects in
-hook inputs and launcher arguments. Codex's `debug prompt-input` can additionally show
-the actual loaded instructions/skill catalog, and the strict app-server loader
-can validate the config. These checks establish loading and wiring; they do not
-prove a future model will follow every workflow step.
+The tests check loading-related structure, links, literal launcher arguments and
+advisory-hook behavior. They cannot certify a model's future teaching quality.
+Use real client discovery checks when configuration changes. Review quality with
+actual lessons and the evidence-based rubric, not token or punctuation counts.
 
-Verified against Codex CLI 0.160.0 and official documentation on 2026-10-11:
-[project configuration](<https://learn.chatgpt.com/docs/config-file/config-advanced>),
-[configuration reference](<https://learn.chatgpt.com/docs/config-file/config-reference>),
-[skills](<https://learn.chatgpt.com/docs/build-skills>),
-[custom agents](<https://learn.chatgpt.com/docs/agent-configuration/subagents>), and
-[hooks](<https://learn.chatgpt.com/docs/hooks>).
+Official references for integration maintenance:
+[Codex skills](<https://learn.chatgpt.com/docs/build-skills>),
+[Codex configuration](<https://learn.chatgpt.com/docs/config-file/config-reference>),
+[OpenCode commands](<https://opencode.ai/docs/commands/>), and
+[OpenCode plugins](<https://opencode.ai/docs/plugins/>).

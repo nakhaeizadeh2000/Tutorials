@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(git -C "$(dirname -- "${BASH_SOURCE[0]}")/../.." rev-parse --show-toplevel)"
+prompt='$tutorial-review'
+if (( $# > 0 )); then
+  prompt+=" $*"
+fi
+exec codex -C "$repo_root" "$prompt"

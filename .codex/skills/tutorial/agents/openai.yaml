@@ -1,4 +1,4 @@
 interface:
   display_name: "Tutorial"
-  short_description: "Build tutorials with research, verification, and unit commits"
-  default_prompt: "Use $tutorial to build or extend the requested tutorial scope under PROMPT.md."
+  short_description: "Propose a curriculum, then build after approval"
+  default_prompt: "Use $tutorial for the requested scope, following its proposal, approval and recovery rules."

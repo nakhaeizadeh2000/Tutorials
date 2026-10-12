@@ -1,55 +1,27 @@
 ---
 name: tutorial
-description: Build, extend, refresh, or deep-dive a tutorial track, domain, section, or leaf in this Tutorials repository. Use for $tutorial, /tutorial, and requests to add or extend tutorial content under PROMPT.md. For recovery use tutorial-continue. Excludes discussions about models, agent setup, or workflow configuration.
+description: Propose a new tutorial track or substantial expansion; after user approval, finish the approved curriculum. Use for $tutorial and tutorial creation requests, not command configuration.
 ---
 
-# Tutorial — create, extend, or refresh
+# Tutorial
 
-## 1. Resolve the task
+Find the repository root with `git rev-parse --show-toplevel`. Read complete
+[PROMPT.md](<../../../PROMPT.md>), [AGENTS.md](<../../../AGENTS.md>),
+[shared workflow](<../../../.tutorial/WORKFLOW.md>) and
+[quality guide](<../../../.tutorial/QUALITY.md>). These shared files own policy.
 
-Find the repository root with `git rev-parse --show-toplevel`; all repository
-paths in these instructions are relative to that root, not the launch directory.
-Read the entire [PROMPT.md](<../../../PROMPT.md>) and
-[AGENTS.md](<../../../AGENTS.md>) from the repository root. (The paths in these
-two links are resolved relative to this skill directory.)
+Use **propose** mode, specifically workflow section 2, followed by its
+approved execution and closure sections when applicable. Preserve the user's
+trailing arguments, scope and previously recorded approval. Merely discussing
+or configuring this command does not invoke it.
 
-Treat the user's text following `$tutorial` or `/tutorial` as the task arguments.
-For natural-language requests, use the requested tutorial scope. Do not treat a
-quoted command in an analysis or configuration request as a build invocation.
+Present the researched, complete ordered curriculum before authoring lessons.
+Record the revision and pending approval in the track log; close PARTIAL and wait.
+After approval, execute the entire approved scope with the shared unit loop.
+For existing small additions, apply the scope rules in the shared workflow.
+If there is already an active plan, reconcile its phase and approval first.
 
-Choose PROMPT.md Mode 1 (new track), Mode 2 (extend), or Mode 3 (refresh).
-Read the root README, selected track README and **entire** track LOG, target
-domain README, and relevant neighboring leaves. Read long files in consecutive
-chunks until complete; a truncated tool result or log tail is not a full read.
-For a new track/domain, explicitly note which context files do not exist.
-
-If the selected track has an unresolved current session, perform the recovery
-steps in [tutorial-continue](<../tutorial-continue/SKILL.md>) before planning.
-Otherwise preserve the closed history and open a new session.
-
-## 2. Define and complete the plan
-
-For requests such as “all remaining”, “complete the track”, “rest of sections
-and domains”, or “until the end”, compare the track's planned curriculum in its
-LOG with actual files and index promises. Plan **all missing units**, across all
-remaining domains, in teaching order. A narrower request gets its requested
-scope. Do not infer a full-track request merely from quoted history or examples.
-
-Record every planned unit and follow the shared
-[unit loop](<references/unit-loop.md>) through log opening, research,
-implementation, verification, log updates, and one commit per unit. This
-reference is required before writing. Reuse root Templates A/B and the exact
-log contract instead of creating another policy format.
-
-Continue through the entire authorized plan without pausing at each leaf or
-domain. If a true blocker or user interruption prevents completion, close
-honestly with the remaining work. If the host is about to exhaust a hard
-execution/context limit, checkpoint PARTIAL; after ordinary compaction recover
-the active plan and continue. Do not run an external infinite restart loop.
-
-## 3. Completion
-
-Verify all affected units and indexes, close the same open entry as DONE only
-when the plan is complete, commit the closeout, and report the completed scope,
-verification, commit(s), and precise remaining steps. Never claim unexecuted
-examples passed. All tutorial content logs remain in `README/<Track>/LOG.md`.
+Read the full selected track log and relevant indexes/reference leaves before
+work. Open the log before durable writes. After every approved implementation
+unit, verify, save the log and commit before the next unit. Recover the same
+phase/approval/plan after compaction; close the active entry before normal exit.
