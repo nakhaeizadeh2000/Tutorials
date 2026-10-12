@@ -73,6 +73,13 @@ The second version explains the problem and the sequence of reasoning. It is
 not better merely because it is longer. Follow it with a worked example rather
 than leaving it as a slogan. Do not turn all prose into bullets or a glossary.
 
+Every teaching leaf also needs the distinct **Common confusion**, **Performance
+note** and **Mentor note** sections defined in PROMPT section 4, in that order;
+include **Cross-links** afterward when needed. Check their substance, not just
+their headings. Explain a real misconception, relevant performance implications
+or why none arise directly, and a concrete mentoring action. Keep them once per
+leaf, avoid restating the lesson, and link existing detailed explanations.
+
 ## 4. Make examples and practice earn their space
 
 State the runtime/toolchain, exact relevant versions, files, installation and run
@@ -103,6 +110,7 @@ the curriculum where it helps, not as mandatory filler in every leaf.
 | Research quality | Were sources selected for this topic and read critically? Do varied curriculum inputs and practitioner evidence expose gaps, misconceptions and trade-offs? |
 | Examples and practice | Can the reader reproduce the result and explain the failure? Are solutions reasoned and tests actually run? |
 | Judgment | Are trade-offs, conditions and consequences explained instead of universal slogans? |
+| Required leaf sections | Does every teaching leaf have substantive Common confusion, Performance note and Mentor note sections, plus Cross-links where needed? |
 | Reuse and navigation | Does each concept have an owner? Are links, indexes, filenames and update routes accurate? |
 
 Report exact paths/locations, brief examples of problematic writing, learner impact,

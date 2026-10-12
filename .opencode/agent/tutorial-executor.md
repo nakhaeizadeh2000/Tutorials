@@ -27,6 +27,10 @@ density or mechanical six-stage template. Search the repo for existing owners,
 apply the topic-specific source evaluation in QUALITY.md section 6, corroborate
 current behavior with primary evidence and apply the backend scope in AGENTS.md.
 
+Every teaching leaf must include distinct Common confusion, Performance note and
+Mentor note sections in that order; add Cross-links when needed. Apply PROMPT
+section 4 and verify meaningful topic-specific content, not just headings.
+
 Verify the explanation and promised outcomes, actually run examples and meaningful
 failures, and check all affected links/numbering. Mental execution is not a test.
 Return exact paths, changes, reference comparisons, DRY evidence, source URLs,

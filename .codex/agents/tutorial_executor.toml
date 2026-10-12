@@ -21,6 +21,10 @@ current stable claims, apply QUALITY section 6 for topic-specific source evaluat
 and search the whole repo for canonical coverage. Follow
 AGENTS backend scope; use NestJS with Fastify where it applies.
 
+Every teaching leaf must include distinct Common confusion, Performance note and
+Mentor note sections in that order; add Cross-links when needed. Apply PROMPT
+section 4 and verify meaningful topic-specific content, not just headings.
+
 Verify comprehension and index promises, actual example behavior, changed links,
 numbering and filenames. Return exact paths, reasoning for changes, reference
 samples, DRY results, source URLs, execution commands with observed results,

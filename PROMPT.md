@@ -121,6 +121,28 @@ next complication. Develop definitions, motivation, guidance, runnable examples,
 misconceptions, trade-offs and mentor advice where useful; they are teaching
 functions, not an eight-label form repeated under every promise.
 
+Every teaching leaf must contain these three distinct sections, in this order,
+normally after its main explanation. Continue the leaf's numbering with
+`### k) **Common confusion**`, `### k+1) **Performance note**` and
+`### k+2) **Mentor note**` (replace the placeholders with actual numbers).
+This includes synthesis, pitfalls, interview, overlap and incremental-update
+leaves; indexes, logs and configuration documents are not teaching leaves.
+
+- **Common confusion:** Explain topic-specific misconceptions, why they arise
+  and the correct distinction, using a clarifying example where useful.
+- **Performance note:** Explain relevant cost, complexity, latency, memory or
+  operational implications with evidence and limits. If the topic has no direct
+  performance effect, state that explicitly and explain why; do not omit the
+  section, invent a benchmark or copy generic optimization advice.
+- **Mentor note:** Give actionable teaching, diagnosis or review guidance, such
+  as a question that exposes a misconception and what a sound answer shows.
+
+Add a separate **Cross-links** section after these when related lessons,
+prerequisites or canonical explanations need navigation. Use precise existing
+targets and brief descriptions; omit an empty section when no links are needed.
+Inline links remain appropriate. These sections appear once per leaf, not under
+every promise, and must add useful synthesis rather than repeat the main text.
+
 Use complete sentences and short, connected paragraphs. A parenthesis can clarify
 a term; an em dash can mark a useful aside. Neither is mandatory or forbidden.
 If understanding the main point requires deciphering nested asides, slash chains,
@@ -280,6 +302,8 @@ Do not push or publish unless requested.
   curriculum inputs; selected sources and their contributions are recorded.
 - Recommendations explain trade-offs, mistakes explain consequences, and
   examples demonstrate the behavior with observed results.
+- Every teaching leaf has substantive Common confusion, Performance note and
+  Mentor note sections; Cross-links appears when needed and its targets resolve.
 - Runnable examples were actually executed in a declared environment. Compilation,
   inspection, simulation and live integration are reported separately; mental
   execution never counts as a passed run. Unavailable checks remain outstanding.

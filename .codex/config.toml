@@ -12,6 +12,9 @@ Shared teaching and workflow rules live in .tutorial/QUALITY.md and
 5 and QUALITY section 6 for topic-specific official/practitioner research, varied
 curriculum inputs, primary-evidence checks and canonical cross-links.
 No fixed domain count or punctuation quota.
+Every teaching leaf requires Common confusion, Performance note and Mentor note
+sections; add Cross-links when needed. Follow PROMPT section 4 for their content
+and order, and check this in authoring, continuation and review.
 
 Route actual tutorial tasks to .codex/skills/tutorial/SKILL.md (propose),
 .codex/skills/tutorial-continue/SKILL.md (recover), or

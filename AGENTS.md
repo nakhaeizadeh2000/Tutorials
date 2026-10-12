@@ -40,6 +40,13 @@ synthesize them using QUALITY section 6, validating factual claims against prima
 Teach reasoned good/bad practices and practical pitfalls. Repeated concepts get
 only a brief contextual reminder plus a precise link to their full explanation.
 
+Every teaching leaf must include **Common confusion**, **Performance note** and
+**Mentor note** as distinct numbered sections, followed by **Cross-links** when
+needed. Apply PROMPT section 4 to their content and order. Required sections must
+be topic-specific; explain a lack of direct performance impact rather than omit
+the performance section or fabricate claims. Enforce this in creation,
+continuation and review for both agents.
+
 ## 3. Approval, persistence and recovery
 
 Present a new curriculum before writing its lessons. Present review findings and

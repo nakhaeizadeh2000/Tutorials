@@ -138,7 +138,11 @@ For each unit:
    root track link only once its index exists; list published leaves as they land
    and keep the future plan in LOG. Do not mark an unfinished domain complete.
 3. Check comprehension, prerequisites, promises, correct current guidance,
-   relevant depth and concrete trade-offs. Run complete examples in the specified
+   relevant depth and concrete trade-offs. Verify every teaching leaf has distinct,
+   substantive Common confusion, Performance note and Mentor note sections in the
+   required order, with Cross-links when needed (PROMPT section 4). Missing required
+   sections are review findings and fail that leaf's completion check.
+   Run complete examples in the specified
    environment, including meaningful failures. Distinguish syntax checks, local
    simulations and external integration tests. Never label inspection as execution.
 4. Check changed links and any inbound links affected by moves; verify numbering,

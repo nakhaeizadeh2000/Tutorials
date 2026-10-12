@@ -68,13 +68,13 @@
 
 
 ## [2026-10-12 13:29] Session 4 — Require three teaching sections in every leaf
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: complete PROMPT.md and MAINTENANCE_LOG.md; AGENTS.md teaching rules; shared QUALITY/WORKFLOW guidance; Codex config and both executor instructions; existing skill routing.
 - Plan: require Common confusion, Performance note and Mentor note in every teaching leaf, with Cross-links when needed; align shared policy, review/verification and both agent instructions; verify and commit.
 - Approval: explicit user request to update both agent configurations.
-- Done: opened this log before policy changes.
+- Done: opened/committed this log; added the required three-section leaf contract and conditional Cross-links to PROMPT, AGENTS, quality/review checks, the shared execution loop, Codex project config and both executor instructions.
 - Decisions: applies to teaching leaf pages, including synthesis/update leaves; indexes, logs and configuration files are not teaching leaves. Keep sections meaningful and topic-specific; do not invent performance claims. Existing lessons are not rewritten by this configuration task.
-- Files touched: MAINTENANCE_LOG.md.
+- Files touched: modified PROMPT.md, AGENTS.md, .tutorial/QUALITY.md, .tutorial/WORKFLOW.md, .codex/config.toml, .codex/agents/tutorial_executor.toml, .opencode/agent/tutorial-executor.md and MAINTENANCE_LOG.md.
 - Links fixed / added: none.
-- Verification: initial Git working tree clean.
-- Next steps: implement and verify the shared leaf-section contract.
+- Verification: 12/12 existing integration tests pass, including configuration parsing and shared Markdown links; git diff --check passes. Verified required vs conditional sections and meaningful no-direct-performance-impact guidance. Concurrent edits under TypeScript domain 17 appeared after initial inspection; they are unrelated and left untouched/unstaged by this task.
+- Next steps: complete. Both agents apply this contract to authored leaves and report missing sections during scoped reviews. Existing teaching pages were not retroactively rewritten by this configuration request.
