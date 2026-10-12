@@ -16,9 +16,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [1.2. Instantiation budgets and TS2589 carve-outs](<./sections/1. Check-Time Performance/1.2. Instantiation budgets and TS2589 carve-outs.md>)
 
-1. **Instantiation counting** (what counts as one — conditional/mapped/infer evaluations per 08/09, measured not guessed).
-2. **`TS2589` depth-limit diagnosis** (excessively deep instantiations — capping, carving out, scoping fixes per 09/3.1).
-3. **Budgeting per boundary** (instantiation ceilings per package — CI budgets failing loudly on type-level hot spots).
+1. **Measured instantiations:** Read a pinned fixture's counters and distinguish completed checking from early failure.
+2. **TS2589 remedies:** Compare recursive shapes, verify a bounded transform's changed contract, and avoid unsupported flags.
+3. **Package budgets:** Run a real counter gate, observe passing and failing thresholds, and preserve compiler correctness as a prerequisite.
 
 ### [1.3. Hot-spot discipline mapped conditional and union cost](<./sections/1. Check-Time Performance/1.3. Hot-spot discipline mapped conditional and union cost.md>)
 
