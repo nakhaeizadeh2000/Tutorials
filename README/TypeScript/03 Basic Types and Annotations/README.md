@@ -38,9 +38,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [2.2. unknown the type-safe top type](<./sections/2. The Special Types/2.2. unknown the type-safe top type.md>)
 
-1. **Top type that forces a check** (assignable *from* everything, assignable *to* nothing without narrowing — the safe counterpart to `any`).
-2. **Narrowing unknown** (`typeof`, `instanceof`, `in`, predicates, `zod`/`valibot` — the only ways to leave `unknown` legally).
-3. **Where unknown belongs** (boundaries: network, file, `JSON.parse`, `catch` variables since TS 4.4 `useUnknownInCatchVariables`).
+1. **Top type that forces a check:** Distinguish accepting an unknown value from proving it is a specific type.
+2. **Narrowing unknown:** Test property and array-element checks, including the `any[]` result of `Array.isArray`.
+3. **Boundary placement:** Contain parsed JSON and thrown values, then pass checked domain types downstream.
 
 ### [2.3. never and void bottom vs deliberate nothing](<./sections/2. The Special Types/2.3. never and void bottom vs deliberate nothing.md>)
 
