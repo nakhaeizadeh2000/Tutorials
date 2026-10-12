@@ -14,47 +14,47 @@ use these prompts in proper places:
 
 ## Categories
 
-Recommended mentor path order — follow top-to-bottom (junior → mid → senior → expert → mentor). Each track's `README.md` lists its own seasons (domains) in curriculum order. *August 2026 era. Aligned with roadmap.sh.*
+Recommended mentor path order — follow top-to-bottom (junior → mid → senior → expert → mentor). Each track's `README.md` lists its own seasons (domains) in curriculum order. Entries marked Planned have no published content yet. Their curricula will be researched and approved before authoring.
 
 | # | Topic | Index |
 |---|-------|--------|
-| — | C# (independent track) | [Open the C# track](<README/CSharp/README.md>) |
+| — | C# (independent track) | Planned |
 | 1 | JavaScript — language foundation | [Open the JavaScript track](<README/JavaScript/README.md>) |
 | 2 | TypeScript — typed JavaScript | [Open the TypeScript track](<README/TypeScript/README.md>) |
-| 3 | IT Vocabulary — keywords, acronyms & professional jargon | [Open the IT Vocabulary track](<README/ITVocabulary/README.md>) |
-| 4 | Git & GitHub — version control, workflows & collaboration | [Open the Git track](<README/Git/README.md>) |
-| 5 | Algorithm Design — thinking & best algorithm | [Open the Algorithm Design track](<README/AlgorithmDesign/README.md>) |
-| 6 | Design Patterns — SOLID & patterns | [Open the Design Patterns track](<README/DesignPatterns/README.md>) |
-| 7 | Node.js — runtime & backend base | [Open the Node.js track](<README/NodeJS/README.md>) |
-| 8 | TS-Node — TypeScript execution in Node | [Open the TS-Node track](<README/TSNode/README.md>) |
-| 9 | Databases — Postgres & Mongo usage | [Open the Databases track](<README/Databases/README.md>) |
-| 10 | Database Design — modeling for huge apps | [Open the Database Design track](<README/DatabaseDesign/README.md>) |
-| 11 | ORM — Prisma & TypeORM & Drizzle | [Open the ORM track](<README/ORM/README.md>) |
-| 12 | Redis — caching & data structures | [Open the Redis track](<README/Redis/README.md>) |
-| 13 | Express — minimal backend framework | [Open the Express track](<README/Express/README.md>) |
-| 14 | Fastify — high-performance backend | [Open the Fastify track](<README/Fastify/README.md>) |
-| 15 | NestJS — enterprise Node framework | [Open the NestJS track](<README/NestJS/README.md>) |
-| 16 | Clean Architecture & DDD — Clean, Hexagonal, DDD & CQRS | [Open the Clean Architecture track](<README/CleanArchitecture/README.md>) |
-| 17 | API Design — REST, GraphQL & gRPC | [Open the API Design track](<README/APIDesign/README.md>) |
-| 18 | Microservices — boundaries, comms, resilience | [Open the Microservices track](<README/Microservices/README.md>) |
-| 19 | System Design — large-scale, scaling & tradeoffs | [Open the System Design track](<README/SystemDesign/README.md>) |
-| 20 | Socket.IO / WebSocket — realtime | [Open the Socket.IO track](<README/SocketIO/README.md>) |
-| 21 | RxJS — reactive streams | [Open the RxJS track](<README/RxJS/README.md>) |
-| 22 | API Synthesis — cross-track mastery from tracks 01–21 (20 domains, hiring-grade) | [Open the API Synthesis track](<README/APISynthesis/README.md>) |
-| 23 | Enterprise App — huge real-world sample, engineering not coding (web + desktop + mobile) | [Open the Enterprise App track](<README/EnterpriseApp/README.md>) |
-| 24 | React (JS) — UI with JavaScript | [Open the React JS track](<README/ReactJS/README.md>) |
-| 25 | React (TS) — UI with TypeScript | [Open the React TS track](<README/ReactTS/README.md>) |
-| 26 | Redux Toolkit — state with RTK & RTK Query | [Open the Redux Toolkit track](<README/ReduxToolkit/README.md>) |
-| 27 | Next.js — full-stack React (TS + JS when needed) | [Open the Next.js track](<README/NextJS/README.md>) |
-| 28 | Testing — Unit, Integration, Behavior with Playwright (only) | [Open the Testing track](<README/Testing/README.md>) |
-| 29 | Linux & Shell — fundamentals, Bash & scripting | [Open the Linux track](<README/Linux/README.md>) |
-| 30 | Operating Systems & System Fundamentals — mentor base | [Open the OS track](<README/OperatingSystems/README.md>) |
-| 31 | Electron — desktop mastery | [Open the Electron track](<README/Electron/README.md>) |
-| 32 | Mobile — React Native + Expo & Capacitor | [Open the Mobile track](<README/Mobile/README.md>) |
-| 33 | Docker — Docker, Kubernetes & Helm | [Open the Docker track](<README/Docker/README.md>) |
-| 34 | Nginx — reverse proxy, throttling, rate limiting & gateway | [Open the Nginx track](<README/Nginx/README.md>) |
-| 35 | Cloud & IaC — AWS, Terraform & Cloudflare | [Open the Cloud track](<README/Cloud/README.md>) |
-| 36 | DevOps — CI/CD, Jenkins & pipelines | [Open the DevOps track](<README/DevOps/README.md>) |
-| 37 | Unified Architecture — monorepo & shared code | [Open the Unified Architecture track](<README/UnifiedArchitecture/README.md>) |
-| 38 | Production Toolchain — observability, security & release | [Open the Production Toolchain track](<README/ProductionToolchain/README.md>) |
-| 39 | Mentor Capstone — staff/mentor synthesis | [Open the Mentor Capstone track](<README/MentorCapstone/README.md>) |
+| 3 | IT Vocabulary — keywords, acronyms & professional jargon | Planned |
+| 4 | Git & GitHub — version control, workflows & collaboration | Planned |
+| 5 | Algorithm Design — thinking & best algorithm | Planned |
+| 6 | Design Patterns — SOLID & patterns | Planned |
+| 7 | Node.js — runtime & backend base | Planned |
+| 8 | TS-Node — TypeScript execution in Node | Planned |
+| 9 | Databases — Postgres & Mongo usage | Planned |
+| 10 | Database Design — modeling for huge apps | Planned |
+| 11 | ORM — Prisma & TypeORM & Drizzle | Planned |
+| 12 | Redis — caching & data structures | Planned |
+| 13 | Express — minimal backend framework | Planned |
+| 14 | Fastify — high-performance backend | Planned |
+| 15 | NestJS — enterprise Node framework | Planned |
+| 16 | Clean Architecture & DDD — Clean, Hexagonal, DDD & CQRS | Planned |
+| 17 | API Design — REST, GraphQL & gRPC | Planned |
+| 18 | Microservices — boundaries, comms, resilience | Planned |
+| 19 | System Design — large-scale, scaling & tradeoffs | Planned |
+| 20 | Socket.IO / WebSocket — realtime | Planned |
+| 21 | RxJS — reactive streams | Planned |
+| 22 | API Synthesis — cross-track mastery from tracks 01–21 (hiring-grade) | Planned |
+| 23 | Enterprise App — huge real-world sample, engineering not coding (web + desktop + mobile) | Planned |
+| 24 | React (JS) — UI with JavaScript | Planned |
+| 25 | React (TS) — UI with TypeScript | Planned |
+| 26 | Redux Toolkit — state with RTK & RTK Query | Planned |
+| 27 | Next.js — full-stack React (TS + JS when needed) | Planned |
+| 28 | Testing — Unit, Integration, Behavior with Playwright (only) | Planned |
+| 29 | Linux & Shell — fundamentals, Bash & scripting | Planned |
+| 30 | Operating Systems & System Fundamentals — mentor base | Planned |
+| 31 | Electron — desktop mastery | Planned |
+| 32 | Mobile — React Native + Expo & Capacitor | Planned |
+| 33 | Docker — Docker, Kubernetes & Helm | Planned |
+| 34 | Nginx — reverse proxy, throttling, rate limiting & gateway | Planned |
+| 35 | Cloud & IaC — AWS, Terraform & Cloudflare | Planned |
+| 36 | DevOps — CI/CD, Jenkins & pipelines | Planned |
+| 37 | Unified Architecture — monorepo & shared code | Planned |
+| 38 | Production Toolchain — observability, security & release | Planned |
+| 39 | Mentor Capstone — staff/mentor synthesis | Planned |
