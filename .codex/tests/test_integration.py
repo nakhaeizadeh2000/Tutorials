@@ -44,7 +44,7 @@ class HookBehavior(unittest.TestCase):
                 self.assert_context_only(output, "SessionStart")
 
     def test_exact_commands_route_to_the_right_skill(self):
-        for command in ("tutorial", "tutorial-continue"):
+        for command in ("tutorial", "tutorial-continue", "tutorial-review"):
             for prefix in ("$", "/"):
                 with self.subTest(command=command, prefix=prefix):
                     output = run_hook({
@@ -58,6 +58,7 @@ class HookBehavior(unittest.TestCase):
         for prompt in (
             "Explain /tutorial-continue", "Configure $tutorial", "/tutorialism",
             "/tutorial-continue-extra", "$tutorial-continue.md", "git status",
+            "/tutorial-reviewer", "$tutorial-review.md", "Explain $tutorial-review",
             "`/tutorial-continue`", "", None, ["$tutorial"],
         ):
             with self.subTest(prompt=prompt):
@@ -112,7 +113,7 @@ class Launchers(unittest.TestCase):
             env = dict(os.environ, PATH=str(temporary) + os.pathsep + os.environ["PATH"])
             sentinel = temporary / "should-not-exist"
             args = ["SystemDesign", "complete all remaining domains", f'$(touch "{sentinel}")', "a'b"]
-            for name in ("tutorial", "tutorial-continue"):
+            for name in ("tutorial", "tutorial-continue", "tutorial-review"):
                 with self.subTest(name=name):
                     result = subprocess.run(
                         [str(CODEX / "bin" / name), *args], cwd=temporary, env=env,
@@ -127,7 +128,7 @@ class Launchers(unittest.TestCase):
             fake.write_text("#!/usr/bin/env python3\nimport json,sys\nprint(json.dumps(sys.argv[1:]))\n")
             fake.chmod(0o755)
             env = dict(os.environ, PATH=directory + os.pathsep + os.environ["PATH"])
-            for name in ("tutorial", "tutorial-continue"):
+            for name in ("tutorial", "tutorial-continue", "tutorial-review"):
                 result = subprocess.run(
                     [str(CODEX / "bin" / name)], cwd=directory, env=env,
                     capture_output=True, text=True, timeout=5, check=True,
@@ -148,7 +149,11 @@ class Wiring(unittest.TestCase):
 
     def test_real_markdown_links_resolve(self):
         count = 0
-        for path in CODEX.rglob("*.md"):
+        paths = [ROOT / name for name in ("PROMPT.md", "AGENTS.md", "README.md", "CODEX_USAGE.md")]
+        paths += list(CODEX.rglob("*.md"))
+        paths += list((ROOT / ".opencode").rglob("*.md"))
+        paths += list((ROOT / ".tutorial").rglob("*.md"))
+        for path in paths:
             source = re.sub(r"```.*?```", "", path.read_text(), flags=re.S)
             source = re.sub(r"`[^`]*`", "", source)
             for target in re.findall(r"\]\(<([^>]+)>\)", source):
@@ -172,6 +177,44 @@ class Wiring(unittest.TestCase):
                         timeout=handler["timeout"], check=True,
                     )
                     self.assertEqual(json.loads(result.stdout)["hookSpecificOutput"]["hookEventName"], event)
+
+
+class OpenCodePlugin(unittest.TestCase):
+    def test_advisory_hooks_preserve_arguments_and_compaction_context(self):
+        script = r"""
+import fs from 'node:fs/promises';
+import assert from 'node:assert/strict';
+const source = await fs.readFile(process.argv[1], 'utf8');
+const {default: plugin} = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
+const logs = [];
+const hooks = await plugin({client: {app: {log: async x => logs.push(x)}}});
+const args = {filePath: 'README/Track/lesson.md', content: 'literal $(touch sentinel)'};
+const before = structuredClone(args);
+await hooks['tool.execute.before']({tool:'read'}, {args});
+assert.equal(logs.length, 0);
+for (const tool of ['edit', 'write', 'apply_patch']) {
+  await hooks['tool.execute.before']({tool}, {args});
+}
+assert.equal(logs.length, 3);
+assert.deepEqual(args, before);
+assert.ok(logs.every(x => x.body.service === 'tutorial-workflow'));
+const output = {context:['existing context'], prompt:'keep original prompt'};
+await hooks['experimental.session.compacting']({}, output);
+assert.equal(output.context[0], 'existing context');
+assert.equal(output.context.length, 2);
+assert.equal(output.prompt, 'keep original prompt');
+// A logging failure is advisory; it does not block or rewrite the write.
+const unavailable = await plugin({client:{app:{log:async()=>{throw new Error('offline')}}}});
+await unavailable['tool.execute.before']({tool:'write'}, {args});
+assert.deepEqual(args, before);
+console.log('OpenCode plugin behavior passed');
+"""
+        result = subprocess.run(
+            ["node", "--input-type=module", "-e", script,
+             str(ROOT / ".opencode/plugin/enforce-prompt.js")],
+            capture_output=True, text=True, check=True, timeout=10,
+        )
+        self.assertIn("passed", result.stdout)
 
 
 if __name__ == "__main__":
