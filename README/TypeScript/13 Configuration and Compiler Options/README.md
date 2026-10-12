@@ -44,9 +44,9 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [2.3. erasableSyntaxOnly and the trio standard](<./sections/2. Erasable and Isolated Toolchain/2.3. erasableSyntaxOnly and the trio standard.md>)
 
-1. **Deletion-only syntax gate** (TS1294 bans enums/namespaces — the 11/2.2 inventory, configured here with migration pointers).
-2. **The trio as project standard** (`isolatedModules` + `verbatimModuleSyntax` + `erasableSyntaxOnly` — per-file processability guaranteed repo-wide).
-3. **Adopting per directory** (new code trio-clean, legacy dated-TODOs — compounding quarterly instead of flag-day rewrites).
+1. **Deletion-only syntax gate** (the full restricted-form inventory, observed diagnostics and compatibility-aware migration).
+2. **The trio as project standard** (bounded flag guarantees plus a source/emitted ESM graph with explicit import-extension rewriting).
+3. **Adopting per directory** (scope configuration and diagnostics, verify runtime assumptions and review migration trade-offs).
 
 ---
 
