@@ -20,8 +20,17 @@ This incremental domain takes returning readers from the published 5.x/6.x mater
 3. **Failure diagnosis:** separate compiler diagnostics, typed lint violations and missing old API functions.
 4. **Editor review:** configure the documented native route and identify the UI checks still needed for the chosen integration.
 
+## 3. Native Build and Watch
+
+### [3.1. Native builds watch and measurement](<sections/3. Native Build and Watch/3.1. Native builds watch and measurement.md>)
+
+1. **Comparison model:** distinguish fresh, unchanged incremental and edited builds before interpreting performance.
+2. **Application:** reproduce a pinned 201-source-file comparison with emitted-consumer checks and external wall/RSS measurements.
+3. **Failure diagnosis:** observe a finite watch error-and-recovery cycle and identify cache, artifact and process-measurement mistakes.
+4. **Review judgment:** separate local observations from production predictions and unmeasured editor/watch behavior.
+
 ## Publication progress
 
-The approved curriculum also covers native build/watch measurement, Unicode inference, an integrated migration assessment and an overlap/update route. These four lessons are pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
+The approved curriculum also covers Unicode inference, an integrated migration assessment and an overlap/update route. These three lessons are pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
 
 [← Back to track](<../README.md>)
