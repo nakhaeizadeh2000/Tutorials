@@ -18,7 +18,6 @@ Recommended mentor path order — follow top-to-bottom (junior → mid → senio
 
 | # | Topic | Index |
 |---|-------|--------|
-| — | C# (independent track) | Planned |
 | 1 | JavaScript — language foundation | [Open the JavaScript track](<README/JavaScript/README.md>) |
 | 2 | TypeScript — typed JavaScript | [Open the TypeScript track](<README/TypeScript/README.md>) |
 | 3 | IT Vocabulary — keywords, acronyms & professional jargon | Planned |
