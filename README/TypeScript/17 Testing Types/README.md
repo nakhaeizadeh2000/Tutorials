@@ -16,9 +16,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [1.2. tsd expect-type and type-testing libraries](<./sections/1. Type Assertions in Tests/1.2. tsd expect-type and type-testing libraries.md>)
 
-1. **`tsd` test files** (`test-d/` + `expectType`/`expectError` — library-surface testing without a runner).
-2. **`expect-type` fluent assertions** (`expectTypeOf(x).toEqualTypeOf<Y>()` — IDE-readable failure messages).
-3. **Library vs hand-rolled choice** (hand-rolled `Equal` for apps; `tsd`/`expect-type` for published packages).
+1. **`tsd` test files** (a real built declaration package, positive/negative assertions and an observed failing-then-passing contract change).
+2. **`expect-type` fluent assertions** (actual imports, explicit Vitest type checking and runtime/static failure contrasts).
+3. **Library vs hand-rolled choice** (select by contract, compiler integration and dependency cost; label compile-only probes honestly).
 
 ### [1.3. Negative type tests with ts-expect-error](<./sections/1. Type Assertions in Tests/1.3. Negative type tests with ts-expect-error.md>)
 
