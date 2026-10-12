@@ -5,6 +5,7 @@ Realtime messaging from handshake to production: WebSocket upgrades, frame strea
 | # | Module |
 |---|--------|
 | 1 | [Realtime Foundations and Mental Model](<01 Realtime Foundations and Mental Model/README.md>) |
+| 2 | [NestJS Gateways and Lifecycle](<02 NestJS Gateways and Lifecycle/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, domains 02–07) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 
