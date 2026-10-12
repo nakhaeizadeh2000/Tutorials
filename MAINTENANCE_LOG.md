@@ -52,3 +52,16 @@
 - Links fixed / added: existing shared-guide links preserved; textual section references now route to QUALITY.md section 6.
 - Verification: working tree initially clean on tutorial-quality-reset; python3 .codex/tests/test_integration.py passes 12/12; git diff --check clean. Reviewed both agents' shared-policy routes and executor guidance. This change defines future research behavior; no claim of having researched or ranked articles for an actual tutorial topic.
 - Next steps: complete. Both agents use the expanded research procedure in new proposals, approved authorship/continuation and quality reviews; no lesson content changed.
+
+
+## [2026-10-12 12:40] Session 3 — Make source discovery open-ended and mentor-led
+- Status: IN PROGRESS
+- Context read: complete PROMPT.md and MAINTENANCE_LOG.md; current AGENTS teaching priorities; QUALITY source-evaluation procedure; verified clean Git state.
+- Plan: clarify that educational resources may be principal teaching sources, all named sites are illustrative rather than an allowlist, and topic questions drive iterative discovery and synthesis; verify the shared rules and commit.
+- Approval: user explicitly asks both agents to discover varied resources beyond all named examples and work like a mentor.
+- Done: opened this session before editing policy.
+- Decisions: refine the existing shared source contract without adding a static directory of websites or claiming the supplied links were independently evaluated. No tutorial content or approval workflow changes.
+- Files touched: MAINTENANCE_LOG.md.
+- Links fixed / added: none.
+- Verification: clean working tree on tutorial-quality-reset.
+- Next steps: implement and verify this policy clarification.
