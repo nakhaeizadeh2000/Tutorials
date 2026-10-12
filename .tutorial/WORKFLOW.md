@@ -17,8 +17,10 @@ must not be mistaken for an interrupted approved execution.
 ## 2. Propose a new track or substantial expansion
 
 1. Resolve the topic, audience, prerequisites and requested scope. Research the
-   current stable baseline from official sources, search the repo for overlap,
-   consult roadmap.sh, and calibrate against JavaScript using QUALITY.md.
+   current stable baseline from primary evidence, search the repo for overlap,
+   and select topic-specific official and practitioner sources using QUALITY.md
+   section 6. Discover coverage from multiple inputs, including but not limited
+   to roadmap.sh, and calibrate against JavaScript.
 2. Open and commit `README/<Track>/LOG.md` before writing any planning artifact.
    For a new track this is its first file; creating the parent directory is fine.
    Use PROMPT section 7 fields. Record `Phase: PROPOSAL` in Plan and
@@ -50,7 +52,10 @@ presence of a plan. An explicit user override of a gate is recorded, not invente
 1. Resolve the requested track/domain/leaf. If unspecified and context provides
    no unique target, ask rather than auditing the whole repo by assumption.
 2. Inventory the entire requested scope, read its complete log and indexes, and
-   inspect the actual lessons against QUALITY.md and current primary sources.
+   inspect the actual lessons against QUALITY.md and current primary evidence.
+   Search topic-specific articles/case studies and community questions for missed
+   coverage, misleading practice advice and practical edge cases; evaluate them
+   through QUALITY.md section 6 rather than treating popularity as authority.
    Research can be read-only. Open the track log before saving report artifacts.
 3. Write `README/<Track>/DOCUMENTATION_REVIEW_<date>_<revision>.md` with scope,
    exact reviewed-file inventory, JavaScript reference comparison, stable baseline,
@@ -124,7 +129,10 @@ For each unit:
 
 1. Research current facts, verify version/platform assumptions, and search all
    existing content with `rg` for overlap. Read relevant matches and the comparable
-   JavaScript reference. Record canonical ownership and sources in the active log.
+   JavaScript reference. Apply QUALITY.md section 6 to refine and evaluate sources
+   for this domain/section, including practitioner evidence and real questions.
+   Record canonical ownership and the source map in the active log. Teach reasoned
+   good/bad practices and practical points without reteaching linked concepts.
 2. Implement one leaf and its affected ancestor indexes, or one coherent index /
    link repair. Follow PROMPT and QUALITY. For an initial index unit, register the
    root track link only once its index exists; list published leaves as they land

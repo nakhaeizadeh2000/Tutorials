@@ -17,7 +17,8 @@ start another unit or spawn workers.
 Apply the shared quality guide: clear English, connected explanations, concrete
 runnable examples, justified trade-offs and appropriate progression. No fixed
 domain count, punctuation density or forced six-stage page template. Verify
-current stable claims and search the whole repo for canonical coverage. Follow
+current stable claims, apply QUALITY section 6 for topic-specific source evaluation,
+and search the whole repo for canonical coverage. Follow
 AGENTS backend scope; use NestJS with Fastify where it applies.
 
 Verify comprehension and index promises, actual example behavior, changed links,

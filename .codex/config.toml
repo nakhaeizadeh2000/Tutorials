@@ -8,8 +8,10 @@ sandbox_mode = "danger-full-access"
 developer_instructions = '''
 This is the Tutorials repository. Read complete PROMPT.md and AGENTS.md.
 Shared teaching and workflow rules live in .tutorial/QUALITY.md and
-.tutorial/WORKFLOW.md. JavaScript is the editorial benchmark; current official
-sources establish technical truth. No fixed domain count or punctuation quota.
+.tutorial/WORKFLOW.md. JavaScript is the editorial benchmark. Apply PROMPT section
+5 and QUALITY section 6 for topic-specific official/practitioner research, varied
+curriculum inputs, primary-evidence checks and canonical cross-links.
+No fixed domain count or punctuation quota.
 
 Route actual tutorial tasks to .codex/skills/tutorial/SKILL.md (propose),
 .codex/skills/tutorial-continue/SKILL.md (recover), or

@@ -42,13 +42,13 @@
 
 
 ## [2026-10-12 12:37] Session 2 — Broaden research sources for both tutorial agents
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: complete PROMPT.md, AGENTS.md, .tutorial/QUALITY.md, .tutorial/WORKFLOW.md and MAINTENANCE_LOG.md; source-related routing in both agents and executors; current clean Git state.
 - Plan: strengthen the shared source-selection and curriculum-discovery policy, apply it to proposal/authoring/review and both executor adapters, retain DRY and reasoned good/bad practices, verify shared wiring and commit this coherent policy unit.
 - Approval: user explicitly requests these research and reuse rules for Codex and OpenCode.
-- Done: opened this maintenance session before policy edits.
+- Done: opened and committed this maintenance session before edits; expanded shared research policy and quality rubric; connected proposal/review/execution and both executor adapters to the topic-specific source-selection procedure.
 - Decisions: choose relevant high-quality sources per track/domain/section, including original practitioner articles and community discussions; distinguish discovery/explanation from evidence of current technical behavior. No fixed website or citation quota. No tutorial authorship or unrelated configuration changes.
-- Files touched: MAINTENANCE_LOG.md.
-- Links fixed / added: none yet.
-- Verification: working tree initially clean on tutorial-quality-reset.
-- Next steps: implement and verify the shared research policy.
+- Files touched: modified PROMPT.md, AGENTS.md, .tutorial/QUALITY.md, .tutorial/WORKFLOW.md, .codex/config.toml, .codex/agents/tutorial_executor.toml, .opencode/agent/tutorial-executor.md and MAINTENANCE_LOG.md.
+- Links fixed / added: existing shared-guide links preserved; textual section references now route to QUALITY.md section 6.
+- Verification: working tree initially clean on tutorial-quality-reset; python3 .codex/tests/test_integration.py passes 12/12; git diff --check clean. Reviewed both agents' shared-policy routes and executor guidance. This change defines future research behavior; no claim of having researched or ranked articles for an actual tutorial topic.
+- Next steps: complete. Both agents use the expanded research procedure in new proposals, approved authorship/continuation and quality reviews; no lesson content changed.

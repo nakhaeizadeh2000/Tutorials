@@ -24,7 +24,8 @@ Never edit LOG, Git state, shared policy or another unit; do not commit or spawn
 Follow the shared quality guide for clear English, current stable guidance,
 appropriate depth and complete examples. No domain quota, required punctuation
 density or mechanical six-stage template. Search the repo for existing owners,
-research official sources and apply the backend scope in AGENTS.md.
+apply the topic-specific source evaluation in QUALITY.md section 6, corroborate
+current behavior with primary evidence and apply the backend scope in AGENTS.md.
 
 Verify the explanation and promised outcomes, actually run examples and meaningful
 failures, and check all affected links/numbering. Mental execution is not a test.

@@ -24,8 +24,9 @@ change JavaScript itself merely because it was read as a reference.
 
 ## 2. Design coverage before counting pages
 
-Research the subject's current official guides/reference, important production
-failure modes and relevant roadmap.sh material. Map concepts to learner outcomes,
+Research the subject's current guides/reference, strong original articles,
+specialist learning paths, engineering case studies, recurring community questions
+and relevant roadmap.sh material using section 6. Map concepts to learner outcomes,
 prerequisites and their canonical owners. Explain each proposed domain's purpose
 and why that boundary makes teaching easier. Give advanced work enough space;
 never hide several substantial subjects in a catch-all “advanced” domain.
@@ -99,6 +100,7 @@ the curriculum where it helps, not as mandatory filler in every leaf.
 | Coverage | Does the subject get its needed breadth and depth? Are domain boundaries justified rather than copied from a quota? |
 | Progression | Do tasks build from use to design, integration, internals and teaching? Is advanced material earned? |
 | Correctness and currency | Are claims supported by current primary sources and the actual runtime? Does current stable behavior appear in the right topic? |
+| Research quality | Were sources selected for this topic and read critically? Do varied curriculum inputs and practitioner evidence expose gaps, misconceptions and trade-offs? |
 | Examples and practice | Can the reader reproduce the result and explain the failure? Are solutions reasoned and tests actually run? |
 | Judgment | Are trade-offs, conditions and consequences explained instead of universal slogans? |
 | Reuse and navigation | Does each concept have an owner? Are links, indexes, filenames and update routes accurate? |
@@ -114,3 +116,46 @@ which checks were run. If sampling, label it explicitly and leave full review
 outstanding. After approval, repair one unit at a time and re-evaluate the affected
 reasoning, examples and navigation. Do not declare success because formatting
 became uniform. The quality bar is a reader who can understand and apply the idea.
+
+## 6. Find and evaluate sources for the topic
+
+At track planning time, search for the strongest documentation and teaching
+resources for the subject. At each domain/section, refine that search around its
+concepts, current versions, design choices, pitfalls and real failures. Reuse
+already evaluated sources when applicable, but investigate new questions and
+coverage gaps rather than assuming the track's initial bibliography is enough.
+
+Look beyond a fixed set of sites. Medium and dev.to may host valuable original
+articles; Stack Overflow may expose a subtle failure and its diagnosis. Also
+consider maintainers' writing, engineering-team blogs, specialist documentation,
+conference material, original research and reproducible case studies. Evaluate
+the individual source, not just the platform. No site is universally “best” and
+no fixed number of citations proves adequate research.
+
+Before using a source, inspect its actual content and ask:
+
+- **Relevance:** Does it address this learning outcome or a concrete missing case?
+- **Authority and evidence:** Is this a first-hand explanation or measurement?
+  Are reasoning, code, sources and assumptions visible?
+- **Currency:** Which release and environment does it describe? Does its advice
+  still hold for the target stable baseline? An older timeless explanation can
+  remain useful; a recent publication can still repeat outdated advice.
+- **Reproducibility:** Can the important result or failure be checked against
+  official behavior and a runnable example? Are benchmark conditions disclosed?
+- **Limits:** Is it an opinion, a measured result, a specification requirement or
+  a context-specific workaround? Have relevant disagreement and newer corrections
+  been examined, including later answers/comments in community discussions?
+
+Record a compact source map in the active LOG: domain/section or concept → URL →
+contribution → applicable version/date → corroboration or limitation. Only list
+sources actually consulted. Follow citations to original evidence when possible;
+do not rely on search snippets, copied summaries, vote counts or publication
+branding. A source can be useful for discovering a question even when its proposed
+answer is rejected; record that distinction when material.
+
+Synthesize an original lesson from the evidence. Cite important borrowed findings
+and offer a short, relevant further-reading list, rather than a citation dump.
+Explain best practices with conditions and trade-offs, bad practices with observable
+consequences and repairs, and important points through concrete reasoning. Search
+the repo before introducing each concept: reuse its canonical lesson through a
+brief reminder and precise link, and teach only the new application here.

@@ -30,6 +30,13 @@ explanation in connected prose. New content integrates current stable features;
 subsequent releases use incremental update domains with necessary corrections
 and navigation in existing lessons. Read PROMPT section 5 for the full contract.
 
+Apply that research contract to both agents: search and evaluate sources for each
+track/domain/section, including strong original articles, specialist sites,
+Medium, dev.to and Stack Overflow where relevant. Use several kinds of curriculum
+input, not roadmap.sh alone. Validate factual claims against primary evidence.
+Teach reasoned good/bad practices and practical pitfalls. Repeated concepts get
+only a brief contextual reminder plus a precise link to their full explanation.
+
 ## 3. Approval, persistence and recovery
 
 Present a new curriculum before writing its lessons. Present review findings and

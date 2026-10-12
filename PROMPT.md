@@ -17,7 +17,8 @@ The JavaScript track is the editorial benchmark for scope, concrete explanations
 progression, examples, and mentor depth. Read representative actual leaves using
 [the quality guide](<.tutorial/QUALITY.md>) before proposing, authoring, or reviewing.
 Do not imitate its punctuation density, preserve outdated technical claims, or
-copy its domain count. Current official sources establish technical truth.
+copy its domain count. Current primary evidence establishes technical behavior;
+carefully evaluated practitioner sources enrich explanation and coverage (§5).
 
 Both Codex and OpenCode use this policy and the same
 [workflow](<.tutorial/WORKFLOW.md>). Their skills and commands are thin entrypoints,
@@ -128,8 +129,11 @@ conditions and causal explanations in the main prose. Prefer a table for real
 comparisons, a list for parallel items and a heading for a genuine new topic.
 Do not impose punctuation quotas or replace punctuation mechanically.
 
-Every recommendation explains why and when it applies. Bad practices show a
-consequence and a better alternative. Examples declare their environment,
+Best practices, bad practices, common mistakes and important practical points
+are substantive teaching, not optional decoration. Every recommendation explains
+why and when it applies, including trade-offs and exceptions. Bad practices show
+a consequence and a better alternative; avoid repeating generic checklists in
+unrelated leaves. Examples declare their environment,
 dependencies, imports and run commands; include expected outcomes. Explain safe
 ways to observe intentional failures. Pseudocode is explicitly labeled.
 Do not add unsupported internals or performance claims to sound advanced.
@@ -137,13 +141,37 @@ Use real code-fence languages and comments that teach useful details.
 
 ## 5. Research, versions and reuse
 
-Verify the current stable subject version and relevant platform support from
-primary sources at authorship/review time. Record sources, versions and dates in
-the active log; link non-obvious claims near the explanation when useful.
-Use roadmap.sh to discover potential gaps, not as a fixed syllabus or authority
-on API semantics. Label proposals/experimental features and exclude them from
-stable defaults. Do not equate a calendar year, specification edition and runtime
-availability.
+Research sources for the actual track, domain and section instead of relying on
+a universal website list. Search for the most useful current documentation,
+original technical articles, engineering case studies, specialist sites and
+community discussions. Consider Medium, dev.to, Stack Overflow, maintainers'
+blogs, engineering-team blogs and other relevant publications. These are candidate
+sources, not automatic endorsements or a requirement to cite every named site.
+Select and use the strongest relevant material after reading and evaluating it.
+
+Official documentation, specifications, release notes and other primary evidence
+anchor current stable versions, API semantics and platform support. Original
+practitioner articles can contribute worked reasoning, measurements, production
+experience, design trade-offs and failure cases. Community Q&A can reveal real
+misconceptions and edge cases. Corroborate factual claims with primary evidence
+and reproducible examples; popularity, an accepted answer or the hosting site's
+name does not establish correctness. Resolve contradictions explicitly and do
+not present context-specific advice as universal best practice.
+
+Discover curriculum gaps from multiple kinds of sources: roadmap.sh, official
+guide/reference structure, specialist learning paths, strong articles, case
+studies and recurring practitioner questions. Roadmap.sh is one input, never the
+sole syllabus. Map candidate topics to outcomes and prerequisites rather than
+copying any source's table of contents.
+
+Use the source-evaluation procedure in QUALITY.md section 6. Record selected URLs,
+their contribution, relevant dates/versions and corroboration in the active log;
+cite sources supporting non-obvious claims near the explanation and offer focused
+further reading where useful. Write original teaching instead of copying or
+stitching together articles. If a source is inaccessible or cannot be checked,
+record the limitation and find a suitable alternative; never claim it was read.
+Label proposals/experimental features and exclude them from stable defaults.
+Do not equate a calendar year, specification edition and runtime availability.
 
 **Initial authorship:** integrate all relevant stable features into their proper
 topical domains. Never teach a knowingly old baseline and defer already-stable
@@ -238,6 +266,8 @@ Do not push or publish unless requested.
 - Quality has been compared with relevant JavaScript reference leaves using
   the shared quality guide; no numeric size quota substitutes for judgment.
 - Current stable claims and platform assumptions have primary-source support.
+- Topic-specific research considered relevant practitioner material and multiple
+  curriculum inputs; selected sources and their contributions are recorded.
 - Recommendations explain trade-offs, mistakes explain consequences, and
   examples demonstrate the behavior with observed results.
 - Runnable examples were actually executed in a declared environment. Compilation,
