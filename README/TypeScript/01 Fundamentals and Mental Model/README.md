@@ -60,9 +60,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [3.2. Executing TypeScript — tsc plus node, tsx, ts-node, and native Node stripping](<./sections/3. Running TypeScript today/3.2. Executing TypeScript tsc plus node tsx ts-node and native Node stripping.md>)
 
-1. **The classic path** (`tsc` → `node dist/app.js` — two steps, most faithful to production).
-2. **Just-in-time execution** (`tsx` / `ts-node` — transpile on import; great for scripts, hidden cost in startup latency).
-3. **Native type stripping** (Node.js 22.12+ can run `.ts` directly by erasing types — zero transform, but only erasable syntax allowed).
+1. **The classic path** (check/emit, inspect the JavaScript artifact and run it with the intended runtime).
+2. **Just-in-time execution** (pinned runner/compiler combinations and explicit checking responsibilities).
+3. **Native type stripping** (Node 22.18.0 unflagged execution; distinguish type errors, supported transforms and unsupported decorators).
 
 ### [3.3. Choosing erasable syntax — the zero-cost interop rule](<./sections/3. Running TypeScript today/3.3. Choosing erasable syntax the zero-cost interop rule.md>)
 
