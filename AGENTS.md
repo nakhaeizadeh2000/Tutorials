@@ -1,114 +1,75 @@
-# AGENTS — قوانين هميشگی پروژه (PROMPT.md اجباری)
+# AGENTS — Shared tutorial agent instructions
 
-> اين فايل توسط `opencode.json:3` به عنوان instruction هميشگی لود می‌شود.
-> هر agent، هر skill، هر command موظف است اين قوانين را قبل هر کاری رعايت کند.
-> اگر درخواستی با `PROMPT.md` تناقض داشت، طبق `PROMPT.md:7` درخواست اجرا می‌شود ولی انحراف در `LOG.md` ثبت می‌گردد.
+## 1. Read and route
 
----
+Read the complete [PROMPT.md](<PROMPT.md>) before project work. It is the shared
+content, approval, versioning, logging and Git contract for Codex and OpenCode.
+Explicit user instructions take precedence; log material exceptions. Policy
+maintenance may change these files when requested; tutorial authorship may not.
 
-## ۰. قانون صفر — PROMPT.md قانون اساسی است
+| Intent | Codex entrypoint | OpenCode entrypoint |
+|---|---|---|
+| New track or substantial expansion | `$tutorial` | `/tutorial` |
+| Continue approved work | `$tutorial-continue` | `/tutorial-continue` |
+| Quality review, then approved repair | `$tutorial-review` | `/tutorial-review` |
 
-1. **قبل هر اقدامی** فايل `PROMPT.md` را کامل بخوان و مو به مو اجرا کن. اين فايل binding است (§1 تا §8).
-2. **هرگز `PROMPT.md` را حين اجرای task ويرايش نکن** — پيشنهاد تغيير فقط در `LOG.md` ثبت شود (`PROMPT.md:2`).
-3. تمام کارها بايد با **آخرين نسخه stable** موضوع و best practice روز (تا 2026) همسو باشد و ادعاهای نسخه‌ای برچسب بخورد (مثلاً "as of ECMAScript 2026 era") — `PROMPT.md:1`.
-4. هر آموزش بايد هر ۵ سطح junior → mid → senior → expert → mentor را پوشش دهد و good/bad practice را با دليل توضيح دهد (`PROMPT.md:1`).
+Use the matching native skill/command and read
+[the shared workflow](<.tutorial/WORKFLOW.md>) and
+[quality guide](<.tutorial/QUALITY.md>). Do not start tutorial generation when
+commands are merely quoted, explained or configured.
 
-## ۱. قرارداد ساختار مخزن (§2)
+## 2. Teaching priorities
 
-ساختار دقيقا بايد مطابق `PROMPT.md:21` باشد:
-```
-README.md
-PROMPT.md
-README/<Track>/README.md      (Template A — جدول ماژول‌ها)
-README/<Track>/LOG.md         (الزامی برای هر ترک)
-README/<Track>/NN Domain Name/README.md  (Template B)
-README/<Track>/NN Domain Name/sections/M. Section name/M.k. Leaf topic name.md
-```
-- پيشوند `NN ` دو رقمی، ترتيب روی ديسک = ترتيب آموزشی.
-- لينک‌ها حتما به شکل `[text](<path>)` با angle-bracket (چون پوشه‌ها فاصله دارند) — `PROMPT.md:88`.
-- نام فايل leaf بدون `: , ? & ( )` و با پيشوند `M.k. `.
-- بخش‌های پايانی هر دامنه (Important points / Common pitfalls → production bugs / Interview Q&A / Overlaps to avoid) حتما بايد leaf واقعی داشته باشند، نه فقط bullet در README — `PROMPT.md:86`.
+Write clear English. Use JavaScript's explanations, practical examples, broad
+coverage and progression as the benchmark. Follow the quality guide's reference
+selection; do not treat historical facts or every surface feature as ideal.
+No domain quota, punctuation quota or mandatory six-stage leaf template exists.
+Cover Junior → Mid → Senior → Master → Expert → Mentor across the curriculum.
+Use parentheses and em dashes when they improve comprehension; keep the main
+explanation in connected prose. New content integrates current stable features;
+subsequent releases use incremental update domains with necessary corrections
+and navigation in existing lessons. Read PROMPT section 5 for the full contract.
 
-## ۲. قانون ضد تکرار (DRY — §5)
+## 3. Approval, persistence and recovery
 
-1. هر مفهوم فقط **يک بار** به طور کامل آموزش داده شود؛ بقيه جاها فقط يک خط + لينک.
-2. **قبل نوشتن هر سکشن** کل ريپو را grep کن؛ اگر پوشش قبلی يافت شد، لينک بده و فقط نکته جديد را اضافه کن.
-3. هر دامنه با `## N. Overlaps to avoid` تمام شود و مرزش را مشخص کند.
+Present a new curriculum before writing its lessons. Present review findings and
+a concrete repair plan before changing reviewed lessons. Wait for the user's
+approval in both cases, then complete that approved scope without per-unit
+confirmation. Continue never bypasses a pending approval gate or starts another
+track just because it is next in the root table.
 
-## ۳. گردش کار جلسه (§6) — ترتيب غيرقابل تغيير
+Read the selected track's complete LOG and verify claims against disk/Git. Recover
+the same phase, approval and plan after compaction. Open the log first; implement
+one unit with ancestor indexes; verify; update the log immediately; commit only
+that unit; then advance. Preserve closed logs and unrelated changes. Close the
+active entry before returning. Neither hooks nor a worker's claim prove checks
+passed. Never report mental execution as a test run.
 
-اين ترتيب را هرگز جابجا نکن (`PROMPT.md:132`):
+Shared workflow maintenance uses MAINTENANCE_LOG.md. The historical .codex/LOG.md
+is not a tutorial handoff. Deleted tracks' historical Git logs do not authorize
+restoring their old curricula.
 
-1. **Load context:** `README.md` ريشه، `README/<Track>/README.md`، `README/<Track>/LOG.md` کامل، و `README.md` دامنه هدف را بخوان. هرگز skip نکن.
-2. **Open log FIRST:** قبل از هر `write/edit` ديگر، يک entry جديد در `README/<Track>/LOG.md` با `Status: IN PROGRESS` و `Plan:` کامل بساز. اين write بايد اولين تغيير روی ديسک باشد.
-3. **Research:** حقايق را با منابع رسمی/معتبر و https://roadmap.sh چک کن؛ منابع غيربديهی را در همان log باز ثبت کن.
-4. **Implement incrementally, logging after every unit:** هر leaf يا batch کوچک را جدا بساز. **بعد از تکميل هر واحد** (يک فايل، يک آپديت index، يک سري لينک) فورا همان entry باز را آپديت کن (`Done:` + `Files touched:` + `Links fixed:`) و **قبل شروع واحد بعدی** آن را روی ديسک ذخيره کن. هرگز logging را به آخر جلسه موکول نکن. ancestor index ها را در همان واحد آپديت کن.
-5. **Verify:** چک‌ليست DoD (`PROMPT.md:112`) + تست لينک‌ها + عدم تکرار محتوا + اجرای مثال‌ها؛ نتيجه را در log ثبت کن.
-6. **Close session:** وضعيت همان entry را به `DONE`/`PARTIAL`/`BLOCKED` ببر (هرگز در خروج عادی `IN PROGRESS` رها نکن) و `Next steps` دقيق برای ادامه جلسه بعدی بنويس.
+## 4. Backend teaching context
 
-> اگر entry ناتمام `IN PROGRESS` از جلسه قبلی يافتی، آن را recovery point بدان: هر `Done:` را با ديسک تطبيق بده، سپس يا در همان block ادامه بده يا آن را `PARTIAL` ببند و block جديد باز کن — `PROMPT.md:165`.
+Keep the user's NestJS-first decision for CleanArchitecture, Microservices,
+SocketIO, RxJS, APISynthesis, EnterpriseApp and subsequent application-oriented
+backend tracks. Use NestJS with the **Fastify adapter** as the default vehicle.
+Link framework mechanics to their owner; mention Express-adapter differences
+briefly only when they change behavior.
 
-## ۴. قرارداد لاگ (§7)
+Foundational tracks whose subject is Node.js, Express or Fastify teach that
+subject directly; do not require a later framework as an unexplained prerequisite.
+Other exceptions require an explicit user instruction and a logged reason.
+Retain the root curriculum order: APISynthesis builds on the preceding backend
+tracks; EnterpriseApp follows it. This is prerequisite guidance, not automatic
+permission to author those tracks or a fixed internal domain count.
 
-- هر ترک يک `LOG.md` دارد؛ هر جلسه يک block با فرمت دقيق `PROMPT.md:146`.
-- block های بسته (DONE/PARTIAL/BLOCKED) تاريخچه تغييرناپذيرند — هرگز ويرايش/حذف نشوند.
-- فقط block باز جلسه جاری حين اجرا in-place آپديت می‌شود (بعد هر واحد).
+## 5. Delegation
 
-## ۵. قرارداد Git — يک واحد = يک کاميت
-
-اين قانون مکمل §6.4 است و برای هارنس حلقه‌ای تو الزامی‌ست:
-
-1. **بعد از هر آپديت LOG.md** (يعنی بعد هر واحد)، فورا کاميت بزن:
-   ```bash
-   git add <leaf path> <domain README> <track README> <LOG.md>
-   git commit -m "feat(<track>): add <NN Domain / M.k leaf> - <short why>"
-   # مثال: feat(typescript): add 01 Fundamentals / 1.1 What is TypeScript
-   ```
-2. هرگز چند leaf را در يک کاميت batch نکن (مگر اينکه Skill صراحتا batch کوچک مجاز بداند).
-3. اگر جلسه کرش کرد، تاريخچه git + LOG.md بايد دقيقا نشان دهد چه چيزی روی ديسک است — حداکثر يک واحد از دست می‌رود.
-4. قبل هر کاميت `git status` را چک کن که فقط فايل‌های همان واحد stage شده باشند.
-
-## ۶. چک‌ليست کيفيت هر leaf (§4 — Definition of Done)
-
-قبل بستن هر leaf چک کن:
-
-- [ ] دقيق برای latest stable، نسخه‌بندی برچسب‌خورده
-- [ ] نيمه اول برای junior قابل فهم، نيمه دوم برای expert آموزنده
-- [ ] هر best practice با دليل trade-off، هر anti-pattern با پيامد
-- [ ] مثال‌ها کامل و runnable (import/usings صحيح)
-- [ ] صفر تکرار — هر مفهوم تکراری فقط لينک شده (grep شده)
-- [ ] نام‌گذاری، لحن، فرمت مثل همسايه‌ها (bold label + parenthetical، `—` em-dash)
-- [ ] index دامنه و ترک آپديت شده، root README اگر ترک جديد است
-- [ ] LOG.md append شده
-
-## ۷. آناتومی leaf (§2)
-
-هر leaf بايد promise های index را با بخش‌های `### k) **Label**` پوشش دهد:
-Definition → What problem it solves/history → Modern guidance → Runnable example (good + bad) → Common confusion → Performance note → Mentor note → Cross-links. عمق از ساده به expert/mentor.
-
-## ۸. استايل (§8)
-
-- Heading ها شماره‌دار (`## 3.` / `### 3.2.` / `### 2)`)، بدون orphan.
-- Bullet با bold label + parenthetical، جدول برای شمارش، `---` بين بخش‌ها.
-- Code fence با زبان واقعی (`typescript`, `javascript`).
-- لحن: مستقيم، فنی، opinionated-with-justification، بدون fluff.
-
----
-
-## ۹. قانون NestJS-first برای ترک‌های آينده (هميشه‌لود — تصميم کاربر ۲۰۲۶-۱۰-۰۸)
-
-1. در ترک‌های Clean Architecture و DDD (۱۶)، Microservices (۱۸)، Socket.IO (۲۰)، RxJS (۲۱)، APISynthesis (۲۲)، EnterpriseApp (۲۳) و هر ترک بک‌اند آينده، مثال‌ها و آموزش **بايد NestJS-محور** باشد و از آن استفاده کند — نه Express برهنه، نه Fastify برهنه.
-2. آداپتور پيش‌فرض هميشه **Fastify adapter** است (تصميم کاربر از ترک NestJS)؛ هر جا رفتار با Express adapter فرق می‌کند، يک side note کوتاه بده (بدون آموزش Express).
-3. اين قانون با `PROMPT.md:5` (DRY) تناقضی ندارد: مکانيک Express/Fastify همچنان در ترک خودشان می‌ماند و فقط لينک می‌شود؛ آنچه NestJS-first می‌شود، **vehicle مثال‌ها و طراحي** است.
-4. استثنا فقط با درخواست صريح کاربر؛ هر انحراف طبق `PROMPT.md:7` در `LOG.md` ترک ثبت شود.
-
----
-
-## نحوه استفاده (برای انسان)
-
-- ترک جديد: `Read PROMPT.md and follow it exactly. Task: lets add a new tutorial for TypeScript`
-- ادامه ترک: `Read PROMPT.md and follow it exactly. Task: extend TypeScript domain 03 with section 4 about ...`
-- يا ميانبر هارنس: `/tutorial lets deep dive into TypeScript track`
-- يا: `/tutorial-continue` برای ادامه از `Next steps` آخرين LOG
-
-همه اين‌ها همين قوانين بالا را اجرا می‌کنند — PROMPT.md هميشه لحاظ می‌شود.
+Direct execution is sufficient. Use subagents only when the user or applicable
+instructions authorize delegation. If used, an executor owns exactly one assigned
+unit and its specified indexes; it does not own logs, Git commits or another unit.
+The coordinator checks evidence, updates the log and commits before the next
+writer starts. Do not run concurrent writers in the same track/worktree. Never
+let a worker bypass curriculum/review approval or inherit an unverified assumption
+that approval occurred.

@@ -11,6 +11,7 @@
   5. Validate deletion scope, retained content, links, configuration, command discovery, hooks, approval boundaries and recovery scenarios; close and commit.
 - Done: [unit 1] Created requested branch tutorial-quality-reset; opened this maintenance record as the first repository file write.
 - Done: [unit 2] Removed 1,133 files in 20 existing track 3+ directories, including all dedicated logs/reports. Kept every root curriculum row and replaced absent-track links with Planned. Removed the fixed 20-domain claim from the APISynthesis root label.
+- Done: [unit 3] Rebuilt PROMPT.md and AGENTS.md; added .tutorial/QUALITY.md and .tutorial/WORKFLOW.md as shared editorial and execution policy. Defined proposal/review approval checkpoints, six-stage outcomes, unrestricted curriculum sizing, calibrated JavaScript references, current-stable baseline and incremental later updates.
 - Decisions:
   - User explicitly authorizes deletion of track 3+ content and logs, shared PROMPT/AGENTS revision, and both agent integrations. This overrides the former immutable-log/deletion and no-PROMPT-edit restrictions for this maintenance task only. Whole-track reset does not resume or rewrite deleted curriculum logs; inventory/Git are the deletion evidence. Maintenance uses this shared log instead of opening a log inside a directory being deleted. Future tutorial tasks use their own complete track logs.
   - Keep JavaScript and TypeScript lessons as reference/content; only repair live links if reset requires it. Keep closed retained logs and .codex integration history unchanged. Preserve Git history; do not push.
@@ -22,4 +23,7 @@
 - Links fixed / added: root links to all absent planned tracks replaced with plain status text. JavaScript/TypeScript live Markdown links into deletion targets: zero.
 - Verification: initial Git working tree clean; starting HEAD efa70c3; requested branch created.
 - Verification (unit 2): only JavaScript and TypeScript remain under README; both trees are byte-for-byte unchanged in Git; exact deletion set derived from root rows 3–39; no retained lesson links require repair.
-- Next steps: execute units 3–5; do not begin rebuilding ITVocabulary in this maintenance task.
+- Verification (unit 3): all concrete policy/reference links resolve; reviewed phases against user decisions including approval recovery and scope preservation. The first checker incorrectly treated inline `[text](<path>)` as a live link and aborted before the log update; shell continued to commit. Corrected the checker, recorded this discrepancy immediately, and amended the same unit commit with this log before starting any next unit.
+- Files touched (unit 3): modified PROMPT.md, AGENTS.md; created .tutorial/QUALITY.md, .tutorial/WORKFLOW.md.
+- Links fixed / added (unit 3): shared policy → workflow/quality and quality → four JavaScript references.
+- Next steps: execute units 4–5; do not begin rebuilding ITVocabulary in this maintenance task.
