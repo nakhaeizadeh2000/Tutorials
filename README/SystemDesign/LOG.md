@@ -193,3 +193,28 @@
 - Verification: DOMAIN-COMPLETE — 9 md files (domain index + 8/8 leaves; track now 5/7 rows, 47 md total); 110/110 relative links resolve domain-wide (script-checked). TRACK-STATE — 47 md files (5 indexes + 40 leaves + track README + LOG); 492/492 angle-bracket targets resolve track-wide (script-checked, no exclusions); 0 `%20` in links; 0 punctuation violations in filenames; promises 8/8 ↔ leaves 8/8 + headings 8/8 match filenames + 3/3 sections per leaf; 48 TS fences (15 GOOD runnable + 33 commented GOOD/BAD/process shapes) `tsc --strict --noEmit` clean per-fence (tsc 5.9.3, DOM-lib collisions avoided) + every GOOD example COMPILED + RUN LIVE (stakeFor, overlap, fenced, holding, newer, consensusMsPerOp, holdStallMs/choose, bounded, driverFor, backoffMs, intentKey/seen, deliveryFor/duplicateCost, gaps, workGaps, flowGaps; node v20.20.2 in rebuilt api-s1 scratch, zero mocks throughout); non-ASCII = house set (— →) + `–` in 06–07 ranges (neighbor convention, deliberate) + CJK 0; DRY confirmed (majorities→01/03, fencing→Redis, sagas→CA/MS, 2PC/outbox→Databases/DatabaseDesign, receivers→CA, retries→APIDesign — zero re-teaching, boundaries leaf verify-only); one-unit-per-commit history held (11 commits: LOG-open + LOG+index + 8 leaves + this closeout); USER DECISIONS honored (method-first, no framework vehicle per §9 scope, Express never taught)
 - Next steps: Session 6 — Domain 06 Delivery and Evolution per plan above; then 07 last. Track README row 6 appended when 06 lands. Standing rules carry over (PROMPT.md + AGENTS.md §§0–9).
 - Research notes: versions spot-checked (node v20.20.2, tsc 5.9.3 via rebuilt api-s1 — same era as S1–S4); scratch /tmp/opencode/api-s1 rebuilt this session (`npm i typescript@5.9.3`, version verified). Sources: Kleppmann Designing Data-Intensive Applications (consensus impossibility, fencing epochs, 2PC blocking, exactly-once); Hohpe/Woolf EIP (idempotent receiver); Richardson microservices.io (saga patterns); Raft dissertation (terms/elections, background only); neighbor shapes (Redis-04/2.2 elections, Redis-03/2.2 fencing, CA-02/2.1 + MS-04/2.2 sagas, Databases-05/3.1 2PC/outbox, CA-02/2.2 receivers, APIDesign-02/2.2 retries — all target-read headings). DRY grep with target reads: `quorum|Raft|Paxos|consensus|saga|2PC|outbox|idempoten|fencing|distributed lock|leader election` → election-majority ARITHMETIC owned by SystemDesign-01/3.1 + 03/1.2 (linked), token MECHANICS by Redis-03/2.2 (linked), saga FLOW by CA-02/2.1 + MS-04/2.2 (linked), 2PC PRICING by Databases-05/3.1 (linked); coordination DESIGN arithmetic (R+W intersection, term fencing, lease math, 2PC-vs-saga choice, retry budgets) zero taught anywhere. BOUNDARY: Domain 05 owns coordination DESIGN (quorums bounding agreement, locks fencing work, sagas sequencing steps, idempotency surviving retries, coordination audits); mechanics stay linked outward; delivery stays textual for 06.
+
+## [2026-10-12 09:00] Session 6 — Domain 06 Delivery and Evolution (Domain 07 last)
+- Status: IN PROGRESS
+- Context read: PROMPT.md (binding §§1–8 — full read S5 on file; git log confirms PROMPT.md/root README.md untouched since 49a1003/f26c54e, both predate CA-S1 — change-checked, no deltas to re-read); root README.md (System Design #19, unchanged); README/SystemDesign/LOG.md (full — Sessions 1–5 DONE, recovery point); README/SystemDesign/README.md (5/7 rows); README/SystemDesign/05 Distributed Coordination/README.md (Template B reference + neighbor tone); leaf 05/1.1 Quorums bounding agreement (anatomy + tone reference). Recovery: repo-wide grep for live `^- Status: IN PROGRESS` — none (S5 closed DONE = this recovery point); worktree clean (0 status lines); git log shows S5 closeout 8924fcf on top. Disk verified — S5 Done 11/11: track README 5 rows + domains 01–05 indexes + 8/8 leaves each all present (47 md track-wide); D05 9 md (index + 8 leaves) all present. No discrepancies; trust log + disk, nothing to redo. Fresh Session 6 block (S1–S5 immutable). No scope override in request → resume from S5 Next steps: Domain 06 only (07 last session, per convention).
+- Plan (Mode 2 extend track; Domain 06 fully implemented this session, domain 07 next session):
+  1. Unit 1 — open this entry (this write)
+  2. Unit 2 — research (deploy/rollout/version/migration DRY grep, neighbor shapes) + record + verify scratch
+  3. Unit 3 — create `06 Delivery and Evolution/README.md` (Template B, sections 1–6) + 6 section folders + track README row 6
+  4. Unit 4 — leaf 1.1. Deploys shipping safely
+  5. Unit 5 — leaf 1.2. Rollouts limiting blast
+  6. Unit 6 — leaf 2.1. Versions evolving contracts
+  7. Unit 7 — leaf 2.2. Migrations moving data
+  8. Unit 8 — leaf 3.1. Delivery audit sizing releases
+  9. Unit 9 — leaf 4.1. Delivery checklist mentors insist on
+  10. Unit 10 — leaf 5.1. Common interview QA delivery
+  11. Unit 11 — leaf 6.1. Boundaries what is covered elsewhere
+  12. Final verification (DoD + links + DRY) + close entry DONE/PARTIAL
+- Full planned curriculum (future domains, in order): 07 Production Mastery and Interview Synthesis. Only Domain 06 is guaranteed in this session.
+- Done:
+  - [unit 1] Opened this Session 6 entry (first write on disk)
+- Decisions:
+- Files touched:
+- Links fixed / added:
+- Verification:
+- Next steps:
