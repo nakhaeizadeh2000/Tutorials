@@ -39,3 +39,16 @@
 - Verification (scope): branch tutorial-quality-reset; exactly 1,133 deleted files under the 20 originally existing track 3+ directories; only JavaScript and TypeScript remain under README; both complete trees, their logs, historical .codex/LOG.md and opencode.json unchanged from efa70c3. All 39 numbered root rows retained; independent CSharp removal preserved.
 - Verification (manual contract review, not model-driven trials): new-track request stops after proposal; edited proposal gets a new revision; pending proposal/review survives continue; approved full-track work continues across domains; report-only cannot repair; selected-finding approval limits repairs; absent/deleted next track requires a new proposal; compaction preserves phase and approval. Actual teaching quality still requires review of generated lessons; configuration tests do not certify it.
 - Next steps: maintenance complete; no tutorial rebuild started. Open a new Codex/OpenCode session to load updated agent configuration. Use $tutorial ITVocabulary or /tutorial ITVocabulary to obtain a fresh curriculum proposal, then approve or revise it. Use the documented review command for a specifically selected existing scope. No push performed.
+
+
+## [2026-10-12 12:37] Session 2 — Broaden research sources for both tutorial agents
+- Status: IN PROGRESS
+- Context read: complete PROMPT.md, AGENTS.md, .tutorial/QUALITY.md, .tutorial/WORKFLOW.md and MAINTENANCE_LOG.md; source-related routing in both agents and executors; current clean Git state.
+- Plan: strengthen the shared source-selection and curriculum-discovery policy, apply it to proposal/authoring/review and both executor adapters, retain DRY and reasoned good/bad practices, verify shared wiring and commit this coherent policy unit.
+- Approval: user explicitly requests these research and reuse rules for Codex and OpenCode.
+- Done: opened this maintenance session before policy edits.
+- Decisions: choose relevant high-quality sources per track/domain/section, including original practitioner articles and community discussions; distinguish discovery/explanation from evidence of current technical behavior. No fixed website or citation quota. No tutorial authorship or unrelated configuration changes.
+- Files touched: MAINTENANCE_LOG.md.
+- Links fixed / added: none yet.
+- Verification: working tree initially clean on tutorial-quality-reset.
+- Next steps: implement and verify the shared research policy.
