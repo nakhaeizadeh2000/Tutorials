@@ -78,3 +78,16 @@
 - Links fixed / added: none.
 - Verification: 12/12 existing integration tests pass, including configuration parsing and shared Markdown links; git diff --check passes. Verified required vs conditional sections and meaningful no-direct-performance-impact guidance. Concurrent edits under TypeScript domain 17 appeared after initial inspection; they are unrelated and left untouched/unstaged by this task.
 - Next steps: complete. Both agents apply this contract to authored leaves and report missing sections during scoped reviews. Existing teaching pages were not retroactively rewritten by this configuration request.
+
+
+## [2026-10-12 13:31] Session 5 — Remove TypeScript review while preserving agent updates
+- Status: IN PROGRESS
+- Context read: complete current PROMPT.md, AGENTS.md and MAINTENANCE_LOG.md; Git status/history/reflog; exact paths in the two agent-policy commits; pre-review TypeScript tree and unpublished branch relationship.
+- Plan: preserve the two configuration/maintenance commits after be5273d; discard the two unfinished domain-17 review edits; remove eight review/repair commits from local tutorial-quality-reset history by replaying only the configuration/maintenance suffix onto 1d978e8; verify exact pre-review TypeScript tree and unchanged configuration contents; close this maintenance record and commit.
+- Approval: user explicitly requests reverting TypeScript to before its review, saving agent-configuration updates and removing commits for the review. This cancels the approved repair execution and authorizes removal of its report/log additions and local history. The ordinary closed-track-log preservation rule is overridden for this explicit rollback only.
+- Done: identified pre-review baseline 1d978e8 (also origin/tutorial-quality-reset); eight local review commits 63e490c through be5273d; two later configuration commits 7b1742b and 2c9bfb1 already saved. Configuration payload consists only of shared policy/agent configuration and maintenance history.
+- Decisions: retain configuration commit separation; rewrite only the local unpublished suffix; do not push or modify origin. Temporary rollback snapshot stores original tip, tree/blob IDs and an unfinished-review patch outside the repo; no recovery branch added.
+- Files touched: MAINTENANCE_LOG.md (new Session 5); TypeScript files will be restored to baseline, not reauthored. Agent config payload must remain byte-identical to 2c9bfb1.
+- Links fixed / added: none; the complete historical TypeScript tree is the requested result.
+- Verification: branch was ahead 10 of origin; origin equals 1d978e8; working changes are only the two unfinished domain-17 review files; staging initially empty. Recorded baseline TypeScript tree a530273ca7a5469989dfdc7967f39bb821afb840 and current configuration blob IDs.
+- Next steps: discard only identified unfinished review edits, replay preserved suffix, verify track/config equality and history removal, then close DONE.
