@@ -56,7 +56,7 @@ The type system underneath the syntax: structural assignability, the separation 
 
 1. **Definitions** (covariant: same direction `Dog ≤ Animal` → `ReadonlyArray<Dog> ≤ ReadonlyArray<Animal>`; contravariant: opposite ` (Animal) => void ≤ (Dog) => void `; invariant: neither).
 2. **Where each appears** (returns are covariant; function parameters are contravariant — but methods remain bivariant for compat).
-3. **Explicit annotations `in`/`out`** (TypeScript 5.8 variance annotations let you declare intent — the checker validates it).
+3. **Explicit annotations `in`/`out`** (TypeScript 4.7 introduced variance annotations; compare actual input/output relations and the method exception).
 
 ### [3.2. Function variance and strictFunctionTypes](<./sections/3. Soundness and variance/3.2. Function variance and strictFunctionTypes.md>)
 
@@ -98,11 +98,12 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [6.1. Common interview Q&A — the type system core](<./sections/6. Interview questions and answers/6.1. Common interview QA the type system core.md>)
 
-1. **Structural vs nominal** (when does TypeScript behave nominally?).
-2. **Freshness** (why does `const x: Point = { x: 1, y: 2, z: 3 }` error but `const y = { x: 1, y: 2, z: 3 }; const x: Point = y` not?).
-3. **`in`/`out` variance** (how to annotate and what it catches).
-4. **`any` vs `unknown` vs `never`** (three "I don't know" flavors — when each fits).
-5. **Type/value separation** (why `class C` can be both a type and a value).
+1. **Structural vs nominal:** check namespace-qualified compatibility and private-member rejection.
+2. **Freshness:** compare direct-literal diagnostics with the same object's variable flow and runtime properties.
+3. **Variance:** verify producer/consumer direction and the method versus function-property annotation check.
+4. **Special types:** distinguish unknown evidence from never's impossible-case assignment direction.
+5. **Class duality:** identify the constructor value, instance type and constructor type query.
+6. **Runtime versus query:** execute typeof narrowing and explain what deriving a type does and does not do.
 
 ---
 
