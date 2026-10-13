@@ -62,9 +62,10 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [3.2. Branded and opaque object patterns for domain safety](<./sections/3. Advanced Object Types/3.2. Branded and opaque object patterns for domain safety.md>)
 
-1. **Why object branding matters** (two `{ id: string }` shapes that must not mix — `User` vs `Order` — structural typing alone conflates them).
-2. **Object-level branding** (`type User = { id: string } & { __brand: "User" }`; branded factories hide the assertion; `unique symbol` key variant).
-3. **Cost vs safety** (every branded value needs a validated factory; over-branding fractures composition — brand at module boundaries, not every leaf).
+1. **Structural need:** distinguish a real equal-shape domain collision from a missing-required-member error and an assertion bypass.
+2. **Checked construction:** run branded factories against malformed inputs and compare string and type-only symbol markers.
+3. **Transformation contracts:** verify spread inference and field/aggregate projections before choosing where to brand.
+4. **Design choice:** compare class-private identity with phantom data brands using actual erasable/native execution evidence.
 
 ### [3.3. satisfies assertions and narrowing on object shapes](<./sections/3. Advanced Object Types/3.3. satisfies assertions and narrowing on object shapes.md>)
 
