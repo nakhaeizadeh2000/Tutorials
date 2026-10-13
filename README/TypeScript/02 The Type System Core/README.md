@@ -111,8 +111,8 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **JavaScript mechanics** — [JavaScript track](<../../JavaScript/README.md>).
-2. **Basic type inventory** (`string`, `number`, `any`/`unknown`/`never`/`void`, literal types) — [03 Basic Types and Annotations](<../03 Basic Types and Annotations/README.md>).
-3. **Utility types and type transformations** (mapped, conditional, `infer`, template literals) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>) (textual).
-4. **Configuration and variance flags** (`strictFunctionTypes`, `strictPropertyInitialization`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) (textual).
-
+1. **Runtime ownership:** locate values, closures and object/prototype behavior in JavaScript.
+2. **Type inventory:** use the basic-types owner for primitive/special operations and annotation forms.
+3. **Transformation ownership:** distinguish primitive queries here from generic inference and mapped/conditional composition.
+4. **Configuration ownership:** locate the published flag catalog and current compiler/tool route.
+5. **Routing practice:** explain why assignment direction, wrappers and competing inference need different owners.
