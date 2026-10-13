@@ -29,8 +29,17 @@ This incremental domain takes returning readers from the published 5.x/6.x mater
 3. **Failure diagnosis:** observe a finite watch error-and-recovery cycle and identify cache, artifact and process-measurement mistakes.
 4. **Review judgment:** separate local observations from production predictions and unmeasured editor/watch behavior.
 
+## 4. Unicode Inference
+
+### [4.1. Unicode code points in template literal inference](<sections/4. Unicode Inference/4.1. Unicode code points in template literal inference.md>)
+
+1. **Transition model:** distinguish the 6.0 surrogate split from 7.0 code-point inference and from grapheme segmentation.
+2. **Application:** run pinned old/new type assertions and compare them with actual JavaScript string counts.
+3. **Failure diagnosis:** identify versioned assertion failures and runtime implementations that still index code units.
+4. **Review judgment:** choose the intended string unit before migrating a counter or public return contract.
+
 ## Publication progress
 
-The approved curriculum also covers Unicode inference, an integrated migration assessment and an overlap/update route. These three lessons are pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
+The approved curriculum also covers an integrated migration assessment and an overlap/update route. These two lessons are pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
 
 [← Back to track](<../README.md>)
