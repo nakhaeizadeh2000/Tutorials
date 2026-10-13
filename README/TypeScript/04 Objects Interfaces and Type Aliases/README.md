@@ -69,9 +69,10 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [3.3. satisfies assertions and narrowing on object shapes](<./sections/3. Advanced Object Types/3.3. satisfies assertions and narrowing on object shapes.md>)
 
-1. **`satisfies` vs `as` on objects** (`satisfies` checks shape while *preserving* literal narrowness; `as` widens and silences).
-2. **`as const` on objects** (deep `readonly` + literal types for config/theme/route tables — when to use over `satisfies`).
-3. **Narrowing object unions** (`in`, `typeof` on discriminant, `hasOwnProperty` — the narrowing tools that pair with object types; full discriminated-union treatment in 07).
+1. **Exposed contract:** compare annotation, assertion and contextual satisfies inference with live literal/union probes.
+2. **Const-asserted tables:** derive precise types and separate nested literals, mutable references and shallow runtime freeze.
+3. **Narrowing evidence:** run discriminant/in guards and diagnose own-property booleans that leave a union unchanged.
+4. **Presence policy:** distinguish own/inherited values, complete shape evidence and optional reads in both exact-optional modes.
 
 ---
 
