@@ -56,9 +56,9 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [3.1. Recursive object types and self-referential structures](<./sections/3. Advanced Object Types/3.1. Recursive object types and self-referential structures.md>)
 
-1. **Self-reference** (`type Tree = { value: number; children: Tree[] }` — how the checker handles recursion and where it gives up).
-2. **Mutual recursion** (two types naming each other — `type A = { b: B }` / `type B = { a: A }` — termination and depth limits).
-3. **Practical guard** (prefer `interface` for recursive object shapes; keep recursion shallow and expose a depth budget in code review).
+1. **Self-reference:** construct tree/list/JSON and recursive-array values; distinguish legal structure from direct circular aliases.
+2. **Mutual recursion and cycles:** classify dependency edges and build finite self/mutual graphs with an explicit traversal policy.
+3. **Separate limits:** verify a readonly transform's stop boundary and contrast it with runtime node/depth limits, without universal checker thresholds.
 
 ### [3.2. Branded and opaque object patterns for domain safety](<./sections/3. Advanced Object Types/3.2. Branded and opaque object patterns for domain safety.md>)
 
