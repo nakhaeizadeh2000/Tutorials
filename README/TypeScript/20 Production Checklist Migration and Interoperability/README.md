@@ -38,9 +38,10 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [2.2. TypeScript version upgrades without flag-days](<./sections/2. Migration Playbooks/2.2. TypeScript version upgrades without flag-days.md>)
 
-1. **Changelog-triaged upgrades** (breaking vs feature vs fix — 16/3.3 playbook applied: branch builds, error-class-ordered fixes).
-2. **Dual-pipeline verification** (old + new `tsc` in CI during migration — drift caught, rollbacks clean).
-3. **Ecosystem lag gating** (framework/editor/linter support windows — upgrading past supported ranges staged, never jumped).
+1. **Changelog-triaged upgrades:** reproduce a real 5.5-to-5.6 library-type change, diagnose empty iterator completion, and verify the fix on old, candidate and current compilers.
+2. **Dual-pipeline verification:** build isolated artifacts, review declaration and behavior changes, and test an installed tarball consumer.
+3. **Ecosystem lag gating:** distinguish CLI and imported API support, promote each tested interface deliberately, and rehearse a bounded fallback.
+4. **Migration judgment:** explain the evidence, the chosen empty-input contract and the application integrations that remain unverified.
 
 ### [2.3. Loose to strict sequencing](<./sections/2. Migration Playbooks/2.3. Loose to strict sequencing.md>)
 
