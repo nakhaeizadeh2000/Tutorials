@@ -16,9 +16,10 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [1.2. Inference from arguments and explicit type arguments](<./sections/1. Generic Fundamentals/1.2. Inference from arguments and explicit type arguments.md>)
 
-1. **Inference from arguments** (the checker fills `T` from what you pass — `identity("hi")` gives `T = string` with no annotation).
-2. **Explicit type arguments** (`identity<string>("hi")` — when inference picks too wide a type or there is nothing to infer from).
-3. **Inference failure modes** (`{}` / `unknown` fallbacks, widened literals, empty-array `never[]` — reading the hover to catch them).
+1. **Inferred precision:** check actual literal results, source widening and deliberately explicit contracts with live type probes.
+2. **Evidence and fallback:** distinguish return context, no-evidence factories and empty-array element inference.
+3. **Competing inference:** use NoInfer to make one argument own the allowed set, then verify acceptance, rejection and runtime limits.
+4. **Boundary contracts:** relate T to a real decoder and explain why explicit type arguments do not validate data.
 
 ### [1.3. Generic scope per-call vs per-value and declaration sites](<./sections/1. Generic Fundamentals/1.3. Generic scope per-call vs per-value and declaration sites.md>)
 
