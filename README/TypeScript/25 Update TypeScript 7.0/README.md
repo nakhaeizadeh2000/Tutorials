@@ -38,8 +38,17 @@ This incremental domain takes returning readers from the published 5.x/6.x mater
 3. **Failure diagnosis:** identify versioned assertion failures and runtime implementations that still index code units.
 4. **Review judgment:** choose the intended string unit before migrating a counter or public return contract.
 
+## 5. Migration Assessment
+
+### [5.1. Assess a complete native compiler migration](<sections/5. Migration Assessment/5.1. Assess a complete native compiler migration.md>)
+
+1. **Evidence model:** assign compiler, API, lint, artifact and runtime promises to separate checks.
+2. **Application:** build a pinned native/compatibility library and test consumers of its actual tarball.
+3. **Failure diagnosis:** reproduce a lint-only failure and a declaration packaging failure despite green source checking.
+4. **Review judgment:** classify the Unicode delta, emission fallback and unresolved integration checks before promoting an upgrade.
+
 ## Publication progress
 
-The approved curriculum also covers an integrated migration assessment and an overlap/update route. These two lessons are pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
+The approved curriculum also covers an overlap/update route. This final lesson is pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
 
 [← Back to track](<../README.md>)
