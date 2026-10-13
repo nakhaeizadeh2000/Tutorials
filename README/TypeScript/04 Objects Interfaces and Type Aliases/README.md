@@ -102,11 +102,11 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [6.1. Common interview QA — objects interfaces and type aliases](<./sections/6. Interview questions and answers/6.1. Common interview QA objects interfaces and type aliases.md>)
 
-1. **`interface` vs `type` — when does it matter?** (merging, unions, mapped/conditional, primitives — the decision table).
-2. **Why does `{ a: 1, b: 2, extra: 3 }` error when passed directly but not via a variable?** (freshness, not structural failure).
-3. **`extends` vs `&` — are they the same?** (error deltas, conflicting members, optional overrides — senior answer).
-4. **How do you model a branded `UserId` object?** (intersection + factory vs class private field).
-5. **`satisfies` vs `as` on an object literal** (preserved literal vs widened and silenced).
+1. **Capability reasoning:** distinguish merging, fresh ambient names, computed heritage and dictionary assignability.
+2. **Creation reasoning:** explain extra-versus-missing members and observe the retained runtime object.
+3. **Conflict reasoning:** predict declaration/construction diagnostics and compare both optional modes.
+4. **Domain evidence:** reconstruct a phantom brand from unknown data and distinguish it from class construction.
+5. **Inference reasoning:** verify checked literals, asserted contracts and branch-evidence limits with current probes.
 
 ---
 
