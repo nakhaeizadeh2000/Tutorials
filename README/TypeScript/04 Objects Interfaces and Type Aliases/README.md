@@ -33,9 +33,9 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [2.1. Intersection vs extends composing object types](<./sections/2. Composition and Declaration Merging/2.1. Intersection vs extends composing object types.md>)
 
-1. **Two composition operators** (`interface B extends A` vs `type B = A & { extra }` — similar results, different error reporting and assignability edges).
-2. **When they disagree** (conflicting property types, optional vs required overrides, intersection with primitives/union members).
-3. **Readability trade-off** (extends chains read like inheritance; intersections read like set union — error messages differ at scale).
+1. **Legal composition:** compare compatible heritage/intersection contracts, extend a concrete utility result and diagnose invalid direct intersection syntax.
+2. **Conflict behavior:** observe declaration-versus-construction failures and separate optional presence, present values and reads in both exact-optional modes.
+3. **Design and review:** add requirements to union branches, choose compatible refinements or distinct keys, and explain the operator's intent without unmeasured hover/cost rules.
 
 ### [2.2. Declaration merging and module augmentation](<./sections/2. Composition and Declaration Merging/2.2. Declaration merging and module augmentation.md>)
 
