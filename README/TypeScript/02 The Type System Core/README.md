@@ -32,9 +32,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [2.1. Type space vs value space — two parallel universes](<./sections/2. The type vs value separation/2.1. Type space vs value space two parallel universes.md>)
 
-1. **Two spaces** (`type`/`interface` names live in type space; `const`/`let`/`function` live in value space — they never collide).
-2. **Same identifier, different meaning** (`class Point` declares *both* a value (constructor) and a type (instance shape) simultaneously).
-3. **What can appear where** (type space allows `string`, `number`, `extends`, `keyof`; value space allows runtime expressions — `typeof` bridges them ambiguously).
+1. **Two meanings:** identify type/value uses, legal same-name pairs and the role of scope.
+2. **Dual declarations:** run a complete class/status example and distinguish type-only from value-bearing namespace emission.
+3. **Type queries and errors:** compare static and runtime typeof, then reproduce incorrect-space diagnostics.
 
 ### [2.2. Declaration spaces — type, value, and namespace](<./sections/2. The type vs value separation/2.2. Declaration spaces type value and namespace.md>)
 
