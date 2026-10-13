@@ -87,9 +87,10 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [5.1. Real production bugs caused by misunderstanding fundamentals](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by misunderstanding fundamentals.md>)
 
-1. **Assuming types guard at runtime** (the "but it typed correctly" incident — missing boundary validation).
-2. **Using `enum` then hitting native stripping** (deploys break under `--experimental-strip-types`).
-3. **Treating `any` as "I don't know yet"** (it silences the checker forever and leaks into downstream types).
+1. **Boundary evidence:** reproduce valid/malformed User responses and verify every required field.
+2. **Execution contracts:** compare an enum rejection with an erasable string-status alternative on a pinned native runtime.
+3. **Array and any failures:** reject mixed/sparse values, observe explicit-any failure and build an independently checked copy.
+4. **Artifact freshness:** observe default emit, blocked emit with stale output and a pipeline that stops after failure.
 
 ---
 
