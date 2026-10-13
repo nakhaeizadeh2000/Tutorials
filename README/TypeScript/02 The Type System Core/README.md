@@ -79,7 +79,7 @@ The type system underneath the syntax: structural assignability, the separation 
 1. **Shape, not name, governs assignability** (freshness is the exception — know when it triggers).
 2. **Type and value are parallel spaces** (same name, different meaning; `typeof` is context-dependent).
 3. **Variance is directional** (`return` covariant, `parameter` contravariant — method bivariance is the legacy exception).
-4. **Branding adds nominal identity without runtime cost** (but requires a proving assertion at creation).
+4. **Branding records a reviewed construction decision** (erased distinctions, assertion sites and explicit domain validation).
 
 ---
 
