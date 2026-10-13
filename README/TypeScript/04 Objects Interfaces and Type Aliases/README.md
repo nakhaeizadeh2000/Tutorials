@@ -79,10 +79,10 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [4.1. Objects interfaces checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Objects interfaces checklist mental models mentors insist on.md>)
 
-1. **Shape not name governs assignability** (freshness is the exception — know its two triggers and two escapes).
-2. **Optionality has three spellings** (`?:`, `| undefined`, both — `exactOptionalPropertyTypes` changes the matrix).
-3. **Compose with the lightest operator** (`extends` for nominal chains, `&` for set-like composition — read the error message to decide).
-4. **Brand at boundaries, not every leaf** (factories prove the brand once; callers carry it without re-asserting).
+1. **Shape and checking site:** explain structural acceptance, fresh-literal errors and written versus inherited spread members.
+2. **Optional and wire contracts:** compare both optional modes and observe why a required undefined-valued key can disappear in JSON.
+3. **Composition result:** verify legal utility heritage, conflict diagnostics and the actual resulting member type.
+4. **Branded synthesis:** run checked construction, derived-table probes and meaningful negative cases; trace evidence rather than assertion quotas.
 
 ---
 
