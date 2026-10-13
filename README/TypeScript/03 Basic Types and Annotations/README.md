@@ -76,10 +76,10 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [4.1. Basic types checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Basic types checklist mental models mentors insist on.md>)
 
-1. **Primitives are unboxed** (`string` not `String` — wrappers allocate objects and break strict equality).
-2. **Nullability is explicit under strict** (`string` excludes `null`/`undefined`; optionality has three spellings with different assignability).
-3. **any leaks unknown contains** (default to `unknown` at boundaries; exhaust `never` for completeness).
-4. **Annotate contracts infer locals** (review signal: exported types are documented; local types are inferred).
+1. **Primitive contracts:** test both wrapper assignment directions and distinguish annotations from runtime construction.
+2. **Nullability and presence:** compare required/optional objects and actual JSON serialization under strict/exact checking.
+3. **Checked uses and impossible cases:** inspect a field guard and reproduce an unhandled-variant never diagnostic.
+4. **Annotation judgment:** state public intent, inspect local inference, and choose literal-preserving syntax without claiming runtime freezing.
 
 ---
 
