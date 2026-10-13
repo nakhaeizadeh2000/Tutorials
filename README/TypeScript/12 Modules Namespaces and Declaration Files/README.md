@@ -16,9 +16,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [1.2. import type and verbatimModuleSyntax erasable imports](<./sections/1. ES Modules/1.2. import type and verbatimModuleSyntax erasable imports.md>)
 
-1. **`import type` traffic** (type-only imports erase fully — no runtime dependency, no circular-import risk, no bundler weight).
-2. **`verbatimModuleSyntax` enforcement** (TS 5.0 flag: type imports *must* use `import type` — the compiler stops guessing, stripping becomes mechanical).
-3. **Erasable import discipline** (`import type` + `verbatimModuleSyntax` + `--erasableSyntaxOnly` as the trio — syntax-only toolchains never miscompile).
+1. **Type-only traffic:** distinguish whole-statement erasure, mixed specifiers and inline-only imports by observing module evaluation.
+2. **Verbatim checking:** reproduce TS1484 and compare compiler elision with native source execution under declared versions.
+3. **Import strategy:** run the same relative-source graph from `.mts` and emitted `.mjs`, and diagnose a checker-accepted source resolution failure.
 
 ### [1.3. export equals and interop with CommonJS](<./sections/1. ES Modules/1.3. export equals and interop with CommonJS.md>)
 
