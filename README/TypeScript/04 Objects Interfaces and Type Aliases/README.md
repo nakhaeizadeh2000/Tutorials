@@ -10,9 +10,9 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [1.1. Object types structural shape and excess property checks](<./sections/1. Object Type Fundamentals/1.1. Object types structural shape and excess property checks.md>)
 
-1. **Structural shape** (an object type is a set of required members — assignability is by shape, not by name; extra members are allowed via width subtyping).
-2. **Freshness at the literal** (assigning a fresh literal directly triggers an excess-property error; the same literal through a variable does not — diagnosis vs core rule).
-3. **Sealing the leak** (when to use `satisfies`, a wider target, or an explicit annotation to keep literals honest without widening callers).
+1. **Structural shape:** run initialized width/depth examples, compare object identity and diagnose a mismatched nested member.
+2. **Creation-site checks:** compare a variable, an inherited spread member and a directly written typo under the same contract.
+3. **Contract choice:** check annotation/assertion/satisfies precision with live type probes and choose a broader contract only when the consumer uses it.
 
 ### [1.2. Optional readonly and index signatures](<./sections/1. Object Type Fundamentals/1.2. Optional readonly and index signatures.md>)
 
