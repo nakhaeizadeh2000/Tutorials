@@ -54,9 +54,10 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [3.1. Map and Set typing generics over collections](<./sections/3. Collections and Selection/3.1. Map and Set typing generics over collections.md>)
 
-1. **`Map<K, V>` per-key precision** (has/get/set threaded through `K`/`V` — unknown-key access returns `V | undefined` honestly).
-2. **`Set<T>` membership typing** (add/has/delete over one element type — iteration yields `T`, not `unknown`).
-3. **Constructing from entries** (`new Map(entries: [K, V][])` — tuple-typed entries bridge arrays into maps).
+1. **Map contracts:** compare explicit, entry-inferred and bare construction; verify key/value rejections and independently narrow missing reads.
+2. **Set membership:** observe typed writes, deduplication order, object identity and numeric equality.
+3. **Entry conversion:** validate tuple seeds, distinguish snapshots from live values and trace numeric/symbol keys through objects and JSON.
+4. **Get-or-insert:** run value/factory methods, test existing undefined entries and failures, and separate declarations from runtime support.
 
 ### [3.2. Record vs Map indexed access vs hashed keys](<./sections/3. Collections and Selection/3.2. Record vs Map indexed access vs hashed keys.md>)
 
