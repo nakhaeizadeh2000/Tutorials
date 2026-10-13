@@ -91,10 +91,10 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [5.1. Real production bugs caused by object type misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by object type misunderstandings.md>)
 
-1. **Freshness escape via `as`** (excess property smuggled into a narrower target and surfacing three calls later).
-2. **`readonly` without `freeze`** (`readonly` silenced a write at compile time but the runtime mutation still landed).
-3. **Index signature widens exactness** (a dictionary type accepted `unknown` keys and bypassed discriminant checks).
-4. **Merged interface collision** (ambient augmentation added an optional property that made a required property effectively optional across the app).
+1. **Missing proof:** observe a caught assertion-bypass failure and distinguish missing required members from an optional-key typo.
+2. **Shared integrity:** observe mutable aliases, shallow freeze and fresh nested defaults with controlled mutations.
+3. **Key versus value domain:** retain a literal-valued kind alongside open keys and verify finite-key/branch-payload rejections.
+4. **Merge conflicts:** reject incompatible modifiers in both optional modes and compare the unchanged required contract with an intentional local guest variant.
 
 ---
 
