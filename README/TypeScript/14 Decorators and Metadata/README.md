@@ -32,9 +32,10 @@ How TypeScript annotates classes and members with reusable behavior — TC39 sta
 
 ### [2.1. Legacy experimental decorators compared](<./sections/2. Legacy and Metadata/2.1. Legacy experimental decorators compared.md>)
 
-1. **Legacy vs standard signatures** (`(target, key, descriptor)` vs `(value, context)` — different parameters, different return contracts).
-2. **`experimentalDecorators` flag and migration** (legacy needs the flag; standard needs none — migrating NestJS/Angular-era code one decorator at a time).
-3. **When legacy stays** (frameworks requiring legacy emit — Angular, NestJS, TypeORM-era stacks; version-pinned interop, not preference).
+1. **Signature contracts:** implement standard value/context and legacy descriptor wrappers with actual receiver/result/failure checks.
+2. **Program configuration:** build each model separately, reject incompatible flags and consume the emitted artifacts.
+3. **Order and migration:** observe evaluation/application/wrapper order under both models and state the tested limits.
+4. **Compatibility decisions:** test a deliberately overlapping class decorator and identify metadata/consumer requirements before migration.
 
 ### [2.2. emitDecoratorMetadata and design types](<./sections/2. Legacy and Metadata/2.2. emitDecoratorMetadata and design types.md>)
 
