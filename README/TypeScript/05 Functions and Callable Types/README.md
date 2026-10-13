@@ -1,6 +1,6 @@
 # Functions and Callable Types
 
-How TypeScript types the only value that *does* something — functions and every callable shape: call signatures, parameter patterns, return-type contracts, overloads, `this` typing, generic callables, and the variance rules that govern callback safety. Runtime function mechanics (closure, `this` binding, hoisting) live in [JavaScript 02 Functions](<../../JavaScript/05 Functions Deep Dive/README.md>); this domain owns the static callable-type model.
+How TypeScript types the only value that *does* something — functions and every callable shape: call signatures, parameter patterns, return-type contracts, overloads, `this` typing, generic callables, and the variance rules that govern callback safety. Runtime function mechanics (closure, `this` binding, hoisting) live in [JavaScript Functions Deep Dive](<../../JavaScript/05 Functions Deep Dive/README.md>); this domain owns the static callable-type model.
 
 ## 0. Prerequisites
 
@@ -110,10 +110,10 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **JavaScript runtime mechanics** (closure, hoisting, `this` binding, `arguments`) — [JavaScript 02 Functions](<../../JavaScript/05 Functions Deep Dive/README.md>).
-2. **Classes and `this` in OO** (constructors, private fields, method decorators) — [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
-3. **Unions, intersections, and narrowing at call sites** (discriminated unions, control-flow narrowing) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-4. **Generics deep dive** (variance with `in`/`out`, conditional types, `infer` on functions) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) (this domain only covers generics *on callables*).
-5. **Configuration** (`strictFunctionTypes`, `noImplicitThis`, `useUnknownInCatchVariables` on catch callbacks) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
+1. **Runtime versus types:** locate callable signatures and receiver execution, using the observed detached-method case.
+2. **Object/class/decorator boundaries:** distinguish member contracts, instance construction and configured decorator behavior.
+3. **Narrowing and validation:** identify the trusted signature, runtime evidence and full branch-analysis owners.
+4. **Generics and transformations:** route input/output inference, NoInfer, tuple forwarding and utility pipelines to their precise owners.
+5. **Configuration and diagnosis:** choose an option or behavior owner from the failing operation and explain the check that resolves it.
 
 [← Back to track](<../README.md>)
