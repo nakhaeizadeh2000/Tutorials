@@ -87,10 +87,10 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [5.1. Real production bugs caused by basic type misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by basic type misunderstandings.md>)
 
-1. **String wrapper comparison** (`new String("a") !== "a"` — boxed strings break `Map`/`Set` keys).
-2. **Implicit any from empty array** (`let xs = []; xs.push(1); xs.push("oops")` — becomes `any[]` under `noImplicitAny: false`).
-3. **Void vs undefined callback misuse** (`forEach` callback returning a value that caller ignores vs depends upon).
-4. **Optional vs undefined mismatch** (`{ prop?: string }` passed where `prop: string | undefined` expected — `--exactOptionalPropertyTypes` reveals the gap).
+1. **Wrapper keys:** observe an object-key miss and a deliberate primitive-key contract.
+2. **Evolving arrays:** compare accepted mixed inference, a real implicit-type diagnostic and an explicit numeric invariant.
+3. **Ignored returns:** observe a promise returned through void and handle failures through a result-bearing contract.
+4. **Wire presence:** compare in-memory keys, actual JSON omissions and a checked explicit-null consumer.
 
 ---
 
