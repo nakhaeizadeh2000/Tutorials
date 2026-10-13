@@ -87,10 +87,10 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [5.1. Real production bugs caused by type system misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by type system misunderstandings.md>)
 
-1. **Fresh-vs-stale freshness escape** (excess property missed because it went through a variable).
-2. **Covariant array mutation** (`Dog[]` → `Animal[]` then `push` breaks downstream `Dog`-only code).
-3. **Predicate lies** (`value is T` that returns true for non-`T` — every downstream consumer inherits the lie).
-4. **Confusing `typeof` spaces** (`typeof x === "string"` guard vs `type T = typeof x` — mixing the two).
+1. **Freshness:** observe the missing port through variable flow, then reject a typo at the literal.
+2. **Mutable covariance:** reproduce alias mutation, reject readonly-to-mutable assignment, and distinguish a reader view from a frozen snapshot.
+3. **Predicate evidence:** compare an incomplete object check with the required email-field check.
+4. **Type versus value change:** keep the initializer constant, then demonstrate a real mutation and a finite host contract.
 
 ---
 
