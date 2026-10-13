@@ -1,6 +1,6 @@
 # TypeScript track
 
-Typed JavaScript — the type system, tooling, and production patterns built on top of JavaScript — from zero to hero and beyond (junior to mentor depth). Plain JavaScript mechanics live in the [JavaScript track](<../JavaScript/README.md>); this track assumes that foundation and adds static types. The verified compiler baseline is TypeScript 7.0.2 (2026-10-12), following the [stable 7.0 release](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/). Individual examples declare their tested runtime/compiler versions; older release examples remain identified where relevant. Returning readers can start with the [7.0 configuration migration](<25 Update TypeScript 7.0/sections/1. Configuration Migration/1.1. Configuration defaults and removed options.md>). The remaining 7.0 update lessons and track review repairs are in progress.
+Typed JavaScript — the type system, tooling, and production patterns built on top of JavaScript — from zero to hero and beyond (junior to mentor depth). Plain JavaScript mechanics live in the [JavaScript track](<../JavaScript/README.md>); this track assumes that foundation and adds static types. The verified compiler baseline is TypeScript 7.0.2 (2026-10-12), following the [stable 7.0 release](https://devblogs.microsoft.com/typescript/announcing-typescript-7-0/). Individual examples declare their tested runtime/compiler versions; older release examples remain identified where relevant. Returning readers can start with the [7.0 configuration migration](<25 Update TypeScript 7.0/sections/1. Configuration Migration/1.1. Configuration defaults and removed options.md>). New learners can use the [current learning route](<25 Update TypeScript 7.0/sections/6. Overlaps and Update Route/6.1. Overlaps and the current learning route.md>) at the appropriate prerequisites. All six 7.0 update lessons are published; review repairs of the earlier material remain in progress.
 
 | # | Module |
 |---|--------|
@@ -28,7 +28,7 @@ Typed JavaScript — the type system, tooling, and production patterns built on 
 | 22 | [Update TypeScript 5.7 (index)](<22 Update TypeScript 5.7/README.md>) |
 | 23 | [Update TypeScript 5.8 (index)](<23 Update TypeScript 5.8/README.md>) |
 | 24 | [Update TypeScript 5.9 and 6.0 (index)](<24 Update TypeScript 5.9 and 6.0/README.md>) |
-| 25 | [Update TypeScript 7.0 (in progress)](<25 Update TypeScript 7.0/README.md>) |
+| 25 | [Update TypeScript 7.0](<25 Update TypeScript 7.0/README.md>) |
 
 Domain folders in this directory use the same `NN …` prefix so the on-disk order matches this curriculum. The full planned curriculum (all future modules, including `Update TypeScript <version>` index modules) is recorded in [LOG.md](<LOG.md>) — domains are listed here as they are implemented, so every link on this page resolves.
 

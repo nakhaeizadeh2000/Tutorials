@@ -47,8 +47,14 @@ This incremental domain takes returning readers from the published 5.x/6.x mater
 3. **Failure diagnosis:** reproduce a lint-only failure and a declaration packaging failure despite green source checking.
 4. **Review judgment:** classify the Unicode delta, emission fallback and unresolved integration checks before promoting an upgrade.
 
-## Publication progress
+## 6. Overlaps and Update Route
 
-The approved curriculum also covers an overlap/update route. This final lesson is pending publication; their full outcomes are in the [approved repair log](<../LOG.md>). This index links only to published lessons.
+### [6.1. Overlaps and the current learning route](<sections/6. Overlaps and Update Route/6.1. Overlaps and the current learning route.md>)
+
+1. **Ownership model:** separate unchanged topical mechanics from the native compiler's version delta.
+2. **Learning route:** choose an appropriate sequence for returning readers and new learners with explicit prerequisites.
+3. **Failure routing:** identify the next diagnostic check for output, API, Unicode, package and boundary problems.
+
+All six approved update lessons are published. The earlier topical material's review repairs remain in progress; each worked example identifies its tested environment.
 
 [← Back to track](<../README.md>)
