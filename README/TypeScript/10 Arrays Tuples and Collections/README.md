@@ -58,6 +58,7 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 2. **Set membership:** observe typed writes, deduplication order, object identity and numeric equality.
 3. **Entry conversion:** validate tuple seeds, distinguish snapshots from live values and trace numeric/symbol keys through objects and JSON.
 4. **Get-or-insert:** run value/factory methods, test existing undefined entries and failures, and separate declarations from runtime support.
+5. **Iterator helpers:** verify IteratorObject/MapIterator typing, lazy transforms, adaptation, completion checks and input-versus-output limits on a supported runtime.
 
 ### [3.2. Record vs Map indexed access vs hashed keys](<./sections/3. Collections and Selection/3.2. Record vs Map indexed access vs hashed keys.md>)
 
