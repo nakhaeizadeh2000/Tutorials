@@ -39,9 +39,9 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [2.2. Declaration merging and module augmentation](<./sections/2. Composition and Declaration Merging/2.2. Declaration merging and module augmentation.md>)
 
-1. **What merges** (`interface` with `interface`, `namespace` with `class`/`function`/`enum` — `type` never merges; module scope disables global merging).
-2. **Ambient augmentation** (`declare global`, `declare module "pkg"` — how `.d.ts` and `@types` extend third-party shapes without forking).
-3. **Risks and guardrails** (uncontrolled augmentation leaks globally; prefer scoped module augmentation and lint for duplicate `interface` names).
+1. **Legal merging:** verify compatible members, rejected modifier/type conflicts, separate declaration spaces and additive overload behavior.
+2. **Complete augmentation:** build a local module/global project with explicit inclusion, legal markers and a real provider.
+3. **Diagnosis and scope:** distinguish lost declarations, absent runtime values and typed property errors; choose a local contract when shared augmentation is unnecessary.
 
 ### [2.3. Type queries on objects keyof indexed access and typeof capture](<./sections/2. Composition and Declaration Merging/2.3. Type queries on objects keyof indexed access and typeof capture.md>)
 
