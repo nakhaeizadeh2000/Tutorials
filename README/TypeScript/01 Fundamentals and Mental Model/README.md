@@ -98,10 +98,10 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [6.1. Common interview Q&A — fundamentals of TypeScript](<./sections/6. Interview questions and answers/6.1. Common interview QA fundamentals of TypeScript.md>)
 
-1. **Is TypeScript a different language?** (superset vs separate language, why it matters).
-2. **Where do types live?** (compile time only — erasure consequences).
-3. **Structural vs nominal** (why `class Dog { name: string }` is assignable to `{ name: string }`).
-4. **Soundness trade-offs** (examples interviewers probe for: bivariance, `any`, narrowing).
+1. **Language and execution:** distinguish static contracts from transformation and runtime behavior.
+2. **Erased names:** observe the TypeScript diagnostic, emitted typeof result and direct-read failure separately.
+3. **Compatibility and soundness:** explain public-member shape, trusted assertions and callback/mutation hazards.
+4. **Runtime boundaries:** justify runner checking responsibilities and complete malformed-input validation.
 
 ---
 
