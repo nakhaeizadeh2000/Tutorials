@@ -45,9 +45,10 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [2.3. Type queries on objects keyof indexed access and typeof capture](<./sections/2. Composition and Declaration Merging/2.3. Type queries on objects keyof indexed access and typeof capture.md>)
 
-1. **`keyof` and `T[K]` on object types** (`keyof {a:number,b:string}` → `"a"|"b"`; `T[keyof T]` as ad-hoc value union).
-2. **`typeof` value capture** (`const cfg = { host: "localhost" } as const; type Cfg = typeof cfg` — snapshot the shape without duplicating it).
-3. **Why queries erase** (like every type operator, they leave no emit — bridging value and type spaces with zero runtime cost).
+1. **Keys and correlated reads:** verify literal/index key unions and distinguish static prototype members from own runtime enumeration.
+2. **Value derivation:** compare indexed value unions with actual Object.values overloads and optional reads.
+3. **Captured precision:** check widened and literal/readonly object contracts with live type assertions.
+4. **Runtime boundary:** run own-key validation against a real table and inspect what queries erase versus what still executes.
 
 ---
 
