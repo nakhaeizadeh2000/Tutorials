@@ -38,9 +38,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [2.2. Static checking vs runtime reality — trust but verify](<./sections/2. How TypeScript doesnt execute/2.2. Static checking vs runtime reality trust but verify.md>)
 
-1. **The checker is a proof assistant, not a runtime guard** (it proves your program *could be* consistent, assuming inputs honor their declared types).
-2. **Boundary validation is mandatory** (any data from outside the type system — network, file, user input — must be validated at runtime).
-3. **Soundness holes are documented, not accidental** (bivariance, array covariance, type assertions are trade-offs for ergonomics).
+1. **Checked contracts:** distinguish compiler diagnostics, trusted assertions and runtime evidence without claiming full soundness.
+2. **Boundary verification:** run valid and malformed responses through one complete asserted-versus-checked program.
+3. **Assumption review:** demonstrate a predicate body the checker trusts despite an incomplete field check, and identify mutation/integration limits.
 
 ### [2.3. The language server — editor superpowers that justify TypeScript](<./sections/2. How TypeScript doesnt execute/2.3. The language server editor superpowers that justify TypeScript.md>)
 
