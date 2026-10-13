@@ -98,11 +98,11 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [6.1. Common interview QA — basic types and annotations](<./sections/6. Interview questions and answers/6.1. Common interview QA basic types and annotations.md>)
 
-1. **string vs String** (why the lowercase is correct and when the wrapper type appears in `.d.ts`).
-2. **any vs unknown vs never** (three "not sure" flavors — assignability table interviewers probe).
-3. **null vs undefined with strictNullChecks** (what changes when the flag flips).
-4. **When to annotate** (public API vs local inference — the code-review answer that signals seniority).
-5. **Literal types and widening** (why `let x = "hello"` is `string` but `const x = "hello"` is `"hello"`).
+1. **Primitive contracts:** explain wrapper assignment direction and actual runtime representation.
+2. **Special types:** verify unknown/never assignment directions with compile-only probes.
+3. **Nullability and wire presence:** distinguish checked optionality, in-memory presence and JSON omission.
+4. **Annotation judgment:** justify intent and investigate actual inference instead of relying on quotas.
+5. **Literal precision:** check inferred type equality while comparing unchanged runtime values.
 
 ---
 
