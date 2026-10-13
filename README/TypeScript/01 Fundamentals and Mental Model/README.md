@@ -109,8 +109,8 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **JavaScript language mechanics** (values, scope, closures, prototypes, async) — [JavaScript track](<../../JavaScript/README.md>).
-2. **Deep type system mechanics** (structural typing details, variance, conditional types) — [02 The Type System Core](<../02 The Type System Core/README.md>).
-3. **Configuration deep dive** (`tsconfig` flags, project references) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-4. **Decorators and metadata** — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) (textual).
-
+1. **Runtime route:** locate JavaScript values, closures, object mechanics, scheduling and module behavior.
+2. **Static route:** distinguish core compatibility/declaration spaces from later generic and utility transformations.
+3. **Pipeline route:** choose published configuration and current source/emit/tool guidance for the actual consumer.
+4. **Decorator route:** locate signature-model and metadata producer/runtime prerequisites.
+5. **Debugging practice:** route a malformed response and an unresolved runtime import with a concrete reason.
