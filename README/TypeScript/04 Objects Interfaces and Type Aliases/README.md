@@ -16,9 +16,10 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [1.2. Optional readonly and index signatures](<./sections/1. Object Type Fundamentals/1.2. Optional readonly and index signatures.md>)
 
-1. **Optional members** (`prop?: T` vs `prop: T | undefined` — assignability, `exactOptionalPropertyTypes`, and narrowing).
-2. **`readonly` at the type level** (prevents *type-checked* writes but emits no runtime freeze — contrast with `Object.freeze`).
-3. **Index signatures** (`[key: string]: T` — the open-ended dictionary escape; why mapped types and `Record` are usually safer).
+1. **Optional members:** compare both exact-optional modes and distinguish assignment, runtime presence and JSON output.
+2. **Readonly:** reject a typed write, observe a mutable alias, and contrast the view with shallow runtime freeze.
+3. **Dictionary contracts:** check missing lookups, compatible named members, finite keys and numeric indexes.
+4. **Runtime representation:** distinguish inherited/own properties and observe ordinary, null-prototype and Map key behavior.
 
 ### [1.3. Interfaces vs type aliases when to use which](<./sections/1. Object Type Fundamentals/1.3. Interfaces vs type aliases when to use which.md>)
 
