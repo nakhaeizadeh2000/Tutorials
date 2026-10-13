@@ -23,9 +23,9 @@ How TypeScript models *object shapes* statically: structural object types, optio
 
 ### [1.3. Interfaces vs type aliases when to use which](<./sections/1. Object Type Fundamentals/1.3. Interfaces vs type aliases when to use which.md>)
 
-1. **What overlaps** (both can describe object shapes, both erase, both participate structurally — 90% interchangeable for shapes).
-2. **What diverges** (`interface` merges and extends nominally; `type` aliases compose via `&`/`|`, support mapped/conditional/template-literal operators, and can name any type).
-3. **Team rule of thumb** (public, augmentable contracts → `interface`; composite, utility, or union shapes → `type` — with `erasableSyntaxOnly` both stay safe).
+1. **Shared behavior:** verify ordinary structural interchangeability and qualify it with the implicit-index dictionary difference.
+2. **Declaration capabilities:** compare interface merging, closed alias composition and fresh ambient type declarations with actual rejections.
+3. **Design choice:** select intended extension points and type expressions before applying a team convention; explain structural heritage and runtime erasure.
 
 ---
 
