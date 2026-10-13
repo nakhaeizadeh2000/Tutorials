@@ -67,9 +67,10 @@ How TypeScript annotates classes and members with reusable behavior — TC39 sta
 
 ### [3.3. Dependency injection with decorators](<./sections/3. Patterns in Practice/3.3. Dependency injection with decorators.md>)
 
-1. **Token-based registration** (`@Inject(TOKEN)` / `@Singleton` — container maps tokens to constructors, decorators mark participation).
-2. **Constructor injection without metadata emit** (explicit tokens over `design:paramtypes` magic — portable across standard/legacy).
-3. **When DI frameworks pay** (large object graphs with test doubles — container vs manual wiring vs parameter passing).
+1. **Bindings and lifecycle:** run typed factories with actual singleton/transient identity, state, missing-token and undefined-cache observations.
+2. **Decorator registration:** register a zero-argument class and assemble constructor dependencies through an explicit factory.
+3. **Substitution and ownership:** replace a repository for future resolutions, preserve existing-reference semantics and locate the NestJS/Fastify application boundary.
+4. **Lifecycle verification:** expose a cache-bypass regression and explain why compiler acceptance does not prove reuse.
 
 ---
 
