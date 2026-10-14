@@ -111,10 +111,11 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Function-level generic basics** (per-call inference, overloads vs generics) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
-2. **Utility types and mapped/conditional transforms** (`Partial`/`Pick`/`Exclude`, `keyof` mapping) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
-3. **Object-type composition and class hierarchies** (`&` vs `extends`, `implements`, mixins) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>) + [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
-4. **Union/intersection algebra and narrowing** (distributivity in practice, discriminants) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-5. **Compiler strictness flags** (`strict`, `strictFunctionTypes`, `--erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
+1. **Function-level generic basics:** route input/output signatures, inference evidence and tuple forwarding to their full explanations.
+2. **Utility types and transforms:** distinguish parameter mechanics from choosing and authoring a transformation.
+3. **Object composition and class containers:** separate member/construction requirements from fixed and fresh generic scope.
+4. **Union algebra and live narrowing:** distinguish type filtering, runtime branch checks and deep-transform stopping policies.
+5. **Compiler configuration:** route option/tool support questions to current configuration and interface owners.
+6. **Evidence-based routing practice:** justify the next observation for widened sources, competing candidates, depth caps and parsed data.
 
 [← Back to track](<../README.md>)
