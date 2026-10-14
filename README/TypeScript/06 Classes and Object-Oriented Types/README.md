@@ -22,9 +22,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [1.3. Access modifiers and encapsulation public private protected readonly](<./sections/1. Class Type Fundamentals/1.3. Access modifiers and encapsulation public private protected readonly.md>)
 
-1. **Three modifiers plus `#private`** (`public`/`protected`/`private` are type-level; `#field` is runtime-hard `WeakMap` — emit, compatibility, and `erasableSyntaxOnly` differences).
-2. **`readonly` at the type level** (`readonly x: string` prevents type-checked writes but does not freeze at runtime — contrast with `Object.freeze` and `#private`).
-3. **Encapsulation design** (when `private` is enough for the checker, when `#private` pays for hard privacy, and when `protected` leaks to subclasses).
+1. **Visibility and private names:** verify ordinary keys, lexical private access, same-origin compatibility and native/ES2015 emission.
+2. **Mutation mechanisms:** distinguish readonly views, writable aliases, inherited getter-only writes and shallow runtime freeze.
+3. **Encapsulation ownership:** observe protected subclass access and deliberate public/private serialization/extension boundaries.
 
 ---
 
