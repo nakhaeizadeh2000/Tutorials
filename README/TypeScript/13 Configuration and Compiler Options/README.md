@@ -110,10 +110,10 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Nullability mechanics and type-space behavior** (unions with `null`, narrowing, `unknown` catch — behavior, not configuration) — [03 Basic Types and Annotations](<../03 Basic Types and Annotations/README.md>).
-2. **Variance theory and generic mechanics** (contravariance rules, `infer`, `in`/`out` — theory applied by flags) — [02 The Type System Core](<../02 The Type System Core/README.md>) + [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>).
-3. **Erasable inventory, pipelines, and module organization** (what erases, running TS, import/export forms, namespaces, declarations) — [01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>) + [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>).
-4. **Strictness as validation practice** (exhaustiveness, assertion functions, validation at boundaries — using strictness, not configuring it) — [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>).
-5. **Performance engineering and tooling** (project references at scale, language-server tuning, build profiling) — [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>) + [16 Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>).
+1. **Behavior and options:** distinguish nullability, unknown data and object absence from the configuration that checks them.
+2. **Callable and generic contracts:** route substitution, scope, constraints and inference to their evidence owners.
+3. **Syntax and consumed artifacts:** separate syntax gates, import resolution, checking and emission.
+4. **Runtime evidence:** choose boundary parsing, predicates/assertions and static exhaustiveness from the required operation.
+5. **Measurement and interfaces:** investigate compiler/editor work and verify the tool interface that actually consumes the compiler.
 
 [← Back to track](<../README.md>)
