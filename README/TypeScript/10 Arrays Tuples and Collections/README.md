@@ -112,10 +112,11 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Function-level rest, overloads, and generic forwarding** (tuple rest on signatures, `<T extends unknown[]>` capture, pipes) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>) + [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>).
-2. **Mapped/conditional transforms over collections** (`Partial`, `Exclude`, `DeepPartial`, `Awaited` on arrays) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
-3. **Object-type composition and literal basics** (`&` vs `extends`, literals, `as const` sources, `satisfies`) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>) + [03 Basic Types and Annotations](<../03 Basic Types and Annotations/README.md>).
-4. **Union algebra and narrowing over elements** (distributivity, discriminants, exhaustiveness on element unions) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-5. **Compiler strictness flags** (`strict`, `noUncheckedIndexedAccess`, `--erasableSyntaxOnly`) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
+1. **Rest and generic forwarding:** distinguish tuple source shapes, callable argument lists and wrapper inference.
+2. **Transformations:** route derived element/key contracts separately from runtime collection operations.
+3. **Shapes and literals:** inspect element requirements, source precision and mutation/integrity boundaries.
+4. **Narrowing and validation:** connect iteration with live branch checks and actual external-data evidence.
+5. **Configuration and runtime support:** distinguish index contracts, syntax checks, declarations and available runtime methods.
+6. **Worked collection practice:** justify the next observation for missing indexes, Map presence, serialization and helper input/output limits.
 
 [← Back to track](<../README.md>)
