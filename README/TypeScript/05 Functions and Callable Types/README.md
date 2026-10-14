@@ -99,11 +99,11 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [6.1. Common interview QA — functions and callable types](<./sections/6. Interview questions and answers/6.1. Common interview QA functions and callable types.md>)
 
-1. **When does an overload beat a union param?** (caller experience vs maintainability — the hover and error-message budget).
-2. **Why does `strictFunctionTypes` reject a callback assignment that worked before?** (contravariance — the caller supplies the supertype, not the subtype).
-3. **What does `this: void` on a callback buy you?** (proves the callback does not use `this` — safe to detach and store).
-4. **How does `x is T` differ from `asserts x is T`?** (returning boolean vs throwing — caller narrows in `if` vs after the call).
-5. **`satisfies` vs `as` on a function value** (preserved arity/literal vs widened and silenced).
+1. **Overload or keyed lookup:** explain the actual input/result relationship and supported dynamic calls with real implementation evidence.
+2. **Callback direction:** justify Animal/Dog substitution and the separate method exception.
+3. **Receiver requirements:** distinguish void logging, lexical capture and explicit detachment checks from actual invocation.
+4. **Narrowing contracts:** compare inferred predicates, successful condition assertions and trusted-body limits.
+5. **Callable context and views:** verify request context, source/target result types and assignability versus exact arity.
 
 ---
 
