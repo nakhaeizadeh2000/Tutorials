@@ -16,9 +16,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [1.2. Parameters optional default rest and destructuring](<./sections/1. Function Type Fundamentals/1.2. Parameters optional default rest and destructuring.md>)
 
-1. **Optionality matrix** (`param?: T` vs `param: T | undefined` vs `param = default` — assignability, `exactOptionalPropertyTypes`, and call-site arity).
-2. **Rest as tuple** (`...args: T[]` vs `...args: [A, B]` — why rest is syntax for a final tuple, and how spread arity is checked).
-3. **Destructured params** (`function f({ x, y }: { x: number }): void` — naming the destructured shape without duplicating the type).
+1. **Optionality matrix:** distinguish omittable positions, required undefined values, trailing/leading defaults and optional-property flag behavior.
+2. **Rest and tuple contracts:** verify element/arity checks, readonly source spreads and mutation permissions on the gathered argument array.
+3. **Destructured parameters:** type one whole options object and distinguish property defaults from an intentional whole-argument default.
 
 ### [1.3. Return types void never and contextual inference](<./sections/1. Function Type Fundamentals/1.3. Return types void never and contextual inference.md>)
 
