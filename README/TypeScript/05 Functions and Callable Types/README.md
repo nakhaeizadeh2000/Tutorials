@@ -88,10 +88,10 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [5.1. Real production bugs caused by function type misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by function type misunderstandings.md>)
 
-1. **`void` swallowed return** (a callback typed `() => void` ignoring a `Promise` or meaningful return that the caller awaited).
-2. **Overload implementation leaks** (calling the broad implementation signature instead of the narrow overload — caller sees `string | number` when they expected `string`).
-3. **Bivariant method accepts wrong subtype** (a method-typed callback accepted a parent type and mutated a missing child property at runtime).
-4. **`this: void` omission lets `this` leak into a detached callback** (later moved to a `strict` codebase and `this` became `any` at runtime).
+1. **Completion ownership:** observe an accepted async-to-void callback and a host that awaits and handles failure.
+2. **Overload view loss:** distinguish a forced broad alias, preserved overloads and an intentionally published catch-all.
+3. **Narrow method body:** reproduce the accepted unsafe method and verify the strict function-property remedy and safe wider-capable handler.
+4. **Stored receiver loss:** observe implicit method detachment and actual arrow/bind remedies through a deterministic callback queue.
 
 ---
 
