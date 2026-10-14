@@ -45,9 +45,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [2.3. Rest parameters tuple types and variadic composition](<./sections/2. Overloads and Generics/2.3. Rest parameters tuple types and variadic composition.md>)
 
-1. **Rest as tuple, spread as call** (`...args: [A, B]` defines arity; `fn(...tuple)` checks assignability — labeled tuples preserve names in hover).
-2. **Variadic tuple composition** (`[...A, ...B]` — concatenating parameter lists for `pipe`/`compose` without overloads).
-3. **Generic rest and `infer`** (how `function call<T extends unknown[]>(...args: T)` captures full arity and why `any[]` loses it).
+1. **Rest and spread contracts:** verify positional requirements, source/gathered-array identity, readonly body permissions and the limit of assertions.
+2. **Variadic composition:** run a bounded two-step callable and type/runtime tuple concatenation, rejecting incompatible joints or missing positions.
+3. **Generic capture and forwarding:** assert captured argument shapes, preserve the tested parameter/result relationship and observe unchecked any[] misuse.
 
 ---
 
