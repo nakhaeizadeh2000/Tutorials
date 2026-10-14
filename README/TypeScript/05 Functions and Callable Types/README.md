@@ -38,9 +38,10 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [2.2. Generic functions inference constraints defaults and scope](<./sections/2. Overloads and Generics/2.2. Generic functions inference constraints defaults and scope.md>)
 
-1. **Call-site inference** (`function id<T>(x: T): T` — how `T` is inferred from arguments, why inference is per-call, not per-declaration).
-2. **Constraints and defaults** (`<T extends { id: string }>` vs `<T = string>` — what `extends` guarantees inside the body and what callers may still pass).
-3. **Generic scope and capture** (type params live on the *call signature*, not the implementation — when to put `<T>` on the function vs on the interface).
+1. **Call-site inference:** verify literal, widened-source and mapped-result types, including an empty array whose value argument still supplies evidence.
+2. **Constraints and defaults:** preserve richer inputs, reject an invalid replacement and distinguish default selection from inferred empty input.
+3. **Generic scope:** compare a generic mapper, a fixed callable and a container with a fresh result parameter on its map method.
+4. **Boundary evidence:** relate a generic parsed result to a checked decoder and observe malformed-input rejection.
 
 ### [2.3. Rest parameters tuple types and variadic composition](<./sections/2. Overloads and Generics/2.3. Rest parameters tuple types and variadic composition.md>)
 
