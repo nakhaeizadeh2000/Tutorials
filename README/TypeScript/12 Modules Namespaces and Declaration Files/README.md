@@ -110,10 +110,10 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Declaration merging mechanics** (interface merging, class/namespace merging rules, augmentation examples) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>).
-2. **Erasable syntax and execution pipelines** (what erases, `--erasableSyntaxOnly`, running TS under tsc/bundlers/Node) — [01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>).
-3. **Type-vs-value spaces and class duality** (dual universes, dual exports, `typeof` queries) — [02 The Type System Core](<../02 The Type System Core/README.md>) + [06 Classes and Object-Oriented Types](<../06 Classes and Object-Oriented Types/README.md>).
-4. **Generic inference over imported types** (constraints, `infer`, variance across module boundaries) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>).
-5. **Compiler options and project configuration** (`module`, `moduleResolution`, `isolatedModules`, `declaration` flags) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
+1. **Merging and placement:** distinguish declaration compatibility, program inclusion and the runtime provider.
+2. **Erasure and execution:** route syntax/import questions through the actual source or emitted graph.
+3. **Meaning and transport:** classify checker types, runtime bindings and class queries before choosing import forms.
+4. **Imported generic contracts:** locate inference, constraints, extraction and variance owners without copying signatures.
+5. **Configuration and package proof:** choose module settings, inspect artifacts and separate compiler/tool/consumer evidence.
 
 [← Back to track](<../README.md>)
