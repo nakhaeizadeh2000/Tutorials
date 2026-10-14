@@ -77,10 +77,10 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [4.1. Functions checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Functions checklist mental models mentors insist on.md>)
 
-1. **Call signature is the contract** (params are contravariant, returns are covariant — the signature is what callers see, not the body).
-2. **Arity is type-checked** (optional/default/rest and tuple labels define what counts as "enough" arguments — spread is checked structurally).
-3. **Generic scope lives on the signature** (one inference per call — constraints guarantee properties, defaults fill gaps).
-4. **Narrow via the return** (predicates and asserts turn a boolean-returning function into a narrowing tool for callers).
+1. **Caller and body contracts:** verify exposed overloads, actual branches, callback result ownership and independent receiver requirements.
+2. **Positional evidence:** trace required/default/optional arguments and readonly spread sources through the real rest contract.
+3. **Generic choices:** locate per-call versus fixed choices and verify literal/inferred results against available evidence.
+4. **Narrowing continuation:** review predicate branches, successful assertion postconditions and rejected inputs in one executed synthesis.
 
 ---
 
