@@ -110,10 +110,10 @@ How TypeScript *proves* correctness at runtime boundaries — assertion function
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Predicate/assert mechanics and narrowing theory** (signatures, callables, union narrowers, exhaustiveness sinks) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>) + [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-2. **Strict flags and configuration** (family bundle, trio, pairing, migration sequencing) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-3. **Unknown/never/any behavior and nullability intents** (top types, bottom types, escape hatches, null-vs-undefined) — [03 Basic Types and Annotations](<../03 Basic Types and Annotations/README.md>).
-4. **Decorator-driven validation and testing decorated code** (rule registration, DI rebinding, order assertions) — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) + [17 Testing Types](<../17 Testing Types/README.md>).
-5. **Async error propagation and runtime handling** (rejections, unhandledrejection, top-level architecture per runtime) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>).
+1. **Narrowing and failure choices:** locate signature/control-flow mechanics before selecting predicate, assertion or parser behavior.
+2. **Checked program:** separate strictness/precision settings and syntax gates from executed validation.
+3. **Types and failure values:** route unknown/any/never, absence, serialization and Result/error contracts.
+4. **Registration and tests:** distinguish decorator metadata, actual validation, substitution and runtime/type-test evidence.
+5. **Async ownership:** identify who observes completion/rejection and test the host's promised behavior.
 
 [← Back to track](<../README.md>)
