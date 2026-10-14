@@ -32,9 +32,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [2.1. Function overloads call signatures and implementation compatibility](<./sections/2. Overloads and Generics/2.1. Function overloads call signatures and implementation compatibility.md>)
 
-1. **Overload shape** (multiple call signatures above one implementation — which signatures callers see and which the implementation must satisfy).
-2. **Implementation compatibility** (the implementation signature must be *wider* than every overload — the "implementation is not callable" rule).
-3. **When not to overload** (union params + conditional return vs overload — readability vs hover budget vs `strict` diagnostics).
+1. **Overload and implementation contracts:** verify public signatures, compatible/incompatible bodies and the limit of static input/output correlation.
+2. **Callable views:** distinguish preserving overloads, a restricted consumer view, a real union wrapper and an exposed union-input signature.
+3. **API selection:** compare catch-all versus literal-only dynamic calls, real generic keyed results and specialized/ordinary overload ordering.
 
 ### [2.2. Generic functions inference constraints defaults and scope](<./sections/2. Overloads and Generics/2.2. Generic functions inference constraints defaults and scope.md>)
 
