@@ -61,9 +61,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [3.2. Callback variance strictFunctionTypes and bivariance pitfalls](<./sections/3. Advanced Callable Patterns/3.2. Callback variance strictFunctionTypes and bivariance pitfalls.md>)
 
-1. **`strictFunctionTypes` in practice** (parameter contravariance for function values — why `(x: Animal) => void` is not assignable to `(x: Dog) => void`).
-2. **Method bivariance trap** (`interface Obj { method(x: Animal): void }` stays bivariant for compatibility — when it leaks and how to close it with property syntax).
-3. **Callback safety patterns** (`this: void`, branded params, generic constraints — how production code keeps callbacks safe without disabling `strict`).
+1. **Strict callback substitution:** trace Animal/Dog supplier and handler directions, return covariance and a controlled flag-off failure.
+2. **Method versus property contracts:** observe accepted method-box substitutions, their runtime hazard and rejected unsafe function-property assignments.
+3. **Bounded callback wiring:** distinguish receiverless storage, checked domain construction and element-driven generic callback inference.
 
 ### [3.3. Type guards predicates asserts and satisfies on functions](<./sections/3. Advanced Callable Patterns/3.3. Type guards predicates asserts and satisfies on functions.md>)
 
