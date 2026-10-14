@@ -22,9 +22,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [1.3. Return types void never and contextual inference](<./sections/1. Function Type Fundamentals/1.3. Return types void never and contextual inference.md>)
 
-1. **`void` vs `never` vs `undefined` on returns** (`void` means "ignored", `never` means "never returns", `undefined` means "value undefined" — different contracts).
-2. **Annotation strategy** (when to annotate return types for public APIs vs when to let inference preserve literals — and the `void` callback trap).
-3. **Contextual typing for callbacks** (`arr.map(x => x * 2)` infers `x: number` from the target — when context helps and when it hides).
+1. **Return contracts:** distinguish a void callback view, explicit implementation returns, undefined/never and the host's promise-handling behavior.
+2. **Annotation and inference:** verify literal unions, a genuinely widened expression and a deliberately broader published object result.
+3. **Contextual callbacks:** observe target-supplied parameter types, accepted value returns and meaningful context-free/member failures.
 
 ---
 
