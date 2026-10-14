@@ -16,9 +16,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [1.2. Constructors parameter properties and instance creation](<./sections/1. Class Type Fundamentals/1.2. Constructors parameter properties and instance creation.md>)
 
-1. **Constructor is not the type** (`new User()` vs `User` — why `constructor` return type is the instance, and how parameter properties `constructor(private x: string)` sugar field declaration+assignment).
-2. **`strictPropertyInitialization`** (`--strictPropertyInitialization` plus `!` definite assignment and `?` optional fields — initialization contract that `tsc` proves).
-3. **Construction patterns** (factory `static create`, builder, and `private constructor` singletons — typing `new` without exposing it).
+1. **Constructor and member syntax:** verify result-annotation restrictions, parameter-property generation and a manual erasable equivalent.
+2. **Initialization evidence:** contrast constructor/field producers, optional absence and a trusted definite assertion with observed first-use behavior.
+3. **Construction and lifetime:** separate private constructor access, factory validation, builder state and the first cached singleton instance.
 
 ### [1.3. Access modifiers and encapsulation public private protected readonly](<./sections/1. Class Type Fundamentals/1.3. Access modifiers and encapsulation public private protected readonly.md>)
 
