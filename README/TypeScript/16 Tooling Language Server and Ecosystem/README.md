@@ -110,10 +110,10 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Editor motivation and compilation stages** (why the server justifies TS, tsc pipeline, execution runtimes) — [01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>).
-2. **Compiler flags and project configuration** (strict family, trio, pairing, declaration/composite, migration sequencing) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-3. **Module organization and publishing mechanics** (import/export forms, declaration authoring, exports maps, augmentation) — [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>).
-4. **Testing practice and async runtimes** (test doubles, suites, floating promises, backstops) — [17 Testing Types](<../17 Testing Types/README.md>) + [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>).
-5. **Performance engineering at scale** (references architecture, check-time profiling, instantiation budgets) — [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>).
+1. **Interfaces and editor work:** distinguish interactive operations, compiler commands and older API consumers.
+2. **Configuration and rule gates:** attribute diagnostics to the program, lint rule or formatting operation that produced them.
+3. **Consumer artifacts:** inspect imports, declaration surfaces, packed files and entry points.
+4. **Testing evidence:** separate type/runtime tests, async completion and configured reproductions.
+5. **Measurement and migration:** compare the relevant process/cache conditions and preserve artifact/tool checks across versions.
 
 [← Back to track](<../README.md>)
