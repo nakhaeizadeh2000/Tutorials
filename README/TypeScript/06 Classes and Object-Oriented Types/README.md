@@ -1,6 +1,6 @@
 # Classes and Object-Oriented Types
 
-How TypeScript types the only *blueprint* that is both a value and a type — classes: instance vs static sides, constructors, access modifiers, inheritance (`extends`/`implements`), `abstract` and `override`, polymorphic `this`, generics on classes, static blocks, and composition via mixins. Every class member is erasable and participates structurally — runtime prototype mechanics live in [JavaScript 07 Prototypes and Classes](<../../JavaScript/07 Prototypes and Classes/README.md>).
+How TypeScript types the only *blueprint* that is both a value and a type — classes: instance vs static sides, constructors, access modifiers, inheritance (`extends`/`implements`), `abstract` and `override`, polymorphic `this`, generics on classes, static blocks, and composition via mixins. Runtime processing depends on the chosen syntax and pipeline; class annotations do not validate inputs. Runtime prototype mechanics live in [JavaScript 07 Prototypes and Classes](<../../JavaScript/07 Prototypes and Classes/README.md>).
 
 ## 0. Prerequisites
 
@@ -110,10 +110,10 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **JavaScript runtime mechanics** (prototype chain, `super`, `new.target`, field initialization order) — [JavaScript 07 Prototypes and Classes](<../../JavaScript/07 Prototypes and Classes/README.md>).
-2. **Object types and declaration merging** (structural object shapes, `interface` merging, `extends` vs `&` on objects) — [04 Objects, Interfaces and Type Aliases](<../04 Objects Interfaces and Type Aliases/README.md>).
-3. **Functions and callable types** (`this` parameter, callback variance, overloads, generics on functions) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
-4. **Unions, intersections, and narrowing** (discriminated unions, control-flow narrowing, exhaustiveness) — [07 Unions, Intersections and Narrowing](<../07 Unions Intersections and Narrowing/README.md>).
-5. **Decorators and metadata** (class/method/field decorators) — [14 Decorators and Metadata](<../14 Decorators and Metadata/README.md>) (this domain only reaches `override`/`abstract`/`static`).
+1. **Runtime and static views:** route constructor/field/prototype behavior separately from class types and declared processing pipelines.
+2. **Object boundaries:** locate ordinary shapes, modifiers, composition and merging before applying class-specific contracts.
+3. **Callable boundaries:** distinguish receiver invocation, callback substitution and class-specific override/generic relationships.
+4. **Narrowing and evidence:** choose control-flow or runtime parser owners from the failing operation.
+5. **Decorator and framework boundaries:** use actual configured decorator/metadata/lifecycle owners and preserve the planned backend prerequisites.
 
 [← Back to track](<../README.md>)
