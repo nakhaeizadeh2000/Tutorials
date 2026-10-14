@@ -1,6 +1,6 @@
 # Testing Types
 
-How TypeScript *proves* types stay correct — type-level assertions (`Expect<Equal<A, B>>`) that fail compilation on drift, negative tests (`@ts-expect-error`) that lock rejected shapes out, typed test doubles (mocks/spies/fakes carrying full signatures) that keep refactors honest, and CI gates that run type tests alongside unit tests. Assertion *mechanics* live in [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>) ([1.1. Assertion signatures](<../15 Strictness Errors and Validation/sections/1. Assertion Functions/1.1. Assertion signatures asserts condition and asserts x is T.md>)); test *execution* (runners, coverage, e2e) lives in the future Testing track — this domain owns *type testing*: proving the static surface itself, not executing behavior.
+How TypeScript *proves* types stay correct — type-level assertions (`Expect<Equal<A, B>>`) that fail compilation on drift, negative tests (`@ts-expect-error`) that lock rejected shapes out, typed test doubles (mocks/spies/fakes carrying full signatures) that keep refactors honest, and CI gates that run type tests alongside unit tests. Assertion *mechanics* live in [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>) ([1.1. Assertion signatures](<../15 Strictness Errors and Validation/sections/1. Assertion Functions/1.1. Assertion signatures asserts condition and asserts x is T.md>)); test *execution* (runners, coverage, e2e) lives in the future Testing track — this domain owns *type testing*: checking the static surface and providing the bounded tool/runtime fixtures needed to verify its examples.
 
 ## 0. Prerequisites
 
@@ -110,10 +110,10 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Assertion mechanics and error-as-value modeling** (predicates, asserts, Result, schemas, parse discipline) — [15 Strictness, Errors and Validation](<../15 Strictness Errors and Validation/README.md>).
-2. **Conditional/infer/utility mechanics under test** (distribution, homomorphic mapping, stdlib sources) — [08 Generics Deep Dive](<../08 Generics Deep Dive/README.md>) + [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
-3. **Test execution and runners** (suites, coverage, e2e behavior, Playwright) — future Testing track (this domain proves statics; runners prove behavior).
-4. **Async runtime behavior** (event loop, timers, cancellation propagation) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>).
-5. **Packaging gates and declaration emit** (exports maps, attw/publint operation, d.ts authoring) — [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>) + [16 Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>).
+1. **Contracts and evidence:** separate validator design, compile-only probes and actual tool/runtime assertions.
+2. **Generic probe design:** link inference/transform semantics and test meaningful inputs and stopping boundaries.
+3. **Runner ownership:** reproduce bounded type-test commands while preserving the planned Playwright Testing curriculum.
+4. **Async seams:** identify completion/rejection ownership and the behavior a typed substitute actually supplies.
+5. **Consumer surfaces:** test resolved declarations, packed files and entry points under the promised configuration.
 
 [← Back to track](<../README.md>)
