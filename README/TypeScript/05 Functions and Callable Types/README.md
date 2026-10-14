@@ -55,9 +55,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [3.1. this parameter explicit typing and arrow vs function capture](<./sections/3. Advanced Callable Patterns/3.1. this parameter explicit typing and arrow vs function capture.md>)
 
-1. **Explicit `this` parameter** (`function f(this: Context, x: number)` — fake first param that types `this` without emitting a runtime parameter).
-2. **`this` in callbacks** (`--noImplicitThis` and `this: void` on callbacks — why library `forEach` types `this` and how arrow functions erase `this` capability).
-3. **When to annotate** (methods vs standalone functions vs `bind`/`call` — where `this` actually varies and where arrow makes it irrelevant).
+1. **Explicit receiver contracts:** verify erased parameters, call/apply/bind and missing/wrong receiver diagnostics.
+2. **Callback receiver behavior:** distinguish void logging/lexical capture and standard forEach from a custom correlated wrapper.
+3. **Method extraction:** compare implicit body inference, explicit call requirements and actual bound/wrapped/field-arrow remedies.
 
 ### [3.2. Callback variance strictFunctionTypes and bivariance pitfalls](<./sections/3. Advanced Callable Patterns/3.2. Callback variance strictFunctionTypes and bivariance pitfalls.md>)
 
