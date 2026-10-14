@@ -67,9 +67,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [3.3. Type guards predicates asserts and satisfies on functions](<./sections/3. Advanced Callable Patterns/3.3. Type guards predicates asserts and satisfies on functions.md>)
 
-1. **Predicate returns** (`x is Dog` — how `is` narrows callers, not the function body; `in` vs predicate vs `instanceof`).
-2. **Assertion signatures** (`asserts x is Dog` — void-returning functions that narrow on success and throw on failure; `asserts condition` form).
-3. **`satisfies` on function values** (checking a value matches a callable type while preserving literal arity/narrowness — vs `as` widening).
+1. **Predicate signatures:** compare explicit/inferred predicates with a boolean-only view, both branches and controlled dishonest claims.
+2. **Assertion continuation:** verify discriminant-condition and variable assertions, ordinary void helpers and real failure paths.
+3. **Callable checks and views:** distinguish contextual parameters, assignability, preserved source relationships and an asserted implementation mismatch.
 
 ---
 
