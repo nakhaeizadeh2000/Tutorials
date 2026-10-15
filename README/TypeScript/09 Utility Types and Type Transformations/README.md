@@ -32,9 +32,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [2.1. Conditional fundamentals distributive law and never branches](<./sections/2. Conditional Types/2.1. Conditional fundamentals distributive law and never branches.md>)
 
-1. **The distributive law, completely** (naked `T` maps member-by-member; `[T]` wrapper tests whole — the rule 08 previewed, with the `Exclude` proof).
-2. **`never` as the filter sink** (false-branch `never` drops members from the reunited union — why filtering *is* mapping-to-`never`).
-3. **Non-distributive escapes** (`[T] extends [U]`, tuple-wrapped checks — testing emptiness, exact equality, and whole-union properties).
+1. **Distribution evidence:** distinguish a bare checked parameter from concrete unions, left wrappers and right-side patterns with live results.
+2. **Type versus value filtering:** use never to select type members while observing the separate runtime array check and failure path.
+3. **Whole-type boundaries:** test never/any/unknown, apply explicit empty-input policy and distinguish mutual assignability from a chosen equality probe.
 
 ### [2.2. Exclude Extract NonNullable Pick Omit under the hood](<./sections/2. Conditional Types/2.2. Exclude Extract NonNullable Pick Omit under the hood.md>)
 
