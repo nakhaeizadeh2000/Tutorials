@@ -67,9 +67,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [3.3. Variadic tuple generics pipe concat and rest capture](<./sections/3. Variance and Advanced Generic Patterns/3.3. Variadic tuple generics pipe concat and rest capture.md>)
 
-1. **Labeled tuple rest** (`...args: [a: A, b: B]` — arity plus names survive through the generic).
-2. **Concat and pipe composition** (`[...A, ...B]` builds pipelines where each stage's output feeds the next input type).
-3. **Generic rest capture vs `any`** (`<T extends unknown[]>` preserves each element type; `any[]` flattens them away).
+1. **Forwarded contracts:** preserve tested argument/result relationships and distinguish tuple labels from runtime behavior or receiver binding.
+2. **Runtime composition:** concatenate readonly tuple sources and reject incompatible two-stage pipeline joints.
+3. **Capture and wrapper behavior:** compare generic any/unknown bounds with bare any rest, then execute bounded retries with explicit failure policy.
 
 ---
 
