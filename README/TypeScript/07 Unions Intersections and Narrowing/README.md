@@ -45,9 +45,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [2.3. Unions and intersections distributive behavior and primitive intersections](<./sections/2. Intersection Types/2.3. Unions and intersections distributive behavior and primitive intersections.md>)
 
-1. **Distributivity** (`(A|B) & C` distributes to `(A & C) | (B & C)` — reading distributed hover types and why order matters for filtering).
-2. **Primitive intersections and `never`** (`string & number` is `never`; `string & {}` is `string` — the set-theoretic surprise for newcomers).
-3. **Filtering with `Exclude`/`Extract` echo** (how `A & B` underpins conditional-type filtering — forward link to utility types without teaching them fully).
+1. **Distributivity:** preserve correlated variants through augmentation, compare compact/expanded contracts and construct a two-union product.
+2. **Primitive intersections:** verify overlap and non-nullish reductions, and observe why an assertion cannot attach a field to a primitive.
+3. **Filtering semantics:** distinguish Extract/Exclude selection from intersection refinement using finite literals, broad strings and object members.
 
 ---
 
