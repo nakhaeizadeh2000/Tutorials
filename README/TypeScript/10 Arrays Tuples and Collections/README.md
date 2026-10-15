@@ -32,9 +32,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [2.1. Fixed arity tuples labels and optional elements](<./sections/2. Tuple Types/2.1. Fixed arity tuples labels and optional elements.md>)
 
-1. **Fixed arity, heterogeneous slots** (`[string, number]` — length *and* per-position types checked; push beyond arity errors).
-2. **Labeled elements** (`[name: string, age: number]` — documentation in the type; tooltips and apply-order guidance).
-3. **Optional and rest elements** (`[string, number?]` trailing optionals; `[...T, last]` composition — the 08/3.3 patterns at value level).
+1. **Positional contracts and mutation limits:** reject malformed construction and literal indexes while observing accepted mutable push/pop operations and readonly restrictions.
+2. **Labels as documentation:** compare differently labeled and mixed-labeled tuples, same-typed swaps and runtime properties without assuming labels enforce meaning.
+3. **Variable shapes:** verify optional length/presence under exactness, open and middle rests, legal ordering and correlated tuple alternatives.
 
 ### [2.2. as const tuples literal inference and readonly](<./sections/2. Tuple Types/2.2. as const tuples literal inference and readonly.md>)
 
