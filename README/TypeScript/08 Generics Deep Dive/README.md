@@ -77,10 +77,10 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [4.1. Generics checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Generics checklist mental models mentors insist on.md>)
 
-1. **Parameters erase — contracts do not leak to runtime** (prove with emit before reaching for runtime type checks).
-2. **Constrain minimally, default generously** (the body needs little; callers appreciate the fallback).
-3. **Scope follows the declaration** (per-call function vs per-value container — pick before writing `<T>`).
-4. **Extract with `infer`, compose with tuples** (name the piece, thread it through — do not hand-roll what the checker solves).
+1. **Runtime evidence:** identify the actual value, check or operation behind an erased parameter.
+2. **Admitted choices:** distinguish constraints, inference, defaults and required runtime arguments.
+3. **Scope and relationships:** review fixed storage, fresh call choices and caller-selected result lies.
+4. **Integrated review:** execute a lookup/forwarding drill and justify absence, extraction and runtime checks.
 
 ---
 
