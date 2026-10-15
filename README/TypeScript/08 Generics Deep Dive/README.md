@@ -55,9 +55,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [3.1. Variance in out annotations and generic positions](<./sections/3. Variance and Advanced Generic Patterns/3.1. Variance in out annotations and generic positions.md>)
 
-1. **What `in` / `out` declare** (use-site direction: `out T` is produced, `in T` is consumed — the checker verifies the annotation).
-2. **Reading variance errors** (using `T` in the wrong position under an annotation fails fast instead of leaking unsound assignment).
-3. **When to annotate** (public library interfaces with one-direction `T` — internal code can rely on inferred variance).
+1. **Declared directions:** verify producer/consumer substitution and a strict function-property invariant cell.
+2. **Diagnostic limits:** reproduce TS2636, accepted method unsafety and why changing one method parameter does not fix every outer relationship.
+3. **Comparison boundaries:** distinguish generic instantiations from structural inputs and justify optional annotations without unmeasured speed claims.
 
 ### [3.2. Recursive generic types and self-referential patterns](<./sections/3. Variance and Advanced Generic Patterns/3.2. Recursive generic types and self-referential patterns.md>)
 
