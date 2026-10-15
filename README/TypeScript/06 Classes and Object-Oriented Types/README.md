@@ -99,11 +99,11 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [6.1. Common interview QA — classes and object-oriented types](<./sections/6. Interview questions and answers/6.1. Common interview QA classes and object-oriented types.md>)
 
-1. **What does one `class` declaration put in each declaration space?** (type vs value vs namespace — and how `typeof Class` reaches the constructor).
-2. **`extends` vs `implements` — is removing `implements` a breaking change?** (no for assignability; yes for the check — the structural nuance).
-3. **When does `abstract class` beat `interface`?** (shared runtime + construction control vs shape-only contracts).
-4. **Why does `override` exist and what does it catch?** (base rename/misspelling — the "forgot-override" bug).
-5. **`private` vs `#private` — which has runtime cost?** (checker-only erasure vs `WeakMap` field — performance vs hard privacy).
+1. **Which class view does an operation need?** Explain instance annotations, constructor values, queries and concrete construction evidence.
+2. **What do implements and extends change?** Predict declaration checks, structural calls and actual inheritance separately.
+3. **When is an abstract base useful?** Compare inherited helpers, capability adapters and behavioral evolution limits.
+4. **What does override prove?** Distinguish concrete marker requirements, abstract hooks and rename drift.
+5. **What survives privacy annotations?** Observe same-class reads, ordinary keys and native versus transformed private-field output.
 
 ---
 
