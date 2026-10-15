@@ -39,9 +39,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [2.2. Defaults and optional type parameters](<./sections/2. Constraints Defaults and Inference Control/2.2. Defaults and optional type parameters.md>)
 
-1. **What defaults fill** (`type R<T = string>` — omitted arguments fall back instead of erroring; required params must precede defaulted ones).
-2. **Defaults with constraints** (`T extends object = {}` — the default must satisfy the constraint or declaration fails).
-3. **When defaults pay** (config/response wrappers where 90% of callers want the same `T` — one fewer argument at every call site).
+1. **Omitted type choices:** distinguish inference, explicit arguments, trailing defaults and required runtime arguments.
+2. **Bounded defaults:** check constraint/dependent defaults and observe empty-tuple, non-nullish and unsafe-any outcomes.
+3. **API and runtime design:** replace a phantom builder with stored filter snapshots and assess the impact of changing an envelope default.
 
 ### [2.3. infer conditional inference and distributive preview](<./sections/2. Constraints Defaults and Inference Control/2.3. infer conditional inference and distributive preview.md>)
 
