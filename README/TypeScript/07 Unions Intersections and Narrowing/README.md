@@ -10,9 +10,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [1.1. Union fundamentals member access and the common property rule](<./sections/1. Union Types/1.1. Union fundamentals member access and the common property rule.md>)
 
-1. **What `A | B` means** (set union — a value is *either* — why unions are the primary way to model alternatives in TypeScript).
-2. **The common-property rule** (only properties present on *every* member are safely accessible without narrowing — the checker blocks the rest).
-3. **Unions from optionality** (`T | null`, `T | undefined`, `T | null | undefined` — how `strictNullChecks` turns `T | null` from an erased habit into a checked contract).
+1. **Inclusive membership:** show values satisfying one or both structural alternatives and distinguish allowed inputs from guaranteed operations.
+2. **Member access:** compare common reads, equality/in guards, rejected exclusive reads and an accepted assertion's runtime consequence.
+3. **Nullish contracts:** observe absence, valid empty strings and exact-optional read/write differences under declared flags.
 
 ### [1.2. Discriminated unions the tagged pattern that scales](<./sections/1. Union Types/1.2. Discriminated unions the tagged pattern that scales.md>)
 
