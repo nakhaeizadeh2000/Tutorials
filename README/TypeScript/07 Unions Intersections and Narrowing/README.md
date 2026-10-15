@@ -99,11 +99,11 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [6.1. Common interview QA — unions, intersections and narrowing](<./sections/6. Interview questions and answers/6.1. Common interview QA unions intersections and narrowing.md>)
 
-1. **Why can I only access common members of `A | B` without narrowing?** (the set-safety argument).
-2. **When does `{ kind: "a" } & { kind: "b" }` become `never` — and how do you catch it?** (conflicting literal intersection).
-3. **How do you make a `switch` on a discriminated union exhaustive — and why `never`?** (proof that every variant is handled).
-4. **When does `typeof` narrow and when do you need a custom predicate?** (runtime-checkable vs expression-level narrowing).
-5. **`in` vs `x is T` vs `asserts x is T` — which narrows, when, and for whom?** (caller vs callee, throwing vs returning).
+1. **Common operations:** explain rejected exclusive/optional-chain reads and accepted structural overlap.
+2. **Conflicting intersections:** compare whole-type versus property never and identify meaningful construction/access evidence.
+3. **Exhaustiveness:** predict extension diagnostics and distinguish static coverage from emitted fallback behavior.
+4. **Built-in versus reusable guards:** justify the condition and predicate contract, including current inference and false-case meaning.
+5. **Presence predicates and assertions:** compare branch refinement, own/inherited presence and successful versus rejected continuation.
 
 ---
 
