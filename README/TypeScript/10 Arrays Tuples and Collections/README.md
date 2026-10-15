@@ -89,10 +89,10 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [5.1. Real production bugs caused by collection misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by collection misunderstandings.md>)
 
-1. **`as`-cast array push overflowed a fixed protocol frame** (tuple-typed frame built as `string[]`; 4th field shipped to hardware).
-2. **Mutated shared `sort` reordered a cached leaderboard** (in-place sort on a published array; every reader saw the mutation).
-3. **`Record<string, Handler>` swallowed a missing route** (stringly table accepted absence; unauthenticated path shipped).
-4. **`noUncheckedIndexedAccess` off: `users[0]` typed non-optional and crashed** (index access assumed present; empty page threw).
+1. **Mutable frame overflow:** reproduce accepted tuple pushes, checked readonly construction and actual parsing of unknown fixed-shape input.
+2. **Shared sorting:** observe mutation before slicing, preserve source order and distinguish shared rows from copied editable rows.
+3. **Guard coverage and decisions:** compare explicit missing-entry policies, finite completeness and a type-correct wrong decision.
+4. **Missing indexed reads:** run an asserted empty read, compare index-option behavior and retain known tuple/property contracts without claiming automatic validation.
 
 ---
 
