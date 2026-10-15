@@ -60,9 +60,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [3.2. Template literal composition Capitalize handlers and routes](<./sections/3. Transformations in Practice/3.2. Template literal composition Capitalize handlers and routes.md>)
 
-1. **Intrinsic string mappers** (`Capitalize`/`Uncapitalize`/`Uppercase`/`Lowercase` — compile-time string surgery, no runtime cost).
-2. **Key generation at scale** (`` `on${Capitalize<K>}` `` handler maps, `` `${M} ${P}` `` route tables — shapes the source object never listed).
-3. **String unions as programs** (distributing intrinsics over literal unions to derive exhaustive event/API sets).
+1. **Casing contracts:** verify literal and broad intrinsic behavior while distinguishing type computation from actual runtime conversion.
+2. **Generated value relationships:** apply setting-change names with precise callback inputs and real implementations.
+3. **Legal route combinations:** compare a full product with a version-dependent rule, then validate and dispatch against an actual finite table.
 
 ### [3.3. satisfies and as const preserving literals through transforms](<./sections/3. Transformations in Practice/3.3. satisfies and as const preserving literals through transforms.md>)
 
