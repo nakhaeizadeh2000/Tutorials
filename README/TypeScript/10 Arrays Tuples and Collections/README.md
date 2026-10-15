@@ -68,9 +68,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [3.3. Choosing Array Tuple ReadonlyArray and readonly tuples](<./sections/3. Collections and Selection/3.3. Choosing Array Tuple ReadonlyArray and readonly tuples.md>)
 
-1. **Array vs tuple** (unknown length, same type → array; fixed arity, mixed types → tuple — the one-sentence test).
-2. **Mutable vs readonly** (published/shared data → readonly; local builders → mutable, freeze on exit).
-3. **Review stamp** (three questions — length known? types mixed? mutated after creation? — routing every collection declaration).
+1. **Meaningful shapes:** choose an open row list and a homogeneous positional range tuple from their actual roles and presence requirements.
+2. **Snapshot policy:** build copied scalar rows and explicitly frozen containers; verify source independence, editable drafts, empty ranges and finite-score rejection.
+3. **Review decisions:** justify capabilities, aliases, key semantics and runtime integrity separately rather than applying a universal container stamp.
 
 ---
 
