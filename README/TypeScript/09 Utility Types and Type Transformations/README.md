@@ -44,9 +44,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [2.3. infer pipelines ReturnType Parameters Awaited](<./sections/2. Conditional Types/2.3. infer pipelines ReturnType Parameters Awaited.md>)
 
-1. **Function utilities under the hood** (`ReturnType`, `Parameters`, `ConstructorParameters` — one `infer` pattern each, from 08's four sites).
-2. **`Awaited` as recursive conditional** (unwrapping nested promises via self-reference + `infer` — the stdlib's canonical recursion).
-3. **Composing pipelines** (`Awaited<ReturnType<typeof fetchUser>>` — stacking extraction without intermediate aliases).
+1. **Callable extraction:** verify constraints, last-public-overload metadata, generic unknown results and runtime arity independent of tuple types.
+2. **Awaited boundaries:** compare static recursive unwrapping with actual thenable adoption, unchanged fields and a reproduced recursion failure.
+3. **Real pipelines:** derive a returned array's element type while preserving possible index absence and handling nullable results explicitly.
 
 ---
 
