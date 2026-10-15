@@ -54,9 +54,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [3.1. Deep transforms DeepPartial DeepReadonly and the budget](<./sections/3. Transformations in Practice/3.1. Deep transforms DeepPartial DeepReadonly and the budget.md>)
 
-1. **`DeepPartial` line by line** (mapped recursion with an object stop-condition — the transform 04/3.1 budgeted, owned here).
-2. **Composing mapped with conditional** (recursion guard `T extends object ? … : T` decides per branch whether to descend or stop).
-3. **Budgeting deep transforms in production** (tuple-counter caps, scope-narrowing, largest-schema fixtures — 08/3.2's rules applied to the catalog).
+1. **Recursive input versus update:** reproduce naive callable-contract loss and a shallow nested-patch failure, then perform a concrete repair.
+2. **Container and leaf policies:** define array/tuple, Map/Set, Date/RegExp and function behavior while preserving identity and distinguishing readonly views from runtime immutability.
+3. **Stopping guarantees:** verify explicit cap remainders and required deeper fields without inventing universal depths or checking-cost formulas.
 
 ### [3.2. Template literal composition Capitalize handlers and routes](<./sections/3. Transformations in Practice/3.2. Template literal composition Capitalize handlers and routes.md>)
 
