@@ -88,10 +88,10 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [5.1. Real production bugs caused by class type misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by class type misunderstandings.md>)
 
-1. **Structural class leak** (a `Dog` instance passed where a `Cat` was expected — same shape, no `private` brand — mutated missing field at runtime).
-2. **`private` vs `#private` runtime leak** (`private` hid at compile time but was readable via `obj["field"]` at runtime — `#private` would have thrown).
-3. **`readonly` without freeze** (`readonly` silenced a write but a shared `DEFAULTS` instance was still mutated through an alias).
-4. **Missing `override` hid a rename** (base method renamed; subclass silently became an overload instead of an override — no error until runtime dispatch missed).
+1. **Domain confusion:** reproduce a wrong local-store operation, then distinguish a complete branded contract, assertion bypass and public projection.
+2. **Serialization exposure:** compare checker-private fields and native private names through reflection, JSON and spread.
+3. **Mutation boundaries:** observe writable aliases, shallow freeze and strict getter-only write failures.
+4. **Rename drift:** trace the consumer's inherited call and distinguish stale-name checking from behavioral repair.
 
 ---
 
