@@ -67,9 +67,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [3.3. Custom narrowers predicates asserts and type guards on unions](<./sections/3. Control Flow Narrowing/3.3. Custom narrowers predicates asserts and type guards on unions.md>)
 
-1. **Predicate `x is T` on unions** (`isCircle(shape): shape is Circle` — caller-side narrowing, not body validation; the `in`-guard vs predicate trade).
-2. **`asserts x is T` / `asserts condition`** (throwing narrows after the call; `assertDefined` pattern for early-exit guards).
-3. **`satisfies` + `as const` with unions** (preserving literal discriminants so narrowing stays precise — why `as` widens and hides missing branches).
+1. **Predicate contracts:** compare explicit/inferred/boolean filter results and expose false-branch exclusion errors from partial business checks.
+2. **Assertion continuation:** execute discriminant-condition and argument assertions, their rejected inputs and a dishonest empty assertion.
+3. **Literal contracts:** verify as Shape versus satisfies/const views, exhaustive use, readonly versus runtime mutation and checked table keys.
 
 ---
 
