@@ -16,9 +16,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [1.2. String enums intent and no reverse mapping](<./sections/1. Enum Mechanics/1.2. String enums intent and no reverse mapping.md>)
 
-1. **Explicit string values** (`Up = "UP"` — self-describing at runtime; logged values readable without a lookup table).
-2. **No reverse mapping** (string enums emit one direction only — `Direction["UP"]` is not a thing; debuggability differs from numeric).
-3. **String enums vs string unions at runtime** (the enum *value* exists (`Direction.Up`); the union exists only in types — when the value matters).
+1. **Explicit values and member contracts:** verify stable initializer values, raw-literal rejection and member-to-literal compatibility without treating enums as parsers.
+2. **Forward tables and inverse policy:** observe key/value coincidences, missing reads and duplicate-value collisions; implement an actual unknown-value parser.
+3. **Runtime alternatives:** use a retained const default, a literal union and a named const object for defaults, computed keys and iteration; compare their toolchain/API contracts.
 
 ### [1.3. Heterogeneous ambient and computed members](<./sections/1. Enum Mechanics/1.3. Heterogeneous ambient and computed members.md>)
 
