@@ -32,9 +32,10 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [2.1. Intersection fundamentals merging object shapes](<./sections/2. Intersection Types/2.1. Intersection fundamentals merging object shapes.md>)
 
-1. **What `A & B` means** (set intersection — a value is *both* — why intersections are the glue for mixin / composition patterns).
-2. **Merging object types** (`{a: string} & {b: number}` → `{a: string; b: number}` — reading the merged hover type and overlapping compatible members).
-3. **Intersections vs `extends`** (when `type C = A & B` and `interface C extends A, B` agree and when error messages/conflicts diverge — link back to 04/2.1).
+1. **Simultaneous requirements:** observe one value satisfying both object contracts and compatible member refinement.
+2. **Conflict diagnosis:** distinguish ordinary impossible properties from whole-type discriminant reduction using live probes.
+3. **Runtime composition:** reproduce generic spread overwrites and a bounded implementation with an explicit timestamp policy.
+4. **Heritage choices:** compare declaration-site interface errors with intersection value/access failures and link the full composition owner.
 
 ### [2.2. The never trap conflicting intersections and impossible states](<./sections/2. Intersection Types/2.2. The never trap conflicting intersections and impossible states.md>)
 
