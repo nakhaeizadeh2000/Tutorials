@@ -55,9 +55,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [3.1. Static members generics and static blocks](<./sections/3. Advanced Class Patterns/3.1. Static members generics and static blocks.md>)
 
-1. **Static side is separate** (statics live on `typeof Class` — `Generic<T>` type params are instance-only; static members cannot see `T`).
-2. **Generic classes** (`class Box<T>` — one `T` per instance construction; how inference flows through `new Box(42)` vs `new Box<string>("hi")`).
-3. **Static blocks** (`static { ... }` — ES2022 initialization that runs once at class evaluation; ordering relative to field initializers).
+1. **Constructor and instance contracts:** verify member-side failures, shared generic-class state and independently generic static methods.
+2. **Generic class evidence:** check constructor/map inference, intentional union contracts and minimal repository constraints.
+3. **Static initialization:** trace interleaved fields/blocks, super property access, inherited state and explicit error handling.
 
 ### [3.2. Mixins and class composition without inheritance](<./sections/3. Advanced Class Patterns/3.2. Mixins and class composition without inheritance.md>)
 
