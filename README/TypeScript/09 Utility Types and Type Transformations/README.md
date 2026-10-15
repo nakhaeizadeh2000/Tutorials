@@ -16,9 +16,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [1.2. readonly and optional modifiers with plus and minus](<./sections/1. Mapped Types/1.2. readonly and optional modifiers with plus and minus.md>)
 
-1. **Adding and removing `readonly`** (`+readonly`/`-readonly` — freezing API output vs unfreezing builder input).
-2. **Adding and removing `?`** (`Partial` adds, `Required` removes — why `-?` exists and when stripping optionality is honest).
-3. **Homomorphic modifier memory** (only `keyof T` mappers inherit `?`/`readonly` silently — non-homomorphic mappers start clean).
+1. **Writable views:** add/remove readonly while distinguishing shared aliases, actual copies and runtime freezing.
+2. **Presence and values:** apply optional modifiers and verify exact-mode undefined behavior, required results and a real patch failure.
+3. **Inheritance evidence:** compare filtered/constrained subsets with resolved-key and intersection mappings using actual writes and omissions.
 
 ### [1.3. keyof constrained mapping and template literal keys](<./sections/1. Mapped Types/1.3. keyof constrained mapping and template literal keys.md>)
 
