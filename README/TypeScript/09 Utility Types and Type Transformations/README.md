@@ -98,11 +98,11 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [6.1. Common interview QA — utility types and transformations](<./sections/6. Interview questions and answers/6.1. Common interview QA utility types and transformations.md>)
 
-1. **How does `{ [K in keyof T]?: T[K] }` implement `Partial` — and what makes it homomorphic?** (key iteration + modifier memory).
-2. **Write `Exclude` from memory — and explain which word makes it distribute.** (naked `T` + `never` sink).
-3. **How is `Awaited` implemented — and why must it recurse?** (`infer` payload + self-reference with a non-promise base).
-4. **When does a mapped type *lose* `readonly`/`?` — and how do `-`/`+` modifiers control it?** (homomorphic memory vs explicit operators).
-5. **How do you generate `` `on${Capitalize<K>}` `` keys from a union — and why `as` remapping instead of a second object?** (key computation inside the mapper).
+1. **Mapped structure:** explain Partial and constrained-subset modifier preservation without an exclusive syntax rule.
+2. **Conditional selection:** derive Exclude, predict left-wrapped versus right-pattern results and explain never inputs.
+3. **Awaited limits:** distinguish recursive thenable modeling from actual execution and unbounded termination claims.
+4. **Modifier effects:** verify writable/required results, exact-mode undefined behavior and snapshot versus domain policies.
+5. **Generated contracts:** derive handler names with payload relationships, then test actual callbacks and source evolution.
 
 ---
 
