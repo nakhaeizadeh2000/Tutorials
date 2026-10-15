@@ -38,9 +38,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [2.2. Abstract classes and members when abstract beats interface](<./sections/2. Inheritance and Polymorphism/2.2. Abstract classes and members when abstract beats interface.md>)
 
-1. **`abstract` contract** (`abstract class` cannot be instantiated; `abstract method()` must be implemented — emit is a normal class).
-2. **`abstract` vs `interface` with implementation** (interfaces describe shape only; abstract classes ship shared runtime logic and construction constraints).
-3. **Abstract construct signatures** (`abstract new (...args) => T` — typing factories that accept any subclass constructor).
+1. **Abstract hooks and helpers:** contrast declaration-time obligations, inherited behavior and a concrete throwing stub.
+2. **Independent design choices:** compare shape contracts, ordinary constructor access, runtime mixins and behavior-sensitive base evolution.
+3. **Constructor evidence:** use concrete signatures for construction and abstract signatures for inspection, with a controlled assertion failure.
 
 ### [2.3. Override and polymorphic this typing](<./sections/2. Inheritance and Polymorphism/2.3. Override and polymorphic this typing.md>)
 
