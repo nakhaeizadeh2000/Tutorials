@@ -61,9 +61,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [3.2. Recursive generic types and self-referential patterns](<./sections/3. Variance and Advanced Generic Patterns/3.2. Recursive generic types and self-referential patterns.md>)
 
-1. **The wrapped rule** (recursion must pass through a property/array/union — bare `type X<T> = X<T>` never terminates).
-2. **Generic recursion sites** (`Json<T>`, `DeepReadonly<T>`, linked nodes — the parameter threads through each nesting level).
-3. **Depth budget** (deeply nested instantiation hits `TS2589` — cap depth or flatten before the checker gives up).
+1. **Recursive shapes:** carry payload types through legal arrays/trees while distinguishing cyclic runtime values from declaration legality.
+2. **Transform policy:** reproduce lost callable signatures, preserve chosen function/Date leaves and distinguish readonly views from runtime freezing.
+3. **Computation boundaries:** reproduce TS2589 and verify literal depth caps with explicit unchanged remainders, without inventing universal limits.
 
 ### [3.3. Variadic tuple generics pipe concat and rest capture](<./sections/3. Variance and Advanced Generic Patterns/3.3. Variadic tuple generics pipe concat and rest capture.md>)
 
