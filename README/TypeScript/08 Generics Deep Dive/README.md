@@ -88,10 +88,10 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [5.1. Real production bugs caused by generic misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by generic misunderstandings.md>)
 
-1. **`any` fallback from failed inference reached a price calculation** (untyped fetch generic returned `any`; arithmetic silently produced `NaN`).
-2. **Over-constrained `T extends object` rejected valid primitive IDs** (checkout broke for numeric SKUs the constraint never allowed).
-3. **Missing `as const` widened a literal through a generic boundary** (route table lost `"get"` precision; exhaustive switch stopped failing).
-4. **Unbounded recursive type hit `TS2589` in CI only** (deep config generic compiled locally but timed out the build checker).
+1. **Unverified results:** reproduce a malformed JSON failure through an explicit generic argument, then check the actual field.
+2. **Identifier admission:** distinguish an accidental object bound from an intentional string/number domain and conversion collisions.
+3. **Widened sources:** reproduce the real exhaustiveness diagnostic and separate literal preservation from dynamic validation.
+4. **Stopping contracts:** reproduce TS2589 independently and observe a cap's unchanged mutable remainder.
 
 ---
 
