@@ -88,10 +88,10 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [5.1. Real production bugs caused by union and narrowing misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by union and narrowing misunderstandings.md>)
 
-1. **`in` check without discriminant caused alias narrowing to misfire** (common property narrowed the wrong branch and mutated the wrong shape).
-2. **Conflicting intersection collapsed to `never` and silenced a handler** (the dead branch never ran; no error until a new variant shipped).
-3. **Exhaustiveness without `never` let a new API status fall through `default: break`** (reducer returned stale state; no compile error to catch it).
-4. **Predicate returned `boolean` instead of `x is T` so narrowing never happened downstream** (guard looked correct; the checker never narrowed).
+1. **Wrong mutation:** reproduce a shared-key/cast bypass and repair it while preserving unrelated modal data; distinguish condition and object aliases.
+2. **Impossible input:** reject conflicting-tag construction/access and observe why a forced value can still execute a handler.
+3. **Misleading fallback:** execute a retry status labeled success and use a missing-case check to require explicit behavior.
+4. **Published guard contract:** compare honest boolean, explicit predicate and inferred predicate filters without claiming every boolean is a bug.
 
 ---
 
