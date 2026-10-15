@@ -62,9 +62,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [3.2. Record vs Map indexed access vs hashed keys](<./sections/3. Collections and Selection/3.2. Record vs Map indexed access vs hashed keys.md>)
 
-1. **`Record<K, V>` for fixed key sets** (known keys, object literal syntax, JSON-serializable — the 04/1.2 rule completed).
-2. **`Map` for dynamic keys** (unknown-at-compile-time keys, non-string keys, frequent add/delete — iteration order guaranteed).
-3. **Choosing by four questions** (keys known? keys strings? JSON needed? mutation pattern? — the decision table).
+1. **Required keys and actual contents:** compare finite Record coverage, fresh excess checks, structural aliases, numeric/symbol keys and JSON omissions.
+2. **Property and entry semantics:** observe inherited versus own keys, legacy prototype behavior, a null-prototype dictionary, Map identity and honest missing reads.
+3. **Selection and transport policy:** choose from completeness, key semantics, iteration and value contracts; test conversion collisions instead of assuming automatic JSON compatibility.
 
 ### [3.3. Choosing Array Tuple ReadonlyArray and readonly tuples](<./sections/3. Collections and Selection/3.3. Choosing Array Tuple ReadonlyArray and readonly tuples.md>)
 
