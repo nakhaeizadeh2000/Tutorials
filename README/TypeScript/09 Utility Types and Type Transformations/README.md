@@ -22,9 +22,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [1.3. keyof constrained mapping and template literal keys](<./sections/1. Mapped Types/1.3. keyof constrained mapping and template literal keys.md>)
 
-1. **Constraining the key set** (`K extends keyof T`, `K extends string` — narrowing which keys the mapper visits).
-2. **`as` key remapping** (`[K in keyof T as Prefix<K>]` — renaming keys while mapping values, TS 4.1+).
-3. **Template literal keys** (`` `on${Capitalize<K>}` `` — generating handler/event key sets the object never declared).
+1. **Key admission and projection:** distinguish constraints from filters and static mapped views from actual runtime properties.
+2. **Remapping policy:** implement checked getters, preserve tested modifiers and detect names that collide after remapping.
+3. **Handler relationships:** derive finite keys with event-specific payloads and verify typos, missing handlers and source evolution.
 
 ---
 
