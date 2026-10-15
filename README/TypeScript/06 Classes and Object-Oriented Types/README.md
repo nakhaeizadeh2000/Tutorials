@@ -61,9 +61,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [3.2. Mixins and class composition without inheritance](<./sections/3. Advanced Class Patterns/3.2. Mixins and class composition without inheritance.md>)
 
-1. **Mixin as class expression** (`function Timestamped<B extends Constructor>(Base: B)` — generic constraint that returns an anonymous class extending `Base`).
-2. **Intersection on the instance** (stacking mixins `Timestamped(Loggable(User))` is `&` on the instance side and `extends` on the constructor side).
-3. **When mixins beat `extends`** (cross-cutting concerns without diamond inheritance — trade-off is longer hover types and duplicate declaration emitted).
+1. **Concrete subclass factories:** preserve inferred base arguments/statics and observe actual ancestry and generated identity.
+2. **Abstract composition:** retain abstract hooks until a final concrete subclass implements them.
+3. **Design and cost boundaries:** compare an explicit collaborator, runtime decorators and emitted definitions versus generated class allocation.
 
 ### [3.3. Class type queries InstanceType and constructor signatures](<./sections/3. Advanced Class Patterns/3.3. Class type queries InstanceType and constructor signatures.md>)
 
