@@ -66,9 +66,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [3.3. satisfies and as const preserving literals through transforms](<./sections/3. Transformations in Practice/3.3. satisfies and as const preserving literals through transforms.md>)
 
-1. **Where transforms widen** (mapped output over `string`-typed sources loses literals the input never carried — the source, not the mapper, is usually at fault).
-2. **`as const` sources + `satisfies` contracts** (narrow input, checked shape — the pair that keeps `Theme`/`Route` tables literal through `Partial`/`Pick`).
-3. **Return-the-parameter through transforms** (generic wrappers around utilities must thread `M`, not the constraint — 08/2.1's rule inside utility pipelines).
+1. **Source versus editing contract:** compare literal-snapshot transforms with flexible domain patches and deliberate value-type changes.
+2. **Checking and context:** verify satisfies inference, const-assertion legality and readonly literals without runtime freezing.
+3. **Honest pipeline results:** preserve exact template relationships, distinguish broad patterns from string and return transformed values with an accurate contract.
 
 ---
 
