@@ -60,9 +60,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [3.2. Type inference widening and contextual typing](<./sections/3. Annotations Inference and Literals/3.2. Type inference widening and contextual typing.md>)
 
-1. **Widening defaults** (`let` widens `"hello"` → `string`; `const` keeps `"hello"` — control via annotation or `const` assertion).
-2. **Best common type and contextual typing** (how `let x = [1, "a"]` becomes `(string | number)[]` and how arrow parameters infer without annotation).
-3. **When inference surprises** (`noImplicitAny`, generic inference from empty arrays, `null`/`undefined` widening under `strictNullChecks`).
+1. **Literal and mutable contracts:** compare primitive widening, writable object properties, explicit unions and readonly literal assertions without claiming runtime freezing.
+2. **Candidate and contextual inference:** verify mixed element types and callback parameter evidence, including a real missing-context diagnostic.
+3. **Flow-sensitive surprises:** distinguish evolving empty/null locals from object-property and generic empty-array contexts, then enforce a numeric invariant at the intended boundary.
 
 ### [3.3. Literal types and const assertions](<./sections/3. Annotations Inference and Literals/3.3. Literal types and const assertions.md>)
 
