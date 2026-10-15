@@ -23,9 +23,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [1.3. Generic scope per-call vs per-value and declaration sites](<./sections/1. Generic Fundamentals/1.3. Generic scope per-call vs per-value and declaration sites.md>)
 
-1. **Per-call scope** (function `<T>` is fresh on every call — `map` over `string[]` then `number[]` re-instantiates).
-2. **Per-value scope** (`Box<T>` fixes `T` for the whole value — a `Box<string>` cannot later hold a `number`).
-3. **Declaration-site choice** (generic function vs generic interface vs generic class — which scope the API needs and the `static`-side exclusion).
+1. **Per-call contracts:** compare a generic call signature with a fixed callable view and execute independently typed transformations.
+2. **Stored relationships:** preserve bag writes/reads, choose fresh mapping/fallback types and expose a reader-selected result lie.
+3. **Declaration design:** justify aliases, stored formatter configuration and generic methods from their actual relationships, with explicit erasable fields.
 
 ---
 
