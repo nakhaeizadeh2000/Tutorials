@@ -33,9 +33,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [2.1. Constraints extends narrowing inside the body](<./sections/2. Constraints Defaults and Inference Control/2.1. Constraints extends narrowing inside the body.md>)
 
-1. **What `T extends` promises** (the constraint is the only member access the body may assume — `T extends { length: number }` unlocks `.length`).
-2. **Constraining without erasing use** (callers keep precise subtypes — `T extends string` still returns the literal, not `string`).
-3. **Over-constraining cost** (`T extends object` / `T extends any` blocks primitives silently — keep constraints minimal).
+1. **Body capabilities:** distinguish collection/element requirements, absence and the runtime limit of unchecked inputs.
+2. **Result relationships:** preserve supplied subtypes only when the implementation honors them; contrast identity and transforming returns.
+3. **Bound choice:** compare primitive/readonly admission and forward actual callback arguments rather than trusting a callable constraint alone.
 
 ### [2.2. Defaults and optional type parameters](<./sections/2. Constraints Defaults and Inference Control/2.2. Defaults and optional type parameters.md>)
 
