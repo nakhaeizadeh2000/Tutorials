@@ -39,9 +39,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [2.2. The never trap conflicting intersections and impossible states](<./sections/2. Intersection Types/2.2. The never trap conflicting intersections and impossible states.md>)
 
-1. **Conflicting property trap** (`{ kind: "a" } & { kind: "b" }` → `never` on `kind` — why the whole intersection collapses to `never` and where it silently swallows downstream code).
-2. **Impossible-state modeling** (using `never` to forbid illegal combinations — `HaveKey & WithoutKey` as a design tool, not a bug).
-3. **Detecting the trap early** (hover shows `never`; assignment to `never` errors — the guard before it ships).
+1. **Conflicting property trap:** distinguish whole-type discriminant reduction, ordinary impossible fields and the direction of never assignment.
+2. **Impossible-state modeling:** compare tagged structural assignments with optional forbidden keys and verify both exact-optional modes.
+3. **Detecting the trap early:** run whole/property assertions, rejected fixtures and controlled examples of empty helpers and retained ambient reads.
 
 ### [2.3. Unions and intersections distributive behavior and primitive intersections](<./sections/2. Intersection Types/2.3. Unions and intersections distributive behavior and primitive intersections.md>)
 
