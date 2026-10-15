@@ -61,9 +61,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [3.2. Exhaustiveness never and switch narrowing](<./sections/3. Control Flow Narrowing/3.2. Exhaustiveness never and switch narrowing.md>)
 
-1. **Exhaustiveness via `never`** (`const _exhaustive: never = variant` — the assignment that proves you handled every branch).
-2. **`switch` and `if/else` narrowing** (how control-flow analysis threads narrowed types through `switch(kind)` / `else if`; why `default: assertNever` beats `default: break`).
-3. **When exhaustiveness is worth the ceremony** (public `APIResult`, state machines, reducers — the cases where a missing case is a production bug, not a style nit).
+1. **Static coverage and runtime fallback:** add a union member, observe never-sink errors and compare retained assignment-only versus throwing paths.
+2. **Control-flow evidence:** compare switch/if returns, breaks and grouped cases; distinguish handler-table key coverage from payload correlation.
+3. **Behavior policy:** reproduce a stale reducer fallback, repair all actions and explain when ignored events or parsed external inputs need separate handling.
 
 ### [3.3. Custom narrowers predicates asserts and type guards on unions](<./sections/3. Control Flow Narrowing/3.3. Custom narrowers predicates asserts and type guards on unions.md>)
 
