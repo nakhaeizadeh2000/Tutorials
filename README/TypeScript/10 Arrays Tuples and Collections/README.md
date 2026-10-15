@@ -44,9 +44,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [2.3. Destructuring tuples inference and rest elements](<./sections/2. Tuple Types/2.3. Destructuring tuples inference and rest elements.md>)
 
-1. **Positional destructuring** (`const [name, age] = pair` — each binding gets its slot type; length mismatches error).
-2. **Rest in destructuring** (`const [head, ...tail] = xs` — tuple-aware rest types vs array rest).
-3. **Destructuring function returns** (multi-value returns as tuples — the `useState` shape — vs options objects).
+1. **Bindings and defaults:** infer tuple slots, handle open-array absence and distinguish undefined defaults from nullish fallback and source changes.
+2. **Rest results:** verify fresh mutable tuple tails, shared element references and weaker slice/array contracts; separate binding grammar from tuple-type grammar.
+3. **Related returns and evolution:** preserve tagged tuple correlation through const bindings and compare compatible prefix extensions with exact old tuple contracts.
 
 ---
 
