@@ -10,9 +10,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [1.1. Numeric enums auto values and reverse mapping](<./sections/1. Enum Mechanics/1.1. Numeric enums auto values and reverse mapping.md>)
 
-1. **Auto-incremented values** (`Up` = 0, `Down` = 1 — declaration order becomes data; inserting a member renumbers followers).
-2. **Reverse mapping** (`Direction[0]` → `"Up"` — the emitted lookup table maps both directions; strings and `const` enums lack it).
-3. **Numeric enums as bit flags** (`Read = 1 << 0` — combinable members with `|`; the one numeric-enum pattern that survives migration pressure).
+1. **Numbering and stable codes:** observe automatic sequences, explicit anchors and simulated old/new decoding; separate broad numeric acceptance from validation.
+2. **Runtime reverse entries:** inspect emitted mappings, duplicate aliases, named type keys and missing reads under the index option.
+3. **Bit-mask contracts:** test all/any/empty masks, signed 32-bit limits and a bounded runtime parser; compare an erasable constant-object alternative.
 
 ### [1.2. String enums intent and no reverse mapping](<./sections/1. Enum Mechanics/1.2. String enums intent and no reverse mapping.md>)
 
