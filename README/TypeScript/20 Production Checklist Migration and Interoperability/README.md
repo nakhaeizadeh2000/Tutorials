@@ -111,10 +111,10 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Flag mechanics and migration sequencing theory** (strict family, trio, pairing, composite config) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-2. **Tooling operation and version playbooks** (tsserver, lint tiers, gates operation, upgrade playbooks) — [16 Tooling, Language Server and Ecosystem](<../16 Tooling Language Server and Ecosystem/README.md>).
-3. **Test construction and gate composition** (assertions, doubles, matrices, CI triage) — [17 Testing Types](<../17 Testing Types/README.md>).
-4. **Async evaluation and scale engineering** (promises, combinators, budgets, references) — [18 Async Types and Standard Library](<../18 Async Types and Standard Library/README.md>) + [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>).
-5. **Version-feature indexes** (what changed per release, mapped to topical domains) — [21 Update TypeScript 5.6](<../21 Update TypeScript 5.6/README.md>) + [22 Update TypeScript 5.7](<../22 Update TypeScript 5.7/README.md>) + [23 Update TypeScript 5.8](<../23 Update TypeScript 5.8/README.md>) + [24 Update TypeScript 5.9 and 6.0](<../24 Update TypeScript 5.9 and 6.0/README.md>).
+1. **Configuration and decisions:** connect program/output settings to migration and release evidence.
+2. **Tool interfaces:** locate supported compiler/API pairings and actual tool-operation checks.
+3. **Tests and consumers:** distinguish type tests, runtime behavior and consumed declaration artifacts.
+4. **Completion and scaling:** route application lifecycle observations separately from compiler measurements.
+5. **Published update routes:** use historical feature indexes and the current six-lesson 7.0 assessment without duplicating catalogs.
 
 [← Back to track](<../README.md>)
