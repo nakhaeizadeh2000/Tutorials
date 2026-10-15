@@ -22,9 +22,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [1.3. Heterogeneous ambient and computed members](<./sections/1. Enum Mechanics/1.3. Heterogeneous ambient and computed members.md>)
 
-1. **Heterogeneous members** (mixed string/number in one enum — legal, discouraged; readability and narrowing costs).
-2. **Computed members** (`Len = "a".length` — evaluable expressions as values; const-ness requirements per position).
-3. **Ambient enums** (`declare enum` — describing foreign enums without emitting; the `.d.ts` interop shape).
+1. **Mixed value domains:** observe heterogeneous forward/reverse entries and compare an equivalent union without claiming it removes numeric/string reasoning.
+2. **Computed initialization:** distinguish folded constants, retained runtime expressions and current computed member types; observe call counts and rejected followers.
+3. **Ambient provider contracts:** run a complete declaration/JavaScript/consumer fixture, diagnose missing implementations and test a real declaration/provider version mismatch.
 
 ---
 
