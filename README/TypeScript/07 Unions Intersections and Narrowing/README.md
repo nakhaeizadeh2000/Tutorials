@@ -22,9 +22,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [1.3. Literal unions enums vs unions and exhaustiveness preview](<./sections/1. Union Types/1.3. Literal unions enums vs unions and exhaustiveness preview.md>)
 
-1. **Literal union as a finite set** (`type Direction = "up" | "down"` — behaves like an enum without emitting values).
-2. **Literal union vs `enum`** (literal unions erase, compose with template literals and `Exclude`, and stay erasable under `--erasableSyntaxOnly` — `enum` does not).
-3. **Exhaustiveness hook** (`switch` with missing case should break — `never` assignment that proves it, preview of 3.2).
+1. **Finite inputs:** derive a literal set and execute a runtime membership/parser check without confusing annotations with validation.
+2. **Enum comparison:** verify valid filtering/interpolation, numeric assignment boundaries, emitted constants and the separate erasable gate.
+3. **Exhaustiveness preview:** observe missing-member checking, retained declarations and deliberate runtime fallback/throw behavior.
 
 ---
 
