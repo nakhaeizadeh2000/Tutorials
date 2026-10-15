@@ -99,11 +99,11 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [6.1. Common interview QA — generics deep dive](<./sections/6. Interview questions and answers/6.1. Common interview QA generics deep dive.md>)
 
-1. **Where can `<T>` appear and what scope does each site give?** (function vs interface vs class vs alias).
-2. **What does `T extends { length: number }` unlock inside the body — and what does it still preserve for callers?** (constraint vs precision).
-3. **When is an explicit type argument required instead of inference?** (no inference site, widened literal, `never[]` fallback).
-4. **What does `infer U` do inside `T extends Array<infer U> ? U : never`?** (naming the solved piece).
-5. **`in T` vs `out T` — what breaks when you use `T` in the wrong position?** (variance annotation enforcement).
+1. **Declaration and scope:** explain generic call signatures, fixed views and instance/static parameter ownership.
+2. **Constraint obligations:** justify body operations and returning the actual supplied subtype.
+3. **Inference choices:** compare no evidence, return context and explicit arguments without claiming validation or lost-literal recovery.
+4. **Pattern results:** predict readonly element/head matches and deliberate never non-matches with live probes.
+5. **Variance evidence:** verify directions, distinguish method/property diagnostics and explain annotation limits.
 
 ---
 
