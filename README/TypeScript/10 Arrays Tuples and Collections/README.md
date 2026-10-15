@@ -100,11 +100,11 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [6.1. Common interview QA — arrays, tuples and collections](<./sections/6. Interview questions and answers/6.1. Common interview QA arrays tuples and collections.md>)
 
-1. **When is `[string, number]` preferable to `(string | number)[]`?** (arity + position vs open list).
-2. **Why does `readonly string[]` accept `string[]` but not the reverse?** (read-covariance, write-invariance).
-3. **How does `filter` narrow with an `is` predicate — and why not with `Boolean`?** (predicate vs truthiness overloads).
-4. **`Record<K, V>` vs `Map<K, V>` — which for dynamic user-supplied keys, and why?** (known-serializable vs hashed-dynamic).
-5. **What does `noUncheckedIndexedAccess` change — and what breaks when you enable it?** (index signatures gain `undefined`; every access narrows).
+1. **Tuple versus union array:** explain positional checking and the accepted mutable-method counterexample.
+2. **Readonly assignment:** reason from available operations, shared aliases and deliberate copies without claiming global immutability.
+3. **Callback narrowing:** compare inferred predicates, explicit boolean/Boolean callbacks, falsy data and narrowed-but-optional find results.
+4. **Keyed selection:** distinguish finite completeness, Map entries, null-prototype dictionaries, key identity and transport limits.
+5. **Index-option migration:** identify potentially missing reads, preserve known-property contracts and verify a first-string implementation's type and value policy.
 
 ---
 
