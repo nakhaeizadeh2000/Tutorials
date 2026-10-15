@@ -77,10 +77,10 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [4.1. Classes checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Classes checklist mental models mentors insist on.md>)
 
-1. **Class is both type and value** (the name lives in two declaration spaces — instance type vs constructor value).
-2. **`extends` is inheritance; `implements` is a check** (structural assignability survives either — only `private`/`#private` adds nominal separation).
-3. **`abstract` ships, `interface` describes** (choose by whether subclasses should share runtime logic and construction control).
-4. **`override` + `this` preserve the chain** (`override` proves polymorphism; `this` return keeps subclass identity without re-casting).
+1. **Views and operations:** distinguish instance contracts, constructor values and type-position queries in one checked job API.
+2. **Behavior and compatibility:** separate inherited dispatch, implements checking, public adapters and private/protected origins.
+3. **Abstract obligations:** require concrete factory inputs and inspect which class operations survive emission.
+4. **Override and self returns:** diagnose abstract/concrete marker rules and distinguish preserving a receiver from constructing a copy.
 
 ---
 
