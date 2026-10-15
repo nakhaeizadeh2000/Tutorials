@@ -54,9 +54,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [3.1. Covariance, contravariance, and invariance — who varies which way](<./sections/3. Soundness and variance/3.1. Covariance contravariance and invariance who varies which way.md>)
 
-1. **Definitions** (covariant: same direction `Dog ≤ Animal` → `ReadonlyArray<Dog> ≤ ReadonlyArray<Animal>`; contravariant: opposite ` (Animal) => void ≤ (Dog) => void `; invariant: neither).
-2. **Where each appears** (returns are covariant; function parameters are contravariant — but methods remain bivariant for compat).
-3. **Explicit annotations `in`/`out`** (TypeScript 4.7 introduced variance annotations; compare actual input/output relations and the method exception).
+1. **Substitution direction:** justify producer covariance and consumer contravariance from actual supplied values and operations.
+2. **Checking versus desired safety:** reject strict function-property cell substitutions and reproduce accepted mutable-field/method alias failures.
+3. **Optional annotations:** verify the 4.7 introduction, accepted input/output contracts and property diagnostic versus method exception.
 
 ### [3.2. Function variance and strictFunctionTypes](<./sections/3. Soundness and variance/3.2. Function variance and strictFunctionTypes.md>)
 
