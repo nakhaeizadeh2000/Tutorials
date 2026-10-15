@@ -110,10 +110,10 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Awaited mechanics and conditional/infer evaluation** (recursion, naked-vs-wrapped, stdlib under-the-hood) — [09 Utility Types and Type Transformations](<../09 Utility Types and Type Transformations/README.md>).
-2. **Async testing practice** (rejection tests, float detection, abort doubles, fake timers) — [17 Testing Types](<../17 Testing Types/README.md>).
-3. **Return-type and variance mechanics** (void/never callbacks, strictFunctionTypes, contextual inference) — [05 Functions and Callable Types](<../05 Functions and Callable Types/README.md>).
-4. **Runtime configuration and module pairing** (targets, libs, module/resolution per runtime) — [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>).
-5. **Performance engineering at scale** (check-time budgets, references architecture, event-loop tuning) — [19 Performance, Project References and Scaling](<../19 Performance Project References and Scaling/README.md>).
+1. **Transformations and operations:** locate conditional evaluation separately from async consumption and synchronous iterator helpers.
+2. **Verification evidence:** choose actual type-test tools, completion tests, doubles and declaration-consumer checks.
+3. **Callable boundaries:** distinguish accepted callbacks, returned completion, receivers and cancellation seams.
+4. **Programs and artifacts:** route declarations, libraries, runtime implementations and source/output graph failures.
+5. **Measurement boundaries:** separate application scheduling from published compiler/build scaling owners.
 
 [← Back to track](<../README.md>)
