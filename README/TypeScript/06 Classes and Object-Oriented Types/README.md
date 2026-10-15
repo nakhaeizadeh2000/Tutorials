@@ -67,9 +67,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [3.3. Class type queries InstanceType and constructor signatures](<./sections/3. Advanced Class Patterns/3.3. Class type queries InstanceType and constructor signatures.md>)
 
-1. **Querying the two sides** (`InstanceType<typeof User>` recovers the instance; `ConstructorParameters<typeof User>` peels the `new` signature).
-2. **Abstract construct queries** (`abstract new` vs `new` — why a factory for abstract classes must use `abstract new` construct sig).
-3. **Zero-emit erasure** (every query and utility on classes erases — like object type queries, no runtime cost).
+1. **Derived constructor contracts:** recover instance/argument types from a constructor value and check a concrete wrapper.
+2. **Abstract queries and concrete invocation:** distinguish accepted utility types from safe factory/registry construction and forced missing-hook failures.
+3. **Emission evidence:** inspect actual JavaScript, declaration-only output and the erasable-syntax gate separately.
 
 ---
 
