@@ -32,9 +32,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [2.1. Extends implements and structural class compatibility](<./sections/2. Inheritance and Polymorphism/2.1. Extends implements and structural class compatibility.md>)
 
-1. **`extends` vs `implements`** (`extends` inherits runtime + types; `implements` only checks structural satisfaction — removing it does not change assignability).
-2. **Structural compatibility of classes** (two classes with the same shape are assignable regardless of heritage — `private`/`#private` are the only nominal escape).
-3. **`implements` with interfaces vs type aliases** (why `implements MapLike` prefers `interface` and how `&` composes outside the class).
+1. **Inheritance and contract checking:** observe inherited runtime behavior, a public class target and declaration-versus-use-site missing members.
+2. **Class compatibility:** compare matching public shapes, shared protected origins, unrelated private/protected declarations and assertion limits.
+3. **Legal heritage contracts:** verify comma lists, named intersections and fixed mapped shapes against parser and union-target failures.
 
 ### [2.2. Abstract classes and members when abstract beats interface](<./sections/2. Inheritance and Polymorphism/2.2. Abstract classes and members when abstract beats interface.md>)
 
