@@ -10,9 +10,9 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [1.1. Class as type and value duality instance vs constructor](<./sections/1. Class Type Fundamentals/1.1. Class as type and value duality instance vs constructor.md>)
 
-1. **Dual declaration** (one `class User` creates two things — an instance type `User` and a constructor value `typeof User` — which lives in which declaration space).
-2. **Instance side vs static side** (instance members on `User`, static members and `new` on `typeof User` — `InstanceType<typeof User>` bridges them).
-3. **Construct signatures** (writing `new (x: string) => User` and `abstract new` — why `instanceof` narrows but assignment checks shape).
+1. **Class views:** distinguish instance annotations, constructor values, type-position typeof and retained runtime operations.
+2. **Constructor receivers:** verify inferred static bodies, inherited calls, detachment and explicit receiver requirements.
+3. **Construction and relations:** require concrete factories and contrast abstract erasure, structural assignment, inherited instanceof and custom hooks.
 
 ### [1.2. Constructors parameter properties and instance creation](<./sections/1. Class Type Fundamentals/1.2. Constructors parameter properties and instance creation.md>)
 
