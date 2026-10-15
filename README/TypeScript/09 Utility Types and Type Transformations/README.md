@@ -76,10 +76,10 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [4.1. Utility checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Utility checklist mental models mentors insist on.md>)
 
-1. **Map with mapped, filter with conditional, extract with `infer`** (one primitive per intent — the three-tool rule).
-2. **Prefer stdlib names at call sites** (`Partial`/`Exclude`/`Awaited` read better than their one-line bodies — write bodies only for project wrappers).
-3. **Naked distributes, wrapped tests whole** (the single sentence that predicts every conditional result).
-4. **Budget recursion before it budgets you** (caps, scope, largest-schema fixture — no unbounded deep transform over generated input).
+1. **Relationship and operation:** identify what the transform changes and which JavaScript operation establishes the corresponding value.
+2. **Exact utility contract:** inspect constraints, common-key behavior, domain aliases and snapshot versus editing requirements.
+3. **Alternative and edge evidence:** verify intended distribution, required payloads and relevant never/any/unknown outcomes.
+4. **Integrated review:** execute an async public-export drill and preserve projection, branch coverage and explicit stopping policies.
 
 ---
 
