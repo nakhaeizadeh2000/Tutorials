@@ -10,9 +10,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [1.1. Type parameters declaration instantiation and erasure](<./sections/1. Generic Fundamentals/1.1. Type parameters declaration instantiation and erasure.md>)
 
-1. **What `<T>` declares** (a compile-time parameter listed at the declaration — filled per use, erased before emit).
-2. **Where generics may appear** (function, interface, type alias, class — per-call vs per-value scope and why `static` cannot see class `T`).
-3. **Erasure proof** (`Box<string>` and `Box<number>` emit identical JavaScript — generics are checker-only contracts).
+1. **Parameter relationships:** retain box and first-element contracts, reject unsupported generic-body assumptions and observe an unchecked-value failure.
+2. **Declaration sites:** compare aliases/interfaces/functions/classes and a method/static factory with their own type parameters.
+3. **Erasure evidence:** compare emitted files differing only in a type annotation and execute formatting supplied by runtime callbacks.
 
 ### [1.2. Inference from arguments and explicit type arguments](<./sections/1. Generic Fundamentals/1.2. Inference from arguments and explicit type arguments.md>)
 
