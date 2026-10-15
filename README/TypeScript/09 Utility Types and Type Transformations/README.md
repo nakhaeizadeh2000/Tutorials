@@ -38,9 +38,9 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [2.2. Exclude Extract NonNullable Pick Omit under the hood](<./sections/2. Conditional Types/2.2. Exclude Extract NonNullable Pick Omit under the hood.md>)
 
-1. **One-line implementations** (`Exclude = T extends U ? never : T` and friends — reading stdlib sources as distributive applications).
-2. **Union filters vs object pickers** (`Exclude`/`Extract`/`NonNullable` filter members; `Pick`/`Omit` rebuild shapes — different primitives, often confused).
-3. **When the stdlib name beats a hand-rolled conditional** (readability, hover quality, and the accidental-distribution trap in custom filters).
+1. **Installed definitions:** read actual utility bodies and distinguish Pick/Omit key constraints, literal-preserving filters and useful domain aliases.
+2. **Object alternatives:** compare common-key Omit with an explicitly distributive transform that retains branch payloads.
+3. **Value boundaries:** check current NonNullable behavior, preserve non-nullish primitives and construct a real public projection.
 
 ### [2.3. infer pipelines ReturnType Parameters Awaited](<./sections/2. Conditional Types/2.3. infer pipelines ReturnType Parameters Awaited.md>)
 
