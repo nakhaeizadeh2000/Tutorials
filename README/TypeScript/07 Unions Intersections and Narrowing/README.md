@@ -77,10 +77,10 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [4.1. Unions intersections narrowing checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Unions intersections narrowing checklist mental models mentors insist on.md>)
 
-1. **Unions are checked by what is common — narrow first** (only shared members survive without a guard).
-2. **Tag unions when variants grow** (a `kind` literal scales better than `in` checks and survives refactors).
-3. **Intersections for composition, unions for alternatives** (if the value is both, use `&`; if either, use `|` — do not mix them to simulate exhaustiveness).
-4. **Prove exhaustiveness with `never`** (every public union-typed switch/reducer gets a `never` sink; the next PR that adds a variant must fail).
+1. **Input contract:** explain accepted alternatives, extra structural data and when tags connect required payloads.
+2. **Operation evidence:** identify safe common reads and control-flow evidence before exclusive operations.
+3. **Composition requirements:** require audit metadata on each alternative without confusing types with runtime merging.
+4. **Extension policy:** run a cache-command review drill and observe the checks that fail when an unhandled command is added.
 
 ---
 
