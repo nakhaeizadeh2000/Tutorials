@@ -10,9 +10,9 @@ How TypeScript types the only value that *does* something — functions and ever
 
 ### [1.1. Function type syntax call signatures and callable objects](<./sections/1. Function Type Fundamentals/1.1. Function type syntax call signatures and callable objects.md>)
 
-1. **Syntax inventory** (arrow type `(x: T) => R` vs `interface` call signature vs `type` with construct signature — what each spells and when to use which).
-2. **Callable objects** (functions that carry properties — `{ (x: number): number; debug: string }` — why object + call is one type, not two).
-3. **Erasable and literal-free** (every function-type form erases — no `enum` trap here — and interacts cleanly with `satisfies`/`as const`).
+1. **Invocation contracts:** verify plain/interface calls, construct signatures and a controlled broad-Function failure.
+2. **Properties and views:** distinguish rich-to-plain assignment, inferred same-scope function properties and real counter/cache behavior.
+3. **Context and erasure:** check contextual parameters and literal/published result views while inspecting retained executable state.
 
 ### [1.2. Parameters optional default rest and destructuring](<./sections/1. Function Type Fundamentals/1.2. Parameters optional default rest and destructuring.md>)
 
