@@ -16,9 +16,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [1.2. Readonly arrays and mutable vs frozen arrays](<./sections/1. Array Types/1.2. Readonly arrays and mutable vs frozen arrays.md>)
 
-1. **`readonly T[]` / `ReadonlyArray<T>`** (compile-time freeze: no `push`/`splice`/index-write — the array half of 04/1.2's `readonly`).
-2. **Mutable assignable to readonly** (`T[]` flows into `readonly T[]`, never the reverse — covariance for reading, invariance for writing).
-3. **`as const` arrays and runtime freezing** (literal + readonly inference vs `Object.freeze` runtime — checker promise vs value guarantee).
+1. **Readonly views:** reject ordinary writes through a parameter while observing source aliases, mutable elements and callback effects.
+2. **Assignment and independence:** accept mutable/readonly inputs for reads, reject the reverse assignment and test shallow copies plus unsafe mutable widening.
+3. **Runtime integrity:** compare const assertions, frozen outer arrays, old aliases and mutable children; build a frozen projected snapshot when those requirements apply.
 
 ### [1.3. Array methods map filter reduce typed precisely](<./sections/1. Array Types/1.3. Array methods map filter reduce typed precisely.md>)
 
