@@ -45,9 +45,9 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 
 ### [2.3. infer conditional inference and distributive preview](<./sections/2. Constraints Defaults and Inference Control/2.3. infer conditional inference and distributive preview.md>)
 
-1. **What `infer` extracts** (`T extends Array<infer U> ? U : never` — naming the piece the checker solved for inside a conditional).
-2. **`infer` positions** (return types, array elements, tuple heads, promise payloads — the four extraction sites mentors use daily).
-3. **Distributive preview** (naked `T` distributes over unions — `T extends U ? X : Y` maps member-by-member; full treatment lives in 09).
+1. **Pattern capture:** check readonly element/function return extraction, captured-name scope and deliberate non-match contracts.
+2. **Extraction boundaries:** distinguish guaranteed tuple heads from indexed/optional/array cases and shallow Promise matching from Awaited.
+3. **Distribution preview:** verify bare versus wrapped checked types, the never-input trap and right-side wrapping without duplicating the utility catalog.
 
 ---
 
