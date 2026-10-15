@@ -8,9 +8,9 @@ This domain is an **index** for the TypeScript 5.9-era (stable 2025) and 6.0-era
 
 ### [1.1. Import and export forms — the only syntax `defer` permits](<../12 Modules Namespaces and Declaration Files/sections/1. ES Modules/1.1. import and export forms named default star re-export.md>)
 
-1. **Why it exists** (expensive or platform-specific modules pay load-and-evaluate cost at import time even when rarely used — `import defer * as feature` loads dependencies without evaluating, running module bodies on first export access, so startup work happens only when the feature is touched)
-2. **Production guidance** (namespace-only — `import defer { x }` and default-defer are rejected, so design deferred surfaces as namespaces; TypeScript never downlevels it, so the runtime must support deferred evaluation or the import stays inert — gate adoption per runtime the way [type-only boundaries](<../19 Performance Project References and Scaling/sections/3. Scaling Patterns/3.2. Type-only boundaries import type bulk and erasable scale.md>) gate erasable syntax; keep deferred modules side-effect-honest — the evaluation contract is the [codebase-partitioning](<../19 Performance Project References and Scaling/sections/3. Scaling Patterns/3.1. Codebase partitioning boundaries layers and barrels.md>) layering rule)
-3. **Import-hygiene interplay** (deferred namespaces still traffic in types — the [import-type discipline](<../12 Modules Namespaces and Declaration Files/sections/1. ES Modules/1.2. import type and verbatimModuleSyntax erasable imports.md>) applies unchanged inside deferred modules)
+1. **Evaluation timing:** the owner now compares eager, deferred, unused and dynamic-import entries with observed output. The proposal was Stage 3 on 2026-10-15; compiler support is not a portable-runtime guarantee.
+2. **Execution support:** TypeScript 7.0.2 preserves namespace-only defer syntax. Tested Node 20.20.2 and 22.18.0 reject the native output; the lesson separately verifies a pinned Babel CommonJS transform. Unsupported syntax fails parsing. The transform example does not certify native graph loading or every proposal edge case.
+3. **Import boundaries:** use the owner's explicit dynamic-import alternative when an asynchronous API fits. Deferred imports remain runtime dependencies; [type-only imports](<../12 Modules Namespaces and Declaration Files/sections/1. ES Modules/1.2. import type and verbatimModuleSyntax erasable imports.md>) erase under their separate contract.
 
 ---
 

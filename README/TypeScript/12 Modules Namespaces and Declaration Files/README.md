@@ -10,9 +10,10 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [1.1. import and export forms named default star re-export](<./sections/1. ES Modules/1.1. import and export forms named default star re-export.md>)
 
-1. **Named vs default vs namespace imports** (`import { a }`, `import d`, `import * as ns` — explicitness, single-default convention, namespace-object costs).
-2. **Re-export barrels** (`export { x } from`, `export *` — public-surface curation and the barrel performance/blast-radius trade).
-3. **Export forms and live bindings** (declaration exports vs export lists; imported bindings are read-only views, not copies).
+1. **Import views:** run named, default and namespace forms, aliases and legal dual function exports in a real emitted ESM graph.
+2. **Public barrels:** diagnose conflicting star bindings, explicitly select public names and forward defaults deliberately.
+3. **Binding behavior:** distinguish live aliases, captured default expressions, destructured locals and object mutation.
+4. **Deferred evaluation:** verify preserved syntax, unsupported native parsing, a pinned CommonJS transform and the asynchronous dynamic-import alternative.
 
 ### [1.2. import type and verbatimModuleSyntax erasable imports](<./sections/1. ES Modules/1.2. import type and verbatimModuleSyntax erasable imports.md>)
 
