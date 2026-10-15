@@ -87,10 +87,10 @@ Mapped types derive property contracts, conditional types choose results from ty
 
 ### [5.1. Real production bugs caused by transform misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by transform misunderstandings.md>)
 
-1. **`Partial` at an API boundary hid a missing `price`** (optional-ized response skipped validation; checkout charged zero).
-2. **Hand-rolled `Exclude` distributed accidentally and dropped a state** (non-naked intent written naked — reducer lost `"archived"`).
-3. **Unbounded `DeepPartial` over generated schema timed out CI** (same TS2589 class as 08/5.1, new catalog angle — capped + scoped fix).
-4. **Template-literal route table widened through `Record<string, …>`** (generated `"GET /a"` keys collapsed to `string`; exhaustiveness died).
+1. **Incomplete input:** reproduce a missing-field fallback and validate the actual unknown value before promising completeness.
+2. **Wrong filter pattern:** distinguish strings from object alternatives and perform the matching runtime value filter.
+3. **Counter semantics:** observe a broad depth type stopping at zero and verify literal-cap remainders.
+4. **Registry contracts:** reproduce a missing callback, compare finite/open keys and test source evolution with actual lookup behavior.
 
 ---
 
