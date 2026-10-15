@@ -44,9 +44,10 @@ How TypeScript types the only *blueprint* that is both a value and a type — cl
 
 ### [2.3. Override and polymorphic this typing](<./sections/2. Inheritance and Polymorphism/2.3. Override and polymorphic this typing.md>)
 
-1. **`override` keyword** (TS 4.3+ — `override` proves you actually override a base member; missing base becomes an error instead of a silent overload).
-2. **Polymorphic `this` as return** (`clone(): this` — the return type that tracks the subclass, not the base).
-3. **`this` in methods vs arrows** (method `this` is late-bound and checkable via explicit `this` param; arrow `this` is lexically captured and immune to `strictFunctionTypes` variance).
+1. **Override checking:** distinguish concrete replacements, abstract hook implementations and renamed-base failures.
+2. **Self returns and copying:** preserve a fluent receiver while testing varied constructor state and explicit copy obligations.
+3. **Static factories:** contrast the invalid static self return with a generic constructor receiver and required-argument rejection.
+4. **Class callbacks:** observe implicit detachment, explicit invocation requirements, captured fields and binding remedies.
 
 ---
 
