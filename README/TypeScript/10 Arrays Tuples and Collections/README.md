@@ -38,9 +38,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [2.2. as const tuples literal inference and readonly](<./sections/2. Tuple Types/2.2. as const tuples literal inference and readonly.md>)
 
-1. **`as const` tuple inference** (`["get", 200]` narrows to `readonly ["get", 200]` — literals plus readonly plus tuple-ness in one assertion).
-2. **Literal tuples as derived sets** (`ids[number]` unions, `keyof`-style derivation — the 09/3.3 pair applied to ordered data).
-3. **When `as const` over-narrows** (function arguments expecting `string[]` reject `readonly ["get"]` — widen the parameter, not the argument).
+1. **Literal tuple inference:** compare open, literal and annotated positional contracts, including nested literal versus referenced mutable values.
+2. **Membership and coverage:** derive a union, validate unknown values against a stable runtime table and require every handler explicitly; distinguish tuple order/duplicates from union membership.
+3. **Reader and draft contracts:** admit readonly inputs for reads, retain or deliberately widen copied elements, and check source literals against an independent domain contract.
 
 ### [2.3. Destructuring tuples inference and rest elements](<./sections/2. Tuple Types/2.3. Destructuring tuples inference and rest elements.md>)
 
