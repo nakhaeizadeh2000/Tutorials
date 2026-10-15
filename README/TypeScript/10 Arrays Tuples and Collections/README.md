@@ -22,9 +22,9 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [1.3. Array methods map filter reduce typed precisely](<./sections/1. Array Types/1.3. Array methods map filter reduce typed precisely.md>)
 
-1. **`map`/`filter`/`find` precision** (mapper return becomes element type; `filter` with predicates narrows — `is` vs `Boolean` callback).
-2. **`reduce` accumulator threading** (initial value fixes the accumulator — the most mis-typed stdlib method, and why).
-3. **Mutating vs non-mutating methods** (`sort`/`splice` mutate in place and return; `toSorted`/`toSpliced` copy — typing the difference).
+1. **Callback contracts and selection:** compare inferred/explicit predicates, boolean and truthiness callbacks; preserve intended falsy values and handle missing finds.
+2. **Accumulator and empty-case policy:** verify initialized and unseeded reductions, empty seed inference, finite record totals and sparse input behavior.
+3. **Mutation, results and availability:** observe sort/push/splice returns and copying methods; distinguish target syntax, library declarations and actual runtime support.
 
 ---
 
