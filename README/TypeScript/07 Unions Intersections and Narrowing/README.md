@@ -16,9 +16,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [1.2. Discriminated unions the tagged pattern that scales](<./sections/1. Union Types/1.2. Discriminated unions the tagged pattern that scales.md>)
 
-1. **The discriminant** (a shared literal property `kind: "circle"` that the checker uses to split the union — why literal, not boolean).
-2. **Scaling to many variants** (adding actions/events/states without growing an inheritance tree — the API-evolution advantage over class hierarchies).
-3. **When a non-discriminated union is better** (two primitive alternatives, optional fields, or `in`-check narrowing — the cost of tagging everything).
+1. **Discriminant evidence:** compare string/boolean literal tags, nullable-error correlation and rejected wide/nested payload reads.
+2. **State evolution:** execute deterministic transitions, stale-response policy, missing-case checks and literal-fixture boundaries.
+3. **Representation choice:** justify tags or existing primitive/property distinctions from the intended API, including overlapping inputs.
 
 ### [1.3. Literal unions enums vs unions and exhaustiveness preview](<./sections/1. Union Types/1.3. Literal unions enums vs unions and exhaustiveness preview.md>)
 
