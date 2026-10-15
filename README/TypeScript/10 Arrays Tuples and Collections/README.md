@@ -78,10 +78,10 @@ How TypeScript types *ordered* and *keyed* groups — arrays (`T[]`) for same-ty
 
 ### [4.1. Collections checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Collections checklist mental models mentors insist on.md>)
 
-1. **Arrays for lists, tuples for slots, Maps for dynamic keys** (container follows data shape — the selection instinct).
-2. **Readonly at boundaries, mutable inside** (freeze published snapshots; build locally; never `as`-away freezing).
-3. **Literals narrow at the source** (`as const` tables and tuples keep exhaustiveness alive through every transform).
-4. **Probe arity and element types in review** (`T[]` vs tuple vs `readonly` — hover the declaration, not the usage).
+1. **Shape and key semantics:** distinguish an open work list, positional items/results, complete finite handlers, observed counts and distinct membership.
+2. **Capabilities and coverage:** read readonly inputs, build private results and require handlers explicitly without claiming runtime freezing.
+3. **Value flow and absence:** test empty batches/reductions, missing indexes, repeated operations and an arithmetic counterexample.
+4. **Evidence in review:** separate type probes and rejection checks from executed semantics, then extend the runner with a genuinely implemented operation.
 
 ---
 
