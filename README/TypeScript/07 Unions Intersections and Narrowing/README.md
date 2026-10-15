@@ -55,9 +55,9 @@ How TypeScript types *either/or* and *both* — union (`|`) and intersection (`&
 
 ### [3.1. Built-in narrowers typeof instanceof in and equality](<./sections/3. Control Flow Narrowing/3.1. Built-in narrowers typeof instanceof in and equality.md>)
 
-1. **`typeof` and `instanceof`** (the two runtime checks the checker trusts — narrowing `string | number` with `typeof x === "string"` and `Dog | Cat` with `x instanceof Dog`).
-2. **`in` and property checks** (`"value" in x`, `x.kind === "text"` — narrowing un-discriminated unions without a common literal tag).
-3. **Equality and truthiness** (`x !== null`, `x != null`, `if (x)` — which checks eliminate `null | undefined` and which smuggle falsy bugs).
+1. **Primitive and prototype checks:** observe typeof narrowing/null handling and the limit of instanceof for structurally accepted plain objects.
+2. **Presence evidence:** compare inherited/own keys, optional alternatives on both paths and value checks after unlisted-property narrowing.
+3. **Equality and truthiness:** preserve empty strings and zero intentionally, test equality overlap and distinguish nullish checks from finite-number validation.
 
 ### [3.2. Exhaustiveness never and switch narrowing](<./sections/3. Control Flow Narrowing/3.2. Exhaustiveness never and switch narrowing.md>)
 
