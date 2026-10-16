@@ -23,9 +23,9 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [1.3. Practical class decorators registration and mixins](<./sections/1. Standard Decorators/1.3. Practical class decorators registration and mixins.md>)
 
-1. **Registration pattern** (decorators adding classes to registries — plugin systems, route tables, test collectors without central lists).
-2. **Decorator-driven mixins** (returning extended subclasses from decorators — composition via annotation vs 06/3.2's function form).
-3. **Sealing and freezing via decorators** (preventing extension/mutation declaratively — when annotation beats explicit calls).
+1. **Registration contract:** import a module, register its final replacement constructor, check missing keys and reject collisions.
+2. **Composition and types:** compare decorator-added runtime state with an inferred mixin result and directional ancestry.
+3. **Integrity boundaries:** observe sealing of constructor/prototype objects and shallow instance freezing, including permitted writes.
 
 ---
 
