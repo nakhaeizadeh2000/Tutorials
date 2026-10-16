@@ -101,11 +101,11 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [6.1. Common interview QA — decorators and metadata](<./sections/6. Interview questions and answers/6.1. Common interview QA decorators and metadata.md>)
 
-1. **What does a standard method decorator receive — and what may it return?** (value + context; same-kind replacement or void).
-2. **Legacy vs standard decorators — how do signatures differ, and how do you migrate?** (`target/key/descriptor` vs `value/context`; one decorator at a time).
-3. **What does `emitDecoratorMetadata` emit — and why does a union param record `Object`?** (design-type facts; erased unions degrade).
-4. **In what order do stacked decorators evaluate and apply — and why two phases?** (top-down evaluation, bottom-up application).
-5. **When would you choose a decorator over a higher-order function or mixin?** (declarative annotation at definition vs explicit composition at use).
+1. **Value/context and void:** explain per-kind returns and execute a void-returning decorator that installs instance call behavior.
+2. **Migration evidence:** identify the configured program, consumer, compatible shapes and actual model-specific checks.
+3. **Metadata meaning:** separate emitted approximations, runtime setup and checked interpretation.
+4. **Phase-specific order:** reason about wrappers, composed field transforms and extra callbacks with changed assumptions.
+5. **Design choice:** compare annotation, explicit wrapping, inferred mixins, cache state and container lifetime.
 
 ---
 
