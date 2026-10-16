@@ -79,10 +79,10 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [4.1. Decorators checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Decorators checklist mental models mentors insist on.md>)
 
-1. **Standard by default, legacy by framework requirement** (TS 5.0+ signature needs no flag; legacy needs `experimentalDecorators` + a recorded framework reason).
-2. **Decorators observe and wrap — never silently change contracts** (additive behavior only; signature-preserving wrappers).
-3. **Metadata serves frameworks, not application logic** (attach data for consumers; keep business rules in explicit code).
-4. **Prefer explicit composition where annotation hides control flow** (HOF calls and mixins where `@` obscures — readability over decoration).
+1. **Configured model and artifact:** identify program settings, consumer requirements and executed output before accepting a migration.
+2. **Observable contract:** review receiver, identity, errors, field evaluation and initialization beyond replacement-type compatibility.
+3. **Metadata evidence:** locate the producer, runtime store and checked reader, including missing-data and inheritance policies.
+4. **Policy ownership:** choose composition, cache invalidation and dependency lifetimes from actual tested behavior.
 
 ---
 
