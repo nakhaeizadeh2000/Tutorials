@@ -54,9 +54,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [3.1. Hand-rolled schemas parse validate narrow](<./sections/3. Schema Validation in Practice/3.1. Hand-rolled schemas parse validate narrow.md>)
 
-1. **Parse functions returning unions** (`parseUser(raw): User | ParseError[]` — validation discharging `unknown` honestly).
-2. **Composing small parsers** (field parsers → object parsers → array parsers — bottom-up construction, tested per unit).
-3. **Narrowing after parse** (parsed values flow un-asserted — no `as` downstream of a real parser, ever).
+1. **Honest parser contracts:** distinguish tagged success/failure, unknown inputs, application constraints and transformed outputs.
+2. **Worked composition:** run primitive, own-data object, dense-array and JSON parsers with located errors and nested-array success.
+3. **Consumer evidence:** narrow results, observe copied output and explain which invariants ordinary TypeScript types do not preserve.
 
 ### [3.2. Schema objects and inferred types](<./sections/3. Schema Validation in Practice/3.2. Schema objects and inferred types.md>)
 
