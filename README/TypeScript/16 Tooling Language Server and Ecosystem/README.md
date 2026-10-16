@@ -1,6 +1,8 @@
 # Tooling, Language Server and Ecosystem
 
-How TypeScript *works you* — the language server (navigation, renames, refactors, inlay hints) as a daily instrument, lint/format pipelines (typescript-eslint, Prettier/dprint) as enforced conventions, package-health checks (publint, attw/are-the-types-wrong) as release gates, and debugging plus ecosystem practices (tsserver logs, playground/twoslash docs, version upgrades). The *why* of editor superpowers lives in [01 Fundamentals](<../01 Fundamentals and Mental Model/README.md>) ([2.3. Language server](<../01 Fundamentals and Mental Model/sections/2. How TypeScript doesnt execute/2.3. The language server editor superpowers that justify TypeScript.md>)); flag configuration lives in [13 Configuration](<../13 Configuration and Compiler Options/README.md>) — this domain owns *tooling practice*: using, tuning, debugging, and gating the ecosystem around the compiler.
+Use and investigate the tools around a TypeScript program: native language-server queries and edits, typed lint policies, formatting, package-health checks, documentation verification and compiler upgrades. Worked fixtures distinguish requested operations, actual results and their limits. Native compiler examples use TypeScript 7.0.2; API-dependent tools explicitly name their compatible compiler dependency. Runtime and tool versions are stated with each fixture.
+
+[Fundamentals](<../01 Fundamentals and Mental Model/README.md>) explains why checking and editor queries are useful. [Configuration](<../13 Configuration and Compiler Options/README.md>) owns compiler options, and [publishing](<../12 Modules Namespaces and Declaration Files/sections/3. Declaration Files in Practice/3.3. Publishing types exports map and typesVersions.md>) owns package metadata and consumer contracts. This domain adds actual tooling operations and failure diagnosis to those foundations.
 
 ## 0. Prerequisites
 
