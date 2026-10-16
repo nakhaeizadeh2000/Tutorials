@@ -39,9 +39,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [2.2. declare global and global augmentation](<./sections/2. Namespaces and Ambient Contexts/2.2. declare global and global augmentation.md>)
 
-1. **`declare global` in modules** (adding to the global scope from inside a module file — the escape hatch with a lint fence around it).
-2. **Augmenting `Window`/`globalThis`** (third-party script globals, environment flags — typed once in a `globals.d.ts`, consumed everywhere).
-3. **Why globals are a last resort** (implicit coupling, name collisions, test pollution — the review bar for new globals).
+1. **Program inclusion and providers:** distinguish module augmentation placement, declaration visibility, actual preload execution and validated configuration inputs.
+2. **Host and binding shape:** run Node's missing-window case and a real browser Window/var/const/let provider to separate lexical globals from globalThis properties.
+3. **Honest global contracts:** test missing providers, invalid values and snapshots while keeping shared-state cleanup and ownership explicit.
 
 ### [2.3. Ambient modules declare module wildcards](<./sections/2. Namespaces and Ambient Contexts/2.3. Ambient modules declare module wildcards.md>)
 
