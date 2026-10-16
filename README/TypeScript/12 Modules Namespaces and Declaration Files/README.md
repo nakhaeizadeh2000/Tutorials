@@ -67,9 +67,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [3.3. Publishing types exports map and typesVersions](<./sections/3. Declaration Files in Practice/3.3. Publishing types exports map and typesVersions.md>)
 
-1. **`types` + `exports` map** (`package.json` wiring: `types` entry, `exports` per-subpath types — what resolvers read in which order).
-2. **`typesVersions` for multi-version support** (serving different declarations per TS version — when needed, how structured, sunset discipline).
-3. **Publishing checklist** (declarations generated, exports mapped, smoke-imported under tsc + bundler + Node stripping before release).
+1. **Real package boundaries:** build ESM/CommonJS artifacts with matching declarations, pack them and check installed consumers and public subpaths.
+2. **Compiler-version support:** observe typesVersions paths, inference differences, exports precedence and versioned type conditions across pinned compilers.
+3. **Release evidence:** inspect tarball contents and run the supported checker, loader and bundler combinations without treating one smoke test as universal proof.
 
 ---
 
