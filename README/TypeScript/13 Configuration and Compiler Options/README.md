@@ -84,12 +84,11 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 ## 5. Common pitfalls → production bugs (configuration)
 
-### [5.1. Real production bugs caused by configuration misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by configuration misunderstandings.md>)
+### [5.1. Configuration failure modes reproduced locally](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by configuration misunderstandings.md>)
 
-1. **`strict: false` shipped `undefined` is not an object across checkout** (unstrict nullability; crash class `strictNullChecks` deletes).
-2. **Mismatched module/resolution pair bundled CJS as ESM and crashed** (`module: nodenext` + `moduleResolution: node` legacy — interop divergence at customer load).
-3. **Elided side-effect import skipped plugin registration in prod only** (heuristics vs bundlers — the 12/5.1 class, fixed by verbatim discipline).
-4. **`skipLibCheck: false` on generated declarations timed out CI** (checking 50k-line codegen `.d.ts` — scope the flag per path, not globally).
+1. **Classify the failing boundary:** route nullable reads, runtime resolution and registration/evaluation reports to complete local reproductions.
+2. **SkipLibCheck trade-offs:** run a faulty declaration with a real provider and observe a hidden missing type leaking into accepted consumer code.
+3. **Repair contract agreement:** verify retained source/signature checks, fix the declaration and consumer, and keep performance claims tied to measurements.
 
 ---
 
