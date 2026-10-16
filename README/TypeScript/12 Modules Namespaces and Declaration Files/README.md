@@ -55,9 +55,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [3.1. Authoring d.ts public API surface](<./sections/3. Declaration Files in Practice/3.1. Authoring d.ts public API surface.md>)
 
-1. **What belongs in `.d.ts`** (public types + signatures only — no implementations, no private helpers, no test-only shapes).
-2. **`export` discipline in declarations** (named exports by default; default-export only mirroring a default-exporting implementation).
-3. **Keeping declarations in sync** (generate from source with `declaration: true` — hand-written `.d.ts` rots; generated stays exact).
+1. **Inspect the real declaration surface:** generate supporting non-exported types, helper signatures, private markers, literal constants and a declaration map from source.
+2. **Verify consumers and runtime agreement:** check a consumer against built declarations, expose an asserted runtime lie and distinguish declaration-only output from a provider.
+3. **Maintain an intentional boundary:** validate handwritten declaration syntax and observe public API additions, private supporting-name changes and stale artifact behavior.
 
 ### [3.2. Module augmentation at file scale](<./sections/3. Declaration Files in Practice/3.2. Module augmentation at file scale.md>)
 
