@@ -10,9 +10,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [1.1. Expect Equal and compile-time type assertions](<./sections/1. Type Assertions in Tests/1.1. Expect Equal and compile-time type assertions.md>)
 
-1. **`Equal<A, B>` identity check** (conditional-identity trick — exact equality, not mere assignability).
-2. **`Expect<T extends true>` gate** (assertion positions that error on drift — declaration-file probes).
-3. **Where assertions live** (colocated `*.test-d.ts` vs inline probes — visibility vs noise).
+1. **Chosen type relation:** compare directional assignability with a representation-sensitive equality helper and its limits.
+2. **Actual constraint gates:** run a selected compile-only suite, observe contract drift and separate checking from emission.
+3. **Runtime boundary:** inspect a retained ambient call and test instantiation-expression constraints without claiming value expressions erase.
 
 ### [1.2. tsd expect-type and type-testing libraries](<./sections/1. Type Assertions in Tests/1.2. tsd expect-type and type-testing libraries.md>)
 
