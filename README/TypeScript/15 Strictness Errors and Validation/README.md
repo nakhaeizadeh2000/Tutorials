@@ -22,9 +22,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [1.3. satisfies as a validation gate](<./sections/1. Assertion Functions/1.3. satisfies as a validation gate.md>)
 
-1. **`satisfies` checking without widening** (contracts verified, literals preserved — the 04/09 mechanic applied as a gate).
-2. **Gating config and tables** (`as const satisfies Contract` — typo-proof narrow tables feeding transforms).
-3. **`satisfies` vs `as` vs annotation** (check-and-keep vs override vs widen — three intents, three syntaxes, zero interchange).
+1. **Source compatibility and context:** compare a checked literal snapshot, contextual inference and an intentionally broader annotated value.
+2. **Key contracts:** test finite required keys, open dictionaries and fresh versus nonfresh extra properties.
+3. **Runtime boundary:** expose unchecked JSON passing satisfies and repair it with an actual unknown-input reader.
 
 ---
 
