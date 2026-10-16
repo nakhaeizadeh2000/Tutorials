@@ -96,11 +96,11 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [6.1. Common interview QA — strictness errors and validation](<./sections/6. Interview questions and answers/6.1. Common interview QA strictness errors and validation.md>)
 
-1. **`x is T` vs `asserts x is T` — which narrows, for whom, and what happens on failure?** (caller-narrowing vs thrower-narrowing).
-2. **When do you return `Result` vs throw — and how do callers handle each?** (expected failures vs programmer bugs).
-3. **Parse vs validate — what's the difference, and where does each run?** (unknown→typed production vs typed→checked verification).
-4. **Why is `catch { return default }` dangerous — and what belongs in catch blocks?** (swallowing vs narrowing+handling).
-5. **How do you type an `unknown` API response with zero `as` casts?** (parse pipeline: unknown → guard → narrowed → flowing).
+1. **Predicates and assertions:** explain caller information, false-branch correctness and implementation trust.
+2. **Result and exceptions:** identify returned alternatives, unconsumed values, callback throws and consumer policy.
+3. **Evidence lifetime:** explain representation refinement, mutable aliases and justified later checks.
+4. **Catch and reporting policy:** distinguish specified recovery, propagated failures and reporter completion.
+5. **Unknown-input verification:** connect actual parsers/schema inference, malformed-input tests and host integration evidence.
 
 ---
 
