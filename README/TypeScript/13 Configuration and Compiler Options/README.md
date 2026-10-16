@@ -46,7 +46,7 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 1. **Deletion-only syntax gate** (the full restricted-form inventory, observed diagnostics and compatibility-aware migration).
 2. **The trio as project standard** (bounded flag guarantees plus a source/emitted ESM graph with explicit import-extension rewriting).
-3. **Adopting per directory** (scope configuration and diagnostics, verify runtime assumptions and review migration trade-offs).
+3. **Scoped adoption:** verify the actual compiler program and its runtime assumptions before selecting a directory or package as a migration unit.
 
 ---
 
