@@ -1,6 +1,6 @@
 # Strictness, Errors and Validation
 
-How TypeScript *proves* correctness at runtime boundaries — assertion functions (`asserts x is T`) that narrow by throwing, error-as-value patterns (`Result<T, E>`) that type failure into signatures, and schema validation (parse-don't-validate) that converts unknown inputs into proven types. Predicate/assert *mechanics* live in [05 Functions](<../05 Functions and Callable Types/README.md>) ([3.3. Type guards](<../05 Functions and Callable Types/sections/3. Advanced Callable Patterns/3.3. Type guards predicates asserts and satisfies on functions.md>)) and [07 Unions](<../07 Unions Intersections and Narrowing/README.md>) ([3.3. Custom narrowers](<../07 Unions Intersections and Narrowing/sections/3. Control Flow Narrowing/3.3. Custom narrowers predicates asserts and type guards on unions.md>)); strict *flags* live in [13 Configuration](<../13 Configuration and Compiler Options/README.md>) — this domain owns *validation practice*: when to assert vs narrow, how to model errors as values, and how to validate boundaries so thoroughly that `as` casts become unnecessary.
+This domain applies TypeScript contracts to runtime validation and failure handling. Assertions communicate successful continuation, Result values describe modeled failures, and parsers check incoming values. Runtime guarantees depend on the executed implementation and its ownership assumptions; a signature alone does not prove a validator correct. Predicate/assertion mechanics live in [05 Functions](<../05 Functions and Callable Types/README.md>) and [07 Unions](<../07 Unions Intersections and Narrowing/README.md>), while compiler strictness options live in [13 Configuration](<../13 Configuration and Compiler Options/README.md>). Here the focus is consumer behavior, error policy and boundary evidence.
 
 ## 0. Prerequisites
 
@@ -10,9 +10,9 @@ How TypeScript *proves* correctness at runtime boundaries — assertion function
 
 ### [1.1. Assertion signatures asserts condition and asserts x is T](<./sections/1. Assertion Functions/1.1. Assertion signatures asserts condition and asserts x is T.md>)
 
-1. **`asserts condition` shape** (throwing guards that narrow truthiness — `assertDefined(x)` proving non-null downstream).
-2. **`asserts x is T` shape** (throwing type-guards — narrowing to full types, not just non-null).
-3. **Assertion libraries** (shared `assert`/`assertDefined`/`assertNever` per codebase — one narrowing vocabulary, tested once).
+1. **Precise continuation:** distinguish an asserted condition from nullish checks using active union inputs.
+2. **Honest shape enforcement:** run a shared Config assertion and caller with actual valid/malformed outcomes and an explicit throw policy.
+3. **Library trust and lifetime:** expose a lying helper, mutation after a valid check and the runtime limit of a never sink.
 
 ### [1.2. Type predicates vs assertions caller vs thrower](<./sections/1. Assertion Functions/1.2. Type predicates vs assertions caller vs thrower.md>)
 
