@@ -97,11 +97,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [6.1. Common interview QA — modules namespaces and declaration files](<./sections/6. Interview questions and answers/6.1. Common interview QA modules namespaces and declaration files.md>)
 
-1. **Named vs default vs `import *` — which to prefer, and what does each cost?** (explicitness, single-default, namespace-object weight).
-2. **What does `import type` guarantee that plain `import` doesn't — and what enforces it?** (full erasure; `verbatimModuleSyntax`).
-3. **When is a namespace still the right tool — and what replaces it elsewhere?** (ambient/generated corners; modules otherwise).
-4. **`declare module "pkg"` vs real `.d.ts` — which wins, and when do you delete the shim?** (resolution order; arrival of upstream types).
-5. **What must a published package wire for types — and how do you verify it?** (`types` + `exports` + smoke imports on three pipelines).
+1. **Import semantics and bundle evidence:** reason about aliases, default/named identities and static versus reflected namespace usage under a pinned bundler.
+2. **Type traffic and namespace identity:** explain statement erasure, retained evaluation and intentional module-namespace augmentation.
+3. **Provider and package diagnosis:** use actual declaration context and installed-consumer evidence instead of fixed resolution ladders or universal release gates.
 
 ---
 
