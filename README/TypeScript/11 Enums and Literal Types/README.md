@@ -60,9 +60,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [3.2. Exhaustive switches over enums and unions](<./sections/3. Literals and Nominal Patterns/3.2. Exhaustive switches over enums and unions.md>)
 
-1. **Enum-member exhaustiveness** (`switch (dir)` with `never` default — adding a member breaks the build; the 07/3.2 mechanic on enum inputs).
-2. **Reverse-mapping widening trap** (`Direction[0]` types `string`, not `"Up"` — numeric reverse lookup escapes literal precision).
-3. **Union exhaustiveness parity** (same `never` sink over `"up" | "down"` — proof that unions match enums on safety while winning on erasure).
+1. **Enum and union coverage:** observe matching never-sink failures after an addition, retained runtime throws and semantically wrong fallbacks that still compile.
+2. **Reverse names and numeric boundaries:** distinguish open reverse lookup types, inherited property keys and a parser that actually admits recognized values.
+3. **Independent extension obligations:** update a member handler and parser separately, then test runtime acceptance rather than treating a successful build as completeness.
 
 ### [3.3. Nominal enum patterns branding vs enums](<./sections/3. Literals and Nominal Patterns/3.3. Nominal enum patterns branding vs enums.md>)
 
