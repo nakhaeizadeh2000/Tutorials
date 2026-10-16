@@ -97,11 +97,11 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [6.1. Common interview QA — tooling language server and ecosystem](<./sections/6. Interview questions and answers/6.1. Common interview QA tooling language server and ecosystem.md>)
 
-1. **What does the language server do that `tsc` doesn't — and when do you run each?** (interactive queries vs batch verification).
-2. **Which typescript-eslint rules actually need type information — and why are they worth the cost?** (checker-backed rules vs syntax rules).
-3. **What do publint and attw check that `tsc` can't — and when do they run?** (packaging + consumer-resolution vs program checking).
-4. **How do you debug a slow or broken tsserver — in what order?** (logs → project loading → tuning knobs → bisection).
-5. **How do you upgrade TypeScript across a monorepo — without a flag-day?** (changelog triage, branch builds, error-class order, dual verification).
+1. **Compiler versus editor:** explain native/legacy interfaces and state-dependent diagnostics.
+2. **Typed lint:** identify type-information requirements, overlapping diagnostics and actual Promise handling.
+3. **Package artifacts:** interpret health results alongside strict consumers and behavioral assertions.
+4. **Investigation:** choose operation-specific evidence and test one hypothesis without fixed tuning rules.
+5. **Upgrade decisions:** preserve interface/consumer checks and complete rollback inputs.
 
 ---
 
