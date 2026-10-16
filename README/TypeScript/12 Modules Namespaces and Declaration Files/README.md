@@ -77,10 +77,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [4.1. Modules checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Modules checklist mental models mentors insist on.md>)
 
-1. **ES modules by default, namespaces almost never** (modules for code; namespaces for ambient/generated corners only).
-2. **Type traffic travels `import type`** (`verbatimModuleSyntax` enforced — stripping-safe, cycle-safe, weight-free).
-3. **Ambient declarations describe foreign truth** (mirror exactly, trust explicitly, delete when real types land).
-4. **Publish generated declarations, tested on three pipelines** (tsc + bundler + stripping — the universality proof before release).
+1. **Follow one graph:** integrate type-only dependencies, deliberate setup evaluation and an ambient global through emitted and native-source runs.
+2. **Diagnose separate failures:** distinguish erased statements, retained empty imports, missing providers and checker-only names.
+3. **Review supported boundaries:** apply namespace, augmentation and packed-consumer evidence without assuming universal migration or toolchain guarantees.
 
 ---
 
