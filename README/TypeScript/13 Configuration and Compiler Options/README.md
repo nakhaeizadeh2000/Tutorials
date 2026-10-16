@@ -54,9 +54,9 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 ### [3.1. module and moduleResolution pairing](<./sections/3. Modules Emit and Projects/3.1. module and moduleResolution pairing.md>)
 
-1. **Pairing rules** (`nodenext`↔`nodenext`, `bundler`↔`bundler`, `node16`+CJS scope — matched pairs resolve identically at check and run time).
-2. **tsc-7 removals** (`node10` resolution gone, `esModuleInterop: false` gone — defaults discovered in units 61/67, configured here).
-3. **Choosing per runtime** (Node ESM → nodenext; bundlers → bundler; libraries → clean ESM emit with dual conditions).
+1. **Supported settings and defaults:** distinguish output format from resolution mode, legal combinations, compiler errors and inferred NodeNext resolution.
+2. **Host-specific evidence:** reproduce an extensionless bundler success/native failure and align a local package's browser/node/fallback conditions explicitly.
+3. **Migration and publication limits:** verify removed-option diagnostics and choose actual library formats and declarations rather than assuming metadata creates implementations.
 
 ### [3.2. declaration composite project references](<./sections/3. Modules Emit and Projects/3.2. declaration composite project references.md>)
 
