@@ -90,10 +90,10 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [5.1. Real production bugs caused by decorator misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by decorator misunderstandings.md>)
 
-1. **Legacy/standard decorator mix silently double-wrapped methods** (migrated file kept one legacy import; timing logged twice, memo cache keyed inconsistently).
-2. **`emitDecoratorMetadata` `Object` fallback injected the wrong service** (union-typed constructor param recorded as `Object`; container resolved a garbage dependency at boot).
-3. **Field decorator ordering ran validation before initialization** (definition-time vs instance-time confusion; rules evaluated against `undefined` fields).
-4. **Unbound method passed as callback lost `this` through decoration** (wrapped function detached from instance; `this` undefined at call time).
+1. **Wrong model:** reproduce an incompatible legacy signature under standard configuration and repair the actual call contract.
+2. **Metadata trust:** observe a broad constructor approximation, expose unsafe provider construction and supply a typed recipe.
+3. **Field storage/order:** diagnose a hook writing the wrong property and a later field overwriting its collection.
+4. **Receiver binding:** run a detached decorated failure, explicit binding and a real per-instance binding initializer.
 
 ---
 
