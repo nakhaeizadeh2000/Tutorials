@@ -62,9 +62,9 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [3.2. Logging timing and memoization decorators](<./sections/3. Patterns in Practice/3.2. Logging timing and memoization decorators.md>)
 
-1. **Method wrapping** (logging entry/exit, timing spans — around-advice via function replacement in standard signature).
-2. **Memoization decorators** (caching per arguments — `Map`-keyed method results with invalidation notes).
-3. **Wrapping vs composing functions** (decorator syntax vs higher-order calls — when `@` earns its indirection over plain composition).
+1. **Observation boundaries:** execute synchronous return/throw timing, sink-failure policy and separate promise-settlement instrumentation.
+2. **Cache policy:** demonstrate receiver isolation, undefined hits, FIFO capacity, real clearing and state staleness with exact call counts.
+3. **Application choice:** use one typed wrapper through annotation or an explicit call, and expose promise identity and JSON-key limitations.
 
 ### [3.3. Dependency injection with decorators](<./sections/3. Patterns in Practice/3.3. Dependency injection with decorators.md>)
 
