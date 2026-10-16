@@ -76,10 +76,9 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 ### [4.1. Configuration checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Configuration checklist mental models mentors insist on.md>)
 
-1. **Strict trio first, everything else after** (`strict` + `isolatedModules` + `verbatimModuleSyntax` — the foundation all other flags assume).
-2. **Erasable by default, recorded where not** (trio-clean new code; legacy exemptions dated; survivors documented like 11's enum stamp).
-3. **Pair module settings, generate declarations, map exports** (resolution matches runtime; consumers check signatures; surfaces mapped).
-4. **Migrate flags with triage, never flag-days** (per-directory adoption, error-class-ordered triage, CI gates per flag).
+1. **Review one effective program:** compare a strict syntax-checked baseline with separately enabled indexed and optional-property checks.
+2. **Repair intended behavior:** implement missing-product and update policies, then inspect the changed inferred declaration contract.
+3. **Name untested boundaries:** distinguish emitted execution, source runners, provider validation, project builds and installed packages before selecting migration checks.
 
 ---
 
