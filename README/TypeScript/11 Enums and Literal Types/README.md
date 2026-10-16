@@ -66,9 +66,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [3.3. Nominal enum patterns branding vs enums](<./sections/3. Literals and Nominal Patterns/3.3. Nominal enum patterns branding vs enums.md>)
 
-1. **Branded string unions for domain ids** (`` `user_${string}` `` + brand — nominal-flavored identity without enum emit).
-2. **When enum identity wins** (foreign-protocol numeric codes, reverse-lookup debugging, ambient declarations — value-identity needs).
-3. **Choosing nominal flavor** (brand vs enum vs opaque class — the identity decision table for domain modeling).
+1. **Domain distinction and representation:** compare checked branded id callers with actual validation, assertion bypass and unchanged primitive serialization.
+2. **Tables are independent data:** combine a branded numeric code with Map lookup and compare enum-generated reverse entries without claiming exclusive ownership of lookup behavior.
+3. **Class identity and private state:** distinguish static private-member compatibility, prototype-based instanceof and actual private-field possession; test an intentional serialization change.
 
 ---
 
