@@ -56,9 +56,9 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [3.1. Validation decorators field rules](<./sections/3. Patterns in Practice/3.1. Validation decorators field rules.md>)
 
-1. **Rule registration per field** (`@Min(0)`, `@IsEmail` — constraints collected into a schema at class-definition time).
-2. **Running validation** (schema + instance → error list — the validate function frameworks provide, hand-rolled here for teaching).
-3. **Decorators vs schema objects** (annotation-colocated rules vs central schemas (Zod-style) — locality vs explicitness trade).
+1. **Actual registration and enforcement:** record range/nonempty rules and run a complete flat own-property validator.
+2. **Failure and inheritance policies:** reject missing schemas, malformed values and unsupported properties while isolating parent, child and unrelated rules.
+3. **Consumer choice:** compare an explicit rule object with decorators and state the limits of error lists, plain-input support and framework compatibility.
 
 ### [3.2. Logging timing and memoization decorators](<./sections/3. Patterns in Practice/3.2. Logging timing and memoization decorators.md>)
 
