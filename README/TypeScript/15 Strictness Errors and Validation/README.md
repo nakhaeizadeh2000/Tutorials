@@ -44,9 +44,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [2.3. Never-throw boundaries and error budgets](<./sections/2. Error Values and Hierarchies/2.3. Never-throw boundaries and error budgets.md>)
 
-1. **Never-throw function contracts** (pure computation + event handlers that must not propagate — catch-and-report внутри).
-2. **Error budgets per boundary** (which throws cross ( programmer bugs → crash reporting), which convert to values (expected failures → Results)).
-3. **Top-level handling architecture** (one uncaught handler per runtime — logging, reporting, graceful degradation in one place).
+1. **Explicit containment:** distinguish sync callback exceptions, awaited rejections and signatures that permit throwing.
+2. **Owned completion:** preserve operation and reporter outcomes, test failure injection and identify detached or hanging work.
+3. **Host and reliability limits:** observe fatal Node diagnostics in isolated processes and separate boundary policy from measured service error budgets.
 
 ---
 
