@@ -66,9 +66,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [3.3. Version management and upgrade playbooks](<./sections/3. Debugging and Ecosystem/3.3. Version management and upgrade playbooks.md>)
 
-1. **Pinning vs ranging TypeScript** (exact pins for apps, ranges for libraries — what each choice costs at upgrade time).
-2. **Upgrade playbook** (changelog triage, `tsc` on a branch, error-class-ordered fixes, dual-pipeline verification — the 13/4.1 migration discipline applied to the compiler itself).
-3. **Ecosystem lag management** (framework/editor/linter support windows — upgrading past what the ecosystem supports, staged).
+1. **Tool and consumer contracts:** distinguish development pins, resolved graphs, API peers and published declaration support.
+2. **Executed upgrade:** observe manifest/lock mismatch, a deliberate 6→7 update and restoration of both inputs.
+3. **Interface-specific adoption:** retain compatibility tools and test the supported compiler/runtime consumers.
 
 ---
 
