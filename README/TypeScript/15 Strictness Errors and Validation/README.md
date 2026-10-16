@@ -66,9 +66,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [3.3. Parse do not validate at boundaries](<./sections/3. Schema Validation in Practice/3.3. Parse do not validate at boundaries.md>)
 
-1. **Parse vs validate distinction** (parsing *produces* typed values from unknown; validating *checks* typed values — different inputs, different guarantees).
-2. **Boundary inventory** (network, storage, env, CLI, workers — every unknown-entry enumerated and parsed, none assumed).
-3. **Parse-once architecture** (unknown crosses inward exactly once — parsed values flow trusted downstream; re-validation is a bug smell).
+1. **Evidence before effects:** run a complete-batch parser/consumer and reject malformed input before local actions.
+2. **Validity lifetime:** expose mutable aliases, flat owned snapshots, structural construction and fresh cache boundaries.
+3. **Boundary inventory:** identify producer/parser/failure owners and distinguish shape guarantees from changing business policy and actual integration tests.
 
 ---
 
