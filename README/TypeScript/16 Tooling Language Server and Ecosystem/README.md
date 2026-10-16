@@ -4,15 +4,15 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ## 0. Prerequisites
 
-[01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>) — [2.3. Language server](<../01 Fundamentals and Mental Model/sections/2. How TypeScript doesnt execute/2.3. The language server editor superpowers that justify TypeScript.md>) (why the server justifies TypeScript — motivation this domain operationalizes) and [3.1. Compilation pipeline](<../01 Fundamentals and Mental Model/sections/3. Running TypeScript today/3.1. The compilation pipeline tsc emit declarations and source maps.md>) (tsc stages the server reuses). [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>) — [3.3. Publishing types](<../12 Modules Namespaces and Declaration Files/sections/3. Declaration Files in Practice/3.3. Publishing types exports map and typesVersions.md>) (publishing gates this domain verifies with publint/attw). [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) — [4.1. Configuration checklist](<../13 Configuration and Compiler Options/sections/4. Important points to remember/4.1. Configuration checklist mental models mentors insist on.md>) (flag discipline the tooling assumes).
+[01 Fundamentals and Mental Model](<../01 Fundamentals and Mental Model/README.md>) — [2.3. Language server](<../01 Fundamentals and Mental Model/sections/2. How TypeScript doesnt execute/2.3. The language server editor superpowers that justify TypeScript.md>) (why the server justifies TypeScript — motivation this domain operationalizes) and [3.1. Compilation pipeline](<../01 Fundamentals and Mental Model/sections/3. Running TypeScript today/3.1. The compilation pipeline tsc emit declarations and source maps.md>) (batch checking and emitted artifacts). [12 Modules, Namespaces and Declaration Files](<../12 Modules Namespaces and Declaration Files/README.md>) — [3.3. Publishing types](<../12 Modules Namespaces and Declaration Files/sections/3. Declaration Files in Practice/3.3. Publishing types exports map and typesVersions.md>) (publishing gates this domain verifies with publint/attw). [13 Configuration and Compiler Options](<../13 Configuration and Compiler Options/README.md>) — [4.1. Configuration checklist](<../13 Configuration and Compiler Options/sections/4. Important points to remember/4.1. Configuration checklist mental models mentors insist on.md>) (flag discipline the tooling assumes).
 
 ## 1. Language Server in Practice
 
 ### [1.1. Navigation go to definition find references](<./sections/1. Language Server in Practice/1.1. Navigation go to definition find references.md>)
 
-1. **Go-to-definition across layers** (sources vs declarations vs `node_modules` — where jumps land and what that reveals about emit).
-2. **Find-all-references audits** (rename impact, dead-code detection, API-surface enumeration — references as codebase queries).
-3. **Workspace symbols and peek flows** (fuzzy symbol search, peek-definition without losing context — navigation without disorientation).
+1. **Loaded project and targets:** distinguish native-server queries, source declarations and erased type-only contracts.
+2. **Reference scope:** observe aliases, unrelated same-name bindings, strings and an additionally opened file before assessing impact.
+3. **Search and peek:** use symbol candidates and editor previews while stating which server, runtime and UI behavior was actually verified.
 
 ### [1.2. Rename refactorings and code actions](<./sections/1. Language Server in Practice/1.2. Rename refactorings and code actions.md>)
 
