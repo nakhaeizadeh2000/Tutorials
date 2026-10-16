@@ -54,9 +54,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [3.1. const type parameters and literal preservation](<./sections/3. Literals and Nominal Patterns/3.1. const type parameters and literal preservation.md>)
 
-1. **What `<const T>` changes** (TS 5.0: inference keeps literals *and* readonly-ness without `as const` at the call — `f("get")` gives `"get"`, `[…]` gives `readonly […]`).
-2. **`const` params vs `as const` arguments** (declaration-side default vs call-site assertion — who owns the precision decision).
-3. **When `const` params over-narrow** (helpers wanting `string` get `"get"`-specific results — widen the return, not the source).
+1. **Actual inference contrast:** compare already-preserved primitive literals with fresh aggregate const inference and caller-side const assertions.
+2. **Boundaries and constraints:** observe prebound mutable arrays, shared references, explicit arguments and mutable versus readonly constraints without assuming freezing.
+3. **Published return contracts:** distinguish template relationships from explicit string returns and extend a finite registry derived from an inferred literal tuple.
 
 ### [3.2. Exhaustive switches over enums and unions](<./sections/3. Literals and Nominal Patterns/3.2. Exhaustive switches over enums and unions.md>)
 
