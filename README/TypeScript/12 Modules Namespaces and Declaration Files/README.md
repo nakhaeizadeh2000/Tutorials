@@ -85,12 +85,11 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ## 5. Common pitfalls → production bugs (modules and declarations)
 
-### [5.1. Real production bugs caused by module misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by module misunderstandings.md>)
+### [5.1. Module failure modes reproduced locally](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by module misunderstandings.md>)
 
-1. **Barrel re-export cycle crashed at import time** (`export *` ping-pong between two barrels; `undefined` class extended at module load).
-2. **Stripped type import executed a side effect that never ran** (value import elided as type-only; registration code silently skipped in production).
-3. **Ambient shim hid a real breaking update** (`declare module "pkg"` pinned v1 shapes; v2 runtime arrived with v1 types — every call unchecked).
-4. **Missing `exports` types entry resolved to `any` for consumers** (untyped subpath import; downstream `any`-infection across the consumer's codebase).
+1. **Entry-sensitive cycles:** execute a real barrel/base/subclass loop in ESM and CommonJS, then extract composition to break it.
+2. **Missing registration:** compare actual type-only elision under tsc and a pinned bundler, then retain deliberate setup evaluation.
+3. **Boundary diagnosis:** route incorrect shims and missing packed declarations to their complete provider and package reproductions.
 
 ---
 
