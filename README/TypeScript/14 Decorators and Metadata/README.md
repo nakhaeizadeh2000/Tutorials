@@ -40,9 +40,9 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [2.2. emitDecoratorMetadata and design types](<./sections/2. Legacy and Metadata/2.2. emitDecoratorMetadata and design types.md>)
 
-1. **What the flag emits** (`design:type`, `design:paramtypes`, `design:returntype` — compiler-recorded type facts as runtime metadata).
-2. **How DI containers consume it** (constructor-param types resolved at runtime — NestJS-style injection without manual tokens).
-3. **Limits and staleness** (metadata reflects *declared* types (erased unions become `Object`); `emitDecoratorMetadata` needs legacy decorators + `reflect-metadata`).
+1. **Actual design metadata:** compile a legacy project, bootstrap reflect-metadata and read constructor/member keys from their real stores.
+2. **Consumer limits:** compare preserved constructors with lossy union/interface/tuple/generic representations and assemble an explicit typed dependency.
+3. **Failure boundaries:** distinguish missing recording from missing APIs, demonstrate late bootstrap and repair a forward-reference runtime failure.
 
 ### [2.3. Symbol.metadata and the metadata proposal](<./sections/2. Legacy and Metadata/2.3. Symbol.metadata and the metadata proposal.md>)
 
