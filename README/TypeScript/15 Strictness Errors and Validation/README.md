@@ -32,9 +32,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [2.1. Error as value Result Ok Err patterns](<./sections/2. Error Values and Hierarchies/2.1. Error as value Result Ok Err patterns.md>)
 
-1. **`Result<T, E>` shape** (discriminated `{ ok: true; value } | { ok: false; error }` — failure typed into signatures).
-2. **Chaining without throwing** (`map`/`andThen`/`unwrapOr` helpers — pipelines over Results that never throw mid-chain).
-3. **Throw vs return discipline** (programmer errors throw; expected failures return — the boundary rule deciding per error kind).
+1. **Modeled return contract:** narrow Result success/failure payloads without claiming compiler-enforced consumption or exception freedom.
+2. **Actual composition:** run heterogeneous error unions, short-circuit counters and eager versus lazy defaults.
+3. **Boundary ownership:** distinguish returned errors from callback exceptions and choose handling or propagation for the consumer's protocol.
 
 ### [2.2. Custom error classes cause and stacks](<./sections/2. Error Values and Hierarchies/2.2. Custom error classes cause and stacks.md>)
 
