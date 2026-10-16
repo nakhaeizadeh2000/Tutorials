@@ -22,9 +22,9 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride](<./sections/1. Strictness Family/1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride.md>)
 
-1. **`strictFunctionTypes` contravariance** (function-type positions check strictly; methods stay bivariant — the 02/3.2 + 05/3.2 rule, configured here).
-2. **`strictPropertyInitialization`** (class fields definitely assigned — constructor, initializer, or `!` with justification).
-3. **`noImplicitOverride`** (overrides declared explicitly — rename-refactors break loudly instead of silently orphaning).
+1. **Callback configuration:** compare strict and weakened assignment checks, verify the safe substitution direction and reproduce the method-signature exception.
+2. **Initialization contracts:** execute missing, asserted, constructor-established and optional field cases while separating checker evidence from runtime lifecycle.
+3. **Override scope:** test concrete method/field markers, accepted abstract implementations and base-renaming errors with the option on and off.
 
 ---
 
