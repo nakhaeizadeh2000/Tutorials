@@ -76,10 +76,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [4.1. Enums checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Enums checklist mental models mentors insist on.md>)
 
-1. **Unions by default, enums by recorded reason** (erasure + composition beat emit unless flags/lookup/interop demand otherwise).
-2. **Numeric enums carry two behaviors** (auto-values that renumber + reverse maps that widen — know both before choosing).
-3. **`const` contexts preserve literals** (`as const` sources, `<const T>` params, narrow returns — precision at every joint).
-4. **Exhaust every finite set with `never`** (enum or union — the sink proves coverage; the next variant must fail).
+1. **Review a complete finite-action boundary:** run explicit wire codes, a literal action tuple, finite callbacks, actual input parsing and member-based labels together.
+2. **Locate each guarantee:** distinguish source representation, stable values, static coverage, runtime validation and deployment support using observed evidence.
+3. **Extend independent contracts:** add an action and a status, expose a stale parser and a type-correct wrong callback, then verify the combined behavior.
 
 ---
 
