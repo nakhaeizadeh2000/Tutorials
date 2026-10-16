@@ -38,9 +38,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [2.2. Custom error classes cause and stacks](<./sections/2. Error Values and Hierarchies/2.2. Custom error classes cause and stacks.md>)
 
-1. **Extending `Error` correctly** (`name`, `message`, `cause` chaining — `ErrorOptions` support and `instanceof` reliability).
-2. **Domain error hierarchies** (`HttpError` → `NotFound`/`ValidationError` — status-carrying classes narrowing via `instanceof`).
-3. **`cause` chains for diagnostics** (wrapping low-level errors with context — stack preserved, causality readable).
+1. **Local identity and payloads:** construct an Error family and keep domain facts separate from a local transport mapper.
+2. **Stack and cause evidence:** observe unthrown construction, same-object rethrowing, separate wrapper stacks and unknown causes.
+3. **Boundary limits:** run bounded cycle-aware diagnostics and distinguish open class families, foreign identities and JSON wire data.
 
 ### [2.3. Never-throw boundaries and error budgets](<./sections/2. Error Values and Hierarchies/2.3. Never-throw boundaries and error budgets.md>)
 
