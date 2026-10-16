@@ -60,9 +60,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [3.2. Playground twoslash and documentation snippets](<./sections/3. Debugging and Ecosystem/3.2. Playground twoslash and documentation snippets.md>)
 
-1. **Playground as a verification tool** (isolated reproductions, version switching, shareable links — bug reports with runnable proof).
-2. **Twoslash documentation** (hover-annotated snippets in docs — `// @filename`, `// ---cut---`, query comments keeping examples honest).
-3. **This track's verification pattern** (isolated `/tmp` snippets per fence — the same discipline this tutorial uses to check every example).
+1. **Reproduction scope:** select versions/options and distinguish browser execution from local integration.
+2. **Actual Twoslash:** run a pinned API fixture with literal queries, hidden setup, expected errors and virtual files.
+3. **Evidence limits:** separate validation policies, explicit assertions, rendering and native compiler/runtime checks.
 
 ### [3.3. Version management and upgrade playbooks](<./sections/3. Debugging and Ecosystem/3.3. Version management and upgrade playbooks.md>)
 
