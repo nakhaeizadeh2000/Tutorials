@@ -16,9 +16,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [1.2. Type predicates vs assertions caller vs thrower](<./sections/1. Assertion Functions/1.2. Type predicates vs assertions caller vs thrower.md>)
 
-1. **Predicates narrow callers** (`x is T` returning boolean — `filter`/`find`/`if` consumers narrow without throwing).
-2. **Assertions narrow throwers** (`asserts x is T` — failing *throws*; callers proceed unconditionally after).
-3. **Choosing per call site** (recoverable filtering → predicates; invariant enforcement → assertions — the decision rule).
+1. **Caller evidence:** compare explicit/inferred predicate filters with a boolean-only contract on a trusted discriminated union.
+2. **False-branch correctness:** expose an empty-string exclusion lie and use a boolean for a narrower selection criterion.
+3. **Failure policy:** run recoverable and required-service callers, distinguish caught assertion failures from process crashes and test a throwing predicate.
 
 ### [1.3. satisfies as a validation gate](<./sections/1. Assertion Functions/1.3. satisfies as a validation gate.md>)
 
