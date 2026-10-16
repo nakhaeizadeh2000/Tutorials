@@ -84,12 +84,11 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ## 5. Common pitfalls → production bugs (enums and literals)
 
-### [5.1. Real production bugs caused by enum misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by enum misunderstandings.md>)
+### [5.1. Enum failure modes reproduced locally](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by enum misunderstandings.md>)
 
-1. **Inserted enum member renumbered persisted order statuses** (auto-values shifted in Postgres; historical rows reinterpreted).
-2. **`const enum` vanished under esbuild and crashed at import** (cross-file inlining impossible; `Direction is not defined` in production).
-3. **Reverse-mapped lookup widened to `string` and skipped validation** (`Direction[code]` typed `string`; invalid codes flowed into an exhaustive switch's dead branch).
-4. **Stringly `Record<string, Handler>` duplicated the enum table and drifted** (parallel registration map missed a new member; unauthenticated path shipped).
+1. **Stored-code meaning:** reproduce old/new decoding locally, preserve explicit legacy values and observe an initializer edit that passes checking but fails a runtime contract check.
+2. **Actual publication diagnosis:** distinguish supported source enum transforms, stale ambient constants, missing runtime objects and native stripping through the canonical executed fixtures.
+3. **Coverage and semantics:** execute a missing open-registry handler and a complete but incorrect finite callback, then separate parser completeness from member-switch coverage.
 
 ---
 
