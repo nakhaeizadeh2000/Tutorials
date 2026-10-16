@@ -61,9 +61,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [3.2. Module augmentation at file scale](<./sections/3. Declaration Files in Practice/3.2. Module augmentation at file scale.md>)
 
-1. **Augmenting shipped packages** (`declare module "pkg"` adding routes/methods the types missed — version-drift discipline).
-2. **Ambient vs local augmentation** (global `.d.ts` augmentation vs scoped augmentation — blast radius compared).
-3. **When augmentation is wrong** (forking the package, patching upstream, or widening to `any` — the three exits and their costs).
+1. **Program-wide augmentation:** compare a neighboring consumer checked alone and with a module-scoped feature declaration; distinguish context from file-local visibility.
+2. **Runtime loading obligations:** execute a missing class patch, an explicit boot graph and a wrapper alternative with actual package implementations.
+3. **Compatibility and handoff:** test required additions, conflicting properties and a simulated matching upstream declaration before removing a redundant patch.
 
 ### [3.3. Publishing types exports map and typesVersions](<./sections/3. Declaration Files in Practice/3.3. Publishing types exports map and typesVersions.md>)
 
