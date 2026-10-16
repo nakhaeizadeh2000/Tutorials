@@ -17,9 +17,9 @@ Decorators attach reusable behavior to class declarations and members. This doma
 
 ### [1.2. Decorator evaluation and application order](<./sections/1. Standard Decorators/1.2. Decorator evaluation and application order.md>)
 
-1. **Evaluation vs application** (expressions evaluate top-down; application runs bottom-up — the two-phase rule predicting every stacking outcome).
-2. **Multiple decorators per member** (composition order — `@a @b` applies `b` first; factories (`@a(x)`) evaluate per use).
-3. **Field initialization timing** (field decorators run at class-definition time; initializers run per instance — the timing split that surprises).
+1. **Three phases:** trace factory evaluation, reverse decorator application and nested wrapper entry/exit, including throws.
+2. **Field composition:** run both returned transformers and distinguish their order from extra-hook registration order.
+3. **Initialization boundaries:** compare static/class hooks with repeated instance hooks and predict an order-changing exercise.
 
 ### [1.3. Practical class decorators registration and mixins](<./sections/1. Standard Decorators/1.3. Practical class decorators registration and mixins.md>)
 
