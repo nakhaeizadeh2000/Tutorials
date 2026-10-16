@@ -38,9 +38,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [2.2. erasableSyntaxOnly the enum ban and migration](<./sections/2. Enums vs Erasable Alternatives/2.2. erasableSyntaxOnly the enum ban and migration.md>)
 
-1. **Why enums fail the erasable rule** (only non-erasable namespace feature besides namespaces — emit *is* the feature; TS 5.8 flag bans it).
-2. **The migration map** (numeric → union + lookup table; string → union + `as const` object; `const enum` → union + inlined literals).
-3. **Migrating incrementally** (alias the union to the enum's shape first, move consumers, delete the enum last — zero-flag-day rewrites).
+1. **Exact syntax boundary:** distinguish runtime enums from ambient descriptions and type-only namespaces; separate stripping from supported transforms.
+2. **Observed migration contracts:** run enum, bridge and final string programs and preserve an explicit numeric label policy while exposing changed reflection and input admission.
+3. **Actual execution and rollout:** check the final gate, compare emitted JavaScript with Node 22.18 native stripping and define migration boundaries through real compiler programs.
 
 ### [2.3. Literal unions as enums the decision rule](<./sections/2. Enums vs Erasable Alternatives/2.3. Literal unions as enums the decision rule.md>)
 
