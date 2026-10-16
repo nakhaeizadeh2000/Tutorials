@@ -60,9 +60,9 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 ### [3.2. declaration composite project references](<./sections/3. Modules Emit and Projects/3.2. declaration composite project references.md>)
 
-1. **`declaration` + `declarationMap`** (consumers check signatures; maps restore go-to-source — the 12/3.1 practice, configured here).
-2. **`composite` + project references** (monorepo builds: per-package programs, incremental emit, reference-ordered builds).
-3. **`emitDeclarationOnly` for type packages** (types-only publishing without JS emit — the declaration-package shape).
+1. **Real project outputs:** configure core/app composite programs, build dependencies in order and inspect declarations, maps and actual consumer inputs.
+2. **Build-state limits:** compare unchanged, implementation and signature edits; test unreferenced built imports and force-versus-clean behavior.
+3. **Separate emit responsibilities:** produce declarations for runtime APIs, add a pinned JavaScript emitter and distinguish that workflow from genuinely type-only consumption.
 
 ### [3.3. noUncheckedIndexedAccess and exactOptionalPropertyTypes](<./sections/3. Modules Emit and Projects/3.3. noUncheckedIndexedAccess and exactOptionalPropertyTypes.md>)
 
