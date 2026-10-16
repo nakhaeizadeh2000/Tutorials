@@ -96,11 +96,9 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 ### [6.1. Common interview QA — configuration and compiler options](<./sections/6. Interview questions and answers/6.1. Common interview QA configuration and compiler options.md>)
 
-1. **What does `strict: true` enable — and in what order do you triage enabling it?** (family bundle + nullability-first migration sequence).
-2. **`isolatedModules` vs `verbatimModuleSyntax` vs `erasableSyntaxOnly` — what does each guarantee?** (single-file, predictable-emit, deletion-only — the trio distinguished).
-3. **Which `module`/`moduleResolution` pair for Node ESM vs bundlers — and what breaks when mismatched?** (pairing rules + interop divergence).
-4. **When does `noUncheckedIndexedAccess` pay — and what breaks on first enable?** (index honesty + latent-crash backlog triage).
-5. **How do you migrate a legacy tsconfig to strict — without a flag-day?** (per-directory, error-class-ordered, CI-gated migration).
+1. **Bounded checking guarantees:** explain strict-family choices, permitted any and the separate isolation, verbatim and erasable contracts.
+2. **Consumer and absence contracts:** choose supported module settings/conditions and distinguish indexed evidence, optional assignment and runtime update meaning.
+3. **Build and migration evidence:** assess declarations, references, skipped checks and packed artifacts, then plan a migration from observed program boundaries.
 
 ---
 
