@@ -10,9 +10,9 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [1.1. strict and strictNullChecks the nullability contract](<./sections/1. Strictness Family/1.1. strict and strictNullChecks the nullability contract.md>)
 
-1. **What `strict: true` enables** (the family bundle: null checks, implicit-any bans, function variance, property initialization — one flag, one contract).
-2. **`strictNullChecks` mechanics** (`T` excludes `null`/`undefined`; `T | null` forces narrowing — the 03/1.3 behavior, configured here).
-3. **Enabling `strict` on existing code** (error-triage order: nullability first, implicit-any second, variance last — the migration sequence).
+1. **Versioned strictness family:** inspect configuration and compare null-only, implicit-any-only and full strict checks, including separate flag choices.
+2. **Behavior and limits:** repair absence handling and reproduce accepted assertions, unchecked array reads and built-in iterator return differences.
+3. **Migration and artifacts:** inspect strict script/declaration emit and choose staged changes from observed program boundaries and errors.
 
 ### [1.2. noImplicitAny and useUnknownInCatchVariables](<./sections/1. Strictness Family/1.2. noImplicitAny and useUnknownInCatchVariables.md>)
 
