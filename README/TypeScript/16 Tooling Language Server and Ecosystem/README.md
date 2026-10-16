@@ -76,10 +76,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [4.1. Tooling checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Tooling checklist mental models mentors insist on.md>)
 
-1. **Navigate before reading** (go-to-definition, references, peek flows — understand via jumps, not file scans).
-2. **Lint what compilers can't** (type-aware rules, import discipline, boundary conventions — checker-backed automation).
-3. **Verify packages like consumers** (publint + attw + smoke — release gates proving consumer outcomes).
-4. **Debug tooling with tooling** (logs, traces, playground reproductions — evidence per symptom, never folklore).
+1. **Evidence map:** connect each tool result to its selected inputs and the conclusion it supports.
+2. **Behavior review:** inspect binding scope, Promise handling, import effects and formatting boundaries.
+3. **Meaningful gates:** use the worked negative cases to test package, documentation and upgrade claims.
 
 ---
 
