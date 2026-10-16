@@ -86,10 +86,10 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [5.1. Real production bugs caused by tooling misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by tooling misunderstandings.md>)
 
-1. **Rename-symbol missed stringly references and broke runtime routing** (type-level rename complete; string-keyed dispatch table stale).
-2. **Disabled lint rule hid an `await` in a loop that serialized 10k requests** (no-await-in-loop off "for velocity"; p99 latency incident).
-3. **Unpublished `types` condition shipped `any` to every consumer** (exports mapped JS only; downstream `any`-infection at scale).
-4. **Stale `.tsbuildinfo` served week-old declarations to downstream builds** (incremental cache poisoning; clean-build-only CI green, incremental red).
+1. **Internal names and wire keys:** reproduce a stable command key and an invalid assumption about automatic rename propagation.
+2. **Loop policy:** run the actual batch-await lint finding, justify a scoped exception and validate the scheduling limit.
+3. **Packed declarations:** diagnose the observed source-green/consumer-red artifact failure.
+4. **Build state:** distinguish forced rebuilding, obsolete outputs and evidence for an actual cache problem.
 
 ---
 
