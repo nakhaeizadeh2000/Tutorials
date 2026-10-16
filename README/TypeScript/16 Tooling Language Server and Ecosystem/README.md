@@ -54,9 +54,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [3.1. Debugging tsserver logs and responsiveness](<./sections/3. Debugging and Ecosystem/3.1. Debugging tsserver logs and responsiveness.md>)
 
-1. **tsserver log anatomy** (`TSServer log` channel — request/response shapes, error codes, project-loading traces).
-2. **Responsiveness triage** (large-program slowdowns: `disableSourceOfProjectReferenceRedirect`, watch-program tuning, `maxNodeModuleJsDepth`).
-3. **Project-loading failures** (version mismatches, tsconfig extends chains, corrupted `.tsbuildinfo` — diagnosis order).
+1. **Provider and message layers:** distinguish native LSP, legacy tsserver logs, source diagnostics and protocol failures.
+2. **Document state:** compare effective config/disk compilation with actual native diagnostics for an unsaved edit.
+3. **Controlled investigation:** reproduce missing config failures and use measurements without cache or tuning folklore.
 
 ### [3.2. Playground twoslash and documentation snippets](<./sections/3. Debugging and Ecosystem/3.2. Playground twoslash and documentation snippets.md>)
 
