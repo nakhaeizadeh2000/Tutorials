@@ -32,9 +32,9 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [2.1. isolatedModules single-file transpilation](<./sections/2. Erasable and Isolated Toolchain/2.1. isolatedModules single-file transpilation.md>)
 
-1. **What isolation requires** (each file transpilable alone — no cross-file value knowledge; `const enum` imports and unmarked type re-exports fail).
-2. **Errors as architecture documentation** (TS2748/TS1205 point at designs assuming whole-program knowledge — fix the design, not the flag).
-3. **Who needs it on** (esbuild/swc/Babel/Vite/Node-stripping consumers — on for libraries, on for apps with per-file pipelines).
+1. **Bounded JavaScript isolation:** check type-only re-exports while retaining whole-program checking and distinguish independent type-import diagnostics.
+2. **Observed emit and providers:** compare source-defined cross-file const enums, retained objects, ambient member restrictions and namespace module classification.
+3. **Separate processing contracts:** reproduce native source rejection, declaration-isolation annotation errors and a successful transform of code rejected by the checker.
 
 ### [2.2. verbatimModuleSyntax predictable emit](<./sections/2. Erasable and Isolated Toolchain/2.2. verbatimModuleSyntax predictable emit.md>)
 
