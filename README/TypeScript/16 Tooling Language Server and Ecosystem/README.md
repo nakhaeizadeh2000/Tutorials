@@ -38,9 +38,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [2.2. Prettier dprint and formatting discipline](<./sections/2. Lint Format and Checks/2.2. Prettier dprint and formatting discipline.md>)
 
-1. **Formatter choice** (Prettier ubiquity vs dprint speed — what each optimizes, when speed matters in CI).
-2. **Format-on-save + CI check** (local formatting instant, CI `check` blocking — style debates deleted structurally).
-3. **What formatters don't do** (import organization, naming, architecture — formatter boundaries vs lint/ownership).
+1. **Reproducible choice:** select versions, plugins, supported config files and an explicit file set.
+2. **Actual CLI sequence:** reproduce dirty/check/write/check outcomes and repeat stability with compiler/runtime comparisons.
+3. **Enforcement boundaries:** distinguish local editing, CI selection, directive/import effects and formatted type errors.
 
 ### [2.3. publint attw and package health checks](<./sections/2. Lint Format and Checks/2.3. publint attw and package health checks.md>)
 
