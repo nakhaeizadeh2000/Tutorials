@@ -44,9 +44,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [2.3. publint attw and package health checks](<./sections/2. Lint Format and Checks/2.3. publint attw and package health checks.md>)
 
-1. **`publint` packaging lint** (exports/types conditions, file inclusion, dual-shape hazards — packaging bugs as lint errors pre-publish).
-2. **`attw` (are-the-types-wrong) resolution checks** (subpath types resolution per importer kind — consumer-equivalent verification in CI).
-3. **Health-gate composition** (publint + attw + smoke imports — the 12/3.3 release gates tooled, automated, blocking).
+1. **Artifact inputs:** run pinned publint and attw on the canonical package's actual local tarball.
+2. **Matrix scope:** interpret supported entry points, profiles and static analysis alongside actual compiler/runtime consumers.
+3. **Contrasting defects:** reproduce omitted declarations and a semantic error that health checks cannot detect.
 
 ---
 
