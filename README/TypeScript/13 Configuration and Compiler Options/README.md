@@ -66,9 +66,9 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 
 ### [3.3. noUncheckedIndexedAccess and exactOptionalPropertyTypes](<./sections/3. Modules Emit and Projects/3.3. noUncheckedIndexedAccess and exactOptionalPropertyTypes.md>)
 
-1. **`noUncheckedIndexedAccess` honesty** (open index reads gain `| undefined` — the 10/5.1 incident class, configured here).
-2. **`exactOptionalPropertyTypes` precision** (`prop?: T` vs `prop: T | undefined` distinguished — assignment intent enforced).
-3. **Enabling both on existing code** (triage as latent-incident backlog — narrowing fixes only, mass-`!`/widening banned).
+1. **Indexed-read evidence:** compare unchecked lookup failures with declared properties, tracked writes, optional tuple positions and loop guard limits.
+2. **Optional assignment contracts:** verify absent versus present-undefined rules, required union properties and an unsafe spread accepted with exactness off.
+3. **Update and migration policy:** implement own-property clearing, observe JSON representation and choose flag adoption from actual caller behavior.
 
 ---
 
