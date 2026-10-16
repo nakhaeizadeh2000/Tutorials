@@ -76,10 +76,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [4.1. Validation checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Validation checklist mental models mentors insist on.md>)
 
-1. **Narrow with predicates, enforce with assertions** (recoverable → `is`; invariant → `asserts` — the call-site decision rule).
-2. **Return expected failures, throw programmer errors** (Results for the predictable; throws for the bugs — never mixed).
-3. **Parse unknown once at every boundary** (unknown in, proven types out — single crossing, trusted downstream).
-4. **No `as` downstream of real validation** (parsed values flow un-asserted — casts after parsing prove the parser lied).
+1. **Review the actual contract:** identify accepted input, returned evidence, failure consumer and validity lifetime.
+2. **Work a disputed claim:** distinguish ignored Results, reporter completion and mutable parsed data using the verified owners.
+3. **Choose falsifying evidence:** match compiler probes, malformed-input runs and host integration checks to the guarantee being reviewed.
 
 ---
 
