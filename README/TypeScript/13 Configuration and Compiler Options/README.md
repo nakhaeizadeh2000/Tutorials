@@ -38,9 +38,9 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [2.2. verbatimModuleSyntax predictable emit](<./sections/2. Erasable and Isolated Toolchain/2.2. verbatimModuleSyntax predictable emit.md>)
 
-1. **No guessing, only stating** (type traffic via `import type` or TS1484 — elision heuristics disabled project-wide).
-2. **Emit preservation semantics** (import statements survive verbatim — bundlers/strippers see exactly what authors wrote).
-3. **Adoption path** (enable + triage TS1484s as the erasability audit — convert to `import type`, never value-use to silence).
+1. **Effective inherited configuration:** compare retained class imports, valid mixed specifiers and erased whole-statement type imports in fresh processes.
+2. **Preservation boundaries:** inspect extension rewriting and flag-off elision, then run the declared native source graph.
+3. **Format-aware adoption:** diagnose CommonJS value-syntax errors and choose an explicit transform, import assignment or ESM contract using actual project checks.
 
 ### [2.3. erasableSyntaxOnly and the trio standard](<./sections/2. Erasable and Isolated Toolchain/2.3. erasableSyntaxOnly and the trio standard.md>)
 
