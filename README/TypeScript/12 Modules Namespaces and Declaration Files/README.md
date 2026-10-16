@@ -45,9 +45,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [2.3. Ambient modules declare module wildcards](<./sections/2. Namespaces and Ambient Contexts/2.3. Ambient modules declare module wildcards.md>)
 
-1. **`declare module "name"` for untyped packages** (shimming missing types — minimal honest surface, `any`-shaped only where the package is truly opaque).
-2. **Wildcard declarations** (`declare module "*.png"` — asset imports in bundlers; loader contracts typed once per extension).
-3. **Ambient module resolution order** (real `.d.ts` beats ambient shim — how the checker picks, and deleting shims when types arrive).
+1. **Ambient declaration versus resolved API:** run a local package with bundled types, an incorrect included shim and a clean consumer; distinguish declaration context from a fixed lookup-priority story.
+2. **Augmentation and implementation:** retain existing overloads through an external-module augmentation, then test the actual provider before and after a deliberate API extension.
+3. **Wildcard loader contracts:** execute pinned text/CSS-module bundling, expose missing-file and wrong-shape failures and distinguish shorthand any from an explicit empty module.
 
 ---
 
