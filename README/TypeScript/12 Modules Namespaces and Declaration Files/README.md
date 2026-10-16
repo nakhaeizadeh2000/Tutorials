@@ -33,9 +33,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [2.1. Namespaces organization and when to avoid](<./sections/2. Namespaces and Ambient Contexts/2.1. Namespaces organization and when to avoid.md>)
 
-1. **What namespaces provide** (dot-grouped values + types in one scope — the pre-module organization unit, still emitted as IIFEs).
-2. **Nest, merge, and split across files** (nested `A.B`, triple-slash assembly, declaration merging of same-named namespaces).
-3. **When to avoid** (modules do everything better in application code — namespaces survive for ambient declarations, generated single-file bundles, and deliberate non-erasable code).
+1. **Scope and emitted grouping:** compare module-local namespace identities, nested members and a direct module namespace view without assuming equivalent object behavior.
+2. **Actual shared-script assembly:** execute global namespace fragments in one declared context and distinguish reference inclusion from runtime loading/order.
+3. **Erased descriptions and design choice:** run type-only erasure and a real ambient provider/preload, then choose grouping from the consumer contract and migration tests.
 
 ### [2.2. declare global and global augmentation](<./sections/2. Namespaces and Ambient Contexts/2.2. declare global and global augmentation.md>)
 
