@@ -44,9 +44,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [2.3. Literal unions as enums the decision rule](<./sections/2. Enums vs Erasable Alternatives/2.3. Literal unions as enums the decision rule.md>)
 
-1. **The default rule** (new code: literal unions — erasable, composable with `Exclude`/templates, no emit; enums only with a recorded reason).
-2. **Legitimate enum survivors** (numeric bit flags with reverse lookup needs, ambient foreign enums, isolated non-erasable codebases).
-3. **Review stamp** (new `enum` declarations require a comment justifying why the union form fails — no comment, no enum).
+1. **Separate runtime data from accepted values:** compare literal unions, const objects and enums by defaults, iteration, API compatibility and the actual processing pipeline.
+2. **Verify composition and identity:** filter enum members directly, interpolate values and observe raw-literal versus separately named enum admission.
+3. **Review a demonstrated requirement:** use object-backed bit masks and finite-handler extensions to test claimed enum-only needs without imposing comment or declaration-count policy.
 
 ---
 
