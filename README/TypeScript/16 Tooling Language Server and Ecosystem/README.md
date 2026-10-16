@@ -32,9 +32,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [2.1. typescript-eslint rules and type-aware linting](<./sections/2. Lint Format and Checks/2.1. typescript-eslint rules and type-aware linting.md>)
 
-1. **Recommended sets** (`recommended` vs `recommended-type-checked` vs `strict` — what each tier costs in setup and check time).
-2. **Type-aware rules that matter** (`no-floating-promises`, `no-misused-promises`, `no-unnecessary-condition` — checker-backed rules plain ESLint cannot express).
-3. **Rule triage and exemptions** (warn-vs-error policy, per-line disables with justification, baseline files for legacy adoption).
+1. **Preset relationships:** distinguish recommended, strict, typed and stylistic configurations and their version behavior.
+2. **Executed rules:** run a complete typed-lint project with a compatible API dependency and separate native compiler check.
+3. **Handling and adoption:** compare Promise policies, overlapping diagnostics, justified exceptions and warning-count limits.
 
 ### [2.2. Prettier dprint and formatting discipline](<./sections/2. Lint Format and Checks/2.2. Prettier dprint and formatting discipline.md>)
 
