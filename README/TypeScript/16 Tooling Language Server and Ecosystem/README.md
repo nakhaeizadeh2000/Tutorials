@@ -16,9 +16,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [1.2. Rename refactorings and code actions](<./sections/1. Language Server in Practice/1.2. Rename refactorings and code actions.md>)
 
-1. **Rename-symbol mechanics** (occurrence rewriting across files — what renames safely vs what needs codemods).
-2. **Quick fixes and refactors** (fix-alls, convert-to-`import type`, extract-to-function/constant — intention actions that encode team conventions).
-3. **Organize-imports and sort discipline** (auto-organized import blocks — elision-safe ordering, review-noise reduction).
+1. **Binding-specific edits:** compare an exported rename with a local-alias rename and review unmodified strings/outside consumers.
+2. **Action evidence:** distinguish diagnostics, offered quick fixes, explicit repairs and actual applied server edits.
+3. **Module effects:** reproduce lost registration after unused-import removal and preserve an intentional side-effect dependency.
 
 ### [1.3. Inlay hints hover and signature help](<./sections/1. Language Server in Practice/1.3. Inlay hints hover and signature help.md>)
 
