@@ -96,11 +96,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [6.1. Common interview QA — enums and literal types](<./sections/6. Interview questions and answers/6.1. Common interview QA enums and literal types.md>)
 
-1. **What does a numeric enum emit — and why does `Direction[0]` work while `StringEnum["UP"]` doesn't?** (reverse-mapping tables).
-2. **Why does `--erasableSyntaxOnly` ban enums — and what replaces each enum kind?** (emit-is-the-feature + migration map).
-3. **When is `const enum` unsafe — and what breaks under `isolatedModules`/esbuild?** (cross-file inlining impossibility).
-4. **Union vs enum for a new status field — which by default, and what recorded reason overrides?** (decision rule + survivors).
-5. **What does `<const T>` change about `f("get")` — and when does it over-narrow?** (declaration-side literal preservation).
+1. **Predict runtime keys:** explain numeric alias collisions, string key/value coincidences and mode-dependent const-enum output using actual probes.
+2. **Separate checking from execution:** distinguish ambient/type-only erasure, runtime enum restrictions, named keys versus serialized values and actual publication artifacts.
+3. **Reason about the API and inference:** compare enum/union choices and identify ordinary literal preservation, fresh aggregate const inference and broad return boundaries.
 
 ---
 
