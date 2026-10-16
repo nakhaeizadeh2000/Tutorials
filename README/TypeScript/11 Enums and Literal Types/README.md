@@ -32,9 +32,9 @@ How TypeScript names *finite value sets* — enums (`enum Direction { Up, Down }
 
 ### [2.1. const enum inlining and isolatedModules danger](<./sections/2. Enums vs Erasable Alternatives/2.1. const enum inlining and isolatedModules danger.md>)
 
-1. **Compile-time inlining** (`const enum` members substituted as literals at use sites — zero object emit, fastest reads).
-2. **`isolatedModules` breakage** (single-file transpilers cannot inline cross-file `const enum` — the value vanishes; `isolatedModules` errors by default).
-3. **When inlining pays vs burns** (self-contained numeric tables → pays; shared libraries, Babel/esbuild pipelines → burns).
+1. **Option-dependent output:** compare default inlining, preserveConstEnums tables and isolated source enum references without claiming every mode erases the object.
+2. **Actual transform compatibility:** execute local and exported cross-file const enums under pinned esbuild/Babel modes and inspect the differing output contracts.
+3. **Ambient publication boundaries:** reproduce stale inlined values and a missing runtime object, then repair the declaration/provider pair with a supported value contract.
 
 ### [2.2. erasableSyntaxOnly the enum ban and migration](<./sections/2. Enums vs Erasable Alternatives/2.2. erasableSyntaxOnly the enum ban and migration.md>)
 
