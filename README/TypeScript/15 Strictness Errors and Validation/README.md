@@ -60,9 +60,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [3.2. Schema objects and inferred types](<./sections/3. Schema Validation in Practice/3.2. Schema objects and inferred types.md>)
 
-1. **Schema-first typing** (define validators, derive types via indexed access — single source, no drift between schema and type).
-2. **Object, array, union, optional combinators** (hand-rolled combinator kit mirroring Zod's shape — `string()`, `object()`, `array()`, `union()`, `optional()`).
-3. **When to adopt a library** (hand-rolled for few shapes; Zod/Valibot past complexity thresholds — error messages, ecosystems, performance).
+1. **Executed schema inference:** define a pinned runtime schema, derive distinct input/output types and test schema evolution.
+2. **Actual combinator behavior:** run object/array/union policies, optional versus absent-only keys and ordered overlapping alternatives.
+3. **Trust and adoption:** expose callback exceptions, dishonest custom checks and reflective-input limits before evaluating library trade-offs.
 
 ### [3.3. Parse do not validate at boundaries](<./sections/3. Schema Validation in Practice/3.3. Parse do not validate at boundaries.md>)
 
