@@ -23,9 +23,9 @@ How TypeScript organizes code across files — ES modules (`import`/`export`) as
 
 ### [1.3. export equals and interop with CommonJS](<./sections/1. ES Modules/1.3. export equals and interop with CommonJS.md>)
 
-1. **`export =` for CommonJS equivalence** (single `module.exports =` modeling — the interop form for un-migrated CJS).
-2. **`import = require()` pairing** (consuming `export =` from TS — why plain `import` breaks and the sanctioned syntax works).
-3. **Interop defaults and `esModuleInterop`** (synthetic defaults for CJS consumers — what the flag changes and when to enable it).
+1. **Whole CommonJS values:** run callable exports with merged properties and generated declarations; compare typed require, default and namespace consumers.
+2. **Actual loader boundaries:** distinguish transformed helpers, native ESM default wrapping, heuristic CommonJS named exports and double-default shapes.
+3. **Supported interop contracts:** observe current compiler-option/gate restrictions and typed synchronous require of ESM versus top-level-await failure and dynamic import.
 
 ---
 
