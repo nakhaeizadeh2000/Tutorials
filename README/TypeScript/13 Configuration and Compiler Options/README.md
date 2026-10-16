@@ -16,9 +16,9 @@ How TypeScript is *configured* — `tsconfig.json` as the project's type contrac
 
 ### [1.2. noImplicitAny and useUnknownInCatchVariables](<./sections/1. Strictness Family/1.2. noImplicitAny and useUnknownInCatchVariables.md>)
 
-1. **`noImplicitAny` coverage** (unannotated parameters, evolving arrays, empty objects — every silent `any` becomes an error with a fix site).
-2. **`useUnknownInCatchVariables`** (catch bindings type `unknown` — narrowing before use; the `any`-shaped `catch (e)` it replaces).
-3. **Explicit-`any` policy** (declared `any` stays legal under strict — when explicit beats precise, and how to fence it).
+1. **Inference-site boundaries:** compare uncovered parameters, contextual callbacks, evolving locals, closed objects and any supplied by declared APIs.
+2. **Catch-clause checking:** run unknown/any flag variants and handle controlled primitive and Error throws without assuming conversion cannot fail.
+3. **Separate rejection callbacks and policy:** type Promise.catch parameters deliberately and contain unverified data without mistaking lint choices for compiler guarantees.
 
 ### [1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride](<./sections/1. Strictness Family/1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride.md>)
 
