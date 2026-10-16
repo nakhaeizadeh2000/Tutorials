@@ -86,10 +86,9 @@ This domain applies TypeScript contracts to runtime validation and failure handl
 
 ### [5.1. Real production bugs caused by validation misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by validation misunderstandings.md>)
 
-1. **Blind `as User` on fetch results crashed on malformed payloads** (assertion without evidence; `toError`-adjacent lesson applied to data).
-2. **Swallowed async errors in fire-and-forget handlers crashed the process** (floating promises with no rejection handling — unhandledrejection at 3am).
-3. **Over-broad catch narrowed nothing and masked a bug for months** (`catch { return default }` swallowing programmer errors alongside expected ones).
-4. **Validated-once cached verdict served stale permissions after role change** (correctness caching — verdicts depend on mutable values, never cached).
+1. **Observed payload failures:** compare wrong JSON shape and invalid syntax with the complete parser consumer.
+2. **Reporting and recovery:** expose a rejecting catch callback, preserve both failure channels and apply a specified fallback policy.
+3. **Freshness assumptions:** reproduce an ID-only stale verdict and a tracked local invalidation protocol without claiming a deployed authorization system.
 
 ---
 
