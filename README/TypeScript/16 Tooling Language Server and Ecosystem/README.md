@@ -22,9 +22,9 @@ How TypeScript *works you* — the language server (navigation, renames, refacto
 
 ### [1.3. Inlay hints hover and signature help](<./sections/1. Language Server in Practice/1.3. Inlay hints hover and signature help.md>)
 
-1. **Inlay hints as inline documentation** (parameter names, inferred return types, variable annotations — types visible without hovering).
-2. **Hover reading discipline** (expanded types, JSDoc rendering, `go to type definition` — the diagnostic skill from 07–09 generalized).
-3. **Signature help at call sites** (overload navigation, active-parameter tracking — calling correctly without memorizing).
+1. **Inference versus display:** contrast constant, let, mutable property and const-asserted property types with actual compiler/hover evidence.
+2. **Configured hints and documentation:** read provider responses without treating omitted hints, alias formatting or JSDoc as runtime proof.
+3. **Signature help and checking:** inspect overload candidates, active indexes and inferred results while verifying forbidden calls independently.
 
 ---
 
