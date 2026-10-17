@@ -87,10 +87,10 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [5.1. Real production bugs caused by async misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by async misunderstandings.md>)
 
-1. **Unawaited `Promise.all` in a loop serialized 10k requests** (float disguised as batching — p99 incident, `no-await-in-loop` interplay).
-2. **`race` without cleanup leaked every losing socket** (losers un-aborted — connection exhaustion, abort-controller fix).
-3. **DOM-typed timer handle shipped to Node cleared nothing** (`number` vs `Timeout` — `clearTimeout` no-op, interval leak).
-4. **`any`-typed reject swallowed error classes across service boundaries** (reject-`any` legacy — wrong-class handling, outage extended).
+1. **Lost completion ownership:** observe detached versus returned aggregate work without mistaking it for serialized starts.
+2. **Premature winner cancellation:** reproduce aborted response-body reading and consume complete text before cancelling remaining requests.
+3. **Incorrect timer diagnosis:** follow the actual runtime handle and cancellation path rather than assuming annotations convert values.
+4. **Rejection boundary assumptions:** compare local class identity with validated serialized data and arbitrary reasons.
 
 ---
 
