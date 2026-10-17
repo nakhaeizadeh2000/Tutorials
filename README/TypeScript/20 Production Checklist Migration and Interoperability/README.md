@@ -99,11 +99,11 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [6.1. Common interview QA — production migration and interop](<./sections/6. Interview questions and answers/6.1. Common interview QA production migration and interop.md>)
 
-1. **What gates a TypeScript release — and which are advisory vs blocking?** (three gates + packaging + baselines — none advisory).
-2. **How do you migrate a large JS codebase — without stopping feature work?** (allowJs bridge, file loops, JSDoc halfway — velocity with safety).
-3. **How do you upgrade TypeScript versions — without a flag-day?** (changelog triage, dual pipelines, ecosystem gating).
-4. **How do you consume untyped JS safely — and when do shims graduate?** (minimal shims, progressive precision, fork-PR-replace).
-5. **What makes code portable across Node/browser/edge — and how do you prove it?** (guards, lib splits, seams + fakes — portability tested).
+1. **Release evidence:** identify the intended artifact, selected contracts and actual enforcement without gate-count memorization.
+2. **Migration strategy:** compare real mixed-source stages, checked contracts and coherent conversion units.
+3. **Compiler promotion:** reason from actual source, runtime, declaration, API and installed-consumer differences and bounded fallback.
+4. **Untyped providers:** distinguish self-referential declaration pins from actual values and verified type replacement.
+5. **Portability claims:** interpret Node/Chrome contract failures and identify the further evidence required for an edge provider.
 
 ---
 
