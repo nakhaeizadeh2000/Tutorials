@@ -32,9 +32,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [2.1. JavaScript to TypeScript file by file](<./sections/2. Migration Playbooks/2.1. JavaScript to TypeScript file by file.md>)
 
-1. **`allowJs` bridging phase** (JS compiling alongside TS — mixed programs, boundaries inventoried, no big-bang rewrites).
-2. **Rename-and-tighten loops** (`.js` → `.ts` per file — `noImplicitAny` errors fixed per file, tests green throughout).
-3. **JSDoc as a halfway house** (typed JS via annotations — value before migration, migration eased after).
+1. **Real mixed inputs:** build and execute a TypeScript consumer of JavaScript, inspect inferred declarations and identify an unchecked boundary.
+2. **Verified conversion:** add checked JSDoc, reproduce rename errors, introduce TypeScript annotations and preserve selected runtime cases.
+3. **Migration judgment:** choose coherent review units, distinguish static improvement from validation and evaluate automation or maintained typed JavaScript.
 
 ### [2.2. TypeScript version upgrades without flag-days](<./sections/2. Migration Playbooks/2.2. TypeScript version upgrades without flag-days.md>)
 
