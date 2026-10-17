@@ -67,9 +67,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [3.3. Declaration-first consumption of untyped JavaScript](<./sections/3. Interop and Portable Code/3.3. Declaration-first consumption of untyped JavaScript.md>)
 
-1. **Ambient declarations as trust boundaries** (`declare module "legacy"` — minimal honest shims per 12/2.3, deletion-on-arrival).
-2. **Progressive precision** (shim → `any`-with-tests → precise types — trust earned per version, never assumed).
-3. **Fork-PR-replace exits** (upstreaming types — DefinitelyTyped PRs, vendored shims sunsetting per 12/3.2).
+1. **Actual provider evidence:** pack and install an untyped module whose inaccurate shim and local type pin pass while runtime fails.
+2. **Honest uncertain results:** use an unknown return and a tested own-data projection to accept the consumed shape and reject malformed provider values.
+3. **Verified declaration replacement:** install bundled types, remove the included local shim and inspect actual resolution without assuming a universal priority ladder.
 
 ---
 
