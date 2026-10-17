@@ -44,9 +44,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [2.3. never and void bottom vs deliberate nothing](<./sections/2. The Special Types/2.3. never and void bottom vs deliberate nothing.md>)
 
-1. **never is the empty set** (no value inhabits `never` — exhaustiveness, unreachable branches, conditional filtering).
-2. **void is deliberate nothing** (a function returning `void` may return `undefined` implicitly — `void` is not `undefined`, and callers must not depend on the value).
-3. **never vs void in signatures** (`() => void` vs `() => never` vs `() => undefined` — assignability, callback variance, and `strict` interactions).
+1. **Impossible results:** execute a caught never-returning path and diagnose an unhandled finite-union alternative.
+2. **Ignored versus undefined results:** observe a retained number through a void view and a valid implicit undefined return.
+3. **Contract boundaries:** reject incompatible bodies and assignments; distinguish callback result discard from parameter variance and promise ownership.
 
 ---
 
