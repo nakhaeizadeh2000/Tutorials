@@ -22,9 +22,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [1.3. null and undefined strictNullChecks and optionality](<./sections/1. The Primitive Family/1.3. null and undefined strictNullChecks and optionality.md>)
 
-1. **Two absences, different intent** (`undefined` means "not yet assigned / not present"; `null` means "intentionally empty" — TypeScript makes both explicit under `--strict`).
-2. **strictNullChecks is the divider** (without it `null`/`undefined` are assignable to everything; with it they are separate members — the single most impactful flag).
-3. **Optionality vs union** (`prop?: string` vs `prop: string | undefined` vs `prop: string | null` — assignability and `--exactOptionalPropertyTypes`).
+1. **Explicit absence:** distinguish null, undefined and API conventions from runtime validation.
+2. **Strict handling:** execute nullish guards and contrast a rejected strict call with a failing permissive run.
+3. **Presence and serialization:** compare optional, required-undefined and explicit-null properties under exact checking and actual JSON.
 
 ---
 
