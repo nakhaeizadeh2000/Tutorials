@@ -1,6 +1,8 @@
 # Async Types and Standard Library
 
-How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/fulfilled/rejected as one generic), `Awaited` unwrapping at await positions (the 09 infer mechanic applied), `async` function return contracts (`Promise<T>` always — never bare `T`), combinators (`all`/`race`/`allSettled`/`any` — tuple-preserving vs union-collapsing), cancellation (`AbortSignal` as data — propagation contracts), and the standard library behind it all (`lib` settings, `AsyncIterable`/generators, timers/queues). `Awaited` *mechanics* live in [09 Utility Types](<../09 Utility Types and Type Transformations/README.md>) ([2.3. infer pipelines](<../09 Utility Types and Type Transformations/sections/2. Conditional Types/2.3. infer pipelines ReturnType Parameters Awaited.md>)); *testing* async seams (rejections, floats, abort doubles) lives in [17 Testing Types](<../17 Testing Types/README.md>) ([2.3. Async error paths](<../17 Testing Types/sections/2. Typed Test Doubles/2.3. Testing async and error paths with types.md>)) — this domain owns async *evaluation*: how promises compose, cancel, and resolve into types.
+Connect asynchronous execution with its TypeScript contracts: fulfilled values and thenable adoption, async return inference, combinator result shapes, cooperative cancellation, bounded starts, generator channels, library selection, scope cleanup and timer lifetimes. The worked lessons declare their tested compiler and runtime versions and separate static checks from actual behavior. Promise aggregation does not automatically cancel work or release resources.
+
+[09 Utility Types](<../09 Utility Types and Type Transformations/README.md>) owns the conditional mechanics behind Awaited; this domain applies them to actual consumption. [17 Testing Types](<../17 Testing Types/README.md>) owns type-test tools, doubles and completion assertions. Keep those test mechanics there and use this domain for the asynchronous operation being tested.
 
 ## 0. Prerequisites
 
@@ -110,10 +112,10 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [7.1. Boundaries — what is covered elsewhere](<./sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md>)
 
-1. **Transformations and operations:** locate conditional evaluation separately from async consumption and synchronous iterator helpers.
+1. **Transformations and operations:** locate conditional evaluation separately from observed adoption, generator channels and synchronous iterator helpers.
 2. **Verification evidence:** choose actual type-test tools, completion tests, doubles and declaration-consumer checks.
 3. **Callable boundaries:** distinguish accepted callbacks, returned completion, receivers and cancellation seams.
-4. **Programs and artifacts:** route declarations, libraries, runtime implementations and source/output graph failures.
+4. **Programs and artifacts:** route selected declarations, syntax transforms, scope cleanup, runtime APIs and source/output graph failures.
 5. **Measurement boundaries:** separate application scheduling from published compiler/build scaling owners.
 
 [← Back to track](<../README.md>)
