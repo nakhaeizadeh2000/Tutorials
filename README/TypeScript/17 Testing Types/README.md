@@ -87,10 +87,12 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [5.1. Real production bugs caused by type-testing misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by type-testing misunderstandings.md>)
 
-1. **Snapshot-only type tests approved a widened public return** (hover text updated blindly; downstream exhaustive switches went non-exhaustive).
-2. **`any`-cast mock hid a renamed required field across 40 call sites** (double silenced arity; production `undefined` at the boundary).
-3. **Missing `@ts-expect-error` probe let a rejected card-number shape back in** (validation bypass reintroduced; fraud-review queue incident).
-4. **Type tests excluded from CI passed locally, broke published types** (`tsconfig.include` skipped `test-d/`; broken declarations shipped).
+1. **Changed expectations:** diagnose how either text updates or edited type assertions can approve unintended widening.
+2. **Malformed mock replies:** compare checker protection, any escapes and actual runtime failures.
+3. **Branded construction:** run distinct static admission and runtime factory tests and break each responsibility independently.
+4. **Omitted probes:** reproduce a false green from selection and preserve separate installed-artifact evidence.
+
+These are labeled synthetic failure cases; no company incident history is claimed.
 
 ---
 
