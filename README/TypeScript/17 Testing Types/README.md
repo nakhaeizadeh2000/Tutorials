@@ -32,9 +32,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [2.1. Mocking functions with full type safety](<./sections/2. Typed Test Doubles/2.1. Mocking functions with full type safety.md>)
 
-1. **Signature-preserving mocks** (`vi.fn<T>()` generics — arity/return enforced, not `any`-cast).
-2. **Mocked modules vs injected fakes** (module-mock rewiring vs constructor injection — blast radius compared).
-3. **Untyped-mock infection** (one `any` double silencing a whole call chain — the 03/2.1 hazard in tests).
+1. **Actual typed mocks:** run Vitest with explicit and inferred signatures, checked arguments and configured replies.
+2. **Replacement boundaries:** compare direct injection with a checked module factory and its hoisting conditions.
+3. **Compatibility limits:** show a correctly typed wrong answer and an any-hidden shape failure with separate checking and runtime commands.
 
 ### [2.2. Spies stubs and fakes over generics](<./sections/2. Typed Test Doubles/2.2. Spies stubs and fakes over generics.md>)
 
