@@ -54,9 +54,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [3.1. Annotation syntax where types appear](<./sections/3. Annotations Inference and Literals/3.1. Annotation syntax where types appear.md>)
 
-1. **Where you may annotate** (variable `let x: string`, parameter `(x: string)`, return `(): string`, property `prop: string`, `as` vs `satisfies` at the value site).
-2. **Where you must not** (no runtime annotation semantics — annotations erase; `erasableSyntaxOnly` catches non-erasable attempts).
-3. **Annotation style in code review** (annotate public contracts and exported signatures; let locals infer — signal vs noise trade-off).
+1. **Common annotation sites:** execute variable, parameter, return, callable and field contracts; distinguish destructuring renaming.
+2. **Checking and runtime boundaries:** compare annotations, assertions and satisfies without claiming validation or host compatibility.
+3. **Review judgment:** justify public and local intent, inspect declarations and verify permitted unannotated exports under isolation.
 
 ### [3.2. Type inference widening and contextual typing](<./sections/3. Annotations Inference and Literals/3.2. Type inference widening and contextual typing.md>)
 
