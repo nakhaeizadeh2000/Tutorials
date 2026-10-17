@@ -41,7 +41,7 @@ How TypeScript *ships and survives* — production checklists (release gates com
 1. **Changelog-triaged upgrades:** reproduce a real 5.5-to-5.6 library-type change, diagnose empty iterator completion, and verify the fix on old, candidate and current compilers.
 2. **Dual-pipeline verification:** build isolated artifacts, review declaration and behavior changes, and test an installed tarball consumer.
 3. **Ecosystem lag gating:** distinguish CLI and imported API support, promote each tested interface deliberately, and rehearse a bounded fallback.
-4. **Migration judgment:** explain the evidence, the chosen empty-input contract and the application integrations that remain unverified.
+4. **Migration judgment:** explain the evidence, assert the installed empty-input contract and identify application integrations that remain unverified.
 
 ### [2.3. Loose to strict sequencing](<./sections/2. Migration Playbooks/2.3. Loose to strict sequencing.md>)
 
