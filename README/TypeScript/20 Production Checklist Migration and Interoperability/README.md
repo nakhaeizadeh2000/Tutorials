@@ -45,9 +45,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [2.3. Loose to strict sequencing](<./sections/2. Migration Playbooks/2.3. Loose to strict sequencing.md>)
 
-1. **Flag-by-flag ordering** (`strictNullChecks` → `noImplicitAny` → variance/init/override — 13/4.1 sequencing restated as playbook).
-2. **Per-class baselines** (error counts per flag — ratchets shrinking, never growing, per 17/3.3).
-3. **Team rollout** (pilot partition → codemods → mandate — adoption paced, support staffed, never decreed).
+1. **Evidence-based sequencing:** run independent flag contrasts and distinguish policy order from the initialization/null-check dependency.
+2. **Complete target contracts:** repair input, absence, callback, constructor and override behavior, then check and execute the full strict target.
+3. **Rollout boundaries:** review API changes, exception identities and selected scope without treating category counts or codemods as proof.
 
 ---
 
