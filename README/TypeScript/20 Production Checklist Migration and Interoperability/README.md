@@ -61,9 +61,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [3.2. Environment-portable code node browser edge](<./sections/3. Interop and Portable Code/3.2. Environment-portable code node browser edge.md>)
 
-1. **Environment guards** (`typeof process`/`window` narrowing — 07 mechanics selecting implementations per runtime).
-2. **Lib-split partitions** (per-runtime `lib` per 18/3.1 — environment mistakes loud, shared code portable).
-3. **Portable abstractions** (storage/clock/network seams — 17/2.2 fakes proving portability, interfaces hiding runtimes).
+1. **Explicit host contracts:** distinguish capability wiring and API support from runtime-name guards or declared globals.
+2. **Actual Node/browser behavior:** compile isolated ambient programs and run the same sequential storage contract in Node and real Chrome.
+3. **Bounded portability evidence:** reproduce an ambient leak and browser-only empty-value defect; identify the additional provider evidence required for edge support.
 
 ### [3.3. Declaration-first consumption of untyped JavaScript](<./sections/3. Interop and Portable Code/3.3. Declaration-first consumption of untyped JavaScript.md>)
 
