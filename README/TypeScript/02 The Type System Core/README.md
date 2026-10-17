@@ -60,9 +60,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [3.2. Function variance and strictFunctionTypes](<./sections/3. Soundness and variance/3.2. Function variance and strictFunctionTypes.md>)
 
-1. **`strictFunctionTypes`** (enabled via `strict`: function *values* are checked contravariantly; method shorthand remains bivariant).
-2. **Why methods stay bivariant** (historical compatibility with JS's `Array.prototype` patterns — would otherwise be massively breaking).
-3. **How to be safe** (prefer function-value syntax `prop: (x: T) => void` over method `prop(x: T): void` when variance matters).
+1. **Flag and substitution:** justify the accepted wider-capable handler and reject the unsafe direction.
+2. **Method exception:** execute an accepted substitution that throws and distinguish its origin from ignored callback arguments.
+3. **Stricter callback contracts:** compare function properties, narrow forEach callbacks and disabling the flag.
 
 ### [3.3. Unsound by design spots — budgeted risks](<./sections/3. Soundness and variance/3.3. Unsound by design spots budgeted risks.md>)
 

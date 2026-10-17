@@ -2796,4 +2796,16 @@ Fullleaf/index/current04/2.3canonicalobjectapplicationread. N698 blocker keyof o
 - Links: Stablepaths/index3promisesreplaced; exactobjectapplication/literal/typevalueowners.
 - Verification: /tmp/typescript-repairs/R276-final/results.json8actualcommands: staticassertionsbuild0/runtime0 object5432false/42.0other; JSretainsruntimeoperator/indexerasesalias. Missingtypekey1TS2339/numeric1TS2322/valueindex1TS2538+2749; changedguard1TS2344+2551;restorebuild/run0. Initialexpected2339correctedactualsuggestion2551thenfreshfullrunpassed. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R27702/3.2 then02/3.3 and03seven/fullP7reconciliation/finalaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R277/N702–N705/P7 — plan
+Fullcurrentleaf/02/3.1/05callbackownerread. N702 blocker reversed/noncompilingambientfakeexample correctactualanimal/dogfunctionassignmentandobservedruntimefail. N703 blocker methodexceptionexplainedbyignoringforEachargs: aritydistinct, actualshortercallbackpassesstrict while narrowelementfails; historical2.6contractnotblanketallfunctionsclaim. N704 major flagallunsafe fixed/methods maybe distinction: actualmethodoriginexception and propertycontract, no runtimeadapter. N705 major replace mapswithforloopsforcheckerperformance unsupportedremove. Primary2.6release136–205actuallyread strictfamily/defaultoverride/contra/methodorconstructororigins/genericArraycompat. OriginalDanVanderkam2021 variance/refinementanalysis andJS06concretecontrastcalibrationreused; advancedcallbackwiringremains05. Standingapprovaloneunit.
+
+
+### R277/N702–N705/P7 — verified outcome
+- Done: Actualconstructedfunction/method/propertyfixture corrects reversedassignment/noopbrandexamples. Separatesparametercontravariance/methodoriginexception/ignoredextraargs and flagdisabledruntimefailure; removesunsupportedloopoptimization. N702–705resolved;8initialearliercandidatesremain.
+- Sources / decisions: Primary2.6release136–205 https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-6.html#strict-function-types actuallyread historicalflagintroduction/defaultoverride/signatureorigin/genericArraycompat; current7.0.2executionnotlegacyacceptanceclaim. Fullcurrent02variance/05callbackownerread; originalunsoundness/JS06comparisoncalibrationreused.
+- Files touched: README/TypeScript/02 The Type System Core/sections/3. Soundness and variance/3.2. Function variance and strictFunctionTypes.md, README/TypeScript/02 The Type System Core/README.md.
+- Links: Stablepath/indexthreepromisesupdated; exact foundations/callback/unsoundowners.
+- Verification: /tmp/typescript-repairs/R277-final/results.json10actualcommands: workingcompile/run0sixexpectedlinesincludingmethodTypeErrorcaught; wrongfunction/property1TS2322,narrowforeach1TS2345; unsafeappendstrict1TS2322,flagfalse0thenNode1uncaughtTypeError; restoredcompile/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R27802/3.3 then03seven/current02consistency/fullP7audit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
