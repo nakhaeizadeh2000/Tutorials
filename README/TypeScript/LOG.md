@@ -2820,4 +2820,16 @@ Fullleaf/index read. N706 blocker readonlyfixescovariancecompletely/nestedinouta
 - Links: Stablepath/indexpromisesupdated; exactvariance/function/brand/unknown/aliasowners andboundedcatalogroutes.
 - Verification: /tmp/typescript-repairs/R278-final/results.json9actualcommands: compile/runtime0exact8linesfourTypeErrorsobserved; readonlypush1TS2339,unknownuse1TS18046,anytonever1TS2322. Correctedpredicatecompile/runtime0withoutpredicatefailure;restorecompile/runtime0originalcontrast. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: Domain02consistency/current7previousrepairs then03seven andfullP1–P7findingcoverageaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R279/N711–N712/P7 — plan
+Completecurrent02all13nowread inclprevious2.1/2.2/3.1/4.1/5.1/6.1/7.1. Consistencyfindschecklist N711major universalextras-throughvariables/readonlyrecoverssafety shorthand conflictsnewfullowners: qualifyrequired/weakchecks/readonlycalleevsallaliases. N712major checklistvariancefenceonlydeclaresunexercisedtypes; removefakevarianceexampleclaim, executablechecklistprintsidentity/typeof/brandrepresentationwithcorrectscope andexistingnegativechecks. ReuseR273–278actualprimary/practitioner/currentJS06evidence, nonewsourcevisit. Standingapprovaloneleaf, indexesalreadyaccurate.
+
+
+### R279/N711–N712/P7 — verified outcome
+- Done: Checklistnowqualifiesvariableflow/readonlyviewlimitsandactuallyobservesidentity/runtimequery/brandrepresentation; unusedhandlerdeclarationsremovedinsteadclaimingvarianceverifiedbythem. N711–712resolved; all13current02read.
+- Sources / decisions: CurrentR273–278actualprimary/practitioner/JS06evidence reused, no newsourcevisit. Fullcurrent02remainingsevenpreviousrepairsreadforconsistency; no other correctness blocker found.
+- Files touched: README/TypeScript/02 The Type System Core/sections/4. Important points to remember/4.1. Type system core checklist mental models mentors insist on.md.
+- Links: Existingprecisecoreownerspreserved; domainindexalreadyaccurate.
+- Verification: /tmp/typescript-repairs/R279-final/results.json6actualcommands: build/run0true true object/u-1 string;freshliteral1TS2353/unbranded1TS2322;restorebuild/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R28002domainconsistencycheckpointthen03seven/finalP1–P7reconciliation. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
