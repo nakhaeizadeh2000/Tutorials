@@ -98,11 +98,11 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [6.1. Common interview QA — performance project references and scaling](<./sections/6. Interview questions and answers/6.1. Common interview QA performance project references and scaling.md>)
 
-1. **How do you find what's slow in `tsc` — and what do you do about it?** (diagnostics → traces → hot files → carve-outs/budgets).
-2. **When do project references pay off — and what breaks without them?** (partitioning thresholds, DAG rules, downstream speed).
-3. **Incremental vs clean builds — when do you trust each, and how do you verify?** (cache contracts, poisoning, schedules).
-4. **How do you keep editors fast on huge repos — in what order?** (scoping, redirect triage, multi-project, budgets).
-5. **What belongs in a type-only package — and why separate it?** (contracts versioned independently, zero-runtime partitions).
+1. **Investigating costs:** reason from completed checks, measured workloads and preserved semantic contracts.
+2. **Reference boundaries:** justify splits without fixed thresholds and explain behavior changes behind stable declarations.
+3. **Build trust:** distinguish invocation status, artifacts, cleanup and selected task coverage.
+4. **Editor diagnosis:** compare actual providers, document state, dependency membership and specific requests.
+5. **Declaration packages:** explain erased versus retained imports and implementation requirements using the installed consumer.
 
 ---
 
