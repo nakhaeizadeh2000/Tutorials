@@ -60,9 +60,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [3.2. Type-only boundaries import type bulk and erasable scale](<./sections/3. Scaling Patterns/3.2. Type-only boundaries import type bulk and erasable scale.md>)
 
-1. **`import type` bulk conversion** (type-traffic stating per 12/1.2 — emit independence at scale, transpile-per-file safety).
-2. **Erasable-syntax enforcement** (trio standard per 13/2.3 — isolated transpilers per partition, no cross-file type dependencies).
-3. **Type-only packages** (`.d.ts`-only partitions — contract packages with zero runtime, versioned independently).
+1. **Behavior-preserving conversion:** distinguish erased imports from retained initialization and review actual emitted entry points.
+2. **Bounded syntax gates:** separate erasable syntax from loader, implementation, host and toolchain compatibility.
+3. **Installed type-only contracts:** pack a real declaration package, execute an erased consumer and reproduce a retained empty-import failure.
 
 ### [3.3. Editor performance at scale budgets and tuning](<./sections/3. Scaling Patterns/3.3. Editor performance at scale budgets and tuning.md>)
 
