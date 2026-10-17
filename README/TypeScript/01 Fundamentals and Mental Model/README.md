@@ -54,9 +54,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [3.1. The compilation pipeline — tsc, emit, declarations, and source maps](<./sections/3. Running TypeScript today/3.1. The compilation pipeline tsc emit declarations and source maps.md>)
 
-1. **`tsc` is a type checker and an emitter** (two jobs: validate the program, then rewrite `.ts` → `.js` + `.d.ts` + `.js.map`).
-2. **`noEmit` separates checking from building** (CI often runs `tsc --noEmit` and lets esbuild/SWC/Vite do the actual emit).
-3. **Configurations are composable** (base `tsconfig.json` + `extends` + project references keep large repos tractable).
+1. **Actual artifacts:** compare checking, full emission and declaration-only output in a complete configured project.
+2. **Maps through a consumer:** inspect source/declaration maps and observe real Node stack mapping without assuming editor navigation.
+3. **Separate-tool failure policy:** run a pinned emitter and smoke gate, preserve type/behavior failures and review inherited configuration scope.
 
 ### [3.2. Executing TypeScript — tsc plus node, tsx, ts-node, and native Node stripping](<./sections/3. Running TypeScript today/3.2. Executing TypeScript tsc plus node tsx ts-node and native Node stripping.md>)
 
