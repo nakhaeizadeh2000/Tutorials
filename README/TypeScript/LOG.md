@@ -2844,4 +2844,16 @@ All13current02leavesfullyread:6newP7R273–278/earlier3.1/2.1/2.2/5.1/6.1 verifi
 - Links: Preciseaggregatebranding/objectqueryapplicationroutesadded; wholetrack3543localroutesresolve292files.
 - Verification: heading-checkpoint-R280.json266leaves266pass0fail; navigation-checkpoint-R280.json292files3543routes0issues; all13domain02sequentialheading/title/index/Crosslastchecked;7finalreportsR273–279contain62commandsinspectednotrerun. R279initialwrongstatus/prematureclaimcorrectedandfresh6commandsactualpassedbeforethisunit. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R28103/1.1 then03/1.2,1.3,2.1,2.3,3.1,3.3; current03–07reconciliation/fullP1–P7findingcoverageaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R281/N713–N717/P7 — plan
+Full03index/current1.1/read; currentchecklistwrappercontrastreadduringoverlapsearch. N713 blocker stale5.9/6beta currentbaseline use7.0.2/actualNode20. N714 blocker Stringannotationmeansruntimeobject/hoverlies/lowercaseallocatesnone: broadwrappertypeacceptsprimitive, annotationdoesnotbox, constructorcreatesobject. N715 blocker tscban-typeslint/uppercaseonlylegallegacy remove; actualexternalruleoptionalnotexecuted, intentionalinteroppossible. N716 major wideninguniversalknownforever/readonlyobjects misconception: boundedscalarconst/let+linkfullcurrentinference. N717 major99.9quota/primitiveinlineengine/zeroallcost removeunmeasuredclaims. PrimaryEveryday141–147/no-wrapperrule141–242 actuallyread; no copiedruleexample erroneousobjectassignment. FullJS03/4.1read forvisibleboxing/truthinesscontrast, rejectselfidentitycontradiction/universalallocationclaims. ReusecurrentGoldbergconstruction/representationreasoning forcoherentAPItradeoffs. Standingapprovaloneunit.
+
+
+### R281/N713–N717/P7 — verified outcome
+- Done: Currentprimitive/wrapperlesson distinguishesannotationfromboxing, directionalcompatibility/lintpolicy, scalarwidening and numericdomainlimits. Removedstale5.9/6beta/99.9%/tscban-types/heaplayout/zeroallcostclaims. N713–717resolved;6initialearliercandidatesremain.
+- Sources / decisions: PrimaryEveryday141–147 https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean andrule141–242 https://typescript-eslint.io/rules/no-wrapper-object-types/ actuallyread; falseexampleassigningstringtoobjectnotcopied. FullJS03/4.1readruntimeboxing/identitycalibration; rejectitscontradictoryObject(sym)selfidentity/unmeasuredengineclaims. CurrentGoldbergrepresentation/reviewtradeoffsource reasoningreused.
+- Files touched: README/TypeScript/03 Basic Types and Annotations/sections/1. The Primitive Family/1.1. string number boolean and the wrapper pitfall.md, README/TypeScript/03 Basic Types and Annotations/README.md.
+- Links: Stablepath/indexthreepromisesupdated; exactinference/literal/JSboxing/toolingowners.
+- Verification: /tmp/typescript-repairs/R281-final/results.json7actualcommands: build/run0exact7lines; boxedstringarg/mutablemodeeach1TS2345;number/booleanwrapperassignments1TS2322;restorecompile/run0. No ESLint/heapbenchmarkexecuted. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R28203/1.2 then1.3,2.1,2.3,3.1,3.3/current03–07reconciliation/finalaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.

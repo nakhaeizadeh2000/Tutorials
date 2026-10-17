@@ -10,9 +10,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [1.1. string number boolean and the wrapper pitfall](<./sections/1. The Primitive Family/1.1. string number boolean and the wrapper pitfall.md>)
 
-1. **The three workhorses** (what `string`, `number`, `boolean` mean statically and how they erase — no runtime wrapper).
-2. **Primitives vs wrappers** (`string` vs `String`, `number` vs `Number` — the boxed object types exist but are almost never what you want).
-3. **When widening bites** (`let` widens a literal to its primitive; `const` keeps the literal — the first taste of inference).
+1. **Primitive contracts:** describe ordinary strings, numbers and booleans without assuming domain validation.
+2. **Wrapper direction and representation:** execute broad primitive assignments, explicit construction, Map identity and primitive extraction.
+3. **Scalar widening:** distinguish a mutable string from a literal mode and choose the intended input contract.
 
 ### [1.2. bigint and symbol the ES-era primitives](<./sections/1. The Primitive Family/1.2. bigint and symbol the ES-era primitives.md>)
 
