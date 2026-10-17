@@ -22,9 +22,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [1.3. Hot-spot discipline mapped conditional and union cost](<./sections/1. Check-Time Performance/1.3. Hot-spot discipline mapped conditional and union cost.md>)
 
-1. **Mapped-type cost control** (homomorphic vs fresh mapping — key-count multiplication, modifier arithmetic per 09/1.2).
-2. **Union-size discipline** (large-union distribution costs — splitting, indexing, caching strategies per 07/09).
-3. **Hover-budget readability** (expanded-type costs — display types vs computation types, `NoInfer`-adjacent restraint).
+1. **Contract-preserving candidates:** compare modifier inheritance and fresh required keys before claiming a mapped-form optimization.
+2. **Explicit variant relationships:** verify selected union-filter and event-table results without inventing checker complexity or cache formulas.
+3. **Named public contracts:** inspect emitted declarations, distinguish hover presentation from semantics and route NoInfer to inference control.
 
 ---
 
