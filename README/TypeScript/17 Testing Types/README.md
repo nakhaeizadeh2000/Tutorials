@@ -76,10 +76,10 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [4.1. Type-testing checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Type-testing checklist mental models mentors insist on.md>)
 
-1. **Assert identity, not assignability** (`Equal`, not extends-checks — drift caught, not hidden).
-2. **Lock rejections, not just acceptances** (every public `never` gets a `@ts-expect-error` probe).
-3. **Doubles carry signatures** (no `any` mocks — fakes prove contracts they substitute).
-4. **Gate statically and behaviorally** (red type test blocks like a red unit test — same severity).
+1. **Chosen relation and active gate:** explain the direction, assertion helper and selected project rather than requiring identity everywhere.
+2. **Rejection boundaries:** connect active static negatives with separate runtime validation and diagnostic-cause checks.
+3. **Substitute evidence:** preserve useful signatures while testing the bounded behavior a double supplies.
+4. **Command responsibilities:** review selection, actual tool/artifact inputs, failure propagation and the limits of a green result.
 
 ---
 
