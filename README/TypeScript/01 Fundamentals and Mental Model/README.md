@@ -32,9 +32,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [2.1. Type erasure — what survives compilation](<./sections/2. How TypeScript doesnt execute/2.1. Type erasure what survives compilation.md>)
 
-1. **All type syntax disappears** (annotations, interfaces, type aliases, generics leave no trace in emitted JavaScript).
-2. **Only value-level constructs survive** (values, function bodies, `enum` caveat — the one non-erasable feature from the early era).
-3. **Erasable syntax rule** (modern guidance: every construct you write should be removable by stripping types alone — see `erasableSyntaxOnly`).
+1. **Executable versus descriptive artifacts:** inspect erased JavaScript and retained declarations for the same typed source.
+2. **Actual value transformations:** run enum, runtime namespace and parameter-property emit while reproducing syntax-gate and native-stripping rejection.
+3. **Bounded erasure promises:** distinguish ordinary JavaScript downleveling, host support and absent-name typeof from type removal.
 
 ### [2.2. Static checking vs runtime reality — trust but verify](<./sections/2. How TypeScript doesnt execute/2.2. Static checking vs runtime reality trust but verify.md>)
 
