@@ -44,9 +44,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [2.3. Testing async and error paths with types](<./sections/2. Typed Test Doubles/2.3. Testing async and error paths with types.md>)
 
-1. **Typed rejection tests** (`rejects.toThrow` + `Result` unions — 15/2.1 shapes asserted, not string-matched).
-2. **Floating-promise detection in suites** (`no-floating-promises` on test files — 18/async mechanics enforced in CI).
-3. **Timeout and abort doubles** (`AbortSignal` fakes, fake timers typed — time as an injectable dependency).
+1. **Actual outcome assertions:** distinguish runtime rejection checks from Result narrowing and Promise's fulfilled type.
+2. **Completion ownership:** run the pinned runner's unawaited-assertion failure and connect separate lint configuration to test files.
+3. **Timer and abort behavior:** drive real Vitest fake timers, test pre-abort and in-flight cancellation, and expose missing cleanup.
 
 ---
 
