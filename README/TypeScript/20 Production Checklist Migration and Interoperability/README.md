@@ -88,10 +88,10 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [5.1. Real production bugs caused by production misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by production misunderstandings.md>)
 
-1. **Advisory packaging gate shipped `any` to every consumer** (attw warned, release proceeded — warnings promoted to blockers after).
-2. **Big-bang JS→TS rewrite stalled for two quarters** (flag-day migration abandoned mid-flight — file-by-file playbook adopted in recovery).
-3. **Untyped analytics SDK widened event payloads silently** (hopeful `any` shim — precision progressive discipline adopted after).
-4. **SIGTERM-ignorant deploy severed 400 in-flight checkouts** (no drain phases — shutdown runbook added, deploys graceful after).
+1. **Release false greens:** distinguish structural health, runtime meaning, missing declarations and old-artifact identity.
+2. **Incomplete migrations:** diagnose renamed files and false provider annotations without treating a green caller as complete safety.
+3. **Self-referential shim tests:** compare a passing declaration pin with actual provider values and a verified unknown boundary.
+4. **Untested completion:** separate genuine overlapped SIGTERM drain from sequential examples and deadline abandonment.
 
 ---
 
