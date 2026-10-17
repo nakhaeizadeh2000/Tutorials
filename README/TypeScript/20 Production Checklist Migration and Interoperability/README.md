@@ -10,9 +10,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [1.1. Pre-release type gates all green](<./sections/1. Production Checklist/1.1. Pre-release type gates all green.md>)
 
-1. **Three-gate composition at release** (`noEmit` + `tsd`/typecheck + unit — 17/3.3 gates required, none advisory, at the release cut).
-2. **Packaging gates on the tarball** (`attw` + `publint` on packed output — 16/2.3 gates proving consumer resolution pre-publish).
-3. **Baseline diffs reviewed** (type + perf + API baselines — moves deliberate with evidence, never silent).
+1. **Contract-driven gates:** choose actual source, artifact, type-consumer and behavior checks with preserved failures.
+2. **One identified artifact:** execute health tools and fresh ESM/CommonJS consumers against an explicit local tarball and retain its report.
+3. **Deliberate release evidence:** reproduce layout and semantic failures, distinguish old artifact success from changed source and review baseline compatibility.
 
 ### [1.2. Strictness and configuration audits](<./sections/1. Production Checklist/1.2. Strictness and configuration audits.md>)
 
