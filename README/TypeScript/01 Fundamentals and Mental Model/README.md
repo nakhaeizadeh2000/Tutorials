@@ -1,6 +1,6 @@
 # Fundamentals and Mental Model
 
-The map before the territory: what TypeScript actually is, how its type system relates to JavaScript, how compilation and type erasure work, and how to run TypeScript today. Everything later in this track builds on these mental models. Assumes you can already read and write JavaScript — for language fundamentals see the [JavaScript track](<../../JavaScript/README.md>).
+This domain builds the first checked-contract and execution model for JavaScript readers. Actual examples distinguish a rejected argument from a runtime failure, inspect erased and transformed artifacts, query the native language service, consume source maps and compare runner/checking responsibilities. The verified compiler baseline is TypeScript 7.0.2; examples state their tested runtimes and dates. The [current learning route](<../25 Update TypeScript 7.0/sections/6. Overlaps and Update Route/6.1. Overlaps and the current learning route.md>) connects returning readers to affected owners. JavaScript remains the runtime foundation; use its [track](<../../JavaScript/README.md>) for language prerequisites. A successful check, source run or editor query has a declared scope and does not replace the others.
 
 ## 0. Prerequisites
 
