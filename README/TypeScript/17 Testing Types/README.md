@@ -60,9 +60,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [3.2. Testing declaration files and public API surface](<./sections/3. Type Tests in Practice/3.2. Testing declaration files and public API surface.md>)
 
-1. **Public-surface probes** (import-from-package assertions — what consumers can name, pinned).
-2. **`attw`/publint as type tests** (16/2.3 gates re-framed — packaging assertions beside unit assertions).
-3. **Breaking-change detection** (assertion diffs in CI — semver-major signals from red type tests).
+1. **Installed declaration probes:** check actual root/subpath ESM and CommonJS imports, hidden names and strict signature assertions.
+2. **Artifact and runtime boundaries:** execute installed behavior, expose an intentionally blocked subpath and interpret health checks within their scope.
+3. **Compatibility decisions:** compare parameter-label and optional-parameter changes without treating every assertion failure as a release-version verdict.
 
 ### [3.3. CI gates running type tests with unit tests](<./sections/3. Type Tests in Practice/3.3. CI gates running type tests with unit tests.md>)
 
