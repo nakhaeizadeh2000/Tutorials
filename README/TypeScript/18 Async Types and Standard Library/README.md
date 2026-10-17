@@ -38,9 +38,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [2.2. AbortSignal propagation and cancellation contracts](<./sections/2. Combinators and Cancellation/2.2. AbortSignal propagation and cancellation contracts.md>)
 
-1. **Signals as parameters** (cancellation as data — `signal?: AbortSignal` threading, not globals).
-2. **Abort semantics in types** (`aborted` checks narrowing control flow — rejection with `AbortError`, typed at the seam).
-3. **Timeout composition** (`AbortSignal.timeout(ms)` + `Promise.race` patterns — time-bounded operations typed end-to-end).
+1. **Actual propagation:** forward a signal through a loader to local HTTP fetch and test success, pre-abort and in-flight cancellation.
+2. **Reason and type boundaries:** compare default/custom/composed reasons and prove that throwIfAborted is not an assertion signature.
+3. **Cooperative deadlines:** run a real pending-request timeout and distinguish scheduled zero delay, invalid negative delay and resource ownership.
 
 ### [2.3. Sequential vs parallel patterns and tuple typing](<./sections/2. Combinators and Cancellation/2.3. Sequential vs parallel patterns and tuple typing.md>)
 
