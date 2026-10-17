@@ -22,9 +22,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [1.3. Nominal typing techniques — branding and opaque types](<./sections/1. Structural typing/1.3. Nominal typing techniques branding and opaque types.md>)
 
-1. **Why nominal sometimes matters** (two `string`-based IDs that shouldn't mix: `UserId` vs `OrderId`).
-2. **Branding pattern** (`type UserId = string & { __brand: "UserId" }` — intersection adds a phantom member that collapses compatibility).
-3. **Trade-offs** (branding requires assertions at creation; true opaque types remain a proposal — measure the cost/benefit).
+1. **Domain distinction:** demonstrate equal-representation aliases accepting the wrong identifier.
+2. **Checked scalar brands:** execute parsers, distinguish symbol declarations and reject accidental cross-domain flow.
+3. **Trade-offs and limits:** identify construction evidence, assertion bypasses and the difference between syntax and authorization.
 
 ---
 

@@ -2772,4 +2772,16 @@ Fullleaf/index/wholetrackfreshnessoverlap read. N689 blocker blanket spread/asse
 - Links: Stablepaths/index3promisesupdated; exactstructural/object/validationowners.
 - Verification: /tmp/typescript-repairs/R274-final/results.json11actualcommands: build/runtime0fourexpectedlines; freshcall/spreadexplicit/satisfiesall1TS2561; weak1TS2559;missing1TS2741;existingvariablesatisfies0;annotatedreturnliteral1TS2561;restorebuild/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R27502/1.3 andremaining02–03/fullP7finalreconciliation. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R275/N693–N697/P7 — plan
+Fullleaf/index/04object-brandowner read; primitiveownerretained, no repeatedaggregate/projection/classlesson. N693 blocker ambientruntimegetUser/order, noopdelete/wrongargumentTS2322 replace realformatlookup/numericregexunknownfactories, TS2345argument vs2322assignment. N694 blocker assertionprovesbrand/uniqueallinstancesidentity/strict-onlysafety: declarationkeys and forgecounterexample; runtimecallsunknownchecked. N695 major mandatoryallboundariesunknown/allcreationexplicitassertions/TC39opaqueproposal false: owns constructionevidence, predicatealternatives/no inventedproposalstatus. N696 major5–15brand/constructorcountquota remove; reasonfromdomainconfusion. N697 major zerovalidationruntimecost/negligiblecheck/singlepropertyformula/wrappersalwaysworse remove. PrimarySymbols204–238 read; JoshuaGoldberg LearningTypeScriptAug15,2024 articleactual69–327/650–760 read assertion/predicatecaveats/IDs, notsearchsnippets; originalunsoundness+JSobjectcalibration reused. Standingapproval.
+
+
+### R275/N693–N697/P7 — verified outcome
+- Done: ConstructedscalarID/parsers/forgecontrast replaces ambientfakeexecution and assertionprovingclaim; correctedargumentdiagnostic/non-strictidentity/typeonlysymbols/opaqueclaim/brandquotas/validationcost. N693–697 resolved;10initialearliercandidatesremain.
+- Sources / decisions: PrimarySymbols204–238 https://www.typescriptlang.org/docs/handbook/symbols.html#unique-symbol actuallyread. OriginalJoshuaGoldberg Aug15,2024 https://www.learningtypescript.com/articles/branded-types actual69–327/650–760 read scalarID/predicate/forge tradeoffs; notclaimedwholearticle, no popularity or safety proof. Fullcurrent04/3.2 read to keep aggregatecopies/projections/classes there. JS06objectidentity calibration reused.
+- Files touched: README/TypeScript/02 The Type System Core/sections/1. Structural typing/1.3. Nominal typing techniques branding and opaque types.md, README/TypeScript/02 The Type System Core/README.md.
+- Links: Stablepaths/index3promisesreplaced; exactaggregate/validation/erasureowners.
+- Verification: /tmp/typescript-repairs/R275-final/results.json10actualcommands: build0 JSno key declarations; runtime0 exactfourlines/reject5/forgedwrongdomainaccepted. WrongargumentTS2345/plainassignmentTS2322 each1withstrictandwithoutstrict. Disablingregexpstillbuild0butruntime1parsercontractfailed;restoredcompile/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R27602/2.3 then02/3.2,3.3,03seven/fullP7audit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
