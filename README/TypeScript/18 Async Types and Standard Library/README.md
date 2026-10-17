@@ -66,9 +66,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [3.3. Timers queues and the event-loop type view](<./sections/3. Standard Library in Practice/3.3. Timers queues and the event-loop type view.md>)
 
-1. **Timer handle types** (`setTimeout` returning `Timeout` (node) vs `number` (dom) — the dual-declaration collision and its containment).
-2. **`queueMicrotask` vs `setImmediate` vs `setTimeout`** (scheduling tiers — ordering guarantees typed by intent, not by hope).
-3. **Unref/drain patterns** (`unref` lifecycle types — process-lifetime management without leaks).
+1. **Actual timer declarations:** check DOM, Node and mixed configurations, then observe that annotations do not convert or invalidate a runtime handle.
+2. **Scheduling context:** test microtask-before-timer and immediate-before-timer inside actual I/O without inventing a universal phase ranking.
+3. **Process lifetime:** execute child-process ref/unref/cancellation contrasts and distinguish timer lifetime from an application drain policy.
 
 ---
 
