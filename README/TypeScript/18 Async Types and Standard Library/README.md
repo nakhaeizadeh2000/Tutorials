@@ -10,9 +10,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [1.1. Promise states and the Promise type anatomy](<./sections/1. Promise Types/1.1. Promise states and the Promise type anatomy.md>)
 
-1. **One generic, three states** (`Promise<T>` pending/fulfilled/rejected — the state invisible in the type, carried at runtime).
-2. **`then`/`catch`/`finally` signatures** (continuation typing — `then` unwraps one level, `catch` widens the union, `finally` preserves).
-3. **Executor typing** (`new Promise<T>((resolve, reject) => ...)` — resolve-typed, reject-`any` legacy and its containment).
+1. **Fulfillment and state:** observe synchronous construction, later reactions and adoption of a still-pending promise.
+2. **Continuation outcomes:** check transformation/recovery types, preserved values, cleanup rejection and awaited cleanup.
+3. **Constructor boundaries:** inspect resolve/reject typing and reproduce why an async executor can leave the outer promise pending.
 
 ### [1.2. Awaited recursive unwrapping and thenables](<./sections/1. Promise Types/1.2. Awaited recursive unwrapping and thenables.md>)
 
