@@ -2784,4 +2784,16 @@ Fullleaf/index/04object-brandowner read; primitiveownerretained, no repeatedaggr
 - Links: Stablepaths/index3promisesreplaced; exactaggregate/validation/erasureowners.
 - Verification: /tmp/typescript-repairs/R275-final/results.json10actualcommands: build0 JSno key declarations; runtime0 exactfourlines/reject5/forgedwrongdomainaccepted. WrongargumentTS2345/plainassignmentTS2322 each1withstrictandwithoutstrict. Disablingregexpstillbuild0butruntime1parsercontractfailed;restoredcompile/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R27602/2.3 then02/3.2,3.3,03seven/fullP7audit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R276/N698–N701/P7 — plan
+Fullleaf/index/current04/2.3canonicalobjectapplicationread. N698 blocker keyof own-only/numericliteralbroadnumber/symbolconfusion correctdeclaredkeys andexactnumeric0/indexsignatures/prototypememberscontrastwithoutduplicatefull04lesson. N699 blocker allconstructserase (runtimeget/index/guards) and runtime narrowing language: distinguish executedtypeof vscheckercontrolflow; actualstaticinside/outside probes. N700 major asconstalwaysbetter/immutability/newtypebacktovalue claims correctwidercontracts/notfreeze/no runtime typequeryexecution. N701 major aliasfasterhovercheckerperformanceclaim removeunsupportedbenchmark. Primarythreequeryhandbooks136–252 actuallyreadtypeoflimitedidentifier/property, keyofindex vsliteral,indexmemberunion/valuekey restrictions. Reuse04originalCharpentier sourceevaluation andcurrentJS06objectcalibration; executableprimitiveoperatorfixture notduplicatebroaderObjectvalues/validatorlesson. Standingapproval.
+
+
+### R276/N698–N701/P7 — verified outcome
+- Done: Correctedkeyofown-only/numerickeybroadness/runtimevsstaticnarrowing/allerase/notfreeze/universalprecision/aliasperformance claims. Completequeryfixture checkedstaticresults separatelyfromruntime; object-specificlessonkeepsadvancedapplications. N698–701resolved;9initialearliercandidatesremain.
+- Sources / decisions: Primary typeof136–231/keyof136–180/indexed136–252 https://www.typescriptlang.org/docs/handbook/2/typeof-types.html https://www.typescriptlang.org/docs/handbook/2/keyof-types.html https://www.typescriptlang.org/docs/handbook/2/indexed-access-types.html actuallyread. Fullcurrent04/2.3read, its originalCharpentier evaluation reused; JS06objectcalibration retained.
+- Files touched: README/TypeScript/02 The Type System Core/sections/2. The type vs value separation/2.3. Type queries typeof keyof and indexed access.md, README/TypeScript/02 The Type System Core/README.md.
+- Links: Stablepaths/index3promisesreplaced; exactobjectapplication/literal/typevalueowners.
+- Verification: /tmp/typescript-repairs/R276-final/results.json8actualcommands: staticassertionsbuild0/runtime0 object5432false/42.0other; JSretainsruntimeoperator/indexerasesalias. Missingtypekey1TS2339/numeric1TS2322/valueindex1TS2538+2749; changedguard1TS2344+2551;restorebuild/run0. Initialexpected2339correctedactualsuggestion2551thenfreshfullrunpassed. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R27702/3.2 then02/3.3 and03seven/fullP7reconciliation/finalaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.

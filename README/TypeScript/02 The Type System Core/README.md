@@ -44,9 +44,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [2.3. Type queries — typeof, keyof, and indexed access](<./sections/2. The type vs value separation/2.3. Type queries typeof keyof and indexed access.md>)
 
-1. **`typeof` in type space vs value space** (value `typeof x === "string"` is a runtime check; type `typeof x` is a type query that captures the variable's type).
-2. **`keyof` and indexed access `T[K]`** (produce union of keys, or member type — the two primitive type-level operators).
-3. **Synthesis** (how `typeof`, `keyof`, `T[K]` and `as const` together enable type-level programming without runtime cost because they erase).
+1. **Two typeof operations:** distinguish executed runtime evidence from an erased query of the current static type.
+2. **Key and member types:** compare literal keys, index signatures and indexed access without claiming runtime enumeration.
+3. **Synthesis:** execute a captured configuration and validate inferred results with compiler assertions and negative probes.
 
 ---
 
