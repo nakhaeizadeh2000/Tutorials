@@ -20,7 +20,7 @@ How TypeScript types classes as constructor values and instance contracts: insta
 2. **Initialization evidence:** contrast constructor/field producers, optional absence and a trusted definite assertion with observed first-use behavior.
 3. **Construction and lifetime:** separate private constructor access, factory validation, builder state and the first cached singleton instance.
 
-### [1.3. Access modifiers and encapsulation public private protected readonly](<./sections/1. Class Type Fundamentals/1.3. Access modifiers and encapsulation public private protected readonly.md>)
+### [1.3. Access modifiers and encapsulation — public private protected readonly and #private](<./sections/1. Class Type Fundamentals/1.3. Access modifiers and encapsulation public private protected readonly.md>)
 
 1. **Visibility and private names:** verify ordinary keys, lexical private access, same-origin compatibility and native/ES2015 emission.
 2. **Mutation mechanisms:** distinguish readonly views, writable aliases, inherited getter-only writes and shallow runtime freeze.

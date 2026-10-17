@@ -36,13 +36,13 @@ Mapped types derive property contracts, conditional types choose results from ty
 2. **Type versus value filtering:** use never to select type members while observing the separate runtime array check and failure path.
 3. **Whole-type boundaries:** test never/any/unknown, apply explicit empty-input policy and distinguish mutual assignability from a chosen equality probe.
 
-### [2.2. Exclude Extract NonNullable Pick Omit under the hood](<./sections/2. Conditional Types/2.2. Exclude Extract NonNullable Pick Omit under the hood.md>)
+### [2.2. Exclude, Extract, NonNullable, Pick and Omit — under the hood](<./sections/2. Conditional Types/2.2. Exclude Extract NonNullable Pick Omit under the hood.md>)
 
 1. **Installed definitions:** read actual utility bodies and distinguish Pick/Omit key constraints, literal-preserving filters and useful domain aliases.
 2. **Object alternatives:** compare common-key Omit with an explicitly distributive transform that retains branch payloads.
 3. **Value boundaries:** check current NonNullable behavior, preserve non-nullish primitives and construct a real public projection.
 
-### [2.3. infer pipelines ReturnType Parameters Awaited](<./sections/2. Conditional Types/2.3. infer pipelines ReturnType Parameters Awaited.md>)
+### [2.3. Infer pipelines — ReturnType, Parameters and Awaited](<./sections/2. Conditional Types/2.3. infer pipelines ReturnType Parameters Awaited.md>)
 
 1. **Callable extraction:** verify constraints, last-public-overload metadata, generic unknown results and runtime arity independent of tuple types.
 2. **Awaited boundaries:** compare static recursive unwrapping with actual thenable adoption, unchanged fields and a reproduced recursion failure.

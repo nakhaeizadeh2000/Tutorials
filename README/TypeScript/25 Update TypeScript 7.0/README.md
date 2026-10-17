@@ -55,6 +55,6 @@ This incremental domain takes returning readers from the published 5.x/6.x mater
 2. **Learning route:** choose an appropriate sequence for returning readers and new learners with explicit prerequisites.
 3. **Failure routing:** identify the next diagnostic check for output, API, Unicode, package and boundary problems.
 
-All six approved update lessons are published. The earlier topical material's review repairs remain in progress; each worked example identifies its tested environment.
+All six approved update lessons are published. The full-track review and repairs are complete; the [outcome report](<../DOCUMENTATION_REVIEW_2026-10-18_32.md>) records coverage, verification and limits. Each worked example identifies its tested environment.
 
 [← Back to track](<../README.md>)

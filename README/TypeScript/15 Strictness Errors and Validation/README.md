@@ -66,7 +66,7 @@ The [hand-written parser](<./sections/3. Schema Validation in Practice/3.1. Hand
 2. **Actual combinator behavior:** run object/array/union policies, optional versus absent-only keys and ordered overlapping alternatives.
 3. **Trust and adoption:** expose callback exceptions, dishonest custom checks and reflective-input limits before evaluating library trade-offs.
 
-### [3.3. Parse do not validate at boundaries](<./sections/3. Schema Validation in Practice/3.3. Parse do not validate at boundaries.md>)
+### [3.3. Parse, don't validate — at boundaries](<./sections/3. Schema Validation in Practice/3.3. Parse do not validate at boundaries.md>)
 
 1. **Evidence before effects:** run a complete-batch parser/consumer and reject malformed input before local actions.
 2. **Validity lifetime:** expose mutable aliases, flat owned snapshots, structural construction and fresh cache boundaries.

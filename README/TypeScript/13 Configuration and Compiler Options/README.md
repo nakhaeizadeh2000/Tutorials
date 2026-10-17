@@ -20,7 +20,7 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 2. **Catch-clause checking:** run unknown/any flag variants and handle controlled primitive and Error throws without assuming conversion cannot fail.
 3. **Separate rejection callbacks and policy:** type Promise.catch parameters deliberately and contain unverified data without mistaking lint choices for compiler guarantees.
 
-### [1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride](<./sections/1. Strictness Family/1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride.md>)
+### [1.3. strictFunctionTypes, strictPropertyInitialization and noImplicitOverride](<./sections/1. Strictness Family/1.3. strictFunctionTypes strictPropertyInitialization noImplicitOverride.md>)
 
 1. **Callback configuration:** compare strict and weakened assignment checks, verify the safe substitution direction and reproduce the method-signature exception.
 2. **Initialization contracts:** execute missing, asserted, constructor-established and optional field cases while separating checker evidence from runtime lifecycle.
@@ -58,7 +58,7 @@ This domain selects and verifies compiler settings for actual programs. It owns 
 2. **Host-specific evidence:** reproduce an extensionless bundler success/native failure and align a local package's browser/node/fallback conditions explicitly.
 3. **Migration and publication limits:** verify removed-option diagnostics and choose actual library formats and declarations rather than assuming metadata creates implementations.
 
-### [3.2. declaration composite project references](<./sections/3. Modules Emit and Projects/3.2. declaration composite project references.md>)
+### [3.2. declaration, composite and project references](<./sections/3. Modules Emit and Projects/3.2. declaration composite project references.md>)
 
 1. **Real project outputs:** configure core/app composite programs, build dependencies in order and inspect declarations, maps and actual consumer inputs.
 2. **Build-state limits:** compare unchanged, implementation and signature edits; test unreferenced built imports and force-versus-clean behavior.

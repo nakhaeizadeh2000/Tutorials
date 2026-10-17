@@ -21,7 +21,7 @@ How TypeScript writes types that work for *many* types — type parameters (`<T>
 3. **Competing inference:** use NoInfer to make one argument own the allowed set, then verify acceptance, rejection and runtime limits.
 4. **Boundary contracts:** relate T to a real decoder and explain why explicit type arguments do not validate data.
 
-### [1.3. Generic scope per-call vs per-value and declaration sites](<./sections/1. Generic Fundamentals/1.3. Generic scope per-call vs per-value and declaration sites.md>)
+### [1.3. Generic scope — per-call versus per-value and declaration sites](<./sections/1. Generic Fundamentals/1.3. Generic scope per-call vs per-value and declaration sites.md>)
 
 1. **Per-call contracts:** compare a generic call signature with a fixed callable view and execute independently typed transformations.
 2. **Stored relationships:** preserve bag writes/reads, choose fresh mapping/fallback types and expose a reader-selected result lie.
