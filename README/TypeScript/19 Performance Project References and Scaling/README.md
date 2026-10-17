@@ -32,9 +32,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [2.1. Composite partitioning and references architecture](<./sections/2. Project References and Builds/2.1. Composite partitioning and references architecture.md>)
 
-1. **Partitioning by change-rate** (stable leaves vs churning apps — references following dependency direction, never cycles).
-2. **`composite` + `declaration` mechanics at scale** (emit once, check against declarations — downstream speed from upstream emit).
-3. **Reference-graph hygiene** (DAG enforcement, layer rules, barrel discipline — architecture reviewable in `tsconfig` files).
+1. **Purposeful boundaries:** extend the configured graph with a second consumer and choose projects from dependencies, hosts, outputs and measured needs.
+2. **Artifact and behavior observations:** inspect both consumer programs, composite constraints and changed runtime behavior behind stable declarations.
+3. **Finite graph diagnostics:** reproduce circular references, distinguish dry planning from type checking and separate references from import policy.
 
 ### [2.2. Incremental builds and tsbuildinfo discipline](<./sections/2. Project References and Builds/2.2. Incremental builds and tsbuildinfo discipline.md>)
 
