@@ -77,10 +77,10 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [4.1. Production checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Production checklist mental models mentors insist on.md>)
 
-1. **Gate everything releasable** (statics, surfaces, packaging, baselines — all green, none advisory).
-2. **Migrate in files and flags, never in flag-days** (incremental playbooks — velocity with safety, always).
-3. **Interop honest, never hopeful** (shims minimal, trust versioned, precision progressive).
-4. **Observe what you ship** (errors taxed, health modeled, shutdowns phased — production as proof).
+1. **Release identity and scope:** connect the reviewed artifact, selected contracts and actual enforcement without a fixed tool quota.
+2. **Complete migration targets:** verify deliberate source, strictness and version changes across their real interfaces.
+3. **Honest provider boundaries:** distinguish declaration claims, selected exceptions and validated runtime values.
+4. **Actual host/lifecycle evidence:** assess projection, readiness, pending-work SIGTERM and executed adapters with explicit limits.
 
 ---
 
