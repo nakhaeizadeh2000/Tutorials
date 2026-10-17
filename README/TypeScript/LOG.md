@@ -2940,4 +2940,16 @@ All13current03fullyread:7initialcandidatesnowR281–287plus6previousrepairsunkno
 - Links: Exactenum/syntax/query/objectquery/generic/config/currentroutes; wholetrack3522localroutesresolve292files.
 - Verification: heading-checkpoint-R288.json266leaves266pass0fail; navigation-checkpoint-R288.json292files3522routes0issues; all13domain03sequentialheading/title/index/Crosslastchecked;7finalreportsR281–287contain72actualcommandsinspectednotrerun. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: Reconcile04–07priorcomplete13leafrepairs/currentindexes/evidence; buildcompleteP1–P7finding→repair→evidencemapandcoverage/progressioninventory; finalglobalquality/navigation/versionchecks, closeonlyactualfullcompletion. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R289/N759–N760/P3/P4/P7 — plan
+Reconcilecompleteprior04–07each13leafrepair againstGit/log/retainedactualmanifests, currentfullindexesread; priorleafsubstantivereads/evidencefromclosedSessions9–14remainverifiedhistory, thisunitdoesnotclaimrerunall52. N759major07indexsatisfiesnarrower/exhaustivenessguarantee/classinheritancebeatsunions conflation: correctcompatibilitychecks/controlflow/representationchoice/custominstanceofroute. N760major06prereqallclassmodifierserase undererasablegate: distinguishannotations/ordinaryprivacy/parameterpropertytransform/classoperation. Onecoherentindexconsistencyunit06/07plusnonpublishedcoverageevidence04–07; noleafrewrite/newapproval. Freshwholetrackstructure/title/index/routes/closedhistory andexactoriginalmanifestcoverage; inspectionnotexecution. StandingapprovalallTypeScript.
+
+
+### R289/N759–N760/P3/P4/P7 — verified outcome
+- Done: Reconciledall52prior04–07leafrepairswithcurrentbytes/Gitunit/retainedactualevidence;49resultmanifests805storedcommands,3manualconceptualoverlapunitsR042/R068/R054. Currentfourfullindexesread;06/07prerequisite/introclaimsnowseparateclassprocessing/methodexceptions/contextchecks/runtimeguards/exhaustiveness/representationchoice. N759–760resolved. No claim of reexecuting52leafprojects.
+- Sources / decisions: PriorcompleteclosedSession9–14source/verificationrecordsrecoveredandmappedtoactualGit/scratch; current01–03/04brandquery/05returncallbackownersfullyreadthiscontinuouswork. ManualconceptualR042/R068/R054verificationrecordschecked. No new sourcevisit/benchmark.
+- Files touched: README/TypeScript/06 Classes and Object-Oriented Types/README.md, README/TypeScript/07 Unions Intersections and Narrowing/README.md.
+- Links: Stablepaths; allindexedcurrentleafnames/headingnumbers/title/Crosslastchecked. Wholetrack3522localroutesresolve292files.
+- Verification: /tmp/typescript-repairs/coverage-reconciliation.json all266leaveshavepostreviewunitcommits/currentexactbytes,zeroheading/title/index/Crosslastfailures; original260inventory/233FAILexactparsedandcovered. 04–07 52rows49actualretainedresults805recordsinspectednotrerun,3manualroutingoutcomesverifiedinLOG. Freshheading-checkpoint-R289266pass/navigation292files3522routes0issues. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: FullP1–P7finding→repair→evidenceandcoverage/progressionreport, finaltext/version/repetition/feature/indexchecks, closeDONEonlywhenapprovedfullscopeverified. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
