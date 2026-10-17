@@ -10,9 +10,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [1.1. Structural assignability — shape, not name](<./sections/1. Structural typing/1.1. Structural assignability shape not name.md>)
 
-1. **Assignability by shape** (if `A` has every member `B` requires, `A` is assignable to `B` — member types checked recursively).
-2. **Width subtyping** (extra members don't break assignability — `{ x, y, color }` satisfies `{ x, y }`).
-3. **Depth subtyping** (nested members must themselves be assignable — `{ a: { x: number } }` vs `{ a: { x: string } }`).
+1. **Assignability by shape:** compare required members without relying on shared declaration names.
+2. **Width and identity:** execute a narrower view and observe retained properties and object identity.
+3. **Nested compatibility:** reject missing or incompatible members and distinguish static checks from runtime inheritance.
 
 ### [1.2. Excess property checks and freshness](<./sections/1. Structural typing/1.2. Excess property checks and freshness.md>)
 
