@@ -66,9 +66,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [3.3. CI gates running type tests with unit tests](<./sections/3. Type Tests in Practice/3.3. CI gates running type tests with unit tests.md>)
 
-1. **Three-gate suite** (`tsc --noEmit` + `tsd`/vitest-typecheck + unit tests — separate jobs, separate signals).
-2. **Failure triage order** (type errors first, behavior second — static drift vs logic bug routing).
-3. **Baseline discipline for legacy** (error-count budgets decreasing — 13/4.1 triage applied to test adoption).
+1. **Actual command gates:** run a selected type probe and runtime suite through a collector that preserves both exit statuses.
+2. **Failure evidence:** reproduce static-only, behavior-only and combined failures, plus a false green from excluding the probe.
+3. **Adoption boundaries:** distinguish diagnostic identity from counts, define omitted scope and separate local checks from hosted enforcement.
 
 ---
 
