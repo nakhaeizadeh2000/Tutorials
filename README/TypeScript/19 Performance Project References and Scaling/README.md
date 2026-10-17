@@ -76,10 +76,10 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [4.1. Performance checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Performance checklist mental models mentors insist on.md>)
 
-1. **Measure before cutting** (diagnostics + traces first — numbers routing effort, folklore ignored).
-2. **Partition by change-rate** (stable leaves, churning apps — references as architecture, not paperwork).
-3. **Budget instantiations and program size** (ceilings enforced in CI — growth loud, drift blocked).
-4. **Cache honestly, verify cleanly** (incremental for speed, clean schedules for truth — both, never either-or).
+1. **Equivalent measurements:** establish successful checking and preserved contracts before comparing counters or timings.
+2. **Purposeful projects:** distinguish dependency, output and consumer boundaries from fixed partition thresholds.
+3. **Investigation budgets:** interpret measured growth without inventing per-key costs or rejecting legitimate features automatically.
+4. **Separate verification contracts:** check state, complete artifacts and task coverage without treating force or a schedule as completeness proof.
 
 ---
 
