@@ -44,9 +44,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [2.3. Sequential vs parallel patterns and tuple typing](<./sections/2. Combinators and Cancellation/2.3. Sequential vs parallel patterns and tuple typing.md>)
 
-1. **Loop-await serialization** (`for...of` + `await` — ordered, slow, typed simply — when order beats speed).
-2. **`Promise.all` parallelism** (concurrent launch, tuple results — when independence allows batching).
-3. **Bounded concurrency** (pools/queues limiting flight — throughput without collapse, typed worker contracts).
+1. **Start versus consumption:** observe sequential starts and input-ordered consumption of already overlapping work.
+2. **Explicit mapper contract:** validate limits and dense inputs, preserve result order and distinguish concurrency from pacing.
+3. **Verified failure ownership:** measure the active-callback cap, stop admission after observed failure and drain started work before rejecting.
 
 ---
 
