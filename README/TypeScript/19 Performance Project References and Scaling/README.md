@@ -10,9 +10,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [1.1. Measuring with extendedDiagnostics and traces](<./sections/1. Check-Time Performance/1.1. Measuring with extendedDiagnostics and traces.md>)
 
-1. **`--extendedDiagnostics` reading** (files/symbols/types/instantiations/assignability-cache — which counters matter, which are noise).
-2. **`--generateTrace` flame analysis** (trace files over hot files — finding the 5% of files costing 80% of check time).
-3. **Measure-first discipline** (baselines before refactors — numbers, not folklore, deciding what to optimize).
+1. **Actual diagnostic fields:** establish program membership and successful checking before interpreting whole-program counters or phase times.
+2. **Native trace inspection:** generate and analyze real events, map checker-specific type files and distinguish native pprof artifacts from legacy CPU profiles.
+3. **Comparable measurements:** collect separate successful elapsed runs, preserve contracts and route fuller cache/version/watch comparisons to their worked owner.
 
 ### [1.2. Instantiation budgets and TS2589 carve-outs](<./sections/1. Check-Time Performance/1.2. Instantiation budgets and TS2589 carve-outs.md>)
 
