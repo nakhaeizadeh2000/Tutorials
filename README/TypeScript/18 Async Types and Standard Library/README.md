@@ -60,9 +60,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [3.2. AsyncIterable generators and for-await](<./sections/3. Standard Library in Practice/3.2. AsyncIterable generators and for-await.md>)
 
-1. **`AsyncGenerator<T, TReturn, TNext>` anatomy** (yield/send/return channels typed — the three-parameter contract).
-2. **`for await...of` consumption** (async iteration protocol — `Symbol.asyncIterator`, backpressure by awaiting).
-3. **Sync/async generator choice** (push-vs-pull, chunked streams — when `AsyncIterable` beats `Promise<T[]>`).
+1. **Three typed channels:** distinguish inferred versus defaulted types, ignored startup sends and done-based result narrowing.
+2. **Consumption boundaries:** test synchronous fallback, async protocol preference, consumer pacing and awaited closing versus next failures.
+3. **Deliberate collection shape:** validate page boundaries and choose synchronous, asynchronous or materialized results with explicit buffering limits.
 
 ### [3.3. Timers queues and the event-loop type view](<./sections/3. Standard Library in Practice/3.3. Timers queues and the event-loop type view.md>)
 
