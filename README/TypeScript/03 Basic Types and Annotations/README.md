@@ -32,9 +32,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [2.1. any the unchecked escape hatch](<./sections/2. The Special Types/2.1. any the unchecked escape hatch.md>)
 
-1. **What any disables** (every check: assignability, property access, calls — `any` is compatible with everything and everything is compatible with `any`).
-2. **How it leaks** (one `any` in a return type infects callers; `any[]` vs `unknown[]` downstream consequences).
-3. **Budgeting, not banning** (migration escape valve with `// @ts-ignore` vs disciplined alternative `unknown` + narrowing).
+1. **Unchecked operations and limits:** permit ordinary unchecked flow while rejecting never and independent typed errors.
+2. **Propagation and containment:** execute false variable/return promises, mixed any elements and a checked unknown adapter.
+3. **Explicit escape decisions:** distinguish missing inference, intentional any and compile-only suppression comments with real diagnostics.
 
 ### [2.2. unknown the type-safe top type](<./sections/2. The Special Types/2.2. unknown the type-safe top type.md>)
 
