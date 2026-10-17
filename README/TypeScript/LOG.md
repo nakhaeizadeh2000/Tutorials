@@ -2808,4 +2808,16 @@ Fullcurrentleaf/02/3.1/05callbackownerread. N702 blocker reversed/noncompilingam
 - Links: Stablepath/indexthreepromisesupdated; exact foundations/callback/unsoundowners.
 - Verification: /tmp/typescript-repairs/R277-final/results.json10actualcommands: workingcompile/run0sixexpectedlinesincludingmethodTypeErrorcaught; wrongfunction/property1TS2322,narrowforeach1TS2345; unsafeappendstrict1TS2322,flagfalse0thenNode1uncaughtTypeError; restoredcompile/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R27802/3.3 then03seven/current02consistency/fullP7audit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R278/N706–N710/P7 — plan
+Fullleaf/index read. N706 blocker readonlyfixescovariancecompletely/nestedinoutalways enforce unsupported: realdog/animal mutablealias and readonlyviewcreatedbeforemutation notsnapshot; exactowners. N707 blocker anycompatibleeverytype/disablesall/unknownforcesruntimevalidation: unknownrestrictsoperations,anynotnever, assertionno runtimecast. N708 blocker lyingpredicateglobalsecurity/exactbrandprefixproof: boundedobjectfieldpredicate, actualmalformedcase/incompleteimplementation. N709 major oldrunnablefunctionnevercalled/stringuppercasecannotdistinguishcorruption/doubleasviaany false: complete3failureprogram and observedruntimecontrols. N710 major readonlyreducescheckerinvariance/fixedcountbudgetremoveunmeasuredclaims. Primarycompatibilitysoundness andoriginalDanVanderkam2021 actualassertion/lookup/array/refinement sectionsreadcurrentcontext, criticallyrejectfrequency/guessedreadonlyhistory; current02/3.1,05/3.2 andJS06identitycalibrationreused. Standingapprovaloneunit.
+
+
+### R278/N706–N710/P7 — verified outcome
+- Done: Complete3boundaryprogramobservesfourTypeErrors andreadonlyaliasnotasnapshot. Correctedanynever/unknownforcesvalidation/predicateprovesbrand/globalrisk/readonlycompletefix and unsupportedcheckeroptimization. N706–710resolved;7initialearliercandidatesremainall03.
+- Sources / decisions: Primarycompatibilitysoundness andoriginalDanVanderkamMay2021 https://effectivetypescript.com/2021/05/06/unsoundness/ actualassertion/lookup/array/refinementanalysis readcurrentcontext; rejectfrequencyandguessedhistory. Current02/3.1/05callbackowner/fullJS06objectcalibrationreused.
+- Files touched: README/TypeScript/02 The Type System Core/sections/3. Soundness and variance/3.3. Unsound by design spots budgeted risks.md, README/TypeScript/02 The Type System Core/README.md.
+- Links: Stablepath/indexpromisesupdated; exactvariance/function/brand/unknown/aliasowners andboundedcatalogroutes.
+- Verification: /tmp/typescript-repairs/R278-final/results.json9actualcommands: compile/runtime0exact8linesfourTypeErrorsobserved; readonlypush1TS2339,unknownuse1TS18046,anytonever1TS2322. Correctedpredicatecompile/runtime0withoutpredicatefailure;restorecompile/runtime0originalcontrast. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: Domain02consistency/current7previousrepairs then03seven andfullP1–P7findingcoverageaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.

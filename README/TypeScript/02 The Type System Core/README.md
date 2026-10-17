@@ -66,9 +66,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [3.3. Unsound by design spots — budgeted risks](<./sections/3. Soundness and variance/3.3. Unsound by design spots budgeted risks.md>)
 
-1. **Array covariance** (`Dog[]` → `Animal[]` then `push(cat)` breaks `Dog[]` — `readonly` arrays are the safe alternative).
-2. **`any` and `as` escapes** (disable checking; `unknown` + predicate is the disciplined alternative).
-3. **Type assertion narrowing** (type predicates `value is T` must be *proven* at runtime — a lying predicate breaks soundness globally).
+1. **Mutable aliases:** reproduce array corruption and explain the limited protection of a readonly view.
+2. **Unchecked assumptions:** distinguish any, assertions and unknown using actual failures and diagnostics.
+3. **Predicate evidence:** reject malformed input with the required field check and locate other unsound boundaries.
 
 ---
 
