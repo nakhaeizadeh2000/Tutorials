@@ -22,9 +22,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [1.3. Negative type tests with ts-expect-error](<./sections/1. Type Assertions in Tests/1.3. Negative type tests with ts-expect-error.md>)
 
-1. **`@ts-expect-error` as a lock** (rejected shapes pinned — removing the error breaks the test, as intended).
-2. **`@ts-ignore` vs `@ts-expect-error` discipline** (unused-ignore errors vs silent suppression — why only one is testable).
-3. **Exhaustiveness probes** (never-sink + error-line assertions — 07/3.2 mechanics applied as regression tests).
+1. **Active rejection tests:** run selected negative calls and observe unused-directive failures after widening.
+2. **Diagnostic and runtime boundaries:** expose a typo false positive, compare ignore semantics and test numeric range behavior separately.
+3. **Exhaustiveness versus input admission:** grow a union, diagnose its never sink and update the independent outsider test intentionally.
 
 ---
 
