@@ -54,9 +54,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [3.1. Codebase partitioning boundaries layers and barrels](<./sections/3. Scaling Patterns/3.1. Codebase partitioning boundaries layers and barrels.md>)
 
-1. **Layered boundaries** (domain/app/infra layering — imports flowing inward, `tsconfig` paths enforcing, tests per layer).
-2. **Barrel discipline at scale** (cycle-surface control per 12/1.1 — curated barrels vs deep imports, cycle detection in CI).
-3. **API-layer typing** (public contracts per partition — surface probes per 17/3.2 scoped per reference).
+1. **Actual dependency policy:** execute a static-import restriction, show that paths is not an allow-list and expose the dynamic-import coverage limit.
+2. **Surface versus graph:** curate public names while reproducing a named-re-export cycle that passes checking and fails on initialization.
+3. **Consumer contract evidence:** distinguish local shape checks, actual behavior, fake contracts and installed package exports.
 
 ### [3.2. Type-only boundaries import type bulk and erasable scale](<./sections/3. Scaling Patterns/3.2. Type-only boundaries import type bulk and erasable scale.md>)
 
