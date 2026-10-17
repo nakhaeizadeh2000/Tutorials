@@ -1,6 +1,6 @@
 # The Type System Core
 
-The type system underneath the syntax: structural assignability, the separation of type and value spaces, declaration spaces, type queries, and the soundness/variance decisions that explain every "why does this assign?" question. This domain owns the core model; later domains add features on top of it (see Overlaps for boundaries).
+The type system underneath the syntax: structural assignability, the separation of type and value spaces, declaration spaces, type queries, and the soundness/variance decisions that explain every "why does this assign?" question. This domain owns the core model; later domains add features on top of it (see Overlaps for boundaries). Examples declare their own commands and runtime; the current checked compiler baseline is TypeScript 7.0.2. A compatible static view neither strips properties nor validates external input.
 
 ## 0. Prerequisites
 

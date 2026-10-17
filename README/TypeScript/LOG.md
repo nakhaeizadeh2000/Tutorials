@@ -2832,4 +2832,16 @@ Completecurrent02all13nowread inclprevious2.1/2.2/3.1/4.1/5.1/6.1/7.1. Consisten
 - Links: Existingprecisecoreownerspreserved; domainindexalreadyaccurate.
 - Verification: /tmp/typescript-repairs/R279-final/results.json6actual finalcommands: build/run0true true object/u-1 string;freshliteral2TS2353/unbranded2TS2322 because this published command permits emit;restorebuild/run0. Initial harness wrongly expected1 and stopped after3commands. Shell continuation mistakenly committed the premature6command claim in f845e58; corrected immediately in this open log and actually reran the full fresh6-command fixture before proceeding. No lesson diagnostic or command changed. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R28002domainconsistencycheckpointthen03seven/finalP1–P7reconciliation. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R280/P3/P4/P7 — plan
+All13current02leavesfullyread:6newP7R273–278/earlier3.1/2.1/2.2/5.1/6.1 verifiedconsistent/currentchecklistR279corrected. Reconcileindex/overlapprimitivebrand/queryroleswith04aggregate/enumerationapplications andcurrentbaseline. Freshglobalrequiredsections/routes/domain13numbertitleindex/Crosslast; inspect7finalreports62commandsnotrerun; preserveR279initialmisrecordandcorrectedactualemitstatus. Standingapproval; nofulltrackclaim.
+
+
+### R280/P3/P4/P7 — verified outcome
+- Done: All13current02fullyread/repairedorconsistencyreviewed. SixformerlyunrevisedownersR273–278pluschecklistR279complete; overlap/indexdifferentiateprimitivevsobjectbrand/queryowners. Remaininginitialearlierinventory7all03;fullP7reconciliation/finalcoverageopen.
+- Sources / decisions: R273–279actualprimary/practitioner/evidence andprevious02ownerresearchreused; actualfullcurrent04applications/05callback/JavaScript06calibration read. No newpagevisit or benchmark.
+- Files touched: README/TypeScript/02 The Type System Core/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md, README/TypeScript/02 The Type System Core/README.md.
+- Links: Preciseaggregatebranding/objectqueryapplicationroutesadded; wholetrack3543localroutesresolve292files.
+- Verification: heading-checkpoint-R280.json266leaves266pass0fail; navigation-checkpoint-R280.json292files3543routes0issues; all13domain02sequentialheading/title/index/Crosslastchecked;7finalreportsR273–279contain62commandsinspectednotrerun. R279initialwrongstatus/prematureclaimcorrectedandfresh6commandsactualpassedbeforethisunit. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R28103/1.1 then03/1.2,1.3,2.1,2.3,3.1,3.3; current03–07reconciliation/fullP1–P7findingcoverageaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
