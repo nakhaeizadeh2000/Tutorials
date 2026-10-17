@@ -16,9 +16,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [1.2. Strictness and configuration audits](<./sections/1. Production Checklist/1.2. Strictness and configuration audits.md>)
 
-1. **Flag audit** (strict family on, trio enforced, pairing per runtime — 13/4.1 checklist signed off per release).
-2. **Exemption inventory** (`ts-expect-error`/`any`/lint-disable counts — baselines holding-or-shrinking, growth blocked).
-3. **Environment parity** (dev/CI/prod configs identical — `tsconfig` inheritance proving parity, drift red).
+1. **Effective contracts:** inspect actual strict-family overrides, selected inputs and intentional check/emit differences.
+2. **Inherited-config failures:** reproduce a nullability override and a green child config that omits an incorrect type probe.
+3. **Exception judgment:** distinguish runtime invariants, negative type tests and accepted debt without treating counts or comments as proof.
 
 ### [1.3. Observability hooks error reporting and health](<./sections/1. Production Checklist/1.3. Observability hooks error reporting and health.md>)
 
