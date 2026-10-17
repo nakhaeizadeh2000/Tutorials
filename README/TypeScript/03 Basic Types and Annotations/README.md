@@ -66,9 +66,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [3.3. Literal types and const assertions](<./sections/3. Annotations Inference and Literals/3.3. Literal types and const assertions.md>)
 
-1. **Literal as subtype** (`"success"` is assignable to `string`, not vice-versa — string literal unions as enums without emit).
-2. **const assertions and as const** (`{ x: 1 } as const` → `readonly` + literal narrowing; `satisfies` preserves literal while checking shape).
-3. **Template literal types preview** (forward link to mapped/utility domains — where literal types compose into type-level programs).
+1. **Literal contracts:** distinguish a finite vocabulary from a general primitive or runtime validator.
+2. **Const and contextual precision:** verify literal versus wider members, writable versus readonly views and shared-reference mutation.
+3. **Composition and limits:** derive a tuple vocabulary, locate template transformations and reject invalid const assertions without claiming runtime immutability.
 
 ---
 
