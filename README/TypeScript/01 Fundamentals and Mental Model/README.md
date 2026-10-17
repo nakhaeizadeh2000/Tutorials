@@ -44,9 +44,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [2.3. The language server — editor superpowers that justify TypeScript](<./sections/2. How TypeScript doesnt execute/2.3. The language server editor superpowers that justify TypeScript.md>)
 
-1. **tsserver powers the IDE** (autocompletion, go-to-definition, rename, hover types, quick fixes — all from the same type graph).
-2. **Project references and incremental builds** (the language server understands your monorepo graph and only rechecks what changed).
-3. **Types as documentation** (hover shows the *computed* type, not just the annotation — learn to read it).
+1. **Actual provider and operation:** distinguish native LSP, historical tsserver, editor presentation and the program being queried.
+2. **Observed service results:** compare real hover/definition/rename requests with static probes and execution of the applied edit.
+3. **Meaning and scope:** read types alongside documentation and diagnose provider/project/document differences without performance or refactoring guarantees.
 
 ---
 
