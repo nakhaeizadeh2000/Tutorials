@@ -1,6 +1,6 @@
 # Basic Types and Annotations
 
-The inventory every TypeScript file starts with: the primitive types that never need an import (`string`, `number`, `boolean`, `bigint`, `symbol`, `null`, `undefined`), the special types that model absence and ignorance (`any`, `unknown`, `never`, `void`), and the rules that decide when you write a type and when you let the checker infer it. This domain owns literal types and `const` assertions — later domains add objects, functions, and generics on top.
+The inventory every TypeScript file starts with: the primitive types that never need an import (`string`, `number`, `boolean`, `bigint`, `symbol`, `null`, `undefined`), the special types that model absence and ignorance (`any`, `unknown`, `never`, `void`), and the rules that decide when you write a type and when you let the checker infer it. This domain owns literal types and `const` assertions — later domains add objects, functions, and generics on top. The current checked compiler baseline is TypeScript 7.0.2; each executable example states its runtime and selected flags. Static precision, property presence and serialized representation are verified separately.
 
 ## 0. Prerequisites
 

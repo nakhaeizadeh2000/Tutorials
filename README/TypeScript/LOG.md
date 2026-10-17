@@ -2928,4 +2928,16 @@ Fullleaf/index/current03/3.2read. N749 blocker falseprimitive<=object/{}hierarch
 - Links: Stablepath/indexthreepromisesupdated; exactinference/objectchecks/tuple/never/enum/measurementowners.
 - Verification: /tmp/typescript-repairs/R287-final/results.json11actual finalcommands: equalityprobesbuild0/runtime0exact5lines; method/enabled1TS2322,readonlytwo1TS2540,critical1TS2345,variableconst1TS1355,missingfieldchangedtosatisfies1TS2739+2339;restorecompile/run0. InitialwriterPythonparsefailedbeforewrites, corrected; initialharnessonoldleafnotcounted. Missingfieldexpected1360correctedactual2739thenfresh11passed. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: Current03remainingpreviousrepairconsistency/indexcheckpoint; reconcile04–07completepriorrepair/evidencecoverage andallP1–P7finding/progression/navigationaudit. Standingapprovalcurrent2026-10-18continue. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R288/N756–N758/P3/P4/P7 — plan
+All13current03fullyread:7initialcandidatesnowR281–287plus6previousrepairsunknown/inference/checklist/pitfalls/interview/overlap. Remainingoverlap N756major enumsmostlylegacy/01ownsfullenumverdict conflictscurrent11/01, routeboundedsyntaxvsrepresentation. N757major primitivequeryownership08/09 false route02 vs04applications, patternsunionsfulltransform09. N758major neverreteachesruntime/strictflagmeaningglobal/03literaluniononlyenum compressedboundaries: connectedtopic-specificroutes/calibration andcurrentbaseline. Updateoneoverlapplusindexintro/domain03checkpoint, all13sequentialtitle/index/Crosslast; freshwholetracksections/routes and7R281–287actualreports72commandsinspectnotrerun. Standingapprovalfinalcandidatequeue0butfinalreconciliationnotdone.
+
+
+### R288/N756–N758/P3/P4/P7 — verified outcome
+- Done: All13current03fullyread/repairedorconsistencyreviewed;7formerlyunrevisedownersR281–287complete. Overlapcorrectsenumrepresentation/primitivequeryownership/runtime-staticboundariesandcurrentindexbaseline. InitialearlierP7candidatequeue0;04–07evidencereconciliation/finalP1–P7outcomemapstillopen.
+- Sources / decisions: ActualR281–287currentprimary/practitioner/evidence andprevious03ownerresearchreused; fullcurrentunknown/inference/checklist/pitfalls/interview/overlapreadagainstnewowners. No new pagevisit/benchmark.
+- Files touched: README/TypeScript/03 Basic Types and Annotations/sections/7. Overlaps to avoid/7.1. Boundaries what is covered elsewhere.md, README/TypeScript/03 Basic Types and Annotations/README.md.
+- Links: Exactenum/syntax/query/objectquery/generic/config/currentroutes; wholetrack3522localroutesresolve292files.
+- Verification: heading-checkpoint-R288.json266leaves266pass0fail; navigation-checkpoint-R288.json292files3522routes0issues; all13domain03sequentialheading/title/index/Crosslastchecked;7finalreportsR281–287contain72actualcommandsinspectednotrerun. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: Reconcile04–07priorcomplete13leafrepairs/currentindexes/evidence; buildcompleteP1–P7finding→repair→evidencemapandcoverage/progressioninventory; finalglobalquality/navigation/versionchecks, closeonlyactualfullcompletion. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
