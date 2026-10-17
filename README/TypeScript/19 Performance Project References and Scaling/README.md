@@ -66,9 +66,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [3.3. Editor performance at scale budgets and tuning](<./sections/3. Scaling Patterns/3.3. Editor performance at scale budgets and tuning.md>)
 
-1. **Program-size budgets** (file/symbol ceilings per editor project — `maxNodeModuleJsDepth`, include scoping per 16/3.1).
-2. **`disableSourceOfProjectReferenceRedirect` triage** (declaration-redirect tradeoffs — navigation vs responsiveness per project).
-3. **Multi-project editor setup** (per-partition tsservers — VS Code multi-root, solution-aware loading, restart runbooks).
+1. **Actual membership:** inspect roots and dependency closure, including imported files excluded from root discovery.
+2. **Redirect evidence:** separate declaration-boundary settings and available maps from observed provider navigation and latency.
+3. **Operational diagnosis:** distinguish configured projects from processes and compare named requests before changing budgets or restarting services.
 
 ---
 
