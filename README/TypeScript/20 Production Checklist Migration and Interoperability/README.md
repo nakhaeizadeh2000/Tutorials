@@ -55,9 +55,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [3.1. allowJs checkJs and JSDoc-typed JavaScript](<./sections/3. Interop and Portable Code/3.1. allowJs checkJs and JSDoc-typed JavaScript.md>)
 
-1. **`allowJs` + `checkJs` semantics** (JS in the program — checked loosely or strictly, declarations generatable via `declaration`).
-2. **JSDoc type syntax** (`@param`/`@returns`/`@typedef`/`@template` — typed JS without migration, verified by `tsc`).
-3. **Graduation criteria** (when JSDoc suffices vs when `.ts` pays — complexity thresholds, contributor ergonomics).
+1. **Actual checking controls:** distinguish JavaScript participation, body reporting, per-file directives and types consumed by a real TypeScript caller.
+2. **Executable JSDoc:** use imports, generics, shapes, satisfies and a mapped alias in JavaScript; inspect actual generated declarations.
+3. **Maintenance judgment:** reproduce a false provider annotation, static readonly/value failures and runtime limits without fixed conversion thresholds.
 
 ### [3.2. Environment-portable code node browser edge](<./sections/3. Interop and Portable Code/3.2. Environment-portable code node browser edge.md>)
 
