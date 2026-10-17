@@ -100,11 +100,11 @@ These are labeled synthetic failure cases; no company incident history is claime
 
 ### [6.1. Common interview QA — testing types](<./sections/6. Interview questions and answers/6.1. Common interview QA testing types.md>)
 
-1. **`Equal` vs assignability — what does each prove, and which catches drift?** (identity vs compatibility).
-2. **`@ts-expect-error` vs `@ts-ignore` — which is testable, and why?** (used-error enforcement vs silent suppression).
-3. **How do you mock a generic function without losing its signature?** (explicit type arguments on doubles).
-4. **Where do type tests run in CI — and what does each gate catch?** (noEmit vs tsd vs unit triage).
-5. **When do hand-rolled assertions beat `tsd`/`expect-type` — and when don't they?** (app vs published-package thresholds).
+1. **Relations and evidence:** explain assignability direction and the limits of a comparison helper.
+2. **Expected diagnostics:** distinguish an unused directive from a rejection that passed for the wrong reason.
+3. **Generic doubles:** reason about per-call versus per-instance contracts and behavioral fidelity.
+4. **CI inputs:** identify selected source, actual tool assertions, installed declarations and runtime outcomes.
+5. **Tool choice:** justify aliases or libraries from the tested property and supported integration, with no universal stack.
 
 ---
 
