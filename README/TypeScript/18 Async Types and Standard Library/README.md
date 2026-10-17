@@ -98,11 +98,11 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [6.1. Common interview QA — async types and standard library](<./sections/6. Interview questions and answers/6.1. Common interview QA async types and standard library.md>)
 
-1. **`Promise<T>` vs `T` vs `Awaited<T>` — what does each mean at an `await` position?** (wrapping, value, unwrapped).
-2. **`all` vs `allSettled` vs `race` vs `any` — what shapes come back, and which rejects?** (tuples, settled unions, first-wins).
-3. **How does cancellation propagate — and what types carry it?** (signals as parameters, abort narrowing).
-4. **Why does `setTimeout` return two different types — and how do you contain it?** (dom/node duality, environment-scoped code).
-5. **Sequential loop vs `Promise.all` vs pool — how do you choose, and how does typing differ?** (order, independence, boundedness).
+1. **Promise and consumed contracts:** explain fulfilled types, adoption, inference and the limits of type-only evidence.
+2. **Combinator selection:** distinguish result shapes, member failures, empty input and iterator failure without transaction or cancellation claims.
+3. **Cancellation ownership:** trace actual cooperation and explain why abort can still affect a winning response body.
+4. **Timer environment:** inspect selected declarations, unchanged runtime identity, ref/unref and context-specific order.
+5. **Scheduling decisions:** justify dependency, capacity and failure policy before choosing starts and result shapes.
 
 ---
 
