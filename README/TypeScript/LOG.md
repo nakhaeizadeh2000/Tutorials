@@ -2856,4 +2856,16 @@ Full03index/current1.1/read; currentchecklistwrappercontrastreadduringoverlapsea
 - Links: Stablepath/indexthreepromisesupdated; exactinference/literal/JSboxing/toolingowners.
 - Verification: /tmp/typescript-repairs/R281-final/results.json7actualcommands: build/run0exact7lines; boxedstringarg/mutablemodeeach1TS2345;number/booleanwrapperassignments1TS2322;restorecompile/run0. No ESLint/heapbenchmarkexecuted. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R28203/1.2 then1.3,2.1,2.3,3.1,3.3/current03–07reconciliation/finalaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R282/N718–N722/P7 — plan
+Fullleaf/index read. N718 blocker targetlibsubstitutes/universalruntime/stale5.9 correctseparatesyntaxemit/librarydeclarations/host, actualtarget2015withlibES2022negative. N719 blocker Symbol.forneverunique/dynamiccannotcreate/onlysafeprivatekey correctconstinference/declarationidentity/registryruntimeidentity/reflectionnotprivacy. N720 blocker noimplicitcoercion includescomparisons/onlyusebigintbeyondmax/conversionlosspolicy: numericprecision/integerdivision/explicitcheckedconversion, representationnotledgersecurity. N721 major noopbadcounts/JSONnotrun: completearithmetic/precision/JSONthrow/stringwire/symbolread/reflectionfixture. N722 major10–100speed/64bitallocation/rarequota removeunmeasuredclaims. PrimarySymbols204–238 reusedactual, target7–13 read andECMAstructureddata4146–4179 actuallyread afterinitialTOConlyopen; currentdraft2027normativeJSONclausecorroboratedactualNode20 notproposalfeature. FullJS03/5.2read losscontrast notruntimeperf/eighthprimitiveclaims. Standingapprovaloneunit.
+
+
+### R282/N718–N722/P7 — verified outcome
+- Done: Bigint/symbolcompletefixturevalidatesprecision/conversion/JSON/typedkey/reflection/registry andtargetlibseparation. Removedstale5.9/universalavailability/onlylargeinteger/registryneverunique/secretkey/10–100speed/64bitallocationclaims. N718–722resolved;5initialearliercandidatesremain.
+- Sources / decisions: PrimarySymbols204–238reused https://www.typescriptlang.org/docs/handbook/symbols.html;target7–13 https://www.typescriptlang.org/tsconfig/target.html read. ECMAcurrent2027draftstructureddata4146–4179 https://tc39.es/ecma262/multipage/structured-data.html#sec-serializejsonproperty actuallyread viafind afterinitialTOConlyopen; longstandingJSONrulecorroboratedNode20, no2027featureassumed. FullJS03/5.2readprecisioncontrast; rejecteighthprimitive/universalperfclaims.
+- Files touched: README/TypeScript/03 Basic Types and Annotations/sections/1. The Primitive Family/1.2. bigint and symbol the ES-era primitives.md, README/TypeScript/03 Basic Types and Annotations/README.md.
+- Links: Stablepath/indexpromisesupdated; exactprimitive/brand/JSbigint/configroutes.
+- Verification: /tmp/typescript-repairs/R282-final/results.json10actualcommands: compile/run0exact9lines; mixed1TS2365/numberassign1TS2322/uniquekey1TS2322/generalsymbol1TS7053; ES2015target+ES2022lib1TS2737; differentregistrydeclarationassignment1TS2322despiteObject.isruntime true; restoredcompile/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R28303/1.3 then2.1,2.3,3.1,3.3/current03–07reconciliation/finalaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.

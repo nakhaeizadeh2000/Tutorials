@@ -16,9 +16,9 @@ The inventory every TypeScript file starts with: the primitive types that never 
 
 ### [1.2. bigint and symbol the ES-era primitives](<./sections/1. The Primitive Family/1.2. bigint and symbol the ES-era primitives.md>)
 
-1. **bigint is its own lane** (`123n` is not `number` — arithmetic, `target`/`lib`, and JSON serialization consequences).
-2. **symbol and unique symbol** (`symbol` vs `unique symbol` — the only literal-like primitive that needs `typeof` bridging).
-3. **Why they stay rare** (API cost vs benefit — most domains reach for `string`/`number` first).
+1. **Integer precision and conversion:** execute large integer arithmetic, observe a lossy round trip and reject unsafe number inputs.
+2. **Symbol identity:** distinguish general and declaration-specific types, fresh symbols, registry sharing and reflection.
+3. **API boundaries:** reproduce JSON and target limitations, then choose a representation from its actual contract.
 
 ### [1.3. null and undefined strictNullChecks and optionality](<./sections/1. The Primitive Family/1.3. null and undefined strictNullChecks and optionality.md>)
 
