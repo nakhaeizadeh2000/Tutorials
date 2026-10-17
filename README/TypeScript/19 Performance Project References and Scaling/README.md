@@ -38,9 +38,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [2.2. Incremental builds and tsbuildinfo discipline](<./sections/2. Project References and Builds/2.2. Incremental builds and tsbuildinfo discipline.md>)
 
-1. **`.tsbuildinfo` contracts** (what invalidates — version changes, config edits, affected-file graphs — staleness poisoning per 16/3.1).
-2. **Incremental vs watch vs build modes** (`--incremental`, `--watch`, `tsc -b` — which mode per workflow, cache locations per CI).
-3. **Cache poisoning prevention** (clean-build verification schedules, content-hash keys, `.tsbuildinfo` in `.gitignore` + CI caching).
+1. **State versus artifacts:** reproduce a missing runtime output with retained build information and repeated cached diagnostics after a source error.
+2. **Honest rebuilding:** distinguish force, known-output clean and a fresh owned-output rebuild using actual sentinels and consumer checks.
+3. **Purposeful reuse:** distinguish incremental, watch and solution orchestration while defining isolated writers, inputs and artifact-set cache policy.
 
 ### [2.3. Solution builds and CI orchestration with tsc b](<./sections/2. Project References and Builds/2.3. Solution builds and CI orchestration with tsc b.md>)
 
