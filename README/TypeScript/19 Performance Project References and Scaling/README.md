@@ -87,10 +87,10 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [5.1. Real production bugs caused by scaling misunderstandings](<./sections/5. Common pitfalls to production bugs/5.1. Real production bugs caused by scaling misunderstandings.md>)
 
-1. **Unbudgeted mapped type took CI from 4 to 47 minutes** (key-count multiplication unmeasured — carve-out fix, budget gate added).
-2. **Cyclic project references deadlocked `tsc -b` on release day** (cycle unnoticed without graph checks — DAG enforcement added).
-3. **Stale `.tsbuildinfo` shipped week-old declarations downstream** (incremental-only CI — clean-build schedule added, poisoning ended).
-4. **Barrel-cycle crash at startup after a "harmless" re-export** (cycle surface grown silently — barrel lint + deep-import rule added).
+1. **Incomplete checking:** diagnose lower counts from failed recursion and preserve semantic contracts before claiming an optimization.
+2. **Different cycle failures:** distinguish finite reference-cycle diagnostics from runtime initialization errors and dry-run coverage.
+3. **Incomplete artifacts:** reproduce missing and obsolete outputs without inferring cache corruption from every green/red difference.
+4. **Curated-cycle limits:** trace an actual named-re-export failure and identify what static lint and entry tests cover.
 
 ---
 
