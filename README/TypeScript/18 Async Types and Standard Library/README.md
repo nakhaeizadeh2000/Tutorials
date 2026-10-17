@@ -32,9 +32,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [2.1. all race allSettled any typed precisely](<./sections/2. Combinators and Cancellation/2.1. all race allSettled any typed precisely.md>)
 
-1. **`Promise.all` tuple preservation** (readonly-tuple in, tuple out — positional results typed per input).
-2. **`race`/`any` union collapsing** (first-settled wins — result typed as the member union, losers discarded).
-3. **`allSettled` never-rejecting unions** (`PromiseSettledResult<T>` per member — partial-failure shapes typed, not thrown).
+1. **Input-ordered aggregation:** check contextual tuples versus widened arrays, mutable outputs and siblings continuing after rejection.
+2. **First outcome choices:** observe race's early rejection, any's later success and input-ordered AggregateError reasons.
+3. **Settlement boundaries:** narrow member outcomes, test empty inputs and reproduce aggregate rejection when iteration fails.
 
 ### [2.2. AbortSignal propagation and cancellation contracts](<./sections/2. Combinators and Cancellation/2.2. AbortSignal propagation and cancellation contracts.md>)
 
