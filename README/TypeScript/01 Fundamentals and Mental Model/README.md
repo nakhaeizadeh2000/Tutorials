@@ -66,9 +66,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [3.3. Choosing erasable syntax — the zero-cost interop rule](<./sections/3. Running TypeScript today/3.3. Choosing erasable syntax the zero-cost interop rule.md>)
 
-1. **Erasable** (type annotations, interfaces, `type` aliases, generics, `as` assertions, `satisfies` — all vanish cleanly).
-2. **Non-erasable legacy** (`enum`, `namespace` IIFE emit, `parameter properties` — require a transform, break stripping).
-3. **Modern default** (`--erasableSyntaxOnly` catches non-erasable constructs at compile time; `--isolatedDeclarations` requires explicit return types for parallel `.d.ts` generation).
+1. **Declared execution contracts:** choose erasable syntax and actual import/host support without universal executor or runtime-cost claims.
+2. **Representation decisions:** review enum, namespace and provider changes for preserved consumer behavior rather than assuming mechanical equivalence.
+3. **Optional declaration restrictions:** extend the complete source/output graph to compare accepted simple inference, a rejected exported call return and its annotation repair.
 
 ---
 
