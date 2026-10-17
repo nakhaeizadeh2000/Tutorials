@@ -54,9 +54,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [3.1. Testing generics and conditional types](<./sections/3. Type Tests in Practice/3.1. Testing generics and conditional types.md>)
 
-1. **Instantiation spot-checks** (representative `<string>`, `<union>`, `<never>` probes — distribution verified per 08/09).
-2. **Boundary instantiations** (`never`/`unknown`/`any` inputs — the three types that break naive conditionals).
-3. **Snapshot vs assertion discipline** (hover-snapshots rot; `Equal` assertions specify — intent over text).
+1. **Selected regression matrices:** run alias-only distribution and readonly-tuple probes and observe implementation changes fail.
+2. **Actual boundary results:** check never, unknown and any where relevant, including constraint rejection and nonempty tuples versus arrays.
+3. **Intentional evidence:** distinguish compatibility, representation-sensitive comparison and displayed documentation text.
 
 ### [3.2. Testing declaration files and public API surface](<./sections/3. Type Tests in Practice/3.2. Testing declaration files and public API surface.md>)
 
