@@ -22,9 +22,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [1.3. async function return-type contracts](<./sections/1. Promise Types/1.3. async function return-type contracts.md>)
 
-1. **`async` always returns `Promise<T>`** (returned `T` wrapped, thrown errors rejecting — the wrapping contract).
-2. **Explicit vs inferred async returns** (annotation discipline — public contracts state `Promise<T>`, bodies infer).
-3. **`Promise<void>` vs `Promise<never>` discipline** (fire-and-observe vs never-settling — the 05 callback rule at async scale).
+1. **Returned promises:** observe async adoption, promise identity and body rejection versus argument-evaluation errors.
+2. **Actual return inference:** inspect emitted declarations, literal unions and a chosen annotation's implementation check.
+3. **Completion contracts:** distinguish void, undefined and never payloads, callback ownership and a pending promise's lack of process keepalive.
 
 ---
 
