@@ -22,9 +22,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [1.3. Superset, soundness, and the type system flavor](<./sections/1. What TypeScript is/1.3. Superset soundness and the type system flavor.md>)
 
-1. **Structural vs nominal** (TypeScript is structural: compatibility is by shape, not by name — with a few nominal exceptions).
-2. **Sound vs useful** (TypeScript is intentionally unsound in places for usability — e.g., bivariant function parameters, `any` escape hatch).
-3. **Gradual typing** (you can add types file-by-file; `any` and `// @ts-ignore` are pragmatic but should be budgeted, not habitual).
+1. **Directional compatibility:** distinguish required shape, fresh-literal checks, runtime identity and declaration-origin exceptions.
+2. **Observed soundness limits:** reproduce a shared mutable-array failure and explain why a later readonly view does not repair it.
+3. **Deliberate gradual checking:** choose meaningful contracts and unknown boundaries without a required migration ladder or safety-by-count claim.
 
 ---
 
