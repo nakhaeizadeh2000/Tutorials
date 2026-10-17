@@ -16,9 +16,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [1.2. Design goals and non-goals — what TypeScript intentionally does not do](<./sections/1. What TypeScript is/1.2. Design goals and non-goals what TypeScript intentionally does not do.md>)
 
-1. **Goals** (add static types to JavaScript, preserve JS runtime behavior, remain erasable, support tooling).
-2. **Non-goals** (no runtime type system, no performance optimization of emitted JS, no breaking JS semantics, no new runtime primitives).
-3. **Consequence for learners** (if you expect types to affect runtime behavior, you will be surprised — they don't).
+1. **Design intentions:** distinguish likely-error detection and tooling goals from guarantees about every accepted program.
+2. **Concrete non-goals:** run a false asserted JSON contract and a runtime field check, separating declared types from validation.
+3. **Deliberate pipeline policy:** choose checking, emission and execution responsibilities without universal syntax, soundness or speed promises.
 
 ### [1.3. Superset, soundness, and the type system flavor](<./sections/1. What TypeScript is/1.3. Superset soundness and the type system flavor.md>)
 
