@@ -44,9 +44,9 @@ How TypeScript *scales* — check-time performance (measuring with `--extendedDi
 
 ### [2.3. Solution builds and CI orchestration with tsc b](<./sections/2. Project References and Builds/2.3. Solution builds and CI orchestration with tsc b.md>)
 
-1. **`tsc -b` orchestration** (topological builds, `--force`/`--dry` semantics, solution `tsconfig` files referencing projects).
-2. **CI job topology** (per-project jobs vs solution builds — caching per partition, failure localization per reference).
-3. **Affected-only verification** (changed-project testing — type tests scoped per reference, full-suite schedules).
+1. **Actual orchestration:** run one dependency build and preserve its status before tests that consume emitted artifacts.
+2. **Explicit task selection:** compute a fixture-specific reverse-reference closure and map projects to actual runtime contracts.
+3. **Coverage and job limits:** reproduce a missing-edge false green, compare full selection and reason about isolated job workspaces and shared prerequisites.
 
 ---
 
