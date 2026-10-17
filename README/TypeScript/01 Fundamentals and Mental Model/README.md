@@ -10,9 +10,9 @@ JavaScript fundamentals (values, scope, closures, prototypes, async) — covered
 
 ### [1.1. From JavaScript to TypeScript — history, superset claim, and why it exists](<./sections/1. What TypeScript is/1.1. From JavaScript to TypeScript history superset claim and why it exists.md>)
 
-1. **Superset in syntax only** (every JavaScript program is syntactically valid TypeScript — but not every JavaScript idiom is *well-typed* TypeScript).
-2. **History in one paragraph** (2012 Microsoft, Anders Hejlsberg; 1.0 → 2.0 strictNullChecks → 3.0 project references → 4.x template literals → 5.x erasableSyntaxOnly/isolatedDeclarations).
-3. **Why teams adopt it** (scale: larger codebases, faster refactoring, self-documenting contracts — at the cost of build complexity).
+1. **Checked JavaScript contracts:** run plain and annotated examples, then distinguish a compiler-rejected argument from an actual runtime failure.
+2. **Causal history and current baseline:** connect the original 2012/2014 releases to large-application tooling while routing current changes to their owners.
+3. **Adoption judgment:** explain useful signatures, tooling and remaining runtime/build work without universal safety or performance claims.
 
 ### [1.2. Design goals and non-goals — what TypeScript intentionally does not do](<./sections/1. What TypeScript is/1.2. Design goals and non-goals what TypeScript intentionally does not do.md>)
 
