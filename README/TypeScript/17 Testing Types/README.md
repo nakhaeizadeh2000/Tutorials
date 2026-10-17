@@ -38,9 +38,9 @@ How TypeScript *proves* types stay correct — type-level assertions (`Expect<Eq
 
 ### [2.2. Spies stubs and fakes over generics](<./sections/2. Typed Test Doubles/2.2. Spies stubs and fakes over generics.md>)
 
-1. **Spies observing without replacing** (`vi.spyOn(obj, "m")` — implementation kept, calls recorded with types).
-2. **Stubs with programmed answers** (per-case return tables typed as `Map<Input, Output>` — exhaustive answer coverage).
-3. **Fakes carrying generic state** (`FakeRepo<T>` in-memory doubles — contract-proving substitutes for databases/queues).
+1. **Spy lifecycle:** execute real call-through, replacement, history clearing and method restoration.
+2. **Programmed answers:** distinguish complete finite Record tables from partial Map entries and explicit fallbacks.
+3. **Generic fake contracts:** preserve present undefined, test state through the interface and expose a typed implementation that violates behavior.
 
 ### [2.3. Testing async and error paths with types](<./sections/2. Typed Test Doubles/2.3. Testing async and error paths with types.md>)
 
