@@ -16,9 +16,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [1.2. Awaited recursive unwrapping and thenables](<./sections/1. Promise Types/1.2. Awaited recursive unwrapping and thenables.md>)
 
-1. **`await` positions unwrap via `Awaited`** (expression/return/assignment — every `await` is an `Awaited<T>` assertion).
-2. **Thenable assimilation** (non-`Promise` `then`ables adopted — interop shape, one-level adoption per `await`).
-3. **Nested-promise flattening** (`Promise<Promise<T>>` collapsing to `T` — the recursion 09 proves, applied here).
+1. **Wrapped and consumed contracts:** apply Awaited without confusing it with runtime execution or recursive field traversal.
+2. **Actual thenable adoption:** observe synchronous getter access, deferred calls, recursive consumption and the fuller PromiseLike API.
+3. **Honest normalization:** test constructor-sensitive identity and expose a nested annotation whose callback type disagrees with runtime adoption.
 
 ### [1.3. async function return-type contracts](<./sections/1. Promise Types/1.3. async function return-type contracts.md>)
 
