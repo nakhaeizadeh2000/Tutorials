@@ -22,9 +22,9 @@ How TypeScript *ships and survives* — production checklists (release gates com
 
 ### [1.3. Observability hooks error reporting and health](<./sections/1. Production Checklist/1.3. Observability hooks error reporting and health.md>)
 
-1. **Typed error reporting** (error taxonomies flowing to reporters — 15/2.2 hierarchies with `cause` chains, sampled not dumped).
-2. **Health and readiness types** (dependency checks typed — degraded states modeled, not booleaned).
-3. **Graceful-shutdown phases** (stop → drain → exit — 18/3.3 drains exercised, SIGTERM tested per 17/2.3).
+1. **Explicit reporting projection:** test serialized fixed fields without inferring redaction, sampling or remote delivery from a type.
+2. **Readiness decisions:** model three local states and separate them from liveness, live dependencies and orchestration transport policy.
+3. **Actual lifecycle evidence:** send SIGTERM with owned work pending, reject new admission, verify completion and distinguish deadline failure.
 
 ---
 
