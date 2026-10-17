@@ -76,10 +76,10 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [4.1. Async checklist — mental models mentors insist on](<./sections/4. Important points to remember/4.1. Async checklist mental models mentors insist on.md>)
 
-1. **Await unwraps, combinators shape** (`Awaited` at positions, tuples/unions at combinators — two mechanics, composed).
-2. **Cancel via signals, never via flags** (propagation typed through parameters — abort as data, end-to-end).
-3. **Parallel by default, sequential by reason** (independence batched, order justified — performance as a typed decision).
-4. **Lib selected, not assumed** (async surface declared per target — missing-lib errors read as configuration, not bugs).
+1. **Evidence for the contract:** choose wrapped/consumed type checks and actual outcome tests with explicit limits.
+2. **Cooperative cancellation:** follow signals to the operation and test reason and cleanup policies.
+3. **Deliberate starts and ownership:** choose ordering, admission capacity and behavior after failure.
+4. **Separate implementation boundaries:** verify selected declarations, emitted syntax, runtime APIs and cleanup independently.
 
 ---
 
