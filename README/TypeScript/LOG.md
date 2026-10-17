@@ -2760,4 +2760,16 @@ Full02index/current1.1 read. N685 blocker ambient cfg/outerB/orderId executed as
 - Links: Stable path; index promises rewritten; exact shape/freshness/branding/variance/measurement routes. Initial guessed measurement path corrected against disk.
 - Verification: /tmp/typescript-repairs/R273-final/results.json8 actualcommands: build/run0 exacthiAda/truetrue/hiLin/localhosttrue; independentfreshTS2353/missingTS2741/nestedTS2322/hiddenTS2339 all1; restoredbuild/run0. Localrouteschecked. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
 
-- Next steps: R27402/1.2 then remaining02–03/P7fullreconciliation/finalaudit. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.
+
+### R274/N689–N692/P7 — plan
+Fullleaf/index/wholetrackfreshnessoverlap read. N689 blocker blanket spread/assertion/variable impossible-error statements: explicit spread-introduced versus newlywrittenmember compiler contrasts and weakalloptional no-overlap check. N690 blocker noopconnect/fakeruntimefallback/claimedTS2353typo actuallysuggestion2561: completeendpointdefaultfixture and observed codes. N691 major freshness onlylint/warning and unrelatedflags exactness fix: actualcompilererror, satisfiesconstructioncheck/intentionalextras/signature vsruntimevalidation. N692 major fixedO(k)/zeroeditorcost unsupported. PrimaryObjects585–677 actuallyread; oldVanderkamproposedURLfailednotclaimedread, originalunsoundnesssource reused for static/runtime distinction; JS06/1.1 calibration reused critically. Standingapproval; oneleaf/index/verify/log/commit.
+
+
+### R274/N689–N692/P7 — verified outcome
+- Done: Completeactualendpointdefault replaces noopruntimeclaim. Explicitspreadtypo/satisfies/weakoptional/missingrequired cases correct blanketfreshnessescape/warning/flagsexactness/performance claims. N689–692 resolved;11initialearliercandidatesremain.
+- Sources / decisions: PrimaryObjects585–677 https://www.typescriptlang.org/docs/handbook/2/objects.html#excess-property-checks actuallyread; originalDanVanderkam2021unsoundnessreasoning/JS06objectcalibrationreused. Additional2019proposedarticleURLunavailable, notclaimedread.
+- Files touched: README/TypeScript/02 The Type System Core/sections/1. Structural typing/1.2. Excess property checks and freshness.md, README/TypeScript/02 The Type System Core/README.md.
+- Links: Stablepaths/index3promisesupdated; exactstructural/object/validationowners.
+- Verification: /tmp/typescript-repairs/R274-final/results.json11actualcommands: build/runtime0fourexpectedlines; freshcall/spreadexplicit/satisfiesall1TS2561; weak1TS2559;missing1TS2741;existingvariablesatisfies0;annotatedreturnliteral1TS2561;restorebuild/run0. Required sections, numbering, title and changed local routes checked; closed Sessions1–14 byte-for-byte preserved.
+
+- Next steps: R27502/1.3 andremaining02–03/fullP7finalreconciliation. Standing approval covers all remaining TypeScript work; full P1–P7 remains active until verified completion.

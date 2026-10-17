@@ -16,9 +16,9 @@ The type system underneath the syntax: structural assignability, the separation 
 
 ### [1.2. Excess property checks and freshness](<./sections/1. Structural typing/1.2. Excess property checks and freshness.md>)
 
-1. **Freshness is the exception** (a fresh object literal checked directly against a target gets an extra "unknown property" check — a pragmatic extra, not part of core assignability).
-2. **When freshness doesn't apply** (assigning through an intermediate variable, spread, or non-literal — excess members are silent).
-3. **How to diagnose** ("Object literal may only specify known properties" means freshness triggered — not a structural failure).
+1. **Literal-site checking:** explain why an unexpected property can be rejected at construction.
+2. **Variable, spread and generic flow:** run accepted extra properties, then reject an explicitly written typo beside a spread.
+3. **Diagnosis and repair:** distinguish excess, weak-type and missing-member errors; use a checked construction without claiming runtime validation.
 
 ### [1.3. Nominal typing techniques — branding and opaque types](<./sections/1. Structural typing/1.3. Nominal typing techniques branding and opaque types.md>)
 
