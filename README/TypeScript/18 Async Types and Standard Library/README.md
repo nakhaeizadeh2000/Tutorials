@@ -54,9 +54,9 @@ How TypeScript *types asynchrony* — `Promise<T>` states and anatomy (pending/f
 
 ### [3.1. lib settings and built-in async types](<./sections/3. Standard Library in Practice/3.1. lib settings and built-in async types.md>)
 
-1. **`lib` selecting async surface** (`esnext.asynciterable`, `dom` timers/signals — missing-lib `TS2550`/`TS2304` diagnosis).
-2. **`PromiseSettledResult`/`AggregateError` shapes** (settled unions, multi-error aggregation — reading stdlib declarations as documentation).
-3. **`Disposable`/`AsyncDisposable` with `using`** (explicit resource management — async cleanup typed via `Symbol.asyncDispose`).
+1. **Declarations versus implementation:** compare isolated DOM/Node projects and compile async iteration for an older syntax target.
+2. **Standard result contracts:** locate settled and aggregate declarations, validate arbitrary reasons and choose deliberate boundary mappings.
+3. **Scope cleanup:** test reverse disposal order, early return, thrown failures and awaited cleanup while checking actual runtime APIs.
 
 ### [3.2. AsyncIterable generators and for-await](<./sections/3. Standard Library in Practice/3.2. AsyncIterable generators and for-await.md>)
 
