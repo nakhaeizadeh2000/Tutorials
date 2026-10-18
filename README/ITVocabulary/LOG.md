@@ -1578,3 +1578,34 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Structural/link verifier passed (26 leaves,307 resolving links, required headings,
   unchanged proposal). Editorial check matched promises and service/PID reasoning.
 - Next steps: D04.S02.L01; all subsequent approved units remain in scope.
+
+### D04.S02.L01 — Files directories paths links and mounts — verified
+
+- Done: D04.S02.L01; filesystem/path/CWD distinctions, observed hard/symbolic link
+  rename behavior and constructed mount-view diagnosis. Progress27/191.
+- Files touched: new sections/2. Files and locations/2.1. Files directories paths
+  links and mounts.md; D04/track README files; this LOG.
+- Links fixed / added: registration, fourteen lookup terms and prior format,
+  process and local-module owners.
+- Research / Decisions: repo filesystem/path/directory/link/mount heading search
+  found memory-retaining paths and type-test error paths, different concepts.
+  Reused Holes vs undefined comparison/operation-variation calibration and prior
+  source/runtime layer teaching. Read primary pathname, symlink and mount manual
+  sections plus Python pathlib operations:
+  https://man7.org/linux/man-pages/man7/path_resolution.7.html (Linux man-pages6.19)
+  https://man7.org/linux/man-pages/man7/symlink.7.html (identity versus stored path)
+  https://man7.org/linux/man-pages/man8/mount.8.html (attachment/hidden prior contents)
+  https://docs.python.org/3.14/library/pathlib.html (link/rename/existence APIs)
+  Searched original mount/link explanations; attempted Julia Evans mount URL failed
+  retrieval, no content claimed. Broad article/security-paper results were not
+  needed as factual substitutes for the actual manual and bounded observation;
+  retained prior evaluated educational OS context and investigated dangling-link
+  misconception directly. No mount administration/security course added.
+- Verification: exact file_names.py fence ran CPython3.14.4/Linux x86_64, exit0;
+  full stdout matched same-file True/True, link-still-present True, target-exists
+  False and retained hard-link text hello. All mutations isolated to an automatically
+  cleaned temporary directory. No mount or Windows behavior executed. Structural/
+  link check passed (27 leaves,325 resolving links, required headings and preserved
+  proposal). Editorial check matched promises, relative-link base, source-dir/CWD
+  distinction, no independent-copy claim and scoped constructed mount scenarios.
+- Next steps: D04.S03.L01; all subsequent approved units remain in scope.
