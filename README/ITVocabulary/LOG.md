@@ -1781,3 +1781,34 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   without claiming any was executed. Static text exercise; no new runtime,
   memory-pressure or service-change test claimed. Index/unit diff inspected.
 - Next steps: D05.S01.L01 and all later approved D05–D18 units;158 leaves remain.
+
+### D05.S01.L01 — Networks internet intranets LAN WAN and interfaces — verified
+
+- Done: D05.S01.L01; scope/organizational labels, interface/device roles and
+  constructed local-print versus external-site interpretation. Created D05 index;
+  progress34/191.
+- Files touched: new D05 README and sections/1. Connections and network scope/1.1.
+  Networks internet intranets LAN WAN and interfaces.md; track README; this LOG.
+- Links fixed / added: D05 prerequisite/leaf/track navigation, eleven lookup entries
+  and three precise prior owners. Only the first real D05 lesson is published.
+- Research / Decisions: repository LAN/WAN/intranet/interface/packet heading search
+  found no competing network owner. Reread full JS Engines runtimes and hosts for
+  role attribution, rejecting universal conformance/engine-performance claims.
+  Read original sources' relevant explanatory passages:
+  https://www.internetsociety.org/internet/how-it-works/ (interconnection model)
+  https://www.cisco.com/site/us/en/learn/topics/networking/what-is-a-lan-local-area-network.html
+  https://www.cisco.com/site/us/en/learn/topics/small-business/networking-basics.html
+  (LAN/WAN scope and switch/router/AP roles)
+  https://man7.org/linux/man-pages/man7/netdevice.7.html (interface identity/flags)
+  https://www.rfc-editor.org/rfc/rfc4949 (intranet entry only, August2007 Informational)
+  https://jvns.ca/blog/2018/03/05/things-ive-learned-networking/ (original March2018
+  topic progression and small-question learning). Rejected Cisco's universal
+  workload/server table, AP-as-amplifier simplification and guaranteed router
+  security; ISOC openness language is not taught as universal actual reachability.
+  Old practitioner tools/attack/configuration examples are not prescribed here.
+- Verification: structural/link verifier passed (34 leaves,413 links across42 files,
+  required sections/registrations, unchanged proposal). Editorial check matched
+  three promises and map/card path reasoning; arrows explicitly intended, not
+  observed connectivity. Static exercise only; no live network discovery, traffic
+  capture, Internet reachability or performance measurement claimed.
+- Next steps: D05.S02.L01;157 approved lessons remain through D18.

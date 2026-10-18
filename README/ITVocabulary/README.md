@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **33 of 191 approved lessons** are available.
+Implementation is in progress: **34 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -28,6 +28,7 @@ Domain indexes appear here as lessons are completed.
 | 2 | [Computers Data Representation and Units](<02 Computers Data Representation and Units/README.md>) — complete |
 | 3 | [Software Execution and Developer Tools](<03 Software Execution and Developer Tools/README.md>) — complete |
 | 4 | [Operating Systems Files and Environments](<04 Operating Systems Files and Environments/README.md>) — complete |
+| 5 | [Networks and the Internet](<05 Networks and the Internet/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -38,6 +39,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 |---|---|
 | Abbreviation | [Shortened forms](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Absolute path | [A path anchored at its filesystem-view root](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Access point | [A device role providing wireless network access](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Address space | [Addresses available under a program execution model](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -129,11 +131,15 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Import package | [A Python module able to contain submodules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Informative material | [Explanatory rather than requirement-defining material](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Initialism | [Initial letters spoken separately](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Internet | [The global interconnection of independently operated networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Interpretation | [Execution of a representation by an interpreter](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
+| Intranet | [A network used for an organization's internal purposes](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| ISP | [Internet service provider](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Jargon | [Language shared by a group](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | JIT | [Just-in-time compilation during execution](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Kernel | [The core privileged operating-system component](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Kernel space | [The kernel execution and memory context](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
+| LAN | [Local area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Language implementation | [Machinery executing a language version](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Library | [Reusable capabilities exposed to calling code](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Linting | [Analysis against selected rules](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
@@ -150,6 +156,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Mount | [Attachment of a filesystem or filesystem view](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Mount point | [Location where a filesystem view is attached](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | MUST | [A scoped conformance requirement](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
+| Network | [Connected participants and communication links](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| Network interface | [An OS-visible physical or virtual communication attachment](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Normalization (Unicode) | [Defined equivalence transformations](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Normative material | [Material defining conformance or requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Obsolete | [A status label requiring publisher context](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -185,6 +193,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Resident memory | [Memory currently in physical RAM for a specified scope](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Resource limit | [A scoped restriction on resource use](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Router | [A role forwarding traffic between networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | RSS | [Resident set size and its measurement limits](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Runtime | [Execution environment or the phase of running](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | rwx | [Read write and execute or directory search permission symbols](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
@@ -213,6 +222,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | stdout | [Standard output](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Support status | [Availability maintenance and service meanings](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Swap | [Backing space for some memory pages](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
+| Switch | [A role forwarding local-link traffic among connected devices](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Symbolic link | [A link storing a target path](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Symlink | [Symbolic link](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | System call | [An entry point for requesting a kernel service](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -238,6 +248,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Virtual memory | [An address-space abstraction with mappings and backing](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | VM | [Virtual machine with a language or infrastructure meaning](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
+| WAN | [Wide area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| Wi-Fi | [Wireless local-network access technology](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 
 Terms are added with precise links when their explanations become available.
