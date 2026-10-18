@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **63 of 191 approved lessons** are available.
+Implementation is in progress: **64 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -183,6 +183,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Endianness | [Byte order in multi-byte representations](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Endpoint (HTTP API) | [An exposed address or method and address combination with usage clarified](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Engine | [Execution machinery with a specified subject](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
+| Enum (schema) | [A value constrained to an explicitly listed set of choices](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
 | Environment variable | [A named value in a process environment](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Ephemeral port | [A temporary port selected for a use such as an outgoing connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | ETag | [Opaque entity tag identifying a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -271,6 +272,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Informative material | [Explanatory rather than requirement-defining material](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Initialism | [Initial letters spoken separately](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Instant | [A particular point on the timeline](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| Integration diagnosis | [Tracing a contract and observations to a specific failed or uncertain boundary](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
 | Internal API | [An interface for consumers within a stated system or organization](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Internationalization | [Design enabling localization across languages and regions](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Internet | [The global interconnection of independently operated networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |

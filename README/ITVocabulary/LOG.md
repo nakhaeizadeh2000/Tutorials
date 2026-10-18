@@ -2799,3 +2799,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   when A's server record is removed. Static contract inspection only; no browser
   CORS/preflight/credential integration, API write, permission change or timing run.
 - Next steps: D07.S06.L01; continue all later approved units through D18.
+
+### D07.S06.L01 — Translate an API specification and failed integration — verified
+
+- Done: D07.S06.L01; annotated description fragment/product notes, four integrated
+  status/cache/CORS/runtime evidence cases, weaker-evidence variant and concrete
+  handoff/interview criteria. Progress64/191;127 approved leaves remain.
+- Files touched: new sections/6. Applied contract reading/6.1. Translate an API
+  specification and failed integration.md; D07/track README files; this LOG.
+- Links fixed / added: registration, two lookup terms and six precise prior owners.
+- Research / Decisions: repo integration/contract-reading/specification heading
+  search found earlier context-specific syntheses and JS/TS contract detail, not
+  this general integration exercise. Read complete current D07 index and reread
+  full JS Fundamentals checklist for review questions connected to actual artifacts;
+  rejected stale runtime labels, universal scheduling/thread assertions and blanket
+  lint prescriptions. Reopened actual OAS3.2.1 metadata/intro, reusing evaluated
+  Path Item/Operation evidence from S01:
+  https://spec.openapis.org/oas/v3.2.1.html (Sept10 2026,description not service).
+  Read https://json-schema.org/understanding-json-schema/reference/enum for fixed
+  choices, not any implication properties are automatically required. Reused this
+  domain's evaluated primary HTTP/cache/CORS and original useful-question/practitioner
+  source map; no new protocol/support guarantee. Fictional product meanings and
+  missing POST guarantees are explicit, not facts inferred from a bodyless excerpt.
+- Verification: structural/link verifier passed (64 leaves,920 links across74 files,
+  required numbered sections/registrations,preserved proposal); whitespace check
+  passed. Exact JSON fence parsed with Python; actual path parameter,required list,
+  enum/type and pending/numeric case assertions passed, plus freshness arithmetic.
+  This is artifact inspection, not OpenAPI/schema-validator conformance or service
+  execution. Editorial check matched three promises and each diagnosis to its
+  evidence, including unknown creation and earlier failed-preflight variation.
+  No SDK build/runtime validation, live reservation/browser integration or benchmark
+  claimed. Index promises/lookup additions correspond to the authored explanations.
+- Next steps: D07.S07.L01, then all approved D08–D18 units; approval unchanged.

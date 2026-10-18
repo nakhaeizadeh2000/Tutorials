@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 9 of 11 approved lessons are available.
+This domain is in progress: 10 of 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 11 approved lessons are available.
 1. **Locate the browser policy and the application access decision:** distinguish cross-origin response sharing from network reachability, identity evidence and action permission.
 2. **Read the preflight actual request and credential mode separately:** interpret matching CORS fields and credentials without treating preliminary permission as business success.
 3. **Diagnose a CORS report without inventing the business outcome:** classify constructed failure boundaries and explain why retries, command-line success and no-cors need careful interpretation.
+
+## 6. Applied contract reading
+
+### [6.1. Translate an API specification and failed integration](<sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>)
+
+1. **Translate a description into actions representations and missing promises:** read an OpenAPI fragment and explicit product notes without treating an excerpt as a verified implementation.
+2. **Trace the failure packet to its last established boundary:** distinguish status mapping, fresh cached state, uncertain creation and runtime contract mismatch in four constructed cases.
+3. **Write a useful handoff and justify the next check:** preserve observations and uncertainty while choosing discriminating evidence and explaining interview reasoning.
 
 [← Back to IT Vocabulary](<../README.md>)
