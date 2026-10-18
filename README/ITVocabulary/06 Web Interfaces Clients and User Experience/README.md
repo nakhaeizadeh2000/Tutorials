@@ -2,7 +2,7 @@
 
 Identify the client artifacts and user-facing qualities behind web descriptions. Read Software Execution and Developer Tools and Networks and the Internet first. No frontend framework or prior UI course is required; examples introduce their own platform assumptions and distinguish inspected artifacts from executed behavior.
 
-This domain is in progress: 8 of 9 approved lessons are available.
+This domain is complete: all 9 approved lessons are available.
 
 ## 1. Client and server responsibilities
 
@@ -61,5 +61,13 @@ This domain is in progress: 8 of 9 approved lessons are available.
 1. **Extract the environment action and expected outcome:** read a constructed client report without equating a narrow desktop viewport with a mobile implementation.
 2. **Separate observation diagnosis and unsupported claims:** evaluate SSR, readiness, keyboard and confirmation evidence and reduce certainty when supporting evidence is removed.
 3. **Write a handoff and choose discriminating follow-up checks:** propose independent task-based checks without reporting them as executed or assigning causes from visible symptoms alone.
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of client and experience vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of client and experience vocabulary.md>)
+
+1. **Route client questions to their existing conceptual owners:** select a precise explanation for responsibilities, artifacts, rendering, platforms, state, experience or localization.
+2. **Separate terminology competence from implementation work:** identify language owners and deeper platform/design tasks without treating unbuilt subject tracks as prerequisites.
+3. **Write a precise handoff from a mixed product claim:** decompose a constructed PWA/rendering/state/time proposal and revise only the conclusion supported by new evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

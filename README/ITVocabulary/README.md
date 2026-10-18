@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **53 of 191 approved lessons** are available.
+Implementation is in progress: **54 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -29,7 +29,7 @@ Domain indexes appear here as lessons are completed.
 | 3 | [Software Execution and Developer Tools](<03 Software Execution and Developer Tools/README.md>) — complete |
 | 4 | [Operating Systems Files and Environments](<04 Operating Systems Files and Environments/README.md>) — complete |
 | 5 | [Networks and the Internet](<05 Networks and the Internet/README.md>) — complete |
-| 6 | [Web Interfaces Clients and User Experience](<06 Web Interfaces Clients and User Experience/README.md>) — in progress |
+| 6 | [Web Interfaces Clients and User Experience](<06 Web Interfaces Clients and User Experience/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).

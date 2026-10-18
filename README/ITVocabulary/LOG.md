@@ -2424,3 +2424,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   tests remain unexecuted; no real app, user study, accessibility scan, physical
   device, server reservation or four-second performance observation claimed.
 - Next steps: D06.S06.L01, then all D07–D18 units; approval/full scope unchanged.
+
+### D06.S06.L01 — Boundaries of client and experience vocabulary — verified
+
+- Done: D06.S06.L01; eight conceptual-owner routes, existing JavaScript versus
+  future platform/design study boundaries and solved mixed PWA/rendering/state/
+  meeting-zone handoff. All nine D06 approved outcomes implemented; progress54/191.
+- Files touched: new sections/6. Overlaps to avoid/6.1. Boundaries of client and
+  experience vocabulary.md; D06/track README completion/progress; this LOG.
+- Links fixed / added: registration, fourteen precise owner routes including
+  existing JS script/number detail and prior domain evidence. D06 marked complete;
+  no unbuilt specialist track or later-domain placeholder links published.
+- Research / Decisions: focused D06 boundary/experience heading search and full
+  current D06 index read confirmed canonical ownership. Reread full JS Fundamentals
+  boundary reference for routing structure; rejected historical future-TypeScript/
+  Web Platform labels and its prohibition-as-template on minimal useful examples.
+  Reused D06's evaluated primary/original teaching source map, actual browser and
+  fixed-offset observations and full JS number/date reference distinctions. No
+  new API, standards status or product guarantee introduced. Root curriculum and
+  approved later domains identify deeper routes, not automatic authorship scope.
+- Verification: structural/link verifier passed (54 leaves,716 links across63 files,
+  required sections/registration, preserved proposal); whitespace check passed.
+  Editorial check matched all three promises and all nine D06 outcomes to real
+  indexed leaves; owner table links resolve. Mixed-claim answer separates each
+  evidence boundary, and added reservation confirmation changes only that result.
+  Static handoff exercise; no new framework/native/accessibility/offline/security
+  implementation or performance run claimed. Track remains in progress.
+- Next steps: D07.S01.L01; continue remaining137 approved leaves across D07–D18.
+  Curriculum revision1 approval remains intact with no new gate.
