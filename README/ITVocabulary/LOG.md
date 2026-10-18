@@ -1326,3 +1326,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   passed (17 leaves, 206 resolving links, required headings and unchanged proposal).
   Editorial check matched promises and separated produced/accepted/executed evidence.
 - Next steps: D03.S02.L01, then all subsequent approved ledger units.
+
+### D03.S02.L01 — Compiling interpreting transpiling and JIT — verified
+
+- Done: D03.S02.L01; transformation versus execution techniques, AOT/JIT timing,
+  source transforms versus runtime capabilities and actual caught failure stages.
+  Track progress 18/191.
+- Files touched: new sections/2. From source to execution/2.1. Compiling interpreting
+  transpiling and JIT.md; D03/track README files; this LOG.
+- Links fixed / added: registration, seven lookup terms and precise JS transform/
+  pipeline and prior code/artifact owners.
+- Research / Decisions: focused repo transform/polyfill/JIT search confirmed JS
+  and TS detailed owners. Read full JS Transpilation polyfills and baseline strategy
+  for syntax/API contrast and target questions, rejecting its blanket safe-transform,
+  always-slower-output and never-transpile-server advice. Primary sources read:
+  https://docs.python.org/3.14/glossary.html#term-bytecode
+  https://www.typescriptlang.org/docs/handbook/typescript-from-scratch.html#erased-types
+  https://v8.dev/blog/jitless (original V8 engineer article, March 13 2019, V8 7.4).
+  Python docs provide coexistence and compatibility evidence; TypeScript docs
+  establish type erasure without runtime validation. V8 is a historical concrete
+  configuration/measurement counterexample, not current defaults or benchmark
+  evidence for this environment. Reused evaluated compile/eval primary contract.
+- Verification: exact failure_stages.py fence executed on CPython 3.14.4/Linux
+  x86_64, exit 0; full stdout matched caught SyntaxError during preparation and
+  ZeroDivisionError during execution of a successfully prepared expression.
+  No JIT, TypeScript transform or speed experiment claimed. Structural/link check
+  passed (18 leaves, 218 resolving links, required headings and unchanged proposal).
+  Editorial check matched promises and scoped language-dependent failure semantics.
+- Next steps: D03.S02.L02; continue all subsequent approved units.

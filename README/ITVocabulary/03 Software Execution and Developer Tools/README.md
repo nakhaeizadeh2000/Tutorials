@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 2 of 9 approved lessons are available.
+This domain is in progress: 3 of 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 9 approved lessons are available.
 1. **Distinguish source text from execution representations:** compare machine code, executables and bytecode while retaining target requirements.
 2. **Observe that preparing code is different from executing it:** run a complete fixed-source experiment without claiming it creates an executable file.
 3. **Identify artifacts by their producer and intended consumer:** distinguish build outputs, declarations and reports from evidence of successful application execution.
+
+## 2. From source to execution
+
+### [2.1. Compiling interpreting transpiling and JIT](<sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>)
+
+1. **Describe compilation and interpretation as implementation steps:** trace input/output representations without assigning mutually exclusive language categories.
+2. **Distinguish source transformation from runtime capabilities:** explain transpilation, type erasure and polyfill roles without assuming target support.
+3. **Place JIT and failures on the execution timeline:** distinguish compilation timing and observe preparation versus execution failures.
 
 [← Back to IT Vocabulary](<../README.md>)
