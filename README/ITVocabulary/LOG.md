@@ -2945,3 +2945,40 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   comparison only; no DBMS installation, query/transaction, five-product benchmark
   or actual graph/time-series ingestion claimed.
 - Next steps: D08.S02.L01, then all subsequent approved units through D18.
+
+### D08.S02.L01 — Tables rows columns documents fields keys and relationships — verified
+
+- Done: D08.S02.L01; concrete table/document reading, primary/composite/reference
+  distinctions, cardinality/association tables and solved name-versus-identity
+  and unenforced-reference claims. Progress68/191;123 lessons remain.
+- Files touched: new sections/2. Relational and document language/2.1. Tables rows
+  columns documents fields keys and relationships.md; D08/track READMEs; this LOG.
+- Links fixed / added: registration, nineteen implemented lookup terms and three
+  precise previous owners. Generic key context is distinguished without stealing
+  existing key-value/JSON field-name ownership.
+- Research / Decisions: broad field/schema heading search was noisy/truncated;
+  narrowed primary-key/foreign-key/database-schema/migration search found no owner.
+  Existing API schema and JS/TS fields/migrations have distinct contexts. Reread
+  full JS Holes vs undefined for distinguishing presence, identity and observations;
+  rejected inherited-property errors, self-corrections and legacy V8 performance
+  universals. Reused D08 model explanations and Fowler implicit-expectation research.
+  Read originating product passages:
+  https://www.postgresql.org/docs/18/ddl-constraints.html (primary/composite keys,
+  null/unique/foreign-key sections; no blanket every-table-must-have-key requirement)
+  https://www.postgresql.org/docs/18/tutorial-fk.html (actual orphan-reference error
+  explanation, not an executed SQL example or all-invalid-data prevention promise)
+  https://www.mongodb.com/docs/manual/core/document/ (retrieved9.0Current, field/
+  nested/BSON and standard-collection_id passages including time-series exception;
+  rejected ORM-always-required/eliminated and JS-field-unordered simplifications)
+  plus previously read PG concepts and Mongo modeling relationship categories.
+  No integer-only key, implicit foreign-key, all-document_id or name-uniqueness
+  guarantee imported. Main model/application practice is original construction.
+- Verification: structural/link verifier passed (68 leaves,991 local links across
+  79 files,required sections/registrations,preserved proposal); whitespace check
+  passed. Executed offline Python parsing/assertions against the exact JSON fence
+  and composite-pair practice: IDs,seats,nesting,attendees and duplicate pair match.
+  Editorial check matched three promises, table references, optionality versus
+  maximum counts, same-name/different-ID reasoning and explicitly stated constraints.
+  Static data/artifact checks only; no database insertion, constraint enforcement,
+  multi-user concurrency, query execution or latency benchmark claimed.
+- Next steps: D08.S02.L02; every subsequent approved unit through D18 remains in scope.

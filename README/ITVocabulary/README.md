@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **67 of 191 approved lessons** are available.
+Implementation is in progress: **68 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -101,6 +101,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Call stack | [Active function calls and caller continuation state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Callback URL | [The receiving endpoint configured for callback delivery](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Capacity | [An amount rather than a rate](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| Cardinality (relationship) | [Allowed participation counts on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | CDN | [Content delivery network with distributed delivery and possible shared caching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Certificate (TLS) | [A signed binding involving identity information and a public key](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Certificate chain | [A sequence supporting validation toward a configured trust anchor](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
@@ -119,8 +120,11 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Code point | [A Unicode number rather than stored bytes](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Code unit | [A fixed-size encoding-form unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Codec | [An encoder and decoder for a conversion](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
+| Collection (database) | [Group of documents in document database terminology](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| Column | [Named attribute across table rows](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Compilation | [Translation to another code representation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Compiler | [A tool performing code translation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
+| Composite key | [Identifier formed from a combination of columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Compression | [Representing data with size reduction as a goal](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Concurrency limit | [A bound on simultaneously active work](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Configuration | [Settings affecting software operation](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
@@ -178,6 +182,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DNS resolver | [Software obtaining DNS information for a query](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | DNS resource record | [Typed data attached to an owner name](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | DNS zone | [An administrative portion of the DNS namespace](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
+| Document (database) | [Structured record of named fields and values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Document database | [Database centered on structured documents](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Documentation | [Document purposes and a reading route](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | DOM | [Document Object Model and the live document tree](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -189,6 +194,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Email address | [A mailbox reference with local and domain parts](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Email alignment | [The required relationship between an authenticated domain and the message author domain](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Embedded database | [Database engine operating inside an application process](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Embedding (data) | [Storing related details inside a containing record](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Encapsulation (network) | [Carrying one protocol unit inside another](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Encoding | [Producing a defined text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Endianness | [Byte order in multi-byte representations](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
@@ -206,6 +212,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Experimental | [A publisher-specific lifecycle policy](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Fallback | [An alternative path when a capability is unavailable](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Feature detection | [Checking for a needed runtime capability](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| Field (data) | [Named part of a structured record](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Field number (Protobuf) | [Stable numeric identity of a message field](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | File | [An object exposed through a filesystem](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | File descriptor | [A numeric reference to an open I/O resource](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -215,6 +222,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Firewall | [A device or program controlling network traffic under policy](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Firmware | [Software tied to low-level device operation](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Folder | [Common name for a directory](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Foreign key | [Declared reference rule to an allowed referenced key](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Forward proxy | [A client-side intermediary selected for forwarding requests](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | FQDN | [Fully qualified domain name](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Frame | [A link-protocol transmission unit](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
@@ -300,6 +308,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Jitter (network) | [Delay variation under a specified metric](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | JSON | [JavaScript Object Notation data interchange format](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | JSON Schema | [A specific technology for describing and validating JSON instances](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
+| Junction table | [Association table recording linked entry pairs](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Kernel | [The core privileged operating-system component](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Kernel space | [The kernel execution and memory context](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Key-value model | [Keys identifying associated values](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
@@ -330,6 +339,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Machine word | [A context-defined representation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Mail relay | [Forwarding a message toward another mail system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Mail submission | [Introducing a message into the mail delivery system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| Many-to-many | [Multiple associations permitted on both sides](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | MAY | [Optional behavior under BCP 14](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | MB and MiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Mbps and MB/s | [Bit rates versus byte rates](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
@@ -365,6 +375,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Octet | [An explicitly eight-bit group](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Offline support | [Specified tasks available without network connectivity](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Offset pagination | [Continuing by skipping a count of ordered results](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
+| One-to-many | [One entry associated with multiple entries on the other side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| One-to-one | [At most one associated entry on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Opaque response | [A filtered cross-origin response whose content is unavailable to the page](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | OpenAPI | [A standard describing HTTP interfaces](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -405,6 +417,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PostgreSQL | [A DBMS product with a client/server architecture](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Prefix length | [The number of leading address bits specifying a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Prerendering | [Preparing HTML or a future browser navigation depending on context](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| Primary key | [Selected unique non-null row identifier](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Private address | [An address from a stated private-use range](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Private cache | [An HTTP cache serving one user](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
@@ -430,13 +443,17 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Rate | [An amount per time](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Rate limit | [A constraint on admitted work over time](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | RDBMS | [Relational database management system](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
+| Record | [A context-specific stored entry such as a row or document](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Recursive resolver | [A resolver pursuing an answer for its client](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Redaction | [Removal of sensitive content from a shared output](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Reference | [Lookup of defined operations and options](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Reference (data) | [Connection to another record through identity](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| Referential integrity | [Validity of references under the enforced rules](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Registrable domain | [A name immediately beneath the applicable public suffix](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Registrar | [A provider of domain-name registration services](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Registry | [A source or service for discovering and obtaining packages](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Relational database | [Database organized using relations commonly represented as tables](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
+| Relationship (data) | [Association between entries](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Relative path | [A path interpreted from a specified base](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Rendering (web) | [Content generation or browser display with an explicit stage](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
@@ -459,6 +476,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Router | [A role forwarding traffic between networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Routing | [Selecting how to forward traffic toward a destination](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Routing table | [Entries describing destination prefixes and forwarding actions](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
+| Row | [One entry in a relational table](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | RPC | [Remote procedure call interaction model](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | RSS | [Resident set size and its measurement limits](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | RTL and LTR | [Right-to-left and left-to-right text direction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
@@ -538,6 +556,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Symbolic link | [A link storing a target path](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Symlink | [Symbolic link](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | System call | [An entry point for requesting a kernel service](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
+| Table | [Named collection of rows described by columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Task | [A unit of work defined by its subsystem](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
