@@ -3418,3 +3418,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   syntax,input model,local versus shared changes and the side-effect practice
   consequence. No SQL execution,application write,parallelism or benchmark claimed.
 - Next steps: D09.S02.L01,then all remaining approved units through D18.
+
+### D09.S02.L01 — Abstraction encapsulation interfaces coupling and cohesion — verified
+
+- Done: D09.S02.L01; task model/behavioral interface/indirection distinctions,
+  controlled ownership versus information hiding,actual immutable snapshot and
+  leaking-reference contrast,change-based coupling/cohesion review. Progress80/191;
+  111 approved leaves remain.
+- Files touched: new sections/2. Managing dependencies/2.1. Abstraction encapsulation
+  interfaces coupling and cohesion.md; D09/track README files; this LOG.
+- Links fixed / added: registration,eight contextual lookup entries and four precise
+  prior/network/language owners. General interface distinguished from TS keyword.
+- Research / Decisions: section-wide full-repo abstraction/encapsulation/coupling/
+  cohesion/DI/IoC/DIP heading search found JS private fields,TS encapsulation/interfaces
+  and decorator DI owners; new general design vocabulary retains those detail owners.
+  Read complete JS Private fields and methods (reread separately after combined
+  output truncation) for controlled-access/failure contrasts; rejected self-
+  correcting serialization/brand examples,structuredClone-copies-private-slots,
+  blanket never-return-mutable-object and fixed private-vs-WeakMap/IC-speed claims.
+  Read full TS Interfaces vs type aliases (missing first portion reread separately)
+  for operation contract versus erased declaration boundary,not historical tool
+  versions as this lesson's execution baseline. Actual sources read:
+  https://web.mit.edu/6.031/www/fa21/classes/10-abstract-data-types/ (original2021
+  intro,abstraction and representation-independence passages; rejected universal
+  no-client-bug-can-damage integrity and Unicode-codepoint simplifications,not a
+  full course review). https://neu-pdi.github.io/CS3100-Spring-2026/lecture-notes/l7-design-for-change/
+  (original course coupling/cohesion and change examples; rejected every-control-
+  parameter-violates-SRP,stable-type-harmless and stale Java security-manager rule).
+  https://martinfowler.com/bliki/EncapsulatedCollection.html (Aug2004 actual mutable
+  collection bypass/view/copy discussion; no universally best-view or negligible-
+  copy-cost assumption). https://martinfowler.com/bliki/TellDontAsk.html (Sept2013
+  actual query-method and competing-concern caveats; no all-getters prohibition).
+  https://docs.python.org/3.14/tutorial/classes.html#private-variables (actual
+  conventions/mangling limits,corroborated through example). Parnas1972 ACM metadata/
+  abstract consulted for discovery only; no unread full-paper conclusions used.
+- Verification: exact roster_boundary.py fence ran CPython3.14.4/Linux x86_64,
+  exit0,full stdout matched unique p1,tuple append rejection,stable earlier snapshot
+  and current p1/p2. Executed only stated live-list return variation in a temporary
+  file; exit0,duplicate p1 accepted and earlier reference sees p2 as explained.
+  Structural/link verifier passed (80 leaves,1204 links across92 files,required
+  sections/registrations,preserved proposal); whitespace check passed. Editorial
+  check matched three promises,explicit order/immutability/uniqueness contract,
+  non-enforced underscore scope and change-card inference. No database capacity,
+  access-control attack,storage replacement,security or speed benchmark claimed.
+- Next steps: D09.S02.L02,then all remaining approved units through D18.

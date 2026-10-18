@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 2 of 11 approved lessons are available.
+This domain is in progress: 3 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 11 approved lessons are available.
 1. **Distinguish explicit steps from a stated result:** interpret imperative, procedural and declarative language while recognizing that programs can mix approaches.
 2. **Identify data flow objects and effects:** explain functional programming, pure functions, side effects and object-associated state and methods.
 3. **Compare the same calculation without changing its contract:** run a complete comparison and distinguish private bookkeeping from changed inputs and external effects.
+
+## 2. Managing dependencies
+
+### [2.1. Abstraction encapsulation interfaces coupling and cohesion](<sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>)
+
+1. **Name the operation contract and the detail it hides:** distinguish abstraction, interfaces, representation independence and indirection through a small roster contract.
+2. **Protect the owner’s rules across the exposed interface:** run a snapshot example and explain how a mutable-reference leak bypasses controlled operations.
+3. **Assess dependencies and responsibility through a concrete change:** use coupling and cohesion to judge a representation change rather than relying on class counts or slogans.
 
 [← Back to IT Vocabulary](<../README.md>)
