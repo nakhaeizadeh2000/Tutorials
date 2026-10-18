@@ -1937,3 +1937,36 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static exercise only; no real email sent, DNS change, signature validation,
   receiver integration or delivery/authentication performance test claimed.
 - Next steps: D05.S04.L01;153 approved leaves remain through D18.
+
+### D05.S04.L01 — Ports sockets connections and listeners — verified
+
+- Done: D05.S04.L01; protocol/address/port context, socket family, listener versus
+  accepted connection, real bounded loopback greeting and fictional bind-scope
+  diagnosis. Progress39/191.
+- Files touched: new sections/4. Transport and endpoints/4.1. Ports sockets
+  connections and listeners.md; D05/track README files; this LOG.
+- Links fixed / added: registration, ten lookup terms and three prior owners.
+- Research / Decisions: repo socket/listener/port heading search found JS event/
+  memory listeners, distinct owner. Reused JS contrasting-observation calibration.
+  Read focused primary API and address descriptions:
+  https://docs.python.org/3.14/library/socket.html (accept,create_connection,makefile,
+  timeout,send/receive examples; retrieved3.14.8)
+  https://man7.org/linux/man-pages/man7/socket.7.html (process/API operations)
+  https://man7.org/linux/man-pages/man7/ip.7.html (ports,binding,loopback/wildcard)
+  https://man7.org/linux/man-pages/man7/unix.7.html (local socket family).
+  Read MIT's original course listener/connected-socket explanation and analogy
+  caveat https://web.mit.edu/6.031/www/sp21/classes/24-sockets-networking/.
+  Selected ownership/accepted-socket distinctions, not Java installation or a
+  universal one-bind-per-port rule. Rejected stale port-reuse/security folklore;
+  no all-interface listener, external client or guessed fixed ephemeral range.
+- Verification: generic extraction helper rejected two text fences before running
+  (expected-output plus fictional card); used a precise extractor selecting the
+  declared output. Corrected newline escaping in the drafted source before the
+  actual example run. Exact local_connection.py then ran CPython3.14.4/Linux x86_64,
+  exit0, empty stderr, all four output lines matched. Accepted socket kept local
+  server port, differed from listener and sent the checked greeting; worker joined.
+  Structural/link check passed (39 leaves,502 links across47 files, required
+  sections, preserved proposal). Editorial check matched promises, bounded line
+  reading, timeout/discard behavior and local-only evidence. No external reachability,
+  multi-client load or health/performance benchmark claimed.
+- Next steps: D05.S04.L02;152 approved leaves remain through D18.

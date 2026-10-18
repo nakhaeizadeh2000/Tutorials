@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 5 of 12 approved lessons are available.
+This domain is in progress: 6 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -39,5 +39,13 @@ This domain is in progress: 5 of 12 approved lessons are available.
 1. **Separate an email address from the identities used in transit:** distinguish local part, domain, display name, message From and SMTP envelope.
 2. **Trace submission relay and mailbox access as different tasks:** identify SMTP, IMAP and MX responsibilities without assuming one success proves the whole mail path.
 3. **Read domain validation claims without promising safe content:** distinguish SPF, DKIM and current DMARC alignment/policy roles using a constructed evidence card.
+
+## 4. Transport and endpoints
+
+### [4.1. Ports sockets connections and listeners](<sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>)
+
+1. **Identify an endpoint with its protocol address and port context:** distinguish a transport port, socket, connection and local socket family.
+2. **Observe a listener and its accepted connection separately:** run one bounded loopback exchange and compare the accepted socket with the listening port.
+3. **Read listening and connection claims without inferring service health:** distinguish local binding, remote reachability and successful application behavior in a report.
 
 [← Back to IT Vocabulary](<../README.md>)
