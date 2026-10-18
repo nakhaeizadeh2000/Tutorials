@@ -1639,3 +1639,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   headings and preserved proposal). Editorial check matched promises and modeled
   identities/operation/assumptions separately from the actual metadata observation.
 - Next steps: D04.S03.L02; all subsequent approved ledger units remain authorized.
+
+### D04.S03.L02 — Environment variables configuration and secrets — verified
+
+- Done: D04.S03.L02; deployment/process environment, configuration sources and
+  precedence, actual text-value parsing, synthetic child scope, secrets/redaction.
+  Progress29/191.
+- Files touched: new sections/3. Configuration and access/3.2. Environment variables
+  configuration and secrets.md; D04/track README files; this LOG.
+- Links fixed / added: registration, seven lookup terms and four exact prior owners.
+- Research / Decisions: repo env/secrets/config heading search found TS compiler
+  settings, not a general process-config owner. Reused JS attribution/contrast
+  and previous complete execution examples for scoped environment evidence.
+  Compared original Adam Wiggins Twelve-Factor config chapter (last updated2017)
+  with current OWASP secrets-management guidance and Python process APIs:
+  https://12factor.net/config
+  https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html
+  https://docs.python.org/3.14/library/os.html#os.environ
+  https://docs.python.org/3.14/library/subprocess.html
+  Selected deploy-variable separation and actual inheritance/explicit-map contract.
+  Resolved config/secrets framing: environment delivery is not a universal secret
+  protection recommendation. Rejected OWASP's overly broad all-process accessibility
+  wording as a universal OS claim; exposure is scoped to environment/permissions.
+  No real credentials, inherited environment dump or secret store was accessed.
+- Verification: exact process_config.py fence executed CPython3.14.4/Linux x86_64,
+  exit0; full stdout matched demo/True/False/demo. Child receives only synthetic
+  settings via explicit env mapping; parent line observes that mapping, not real
+  environment contents. Changed only synthetic flag to perhaps in a temp copy;
+  observed child ValueError, parent CalledProcessError and exit1. No deployment
+  reload, secret-management integration or performance test claimed. Structural/
+  link verification passed (29 leaves,349 resolving links, required headings and
+  unchanged proposal). Editorial check matched promises and exact scope of output.
+- Next steps: D04.S04.L01; all subsequent approved units through D18 remain in scope.

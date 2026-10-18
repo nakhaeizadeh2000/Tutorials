@@ -2,7 +2,7 @@
 
 Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
 
-This domain is in progress: 4 of 9 approved lessons are available.
+This domain is in progress: 5 of 9 approved lessons are available.
 
 ## 1. Operating system responsibilities
 
@@ -33,5 +33,11 @@ This domain is in progress: 4 of 9 approved lessons are available.
 1. **Identify the actor and the resource before interpreting access:** separate account, process credentials, user/group ownership, permission and privilege.
 2. **Read Unix permission bits without treating them as the whole policy:** interpret rwx and octal modes and observe controlled file metadata.
 3. **Diagnose a denied operation without widening access blindly:** solve a stated-assumption access scenario and identify traversal, ACL and identity evidence still needed.
+
+### [3.2. Environment variables configuration and secrets](<sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>)
+
+1. **Distinguish deployment context from process configuration:** identify variable scope, source precedence and loader-specific configuration files.
+2. **Parse named values according to an explicit contract:** observe synthetic child-process settings, text truthiness and a controlled invalid-value failure.
+3. **Distinguish secret delivery from secret protection:** recognize secret/configuration boundaries and request redacted diagnostic evidence.
 
 [← Back to IT Vocabulary](<../README.md>)
