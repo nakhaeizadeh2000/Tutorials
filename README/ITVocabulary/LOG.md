@@ -1905,3 +1905,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   evidence. Static reading card only; no live DNS resolution, delegation change,
   convergence experiment or website request claimed. Unit/index changes inspected.
 - Next steps: D05.S03.L02;154 approved leaves remain through D18.
+
+### D05.S03.L02 — Email addresses mail servers SMTP IMAP and DNS mail records — verified
+
+- Done: D05.S03.L02; address/display/envelope identities, submission/relay/mailbox
+  roles, MX preferences and SPF/DKIM/DMARC alignment exercise. Progress38/191.
+- Files touched: new sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP
+  and DNS mail records.md; D05/track README files; this LOG.
+- Links fixed / added: registration, eleven lookup entries and three prior owners.
+- Research / Decisions: repo mail/SMTP/IMAP/SPF/DKIM/DMARC heading search found
+  no owner. Reused JS attribution/tracing benchmark and this section's evaluated
+  original DNS update investigation for separating DNS roles from application
+  outcomes. Focused primary reading:
+  https://www.rfc-editor.org/rfc/rfc5321.html (address, envelope, routing/MX)
+  https://www.rfc-editor.org/rfc/rfc5322.html (From/display identity)
+  https://www.rfc-editor.org/rfc/rfc6409.html (submission/relay separation)
+  https://www.rfc-editor.org/rfc/rfc9051.html (IMAP4rev2 access and not posting)
+  https://www.rfc-editor.org/rfc/rfc7208.html (SPF identities/TXT publishing)
+  https://www.rfc-editor.org/rfc/rfc6376.html (signer/author distinction,DNS key lookup)
+  https://www.rfc-editor.org/rfc/rfc9989.html (May2026 metadata,4.1–4.4,11.4 limits).
+  Discovery exposed new core RFC9989 obsoleting7489/9091; integrated current core
+  directly, not a future catch-up module. Reporting-format RFC9990/9991 were
+  discovered but not taught/read as implementation content. Community results
+  revealed deployment/confusion questions but snippets/votes/adoption percentages
+  are not evidence; no universal receiver adoption or safety guarantee asserted.
+- Verification: structural/link check passed (38 leaves,488 links across46 files,
+  required sections/registration, unchanged proposal). Editorially traced strict
+  alignment card: unaligned SPF plus aligned valid DKIM permits pass; changing
+  DKIM to failure removes the aligned successful identifier under stated policy.
+  Checked all three promises, MX target/preference and transport/access distinction.
+  Static exercise only; no real email sent, DNS change, signature validation,
+  receiver integration or delivery/authentication performance test claimed.
+- Next steps: D05.S04.L01;153 approved leaves remain through D18.

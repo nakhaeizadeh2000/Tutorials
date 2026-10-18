@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 4 of 12 approved lessons are available.
+This domain is in progress: 5 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -33,5 +33,11 @@ This domain is in progress: 4 of 12 approved lessons are available.
 1. **Separate a hierarchical name from registration and hosting:** interpret domain labels, subdomains, hostnames, FQDNs and zones in context.
 2. **Follow a naming question through resolver and authority roles:** distinguish client/stub, recursive resolution, referrals and cached answers without assuming every lookup repeats the whole path.
 3. **Read record types and a cache discrepancy as scoped evidence:** interpret address/alias/server records and explain why a DNS answer does not prove application reachability.
+
+### [3.2. Email addresses mail servers SMTP IMAP and DNS mail records](<sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>)
+
+1. **Separate an email address from the identities used in transit:** distinguish local part, domain, display name, message From and SMTP envelope.
+2. **Trace submission relay and mailbox access as different tasks:** identify SMTP, IMAP and MX responsibilities without assuming one success proves the whole mail path.
+3. **Read domain validation claims without promising safe content:** distinguish SPF, DKIM and current DMARC alignment/policy roles using a constructed evidence card.
 
 [← Back to IT Vocabulary](<../README.md>)
