@@ -2244,3 +2244,39 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   later navigation independent of initial generation. Static timelines only; no
   React hydration/streaming implementation, crawler or timing benchmark claimed.
 - Next steps: D06.S03.L01, then all subsequent approved units through D18.
+
+### D06.S03.L01 — Web native hybrid desktop mobile and PWA — verified
+
+- Done: D06.S03.L01; target/implementation/distribution distinctions, WebView and
+  native container roles, PWA engine/install/offline separation and solved scoped
+  capability card. Progress49/191;142 approved lessons remain.
+- Files touched: new sections/3. Client platforms and state/3.1. Web native hybrid
+  desktop mobile and PWA.md; D06/track README files; this LOG.
+- Links fixed / added: registration, twelve lookup terms and three existing owners.
+- Research / Decisions: broad platform/state heading search was noisy/truncated;
+  narrowed WebView/PWA/hybrid/cookie/storage API search excluding logs found no
+  competing owner. Reused full JS Engines runtimes and hosts attribution reference
+  and browser actual-artifact calibration; implementation remains future study.
+  Read originating documentation's relevant explanatory portions:
+  https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/What_is_a_progressive_web_app
+  https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable
+  (Oct6 2026; installation variation, manifest and service-worker distinction)
+  https://capacitorjs.com/docs (v8 introduction, container/plugins only)
+  https://www.electronjs.org/docs/latest (intro, embedded Chromium/Node roles)
+  https://reactnative.dev/docs/intro-react-native-components (Aug12 2026, retrieved
+  0.87 guide; native-view concept, not legacy API examples or performance equivalence)
+  https://web.dev/learn/pwa/capabilities (original course's feature-check/layering
+  guidance, not its dated universal green/red API inventory). Earlier Electron
+  /tutorial/introduction URL failed; actual /docs/latest supplied the explanation.
+  Cordova WebViews page opened for discovery but not used as read explanatory
+  evidence. Rejected native-equals-no-JS, all-native-apps-offline, universal browser
+  install criteria, PWA requires service worker to install, marketing performance
+  equivalence and every-API/device parity. No latest tool-version setup prescribed.
+- Verification: structural/link verifier passed (49 leaves,638 links across58 files,
+  required sections/registration, preserved proposal); whitespace check passed.
+  Editorial check matched three promises and each card inference to its stated
+  environment/task; installed icon does not prove runtime/offline submission,
+  shared UI does not verify iOS scanner, fallback still has a product outcome.
+  Static interpretation only; no app install, SDK build, PWA/service-worker/device
+  permission, scanner/offline integration or performance test claimed.
+- Next steps: D06.S03.L02, then all subsequent approved units through D18.

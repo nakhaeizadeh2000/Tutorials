@@ -2,7 +2,7 @@
 
 Identify the client artifacts and user-facing qualities behind web descriptions. Read Software Execution and Developer Tools and Networks and the Internet first. No frontend framework or prior UI course is required; examples introduce their own platform assumptions and distinguish inspected artifacts from executed behavior.
 
-This domain is in progress: 3 of 9 approved lessons are available.
+This domain is in progress: 4 of 9 approved lessons are available.
 
 ## 1. Client and server responsibilities
 
@@ -25,5 +25,13 @@ This domain is in progress: 3 of 9 approved lessons are available.
 1. **Separate content generation from browser display and navigation:** interpret rendering, document changes, SPA and MPA without equating navigation style with the initial content producer.
 2. **Locate CSR SSR and SSG on a content timeline:** classify constructed request/build/browser paths and identify what an HTML response alone cannot prove.
 3. **Distinguish hydration from content visibility and later updates:** reason about initialization, mismatch and visible-but-inactive controls without assuming a framework-specific guarantee.
+
+## 3. Client platforms and state
+
+### [3.1. Web native hybrid desktop mobile and PWA](<sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>)
+
+1. **Separate device targets from application implementation:** interpret web, desktop, mobile, native and cross-platform along distinct dimensions.
+2. **Recognize web containers and progressive web apps:** distinguish WebViews, hybrid containers, PWA installation and scoped offline/background capabilities.
+3. **Read a capability claim as a testable product contract:** rewrite a constructed works-everywhere claim using target environments, checked tasks and useful fallbacks.
 
 [← Back to IT Vocabulary](<../README.md>)
