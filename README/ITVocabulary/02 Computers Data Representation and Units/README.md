@@ -2,7 +2,7 @@
 
 Connect hardware descriptions and data representations to the resources they describe. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) before beginning; no hardware purchase, administrator access or programming background is required. Examples distinguish physical components, instructions, data and measurements before discussing their limits.
 
-This domain is in progress: 7 of 8 approved lessons are available.
+This domain is complete: all 8 approved lessons are available.
 
 ## 1. Physical and logical components
 
@@ -55,5 +55,13 @@ This domain is in progress: 7 of 8 approved lessons are available.
 1. **Classify each specification before comparing machines:** separate counts, frequency, capacity and rate from unsupported workload conclusions.
 2. **Build a transfer estimate with explicit assumptions:** compare overlapping and sequential stages using compatible representation sizes and rates.
 3. **Turn an unsupported diagnosis into a useful next question:** identify the modeled bottleneck while distinguishing it from an observed failure cause.
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of hardware and representation vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of hardware and representation vocabulary.md>)
+
+1. **Keep the representation model separate from language mechanics:** route bytes, strings and numeric behavior to their existing detailed language owners.
+2. **Route implementation and protection questions to their own scope:** identify the limits of resource labels, checksum evidence and vocabulary competence.
+3. **Use a worked handoff without losing the unknowns:** split resource, comparison and timing claims into scoped evidence questions.
 
 [← Back to IT Vocabulary](<../README.md>)

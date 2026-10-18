@@ -1245,3 +1245,26 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Editorial check matched promises and verified consistent byte/completion scopes,
   optimistic-model qualification, and that the 40-second report remains fictional.
 - Next steps: D02.S06.L01, then D03 through all subsequent approved domains.
+
+### D02.S06.L01 — Boundaries of hardware and representation vocabulary — verified
+
+- Done: D02.S06.L01; general/language-specific ownership table, implementation
+  and protection boundaries and a solved three-claim handoff. All eight D02 units
+  are implemented; track progress 15/191, with D03–D18 still authorized and pending.
+- Files touched: new sections/6. Overlaps to avoid/6.1. Boundaries of hardware and
+  representation vocabulary.md; D02/track README progress; this LOG.
+- Links fixed / added: registration, precise byte/string/number language owners,
+  prior hardware/format/transfer/record owners; D02 status complete. No future links.
+- Research / Decisions: repository numeric/encoding/cryptography/overlap discovery
+  and actual JS Numbers index read confirmed existing owners. A guessed strings
+  folder did not exist; rg --files supplied the real domain and exact leaf path.
+  Reread the complete JS Fundamentals overlap leaf as routing calibration; retained
+  its explicit boundaries, not outdated planned-track labels. Reused this domain's
+  evaluated primary sources and examples, adding no new platform/security claims.
+  Named later approved domains as future study without publishing their paths.
+- Verification: structural/link checker passed (15 leaves, 182 resolving links,
+  required numbered sections/registration and preserved closed proposal).
+  Editorial check traced the handoff to prior explanations and confirmed all
+  eight D02 approved outcomes have real leaves and specific promises. Static
+  interpretation exercise only; no new runtime/benchmark/security test claimed.
+- Next steps: D03.S01.L01; continue all remaining 176 approved leaves across D03–D18.
