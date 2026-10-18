@@ -3547,3 +3547,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   three proposal defects and required-second-policy variation. Static cards only;
   no framework/pattern implementation,policy rollout or performance run claimed.
 - Next steps: D09.S03.L02,then all remaining approved units through D18.
+
+### D09.S03.L02 — Refactoring rewrites technical debt and legacy systems — verified
+
+- Done: D09.S03.L02; actual value/error-preserving extraction and changed-rule
+  contrast,debt principal/interest and contextual legacy/rewrite/modernization
+  distinctions,worked mixed-change packet. Progress83/191;108 leaves remain.
+- Files touched: new sections/3. Principles and refactoring/3.2. Refactoring rewrites
+  technical debt and legacy systems.md; D09/track README files; this LOG.
+- Links fixed / added: registration,nine contextual lookup entries and four precise
+  principles/interface/data-migration/TS-action owners. No future specialist links.
+- Research / Decisions: focused repo refactor/rewrite/legacy/debt headings found TS
+  Rename refactorings and code actions; read it completely for actual edit scope,
+  module-effect and preservation limits,not its tool versions as this example's
+  runtime baseline. Reread full JS Assertions guards Result Either for observable
+  error distinctions; rejected invariant export,always-crash/never-catch,blanket
+  stripping,throw-deoptimization and arbitrary Result failure-rate thresholds.
+  Actual originating source passages:
+  https://refactoring.com/ (definition,small preservation transformations and
+  restructuring distinction; no universal no-plan-item/faster-refactor payoff)
+  https://c2.com/doc/oopsla92.html (complete WardCunningham March1992 experience
+  report,consolidation/debt metaphor; no universal OOP-modularity/cheap-rewrite or
+  guaranteed shortest development claim)
+  https://martinfowler.com/bliki/TechnicalDebt.html (May2019 revision,burden/payoff/
+  metaphor limits; rejected exact fictional day estimates as observed,broad no-
+  objectively-measurable-costs,fixed weeks payoff and universal zero-tolerance)
+  https://martinfowler.com/bliki/TechnicalDebtQuadrant.html (Oct2009/reposted2014,
+  deliberate/inadvertent/prudent/reckless distinction,not competence/blame labels)
+  https://martinfowler.com/bliki/StranglerFigApplication.html (Aug2024 actual gradual
+  replacement,coexistence/outcome/seam passages; rejected most-rewrites-fail,universal
+  coexistence-value/risk payoff and no-well-designed-systems claim).
+  InformIT Feathers2005 original intro appeared in discovery and book2004 metadata/
+  contents consulted; article direct retrieval failed,no full chapter/book or
+  narrow legacy definition claimed. This unit defines contextual usage explicitly.
+- Verification: exact refactor_contract.py fence executed CPython3.14.4/Linux x86_64,
+  exit0,full stdout matched negative/zero errors,singular/plural values and four
+  equality observations. Executed only stated <=1 validator variation in isolated
+  namespace; original one-seat value becomes an error in altered version. Structural/
+  link verifier passed (83 leaves,1256 links across95 files,required sections/
+  registrations,preserved proposal); whitespace check passed. Editorial check
+  matched promises,ordinary-integer input model,observation/proof limits and mixed
+  refactoring/requirement/replacement/debt packet. No application rewrite,exporter
+  comparison,data migration,formal proof or speed/maintenance benchmark claimed.
+- Next steps: D09.S04.L01,then all remaining approved units through D18.

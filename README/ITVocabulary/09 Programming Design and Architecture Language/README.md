@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 5 of 11 approved lessons are available.
+This domain is in progress: 6 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 11 approved lessons are available.
 1. **Interpret the five SOLID principles through their intended boundaries:** expand the names and evaluate responsibility, extension, substitution and consumer contracts without class-count rules.
 2. **Distinguish duplicated knowledge from similar-looking text:** trace independent refund and invitation rules and identify when shared policy knowledge needs one authoritative representation.
 3. **Use simplicity and pattern names to justify a specific decision:** apply KISS, YAGNI and pattern vocabulary to a concrete proposal with explained trade-offs.
+
+### [3.2. Refactoring rewrites technical debt and legacy systems](<sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>)
+
+1. **Separate behavior-preserving restructuring from a changed requirement:** run a before/after extraction and distinguish preserved values/errors from an altered seat-count rule.
+2. **Describe the future cost behind a debt claim:** identify principal, interest and deliberate or discovered burdens without equating age, bugs or missing features with debt.
+3. **Judge replacement and legacy claims without an age shortcut:** classify rewrites, modernization and gradual replacement and ask for compatibility and migration evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

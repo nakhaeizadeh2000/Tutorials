@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **82 of 191 approved lessons** are available.
+Implementation is in progress: **83 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -126,6 +126,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Certificate chain | [A sequence supporting validation toward a configured trust anchor](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Changelog | [A record of changes across releases](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Character encoding | [A representation of text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| Characterization check | [Recording existing behavior to detect unintended change](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | CHECK constraint | [A database expression restricting allowed values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Checksum | [A check value tied to an algorithm and input](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | CHIPS | [Cookies Having Independent Partitioned State](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -370,6 +371,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Insert anomaly | [Inability to add an independent fact without unrelated data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Instant | [A particular point on the timeline](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Integration diagnosis | [Tracing a contract and observations to a specific failed or uncertain boundary](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
+| Interest (technical debt) | [Extra recurring effort while a technical burden remains](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Interface (design) | [Exposed operations and their agreed behavioral contract](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Interface Segregation Principle | [Keeping consumer dependencies appropriate to needed operations](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Internal API | [An interface for consumers within a stated system or organization](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
@@ -408,6 +410,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Last-Event-ID | [SSE reconnection header carrying the last event identifier](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Latency (network) | [Elapsed delay for stated network events and direction](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | Left outer join | [Matching pairs plus unmatched left rows with null right values](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
+| Legacy system | [Existing retained or inherited system with contextual historical constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Library | [Reusable capabilities exposed to calling code](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | LIFO | [Last-in first-out](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Linear search | [Sequential matching until found or input exhausted](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -445,6 +448,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Metadata | [Information describing data or its context](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Method | [An operation associated with an object](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Mobile application | [A client targeting mobile operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| Modernization | [Changing a system to meet current needs or constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Module | [A code unit under its language ecosystem rules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Mount | [Attachment of a filesystem or filesystem view](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Mount point | [Location where a filesystem view is attached](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
@@ -537,6 +541,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Prerendering | [Preparing HTML or a future browser navigation depending on context](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Primary (database) | [Participant accepting writes in a stated primary/replica design](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Primary key | [Selected unique non-null row identifier](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| Principal (technical debt) | [Work needed to address an underlying technical burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Private address | [An address from a stated private-use range](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Private cache | [An HTTP cache serving one user](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
@@ -576,6 +581,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Recovery (data) | [Return to acceptable state including replay checks and application use](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Recursive resolver | [A resolver pursuing an answer for its client](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Redaction | [Removal of sensitive content from a shared output](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
+| Refactoring | [Internal restructuring preserving specified observable behavior](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Reference | [Lookup of defined operations and options](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Reference (data) | [Connection to another record through identity](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Referential integrity | [Validity of references under the enforced rules](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -608,6 +614,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Retry-After | [HTTP follow-up wait expressed as seconds or an HTTP date](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Revalidation (HTTP) | [Checking whether a stored response can be reused](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Reverse proxy | [A server-side intermediary receiving requests and forwarding them to other servers](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
+| Rewrite (software) | [Replacement of an implementation with explicit compatibility obligations](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Rollback (data change) | [Attempt to return to an earlier data or schema state](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Rollback (transaction) | [Discarding uncommitted changes in the transaction scope](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
@@ -702,6 +709,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | stdin | [Standard input](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdout | [Standard output](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Storage volume | [Device-like storage area usable by a filesystem or application](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
+| Strangler Fig | [Gradual replacement of behavior while old and new parts coexist](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Strategy (pattern) | [Interchangeable behavior supplied through a common contract](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Stream processing | [Processing an ongoing data flow](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Streaming SSR | [Sending generated HTML in portions](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
@@ -720,6 +728,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Task | [A unit of work defined by its subsystem](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Terminal | [The text interaction surface and terminal emulator](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Testable statement | [A claim that can be compared with relevant evidence](<01 Reading and Using Technical Language/sections/4. Applied reading and review/4.1. Turn a jargon-heavy message into a testable statement.md>) |
