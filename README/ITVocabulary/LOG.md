@@ -922,3 +922,25 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Editorially checked each index promise, example actors and the stated unknowns;
   static reading/answer inspection only, no runtime/integration execution claimed.
 - Next steps: D01.S02.L01; every later approved ledger ID remains in scope.
+
+### D01.S02.L01 — Guides references specifications and release notes — verified
+
+- Done: D01.S02.L01; document selection, example/requirement distinction and
+  version-matched evidence through a fictional setting and explained exercise.
+- Files touched: new sections/2. Reading technical documents/2.1. Guides references
+  specifications and release notes.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, ten lookup terms and two prior leaves.
+- Research / Decisions: repo heading search located the JavaScript TC39/document
+  reading leaf; read it completely as a benchmark for documentation selection,
+  not as current TC39-stage evidence. Consulted https://diataxis.fr/ for original
+  tutorial/how-to/reference/explanation roles; https://www.ietf.org/process/rfcs/
+  for RFC status and update metadata. RFC Editor /about/ timed out, so no content
+  was claimed from it; the IETF overview provided accessible primary evidence.
+  Section research also read RFC 2119 and RFC 8174 for the following unit, and
+  opened current Node stability/MDN status guidance for focused reading next.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (3 leaves and resolving
+  links, numbered required sections, registrations and unchanged closed proposal).
+  Editorial comparison checked all three promises, the zero-value inference gap
+  and old/new-version distinction. Fictional text exercise only; no runnable
+  configuration or performance experiment is asserted.
+- Next steps: D01.S02.L02, then all subsequent approved ledger units.
