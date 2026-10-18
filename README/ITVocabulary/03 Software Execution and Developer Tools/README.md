@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 6 of 9 approved lessons are available.
+This domain is in progress: 7 of 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -45,5 +45,13 @@ This domain is in progress: 6 of 9 approved lessons are available.
 1. **Distinguish code organization from distribution units:** explain modules and ecosystem-specific package meanings without assuming matching names.
 2. **Trace a local dependency without confusing import and installation:** run two complete local files and observe an intentionally missing module.
 3. **Identify the package manager and the environment it manages:** separate distribution clients and registries from runtime loading and successful application execution.
+
+## 4. Checking and transforming code
+
+### [4.1. Static analysis types linting formatting and builds](<sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>)
+
+1. **Distinguish structural checks from observed application behavior:** explain types and annotations and observe runtime non-enforcement in a declared Python example.
+2. **Separate lint rules from source formatting:** interpret a configured rule pass without treating layout as proof of correct application behavior.
+3. **Read a build result as the result of its configured steps:** separate preparation, checks and unperformed application scenarios in a precise result report.
 
 [← Back to IT Vocabulary](<../README.md>)

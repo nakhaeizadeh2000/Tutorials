@@ -1441,3 +1441,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   (21 leaves,248 resolving links, required headings, unchanged closed proposal).
   Editorial check matched promises and scoped the missing-module failure conditions.
 - Next steps: D03.S04.L01, then every subsequent approved unit through D18.
+
+### D03.S04.L01 — Static analysis types linting formatting and builds — verified
+
+- Done: D03.S04.L01; static/runtime checking, types/annotations, lint/format/build
+  scope, actual non-enforcement observation and a constructed evidence-card answer.
+  Track progress 22/191.
+- Files touched: new sections/4. Checking and transforming code/4.1. Static analysis
+  types linting formatting and builds.md; D03/track README files; this LOG.
+- Links fixed / added: registration, eight lookup entries and precise existing
+  TypeScript checked-contract and JavaScript tooling owners plus prior stage links.
+- Research / Decisions: focused repo check/lint/format/build heading search found
+  canonical JS/TS tooling owners. Read full JS Linting formatting static analysis
+  leaf for separate-gate reasoning, not its unexecuted simulations, fixed four-gate
+  policy, stale plugin identifiers or blanket installation/performance claims.
+  Read full TS Static checking vs runtime reality owner for real evidence-boundary
+  comparison. Primary Python typing, ESLint core concepts and Prettier introduction:
+  https://docs.python.org/3.14/library/typing.html
+  https://eslint.org/docs/latest/use/core-concepts/
+  https://prettier.io/docs/
+  Read actual annotation caveat, configurable rule roles, and source reprinting;
+  included overloaded report-formatter meaning. Living docs establish roles, not
+  tool-version configuration instructions. Earlier practitioner/source research
+  informs the evidence questions; no tool installation is needed for the outcome.
+- Verification: exact annotation_observation.py fence executed on CPython3.14.4/
+  Linux x86_64, exit0; full stdout matched Integer input42 and String inputgogo.
+  No type checker, linter, formatter or actual delivery build was run or claimed.
+  Structural/link check passed (22 leaves,261 resolving links, required headings,
+  unchanged closed proposal). Editorial check matched promises and carefully
+  separated the actual Python observation from the fictional build result card.
+- Next steps: D03.S05.L01; continue every later approved unit through D18.
