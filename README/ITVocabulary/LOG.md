@@ -1609,3 +1609,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   proposal). Editorial check matched promises, relative-link base, source-dir/CWD
   distinction, no independent-copy claim and scoped constructed mount scenarios.
 - Next steps: D04.S03.L01; all subsequent approved units remain in scope.
+
+### D04.S03.L01 — Users groups permissions privileges and ownership — verified
+
+- Done: D04.S03.L01; account/process/resource identities, basic Unix rwx/octal
+  modes, directory/ACL limits, controlled metadata observation and explained
+  Alice/Bob/Cara scenario with targeted diagnosis. Progress28/191.
+- Files touched: new sections/3. Configuration and access/3.1. Users groups
+  permissions privileges and ownership.md; D04/track README files; this LOG.
+- Links fixed / added: registration, eight lookup terms and prior process/path/
+  metadata owners; no unpublished security implementation links.
+- Research / Decisions: repo permission/ownership/group search found language
+  mutability and regexp groups, not OS-access ownership. Reused comparison/limited-
+  evidence JS calibration; distinguished OS rules from application authorization.
+  Read focused primary identities, file mode, traversal, ACL and Python stat:
+  https://man7.org/linux/man-pages/man7/credentials.7.html (July2 2026 page)
+  https://man7.org/linux/man-pages/man7/inode.7.html
+  https://man7.org/linux/man-pages/man7/path_resolution.7.html
+  https://man7.org/linux/man-pages/man5/acl.5.html
+  https://docs.python.org/3.14/library/stat.html
+  Initial acl(7) path failed; corrected to actual acl(5), then read its description,
+  entries and access-model passages. No unavailable source content claimed. Basic
+  Unix model is explicitly conditional; no universal root bypass or ACL configuration
+  advice, and no administrative change to the user's files/accounts.
+- Verification: exact permission_bits.py fence ran CPython3.14.4/Linux x86_64,
+  exit0; full stdout matched 0o640 and True/False/False bits. Only temporary-file
+  metadata changed and was cleaned. No multi-account access or denial execution
+  claimed. Structural/link verifier passed (28 leaves,337 resolving links, required
+  headings and preserved proposal). Editorial check matched promises and modeled
+  identities/operation/assumptions separately from the actual metadata observation.
+- Next steps: D04.S03.L02; all subsequent approved ledger units remain authorized.

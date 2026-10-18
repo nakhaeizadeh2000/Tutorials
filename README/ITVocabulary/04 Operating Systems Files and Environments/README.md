@@ -2,7 +2,7 @@
 
 Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
 
-This domain is in progress: 3 of 9 approved lessons are available.
+This domain is in progress: 4 of 9 approved lessons are available.
 
 ## 1. Operating system responsibilities
 
@@ -25,5 +25,13 @@ This domain is in progress: 3 of 9 approved lessons are available.
 1. **Resolve a location from its starting point and path components:** distinguish files, directories, absolute/relative paths and a process working directory.
 2. **Distinguish a second name from a copy or a symbolic target:** observe hard and symbolic links across a rename in an isolated complete example.
 3. **Include mounts and the process view in a location claim:** explain why an existing directory or absolute spelling does not identify the expected dataset.
+
+## 3. Configuration and access
+
+### [3.1. Users groups permissions privileges and ownership](<sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>)
+
+1. **Identify the actor and the resource before interpreting access:** separate account, process credentials, user/group ownership, permission and privilege.
+2. **Read Unix permission bits without treating them as the whole policy:** interpret rwx and octal modes and observe controlled file metadata.
+3. **Diagnose a denied operation without widening access blindly:** solve a stated-assumption access scenario and identify traversal, ACL and identity evidence still needed.
 
 [← Back to IT Vocabulary](<../README.md>)

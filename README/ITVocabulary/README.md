@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **27 of 191 approved lessons** are available.
+Implementation is in progress: **28 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -38,6 +38,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 |---|---|
 | Abbreviation | [Shortened forms](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Absolute path | [A path anchored at its filesystem-view root](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Ambiguity | [Choosing among plausible meanings](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | AOT | [Ahead-of-time compilation relative to a stated execution boundary](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
@@ -105,6 +106,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | GB and GiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Grapheme cluster | [A practical text-segmentation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| Group | [An identity collection used for access management](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Guarantee | [A promise within conditions and limits](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Hard link | [Another name for the same underlying file object](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Hardware | [Physical computing components](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
@@ -145,13 +147,16 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | OS | [Operating system](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Overloaded word | [Several meanings selected by context](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
+| Ownership (filesystem) | [Recorded file user and group ownership](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Package | [A distribution or contextual import organization boundary](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Package manager | [A tool managing package acquisition and installation](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Path | [Components interpreted from a defined starting point](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Permission | [An allowed operation under an access rule](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Persistent storage | [Retained data versus working memory](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | PID | [Process identifier scoped to the observed instance](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
+| Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Program | [Instructions executed in an appropriate environment](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
@@ -166,6 +171,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Runtime | [Execution environment or the phase of running](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
+| rwx | [Read write and execute or directory search permission symbols](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service manager | [A component managing service lifecycle and state](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
@@ -196,7 +202,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Type | [A category or constraint on values](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Type annotation | [A declared source-level type](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Type checking | [Checking type relationships with a specified scope](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| UID and GID | [Linux numeric user and group identifiers](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Unicode | [Code points properties and text-processing rules](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| User account | [An identity recognized by a system](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | User space | [Application and supporting-program execution outside the kernel](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | UTF-16 | [Sixteen-bit code units and their counts](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UTF-32 | [Thirty-two-bit code units](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
