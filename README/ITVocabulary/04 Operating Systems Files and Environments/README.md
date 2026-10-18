@@ -1,0 +1,15 @@
+# Operating Systems Files and Environments
+
+Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
+
+This domain is in progress: 1 of 9 approved lessons is available.
+
+## 1. Operating system responsibilities
+
+### [1.1. Operating systems kernels user space and system calls](<sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>)
+
+1. **Locate the kernel within the operating-system picture:** separate OS services, privileged kernel responsibilities and user-space execution.
+2. **Distinguish an application API from a system-call boundary:** trace a request without assuming one source function equals one kernel entry.
+3. **Observe one Linux system call in a bounded example:** run an optional filtered trace and explain what its result and hidden scope establish.
+
+[← Back to IT Vocabulary](<../README.md>)

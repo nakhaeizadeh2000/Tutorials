@@ -1520,3 +1520,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   unperformed destination tests. Static routing only; no fresh tooling/runtime
   benchmark or integration execution claimed.
 - Next steps: D04.S01.L01; continue the remaining 167 approved leaves across D04–D18.
+
+### D04.S01.L01 — Operating systems kernels user space and system calls — verified
+
+- Done: D04.S01.L01; OS/kernel/user-space boundaries, API versus syscall path and
+  actual optional Linux trace. Created D04 index; track progress25/191.
+- Files touched: new D04 README and sections/1. Operating system responsibilities/
+  1.1. Operating systems kernels user space and system calls.md; track README; LOG.
+- Links fixed / added: D04 prerequisite/leaf/track navigation, eight lookup entries
+  and exact prior hardware/runtime/terminal owners.
+- Research / Decisions: repo kernel/user-space/syscall/process/thread heading
+  search found no general OS owner. Reused JS role attribution and recently reread
+  Promise tracing calibration for request/result explanation, not language-specific
+  semantics. Read OpenStax6.2 OS role/application-service excerpts; selected broad
+  responsibilities while rejecting universal component layout, thread timing and
+  fork-copy simplifications. Primary Linux intro(2), strace option passages and
+  Python3.14 os.write anchor the actual boundary and observation:
+  https://openstax.org/books/introduction-computer-science/pages/6-2-fundamental-os-concepts
+  https://man7.org/linux/man-pages/man2/intro.2.html
+  https://man7.org/linux/man-pages/man1/strace.1.html
+  https://docs.python.org/3.14/library/os.html#os.write
+  Explicit Linux scope; no administrator/trace-policy bypass or universal OS layout.
+- Verification: strace --version reported6.19. Extracted exact Python source to
+  temporary os_boundary.py; ran declared strace -e trace=write -o calls.txt python3
+  os_boundary.py on CPython3.14.4/Linux x86_64. Exit0, stdout exactly Boundary reached
+  plus newline; full trace matched write of17 bytes returning17 and exit0 line.
+  Structural/link verifier passed (25 leaves,296 resolving links, required headings,
+  unchanged closed proposal). Editorial check matched promises, descriptor1 context,
+  filtered scope and no durability/performance inference. Actual syscall observation,
+  not an inferred boundary or measured normal-speed benchmark.
+- Next steps: D04.S01.L02; all subsequent approved units through D18 remain in scope.
