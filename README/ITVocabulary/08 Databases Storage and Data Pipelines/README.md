@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 5 of 12 approved lessons are available.
+This domain is in progress: 6 of 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 12 approved lessons are available.
 1. **Separate a query its matching rule and its result:** distinguish retrieval and row combinations, including the consequence of omitting an identity match.
 2. **Observe an index and a named query in a complete local example:** run SQLite tables, joins, before/after plans and a view after a source change in an in-memory database.
 3. **Interpret a plan as evidence about a specific execution strategy:** separate access paths, estimates, actual execution and measured duration without treating an index as a universal speedup.
+
+### [3.2. SQL CRUD ORMs query builders and drivers](<sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>)
+
+1. **Distinguish an operation category from the SQL language:** interpret CRUD, SQL statement groups and actual zero-row versus delete outcomes in a complete local example.
+2. **Locate mapping construction and communication responsibilities:** explain ORM, query-builder, driver and parameterization roles without treating labels as guarantees.
+3. **Review an access-layer claim with concrete outcome evidence:** separate typed descriptions, affected records, rules and constructed N+1 request counts.
 
 [← Back to IT Vocabulary](<../README.md>)

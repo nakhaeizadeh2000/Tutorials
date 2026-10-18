@@ -3064,3 +3064,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   needed for reading, logical versus physical work and scoped plan output. No
   PostgreSQL execution, materialized refresh, concurrency or speed benchmark claimed.
 - Next steps: D08.S03.L02, then every subsequent approved unit through D18.
+
+### D08.S03.L02 — SQL CRUD ORMs query builders and drivers — verified
+
+- Done: D08.S03.L02; actual CRUD/zero-row distinction, SQL/statement categories,
+  access-layer mapping/construction/driver roles, parameters and constructed N+1
+  claim review. Progress71/191;120 approved lessons remain.
+- Files touched: new sections/3. Access and abstraction/3.2. SQL CRUD ORMs query
+  builders and drivers.md; D08/track README files; this LOG.
+- Links fixed / added: registration, eleven lookup entries and four exact owners.
+- Research / Decisions: section-specific full-repo heading search found D07 method/
+  CRUD distinction; linked it rather than repeating HTTP semantics. Reused JS
+  neighboring-role/observable-result calibration and D08 query/schema owners.
+  Actual originating reference/explanatory passages read:
+  https://www.postgresql.org/docs/18/sql.html (language scope/definition/manipulation)
+  https://typeorm.io/docs/getting-started/ (retrieved1.0 banner,entity/column and
+  query-builder sections; rejected all-models-are-tables/automatic-source-creates-
+  live-schema,more-than-any-ORM,exclusive-pattern-support and universal quality claims)
+  https://www.kysely.dev/docs/intro (builder/type role, not every-environment/any-
+  possible-query guarantee or runtime/schema validation from type inference)
+  https://node-postgres.com/ and https://node-postgres.com/features/queries
+  (driver/interface and separate query values; rejected broad all-version support,
+  stale Node version list,unsafe incomplete connection snippet,always-safe-identifier
+  escaping and per-connection-always-one-plan claims; no driver installed).
+  Prisma intro redirected to explicitv6; identified historical concept source only,
+  selected actual current TypeORM role evidence, no v6 setup/current-baseline claim.
+  https://docs.oracle.com/en/database/oracle/oracle-database/26/sqlrf/Types-of-SQL-Statements.html
+  (actual DDL/DML retrieval classification; product DDL/implicit-commit behavior
+  not universalized)
+  https://sqlite.org/lang_corefunc.html (actual changes definition, trigger limits)
+  https://typeorm.io/docs/performance-optimization/introduction/ (actual N+1 problem
+  and query-count goals; no universal join/cache/index speed prescription).
+  Guessed old TypeORM advanced-topics URL returned no content; followed actual
+  current documentation navigation for accessible evidence. No framework backend
+  example, Express default or complete ORM tutorial introduced.
+- Verification: exact SQL fence extracted to crud_reading.sql beside SQLite3.54.1;
+  declared ./sqlite3 :memory: < crud_reading.sql ran Linux x86_64,exit0,empty stderr,
+  whole output matched r17|2,r17|3,0 affected,0 remaining. N+1 arithmetic21 checked
+  separately; this is constructed request count, not actual ORM trace. Final
+  structural/link verifier passed (71 leaves,1041 resolving links across82 files,
+  required sections/registrations,preserved proposal); whitespace check passed.
+  Editorial check matched promises, zero meanings, parameter/identifier boundary,
+  typed-schema uncertainty and SQL/HTTP distinction. No ORM/builder/driver runtime,
+  PostgreSQL connection, authorization check or access-layer benchmark claimed.
+- Next steps: D08.S04.L01, then all later approved units through D18.
