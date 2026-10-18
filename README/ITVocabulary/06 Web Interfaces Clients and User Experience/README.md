@@ -2,7 +2,7 @@
 
 Identify the client artifacts and user-facing qualities behind web descriptions. Read Software Execution and Developer Tools and Networks and the Internet first. No frontend framework or prior UI course is required; examples introduce their own platform assumptions and distinguish inspected artifacts from executed behavior.
 
-This domain is in progress: 6 of 9 approved lessons are available.
+This domain is in progress: 7 of 9 approved lessons are available.
 
 ## 1. Client and server responsibilities
 
@@ -47,5 +47,11 @@ This domain is in progress: 6 of 9 approved lessons are available.
 1. **Distinguish the interface from the experience and task success:** interpret UI, UX and usability through users, goals, feedback and task evidence.
 2. **Recognize accessibility barriers and the scope of standards:** identify keyboard, naming and assistive-technology concerns while reading WCAG and evaluation claims with explicit limits.
 3. **Separate responsive layout from usable interaction:** classify a constructed viewport, keyboard and confirmation report without treating a screenshot or scan as complete workflow evidence.
+
+### [4.2. Internationalization localization locale and time zones](<sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>)
+
+1. **Distinguish preparation from audience-specific adaptation:** interpret i18n, l10n, translation and direction without equating extracted strings with a finished localized experience.
+2. **Read locale language and formatting choices separately:** identify missing conventions in dates, quantities, currency and meeting displays without guessing the user’s location.
+3. **Separate instants offsets zones and calendar dates:** run a fixed-offset observation and distinguish timeline equality, changing zone rules and date-only or recurring requirements.
 
 [← Back to IT Vocabulary](<../README.md>)

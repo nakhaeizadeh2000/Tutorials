@@ -2357,3 +2357,40 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   session, accessibility scan/assistive-technology run, responsive layout test or
   benchmark claimed. Native-control/storage lessons remain canonical owners.
 - Next steps: D06.S04.L02; continue every subsequent approved unit through D18.
+
+### D06.S04.L02 — Internationalization localization locale and time zones — verified
+
+- Done: D06.S04.L02; preparation/adaptation/translation distinctions, language/
+  locale/format questions, actual fixed-offset same-instant observation and
+  date-only/recurring versus event semantics. Progress52/191;139 approved leaves remain.
+- Files touched: new sections/4. Experience and inclusion/4.2. Internationalization
+  localization locale and time zones.md; D06/track README files; this LOG.
+- Links fixed / added: registration, fourteen lookup entries and four precise owners.
+- Research / Decisions: reused focused section-wide locale/i18n heading search;
+  read full JS Number formatting and Date timezones leaves (last Date portion
+  separately after combined-output truncation) for value/display contrasts and
+  ownership. Rejected their uncertain rounding outputs, obsolete Node Intl subset,
+  monetary blanket rules, fixed speed multipliers, universal UTC storage, wrong
+  calendar/day arithmetic claims and invalid node --TZ suggestion. Read relevant
+  originating teaching/reference passages:
+  https://www.w3.org/International/questions/qa-i18n (definitions and scoped concerns)
+  https://www.w3.org/International/questions/qa-lang-2or3 (BCP47/registry guidance)
+  https://www.iana.org/time-zones (rule-history/update purpose; current2026e listed)
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
+  (locale and timeZone separate; no browser support table inferred)
+  https://docs.python.org/3.14/library/datetime.html (aware/fixed-offset/conversion)
+  https://docs.python.org/3.14/library/zoneinfo.html (named-zone/data roles only).
+  CLDR locale-concepts URL inaccessible; no content claimed. Existing node reports
+ 20.20.2 and system zone data2026c; used neither as a current named-zone baseline.
+  The executed example deliberately uses a fixed numeric offset without external
+  zone data, explicitly not a country's current/future rule or localization engine.
+  No arbitrary latest-database policy or second full language course introduced.
+- Verification: exact time_views.py fence executed CPython3.14.4/Linux x86_64,
+  exit0, full stdout matches UTC12:00+00:00,offset15:30+03:30,same-instant True.
+  Structural/link verifier passed (52 leaves,695 links across61 files, required
+  headings/registrations, preserved proposal); whitespace check passed. Editorial
+  check matched three promises, acronym interior counts, locale versus location,
+  formatting versus currency conversion and date/schedule semantics. Static display
+  cards are distinguished from actual fixed-offset execution; no named-zone DST,
+  locale formatter, translated UI or performance run claimed.
+- Next steps: D06.S05.L01, then all subsequent approved units through D18.
