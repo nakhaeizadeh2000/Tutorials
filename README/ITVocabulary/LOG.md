@@ -2722,3 +2722,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static artifact/arithmetic checks only; no EventSource/WebSocket/Socket.IO or
   webhook delivery, polling load, replay integration or latency benchmark claimed.
 - Next steps: D07.S05.L01; every later approved unit through D18 remains in scope.
+
+### D07.S05.L01 — Safe idempotent paginated and rate-limited operations — verified
+
+- Done: D07.S05.L01; safe/idempotent effects versus results, scoped retry identity,
+  continuation/offset mutation reasoning and rate-limit scope/time metadata with
+  solved examples. Progress62/191;129 approved leaves remain.
+- Files touched: new sections/5. Contract behavior and integration risks/5.1. Safe
+  idempotent paginated and rate-limited operations.md; D07/track READMEs; this LOG.
+- Links fixed / added: registration, fifteen lookup terms and four precise owners.
+- Research / Decisions: repo idempotency/pagination/rate-limit heading search found
+  JS scheduling/async iteration applications, not general API contract owners.
+  Reused full JS contrasting-example and failure-tracing calibration; existing
+  language scheduling depth remains its owner. Read relevant originating passages:
+  https://www.rfc-editor.org/rfc/rfc9110.html (9.2.1/9.2.2 and10.2.3)
+  https://datatracker.ietf.org/doc/html/rfc10008 (June2026 safe/idempotent QUERY)
+  https://google.aip.dev/158 (opaque tokens,end marker,short/empty page,scope and
+  compatibility reasoning; changelogJuly8 2025, not its stale2019 metadata alone)
+  https://www.rfc-editor.org/rfc/rfc6585.html (429,optional wait,undefined counting)
+  https://docs.github.com/en/rest/using-the-rest-api/rate-limits-for-the-rest-api
+  (separate limits,headers,403/429; no numbers or summed-response-time-as-CPU estimate
+  universalized, no availability guarantee or procurement advice)
+  https://stripe.com/blog/idempotency (Brandur Leach,Feb22 2017,original lost-response
+  and operation-identity explanation; rejected retry-any-error/unbounded repetition,
+  all-side-effects-once and universal exactly-once claims)
+  https://developer.paypal.com/api/rest/reference/idempotency/ (Aug11 2026,
+  support/retention/concurrent-attempt caveats and latest-status result example).
+  Stripe API ref/.md returned only setup/sample content, query expansion inaccessible;
+  no retention or full API behavior claimed from that incomplete reading. PayPal
+  supplies accessible current scoped evidence. Rejected AIP's undocumented-expiry,
+  three-day universal rule and universal naming/default requirements. New constructed
+  reservation contract explicitly carries its own hour/scope, not a provider claim.
+- Verification: structural/link verifier passed (62 leaves,895 links across72 files,
+  required sections/registrations,preserved proposal); whitespace check passed.
+  Executed offline list-slice assertions for both insertion duplicate and deletion
+  omission, plus80>60 account arithmetic. Editorial check matched all three promises,
+  method properties, unchanged intention/key scope, unknown concurrency/recovery,
+  token/end semantics and seconds versus epoch. Static artifact reasoning only;
+  no real API/payment/DNS operation, retry policy, database snapshot or load test.
+- Next steps: D07.S05.L02; all later approved units through D18 remain authorized.
