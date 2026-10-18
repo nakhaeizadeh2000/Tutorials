@@ -2086,3 +2086,30 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   check matched promises, separate populations, RTT asymmetry assumptions and
   rejection of throughput-deficit-as-loss. No network load or benchmark claimed.
 - Next steps: D05.S07.L01;148 approved leaves remain through D18.
+
+### D05.S07.L01 — Describe a name connection or timeout failure — verified
+
+- Done: D05.S07.L01; scoped new-TCP/TLS path, four solved independent failure
+  cards, evidence-first handoff and targeted next-observation reasoning. Progress44/191.
+- Files touched: new sections/7. Applied diagnosis/7.1. Describe a name connection
+  or timeout failure.md; D05/track README files; this LOG.
+- Links fixed / added: registration, three lookup entries and six precise owners.
+- Research / Decisions: repo NXDOMAIN/refusal/timeout-diagnosis heading search
+  found no competing owner. Reused JS Promise tracing benchmark and prior complete
+  Julia Evans debugging article's discriminating-question/assumption guidance.
+  Reopened ESnet troubleshooting overview failed retrieval in this recovery;
+  no new reading claimed, earlier recorded source contribution remains historical.
+  Accessible primary alternatives read:
+  https://www.rfc-editor.org/rfc/rfc2308.html (2.1/2.2 name-error versus no-data,
+  alias qualification; not historical resolver-workaround instructions)
+  https://man7.org/linux/man-pages/man2/connect.2.html (ECONNREFUSED/connection scope).
+  Reused verified D05 TLS9525, DNS9499 and transport9293 owners/source map. First
+  card explicitly excludes aliases, and selected-resolver/view context stays visible.
+- Verification: structural/link verifier passed (44 leaves,566 links across52 files,
+  required sections/registration, preserved proposal). Editorially traced all
+  four answers to their last established step; deadline begins at response wait
+  only in D, C explicitly stops before application request, and missing completion
+  preserves unknown business outcome. All three promises and reused-connection/
+  proxy limitations checked. Static cards only; no real DNS/connect/TLS/request,
+  ping, deployment repair or timeout-performance experiment claimed.
+- Next steps: D05.S08.L01;147 approved leaves remain through D18.

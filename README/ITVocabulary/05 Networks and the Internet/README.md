@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 10 of 12 approved lessons are available.
+This domain is in progress: 11 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -76,5 +76,13 @@ This domain is in progress: 10 of 12 approved lessons are available.
 1. **Separate elapsed delay from capacity and observed rate:** interpret one-way delay, round-trip time, bandwidth and throughput with explicit units and boundaries.
 2. **Specify how variation and loss were counted:** distinguish delay-variation metrics and missing-by-threshold observations from universal network diagnoses.
 3. **Calculate a scoped report from synthetic observations:** run complete rate/loss/variation arithmetic and state the live measurements it does not establish.
+
+## 7. Applied diagnosis
+
+### [7.1. Describe a name connection or timeout failure](<sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>)
+
+1. **Record the attempted path and the last established outcome:** separate name resolution, connection, service verification and application response evidence.
+2. **Compare four failure cards without inventing a root cause:** interpret NXDOMAIN, refusal, identity mismatch and a scoped timeout with targeted next questions.
+3. **Write a useful handoff and justify the next observation:** preserve uncertainty, request correlation and intended policy while avoiding blind retries or broad changes.
 
 [← Back to IT Vocabulary](<../README.md>)
