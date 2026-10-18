@@ -2452,3 +2452,39 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   implementation or performance run claimed. Track remains in progress.
 - Next steps: D07.S01.L01; continue remaining137 approved leaves across D07–D18.
   Curriculum revision1 approval remains intact with no new gate.
+
+### D07.S01.L01 — APIs endpoints routes operations and contracts — verified
+
+- Done: D07.S01.L01; general versus remote API scope, consumer/provider and
+  address/operation/server-route distinctions, fictional pending contract reading
+  and description-versus-implementation evidence. Created D07; progress55/191.
+- Files touched: new D07 README and sections/1. Interfaces and contracts/1.1. APIs
+  endpoints routes operations and contracts.md; track README; this LOG.
+- Links fixed / added: D07 leaf/track registration, fifteen scoped lookup entries
+  and five existing owners. Generic API lookup remains with D03's original owner.
+- Research / Decisions: broad API/contract heading search was noisy/truncated;
+  narrowed endpoint/route/API-contract discovery found D05 transport endpoints and
+  TS template composition, not a competing remote-contract owner. Reused full JS
+  data-exchange calibration and reread its relevant contract portion, rejecting
+  mandatory JSON, unsafe parse/charset, whole-split bounded-memory, prototype-key
+  filtering and arbitrary thresholds. Read full TS Static checking vs runtime
+  reality for precise existing runtime-validation ownership and evidence limits.
+  Read originating standard/tutorial passages:
+  https://spec.openapis.org/oas/v3.2.1.html (Sept10 2026/current latest metadata,
+  introduction, version/description distinction, Path Item and Operation objects)
+  https://learn.openapis.org/specification/paths.html (path/method/response teaching;
+  rejected endpoint/route/operation blanket synonym and any-parser duplicate-key
+  detection claim; sample3.1 is not the initial baseline)
+  https://swagger.io/docs/specification/v3_0/paths-and-operations/
+  (explicit3.0 guide for terminology comparison only, not current feature limits)
+  https://docs.nestjs.com/controllers (controller/routing introduction only).
+  Newly discovered stable OAS3.2.1 integrated immediately; no client/tool support
+  universal asserted. Static vocabulary requires no framework runtime; no Express
+  vehicle or adapter-specific lesson introduced. Full HTTP details remain later units.
+- Verification: structural/link verifier passed (55 leaves,739 links across65 files,
+  required numbered sections/registration, preserved proposal); whitespace check
+  passed. Editorial check matched three promises, both method/path pairs and their
+  explicit business meanings, missing repeat/deadline guarantees, pending-definition
+  removal and description versus service behavior. Static contract card only;
+  no server, generated client, OpenAPI validator, HTTP request or benchmark run.
+- Next steps: D07.S01.L02; remaining136 approved leaves through D18 stay authorized.
