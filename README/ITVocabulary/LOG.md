@@ -3235,3 +3235,49 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   conditional PITR chain. No PostgreSQL/cloud/replication/PITR restore,crash,network
   partition,recovery duration or scalability benchmark claimed.
 - Next steps: D08.S06.L01, then all subsequent approved units through D18.
+
+### D08.S06.L01 — OLTP OLAP warehouses lakes ETL ELT and CDC — verified
+
+- Done: D08.S06.L01; workload/repository roles,ETL/ELT ordering,CDC boundary and
+  original source/capture/report timeline with metric and duplicate-event practice.
+  Progress75/191;116 approved leaves remain.
+- Files touched: new sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses
+  lakes ETL ELT and CDC.md; D08/track README files; this LOG.
+- Links fixed / added: registration,nineteen actually explained lookup entries,
+  four precise existing owners. General pipeline retains D03 ownership; data-specific
+  application here. Later distributed stream guarantees not taught prematurely.
+- Research / Decisions: repo analytics/ETL/CDC/pipeline heading search found JS/TS
+  toolchains,not data pipeline owner. Reused full JS outcome tracing and D03 pipeline
+  owner plus D08 fact/operation/source distinctions. Actual primary explanations:
+  https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-transaction-processing
+  (Feb7 2026,operational work and HTAP passage; rejected fixed read/write/size/schema
+  table,universal locking consistency and all-errors-automatic-rollback assertions)
+  https://learn.microsoft.com/en-us/azure/architecture/data-guide/relational-data/online-analytical-processing
+  (analysis,semantic meaning and workload comparison; rejected OLTP-cannot-analyze,
+  OLAP-never-disrupts and universal performance separation)
+  https://learn.microsoft.com/en-us/azure/architecture/data-guide/scenarios/data-lake
+  (raw/curated layers,schema-on-read/write and warehouse links; rejected all-data-
+  always-raw,infinitely-scalable,guaranteed-compliance and universal faster/latency claims)
+  Historical warehousing URL redirected to general database architecture index,
+  which supplied navigation only,not the absent original explanation. Actual
+  https://learn.microsoft.com/en-us/fabric/data-warehouse/data-warehousing
+  (Sept2 2026,warehouse-on-lake foundation and curated mart roles; not no-knobs,
+  best-in-class,no-security-compromise or all-platform performance guarantees)
+  https://aws.amazon.com/compare/the-difference-between-etl-and-elt/ (extract/
+  transform/load ordering; rejected modern-ELT-always-best/faster/cheaper/secure,
+  ETL-only-tables,unlimited-raw and requires-one-secondary-server universalization)
+  https://debezium.io/documentation/reference/stable/ (actual3.7lateststable metadata
+  and CDC overview,not every-row/all-global-order guarantee)
+  https://debezium.io/documentation/reference/stable/connectors/postgresql.html
+  (initial snapshot/streaming and focused recovery duplicate/history-loss passages;
+  rejected never-loses-event/exactly-once universal and unqualified snapshot/
+  generated-column assumptions). Published links pin3.7 from actual version nav;
+  no connector install/configuration or Kafka prerequisite is imposed on vocabulary.
+- Verification: offline Python arithmetic assertions checked original3-row metric
+  total5 approved seats and total3 after r17 cancellation. Structural/link verifier
+  passed (75 leaves,1128 links across86 files,required sections/registrations,
+  preserved proposal); whitespace check passed. Editorial check matched promises,
+  count versus sum/selection,ETL/ELT destination scope,four-stage timeline and
+  reduced-evidence variation. Static cards/arithmetic only; no warehouse/lake,
+  CDC delivery/consumer/replay,ETL/ELT pipeline or throughput/freshness run claimed.
+- Next steps: D08.S07.L01,then D08.S08.L01 and all approved D09–D18 units.

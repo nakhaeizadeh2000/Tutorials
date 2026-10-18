@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 9 of 12 approved lessons are available.
+This domain is in progress: 10 of 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 12 approved lessons are available.
 1. **Distinguish recovery copies from point-in-time capture mechanisms:** interpret backup/snapshot, full/incremental and logical/physical material with application and log-history requirements.
 2. **Separate replication from dividing a dataset into shards:** identify replica/primary/standby roles, lag, acknowledgment conditions and partitioned data without assuming historical recovery.
 3. **Verify what a restored copy actually contains:** run an isolated SQLite backup/restore and explain which later write is absent using a constructed deletion timeline.
+
+## 6. Moving and analyzing data
+
+### [6.1. OLTP OLAP warehouses lakes ETL ELT and CDC](<sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>)
+
+1. **Distinguish operational work from analysis and repository roles:** interpret OLTP/OLAP/HTAP, warehouse/mart/lake/lakehouse and structure timing without fixed product boxes.
+2. **Follow extraction loading transformation and captured changes:** compare ETL/ELT order and CDC scope through an explicitly defined booking-seat metric.
+3. **Diagnose a fresh-source and old-report disagreement:** trace commit/capture/application/display evidence and distinguish progress, filtering and event-count mistakes.
 
 [← Back to IT Vocabulary](<../README.md>)
