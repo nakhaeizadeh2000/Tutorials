@@ -1068,3 +1068,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   version numbers and absence of an unsupported hardware diagnosis. Static device
   report exercise; no hardware test, firmware flash or runtime benchmark claimed.
 - Next steps: D02.S01.L02; continue every subsequent approved unit through D18.
+
+### D02.S01.L02 — CPU cores GPU RAM and persistent storage — verified
+
+- Done: D02.S01.L02; processor/core/logical/GPU distinctions, document lifecycle
+  through RAM/storage, capacity/frequency limits and a complete metadata observation.
+- Files touched: new sections/1. Physical and logical components/1.2. CPU cores
+  GPU RAM and persistent storage.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, nine lookup terms, prior hardware
+  leaf and existing D01 observation owner. Progress is 9/191.
+- Research / Decisions: reused section word-boundary DRY search and distinction
+  benchmarks. Consulted Intel clock-speed article (cycle/instruction caveat),
+  OpenStax 5.1 systems-organization excerpts, Kingston memory/storage (Oct 2020),
+  NVIDIA CPU/GPU comparison (original 2009, later updated) and Python 3.14 os CPU
+  count reference (retrieved 3.14.8 docs):
+  https://www.intel.com/content/www/us/en/gaming/resources/cpu-clock-speed.html
+  https://openstax.org/books/introduction-computer-science/pages/5-1-computer-systems-organization
+  https://www.kingston.com/en/blog/pc-performance/difference-between-memory-storage
+  https://blogs.nvidia.com/blog/whats-the-difference-between-a-cpu-and-a-gpu/
+  https://docs.python.org/3.14/library/os.html#os.cpu_count
+  Manufacturer generalizations are limited by workload and failure conditions.
+  Rejected any universal GPU speedup, CPU/GPU core equivalence or indestructible
+  storage claim. OpenStax's imprecise megabyte wording was not reused; units get
+  primary definition checks in S03. Crucial article retrieval was rejected; no
+  content was claimed from it and Kingston supplied the accessible alternative.
+- Verification: extracted the exact Python fence to temporary hardware_report.py
+  and ran its declared command using Python 3.14.4, Linux x86_64, exit 0. Observed
+  system logical CPUs 6 and process-usable logical CPUs 6; checked output format
+  and positive-or-None counts. This is read-only runtime metadata execution, not
+  a physical-core inventory or performance benchmark. Structural/link verification
+  passed: 9 leaves and 112 resolving local links; closed proposal unchanged.
+  Editorial check matched all three promises and explained equality of the counts.
+- Next steps: D02.S02.L01, then all remaining approved units across D02–D18.
