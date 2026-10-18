@@ -1840,3 +1840,37 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   from mutable fields. Static trace only; no packet capture, route discovery or
   network benchmark claimed. Unit/index changes inspected before commit.
 - Next steps: D05.S02.L02;156 approved lessons remain through D18.
+
+### D05.S02.L02 — IP addresses subnets routing gateways and NAT — verified
+
+- Done: D05.S02.L02; address/prefix/version/scope/assignment distinctions, complete
+  offline membership example, constructed route lookup and NAT/NAPT boundaries.
+  Progress36/191.
+- Files touched: new sections/2. Moving and addressing data/2.2. IP addresses
+  subnets routing gateways and NAT.md; D05/track README files; this LOG.
+- Links fixed / added: registration, seventeen lookup entries and three prior owners.
+- Research / Decisions: repo subnet/NAT/loopback/DHCP/routing heading search found
+  no other owner. Reused JS neighboring-role and contrasting-observation calibration.
+  Read focused primary contracts and address-role passages:
+  https://docs.python.org/3.14/library/ipaddress.html (retrieved3.14.8)
+  https://www.rfc-editor.org/rfc/rfc1918.html (private IPv4 blocks,1996)
+  https://www.rfc-editor.org/rfc/rfc4291.html (IPv6 forms/loopback,2006)
+  https://www.rfc-editor.org/rfc/rfc4193.html (ULA local assignment,2005)
+  https://www.rfc-editor.org/rfc/rfc2131.html (DHCP framework abstract,1997)
+  https://www.rfc-editor.org/rfc/rfc1812.html (longest match,1995)
+  https://www.rfc-editor.org/rfc/rfc3022.html (traditional NAT/NAPT,2001)
+  https://www.rfc-editor.org/rfc/rfc6890.html (special-purpose loopback table,2013)
+  https://www.iana.org/assignments/iana-ipv4-special-registry/ (actual current registry).
+  Scoped old conceptual standards; no classful planning, obsolete NAT topology
+  restriction or NAT security guarantee imported. Avoided treating Python
+  is_private as exactly RFC1918 membership. Earlier original networking teaching
+  supplies path/question progression; live address configuration is outside scope.
+- Verification: exact address_prefixes.py fence executed CPython3.14.4/Linux x86_64,
+  exit0; full seven-line output matched, including caught invalid octet. Separate
+  executed assertions verified /16 practice and both fictional longest-match
+  answers. No packets sent, interfaces configured or live routing/NAT tested.
+  Structural/link check passed (36 leaves,449 links across44 files, required
+  headings/registrations, unchanged proposal). Editorial check matched promises,
+  distinction between assignment and naming, public/private special ranges and
+  constrained lookup assumptions. No performance experiment claimed.
+- Next steps: D05.S03.L01;155 approved leaves remain through D18.
