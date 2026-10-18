@@ -3190,3 +3190,48 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   versus storage consistency. Static cards only; no volume attach,object upload,
   Redis eviction/restart/persistence,refill,durability or performance test claimed.
 - Next steps: D08.S05.L02, then all subsequent approved units through D18.
+
+### D08.S05.L02 — Backups snapshots replication sharding and restores — verified
+
+- Done: D08.S05.L02; retained history/capture/restore distinctions, replication versus
+  sharding, actual backup/restore with a later missing write and solved deletion
+  timeline. Progress74/191;117 approved leaves remain.
+- Files touched: new sections/5. Storage and copies/5.2. Backups snapshots replication
+  sharding and restores.md; D08/track README files; this LOG.
+- Links fixed / added: registration,nineteen actual lookup entries and three exact
+  existing owners. Later distributed guarantees/RTO/RPO remain their approved owners.
+- Research / Decisions: reused section-wide storage/backup/snapshot/replication
+  heading discovery; JS heap/type-test snapshots have different owners. Reused JS
+  outcome-tracing/observed-contrast benchmark and actual prior storage/transaction
+  explanations. Read originating primary and first-hand incident passages:
+  https://www.postgresql.org/docs/18/backup.html (method inventory only)
+  https://www.postgresql.org/docs/18/backup-file.html (actual stopped/simple-copy
+  restrictions,selected-file dependencies and consistent-snapshot alternative;
+  no unqualified running-tar copy or only-shutdown-backups claim)
+  https://www.postgresql.org/docs/18/continuous-archiving.html (base+continuousWAL,
+  target point and logical-dump incompatibility,not a complete backup procedure)
+  https://www.postgresql.org/docs/18/warm-standby.html (asynchronous/default and
+  synchronous receipt/write/apply boundaries; rejected universal subsecond lag,
+  no-resource-wait and arbitrary business-importance recommendations)
+  https://www.mongodb.com/docs/manual/sharding/ (current9.0 manual,subset/replica-set
+  requirement,targeted/broadcast operations; no automatic all-data availability,
+  key-choice speed or linear-scaling guarantee)
+  https://docs.aws.amazon.com/ebs/latest/userguide/ebs-snapshots.html (point-in-time/
+  incremental scoped mechanism,not physical independence/all-app consistency)
+  https://sqlite.org/cli.html (actual .backup/.restore definitions,not stale3.52
+  command-table header as tested version)
+  https://about.gitlab.com/blog/postmortem-of-database-outage-of-january-31/
+  (original Feb2017,setup/recovery-failures/snapshot/selected recovery passages;
+  actual earlier state/tool mismatch/backup absence and restored scope. Historical
+  account,not current GitLab topology,Azure limits,speed,deletion recipe or universal
+  version mismatch rule. Aggregators/search snippets not used as incident evidence).
+- Verification: exact SQL fence and declared command ran SQLite3.54.1/Linux x86_64
+  in a fresh temporary directory with copied binary,exit0,empty stderr,full stdout
+  2,0,r17 matched. Independently opened generated recovery-demo.db and checked r17
+  only; later r18 absent. All temporary files cleaned. Structural/link verifier
+  passed (74 leaves,1104 links across85 files,required sections/registrations,
+  preserved proposal); whitespace check passed. Editorial check matched promises,
+  capture before later write,replica deletion versus history,shard completeness and
+  conditional PITR chain. No PostgreSQL/cloud/replication/PITR restore,crash,network
+  partition,recovery duration or scalability benchmark claimed.
+- Next steps: D08.S06.L01, then all subsequent approved units through D18.

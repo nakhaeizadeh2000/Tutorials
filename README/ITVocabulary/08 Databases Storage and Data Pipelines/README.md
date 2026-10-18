@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 8 of 12 approved lessons are available.
+This domain is in progress: 9 of 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -61,5 +61,11 @@ This domain is in progress: 8 of 12 approved lessons are available.
 1. **Identify the interface exposed to the consumer:** distinguish file, block and object access, volume/container/key roles and layered storage paths.
 2. **Separate a cache role from memory location and persistence:** identify authoritative data, eviction, expiration and retention configuration without inferring behavior from a product name.
 3. **Read retention and recovery claims against a concrete failure:** analyze a restart and old-export packet, distinguishing loss, access, freshness and rebuild evidence.
+
+### [5.2. Backups snapshots replication sharding and restores](<sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>)
+
+1. **Distinguish recovery copies from point-in-time capture mechanisms:** interpret backup/snapshot, full/incremental and logical/physical material with application and log-history requirements.
+2. **Separate replication from dividing a dataset into shards:** identify replica/primary/standby roles, lag, acknowledgment conditions and partitioned data without assuming historical recovery.
+3. **Verify what a restored copy actually contains:** run an isolated SQLite backup/restore and explain which later write is absent using a constructed deletion timeline.
 
 [← Back to IT Vocabulary](<../README.md>)
