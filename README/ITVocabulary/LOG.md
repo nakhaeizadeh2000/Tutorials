@@ -3149,3 +3149,44 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   external-effect scope. No concurrent reader/writer,deadlock/abort,recovery after
   crash,persistent durability,PostgreSQL execution or contention benchmark claimed.
 - Next steps: D08.S05.L01, then all later approved units through D18.
+
+### D08.S05.L01 — Files block storage object storage caches and durability — verified
+
+- Done: D08.S05.L01; interface/layer distinctions, cache versus authority/lifetime,
+  persistence/eviction and solved restart/old-export loss/freshness packet.
+  Progress73/191;118 approved leaves remain.
+- Files touched: new sections/5. Storage and copies/5.1. Files block storage object
+  storage caches and durability.md; D08/track README files; this LOG.
+- Links fixed / added: registration,thirteen contextual lookup entries and four
+  precise existing file/transaction/export/HTTP owners. Durability remains owned
+  by transaction lesson; storage-specific application here adds failure questions.
+- Research / Decisions: full-repo storage/cache/durability heading search found
+  actual HTTP/DNS caches and JS module/inline/Map memory cases, not this storage
+  interface role. Reused complete JS neighboring-role and contrast calibration and
+  actual D08 transaction/data owners. Read originating product/educational passages:
+  https://aws.amazon.com/compare/the-difference-between-block-file-object-storage/
+  (comparison intro/selected access/metadata passages; rejected cloud-only/all-object-
+  unstructured,all-three-replicate/checksum/encrypt,universal speed/security and
+  no-management/scalability guarantees)
+  https://docs.aws.amazon.com/ebs/latest/userguide/ebs-volumes.html (block device/
+  attach/lifecycle roles; no purchase advice or universal attachment performance)
+  https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html (object/bucket/
+  key/version identity,actual general purpose versus directory/table/vector bucket
+  distinction and scoped strong read-after-write; rejected stale no-concurrent-
+  object-control/last-timestamp and guaranteed safe-everyfailure blanket wording)
+  https://docs.aws.amazon.com/AmazonS3/latest/userguide/object-keys.html (key and
+  prefix/folder model scoped to general purpose; rejected universal all-S3-flat,
+  two-byte-character assumption and incorrect nonprintable-ASCII128–255 label)
+  https://redis.io/docs/latest/develop/reference/eviction/ (memory policies,
+  noeviction/error distinction; no LRU-always-default or universal memory-bound claim)
+  https://redis.io/docs/latest/operate/oss_and_stack/management/persistence/
+  (RDB/AOF/disabled options,not perfect-backup/no-loss or no-tradeoff marketing).
+  Prior source research and original course access/fact-ownership teaching retained;
+  search community snippets are discovery only. No real cloud/cache configuration.
+- Verification: structural/link verifier passed (73 leaves,1081 resolving links
+  across84 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises,layered file/
+  block path,general-purpose object key,authority-removal variation and old export
+  versus storage consistency. Static cards only; no volume attach,object upload,
+  Redis eviction/restart/persistence,refill,durability or performance test claimed.
+- Next steps: D08.S05.L02, then all subsequent approved units through D18.
