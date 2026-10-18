@@ -800,3 +800,64 @@ unfamiliar scenario. Depends on D01–D17. This is synthesis, not repeated defin
 - The number of sections and leaves varies by topic. Routine splits/wording
   refinements may preserve approved outcomes; material expansion or reordering
   that changes prerequisites requires a logged revised proposal and approval.
+
+
+## [2026-10-18 10:33] Session 2 — Execute approved IT Vocabulary revision 1
+
+- Status: IN PROGRESS
+- Context read: complete 802-line track LOG in sequential overlapping chunks;
+  root README, PROMPT.md, AGENTS.md, .tutorial/WORKFLOW.md, .tutorial/QUALITY.md
+  and tutorial SKILL.md; JavaScript calibration from this conversation, with the
+  complete Engines runtimes and hosts reference reread for neighboring-term
+  explanation. Track/domain indexes and leaves are absent. Verified initial
+  working tree/staging clean and proposal commit d9a21231 present.
+- Plan: Phase: APPROVED_EXECUTION. Implement the entire immutable curriculum
+  revision 1 recorded in Session 1, D01–D18, all 123 sections and 191 teaching
+  leaves with the outcomes, boundaries and assessments above. First commit a
+  coherent track/root navigation unit; then each leaf plus affected domain/track
+  indexes and alphabetical lookup, in the recorded order. Verify, immediately
+  log evidence and commit explicit unit paths before proceeding. Final navigation
+  and coverage verification remain part of this approved scope.
+- Approval: approved; curriculum revision 1. Evidence: the user replied
+  **"approved"** directly to the presented revision 1 proposal in this chat on
+  2026-10-18. Approval covers all 18 domains and 191 lessons; no per-unit approval
+  is pending. Closed Session 1 and its unchecked proposal snapshot remain immutable.
+- Done: approval recovered and Git/disk reconciled; no implementation units yet.
+- Decisions: preserve the researched scope and vocabulary/implementation boundary;
+  direct execution, no delegation. Reuse evaluated sources only where applicable
+  and refine sources/DRY discovery for each section. All required leaf sections
+  and actual-example verification apply throughout.
+- Files touched: README/ITVocabulary/LOG.md (new execution entry only).
+- Links fixed / added: none yet.
+- Verification: git status --short and git diff --cached --name-only empty;
+  full proposal inventory parsed as 191 unique leaf IDs. Existing track contains
+  LOG.md only. No lesson execution or checks are claimed.
+- Next steps: initial navigation unit, then D01.S01.L01; continue every remaining
+  approved unit across D01–D18. Finish final coverage/navigation checks before
+  closing DONE. Exact pending scope is the unit ledger below, minus subsequently
+  verified completion entries in this open session.
+
+### Approved unit ledger at execution opening
+
+The full ordered titles, outcomes and dependencies remain in Session 1's complete
+curriculum above. This ledger carries every stable ID, not a reduced first-domain
+plan. Each later completion entry identifies one of these IDs and its evidence.
+
+- D01 (7 leaves): D01.S01.L01, D01.S01.L02, D01.S02.L01, D01.S02.L02, D01.S03.L01, D01.S04.L01, D01.S05.L01.
+- D02 (8 leaves): D02.S01.L01, D02.S01.L02, D02.S02.L01, D02.S02.L02, D02.S03.L01, D02.S04.L01, D02.S05.L01, D02.S06.L01.
+- D03 (9 leaves): D03.S01.L01, D03.S01.L02, D03.S02.L01, D03.S02.L02, D03.S03.L01, D03.S03.L02, D03.S04.L01, D03.S05.L01, D03.S06.L01.
+- D04 (9 leaves): D04.S01.L01, D04.S01.L02, D04.S02.L01, D04.S03.L01, D04.S03.L02, D04.S04.L01, D04.S04.L02, D04.S05.L01, D04.S06.L01.
+- D05 (12 leaves): D05.S01.L01, D05.S02.L01, D05.S02.L02, D05.S03.L01, D05.S03.L02, D05.S04.L01, D05.S04.L02, D05.S05.L01, D05.S05.L02, D05.S06.L01, D05.S07.L01, D05.S08.L01.
+- D06 (9 leaves): D06.S01.L01, D06.S02.L01, D06.S02.L02, D06.S03.L01, D06.S03.L02, D06.S04.L01, D06.S04.L02, D06.S05.L01, D06.S06.L01.
+- D07 (11 leaves): D07.S01.L01, D07.S01.L02, D07.S02.L01, D07.S02.L02, D07.S03.L01, D07.S03.L02, D07.S04.L01, D07.S05.L01, D07.S05.L02, D07.S06.L01, D07.S07.L01.
+- D08 (12 leaves): D08.S01.L01, D08.S01.L02, D08.S02.L01, D08.S02.L02, D08.S03.L01, D08.S03.L02, D08.S04.L01, D08.S05.L01, D08.S05.L02, D08.S06.L01, D08.S07.L01, D08.S08.L01.
+- D09 (11 leaves): D09.S01.L01, D09.S01.L02, D09.S02.L01, D09.S02.L02, D09.S03.L01, D09.S03.L02, D09.S04.L01, D09.S04.L02, D09.S05.L01, D09.S06.L01, D09.S07.L01.
+- D10 (11 leaves): D10.S01.L01, D10.S01.L02, D10.S02.L01, D10.S03.L01, D10.S03.L02, D10.S04.L01, D10.S04.L02, D10.S05.L01, D10.S05.L02, D10.S06.L01, D10.S07.L01.
+- D11 (10 leaves): D11.S01.L01, D11.S01.L02, D11.S02.L01, D11.S03.L01, D11.S03.L02, D11.S04.L01, D11.S04.L02, D11.S04.L03, D11.S05.L01, D11.S06.L01.
+- D12 (10 leaves): D12.S01.L01, D12.S01.L02, D12.S02.L01, D12.S02.L02, D12.S03.L01, D12.S03.L02, D12.S04.L01, D12.S05.L01, D12.S05.L02, D12.S06.L01.
+- D13 (15 leaves): D13.S01.L01, D13.S01.L02, D13.S02.L01, D13.S02.L02, D13.S03.L01, D13.S03.L02, D13.S04.L01, D13.S04.L02, D13.S05.L01, D13.S06.L01, D13.S06.L02, D13.S07.L01, D13.S07.L02, D13.S08.L01, D13.S09.L01.
+- D14 (14 leaves): D14.S01.L01, D14.S01.L02, D14.S02.L01, D14.S02.L02, D14.S03.L01, D14.S03.L02, D14.S04.L01, D14.S04.L02, D14.S05.L01, D14.S05.L02, D14.S06.L01, D14.S06.L02, D14.S07.L01, D14.S08.L01.
+- D15 (13 leaves): D15.S01.L01, D15.S01.L02, D15.S02.L01, D15.S02.L02, D15.S03.L01, D15.S03.L02, D15.S04.L01, D15.S05.L01, D15.S05.L02, D15.S06.L01, D15.S06.L02, D15.S07.L01, D15.S08.L01.
+- D16 (13 leaves): D16.S01.L01, D16.S01.L02, D16.S02.L01, D16.S02.L02, D16.S03.L01, D16.S04.L01, D16.S04.L02, D16.S05.L01, D16.S05.L02, D16.S06.L01, D16.S07.L01, D16.S08.L01, D16.S09.L01.
+- D17 (10 leaves): D17.S01.L01, D17.S01.L02, D17.S02.L01, D17.S02.L02, D17.S03.L01, D17.S03.L02, D17.S04.L01, D17.S04.L02, D17.S05.L01, D17.S06.L01.
+- D18 (7 leaves): D18.S01.L01, D18.S01.L02, D18.S02.L01, D18.S03.L01, D18.S04.L01, D18.S04.L02, D18.S05.L01.
