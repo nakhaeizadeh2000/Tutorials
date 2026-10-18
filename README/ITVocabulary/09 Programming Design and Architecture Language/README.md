@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 6 of 11 approved lessons are available.
+This domain is in progress: 7 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -45,5 +45,13 @@ This domain is in progress: 6 of 11 approved lessons are available.
 1. **Separate behavior-preserving restructuring from a changed requirement:** run a before/after extraction and distinguish preserved values/errors from an altered seat-count rule.
 2. **Describe the future cost behind a debt claim:** identify principal, interest and deliberate or discovered burdens without equating age, bugs or missing features with debt.
 3. **Judge replacement and legacy claims without an age shortcut:** classify rewrites, modernization and gradual replacement and ask for compatibility and migration evidence.
+
+## 4. Architectural boundaries
+
+### [4.1. Layers tiers modules components monoliths and microservices](<sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>)
+
+1. **Separate logical organization from deployment placement:** interpret layers, tiers and source/runtime arrows with an explicit diagram scope.
+2. **Distinguish modules and components from independent services:** compare language/framework organization, monoliths, modular monoliths and microservice deployment boundaries.
+3. **Read a boundary claim against concrete change evidence:** classify four deployment packets and explain independent-change, compatibility and operational trade-offs.
 
 [← Back to IT Vocabulary](<../README.md>)

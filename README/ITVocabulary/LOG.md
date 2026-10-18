@@ -3590,3 +3590,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   refactoring/requirement/replacement/debt packet. No application rewrite,exporter
   comparison,data migration,formal proof or speed/maintenance benchmark claimed.
 - Next steps: D09.S04.L01,then all remaining approved units through D18.
+
+### D09.S04.L01 — Layers tiers modules components monoliths and microservices — verified
+
+- Done: D09.S04.L01; logical/physical/source/runtime boundaries,contextual module/
+  component meanings,monolith/modularity/service deployment and four concrete change
+  packets with scoped distributed-monolith diagnosis. Progress84/191;107 remain.
+- Files touched: new sections/4. Architectural boundaries/4.1. Layers tiers modules
+  components monoliths and microservices.md; D09/track README files; this LOG.
+- Links fixed / added: registration,ten contextual lookup entries,four exact owners;
+  generic module lookup remains with D03. No future service implementation links.
+- Research / Decisions: full-repo layer/tier/module/component/monolith headings
+  found language modules,network layers and compiler tiers. Read actual D03 module
+  owner (missing beginning reread separately),selected JS Module index entries and
+  full Static import forms and restrictions leaf via rg-discovered path after one
+  absent guessed path. Transferred explicit mechanism/boundary comparison,rejected
+  fake ESM proof,readonly simulation,namespace-cannot-destructure/spread,blanket
+  named-import/tree-shaking preference,import-must-be-file-top and exact-cost claims.
+  Actual primary/original sources:
+  https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/n-tier
+  (logical/physical,open/closed and pass-through-cost passages; rejected optional-
+  middle-is-three-tier,guaranteed scaling/resiliency/portability/low cost and universal
+  networking/VM/database prescriptions)
+  https://docs.nestjs.com/modules (actual metadata/import/export/feature passages;
+  rejected unconditional all-scopes-shared-instance and predictable-state guarantees)
+  https://martinfowler.com/articles/microservices.html (Lewis/Fowler March2014 actual
+  definition,monolith/replicas,component/process and compatible-deployment caveat;
+  rejected line/team-size quotas,all-services-one-process and historical advocacy
+  as universal current default)
+  https://martinfowler.com/bliki/MonolithFirst.html (June2015 actual boundaries,
+  operational cost,alternatives/disagreement; rejected anecdotal almost-all-success/
+  failure statistics and cheap decomposition guarantee)
+  https://martinfowler.com/bliki/SoftwareComponent.html (written2015,published2020,
+  actual contextual library/service/replaceability definition; no never-coordinate-
+  any-update rule imposed on all uses). C4 component URL inaccessible; no content
+  claimed,context-specific component meaning is explicit. NestJS+Fastify retained;
+  static discussion requires no deployed framework or external account.
+- Verification: structural/link verifier passed (84 leaves,1271 links across96
+  files,required sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched promises,three logical groups within application
+  tier,backend-only versus browser-included scope,A/B same deployment,C compatible
+  independent change and D scoped coupling. Static cards only; no service split,
+  deployment,framework/module/runtime enforcement or performance test executed.
+- Next steps: D09.S04.L02,then all remaining approved units through D18.
