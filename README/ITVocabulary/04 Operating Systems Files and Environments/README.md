@@ -2,7 +2,7 @@
 
 Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
 
-This domain is in progress: 8 of 9 approved lessons are available.
+This domain is complete: all 9 approved lessons are available.
 
 ## 1. Operating system responsibilities
 
@@ -61,5 +61,13 @@ This domain is in progress: 8 of 9 approved lessons are available.
 1. **Turn a machine comparison into specific evidence questions:** separate artifact, runtime, launch context, access, configuration and resource differences.
 2. **Diagnose the constructed report without changing every variable:** trace a missing-file failure and distinguish an observed repair from general compatibility.
 3. **Interpret resource failure with its actual boundary:** separate a process limit, machine capacity and termination report before proposing a change.
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of operating system vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of operating system vocabulary.md>)
+
+1. **Keep interpretation separate from system administration:** route operational changes and OS mechanisms beyond the vocabulary model.
+2. **Send language and delivery questions to their actual owners:** distinguish OS resources from runtime lifetimes, configuration policy and infrastructure setup.
+3. **Write a handoff that preserves the unresolved question:** classify a mixed process report and request scoped evidence without claiming an unperformed fix.
 
 [← Back to IT Vocabulary](<../README.md>)

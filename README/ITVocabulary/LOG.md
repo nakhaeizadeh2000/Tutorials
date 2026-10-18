@@ -1758,3 +1758,26 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   is removed. Static exercises only; no real deployment/resource exhaustion or
   rerun of the fictional export claimed. Unit/index diff inspected before commit.
 - Next steps: D04.S06.L01;159 approved lessons remain across D04–D18.
+
+### D04.S06.L01 — Boundaries of operating system vocabulary — verified
+
+- Done: D04.S06.L01; administration/internals routing, OS/runtime/configuration
+  ownership and solved mixed restart/environment/memory handoff. All nine D04
+  approved outcomes now have real registered leaves; progress33/191.
+- Files touched: new sections/6. Overlaps to avoid/6.1. Boundaries of operating
+  system vocabulary.md; D04/track README progress/status; this LOG.
+- Links fixed / added: registration and ten precise existing owners; D04 marked
+  complete. No links to unpublished planned administration/infrastructure tracks.
+- Research / Decisions: repo OS/admin/kernel/boundary search reconfirmed general
+  D04 and specific JS memory owners. Reread full JS Fundamentals overlap leaf for
+  explicit owner routing, rejecting its outdated planned-track and version labels.
+  Reused evaluated D04 primary process/path/memory/configuration source map and
+  JS memory/async owners; no new API claim or unsupported operational procedure.
+  Root curriculum distinguishes future Linux & Shell from OS internals study.
+- Verification: structural/link verifier passed (33 leaves,396 resolving links
+  across40 files, required sections and preserved proposal). Editorial check
+  matched three promises, all nine D04 outcomes and real index registrations;
+  worked handoff distinguishes replacement, diagnosis, mitigation and correction
+  without claiming any was executed. Static text exercise; no new runtime,
+  memory-pressure or service-change test claimed. Index/unit diff inspected.
+- Next steps: D05.S01.L01 and all later approved D05–D18 units;158 leaves remain.

@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **32 of 191 approved lessons** are available.
+Implementation is in progress: **33 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -27,7 +27,7 @@ Domain indexes appear here as lessons are completed.
 | 1 | [Reading and Using Technical Language](<01 Reading and Using Technical Language/README.md>) — complete |
 | 2 | [Computers Data Representation and Units](<02 Computers Data Representation and Units/README.md>) — complete |
 | 3 | [Software Execution and Developer Tools](<03 Software Execution and Developer Tools/README.md>) — complete |
-| 4 | [Operating Systems Files and Environments](<04 Operating Systems Files and Environments/README.md>) — in progress |
+| 4 | [Operating Systems Files and Environments](<04 Operating Systems Files and Environments/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
