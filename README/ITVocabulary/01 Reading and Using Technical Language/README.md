@@ -4,7 +4,7 @@ Learn to identify unfamiliar meanings, read technical documents and ask precise
 questions. No technical prerequisites are assumed. The worked situations explain
 the minimum specialist context needed; later domains develop those topics.
 
-This domain is in progress: 4 of 7 approved lessons are available.
+This domain is in progress: 5 of 7 approved lessons are available.
 
 ## 1. Words in context
 
@@ -33,5 +33,13 @@ This domain is in progress: 4 of 7 approved lessons are available.
 1. **Read requirement levels within the document that defines them:** interpret conditional MUST, SHOULD and MAY under BCP 14 without relying on capitalization alone.
 2. **Keep guarantees distinct from defaults and observations:** identify a promise's conditions and distinguish configured behavior from defaults and a successful example.
 3. **Interpret lifecycle and support labels as scoped policies:** distinguish experimental, stable, deprecated, removed and publisher-specific support meanings.
+
+## 3. Speaking and asking precisely
+
+### [3.1. Pronunciation naming and useful clarification questions](<sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>)
+
+1. **Make names recognizable without treating pronunciation as a skill test:** handle acronym sounds and a/an choices while accepting understandable variation.
+2. **Preserve exact names when the task depends on identity:** distinguish a nickname, exact identifier and sensitive private value.
+3. **Ask for the smallest fact that moves the discussion forward:** state a tentative understanding, ask a focused question and summarize remaining uncertainty.
 
 [← Back to IT Vocabulary](<../README.md>)

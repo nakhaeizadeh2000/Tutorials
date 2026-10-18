@@ -968,3 +968,26 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   obligation and confirmed invalid-input behavior/removal dates stay unspecified.
   Static interpretation only; no program execution claimed.
 - Next steps: D01.S03.L01; continue all subsequent approved units.
+
+### D01.S03.L01 — Pronunciation naming and useful clarification questions — verified
+
+- Done: D01.S03.L01; pronunciation variation, sound-based articles, exact-name
+  preservation and focused clarification with a worked answer and mentoring role-play.
+- Files touched: new sections/3. Speaking and asking precisely/3.1. Pronunciation
+  naming and useful clarification questions.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, two lookup terms and three owner leaves.
+- Research / Decisions: repo heading search for pronunciation/clarification found
+  no existing owner. Reused Google abbreviation article (audience/pronunciation;
+  no house pronunciation imposed) and read Julia Evans's original 2016 and 2021
+  question-asking articles: https://jvns.ca/blog/good-questions/ and
+  https://jvns.ca/blog/2021/10/21/how-to-get-useful-answers-to-your-questions/.
+  Selected factual questions/current-understanding tactics, rejecting any
+  implication that beginners must qualify for help. These are first-hand
+  educational experience, not runtime claims. Engines runtimes and hosts remains
+  the comparison for distinguishing identities and meanings with concrete examples.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (5 leaves, required
+  numbered sections, registrations, links and preserved closed proposal).
+  Editorial check matched three promises, checked sound/spelling distinctions
+  and confirmed the task does not expose credentials or invent approved versions.
+  Static written practice only; no audio or software execution claimed.
+- Next steps: D01.S04.L01; all subsequent approved ledger IDs remain authorized.

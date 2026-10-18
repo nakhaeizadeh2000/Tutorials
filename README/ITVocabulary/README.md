@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **4 of 191 approved lessons** are available.
+Implementation is in progress: **5 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -38,6 +38,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Ambiguity | [Choosing among plausible meanings](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Changelog | [A record of changes across releases](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Clarification question | [A focused request for a missing meaning or fact](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Default | [Selection without an applicable override](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Deprecated | [Discouraged use versus actual removal](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Documentation | [Document purposes and a reading route](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
@@ -53,6 +54,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Normative material | [Material defining conformance or requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Obsolete | [A status label requiring publisher context](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Overloaded word | [Several meanings selected by context](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
+| Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Reference | [Lookup of defined operations and options](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
