@@ -2,7 +2,7 @@
 
 Connect hardware descriptions and data representations to the resources they describe. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) before beginning; no hardware purchase, administrator access or programming background is required. Examples distinguish physical components, instructions, data and measurements before discussing their limits.
 
-This domain is in progress: 6 of 8 approved lessons are available.
+This domain is in progress: 7 of 8 approved lessons are available.
 
 ## 1. Physical and logical components
 
@@ -47,5 +47,13 @@ This domain is in progress: 6 of 8 approved lessons are available.
 1. **Distinguish a format from its name and metadata:** identify actual representation rules and embedded or external descriptive fields.
 2. **Separate lossless compression from other transformations:** observe exact recovery and the possibility of a larger compressed representation.
 3. **Use checksums as evidence of a defined byte sequence:** compare the intended bytes without inferring authenticity from a matching digest.
+
+## 5. Applied interpretation
+
+### [5.1. Read a machine specification and transfer estimate](<sections/5. Applied interpretation/5.1. Read a machine specification and transfer estimate.md>)
+
+1. **Classify each specification before comparing machines:** separate counts, frequency, capacity and rate from unsupported workload conclusions.
+2. **Build a transfer estimate with explicit assumptions:** compare overlapping and sequential stages using compatible representation sizes and rates.
+3. **Turn an unsupported diagnosis into a useful next question:** identify the modeled bottleneck while distinguishing it from an observed failure cause.
 
 [← Back to IT Vocabulary](<../README.md>)

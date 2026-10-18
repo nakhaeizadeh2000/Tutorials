@@ -1216,3 +1216,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   numbered required sections, registrations and unchanged closed proposal).
   Editorial check matched the three promises and scoped identity/byte comparisons.
 - Next steps: D02.S05.L01; all subsequent approved ledger IDs remain authorized.
+
+### D02.S05.L01 — Read a machine specification and transfer estimate — verified
+
+- Done: D02.S05.L01; constructed specification/evidence cards, overlapping versus
+  sequential estimates, bottleneck reasoning and explained interview diagnosis.
+  Track progress 14/191; no machine purchase or network tuning lesson added.
+- Files touched: new sections/5. Applied interpretation/5.1. Read a machine
+  specification and transfer estimate.md; D02/track README files; this LOG.
+- Links fixed / added: registration, one lookup entry and four precise prior owners.
+- Research / Decisions: focused repository transfer/hardware/bottleneck heading
+  search found existing D02 owners and unrelated ArrayBuffer transfer. A broader
+  checklist discovery output was noisy; narrowed rather than claiming full review.
+  Initial guessed reference path was absent; found the correct JS Fundamentals
+  checklist with rg --files and read it completely. Transferred applying a
+  checklist through review questions, avoiding stale runtime/scheduling advice.
+  Reconsulted Intel clock-speed primary explanation (URL in D02.S01.L02); selected
+  cycles/instructions/workload limits, not blanket marketing comparisons. Searched
+  transfer diagnosis and followed ESnet's overview beyond its listing page:
+  https://fasterdata.es.net/performance-testing/troubleshooting/overview/
+  (Dec 5/6 2025). Original operator guidance supports scoping endpoints, tool and
+  target before diagnosis; specialist test commands are not prescribed or run.
+- Verification: executed Python exact Fraction assertions for 629145600 bytes,
+  individual 7.86432/6.291456/12.582912-second stage times, overlapping limiting
+  rate and 26.738688-second sequential sum; exit 0. This verifies arithmetic only,
+  not the fictional transfer. Structural/link verifier passed (14 leaves, 171
+  resolving links, required headings/registration and unchanged proposal).
+  Editorial check matched promises and verified consistent byte/completion scopes,
+  optimistic-model qualification, and that the 40-second report remains fictional.
+- Next steps: D02.S06.L01, then D03 through all subsequent approved domains.
