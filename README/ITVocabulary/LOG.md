@@ -2899,3 +2899,49 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   claimed. Index/lookup additions inspected against actual defined terms.
 - Next steps: D08.S01.L02, then every subsequent approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact.
+
+### D08.S01.L02 — Relational document key-value graph and time-series models — verified
+
+- Done: D08.S01.L02; model/access/guarantee distinctions, five compared organizations,
+  product-capability counterexamples and solved four-workload proposal reading.
+  Progress67/191;124 approved lessons remain.
+- Files touched: new sections/1. Databases and models/1.2. Relational document
+  key-value graph and time-series models.md; D08/track README files; this LOG.
+- Links fixed / added: registration, ten actual model lookup entries and three
+  precise existing owners. No new transaction/schema owner claimed prematurely.
+- Research / Decisions: full-repo model heading search found only JS relational
+  operators (different meaning). Reused full JS neighboring-role/contrast reference
+  and prior unit's actual data owner. Read originating explanations:
+  https://www.mongodb.com/docs/manual/data-modeling/ (retrieved9.0Current; flexible
+  fields,relationships,validation; rejected broad easy-evolution/performance table)
+  https://redis.io/docs/latest/develop/using-commands/keyspace/ (key/value identity;
+  rejected key length quotas,SHA1 blanket advice, hash-slot simplification and
+  SCAN-always-safe promises; no command/configuration course)
+  https://redis.io/docs/latest/develop/data-types/ (actual native type overview,
+  not a current product-version installation or cache-only restriction)
+  https://neo4j.com/docs/getting-started/graph-database/ and
+  https://neo4j.com/docs/getting-started/appendix/graphdb-concepts/ (property-graph
+  node/relationship/properties; rejected all-joins-expensive,no-performance-cost
+  relationship growth and guaranteed million-traversal claims)
+  https://docs.influxdata.com/influxdb3/core/write-data/best-practices/schema-design/
+  (3Core structure/tags/fields/timestamps; rejected infinite-cardinality/no-overall-
+  performance-impact wording, no generic query-order guarantee imported)
+  https://www.postgresql.org/docs/18/datatype-json.html (intro/design passages,
+  relational+JSON coexistence; no universal jsonb speed ranking or old RFC7159
+  as current JSON baseline)
+  https://www.mongodb.com/docs/manual/core/transactions/ (actual multi-document
+  support/read-write-setting limits, not all-deployment guarantees).
+  Read Fowler's original Jan7 2013 accessible text-deck passages:
+  https://martinfowler.com/articles/schemaless/fallback.html (implicit field
+  expectations and migration; rejected any-data/no-rules/always-explicit-best
+  universalization and outdated browser advice). Current Mongo validation and PG
+  JSON evidence refine the historical schemaless framing. Other search snippets,
+  papers and community votes were discovery only, not read technical evidence.
+- Verification: structural/link verifier passed (67 leaves,968 resolving links
+  across78 files,required sections/registrations,unchanged closed proposal);
+  whitespace check passed. Editorial check matched all three promises, five model
+  distinctions and each workload's stated inference. JSON-result practice preserves
+  model/format ambiguity; product labels do not establish recovery/speed. Static
+  comparison only; no DBMS installation, query/transaction, five-product benchmark
+  or actual graph/time-series ingestion claimed.
+- Next steps: D08.S02.L01, then all subsequent approved units through D18.
