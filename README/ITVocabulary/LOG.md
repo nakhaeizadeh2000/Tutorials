@@ -3337,3 +3337,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   no new DBMS/ORM/cache/CDC/distributed/recovery implementation or benchmark claimed.
 - Next steps: D09.S01.L01,then every subsequent approved unit through D18.
   Curriculum revision1 approval/full191-leaf scope remains intact;no new gate.
+
+### D09.S01.L01 — Algorithms data structures complexity and invariants — verified
+
+- Done: D09.S01.L01; procedure/organization/interface distinctions,common structures,
+  actual first-match search/counts,loop reasoning and scoped growth bounds versus
+  timings. Created D09 index;progress78/191;113 approved lessons remain.
+- Files touched: new D09 README and sections/1. Reasoning about programs/1.1.
+  Algorithms data structures complexity and invariants.md; track README; this LOG.
+- Links fixed / added: D09 module/leaf registration,seventeen contextual lookup
+  entries and four precise existing owners. General invariant retains D08's first
+  canonical owner; loop-specific application is new. JS collection/assert mechanics
+  remain their subject owner rather than a second language course.
+- Research / Decisions: full-repo algorithm/complexity/invariant heading search
+  found JS language algorithms/proxy/assertion owners. Read complete JS Microbenchmark
+  traps and Assertions guards Result Either leaves for measurement/question scope
+  and maintained-condition teaching,not their flawed dead-code demo,warmup quotas,
+  p95 overlap significance rule,universal Node invariant export,assertion-never-catch,
+  always-strip/throw-deoptimizes/Result thresholds or invented cost guarantees.
+  Actual primary/original education passages:
+  https://cs50.harvard.edu/x/2026/notes/3/ (redirected unversioned notes,search and
+  running-time passages; selected sequential-versus-ordered search, rejected Omega=
+  best-case,Theta=best-and-worst-equal and fixed growth-label speed ranking)
+  https://ocw.mit.edu/courses/6-006-introduction-to-algorithms-spring-2020/477c78e0af2df61fa205bcc6cb613ceb_MIT6_006S20_lec1.pdf
+  (actual5-page notes problem/procedure/correctness/operation model,bound roles and
+  structures; selected primary model clarification,not every-algorithm-deterministic,
+  all-correctness-must-induct or numerical hypothetical clock/runtime as observed)
+  https://docs.python.org/3.14/tutorial/datastructures.html (stack/queue/deque,
+  set/dict passages; rejected immutable-equals-all-valid-key simplification)
+  https://docs.python.org/3.14/library/bisect.html (search versus insertion cost;
+  rejected universal dictionaries-faster wording). Retrieved docs3.14.8; actual
+  runtime3.14.4. Princeton stacks and guessed Cornell loop-invariant page inaccessible,
+  no content claimed; actual MIT/Python and explicit loop reasoning supplied
+  accessible alternatives. Search community snippets were discovery only.
+- Verification: exact search_cost.py fence executed CPython3.14.4/Linux x86_64,
+  exit0,full stdout matched first/last/missing/empty and10/100 comparison counts.
+  Executed only the stated early-return indentation variation in isolated namespace;
+  target9 incorrectly returns(None,1),confirming distinct correctness failure.
+  Structural/link verifier passed (78 leaves,1177 links across90 files,required
+  sections/registrations,preserved proposal); whitespace check passed. Editorial
+  check matched promises,finite integer input,first-match invariant/termination,
+  operation/case/model and counted-search versus construction/printing boundaries.
+  No elapsed-time,graph algorithm,binary-search implementation or benchmark claimed.
+- Next steps: D09.S01.L02,then all remaining approved units through D18.
