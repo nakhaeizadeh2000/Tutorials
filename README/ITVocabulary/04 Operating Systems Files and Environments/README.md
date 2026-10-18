@@ -2,7 +2,7 @@
 
 Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
 
-This domain is in progress: 7 of 9 approved lessons are available.
+This domain is in progress: 8 of 9 approved lessons are available.
 
 ## 1. Operating system responsibilities
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 9 approved lessons are available.
 1. **Separate input output and diagnostic channels:** identify stdin/stdout/stderr independently from visible windows and completion status.
 2. **Trace data through a pipe without merging the other evidence:** run a bounded shell pipeline and preserve stage and data-format questions.
 3. **Distinguish a program exit from signal termination:** inspect separate streams, a deliberate nonzero exit and self-signaled child termination under the stated API.
+
+## 5. Applied diagnosis
+
+### [5.1. Explain works-on-my-machine and resource failures](<sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>)
+
+1. **Turn a machine comparison into specific evidence questions:** separate artifact, runtime, launch context, access, configuration and resource differences.
+2. **Diagnose the constructed report without changing every variable:** trace a missing-file failure and distinguish an observed repair from general compatibility.
+3. **Interpret resource failure with its actual boundary:** separate a process limit, machine capacity and termination report before proposing a change.
 
 [← Back to IT Vocabulary](<../README.md>)

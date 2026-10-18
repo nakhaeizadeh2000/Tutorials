@@ -1730,3 +1730,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   guarantee tested. Full staged unit inspected before explicit-path commit.
 - Next steps: D04.S05.L01, then D04.S06.L01 and all D05–D18 units;160 approved
   leaves remain. No further approval gate exists for this unchanged curriculum.
+
+### D04.S05.L01 — Explain works-on-my-machine and resource failures — verified
+
+- Done: D04.S05.L01; environment evidence matrix, constructed CWD/configuration
+  diagnosis with targeted test/answer and descriptor-limit versus storage/termination
+  distinction. Progress32/191.
+- Files touched: new sections/5. Applied diagnosis/5.1. Explain works-on-my-machine
+  and resource failures.md; D04/track README files; this LOG.
+- Links fixed / added: registration, two lookup entries and six precise prior owners.
+- Research / Decisions: repo reproduction/resource-limit/debugging heading search
+  found JS/TS language-specific tooling owners; no duplicate general OS synthesis.
+  Reread full JS Fundamentals checklist for applying a question to a concrete
+  artifact; rejected stale runtime, absolute thread and universal lint advice.
+  Read Julia Evans's original June23 2019 debugging discussion:
+  https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
+  Selected checking assumptions and discriminating experiments, not its historical
+  Rust library recommendations or a universal probability that one's own code is
+  wrong. Read Linux getrlimit description/RLIMIT_NOFILE/notes:
+  https://man7.org/linux/man-pages/man2/getrlimit.2.html
+  Primary scope resolves capacity/limit confusion; no tuning prescription or fake
+  exhaustion experiment. Reused actual prior path/configuration/stream owners.
+- Verification: structural/link verifier passed (32 leaves,386 links across39 files,
+  required numbered sections, registrations, unchanged proposal). Editorially
+  traced the diagnosis to the documented CWD rule and attempted-open rows; matched
+  all three promises, scoped fictional status2, and reduced certainty when evidence
+  is removed. Static exercises only; no real deployment/resource exhaustion or
+  rerun of the fictional export claimed. Unit/index diff inspected before commit.
+- Next steps: D04.S06.L01;159 approved lessons remain across D04–D18.
