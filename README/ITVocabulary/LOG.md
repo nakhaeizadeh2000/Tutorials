@@ -1297,3 +1297,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   three promises, introduced module/API before use and separated build/run roles.
   No real framework/SDK installation or performance test claimed.
 - Next steps: D03.S01.L02; every later approved unit remains in scope.
+
+### D03.S01.L02 — Source code executables bytecode and artifacts — verified
+
+- Done: D03.S01.L02; source/machine/bytecode/executable distinctions, preparation
+  versus execution and artifact-consumer evidence with a complete observed example.
+  Track progress 17/191.
+- Files touched: new sections/1. Software categories/1.2. Source code executables
+  bytecode and artifacts.md; D03/track README files; this LOG.
+- Links fixed / added: registration, six lookup entries and exact TypeScript
+  declaration, prior category/format/evidence owners.
+- Research / Decisions: reused D03 section-wide discovery; read full JS pipeline
+  leaf for transformation/observation order, not its universal JIT, threading or
+  shape-performance claims. Read full TypeScript d.ts public API surface leaf
+  for declaration/runtime separation and precise ownership. Primary sources:
+  https://docs.python.org/3.14/library/dis.html (implementation/version caveat)
+  https://docs.python.org/3.14/builtins/functions.html#compile (compile/exec behavior)
+  https://docs.github.com/en/actions/concepts/workflows-and-actions/workflow-artifacts
+  (actual product artifact definition/examples). Retrieved Python 3.14.8 reference;
+  tested CPython 3.14.4. GitHub's broad attestation language was not adopted as a
+  security guarantee. Practitioner/compiler searches found no additional useful
+  accessible original explanation for this bounded artifact distinction; retained
+  already evaluated control/layer teaching and concrete primary examples instead
+  of treating unrelated search results as read material.
+- Verification: exact code_forms.py fence executed on CPython 3.14.4/Linux x86_64,
+  exit 0; entire stdout matched types str/code and ordered Before/Result42/After.
+  No executable or persisted bytecode file is claimed. Structural/link check
+  passed (17 leaves, 206 resolving links, required headings and unchanged proposal).
+  Editorial check matched promises and separated produced/accepted/executed evidence.
+- Next steps: D03.S02.L01, then all subsequent approved ledger units.
