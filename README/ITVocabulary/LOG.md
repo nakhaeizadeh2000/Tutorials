@@ -2525,3 +2525,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   browser policy and reachability. No live origin/site/CORS integration, URL
   security validator or latency measurement claimed.
 - Next steps: D07.S02.L01; continue every remaining approved unit through D18.
+
+### D07.S02.L01 — Requests responses methods headers status codes and bodies — verified
+
+- Done: D07.S02.L01; annotated fictional HTTP1.1 request/response, method intent
+  including new standardized QUERY, scoped status classes/common codes and
+  business-state versus acceptance/no-content/no-response reasoning. Progress57/191.
+- Files touched: new sections/2. Reading HTTP/2.1. Requests responses methods
+  headers status codes and bodies.md; D07/track README files; this LOG.
+- Links fixed / added: registration, twenty-one lookup entries and four prior owners.
+- Research / Decisions: repo HTTP/header/status/method heading search found no
+  competing general message owner. Reused JS Promise tracing and data-exchange
+  calibration, retaining precise input/result flow without blanket JSON policy.
+  Read relevant originating reference/explanatory passages:
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Messages (anatomy/request
+  lines; rejected ambiguous HTTP2-is-text sentence and loose POST semantics)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers (name/value
+  distinctions; rejected universal intermediary-unmodified rule)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Methods (actual method
+  inventory; rejected PUT-existing-only, DELETE-erases-data and identical-HEAD-all-
+  fields implications)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Status (Sept17 2026,
+  classes/selected success/3xx/4xx/5xx passages; rejected all-listed-from9110,
+  unlisted-is-nonstandard,403-always-known-identity and202-no-processing-started)
+  https://datatracker.ietf.org/doc/html/rfc5789 (partial modification/document model)
+  https://datatracker.ietf.org/doc/html/rfc10008 (June2026 Standards Track metadata,
+  abstract/GET-POST-QUERY comparison and query-content terminology)
+  plus prior RFC9110 method/resource/result semantics. Discovery found RFC10008,
+  so QUERY is integrated in this initial lesson rather than deferred as a draft
+  or year update. Support remains environment-specific; no live adoption claim.
+- Verification: structural/link verifier passed (57 leaves,788 links across67 files,
+  required numbered sections/registrations, preserved proposal); whitespace check
+  passed. Executed offline Python assertions against the actual two HTTP fences:
+  body exactly31 UTF8 bytes, declared length31, valid expected JSON, request target/
+  Host and Sunday date weekday. This checks constructed artifacts only, not HTTP
+  traffic. Editorial check matched three promises, pending versus200, accepted
+  versuscompleted, missing-response uncertainty and method/format distinctions.
+  No server/request, QUERY/PATCH integration, JSON client parsing or timing run.
+- Next steps: D07.S02.L02; remaining134 approved leaves through D18 stay in scope.

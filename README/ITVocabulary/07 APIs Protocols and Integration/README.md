@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 2 of 11 approved lessons are available.
+This domain is in progress: 3 of 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 11 approved lessons are available.
 1. **Separate the resource its identifier and its representation:** interpret HTTP targets, transmitted state, URI/URL terminology and relative references without assuming a disk-file mapping.
 2. **Read an address by components without making a request:** run an offline split and distinguish scheme, authority, path, query, fragment and percent-encoding from reachability or validation.
 3. **Compare origins and sites using their intended boundaries:** classify explicit scheme/host/port and registrable-domain examples without inferring browser permission or organizational trust.
+
+## 2. Reading HTTP
+
+### [2.1. Requests responses methods headers status codes and bodies](<sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>)
+
+1. **Annotate the two messages in an exchange:** locate action, target, status, metadata and content in constructed HTTP/1.1 views while distinguishing other versions’ framing.
+2. **Read the method as intent rather than a CRUD nickname:** recognize common methods including standardized QUERY and identify where the resource/format/support contract is still needed.
+3. **Interpret status content and missing responses separately:** distinguish pending business state, acceptance, no-content success and absence of an HTTP result without guessing completion or blame.
 
 [← Back to IT Vocabulary](<../README.md>)
