@@ -1874,3 +1874,34 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   distinction between assignment and naming, public/private special ranges and
   constrained lookup assumptions. No performance experiment claimed.
 - Next steps: D05.S03.L01;155 approved leaves remain through D18.
+
+### D05.S03.L01 — Domains hostnames DNS resolvers and records — verified
+
+- Done: D05.S03.L01; name/registration/hosting boundaries, resolver/authority/cache
+  flow, selected record roles and solved authority/cache discrepancy. Progress37/191.
+- Files touched: new sections/3. Naming/3.1. Domains hostnames DNS resolvers and
+  records.md; D05/track README files; this LOG.
+- Links fixed / added: registration, twenty lookup terms and three precise owners.
+- Research / Decisions: repo DNS/hostname/domain/resolver heading search found
+  Promise resolvers, a different concept. Reread full JS Promise chaining as a
+  responsibility/result-tracing benchmark, rejecting its outdated Node warning,
+  universal timing and allocation claims. Read focused original/primary sources:
+  https://www.rfc-editor.org/rfc/rfc9499.html (name forms, roles, TTL terminology)
+  https://www.rfc-editor.org/rfc/rfc1034.html (recursive versus referral behavior)
+  https://www.rfc-editor.org/rfc/rfc1035.html (records, not outdated TTL signedness)
+  https://www.rfc-editor.org/rfc/rfc3596.html (AAAA definition)
+  https://www.rfc-editor.org/rfc/rfc6761.html (test namespace)
+  https://www.icann.org/resources/pages/about-domain-names-2018-08-30-en
+  (registration versus functioning web/email service)
+  https://jvns.ca/blog/how-updating-dns-works/ (June17 2020 original observed update
+  investigation). Practitioner comparison exposes authority/cache and delegation
+  distinctions; rejected hardcoded universal root-hint implementation, 99.99%
+  claims, dig+trace-as-another-resolver's-actual-trace, and fixed all-client update
+  deadlines. No historical provider address is a current test target.
+- Verification: structural/link verifier passed (37 leaves,473 links across45 files,
+  required headings/registrations, preserved proposal). Editorial check matched
+  promises, explicit fictional .test setup, record versus application outcome,
+  configured versus remaining TTL, and weaker conclusion without cache-history
+  evidence. Static reading card only; no live DNS resolution, delegation change,
+  convergence experiment or website request claimed. Unit/index changes inspected.
+- Next steps: D05.S03.L02;154 approved leaves remain through D18.

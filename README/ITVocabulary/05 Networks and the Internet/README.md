@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 3 of 12 approved lessons are available.
+This domain is in progress: 4 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -25,5 +25,13 @@ This domain is in progress: 3 of 12 approved lessons are available.
 1. **Read an address together with its version prefix and scope:** distinguish IPv4/IPv6, address/prefix, private/public, loopback and assignment terminology.
 2. **Observe subnet membership without pretending to test a network:** run a complete offline prefix example and separate numerical inclusion from actual connectivity.
 3. **Separate route selection from address translation:** read a simple route card, identify a next-hop gateway and explain what NAT does and does not establish.
+
+## 3. Naming
+
+### [3.1. Domains hostnames DNS resolvers and records](<sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>)
+
+1. **Separate a hierarchical name from registration and hosting:** interpret domain labels, subdomains, hostnames, FQDNs and zones in context.
+2. **Follow a naming question through resolver and authority roles:** distinguish client/stub, recursive resolution, referrals and cached answers without assuming every lookup repeats the whole path.
+3. **Read record types and a cache discrepancy as scoped evidence:** interpret address/alias/server records and explain why a DNS answer does not prove application reachability.
 
 [← Back to IT Vocabulary](<../README.md>)
