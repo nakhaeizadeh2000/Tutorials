@@ -2761,3 +2761,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   token/end semantics and seconds versus epoch. Static artifact reasoning only;
   no real API/payment/DNS operation, retry policy, database snapshot or load test.
 - Next steps: D07.S05.L02; all later approved units through D18 remain authorized.
+
+### D07.S05.L02 — Same-origin policy CORS credentials and API boundaries — verified
+
+- Done: D07.S05.L02; browser/network/application boundaries, preflight versus
+  actual response, credentials/wildcard distinctions and solved sent/blocked/denied
+  cases with reduced-evidence variation. Progress63/191;128 leaves remain.
+- Files touched: new sections/5. Contract behavior and integration risks/5.2.
+  Same-origin policy CORS credentials and API boundaries.md; D07/track READMEs; LOG.
+- Links fixed / added: registration, ten lookup terms and five precise owner routes.
+- Research / Decisions: repo same-origin-policy/CORS/preflight heading search found
+  no competing owner. Reread full origin/site leaf and reused prior original
+  Kitamura comparison research, JS role attribution and evidence-tracing benchmark.
+  New content owns policy interpretation, not repeated address/cookie mechanics.
+  Read relevant current originating explanations and normative passages:
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS (request classes,
+  preflight and credential examples; rejected preflight-as-all-side-effects,
+  cannot-request-without-CORS,OPTIONS-only-HTTP1.1 and can't-change-resource claims)
+  https://developer.mozilla.org/en-US/docs/Web/Security/Defenses/Same-origin_policy
+  (cross-origin network interaction categories; no deprecated document.domain
+  workaround or dated embedding inventory taught)
+  https://fetch.spec.whatwg.org/ (3.3.1–3.3.6, actual fields,credentials combinations,
+  allowed status versus business success and Vary guidance)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin
+  (Nov21 2025,response role,single-origin/wildcard; static-origin Vary wording scoped
+  to actual variation rather than unconditional unnecessary variation)
+  https://developer.mozilla.org/en-US/docs/Web/API/Request/credentials (May19 2025,
+  actual modes; rejected include-overrides-cookie-policy interpretation)
+  https://developer.mozilla.org/en-US/docs/Web/API/Request/mode (June23 2025,
+  opaque response restrictions, not a CORS bypass). Minimum authentication/access
+  reminders are contextual; full security mechanisms remain later approved owners.
+- Verification: structural/link verifier passed (63 leaves,911 links across73 files,
+  required sections/registrations,preserved proposal); whitespace check passed.
+  Executed offline assertions matching both exact selected-field fences' origin,
+  POST method and requested/allowed header sets. Editorial check matched promises,
+  explicit omit/cache/policy assumptions, three card boundaries and unknown effect
+  when A's server record is removed. Static contract inspection only; no browser
+  CORS/preflight/credential integration, API write, permission change or timing run.
+- Next steps: D07.S06.L01; continue all later approved units through D18.
