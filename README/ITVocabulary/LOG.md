@@ -2643,3 +2643,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   no GraphQL validation/execution, code generation, RPC/SOAP exchange or benchmark
   claimed. Index/lookup additions inspected; each term has actual explanation.
 - Next steps: D07.S03.L02; every subsequent approved unit through D18 remains in scope.
+
+### D07.S03.L02 — Payloads JSON XML YAML Protobuf and schemas — verified
+
+- Done: D07.S03.L02; payload/serialization/transport distinctions, format/definition
+  comparisons, current Protobuf Editions recognition and actual parse-versus-contract
+  checks with deliberate failures and solved practice. Progress60/191;131 leaves remain.
+- Files touched: new sections/3. Styles formats and schemas/3.2. Payloads JSON XML
+  YAML Protobuf and schemas.md; D07/track README files; this LOG.
+- Links fixed / added: registration, fourteen lookup terms and six precise owners
+  including original payload and existing JavaScript/TypeScript validation detail.
+- Research / Decisions: reused section-wide format/schema repo search; reread full
+  JS data-exchange leaf for input/result contrast and ownership, rejecting blanket
+  JSON/charset guidance, whole-text split bounded-memory claims, prototype-key
+  filtering requirement and arbitrary thresholds. Relevant originating readings:
+  https://www.rfc-editor.org/rfc/rfc8259.html (2017 JSON values/format)
+  https://www.w3.org/TR/xml/ (1.0 FifthEdition2008, well-formed/valid distinction)
+  https://yaml.org/spec/1.2.2/ (Oct1 2021, model/goals,scalar/mapping/tag-resolution)
+  https://protobuf.dev/overview/ (definition/code/runtime/data distinctions, field
+  identity and compression limit; rejected blanket smaller/faster, unconditional
+  compatibility and legal suitability conclusions)
+  https://protobuf.dev/editions/overview/ (actual latest released edition2024,
+  behavior defaults versus tool version, not speculative2031/2033 examples)
+  https://json-schema.org/understanding-json-schema/about (original teaching of
+  format versus structure and external semantic limits; rejected its incomplete
+  schema's first_name-required implication and format assertion assumptions)
+  https://docs.python.org/3.14/library/json.html (decoder/error behavior).
+  Reused evaluated source teaching and prior schema owner; no runtime validation
+  library installed. No full language mechanics or format implementation course.
+- Verification: exact payload_checks.py fence ran CPython3.14.4/Linux x86_64,
+  exit0; entire stdout matches five cases including caught syntax failure and
+  string/boolean/zero contract rejection. Executed seats5 practice variation,
+  observed parsed-but-contract-False. Structural/link verifier passed (60 leaves,
+  858 links across70 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched promises, syntax versus value
+  constraints, boolean exclusion, protocol/format/encoding chain and protobuf field
+  number versus value. YAML/proto excerpts are explicitly static, not executed
+  parser/compiler tests. No live inventory, authorization or format benchmark claimed.
+- Next steps: D07.S04.L01; continue all later approved units through D18.

@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 5 of 11 approved lessons are available.
+This domain is in progress: 6 of 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 11 approved lessons are available.
 1. **Separate architectural style interaction model and concrete technology:** classify REST, RPC, GraphQL, gRPC and SOAP without reducing the comparison to transport or format labels.
 2. **Recognize the contract artifacts behind GraphQL gRPC and SOAP:** interpret field selection, remote service definitions, call shapes and messaging envelopes with explicit limits.
 3. **Compare interfaces without inventing guarantees:** use constructed descriptions to identify supported conclusions and the next evidence needed.
+
+### [3.2. Payloads JSON XML YAML Protobuf and schemas](<sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>)
+
+1. **Follow data from a value to a transmitted representation:** separate payload boundaries, serialization, parsing, text encoding and transport.
+2. **Recognize formats without confusing their data and definition files:** interpret JSON, XML, YAML and Protobuf artifacts with scoped version and schema assumptions.
+3. **Distinguish parsing schema checks and business acceptance:** run an offline example contrasting syntax, type and range failures without claiming inventory or authorization evidence.
 
 [← Back to IT Vocabulary](<../README.md>)
