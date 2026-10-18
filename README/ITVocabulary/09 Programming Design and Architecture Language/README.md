@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 8 of 11 approved lessons are available.
+This domain is in progress: 9 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -59,5 +59,13 @@ This domain is in progress: 8 of 11 approved lessons are available.
 1. **Recognize policy boundaries in Clean and hexagonal architecture:** explain inward source dependencies, use cases, ports and technology adapters without a fixed circle or port count.
 2. **Place DDD around shared understanding and an explicit model boundary:** interpret Domain-Driven Design, ubiquitous language and bounded contexts through an original customer-meaning disagreement.
 3. **Separate read/write models from an authoritative event history:** distinguish CQRS, event sourcing and publication using a worked history and four design variants.
+
+## 5. Models and representations
+
+### [5.1. Domains entities value objects aggregates and architecture diagrams](<sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>)
+
+1. **Distinguish domain identity from equal values and memory identity:** interpret domains, models, entities and value objects through booking and seat-selection cases.
+2. **Read an aggregate as a rule-enforcement boundary:** identify the root and local invariant while exposing a separate workshop-capacity coordination question.
+3. **Select a diagram view and read its claims within that scope:** recognize UML and C4 views, interpret a labeled interaction sketch and reject unsupported deployment or performance conclusions.
 
 [← Back to IT Vocabulary](<../README.md>)

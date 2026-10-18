@@ -3682,3 +3682,48 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   and sequence2 projection versus sequence3 authority. Static cards only; no
   framework/event-store/broker/transaction/replay integration or benchmark claimed.
 - Next steps: D09.S05.L01,then all remaining approved units through D18.
+
+### D09.S05.L01 — Domains entities value objects aggregates and architecture diagrams — verified
+
+- Done: D09.S05.L01; domain/entity/value/runtime-identity distinctions,local
+  aggregate/root rule versus workshop-wide capacity,scoped UML/C4 vocabulary and
+  labeled informal interaction sketch with unsupported-claim practice. Progress86/191;
+  105 approved leaves remain.
+- Files touched: new sections/5. Models and representations/5.1. Domains entities
+  value objects aggregates and architecture diagrams.md; D09/track READMEs; LOG.
+- Links fixed / added: registration,eleven contextual lookup entries,four precise
+  prior/language owners. DDD language/context retains earlier canonical owner.
+- Research / Decisions: broad domain heading discovery noisy/truncated;narrowed
+  entity/value-object/aggregate/UML/C4 search found JS identity and TS domain-brand
+  applications,not general model owner. Read complete JS Immutability identity and
+  copying for same-value versus alias contrast; rejected automatic deep-object
+  immutability,blanket mutation-plus-return prohibition,unmeasured string/allocation
+  placement and primitive-box-copy-as-literal-storage claims. Actual sources:
+  Evans2015 DDD Reference linked in preceding unit: actual Entities p11,ValueObjects
+  p12,Aggregates p16; selected continuity/root/invariants,rejected guaranteed-unique-
+  symbol wording,one-server/all-cross-aggregate-asynchronous universal deployment
+  rules and attaching-identity-always-hurts-performance. No full-book claim.
+  https://martinfowler.com/bliki/ValueObject.html (Nov2016 actual compound-value
+  equality/language-default contrast; no all-functional-immutable or automatic
+  reference-to-domain-identity equivalence)
+  https://learn.microsoft.com/en-us/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/domain-model-layer-validations
+  (actual root/invariant/state-transition passages,not copied C# vehicle or all-
+  constructors/frameworks-never-invalid guarantee). https://c4model.com/ and actual
+  navigation targets https://c4model.com/abstractions,
+  https://c4model.com/abstractions/container,
+  https://c4model.com/abstractions/component,
+  https://c4model.com/diagrams/checklist (Brown original overview,container/component
+  meanings and actual review questions; discovered singular paths after prior
+  plural path was inaccessible,not a complete diagram-gallery review. Rejected old
+  example platform inventory as current recommendation and guarantees from names).
+  https://www.omg.org/uml/ and https://www.omg.org/spec/UML/ (actual introductory
+  purpose and2.5.1 formal metadata,Dec2017; no full731+page specification/notation
+  conformance review). Static NestJS+Fastify context retained,not a .NET backend.
+- Verification: structural/link verifier passed (86 leaves,1308 links across98
+  files,required sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched three promises,identity/seat-category examples,
+  3+2>4 local rule and two3-seat requests versus5 workshop capacity,all four C4
+  view questions and sketch legend. Static arithmetic/model/diagram inspection
+  only; no runtime entity equality,aggregate concurrency,formal UML rendering,
+  deployed framework,three-replica configuration or benchmark executed.
+- Next steps: D09.S06.L01,then D09.S07.L01 and all approved D10–D18 units.
