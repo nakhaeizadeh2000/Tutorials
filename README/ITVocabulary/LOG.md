@@ -1382,3 +1382,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   closed proposal). Editorial check matched three promises and avoided universal
   packaging equations or unqualified VM-security promises.
 - Next steps: D03.S03.L01; all remaining approved ledger units remain authorized.
+
+### D03.S03.L01 — Editors IDEs terminals shells CLIs and REPLs — verified
+
+- Done: D03.S03.L01; editor/IDE/terminal/shell/CLI/REPL roles, current input
+  receiver, actual interactive observation and explained wrong-prompt diagnosis.
+  Track progress 20/191.
+- Files touched: new sections/3. Tools and interfaces/3.1. Editors IDEs terminals
+  shells CLIs and REPLs.md; D03/track README files; this LOG.
+- Links fixed / added: registration, six lookup entries, prior environment and
+  exact JS Node REPL owner.
+- Research / Decisions: focused repo interface/package discovery located JS Node
+  essentials and TS editor/type-server owners. Read complete Node essentials for
+  file/REPL contrast and version identity habit, not its legacy release/default-
+  module assertions. Consulted current VS Code terminal introduction, Python3.14
+  interpreter tutorial and original Julia Evans July20 2022 input investigation:
+  https://code.visualstudio.com/docs/terminal/getting-started
+  https://docs.python.org/3.14/tutorial/interpreter.html
+  https://jvns.ca/blog/2022/07/20/pseudoterminals/
+  Selected terminal/program boundary and observed exploration; did not import
+  unsure escape-code details or instruct deployment of its insecure demo server.
+  GNU What is a shell and What is Bash pages failed retrieval/timeouts; no snippet
+  claimed as reading. VS Code supplies accessible first-party shell/terminal roles.
+- Verification: launched actual interactive python3 -q through PTY with
+  PYTHON_BASIC_REPL=1, CPython3.14.4/Linux x86_64. Entered value=6, value*7, exit();
+  observed prompt/state behavior, 42 and exit 0. bash --version reported5.3.9.
+  This is actual REPL execution, not a simulated text transcript. Enhanced-REPL
+  presentation is explicitly outside that run. Structural/link check passed
+  (20 leaves,237 resolving links, required headings and preserved closed proposal).
+  Editorial check matched promises, prompt-copy guidance and independent sessions.
+- Next steps: D03.S03.L02; every subsequent approved ledger unit remains in scope.

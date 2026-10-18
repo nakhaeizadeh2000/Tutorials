@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 4 of 9 approved lessons are available.
+This domain is in progress: 5 of 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 9 approved lessons are available.
 1. **Separate a language definition from an executing implementation:** identify language, implementation and engine responsibilities without assuming one product per role.
 2. **Distinguish runtime host and virtual-machine meanings:** interpret component versus phase and language-VM versus infrastructure-VM wording in context.
 3. **Collect identity evidence without treating it as a capability test:** run a small metadata report and explain the operation-specific evidence still needed.
+
+## 3. Tools and interfaces
+
+### [3.1. Editors IDEs terminals shells CLIs and REPLs](<sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>)
+
+1. **Separate the editing application from the tools it launches:** distinguish editor, IDE and integrated terminal responsibilities.
+2. **Distinguish command interpretation from a command-line interface:** identify shell language, tool arguments and the program currently receiving input.
+3. **Recognize a REPL and the state of its session:** observe interactive evaluation and explain why its state differs from a saved file.
 
 [← Back to IT Vocabulary](<../README.md>)
