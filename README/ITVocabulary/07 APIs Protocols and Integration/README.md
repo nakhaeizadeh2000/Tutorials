@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 6 of 11 approved lessons are available.
+This domain is in progress: 7 of 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -45,5 +45,13 @@ This domain is in progress: 6 of 11 approved lessons are available.
 1. **Follow data from a value to a transmitted representation:** separate payload boundaries, serialization, parsing, text encoding and transport.
 2. **Recognize formats without confusing their data and definition files:** interpret JSON, XML, YAML and Protobuf artifacts with scoped version and schema assumptions.
 3. **Distinguish parsing schema checks and business acceptance:** run an offline example contrasting syntax, type and range failures without claiming inventory or authorization evidence.
+
+## 4. Interaction patterns
+
+### [4.1. Polling webhooks SSE and WebSocket](<sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>)
+
+1. **Identify who initiates each exchange and where updates arrive:** compare polling, callbacks, receive streams and two-way channels with explicit participants.
+2. **Read event framing and distinguish a library from its transport:** interpret an SSE block, last-event identity and Socket.IO versus WebSocket without inventing recovery guarantees.
+3. **Diagnose delivery and freshness claims from a timeline:** separate provider delivery, receiver processing and browser observation and ask for the relevant retry/replay contract.
 
 [← Back to IT Vocabulary](<../README.md>)

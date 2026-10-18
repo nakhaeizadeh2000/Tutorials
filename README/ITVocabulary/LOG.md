@@ -2681,3 +2681,44 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   number versus value. YAML/proto excerpts are explicitly static, not executed
   parser/compiler tests. No live inventory, authorization or format benchmark claimed.
 - Next steps: D07.S04.L01; continue all later approved units through D18.
+
+### D07.S04.L01 — Polling webhooks SSE and WebSocket — verified
+
+- Done: D07.S04.L01; participant/direction/cadence comparison, static SSE framing,
+  last-event/replay distinction, current Socket.IO transport roles and solved
+  webhook-to-polling freshness/disconnect variations. Progress61/191;130 remain.
+- Files touched: new sections/4. Interaction patterns/4.1. Polling webhooks SSE and
+  WebSocket.md; D07/track README files; this LOG.
+- Links fixed / added: registration, twelve lookup terms and four precise owners.
+- Research / Decisions: full-repo polling/webhook/SSE/WebSocket heading search found
+  no competing owner. Reused JS input/result tracing and observable-contrast
+  calibration, with actual data-exchange leaf reread for preceding unit; no event-
+  loop, parser or framework course duplicated. Topic-based discovery considered
+  original comparison articles but search snippets/benchmarks were not evidence.
+  Selected originating provider, protocol and educational material actually read:
+  https://www.rfc-editor.org/rfc/rfc6202.html (2011,2.1 and issue passages;
+  long-poll request versus connection reuse, not old universal connection limits)
+  https://docs.github.com/en/webhooks/about-webhooks (callback/direction and
+  polling contrast; rejected blanket lower-effort/scalability superiority)
+  https://docs.github.com/en/webhooks/using-webhooks/handling-failed-webhook-deliveries
+  (provider-specific no-automatic-redelivery; no universal schedule inferred)
+  https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events/Using_server-sent_events
+  (EventSource,UTF8,fields; rejected incorrect error-key example, universal100-stream
+  default and any always-reconnect/all-client connection-number implication)
+  https://html.spec.whatwg.org/multipage/server-sent-events.html (Oct16 2026 living
+  standard, introduction,Last-Event-ID and actual blank-line dispatch rules)
+  https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API (two-way role;
+  no speculative WebTransport replacement or nonstandard WebSocketStream default)
+  https://socket.io/docs/v4/ (4.x metadata/possible transports/incompatibility;
+  no universal best-transport, delivery guarantee or old Node-core claim adopted).
+  Current stable WebTransport possibility recognized for Socket.IO rather than
+  teaching an obsolete two-transport-only inventory. No real service implementation.
+- Verification: structural/link verifier passed (61 leaves,875 links across71 files,
+  required sections/registration,preserved proposal); whitespace check passed.
+  Executed offline exact-fence inspection: event/id fields, valid expected JSON,
+  terminating empty line; assertions checked20/100 requests-per-second arithmetic.
+  Editorial check matched three promises, all timeline observations, removed
+  receipt inference, actual provider policy and recovery-history uncertainty.
+  Static artifact/arithmetic checks only; no EventSource/WebSocket/Socket.IO or
+  webhook delivery, polling load, replay integration or latency benchmark claimed.
+- Next steps: D07.S05.L01; every later approved unit through D18 remains in scope.
