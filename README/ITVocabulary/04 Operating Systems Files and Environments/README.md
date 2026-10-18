@@ -2,7 +2,7 @@
 
 Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
 
-This domain is in progress: 5 of 9 approved lessons are available.
+This domain is in progress: 6 of 9 approved lessons are available.
 
 ## 1. Operating system responsibilities
 
@@ -39,5 +39,13 @@ This domain is in progress: 5 of 9 approved lessons are available.
 1. **Distinguish deployment context from process configuration:** identify variable scope, source precedence and loader-specific configuration files.
 2. **Parse named values according to an explicit contract:** observe synthetic child-process settings, text truthiness and a controlled invalid-value failure.
 3. **Distinguish secret delivery from secret protection:** recognize secret/configuration boundaries and request redacted diagnostic evidence.
+
+## 4. Resources and process outcomes
+
+### [4.1. Memory allocation stack heap virtual memory and swap](<sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>)
+
+1. **Separate allocation call state and object lifetime:** explain allocation, deallocation, stack and heap without assigning every value a universal storage location.
+2. **Distinguish virtual addresses resident RAM and swap:** identify address-space, residency and backing scopes before interpreting a memory report.
+3. **Observe a scoped allocation counter without confusing it with RSS:** run a bounded traced-allocation example and state the physical-memory claims it does not establish.
 
 [← Back to IT Vocabulary](<../README.md>)

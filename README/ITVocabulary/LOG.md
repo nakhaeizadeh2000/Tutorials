@@ -1671,3 +1671,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   link verification passed (29 leaves,349 resolving links, required headings and
   unchanged proposal). Editorial check matched promises and exact scope of output.
 - Next steps: D04.S04.L01; all subsequent approved units through D18 remain in scope.
+
+### D04.S04.L01 — Memory allocation stack heap virtual memory and swap — verified
+
+- Done: D04.S04.L01; allocator/lifetime/call-state roles, virtual/resident/swap
+  distinctions and a bounded actual traced-allocation observation. Progress30/191.
+- Files touched: new sections/4. Resources and process outcomes/4.1. Memory allocation
+  stack heap virtual memory and swap.md; D04/track README files; this LOG.
+- Links fixed / added: registration, eleven lookup terms and precise JS memory,
+  RAM/process/unit owners. No unbuilt OS internals/performance links.
+- Research / Decisions: repo allocation/heap/stack/virtual/swap search confirmed JS
+  lifetime/profiling owners. Read full JS Heap stack execution contexts leaf as
+  reference-graph/measurement-boundary calibration, not its absolute V8 placement,
+  historical reachability or blanket shape advice. Read focused primary sources:
+  https://docs.kernel.org/admin-guide/mm/concepts.html (MMU-scoped virtual primer)
+  https://man7.org/linux/man-pages/man5/proc_pid_status.5.html (field scopes/accuracy)
+  https://man7.org/linux/man-pages/man2/swapon.2.html (file/device backing forms)
+  https://docs.python.org/3.14/library/tracemalloc.html (counter scope/lifetime)
+  https://go.dev/doc/faq#stack_or_heap (original implementation-placement explanation)
+  Go is a scoped counterexample to universal placement, not a Go prerequisite or
+  latest-release claim. Omitted blanket huge-page speedups, numeric RSS certainty,
+  universal disk-backed swap and inherited JS folklore. No memory-pressure tuning.
+- Verification: exact allocation_scope.py fence ran CPython3.14.4/Linux x86_64,
+  exit0; full stdout matched three True comparisons for bounded payload growth,
+  peak/current and lower traced allocation after deletion. No RSS, swap, OS memory
+  return, collection pause or allocation throughput measurement claimed. Structural/
+  link verifier passed (30 leaves,365 resolving links, required headings, preserved
+  proposal). Editorial check matched promises and bounded each inference by counter.
+- Next steps: D04.S04.L02; remaining161 approved leaves through D18 stay in scope.
+  User reiterated continue and requested remaining count; reported30/191 verified,
+  161 remaining, with no change to approval or curriculum scope.
