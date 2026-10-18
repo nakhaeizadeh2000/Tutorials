@@ -1183,3 +1183,36 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   claimed. Structural/link verifier passed (12 leaves, 150 local links, closed
   proposal preserved); editorial check matched promises and stated assumptions.
 - Next steps: D02.S04.L01, then all remaining approved units across D02–D18.
+
+### D02.S04.L01 — Formats compression checksums and metadata — verified
+
+- Done: D02.S04.L01; format/name/metadata distinctions, lossless and lossy goals,
+  size overhead, byte-scoped digests and their authentication limits. Progress 13/191.
+- Files touched: new sections/4. Representing and preserving information/4.1.
+  Formats compression checksums and metadata.md; D02/track README files; this LOG.
+- Links fixed / added: domain registration, ten lookup entries and four precise
+  existing byte/text/unit/JavaScript exchange owners.
+- Research / Decisions: recovered complete 1185-line log against clean Git and
+  12 committed leaves after compaction; full policy/skill context recovered.
+  Repo format/compression/checksum/metadata heading search found context-specific
+  JS/TS metadata, not a competing general file-representation owner. Read full
+  JavaScript data-exchange patterns leaf for representation comparisons and
+  ownership; avoided its blanket JSON validation/performance claims. Read focused
+  primary gzip/header/CRC, Python gzip/hashlib and PNG lossless passages:
+  https://www.rfc-editor.org/rfc/rfc1952.html (1996 format, not security guidance)
+  https://docs.python.org/3.14/library/gzip.html
+  https://docs.python.org/3.14/library/hashlib.html
+  https://www.w3.org/TR/png-3/ (definition only; no PNG encoder behavior inferred).
+  Python docs retrieved 3.14.8; actual example uses 3.14.4. The tiny-input result
+  resolves the beginner misconception that compression always reduces size;
+  prior source research supplies representation teaching context, not copied code.
+- Verification: exact fence extracted to temporary representations.py and run
+  on Python 3.14.4/Linux x86_64, exit 0; entire stdout matched. Initial fence run
+  caught an escaped-newline authoring error; repaired and reran successfully before
+  completion. Observed 1100→41
+  and 1→21 bytes, exact recovery True, two digest comparisons False, and caught
+  BadGzipFile for the chosen invalid header. No security or throughput test
+  claimed. Structural/link verifier passed (13 leaves, 165 resolving local links,
+  numbered required sections, registrations and unchanged closed proposal).
+  Editorial check matched the three promises and scoped identity/byte comparisons.
+- Next steps: D02.S05.L01; all subsequent approved ledger IDs remain authorized.
