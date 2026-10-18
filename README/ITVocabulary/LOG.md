@@ -991,3 +991,26 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   and confirmed the task does not expose credentials or invent approved versions.
   Static written practice only; no audio or software execution claimed.
 - Next steps: D01.S04.L01; all subsequent approved ledger IDs remain authorized.
+
+### D01.S04.L01 — Turn a jargon-heavy message into a testable statement — verified
+
+- Done: D01.S04.L01; integrated evidence-card exercise with two audience-specific
+  answers, failure contrasts, performance-claim gap and interview/mentor criteria.
+- Files touched: new sections/4. Applied reading and review/4.1. Turn a jargon-heavy
+  message into a testable statement.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, one lookup term and three owner leaves.
+- Research / Decisions: repo heading search for testable/jargon-heavy/vague/readiness
+  topics found no competing owner. Read the JavaScript Fundamentals checklist in
+  full for synthesis and owner routing, not its outdated or absolute claims.
+  Read NASA Systems Engineering Handbook Appendix C focused C.2–C.4 material:
+  https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/
+  (page updated 2023-07-26). Selected clarity, assumptions and verification-criteria
+  guidance; its agency-specific wording/process is not universalized. Reused
+  prior question/source research and linked rather than retaught D01 distinctions.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (6 leaves, numbered
+  required sections, registration, resolving links and unchanged closed proposal).
+  Editorially traced every worked-answer factual clause to its evidence-card row,
+  checked that unperformed cases remain unverified and that no invented timing or
+  release outcome appears. The entire scenario is explicitly constructed; no
+  application test run, benchmark or production observation is claimed.
+- Next steps: D01.S05.L01, then D02 and all later approved domains.

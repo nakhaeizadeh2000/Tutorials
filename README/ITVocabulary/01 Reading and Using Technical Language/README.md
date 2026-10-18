@@ -4,7 +4,7 @@ Learn to identify unfamiliar meanings, read technical documents and ask precise
 questions. No technical prerequisites are assumed. The worked situations explain
 the minimum specialist context needed; later domains develop those topics.
 
-This domain is in progress: 5 of 7 approved lessons are available.
+This domain is in progress: 6 of 7 approved lessons are available.
 
 ## 1. Words in context
 
@@ -41,5 +41,13 @@ This domain is in progress: 5 of 7 approved lessons are available.
 1. **Make names recognizable without treating pronunciation as a skill test:** handle acronym sounds and a/an choices while accepting understandable variation.
 2. **Preserve exact names when the task depends on identity:** distinguish a nickname, exact identifier and sensitive private value.
 3. **Ask for the smallest fact that moves the discussion forward:** state a tentative understanding, ask a focused question and summarize remaining uncertainty.
+
+## 4. Applied reading and review
+
+### [4.1. Turn a jargon-heavy message into a testable statement](<sections/4. Applied reading and review/4.1. Turn a jargon-heavy message into a testable statement.md>)
+
+1. **Separate ambiguous wording from the evidence actually supplied:** classify a constructed readiness message against a supplied observation card.
+2. **Produce a scoped statement and an actionable next question:** rewrite technical and stakeholder versions without inventing checked outcomes.
+3. **Review the rewrite for hidden additions and useful omissions:** explain unsupported release, failure and timing claims with a reasoned assessment rubric.
 
 [← Back to IT Vocabulary](<../README.md>)
