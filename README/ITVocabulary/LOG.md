@@ -2001,3 +2001,30 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   remain application-defined. Static cards only; no TCP-loss simulation, live
   QUIC/UDP integration, timing benchmark or transaction execution claimed.
 - Next steps: D05.S05.L01;151 approved leaves remain through D18.
+
+### D05.S05.L01 — Proxies reverse proxies VPNs firewalls and load balancers — verified
+
+- Done: D05.S05.L01; forwarding/reverse-proxy/balancing roles, tunnel and traffic
+  policy scope, multi-role edge card and limited health-probe diagnosis. Progress41/191.
+- Files touched: new sections/5. Intermediaries and protected connections/5.1.
+  Proxies reverse proxies VPNs firewalls and load balancers.md; D05/track READMEs; LOG.
+- Links fixed / added: registration, nine lookup terms and four precise prior owners.
+- Research / Decisions: repo proxy/firewall/VPN/balancer search found JS object
+  proxies, a distinct concept. Reused JS neighboring-role attribution/tracing
+  calibration. Read actual relevant primary/first-hand explanatory passages:
+  https://www.rfc-editor.org/rfc/rfc9110.html (3.7 proxy/gateway and request path)
+  https://www.wireguard.com/ (interface, protected UDP encapsulation and peer routes)
+  https://csrc.nist.gov/pubs/sp/800/77/r1/final (June2020 abstract, IPsec family only)
+  https://csrc.nist.gov/pubs/sp/800/41/r1/final (Sept2009 abstract, firewall role)
+  https://www.haproxy.com/documentation/haproxy-configuration-tutorials/reliability/health-checks/
+  (active/TCP versus HTTP probes, living originating tutorial).
+  Selected actual role/check boundaries, rejecting marketing speed/security/audit
+  guarantees and HAProxy's unqualified healthy-server wording. No obsolete product
+  commands, keys, version defaults or production rule configuration copied.
+  Discovery considered operator examples; no community snippet used as evidence.
+- Verification: structural/link verifier passed (41 leaves,528 links across49 files,
+  required sections/registrations and preserved proposal). Editorial check matched
+  promises and each assigned edge role to the card; TCP probe does not test export,
+  B or full client path. Tunnel endpoint/policy distinctions remain scoped. Static
+  exercises only; no proxy/VPN/firewall deployment, live probe or throughput test.
+- Next steps: D05.S05.L02;150 approved leaves remain through D18.

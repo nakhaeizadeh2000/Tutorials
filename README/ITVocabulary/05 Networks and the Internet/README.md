@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 7 of 12 approved lessons are available.
+This domain is in progress: 8 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -54,5 +54,13 @@ This domain is in progress: 7 of 12 approved lessons are available.
 2. **Interpret UDP without assuming every application above it is unreliable:** separate datagram delivery limits from added application or transport mechanisms.
 3. **Locate QUIC streams and datagrams above UDP:** recognize protected multiplexed transport, stream-specific ordering and negotiated datagram support.
 4. **Challenge a guarantee using a concrete failure timeline:** identify what an acknowledgement establishes and what remains an application-level question.
+
+## 5. Intermediaries and protected connections
+
+### [5.1. Proxies reverse proxies VPNs firewalls and load balancers](<sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>)
+
+1. **Classify a proxy by the side and protocol it serves:** distinguish client-selected forwarding, reverse proxying and load distribution without assuming separate devices.
+2. **Separate private connectivity from traffic policy:** identify VPN tunnel scope and firewall decisions without inferring universal protection or application permission.
+3. **Trace the failed hop and the evidence behind a health claim:** interpret a constructed multi-role edge and recognize the limited scope of a connection probe.
 
 [← Back to IT Vocabulary](<../README.md>)
