@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **45 of 191 approved lessons** are available.
+Implementation is in progress: **46 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -29,6 +29,7 @@ Domain indexes appear here as lessons are completed.
 | 3 | [Software Execution and Developer Tools](<03 Software Execution and Developer Tools/README.md>) — complete |
 | 4 | [Operating Systems Files and Environments](<04 Operating Systems Files and Environments/README.md>) — complete |
 | 5 | [Networks and the Internet](<05 Networks and the Internet/README.md>) — complete |
+| 6 | [Web Interfaces Clients and User Experience](<06 Web Interfaces Clients and User Experience/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -54,6 +55,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Artifact | [A work product with a producer and intended consumer](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | ASCII | [A smaller repertoire preserved in UTF-8](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Authoritative DNS server | [A server answering from its knowledge of a zone](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
+| Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Bandwidth (network) | [An overloaded term often used for information-carrying capacity](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -81,6 +83,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CIDR notation | [An address or prefix followed by a slash and prefix length](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Clarification question | [A focused request for a missing meaning or fact](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | CLI | [Command-line interface for a tool](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
+| Client (web) | [A participant initiating requests in a web interaction](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | CNAME record | [A DNS alias naming its canonical target](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Code point | [A Unicode number rather than stored bytes](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Code unit | [A fixed-size encoding-form unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -146,6 +149,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | FQDN | [Fully qualified domain name](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Frame | [A link-protocol transmission unit](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Framework | [Structure and coordination with application extension points](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
+| Frontend | [User-facing presentation and interaction responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
+| Full stack | [Work spanning frontend and backend under a stated scope](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Gate | [A configured condition required before proceeding](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Gateway (IP) | [A next-hop router in a forwarding context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | GB and GiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
@@ -281,6 +286,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
+| Server (web) | [A participant handling requests and returning responses](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service manager | [A component managing service lifecycle and state](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | SHA-256 | [A named cryptographic hash used in byte comparison](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
@@ -355,6 +361,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 | VPN | [Virtual private network](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | WAN | [Wide area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| Web app | [A web experience emphasizing interactive tasks](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
+| Website | [A web presence composed of related pages and resources](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Wi-Fi | [Wireless local-network access technology](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Wildcard bind | [Binding to any local address in the stated address family](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |

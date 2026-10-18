@@ -2138,3 +2138,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   exercise only; no network tuning, capture, deployment or reliability run claimed.
 - Next steps: D06.S01.L01, then all remaining D06–D18 units;146 approved leaves
   remain. Approval and full191-leaf scope are unchanged; no new gate exists.
+
+### D06.S01.L01 — Websites web apps frontend backend and full stack — verified
+
+- Done: D06.S01.L01; overlapping site/app labels, interaction roles, responsibility
+  versus execution/deployment, full-stack scope and solved booking-conflict card.
+  Created D06 index; progress46/191.
+- Files touched: new D06 README and sections/1. Client and server responsibilities/
+  1.1. Websites web apps frontend backend and full stack.md; track README; this LOG.
+- Links fixed / added: D06 prerequisites/leaf/track navigation, seven scoped lookup
+  entries and four precise prior/language owners. No unbuilt rendering/API links.
+- Research / Decisions: repo frontend/backend/full-stack/web-app heading search
+  found no dedicated general owner. Read full JS Browser script tags DevTools
+  console and module scripts leaf for host/actual-artifact distinctions; no script-
+  timing table, blanket module default or missing-section template copied. Reused
+  full Engines runtimes and hosts attribution calibration. Read relevant original
+  MDN educational sections:
+  https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/How_the_web_works
+  (client/server orientation)
+  https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Server-side/First_steps/Client-Server_overview
+  (static/dynamic roles, non-HTML responses, optional database interaction).
+  Rejected first primer's all-HTTP-over-TCP, IP-as-real-URL/unique-location,
+  per-packet-total-count and literal HTTP2-text simplifications; rejected overview's
+  only-GET static server, hand-maintained-all-static-pages and POST-for-all-updates
+  claims. Prior RFC9110 roles anchor interaction semantics. MDN Web glossary opened
+  for discovery but not used as read explanatory evidence. No framework prerequisite.
+- Verification: structural/link verifier passed (46 leaves,592 links across55 files,
+  required numbered sections/registrations, preserved proposal). Editorial check
+  matched three promises and each booking-card inference; actual changed availability
+  is stated, rejection not automatically defect, recovery behavior is proposed
+  against product requirements. Static exercise only; no booking/site deployment,
+  browser execution or performance run claimed.
+- Next steps: D06.S02.L01;145 approved leaves remain through D18.
