@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 4 of 12 approved lessons are available.
+This domain is in progress: 5 of 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 12 approved lessons are available.
 1. **Identify structure rules and their enforcement boundary:** distinguish schema descriptions, PostgreSQL namespaces, constraints, defaults and document validation settings.
 2. **Explain duplicated facts through their change consequences:** diagnose update/insert/delete anomalies and separate current-fact redundancy from intentional history.
 3. **Read a migration as a change with preconditions and evidence:** interpret schema/data changes, backfills, consumer compatibility and rollback limits through a constructed field rename.
+
+## 3. Access and abstraction
+
+### [3.1. Queries joins indexes views and query plans](<sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>)
+
+1. **Separate a query its matching rule and its result:** distinguish retrieval and row combinations, including the consequence of omitting an identity match.
+2. **Observe an index and a named query in a complete local example:** run SQLite tables, joins, before/after plans and a view after a source change in an in-memory database.
+3. **Interpret a plan as evidence about a specific execution strategy:** separate access paths, estimates, actual execution and measured duration without treating an index as a universal speedup.
 
 [← Back to IT Vocabulary](<../README.md>)

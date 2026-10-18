@@ -3020,3 +3020,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   for an implementation design; no false zero-downtime guarantee. Static exercises
   only; no SQL DDL, validator, backfill, rollback or migration benchmark executed.
 - Next steps: D08.S03.L01, then all subsequent approved units through D18.
+
+### D08.S03.L01 — Queries joins indexes views and query plans — verified
+
+- Done: D08.S03.L01; query/result/join distinctions, real complete SQLite experiment,
+  ordinary/materialized view comparison and estimate/execution/measurement boundaries.
+  Progress70/191;121 approved lessons remain.
+- Files touched: new sections/3. Access and abstraction/3.1. Queries joins indexes
+  views and query plans.md; D08/track README files; this LOG.
+- Links fixed / added: registration, eleven implemented lookup entries and three
+  precise previous owners. Generic views/indexes distinct from JS/TS type/array views.
+- Research / Decisions: repo query/index/SQL/ORM/join/view headings found language
+  array/string operations, static views and existing identity-collapse application,
+  not a general database owner. Reused JS observed-contrast and input/result tracing
+  calibration and actual D08 key/schema owners. Read actual primary tutorial/reference:
+  https://www.postgresql.org/docs/18/tutorial-join.html (join semantics plus footnote
+  distinguishing logical pairs from physical all-pairs algorithm)
+  https://www.postgresql.org/docs/18/tutorial-views.html (named query, not blanket
+  liberal-view-use-as-universal-best-practice)
+  https://www.postgresql.org/docs/18/rules-materializedviews.html (persisted result/
+  refresh, not an unconditional faster-than-source claim)
+  https://www.postgresql.org/docs/18/indexes-intro.html (planner choice/maintenance,
+  no production index-build prescription or every-unused-index-remove rule)
+  https://www.postgresql.org/docs/18/using-explain.html (basic nodes/cost/emitted
+  rows and ANALYZE actual execution; no sum-cost-as-time or sample-plan guarantee)
+  https://sqlite.org/eqp.html (May31 2025,high-level plan,SCAN/SEARCH,unstable output;
+  rejected every-sort-index-always-faster and no product syntax conflation)
+  https://sqlite.org/cli.html (actual dot-command,input-file,in-memory passages).
+  Official https://sqlite.org/download.html supplied stable3.54.1 tools metadata.
+  Downloaded only official2026/sqlite-tools-linux-x64-3540100.zip to memory, checked
+  SHA3-256555635de98534d87a67ee2e6e1b0d79f494b1b33b223477d3e7a8ea0c66e416f
+  and extracted sqlite3 alone to /tmp/it-vocab-sqlite. Actual --version3.54.1
+  (2026-10-16,64bit). No system runtime replaced; old Python SQLite not used.
+  Original course anomaly/access-pattern research supplies why-question teaching;
+  no new community snippet or unmeasured performance claim imported.
+- Verification: exact SQL fence extracted to booking_queries.sql alongside tested
+  binary; actual declared ./sqlite3 :memory: < booking_queries.sql ran Linux x86_64,
+  exit0,empty stderr,whole stdout exactly matched. Observed3 matched rows,6 cross
+  pairs,SCAN before/SEARCH named-index after and r17|Sara from view after update.
+  All data ephemeral. Structural/link verifier passed (70 leaves,1025 resolving
+  links across81 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched promises, explained all syntax
+  needed for reading, logical versus physical work and scoped plan output. No
+  PostgreSQL execution, materialized refresh, concurrency or speed benchmark claimed.
+- Next steps: D08.S03.L02, then every subsequent approved unit through D18.
