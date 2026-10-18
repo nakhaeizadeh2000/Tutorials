@@ -2,7 +2,7 @@
 
 Explain how programs receive resources, locate files and configuration, and report outcomes. Read [Software Execution and Developer Tools](<../03 Software Execution and Developer Tools/README.md>) first. The general vocabulary is cross-platform; concrete Linux and Python observations declare their environment and do not require administration of a server.
 
-This domain is in progress: 6 of 9 approved lessons are available.
+This domain is in progress: 7 of 9 approved lessons are available.
 
 ## 1. Operating system responsibilities
 
@@ -47,5 +47,11 @@ This domain is in progress: 6 of 9 approved lessons are available.
 1. **Separate allocation call state and object lifetime:** explain allocation, deallocation, stack and heap without assigning every value a universal storage location.
 2. **Distinguish virtual addresses resident RAM and swap:** identify address-space, residency and backing scopes before interpreting a memory report.
 3. **Observe a scoped allocation counter without confusing it with RSS:** run a bounded traced-allocation example and state the physical-memory claims it does not establish.
+
+### [4.2. Standard streams pipes exit codes and signals](<sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>)
+
+1. **Separate input output and diagnostic channels:** identify stdin/stdout/stderr independently from visible windows and completion status.
+2. **Trace data through a pipe without merging the other evidence:** run a bounded shell pipeline and preserve stage and data-format questions.
+3. **Distinguish a program exit from signal termination:** inspect separate streams, a deliberate nonzero exit and self-signaled child termination under the stated API.
 
 [← Back to IT Vocabulary](<../README.md>)

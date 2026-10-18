@@ -1701,3 +1701,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
 - Next steps: D04.S04.L02; remaining161 approved leaves through D18 stay in scope.
   User reiterated continue and requested remaining count; reported30/191 verified,
   161 remaining, with no change to approval or curriculum scope.
+
+### D04.S04.L02 — Standard streams pipes exit codes and signals — verified
+
+- Done: D04.S04.L02; distinct data/diagnostic/completion evidence, a real bounded
+  shell pipeline and separate deliberate child-exit/signal observations. Progress31/191.
+- Files touched: new sections/4. Resources and process outcomes/4.2. Standard
+  streams pipes exit codes and signals.md; D04/track README files; this LOG.
+- Links fixed / added: registration, eight lookup entries and three prior owners.
+- Research / Decisions: repo stream/pipe/exit/signal heading search found JS
+  lifecycle applications, not the general OS owner. Reused JS role/distinction
+  and failure-tracing calibration. Read focused originating references:
+  https://man7.org/linux/man-pages/man7/pipe.7.html (byte stream, finite capacity)
+  https://man7.org/linux/man-pages/man7/signal.7.html (SIGTERM default/symbolic scope)
+  https://docs.python.org/3.14/library/sys.html#sys.stdin (stream roles/buffering)
+  https://docs.python.org/3.14/library/subprocess.html#subprocess.CompletedProcess
+  (separate captured streams, POSIX negative signal representation). No fixed
+  capacity, universal numeric signal or shell/Python result equivalence taught.
+  Recovered complete1703-line LOG and actual indexes/Git after compaction; current
+  unit was unlogged/dirty, reconciled before any next unit. Approval intact.
+- Verification: extracted exact Python and Bash fences; ran parent process_outcomes.py
+  on CPython3.14.4/Linux x86_64 and pipeline on Bash5.3.9. Both inspecting commands
+  exit0, empty stderr and full outputs exactly match. Child deliberately exits3;
+  second fresh child signals itself, observed negative SIGTERM return representation.
+  Structural/link verifier passed (31 leaves,377 links across38 files, unchanged
+  closed proposal). Editorial check matched three promises, parent/child outcomes,
+  finite/captured scope and API-specific status. No throughput or shutdown-cleanup
+  guarantee tested. Full staged unit inspected before explicit-path commit.
+- Next steps: D04.S05.L01, then D04.S06.L01 and all D05–D18 units;160 approved
+  leaves remain. No further approval gate exists for this unchanged curriculum.
