@@ -898,3 +898,27 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   index promises, defined scenario terms and checked the worked reading answer.
   This is a static interpretation exercise, not code; no runtime test claimed.
 - Next steps: D01.S01.L02; remaining approved scope is all later ledger IDs.
+
+### D01.S01.L02 — Overloaded words and ambiguous abbreviations — verified
+
+- Done: D01.S01.L02; context comparisons for client/service/host/environment/token,
+  a request-report refinement, delivery/deployment ambiguity and a solved reading
+  exercise that separates interpretation from unsupported diagnosis.
+- Files touched: new sections/1. Words in context/1.2. Overloaded words and
+  ambiguous abbreviations.md; domain README; track README; this LOG.
+- Links fixed / added: domain registration, two lookup terms, prior-lesson link
+  and existing JavaScript host owner. Corrected an initially over-deep relative
+  JavaScript link detected by the verifier before committing.
+- Research / Decisions: reused section-wide DRY search; additional context/overload
+  heading search found TypeScript function overloads and execution-context owners,
+  distinct from word ambiguity. No claim to review every unrelated result.
+  Reconsulted NIST glossary usage caveat (2026-08-26 terms update), Fowler's
+  UbiquitousLanguage (2006) and ContinuousDelivery (2013), at URLs in Session 1.
+  These support scoped definitions and named CD distinctions, not a full delivery
+  lesson. Reused JavaScript host reference as the comparison benchmark.
+- Verification: final python3 /tmp/it-vocabulary-verify.py passed (2 leaves,
+  required numbered sections/domain registrations and all local links; closed
+  proposal preserved). Initial link-check failure was repaired before completion.
+  Editorially checked each index promise, example actors and the stated unknowns;
+  static reading/answer inspection only, no runtime/integration execution claimed.
+- Next steps: D01.S02.L01; every later approved ledger ID remains in scope.
