@@ -2857,3 +2857,45 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   routing only; no backend/security/recovery implementation or benchmark run claimed.
 - Next steps: D08.S01.L01, then every subsequent approved unit through D18.
   Curriculum revision1 approval/full191-leaf scope remains unchanged; no new gate.
+
+### D08.S01.L01 — Data datasets databases and database management systems — verified
+
+- Done: D08.S01.L01; collection/representation/product distinctions, client/engine/
+  server attribution, embedded SQLite comparison and solved old-export diagnosis.
+  Created D08 index; progress66/191;125 approved lessons remain.
+- Files touched: new D08 README and sections/1. Databases and models/1.1. Data
+  datasets databases and database management systems.md; track README; this LOG.
+- Links fixed / added: real D08 module/leaf registration, ten implemented lookup
+  entries and four precise prior owners. No future database lesson links.
+- Research / Decisions: recovered complete2859-line LOG in nontruncated chunks,
+  complete policies/continue skill/workflow/quality and root/track/neighbor indexes;
+  verified65 unique logged units against65 tracked leaves with Git history and
+  clean disk/staging at c5bc2ab8. Full-repo database/dataset/DBMS product heading
+  search found no competing owner. Reread full JS Engines runtimes and hosts for
+  neighboring-role attribution, rejecting universal conformance, console builtin,
+  thread/error, feature-detection-only and performance claims. Read existing IT
+  engine and format owners in full; used short reminders and precise links.
+  Relevant actual primary/originating explanations read:
+  https://www.postgresql.org/docs/18/tutorial-concepts.html (DBMS/table/database
+  organization; retrieved stable current18, banner19RC1 is prerelease)
+  https://www.postgresql.org/docs/18/tutorial-arch.html (client/server/file views;
+  product process layout not universalized)
+  https://sqlite.org/serverless.html (June12 2025,in-process architecture and two
+  serverless meanings; rejected all-disk-access permission, no-administration,
+  only-concurrent-embedded, broad security/concurrency and S3-as-database claims)
+  https://www.w3.org/TR/vocab-dcat-3/ (Aug22 2024Recommendation, metadata/overview
+  and focused dataset/distribution passages, not a full RDF/schema reading).
+  Prior discovery's guessed OpenStax9.2 path failed; book introduction supplied
+  only scope, no database explanation claimed. Primary tutorials provided adequate
+  accessible teaching alternatives. Python sqlite3 page was opened only for
+  discovery; not an API evidence source. Local Python3.14.4 sqlite runtime probe
+  reported3.46.1, so it is not used as a current stable database baseline or run.
+- Verification: structural/link verifier passed (66 leaves,954 resolving links
+  across77 files,required numbered sections/registrations,preserved closed proposal);
+  git diff --check passed. Reread full resulting lesson/index; editorial check
+  matched three promises, all packet times/inputs, software versus data changes,
+  removed-evidence uncertainty and SQLite alternative. Static reading exercise
+  only; no database/client connection, SQL execution, migration or speed test
+  claimed. Index/lookup additions inspected against actual defined terms.
+- Next steps: D08.S01.L02, then every subsequent approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact.

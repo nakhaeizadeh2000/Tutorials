@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **65 of 191 approved lessons** are available.
+Implementation is in progress: **66 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -31,6 +31,7 @@ Domain indexes appear here as lessons are completed.
 | 5 | [Networks and the Internet](<05 Networks and the Internet/README.md>) — complete |
 | 6 | [Web Interfaces Clients and User Experience](<06 Web Interfaces Clients and User Experience/README.md>) — complete |
 | 7 | [APIs Protocols and Integration](<07 APIs Protocols and Integration/README.md>) — complete |
+| 8 | [Databases Storage and Data Pipelines](<08 Databases Storage and Data Pipelines/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -145,7 +146,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CWD | [Current working directory of a process](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Dangling link | [A symbolic link whose target does not resolve](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Data | [Represented information with context and interpretation](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Database | [An organized collection maintained for access and use](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Database client | [Software requesting database operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Database engine | [Machinery performing database operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Database server | [Software serving database clients and managing operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Datagram | [A protocol-scoped data unit such as an IP or UDP datagram](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
+| Dataset | [A collection of data with an identified scope](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| DBMS | [Database management system software](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Deallocation | [Making storage available for reuse under its allocator](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Decimal prefix | [SI powers of ten](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Decoding | [Interpreting encoded data as text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -178,6 +186,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | EEPROM | [Rewritable device memory in the bootloader example](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Email address | [A mailbox reference with local and domain parts](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Email alignment | [The required relationship between an authenticated domain and the message author domain](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| Embedded database | [Database engine operating inside an application process](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Encapsulation (network) | [Carrying one protocol unit inside another](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Encoding | [Producing a defined text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Endianness | [Byte order in multi-byte representations](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
@@ -388,6 +397,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Port (transport) | [A protocol-scoped numeric endpoint identifier](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | POST | [Resource-defined processing of submitted content](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| PostgreSQL | [A DBMS product with a client/server architecture](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Prefix length | [The number of leading address bits specifying a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Prerendering | [Preparing HTML or a future browser navigation depending on context](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Private address | [An address from a stated private-use range](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -490,6 +500,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SPA | [Single-page application and within-document views](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Specification | [Defined behavior and requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | SPF | [Sender Policy Framework](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| SQLite | [An embedded database engine using a library](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | SSD | [Solid-state storage and what capacity does not prove](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | SSE | [Server-sent events delivered in an HTTP response stream](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | SSG | [Static site generation or its generator](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
