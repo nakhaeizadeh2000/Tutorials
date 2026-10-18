@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 5 of 9 approved lessons are available.
+This domain is in progress: 6 of 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 9 approved lessons are available.
 1. **Separate the editing application from the tools it launches:** distinguish editor, IDE and integrated terminal responsibilities.
 2. **Distinguish command interpretation from a command-line interface:** identify shell language, tool arguments and the program currently receiving input.
 3. **Recognize a REPL and the state of its session:** observe interactive evaluation and explain why its state differs from a saved file.
+
+### [3.2. Packages modules dependencies and package managers](<sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>)
+
+1. **Distinguish code organization from distribution units:** explain modules and ecosystem-specific package meanings without assuming matching names.
+2. **Trace a local dependency without confusing import and installation:** run two complete local files and observe an intentionally missing module.
+3. **Identify the package manager and the environment it manages:** separate distribution clients and registries from runtime loading and successful application execution.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -1412,3 +1412,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   (20 leaves,237 resolving links, required headings and preserved closed proposal).
   Editorial check matched promises, prompt-copy guidance and independent sessions.
 - Next steps: D03.S03.L02; every subsequent approved ledger unit remains in scope.
+
+### D03.S03.L02 — Packages modules dependencies and package managers — verified
+
+- Done: D03.S03.L02; module/distribution/import-package boundaries, dependency
+  stages, manager/registry roles and exact two-file success/missing-module example.
+  Track progress 21/191.
+- Files touched: new sections/3. Tools and interfaces/3.2. Packages modules
+  dependencies and package managers.md; D03/track README files; this LOG.
+- Links fixed / added: registration, seven lookup terms and existing category,
+  environment and JS module owners; no future D11 links.
+- Research / Decisions: reused section discovery and read full JS module index
+  and Static import forms and restrictions leaf. Transferred explicit provider/
+  consumer distinctions; avoided simulated namespace/live-binding examples and
+  unsupported import-form/performance claims. Primary teaching sources read:
+  https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/
+  (updated Oct12 2026; clear distribution/import-name mismatch and owner warning)
+  https://docs.python.org/3.14/tutorial/modules.html (file reuse/import behavior)
+  https://docs.npmjs.com/about-packages-and-modules/ (Jan5 2026; package metadata
+  context only). Compared ecosystems; did not adopt npm's narrow node_modules
+  module definition as a universal rule or duplicate JS resolver mechanics.
+  PyPA's practical mismatch question drives the new diagnosis and original example.
+- Verification: extracted both exact Python fences to temporary lesson_math.py
+  and report.py; CPython3.14.4/Linux x86_64, declared command exit0 with full stdout
+  Report result42. Copied report alone to a second empty folder; fresh process
+  with PYTHONPATH removed exited1 with exact stated ModuleNotFoundError. No network
+  installation/registry integration claimed. Structural/link verifier passed
+  (21 leaves,248 resolving links, required headings, unchanged closed proposal).
+  Editorial check matched promises and scoped the missing-module failure conditions.
+- Next steps: D03.S04.L01, then every subsequent approved unit through D18.
