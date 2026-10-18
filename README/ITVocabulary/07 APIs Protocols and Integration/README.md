@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 10 of 11 approved lessons are available.
+This domain is complete: all 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -75,5 +75,13 @@ This domain is in progress: 10 of 11 approved lessons are available.
 1. **Translate a description into actions representations and missing promises:** read an OpenAPI fragment and explicit product notes without treating an excerpt as a verified implementation.
 2. **Trace the failure packet to its last established boundary:** distinguish status mapping, fresh cached state, uncertain creation and runtime contract mismatch in four constructed cases.
 3. **Write a useful handoff and justify the next check:** preserve observations and uncertainty while choosing discriminating evidence and explaining interview reasoning.
+
+## 7. Overlaps to avoid
+
+### [7.1. Boundaries of API vocabulary](<sections/7. Overlaps to avoid/7.1. Boundaries of API vocabulary.md>)
+
+1. **Route interpretation questions to their existing conceptual owners:** use specific contract, message, format, update and browser-policy explanations without duplicating them.
+2. **Choose implementation and deeper guarantees as separate learning goals:** distinguish language mechanics, network diagnosis, security and distributed implementation from vocabulary competence.
+3. **Turn a mixed guarantee claim into a focused handoff:** identify separate evidence gaps in a constructed format, retry and access proposal and communicate them to two audiences.
 
 [← Back to IT Vocabulary](<../README.md>)

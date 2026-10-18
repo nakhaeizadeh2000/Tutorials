@@ -2831,3 +2831,29 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   No SDK build/runtime validation, live reservation/browser integration or benchmark
   claimed. Index promises/lookup additions correspond to the authored explanations.
 - Next steps: D07.S07.L01, then all approved D08–D18 units; approval unchanged.
+
+### D07.S07.L01 — Boundaries of API vocabulary — verified
+
+- Done: D07.S07.L01; ten conceptual-owner routes, language/network versus specialist
+  learning boundaries and solved mixed format/retry/access proposal for two audiences.
+  All eleven D07 approved outcomes implemented; progress65/191;126 leaves remain.
+- Files touched: new sections/7. Overlaps to avoid/7.1. Boundaries of API vocabulary.md;
+  D07/track README completion/progress; this LOG.
+- Links fixed / added: registration and sixteen precise conceptual/learning-owner
+  routes; D07 marked complete, track still in progress. No unpublished future links.
+- Research / Decisions: focused repo API-boundary heading search confirmed existing
+  CORS policy owner, not another full-domain routing guide. Reread full JS Fundamentals
+  boundary leaf for specific owner navigation; rejected historical future-TypeScript/
+  Web Platform labels and an absolute ban on useful minimal examples. Reused D07's
+  evaluated primary/practitioner source map and actual owners read during execution;
+  no new version, protocol or universal access/recovery claim. Root future-track
+  plan and approved later domains define study routes without authoring them early.
+- Verification: structural/link verifier passed (65 leaves,937 links across75 files,
+  required numbered sections/registrations,preserved proposal); whitespace check
+  passed. Executed domain registration/count assertions: all11 real D07 leaves and
+  completion status agree; track65/191 remains in progress. Editorial check matched
+  three promises and all eleven approved D07 outcomes to the indexed actual leaves;
+  proposal answers separate format,operation identity and access evidence. Static
+  routing only; no backend/security/recovery implementation or benchmark run claimed.
+- Next steps: D08.S01.L01, then every subsequent approved unit through D18.
+  Curriculum revision1 approval/full191-leaf scope remains unchanged; no new gate.
