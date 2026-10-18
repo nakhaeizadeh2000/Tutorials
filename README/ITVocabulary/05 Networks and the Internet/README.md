@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 11 of 12 approved lessons are available.
+This domain is complete: all 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -84,5 +84,13 @@ This domain is in progress: 11 of 12 approved lessons are available.
 1. **Record the attempted path and the last established outcome:** separate name resolution, connection, service verification and application response evidence.
 2. **Compare four failure cards without inventing a root cause:** interpret NXDOMAIN, refusal, identity mismatch and a scoped timeout with targeted next questions.
 3. **Write a useful handoff and justify the next observation:** preserve uncertainty, request correlation and intended policy while avoiding blind retries or broad changes.
+
+## 8. Overlaps to avoid
+
+### [8.1. Boundaries of network vocabulary](<sections/8. Overlaps to avoid/8.1. Boundaries of network vocabulary.md>)
+
+1. **Route a networking question by the missing competence:** separate interpreting protocols and observations from administering or implementing the network.
+2. **Keep application contracts security and reliability with their owners:** identify where the network model ends without repeating format, identity or distributed-system lessons.
+3. **Prepare a scoped next-study handoff:** solve a mixed network claim and state evidence and implementation work that remain.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -2113,3 +2113,28 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   proxy limitations checked. Static cards only; no real DNS/connect/TLS/request,
   ping, deployment repair or timeout-performance experiment claimed.
 - Next steps: D05.S08.L01;147 approved leaves remain through D18.
+
+### D05.S08.L01 — Boundaries of network vocabulary — verified
+
+- Done: D05.S08.L01; protocol/admin routing table, application/security/reliability
+  boundaries and solved mixed private-address/certificate/probe/UDP proposal.
+  All twelve D05 units complete; progress45/191.
+- Files touched: new sections/8. Overlaps to avoid/8.1. Boundaries of network
+  vocabulary.md; D05/track README progress/status; this LOG.
+- Links fixed / added: registration and eleven precise existing owner routes;
+  D05 complete. Planned specialist/later vocabulary domains have no placeholder links.
+- Research / Decisions: repo network/boundary/data-exchange heading search confirmed
+  network ownership and JS representation detail. Read full JS data-exchange
+  patterns leaf for ownership/comparison structure, rejecting its blanket JSON
+  validation, charset, line-splitting-memory and unsupported performance guidance.
+  Reused JS Fundamentals boundary calibration already reread in this session and
+  D05's evaluated primary/practitioner source map; no new API/version claim.
+  Root planned-track list and approved later-domain outcomes define learning routes,
+  not automatic permission to implement those specialist tracks.
+- Verification: structural/link verifier passed (45 leaves,578 links across53 files,
+  required numbered sections/registrations, preserved proposal). Editorially
+  matched all three promises, each synthesis inference to an existing owner and
+  all twelve approved D05 outcomes to actual registered leaves. Static routing
+  exercise only; no network tuning, capture, deployment or reliability run claimed.
+- Next steps: D06.S01.L01, then all remaining D06–D18 units;146 approved leaves
+  remain. Approval and full191-leaf scope are unchanged; no new gate exists.
