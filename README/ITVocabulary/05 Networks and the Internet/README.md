@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 8 of 12 approved lessons are available.
+This domain is in progress: 9 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -62,5 +62,11 @@ This domain is in progress: 8 of 12 approved lessons are available.
 1. **Classify a proxy by the side and protocol it serves:** distinguish client-selected forwarding, reverse proxying and load distribution without assuming separate devices.
 2. **Separate private connectivity from traffic policy:** identify VPN tunnel scope and firewall decisions without inferring universal protection or application permission.
 3. **Trace the failed hop and the evidence behind a health claim:** interpret a constructed multi-role edge and recognize the limited scope of a connection probe.
+
+### [5.2. TLS certificates HTTPS and historical SSL wording](<sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>)
+
+1. **Identify the channel and protocol behind protected-connection language:** distinguish TLS, HTTPS, handshake and historical SSL labels with explicit version scope.
+2. **Separate a certificate binding from successful service identity verification:** interpret CA, trust chain, subject alternative names and a constructed name mismatch without disabling checks.
+3. **Mark protection boundaries across an intermediary:** distinguish TLS termination, separate backend protection and application trust in a path diagram.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -2028,3 +2028,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   B or full client path. Tunnel endpoint/policy distinctions remain scoped. Static
   exercises only; no proxy/VPN/firewall deployment, live probe or throughput test.
 - Next steps: D05.S05.L02;150 approved leaves remain through D18.
+
+### D05.S05.L02 — TLS certificates HTTPS and historical SSL wording — verified
+
+- Done: D05.S05.L02; channel/version/SSL distinctions, CA/path/service-name checks,
+  SAN/mTLS orientation and solved reverse-proxy termination diagrams. Progress42/191.
+- Files touched: new sections/5. Intermediaries and protected connections/5.2.
+  TLS certificates HTTPS and historical SSL wording.md; D05/track READMEs; this LOG.
+- Links fixed / added: registration, eleven lookup terms and four precise prior owners.
+- Research / Decisions: repo TLS/SSL/certificate/HTTPS heading search found no
+  general owner. Reused JS role attribution and evidence-tracing calibration.
+  Read originating sources' focused relevant passages:
+  https://www.rfc-editor.org/rfc/rfc8446.html (TLS1.3 introduction/channel goals)
+  https://www.rfc-editor.org/rfc/rfc9525.html (typed SAN/reference-name verification)
+  https://www.rfc-editor.org/rfc/rfc5280.html (6 path-validation/trust-anchor goal)
+  https://www.rfc-editor.org/rfc/rfc8996.html (TLS1.0/1.1 deprecation)
+  https://www.rfc-editor.org/rfc/rfc7568.html (SSL3 prohibition)
+  https://www.rfc-editor.org/rfc/rfc9325.html (3.1.1 TLS1.2/1.3 version guidance)
+  https://www.rfc-editor.org/rfc/rfc9110.html (secure origin/intermediary boundaries)
+  https://letsencrypt.org/how-it-works/ (updated Aug2 2025, domain-control/issuance
+  explanation). CA's original educational process anchors domain validation,
+  not website honesty or deployment instructions. Did not import obsolete subject-
+  common-name fallback, broad per-version security guarantees, TLS1.2 deployment
+  statistics or a bypass recipe. Crypto/identity implementation stays later study.
+- Verification: structural/link verifier passed (42 leaves,544 links across50 files,
+  required headings/registrations, preserved proposal). Editorial check matched
+  promises, nonmatching sole DNS SAN despite valid path/time, TLS endpoints in both
+  diagrams and distinction between channel/storage/content trust. Static cards
+  only; no real certificate issuance/handshake/validation, trust-store change,
+  TLS bypass or encrypted-throughput measurement claimed.
+- Next steps: D05.S06.L01;149 approved leaves remain through D18.
