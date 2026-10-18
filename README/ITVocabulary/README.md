@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **50 of 191 approved lessons** are available.
+Implementation is in progress: **51 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -44,6 +44,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Absolute path | [A path anchored at its filesystem-view root](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Accept (socket) | [Obtain a socket for an incoming connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Access point | [A device role providing wireless network access](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| Accessibility | [Removing access barriers for people with disabilities](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Accessible name | [A programmatically available name identifying a control](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Address space | [Addresses available under a program execution model](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -55,6 +57,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Application session | [Context connecting a sequence of application interactions](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Artifact | [A work product with a producer and intended consumer](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | ASCII | [A smaller repertoire preserved in UTF-8](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| Assistive technology | [Technology supporting access and alternative interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Authoritative DNS server | [A server answering from its knowledge of a zone](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
@@ -68,6 +71,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Booting | [Starting a system toward a running environment](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Bootloader | [Loading or starting a subsequent boot stage](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Bottleneck | [A workload-specific limiting resource or path](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| Breakpoint | [A condition where layout rules change](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Browser API | [A programming interface supplied by a browser environment](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Build | [Configured preparation of software outputs](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Bundler | [A tool combining code and resource graphs into delivery outputs](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
@@ -213,6 +217,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Jitter (network) | [Delay variation under a specified metric](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | Kernel | [The core privileged operating-system component](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Kernel space | [The kernel execution and memory context](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
+| Keyboard focus | [The current target for keyboard interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | LAN | [Local area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Language implementation | [Machinery executing a language version](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Latency (network) | [Elapsed delay for stated network events and direction](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
@@ -309,6 +314,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Resident memory | [Memory currently in physical RAM for a specified scope](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Resource limit | [A scoped restriction on resource use](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
+| Responsive web design | [Adapting presentation to available sizes and conditions](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Retransmission | [Sending replacement data after inferred loss](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | Reverse proxy | [A server-side intermediary receiving requests and forwarding them to other servers](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
@@ -318,9 +324,11 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | RSS | [Resident set size and its measurement limits](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | RTT | [Round-trip time for a defined request-and-return observation](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | Runtime | [Execution environment or the phase of running](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
+| RWD | [Responsive web design](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | rwx | [Read write and execute or directory search permission symbols](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | SameSite | [Cookie sending restriction for cross-site contexts](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | SAN | [Subject alternative name certificate extension](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| Screen reader | [Software presenting content and control information through speech or braille](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
@@ -394,19 +402,25 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Type annotation | [A declared source-level type](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Type checking | [Checking type relationships with a specified scope](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | UDP | [User Datagram Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
+| UI | [User interface including controls content and feedback](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | UID and GID | [Linux numeric user and group identifiers](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Unicode | [Code points properties and text-processing rules](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Unix domain socket | [A socket family for local interprocess communication](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Usability | [Effectiveness efficiency and satisfaction for users goals and context](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Usability testing | [Observing representative people attempting relevant tasks](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | User account | [An identity recognized by a system](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | User space | [Application and supporting-program execution outside the kernel](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | UTF-16 | [Sixteen-bit code units and their counts](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UTF-32 | [Thirty-two-bit code units](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UTF-8 | [Byte-oriented Unicode text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| UX | [User experience across the product or service interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Viewport | [The browser area available to present a page](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Virtual memory | [An address-space abstraction with mappings and backing](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | VM | [Virtual machine with a language or infrastructure meaning](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 | VPN | [Virtual private network](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | WAN | [Wide area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| WCAG | [Web Content Accessibility Guidelines and scoped success criteria](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Web app | [A web experience emphasizing interactive tasks](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Web app manifest | [Descriptive and launch information for a web application](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Web Storage | [Browser string key/value stores with separate session and local areas](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |

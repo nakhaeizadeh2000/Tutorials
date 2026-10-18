@@ -2,7 +2,7 @@
 
 Identify the client artifacts and user-facing qualities behind web descriptions. Read Software Execution and Developer Tools and Networks and the Internet first. No frontend framework or prior UI course is required; examples introduce their own platform assumptions and distinguish inspected artifacts from executed behavior.
 
-This domain is in progress: 5 of 9 approved lessons are available.
+This domain is in progress: 6 of 9 approved lessons are available.
 
 ## 1. Client and server responsibilities
 
@@ -39,5 +39,13 @@ This domain is in progress: 5 of 9 approved lessons are available.
 1. **Separate application state from its storage mechanism:** distinguish memory, Web Storage, IndexedDB and cookies by scope and persistence without assuming local data is a server record.
 2. **Read cookie and session lifetimes separately:** interpret cookie attributes and partitioning while distinguishing page sessions, cookie lifetimes and application-session validity.
 3. **Diagnose a constructed state-loss report:** trace view reset, draft restore and session rejection to separate evidence and revise the diagnosis when the evidence changes.
+
+## 4. Experience and inclusion
+
+### [4.1. UI UX usability accessibility and responsive design](<sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>)
+
+1. **Distinguish the interface from the experience and task success:** interpret UI, UX and usability through users, goals, feedback and task evidence.
+2. **Recognize accessibility barriers and the scope of standards:** identify keyboard, naming and assistive-technology concerns while reading WCAG and evaluation claims with explicit limits.
+3. **Separate responsive layout from usable interaction:** classify a constructed viewport, keyboard and confirmation report without treating a screenshot or scan as complete workflow evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

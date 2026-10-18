@@ -2319,3 +2319,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static contract exercise only; no real browser data inspection/mutation, cookie
   exchange, login, expiry/restore integration or storage performance test claimed.
 - Next steps: D06.S04.L01, then every subsequent approved unit through D18.
+
+### D06.S04.L01 — UI UX usability accessibility and responsive design — verified
+
+- Done: D06.S04.L01; interface/experience/task-success distinctions, disability-
+  focused access barriers, scoped WCAG2.2 orientation and solved layout/keyboard/
+  feedback/scan evidence card. Progress51/191;140 approved lessons remain.
+- Files touched: new sections/4. Experience and inclusion/4.1. UI UX usability
+  accessibility and responsive design.md; D06/track README files; this LOG.
+- Links fixed / added: registration, fourteen lookup entries and three prior owners.
+- Research / Decisions: repo accessibility/usability/responsive/localization headings
+  found JS scheduling and locale applications, not a general UI/access owner.
+  Reused full JS neighboring-term contrast and checklist evidence calibration;
+  no numerical size/template requirement replaces the actual explanations.
+  Read selected originating explanations and standard passages:
+  https://www.w3.org/WAI/fundamentals/accessibility-intro/ (updatedFeb3 2026,
+  disability context, keyboard/assistive technology and evaluation limitations)
+  https://www.w3.org/WAI/fundamentals/accessibility-usability-inclusion/
+  (2016 distinctions, task/context scope and coordinated standards/user research)
+  https://www.w3.org/TR/WCAG22/ (Dec12 2024 Recommendation metadata, abstract,
+  guidance structure and focused2.1.1/2.1.2 passage; not a full standard review)
+  https://www.nngroup.com/articles/definition-user-experience/ (Norman/Nielsen1998)
+  https://www.nngroup.com/articles/usability-101-introduction-to-usability/
+  (Nielsen2012,reviewedJuly15 2026; task observation, not five-person/budget quotas,
+  conversion multipliers or all-users-leave universals)
+  https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design
+  (intro,viewport/breakpoint/flexible approach, not universal mobile capability)
+  https://alistapart.com/article/responsive-web-design/ (Marcotte2010, flexible
+  media rationale; historical techniques are not current defaults).
+  WCAG quickref opened for discovery, not claimed as complete criterion reading.
+  No legal/conformance conclusion or product-design audit of an actual app made.
+- Verification: structural/link verifier passed (51 leaves,676 links across60 files,
+  required numbered sections/registration, preserved proposal); whitespace check
+  passed. Editorial check matched three promises, user/task versus appearance,
+  keyboard barrier to actual selection, screenshot/scan scope and feedback/server
+  outcome uncertainty. Static interpretation exercise only; no real usability
+  session, accessibility scan/assistive-technology run, responsive layout test or
+  benchmark claimed. Native-control/storage lessons remain canonical owners.
+- Next steps: D06.S04.L02; continue every subsequent approved unit through D18.
