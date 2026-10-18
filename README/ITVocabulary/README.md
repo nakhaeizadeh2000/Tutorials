@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **58 of 191 approved lessons** are available.
+Implementation is in progress: **59 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -74,6 +74,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Bandwidth (network) | [An overloaded term often used for information-carrying capacity](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
+| Bidirectional streaming | [Independent message streams in both directions](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Binary (file) | [Non-text data or contextual shorthand for an executable](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | Binary notation | [Base two and value interpretation](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Binary prefix | [Ki Mi Gi and powers of two](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
@@ -106,6 +107,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CLI | [Command-line interface for a tool](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Client (web) | [A participant initiating requests in a web interaction](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Client failure report | [Environment actions outcomes and evidence for a client workflow](<06 Web Interfaces Clients and User Experience/sections/5. Applied interpretation/5.1. Read a client bug report and rendering claim.md>) |
+| Client stub | [Local code preparing a remote procedure invocation](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Client-side navigation | [Updating a view within the current document](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | CNAME record | [A DNS alias naming its canonical target](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Code point | [A Unicode number rather than stored bytes](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -199,7 +201,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | GET | [Retrieve a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Grapheme cluster | [A practical text-segmentation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| GraphQL | [API query language type system and execution model](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| GraphQL mutation | [An operation intended to change data](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| GraphQL query | [An operation requesting selected exposed fields](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| GraphQL subscription | [An operation yielding results over time](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Group | [An identity collection used for access management](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
+| gRPC | [An RPC framework using explicit service and message contracts](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Guarantee | [A promise within conditions and limits](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Handler (request) | [Code selected to handle an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Hard link | [Another name for the same underlying file object](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
@@ -235,9 +242,11 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Hybrid app | [Web content combined with a platform application container](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Hydration | [Connecting client application behavior to generated HTML](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Hydration mismatch | [Disagreement with expected initial client output](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| Hypermedia | [Representations conveying meaningful links or interaction controls](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | I/O | [Input and output](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | i18n | [Internationalization and preparation for varied audiences](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | IDE | [Integrated development environment and its actual facilities](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
+| IDL | [Interface definition language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | IMAP | [Internet Message Access Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Import package | [A Python module able to contain submodules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | IndexedDB | [Browser database API for structured client data](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -355,6 +364,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Protocol | [Rules governing communication and interpretation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
+| Protocol binding | [A mapping of messaging to an underlying protocol](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Proxy (network) | [An intermediary forwarding communication on behalf of another participant](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Public API | [An interface offered to outside consumers under a stated access contract](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Public suffix | [A registration boundary recorded in the Public Suffix List](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
@@ -381,6 +391,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Resource (HTTP) | [The target of an HTTP interaction](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Resource limit | [A scoped restriction on resource use](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 | Responsive web design | [Adapting presentation to available sizes and conditions](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| REST | [Representational State Transfer architectural style](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Retransmission | [Sending replacement data after inferred loss](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | Revalidation (HTTP) | [Checking whether a stored response can be reused](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Reverse proxy | [A server-side intermediary receiving requests and forwarding them to other servers](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
@@ -389,6 +400,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Router | [A role forwarding traffic between networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Routing | [Selecting how to forward traffic toward a destination](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Routing table | [Entries describing destination prefixes and forwarding actions](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
+| RPC | [Remote procedure call interaction model](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | RSS | [Resident set size and its measurement limits](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | RTL and LTR | [Right-to-left and left-to-right text direction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | RTT | [Round-trip time for a defined request-and-return observation](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
@@ -419,6 +431,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Site (browser) | [Scheme and registrable-domain boundary in a schemeful comparison](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | SMTP | [Simple Mail Transfer Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | SMTP envelope | [Transport sender and recipient information separate from message headers](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| SOAP | [An extensible structured messaging framework](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| SOAP envelope | [The containing SOAP message construct](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| SOAP fault | [SOAP-level failure information](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Socket | [An OS communication endpoint exposed to a program](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Socket address | [An address interpreted under its socket family](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Software | [Programs and associated instructions and material](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
@@ -438,6 +453,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | stale-while-revalidate | [Bounded stale service while validation is attempted](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Standard streams | [Conventional process input output and diagnostic channels](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | State (application) | [Information describing the current program or workflow situation](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| Stateless (REST) | [Requests do not depend on server-stored conversational context](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Static analysis | [Examining code without executing the analyzed application workload](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | stderr | [Standard error](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdin | [Standard input](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
@@ -484,7 +500,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | UDP | [User Datagram Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | UI | [User interface including controls content and feedback](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | UID and GID | [Linux numeric user and group identifiers](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
+| Unary RPC | [One request message and one response message](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Unicode | [Code points properties and text-processing rules](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| Uniform interface | [Common resource interaction constraints in REST](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Unix domain socket | [A socket family for local interprocess communication](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | URI | [Uniform Resource Identifier](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | URI reference | [An absolute or base-relative resource reference](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |

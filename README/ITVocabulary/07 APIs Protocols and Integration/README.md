@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 4 of 11 approved lessons are available.
+This domain is in progress: 5 of 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 11 approved lessons are available.
 1. **Recognize shared semantics across different HTTP versions:** distinguish message encoding and transport from business API versions and identify the observed hop.
 2. **Read cache storage freshness and reuse as separate decisions:** interpret cache locations and directives through a timeline without equating fresh with latest origin content.
 3. **Trace validators and negotiated representations:** explain conditional retrieval, stored-body reuse and variant matching without treating metadata as an access guarantee.
+
+## 3. Styles formats and schemas
+
+### [3.1. REST RPC GraphQL gRPC and SOAP](<sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>)
+
+1. **Separate architectural style interaction model and concrete technology:** classify REST, RPC, GraphQL, gRPC and SOAP without reducing the comparison to transport or format labels.
+2. **Recognize the contract artifacts behind GraphQL gRPC and SOAP:** interpret field selection, remote service definitions, call shapes and messaging envelopes with explicit limits.
+3. **Compare interfaces without inventing guarantees:** use constructed descriptions to identify supported conclusions and the next evidence needed.
 
 [← Back to IT Vocabulary](<../README.md>)

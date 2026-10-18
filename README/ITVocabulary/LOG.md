@@ -2603,3 +2603,43 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   source, weak/strong scope and language variant matching. No HTTP/cache deployment,
   protocol negotiation, origin validation, CDN integration or latency test claimed.
 - Next steps: D07.S03.L01, then every subsequent approved unit through D18.
+
+### D07.S03.L01 — REST RPC GraphQL gRPC and SOAP — verified
+
+- Done: D07.S03.L01; style/model/technology categories, REST constraint orientation,
+  GraphQL field selection, gRPC service/stub/call shapes, SOAP envelope/binding
+  and solved three-interface evidence comparison. Progress59/191;132 leaves remain.
+- Files touched: new sections/3. Styles formats and schemas/3.1. REST RPC GraphQL
+  gRPC and SOAP.md; D07/track README files; this LOG.
+- Links fixed / added: registration, eighteen lookup entries and four precise owners.
+- Research / Decisions: section-wide repo styles/formats/schema heading search found
+  JS data exchange and TS executed-schema owners; no competing general style owner.
+  Reused full JS neighboring-term and observable-contrast calibration, including
+  Holes vs undefined reread for the preceding unit; language-specific mechanics
+  and unsupported legacy performance claims not imported. Read focused originating
+  sources and original API designer comparison:
+  https://ics.uci.edu/~fielding/pubs/dissertation/rest_arch_style.htm (2000,5.1
+  constraints and5.2 orientation; no historical applet advice adopted)
+  https://graphql.org/learn/introduction/ (types/field selection, not automatic
+  versionless evolution or guaranteed work reduction)
+  https://graphql.org/learn/mutations/ and https://graphql.org/learn/subscriptions/
+  (operation kinds; rejected mutation guide's HTTP safety as mere convention and
+  subscription guide's universal bound-to-one-instance scaling assertion)
+  https://grpc.io/docs/what-is-grpc/introduction/ and
+  https://grpc.io/docs/what-is-grpc/core-concepts/ (service/stub/IDL and four call
+  shapes; rejected universally local-equivalent failure semantics and marketing)
+  https://www.w3.org/TR/soap12-part1/ (1.2 SecondEdition2007, intro,XML infoset,
+  binding,5.1 envelope and5.4 faults; name no longer acronym)
+  https://cloud.google.com/blog/products/application-development/rest-vs-rpc-what-problems-are-you-trying-to-solve-with-your-apis
+  (Martin Nally,Oct16 2018; procedure/resource comparison and goal questions).
+  Rejected Nally's HTTP-only-commercial-REST claim, blanket binary/efficiency and
+  uniform-HTTP-means-everything-else-known implications. Examples remain original
+  static contracts, no framework prerequisite or implementation course introduced.
+- Verification: structural/link verifier passed (59 leaves,837 links across69 files,
+  required sections/registrations,preserved proposal); whitespace check passed.
+  Editorial check matched all three promises, field-selection assumptions, unary
+  versus stream shapes, SOAP body requirement, resource/session-state distinction
+  and all three table inferences. Static GraphQL fragment/reading exercise only;
+  no GraphQL validation/execution, code generation, RPC/SOAP exchange or benchmark
+  claimed. Index/lookup additions inspected; each term has actual explanation.
+- Next steps: D07.S03.L02; every subsequent approved unit through D18 remains in scope.
