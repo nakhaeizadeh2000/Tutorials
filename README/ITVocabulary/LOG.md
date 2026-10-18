@@ -1970,3 +1970,34 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   reading, timeout/discard behavior and local-only evidence. No external reachability,
   multi-client load or health/performance benchmark claimed.
 - Next steps: D05.S04.L02;152 approved leaves remain through D18.
+
+### D05.S04.L02 — TCP UDP QUIC and protocol guarantees — verified
+
+- Done: D05.S04.L02; TCP stream/framing scope, UDP baseline versus added mechanisms,
+  QUIC reliable streams/optional DATAGRAM, ordering limits and solved application-
+  failure/unknown-outcome timeline. Progress40/191.
+- Files touched: new sections/4. Transport and endpoints/4.2. TCP UDP QUIC and
+  protocol guarantees.md; D05/track README files; this LOG.
+- Links fixed / added: registration, eight lookup entries and three prior owners.
+- Research / Decisions: repo TCP/UDP/QUIC/transport heading search found no general
+  owner; retained JS failure-tracing calibration and MIT's original socket teaching
+  distinction already read for this section. Read focused primary behavior:
+  https://www.rfc-editor.org/rfc/rfc9293.html (2.2 reliable ordered byte stream)
+  https://www.rfc-editor.org/rfc/rfc768.html (datagram/delivery limits)
+  https://www.rfc-editor.org/rfc/rfc8085.html (UDP congestion responsibility)
+  https://www.rfc-editor.org/rfc/rfc9000.html (overview and cross-stream loss scope)
+  https://www.rfc-editor.org/rfc/rfc9001.html (TLS/QUIC integration abstract)
+  https://www.rfc-editor.org/rfc/rfc9221.html (DATAGRAM support parameter and no
+  required retransmission)
+  https://www.rfc-editor.org/rfc/rfc9369.html (version2 publication/metadata).
+  Integrated existing stable DATAGRAM/version2 recognition rather than implying
+  RFC9000 is the only version; no universal client feature/default adoption claim.
+  Rejected UDP-always-unreliable-application, QUIC-no-wait and faster-by-name claims.
+- Verification: structural/link check passed (40 leaves,514 links across48 files,
+  required numbered sections/registrations, unchanged proposal). Editorial check
+  matched all four promises and traced each timeline variant: stated pre-storage
+  failure versus unknown application outcome versus stored/no-response duplicate
+  risk. Verified stream read partitions retain byte order and record boundaries
+  remain application-defined. Static cards only; no TCP-loss simulation, live
+  QUIC/UDP integration, timing benchmark or transaction execution claimed.
+- Next steps: D05.S05.L01;151 approved leaves remain through D18.

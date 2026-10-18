@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 6 of 12 approved lessons are available.
+This domain is in progress: 7 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -47,5 +47,12 @@ This domain is in progress: 6 of 12 approved lessons are available.
 1. **Identify an endpoint with its protocol address and port context:** distinguish a transport port, socket, connection and local socket family.
 2. **Observe a listener and its accepted connection separately:** run one bounded loopback exchange and compare the accepted socket with the listening port.
 3. **Read listening and connection claims without inferring service health:** distinguish local binding, remote reachability and successful application behavior in a report.
+
+### [4.2. TCP UDP QUIC and protocol guarantees](<sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>)
+
+1. **Read TCP reliability at the byte-stream boundary:** distinguish ordered delivery, retransmission and application message framing from business completion.
+2. **Interpret UDP without assuming every application above it is unreliable:** separate datagram delivery limits from added application or transport mechanisms.
+3. **Locate QUIC streams and datagrams above UDP:** recognize protected multiplexed transport, stream-specific ordering and negotiated datagram support.
+4. **Challenge a guarantee using a concrete failure timeline:** identify what an acknowledgement establishes and what remains an application-level question.
 
 [← Back to IT Vocabulary](<../README.md>)
