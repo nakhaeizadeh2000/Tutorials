@@ -2,7 +2,7 @@
 
 Connect hardware descriptions and data representations to the resources they describe. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) before beginning; no hardware purchase, administrator access or programming background is required. Examples distinguish physical components, instructions, data and measurements before discussing their limits.
 
-This domain is in progress: 3 of 8 approved lessons are available.
+This domain is in progress: 4 of 8 approved lessons are available.
 
 ## 1. Physical and logical components
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 8 approved lessons are available.
 1. **Read bits and bytes as patterns with a declared interpretation:** distinguish eight-bit patterns from unsigned, signed and other intended values.
 2. **Translate number bases without changing the underlying value:** explain binary and hexadecimal place values, prefixes and display padding.
 3. **Ask about width signedness and byte order before interpreting a field:** run a complete conversion and caught-overflow experiment and justify the alternate-endian exercise.
+
+### [2.2. Text characters Unicode and encodings](<sections/2. Data representation/2.2. Text characters Unicode and encodings.md>)
+
+1. **Distinguish a displayed character from code points and code units:** explain why grapheme, point, unit and byte counts can differ.
+2. **Separate text from the bytes used to exchange it:** distinguish Unicode, ASCII, UTF encodings and normalization with explicit scope.
+3. **Observe distinct counts and decoding failures in a complete example:** run the exact Python observation and explain normalization equality and rejected invalid UTF-8.
 
 [← Back to IT Vocabulary](<../README.md>)

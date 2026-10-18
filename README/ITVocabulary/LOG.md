@@ -1128,3 +1128,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Structural/link verification passed (10 leaves, 123 local links, closed proposal
   preserved). Editorial check matched promises and distinguished padding from width.
 - Next steps: D02.S02.L02, followed by all remaining approved ledger units.
+
+### D02.S02.L02 — Text characters Unicode and encodings — verified
+
+- Done: D02.S02.L02; code point/unit/byte/grapheme distinctions, UTF/ASCII,
+  normalization policy and a complete observed text-count/decoding example.
+- Files touched: new sections/2. Data representation/2.2. Text characters Unicode
+  and encodings.md; domain/track README files; this LOG. Progress 11/191.
+- Links fixed / added: domain registration, twelve lookup entries, prior byte
+  leaf and precise JavaScript string-unit/point/grapheme owner.
+- Research / Decisions: reused section-wide DRY; read the full JavaScript indexing/
+  length leaf for comparative examples and ownership, not its blanket normalization
+  recommendation or unsupported performance claims. Primary Unicode FAQ, UAX29
+  segmentation and UAX15 normalization excerpts define representations/equivalence;
+  Python Unicode HOWTO anchors the executed API behavior:
+  https://www.unicode.org/faq/utf_bom.html
+  https://www.unicode.org/reports/tr29/
+  https://www.unicode.org/reports/tr15/
+  https://docs.python.org/3.14/howto/unicode.html
+  Compared approachable explanation with the standard's user-perceived-character
+  approximation caveat; did not equate a grapheme with one universal human character
+  or prescribe normalization of byte-exact signed content. Retrieved standard
+  pages are current references; tested runtime explicitly uses Unicode 16.0.0.
+- Verification: exact Python fence extracted to temporary text_counts.py and run
+  as declared on Python 3.14.4/Linux x86_64, exit 0. Full output matched: A 1/1/1,
+  precomposed e-acute 1/2/1, decomposed 2/3/2, emoji 1/4/2 (points/UTF8 bytes/UTF16
+  units); raw equality False, NFC equality True, invalid UTF8 caught. No font or
+  grapheme-segmentation execution claimed. Structural/link check passed (11 leaves,
+  138 local links, required sections and immutable closed proposal).
+- Next steps: D02.S03.L01; all remaining approved ledger IDs continue in scope.
