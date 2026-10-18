@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **68 of 191 approved lessons** are available.
+Implementation is in progress: **69 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -77,6 +77,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Authoritative DNS server | [A server answering from its knowledge of a zone](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
+| Backfill | [Populating or transforming previously stored records](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Bandwidth (network) | [An overloaded term often used for information-carrying capacity](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Bidirectional streaming | [Independent message streams in both directions](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
@@ -107,6 +108,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Certificate chain | [A sequence supporting validation toward a configured trust anchor](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Changelog | [A record of changes across releases](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Character encoding | [A representation of text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| CHECK constraint | [A database expression restricting allowed values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Checksum | [A check value tied to an algorithm and input](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | CHIPS | [Cookies Having Independent Partitioned State](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | CIDR notation | [An address or prefix followed by a slash and prefix length](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -131,6 +133,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Configuration precedence | [The application-defined order for selecting among setting sources](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | CONNECT | [Establish an HTTP tunnel](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Connection refusal | [A failed connection attempt reporting refusal](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
+| Constraint (database) | [Enforced restriction on allowed data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Core | [Physical processor execution resources](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
@@ -151,10 +154,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Dangling link | [A symbolic link whose target does not resolve](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Data | [Represented information with context and interpretation](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Data migration | [Movement or transformation of data values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Data model | [Structures and relationships organizing information](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Database | [An organized collection maintained for access and use](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Database client | [Software requesting database operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Database engine | [Machinery performing database operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Database migration | [Controlled change between expected database states](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Database schema | [Database structure and rules or a scoped object namespace](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Database server | [Software serving database clients and managing operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Datagram | [A protocol-scoped data unit such as an IP or UDP datagram](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Dataset | [A collection of data with an identified scope](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
@@ -165,6 +171,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Default | [Selection without an applicable override](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Default route | [A route used when no more specific applicable destination route is selected](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | DELETE (HTTP) | [Remove the target’s current functionality association](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Delete anomaly | [Unintended loss of independent facts on deletion](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Denormalization | [Deliberate redundant or precombined data representation](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Dependency | [A requirement of a component at a stated stage](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Deployment environment | [An operating context such as staging or production](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Deprecated | [Discouraged use versus actual removal](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -291,6 +299,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | IndexedDB | [Browser database API for structured client data](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Informative material | [Explanatory rather than requirement-defining material](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Initialism | [Initial letters spoken separately](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Insert anomaly | [Inability to add an independent fact without unrelated data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Instant | [A particular point on the timeline](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Integration diagnosis | [Tracing a contract and observations to a specific failed or uncertain boundary](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
 | Internal API | [An interface for consumers within a stated system or organization](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
@@ -365,9 +374,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | no-cache | [Response reuse requires successful validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | no-cors | [A restricted request mode without readable cross-origin response content](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Normal form | [Specific criteria for assessing a relational structure](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Normalization (database) | [Organizing relational structures through dependencies and anomaly analysis](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Normalization (Unicode) | [Defined equivalence transformations](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Normative material | [Material defining conformance or requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | NoSQL | [Umbrella label for several database families beyond traditional relational SQL categories](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
+| NOT NULL | [A rule excluding SQL null values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | NS record | [A DNS name-server record](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | NXDOMAIN | [A DNS name-error result under the queried naming context](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
 | OAS | [OpenAPI Specification](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
@@ -472,6 +484,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Revalidation (HTTP) | [Checking whether a stored response can be reused](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Reverse proxy | [A server-side intermediary receiving requests and forwarding them to other servers](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Rollback (data change) | [Attempt to return to an earlier data or schema state](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Route (server) | [A rule selecting handling behavior for an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Router | [A role forwarding traffic between networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Routing | [Selecting how to forward traffic toward a destination](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -491,6 +504,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SameSite | [Cookie sending restriction for cross-site contexts](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | SAN | [Subject alternative name certificate extension](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Scalar | [A single value contrasted with a collection](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
+| Schema migration | [Change to database structures or rules](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Schema validation | [Checking a data instance against stated schema rules](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Screen reader | [Software presenting content and control information through speech or braille](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
@@ -593,6 +607,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Unicode | [Code points properties and text-processing rules](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Uniform interface | [Common resource interaction constraints in REST](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Unix domain socket | [A socket family for local interprocess communication](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Update anomaly | [Inconsistent repeated facts after a change](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | URI | [Uniform Resource Identifier](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | URI reference | [An absolute or base-relative resource reference](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | URL | [Uniform Resource Locator](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |

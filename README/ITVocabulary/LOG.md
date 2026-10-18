@@ -2982,3 +2982,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static data/artifact checks only; no database insertion, constraint enforcement,
   multi-user concurrency, query execution or latency benchmark claimed.
 - Next steps: D08.S02.L02; every subsequent approved unit through D18 remains in scope.
+
+### D08.S02.L02 — Schemas constraints normalization and migrations — verified
+
+- Done: D08.S02.L02; structure/namespace/enforcement distinctions, original current-
+  title anomaly exercise, historical-data contrast and contact-field transition
+  review with backfill/rollback limits. Progress69/191;122 leaves remain.
+- Files touched: new sections/2. Relational and document language/2.2. Schemas
+  constraints normalization and migrations.md; D08/track README files; this LOG.
+- Links fixed / added: registration, fifteen contextual lookup entries and three
+  precise owners; database normalization kept distinct from existing Unicode owner.
+- Research / Decisions: reused section-wide database-specific DRY search, existing
+  key/schema owner and reread JS observable-contrast benchmark. Read relevant primary
+  and original teaching passages:
+  https://www.postgresql.org/docs/18/ddl-schemas.html (namespace introduction/name
+  qualification; not an operational search_path/security recipe)
+  https://www.mongodb.com/docs/manual/core/schema-validation/ (retrieved9.0Current,
+  type/range,existing-document level,reject/warn; rejected all-inserts-always-rejected
+  implication when warning/bypass settings apply)
+  plus PG18 constraints actual CHECK-null/default passages read for this section.
+  https://opencs.aalto.fi/en/courses/databases/part-8/4-normalization (original course,
+  objectives,three anomaly passages and focused dependency/normal-form excerpts;
+  selected causal anomaly teaching, rejected sample-only proof of a required
+  dependency, key-or-part-of-key universal normalization rule, all-redundancy-gone,
+  surrogate-ID-implies-BCNF and composite-time-key-prevents-overlap claims).
+  https://martinfowler.com/articles/evodb.html (Sadalage/Fowler,May2016,actual migration
+  capture/contents/order/application record passages; rejected all-changes-always-
+  refactorings,all-data-version-controlled,never-GUI and universal tool/process rules).
+  Reused Fowler2013 implicit-schema research and current product validation evidence.
+  No full normal-form algorithm course or production migration recipe introduced.
+- Verification: structural/link verifier passed (69 leaves,1010 resolving links
+  across80 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises and traced
+  repeated current title versus intentional historical title, null/range distinction,
+  field rename readers/writers/backfill and irreversible-information-loss reasoning.
+  Proposed sequence explicitly leaves concurrency/failure coordination unresolved
+  for an implementation design; no false zero-downtime guarantee. Static exercises
+  only; no SQL DDL, validator, backfill, rollback or migration benchmark executed.
+- Next steps: D08.S03.L01, then all subsequent approved units through D18.

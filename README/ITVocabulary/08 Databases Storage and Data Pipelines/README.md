@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 3 of 12 approved lessons are available.
+This domain is in progress: 4 of 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 12 approved lessons are available.
 1. **Read records attributes and nested documents:** interpret two tables and a JSON-shaped booking without confusing a record, field and collection.
 2. **Distinguish identifiers keys and enforced references:** explain primary/composite/foreign keys, referential integrity and embedding versus references with explicit scope.
 3. **Explain relationship counts and diagnose a broken model claim:** interpret one-to-one, one-to-many and many-to-many associations and challenge rules inferred only from names.
+
+### [2.2. Schemas constraints normalization and migrations](<sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>)
+
+1. **Identify structure rules and their enforcement boundary:** distinguish schema descriptions, PostgreSQL namespaces, constraints, defaults and document validation settings.
+2. **Explain duplicated facts through their change consequences:** diagnose update/insert/delete anomalies and separate current-fact redundancy from intentional history.
+3. **Read a migration as a change with preconditions and evidence:** interpret schema/data changes, backfills, consumer compatibility and rollback limits through a constructed field rename.
 
 [← Back to IT Vocabulary](<../README.md>)
