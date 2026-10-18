@@ -1812,3 +1812,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   observed connectivity. Static exercise only; no live network discovery, traffic
   capture, Internet reachability or performance measurement claimed.
 - Next steps: D05.S02.L01;157 approved lessons remain through D18.
+
+### D05.S02.L01 — Packets frames protocols and network layers — verified
+
+- Done: D05.S02.L01; protocol/unit/header/payload distinctions, nested Ethernet/IP
+  picture, responsibility models and solved two-link forwarding card. Progress35/191.
+- Files touched: new sections/2. Moving and addressing data/2.1. Packets frames
+  protocols and network layers.md; D05/track README files; this LOG.
+- Links fixed / added: registration, eleven lookup entries and three prior owners.
+- Research / Decisions: repo packet/frame/layer search found language stack frames
+  and programming encapsulation, distinct owners. Reused JS layer-attribution
+  calibration and read prior representation owner. Primary focused passages:
+  https://www.rfc-editor.org/rfc/rfc1122.html (1.1.3,1.3.3,next-hop intro only)
+  https://www.rfc-editor.org/rfc/rfc894.html (IPv4 over Ethernet framing,1984)
+  https://www.rfc-editor.org/rfc/rfc826.html (address roles/packet generation,1982)
+  https://www.rfc-editor.org/rfc/rfc8200.html (IPv6 Hop Limit,2017).
+  Historical architecture/format references are scoped, not current tuning or
+  obsolete route-cache prescriptions. Read Julia Evans's original May11 2021
+  OSI/TCP-IP article https://jvns.ca/blog/2021/05/11/what-s-the-osi-model-/ for
+  model-mismatch pedagogy and protocol-specific language. Rejected its ICMP-as-
+  transport example, tentative historical claims and sample HTTP/UDP shorthand;
+  no forced header-per-layer model. Zine search snippets are not read evidence.
+- Verification: structural/link verifier passed (35 leaves,428 resolving local
+  links across43 files, required sections, preserved proposal). Editorial check
+  matched promises, nesting direction, MAC/IP target scope and stated no-NAT/
+  no-tunnel/no-fragmentation assumptions; distinguished intended IP destination
+  from mutable fields. Static trace only; no packet capture, route discovery or
+  network benchmark claimed. Unit/index changes inspected before commit.
+- Next steps: D05.S02.L02;156 approved lessons remain through D18.
