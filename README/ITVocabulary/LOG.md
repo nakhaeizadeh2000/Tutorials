@@ -2394,3 +2394,33 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   cards are distinguished from actual fixed-offset execution; no named-zone DST,
   locale formatter, translated UI or performance run claimed.
 - Next steps: D06.S05.L01, then all subsequent approved units through D18.
+
+### D06.S05.L01 — Read a client bug report and rendering claim — verified
+
+- Done: D06.S05.L01; complete fictional client packet, scoped reproduction,
+  evidence/hypothesis table, removal-of-evidence variations, handoff and proposed
+  discriminating checks/interview reasoning. Progress53/191;138 leaves remain.
+- Files touched: new sections/5. Applied interpretation/5.1. Read a client bug
+  report and rendering claim.md; D06/track README files; this LOG.
+- Links fixed / added: registration, one lookup term and five precise existing owners.
+- Research / Decisions: focused repo client-report/rendering/reproduction headings
+  found TS tooling reproductions, not a competing general client exercise. Reused
+  complete JS Fundamentals checklist and Promise tracing calibration already read
+  for synthesis/evidence boundaries, without their legacy universal runtime rules.
+  Reused D06's evaluated MDN generation/platform/storage source map and WAI actual
+  evaluation passage https://www.w3.org/WAI/fundamentals/accessibility-intro/.
+  Reused earlier complete original Julia Evans question guidance
+  https://jvns.ca/blog/2021/10/21/how-to-get-useful-answers-to-your-questions/
+  for current-understanding/missing-fact handoffs, not requiring beginners to
+  qualify for help. No new platform/API guarantee; artifacts are original fiction.
+  Scope deliberately distinguishes viewport evidence from mobile hardware and
+  custom initialization from an unproven hydration implementation.
+- Verification: structural/link verifier passed (53 leaves,702 links across62 files,
+  required sections/registration, unchanged proposal); whitespace check passed.
+  Editorial check matched three promises and every table conclusion to a packet
+  row; removed unsupported automatic cause inference and called timing a scoped
+  observation rather than a universally unacceptable deadline. Removed-generation
+  and removed-acceptance variants weaken the appropriate conclusions. Proposed
+  tests remain unexecuted; no real app, user study, accessibility scan, physical
+  device, server reservation or four-second performance observation claimed.
+- Next steps: D06.S06.L01, then all D07–D18 units; approval/full scope unchanged.

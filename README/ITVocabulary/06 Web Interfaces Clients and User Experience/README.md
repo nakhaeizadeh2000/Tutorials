@@ -2,7 +2,7 @@
 
 Identify the client artifacts and user-facing qualities behind web descriptions. Read Software Execution and Developer Tools and Networks and the Internet first. No frontend framework or prior UI course is required; examples introduce their own platform assumptions and distinguish inspected artifacts from executed behavior.
 
-This domain is in progress: 7 of 9 approved lessons are available.
+This domain is in progress: 8 of 9 approved lessons are available.
 
 ## 1. Client and server responsibilities
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 9 approved lessons are available.
 1. **Distinguish preparation from audience-specific adaptation:** interpret i18n, l10n, translation and direction without equating extracted strings with a finished localized experience.
 2. **Read locale language and formatting choices separately:** identify missing conventions in dates, quantities, currency and meeting displays without guessing the user’s location.
 3. **Separate instants offsets zones and calendar dates:** run a fixed-offset observation and distinguish timeline equality, changing zone rules and date-only or recurring requirements.
+
+## 5. Applied interpretation
+
+### [5.1. Read a client bug report and rendering claim](<sections/5. Applied interpretation/5.1. Read a client bug report and rendering claim.md>)
+
+1. **Extract the environment action and expected outcome:** read a constructed client report without equating a narrow desktop viewport with a mobile implementation.
+2. **Separate observation diagnosis and unsupported claims:** evaluate SSR, readiness, keyboard and confirmation evidence and reduce certainty when supporting evidence is removed.
+3. **Write a handoff and choose discriminating follow-up checks:** propose independent task-based checks without reporting them as executed or assigning causes from visible symptoms alone.
 
 [← Back to IT Vocabulary](<../README.md>)
