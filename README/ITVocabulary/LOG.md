@@ -1550,3 +1550,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   filtered scope and no durability/performance inference. Actual syscall observation,
   not an inferred boundary or measured normal-speed benchmark.
 - Next steps: D04.S01.L02; all subsequent approved units through D18 remain in scope.
+
+### D04.S01.L02 — Processes threads tasks and services — verified
+
+- Done: D04.S01.L02; process/thread/resource/identity boundaries, actual thread
+  and child-process observation, contextual task and managed-service/daemon roles.
+  Progress26/191.
+- Files touched: new sections/1. Operating system responsibilities/1.2. Processes
+  threads tasks and services.md; D04/track README files; this LOG.
+- Links fixed / added: registration, seven lookup terms and prior OS/CPU/context owners.
+- Research / Decisions: focused repo process/thread/task/service search found
+  JS event-loop and TS service-process applications; kept general OS vocabulary
+  here and later concurrency detail separate. Reused layer and contrasting-
+  observation JS calibration. OpenStax6.2 supplies program/process learner context;
+  rejected its universal lighter/faster thread table. Primary contracts read:
+  https://man7.org/linux/man-pages/man7/pthreads.7.html (DESCRIPTION resource/ID roles)
+  https://docs.python.org/3.14/library/threading.html (start/join/identity/daemon scope)
+  https://docs.python.org/3.14/library/subprocess.html#subprocess.check_output
+  https://man7.org/linux/man-pages/man5/systemd.service.5.html (description/restart)
+  Freedesktop latest service manual retrieval failed; man7's actual systemd manual
+  supplied accessible originating documentation. No service configuration changes
+  or current systemd-version/default-policy prescriptions taught.
+- Verification: exact execution_units.py fence ran CPython3.14.4/Linux x86_64,
+  exit0; full stdout matched same-process True, different-thread True and
+  different-child-process True. join completes the worker before subprocess work;
+  check_output completes the child. No parallel CPU execution or overhead claim.
+  Structural/link verifier passed (26 leaves,307 resolving links, required headings,
+  unchanged proposal). Editorial check matched promises and service/PID reasoning.
+- Next steps: D04.S02.L01; all subsequent approved units remain in scope.
