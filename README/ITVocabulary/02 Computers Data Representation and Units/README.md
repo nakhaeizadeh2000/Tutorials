@@ -2,7 +2,7 @@
 
 Connect hardware descriptions and data representations to the resources they describe. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) before beginning; no hardware purchase, administrator access or programming background is required. Examples distinguish physical components, instructions, data and measurements before discussing their limits.
 
-This domain is in progress: 2 of 8 approved lessons are available.
+This domain is in progress: 3 of 8 approved lessons are available.
 
 ## 1. Physical and logical components
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 8 approved lessons are available.
 1. **Distinguish processors and the execution resources they expose:** separate CPUs, cores, logical CPU counts and GPU design emphasis without assuming automatic parallel speedups.
 2. **Distinguish working memory from retained files and capacity from speed:** trace a document through RAM, storage and processing and interpret capacity/frequency limits.
 3. **Read a resource report as scoped evidence:** run an optional complete Python metadata example and explain why its logical counts do not diagnose a bottleneck.
+
+## 2. Data representation
+
+### [2.1. Bits bytes binary hexadecimal and machine words](<sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>)
+
+1. **Read bits and bytes as patterns with a declared interpretation:** distinguish eight-bit patterns from unsigned, signed and other intended values.
+2. **Translate number bases without changing the underlying value:** explain binary and hexadecimal place values, prefixes and display padding.
+3. **Ask about width signedness and byte order before interpreting a field:** run a complete conversion and caught-overflow experiment and justify the alternate-endian exercise.
 
 [← Back to IT Vocabulary](<../README.md>)

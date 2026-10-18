@@ -1100,3 +1100,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   passed: 9 leaves and 112 resolving local links; closed proposal unchanged.
   Editorial check matched all three promises and explained equality of the counts.
 - Next steps: D02.S02.L01, then all remaining approved units across D02–D18.
+
+### D02.S02.L01 — Bits bytes binary hexadecimal and machine words — verified
+
+- Done: D02.S02.L01; bit-pattern interpretation, base notation, width/signedness,
+  byte order and a complete successful/intentional-failure example. Progress 10/191.
+- Files touched: new sections/2. Data representation/2.1. Bits bytes binary
+  hexadecimal and machine words.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, eight lookup terms, prior resources
+  leaf and precise JavaScript byte/view owner.
+- Research / Decisions: section-wide repo binary/hex/encoding/Unicode heading
+  search found JavaScript typed-array and string owners. Read the complete
+  ArrayBuffer TypedArray and DataView leaf for shared-bytes/different-view teaching
+  and ownership, without copying its fixed-buffer/history/performance claims.
+  Primary behavior: Python 3.14 integer from_bytes/to_bytes and format references
+  https://docs.python.org/3.14/library/stdtypes.html#int.from_bytes and
+  https://docs.python.org/3.14/library/functions.html#format.
+  Read Microsoft WORD definition (2024-11-07 page) at
+  https://learn.microsoft.com/en-us/windows/win32/winprog/windows-data-types
+  as a counterexample to inferring type width from host labels. Unicode FAQ was
+  opened for the following text unit. OpenStax representation coverage helped
+  identify beginner questions; mathematical place values are verified directly.
+- Verification: extracted exact Python fence into temporary byte_patterns.py and
+  ran python3 byte_patterns.py on Python 3.14.4/Linux x86_64, exit 0. Full output
+  exactly matched the leaf: 65, 01000001, 41, 258/513, 255/-1 and caught overflow.
+  Executed exercise assertions for 01 00 yielding 256 big-endian and 1 little-endian.
+  Structural/link verification passed (10 leaves, 123 local links, closed proposal
+  preserved). Editorial check matched promises and distinguished padding from width.
+- Next steps: D02.S02.L02, followed by all remaining approved ledger units.
