@@ -3309,3 +3309,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   proposed checks remain unexecuted. Static integration exercise only; no actual
   overbooking,migration,email,CDC,replication,recovery rehearsal or benchmark claimed.
 - Next steps: D08.S08.L01,then every approved D09–D18 unit; full scope unchanged.
+
+### D08.S08.L01 — Boundaries of data vocabulary — verified
+
+- Done: D08.S08.L01; ten conceptual-owner routes,cross-domain meanings,deeper
+  implementation learning boundaries and solved mixed storage/access/capture claim
+  for two audiences. All twelve D08 approved outcomes implemented;progress77/191;
+  114 approved leaves remain across D09–D18.
+- Files touched: new sections/8. Overlaps to avoid/8.1. Boundaries of data vocabulary.md;
+  D08/track README completion/progress; this LOG.
+- Links fixed / added: registration,sixteen precise owner/domain routes,D08 complete.
+  No unpublished later-domain or specialist-track placeholder links added.
+- Research / Decisions: focused repo data-boundary heading search found no competing
+  owner. Reread full JS Fundamentals boundary for owner navigation, rejecting its
+  historical future-TypeScript/WebPlatform labels and absolute no-minimal-example
+  template. Reused D08's evaluated primary/original source map and actual owners
+  read during execution. Root planned Databases/DatabaseDesign/ORM/Redis entries
+  define deeper study routes,not claims of published content. No new product,
+  protocol,security,distributed or universal recovery/performance claim added.
+- Verification: structural/link verifier passed (77 leaves,1153 resolving links
+  across88 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Executed D08 registration/count/completion assertions:
+  all12 real leaves registered,domain complete,track77/191 remains in progress.
+  Editorial check matched three promises and all twelve approved D08 outcomes
+  against actual index/lessons. Mixed-claim answer and added-restore variation
+  preserve independent freshness/performance uncertainty. Static routing exercise;
+  no new DBMS/ORM/cache/CDC/distributed/recovery implementation or benchmark claimed.
+- Next steps: D09.S01.L01,then every subsequent approved unit through D18.
+  Curriculum revision1 approval/full191-leaf scope remains intact;no new gate.

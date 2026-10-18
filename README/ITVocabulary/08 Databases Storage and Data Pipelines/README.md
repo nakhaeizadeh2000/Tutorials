@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 11 of 12 approved lessons are available.
+This domain is complete: all 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -83,5 +83,13 @@ This domain is in progress: 11 of 12 approved lessons are available.
 1. **Translate the proposal into separate responsibilities and promises:** map typed, flexible, transactional, replicated and captured claims to actual rule, operation, time and failure evidence.
 2. **Trace observations to supported conclusions:** analyze a constructed capacity, field-change, email, analytics and deletion packet without inventing unobserved guarantees.
 3. **Choose discriminating checks and write a concrete handoff:** communicate to technical/product audiences, revise certainty when evidence changes and justify focused verification.
+
+## 8. Overlaps to avoid
+
+### [8.1. Boundaries of data vocabulary](<sections/8. Overlaps to avoid/8.1. Boundaries of data vocabulary.md>)
+
+1. **Route a meaning question to its existing owner:** reuse precise data, model, rule, operation, storage, copy and pipeline explanations while preserving cross-domain meanings.
+2. **Choose deeper study from the task and its required evidence:** distinguish vocabulary competence from SQL tuning, modeling, administration, ORM, cache and distributed implementation skills.
+3. **Turn a mixed data promise into a focused learning handoff:** request scoped artifacts for a constructed JSON/ORM/cache/replication/CDC proposal and revise only the claim supported by new evidence.
 
 [← Back to IT Vocabulary](<../README.md>)
