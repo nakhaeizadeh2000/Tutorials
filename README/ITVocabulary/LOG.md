@@ -1496,3 +1496,27 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   removing inspection evidence reduces certainty. Static artifact exercise only;
   cited earlier real two-file execution is distinguished from this fictional card.
 - Next steps: D03.S06.L01, then all approved D04–D18 units remain in scope.
+
+### D03.S06.L01 — Boundaries of toolchain and language vocabulary — verified
+
+- Done: D03.S06.L01; detailed owner routing, workflow/framework boundaries and
+  solved mixed SDK/editor/build/declaration/host claim. All nine D03 units complete;
+  progress 24/191 with every D04–D18 unit still approved and pending.
+- Files touched: new sections/6. Overlaps to avoid/6.1. Boundaries of toolchain and
+  language vocabulary.md; D03/track README progress/status; this LOG.
+- Links fixed / added: registration and exact JS/TS/prior owners; D03 marked complete.
+  No later unpublished lesson links or unrelated policy/content edits.
+- Research / Decisions: reused D03 ownership searches; read TS Tooling index
+  selected entries and the complete Tooling boundary leaf (reread separately after
+  combined output truncated). Reused full JS Fundamentals boundary calibration
+  and previously read execution/module/declaration owners. Kept implementation
+  evidence with those owners; no new API semantics or fixed tool-version guidance
+  introduced. Later approved dependencies/OS/framework topics remain future routes,
+  not unexplained prerequisites or placeholder content.
+- Verification: structural/link checker passed (24 leaves,281 resolving links,
+  required numbered sections/registrations and immutable closed proposal).
+  Editorial check matched three promises and all nine D03 curriculum outcomes
+  against real registered leaves. Worked answer preserves unknown versions and
+  unperformed destination tests. Static routing only; no fresh tooling/runtime
+  benchmark or integration execution claimed.
+- Next steps: D04.S01.L01; continue the remaining 167 approved leaves across D04–D18.

@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 8 of 9 approved lessons are available.
+This domain is complete: all 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -61,5 +61,13 @@ This domain is in progress: 8 of 9 approved lessons are available.
 1. **Trace inputs outputs and gates through a toolchain:** read a dependency diagram without treating it as proof of a successful run.
 2. **Classify the failure at the step that produced evidence:** distinguish parsing, loading, delivery and editing observations with a worked missing-helper diagnosis.
 3. **Write a handoff that preserves versions and unfinished checks:** identify stale-output risks and request the actual source, tool and target evidence.
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of toolchain and language vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of toolchain and language vocabulary.md>)
+
+1. **Keep the general role and the language-specific contract connected:** choose precise JavaScript and TypeScript owners without treating another language example as proof.
+2. **Leave workflows and implementation depth with their owners:** identify dependency, framework, operating-system and performance limits of this vocabulary domain.
+3. **Choose a focused handoff for a mixed claim:** separate SDK, editor, build, declaration and runtime evidence in a worked routing exercise.
 
 [← Back to IT Vocabulary](<../README.md>)
