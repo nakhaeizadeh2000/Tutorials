@@ -1014,3 +1014,25 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   release outcome appears. The entire scenario is explicitly constructed; no
   application test run, benchmark or production observation is claimed.
 - Next steps: D01.S05.L01, then D02 and all later approved domains.
+
+### D01.S05.L01 — Boundaries and a personal vocabulary record — verified
+
+- Done: D01.S05.L01; ownership routing, worked contextual vocabulary record,
+  update discipline and explained stable-status practice. D01 now contains all
+  seven approved leaves; track progress is 7/191, not full-track completion.
+- Files touched: new sections/5. Overlaps to avoid/5.1. Boundaries and a personal
+  vocabulary record.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, vocabulary-record lookup, existing
+  JavaScript runtime/promise owners and precise D01 navigation. D01 marked complete;
+  track remains in progress. No placeholder links to D02 or future subject tracks.
+- Research / Decisions: repository personal-vocabulary/glossary heading search
+  found no competing owner. Read the complete JavaScript Fundamentals overlap
+  leaf for routing structure, while avoiding its historical planned-track labels.
+  Reused evaluated Julia Evans 2016 personal-dictionary account and this domain's
+  source/owner map; new content is record maintenance, not repeated definitions.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (7 leaves, required
+  numbered sections, registration, all resolving local links, unchanged proposal).
+  Editorial check matched the three promises and verified practice-card claims
+  stay fictional/scoped; stable example rejects unsupported universal guarantees.
+  Static writing exercise only; no runtime or integration test claimed.
+- Next steps: D02.S01.L01, then all remaining 184 approved leaves across D02–D18.

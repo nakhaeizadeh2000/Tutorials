@@ -19,12 +19,12 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **6 of 191 approved lessons** are available.
+Implementation is in progress: **7 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
 |---|---|
-| 1 | [Reading and Using Technical Language](<01 Reading and Using Technical Language/README.md>) — in progress |
+| 1 | [Reading and Using Technical Language](<01 Reading and Using Technical Language/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -66,6 +66,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Testable statement | [A claim that can be compared with relevant evidence](<01 Reading and Using Technical Language/sections/4. Applied reading and review/4.1. Turn a jargon-heavy message into a testable statement.md>) |
 | Tutorial | [Guided learning through a manageable task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 
 Terms are added with precise links when their explanations become available.
 Use the domain reading order to learn a topic for the first time; use the lookup

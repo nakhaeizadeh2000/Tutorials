@@ -4,7 +4,7 @@ Learn to identify unfamiliar meanings, read technical documents and ask precise
 questions. No technical prerequisites are assumed. The worked situations explain
 the minimum specialist context needed; later domains develop those topics.
 
-This domain is in progress: 6 of 7 approved lessons are available.
+This domain is complete: all 7 approved lessons are available.
 
 ## 1. Words in context
 
@@ -49,5 +49,13 @@ This domain is in progress: 6 of 7 approved lessons are available.
 1. **Separate ambiguous wording from the evidence actually supplied:** classify a constructed readiness message against a supplied observation card.
 2. **Produce a scoped statement and an actionable next question:** rewrite technical and stakeholder versions without inventing checked outcomes.
 3. **Review the rewrite for hidden additions and useful omissions:** explain unsupported release, failure and timing claims with a reasoned assessment rubric.
+
+## 5. Overlaps to avoid
+
+### [5.1. Boundaries and a personal vocabulary record](<sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>)
+
+1. **Keep interpretation here and detailed mechanisms with their owners:** route vocabulary, implementation and language-specific questions without linking unavailable prerequisites.
+2. **Record meaning and evidence rather than just an expansion:** build a contextual entry with an example, evidence, owner and unresolved question.
+3. **Revisit entries when their context changes:** preserve multiple meanings and update version-sensitive notes without duplicating full lessons.
 
 [← Back to IT Vocabulary](<../README.md>)
