@@ -861,3 +861,14 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
 - D16 (13 leaves): D16.S01.L01, D16.S01.L02, D16.S02.L01, D16.S02.L02, D16.S03.L01, D16.S04.L01, D16.S04.L02, D16.S05.L01, D16.S05.L02, D16.S06.L01, D16.S07.L01, D16.S08.L01, D16.S09.L01.
 - D17 (10 leaves): D17.S01.L01, D17.S01.L02, D17.S02.L01, D17.S02.L02, D17.S03.L01, D17.S03.L02, D17.S04.L01, D17.S04.L02, D17.S05.L01, D17.S06.L01.
 - D18 (7 leaves): D18.S01.L01, D18.S01.L02, D18.S02.L01, D18.S03.L01, D18.S04.L01, D18.S04.L02, D18.S05.L01.
+
+### NAV01 — Initial track navigation — verified
+
+- Done: NAV01; created the track entry point and registered the root link only
+  after its target existed. Progress states 0/191; no future lesson/domain links.
+- Files touched: root README.md; README/ITVocabulary/README.md; this LOG.
+- Links fixed / added: root → track; track → LOG and root.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (0 teaching leaves,
+  resolving local links and byte-for-byte preservation of the closed proposal).
+  Read the resulting track/root index change; no runnable examples in this unit.
+- Next steps: D01.S01.L01, followed by every remaining approved unit.
