@@ -2209,3 +2209,38 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   controls from custom handler, and labeled variations as reasoning rather than
   executed variants. No cross-browser, security or rendering benchmark claimed.
 - Next steps: D06.S02.L02; continue every subsequent approved unit through D18.
+
+### D06.S02.L02 — Rendering navigation CSR SSR SSG and hydration — verified
+
+- Done: D06.S02.L02; content generation/display/navigation distinctions, explicit
+  CSR/SSR/SSG artifact paths, hydration/mismatch/streaming orientation and solved
+  readiness timeline. Progress48/191;143 approved lessons remain.
+- Files touched: new sections/2. Browser building blocks/2.2. Rendering navigation
+  CSR SSR SSG and hydration.md; D06/track README files; this LOG.
+- Links fixed / added: registration, twelve lookup terms and three precise owners.
+- Research / Decisions: repo rendering/hydration/navigation headings located JS
+  scheduling applications and TS editor navigation, distinct owners. Read full JS
+  Microtasks vs macrotasks queueMicrotask and starvation leaf for visible-state/
+  execution distinction and tracing; rejected universal timer-before/after-paint,
+  outdated nextTick ordering, allocation assertions and flawed guard counter.
+  Read original practitioner/primary teaching comparison and framework contract:
+  https://web.dev/articles/rendering-on-the-web (Miller/Osmani,2019,updatedJan5 2026)
+  https://react.dev/reference/react-dom/client/hydrateRoot (retrieved React19.3
+  reference, attach/matching/caveats passages only; no React runtime installed)
+  https://developer.mozilla.org/en-US/docs/Glossary/SPA (July11 2025)
+  https://developer.mozilla.org/en-US/docs/Glossary/CSR (Aug14 2026)
+  https://developer.mozilla.org/en-US/docs/Glossary/SSR (July11 2025)
+  https://developer.mozilla.org/en-US/docs/Glossary/SSG (Dec15 2025).
+  Compared definitions and timing, rejected all-logic-is-client CSR, universally
+  fresh SSR, static-implies-no-runtime-services, static-fast/secure guarantees,
+  all-controls-inert-before-hydration and static/prerender classification purely
+  by JavaScript-disabled behavior. Did not adopt stale dynamic-rendering SEO
+  advice, tool examples or unsupported fixed performance rankings. SSR's broader
+  usage is explicit; framework recovery remains scoped to the actual contract.
+- Verification: structural/link verifier passed (48 leaves,622 links across57 files,
+  required numbered sections/registrations, closed proposal unchanged); whitespace
+  check passed. Editorial check matched three promises, all A–C generation steps,
+  unknown A/B origin from response alone, custom versus native readiness, and
+  later navigation independent of initial generation. Static timelines only; no
+  React hydration/streaming implementation, crawler or timing benchmark claimed.
+- Next steps: D06.S03.L01, then all subsequent approved units through D18.

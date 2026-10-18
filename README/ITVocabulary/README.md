@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **47 of 191 approved lessons** are available.
+Implementation is in progress: **48 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -85,6 +85,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Clarification question | [A focused request for a missing meaning or fact](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | CLI | [Command-line interface for a tool](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Client (web) | [A participant initiating requests in a web interaction](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
+| Client-side navigation | [Updating a view within the current document](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | CNAME record | [A DNS alias naming its canonical target](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Code point | [A Unicode number rather than stored bytes](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Code unit | [A fixed-size encoding-form unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -97,6 +98,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Core | [Physical processor execution resources](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | CPU | [Central processing unit and reported execution resources](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | CRC | [Cyclic redundancy check and accidental-change detection](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
+| CSR | [Client-side rendering](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | CSS | [Cascading Style Sheets and presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | CSS class | [An element label usable by selectors](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | CSS selector | [A pattern selecting elements for presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -180,6 +182,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | HTML attribute | [Information attached to an element](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | HTML element | [A component of the document described by markup](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | HTTPS | [HTTP communication protected for the identified secure origin](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| Hydration | [Connecting client application behavior to generated HTML](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| Hydration mismatch | [Disagreement with expected initial client output](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | I/O | [Input and output](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | IDE | [Integrated development environment and its actual facilities](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | IMAP | [Internet Message Access Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
@@ -224,12 +228,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Module | [A code unit under its language ecosystem rules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Mount | [Attachment of a filesystem or filesystem view](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Mount point | [Location where a filesystem view is attached](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| MPA | [Multi-page application organized around documents](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | mTLS | [Mutual TLS with both sides authenticated under the configured mechanism](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Multiplexing (transport) | [Carrying multiple logical streams in one connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | MUST | [A scoped conformance requirement](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | MX record | [A DNS mail-exchange record naming a delivery server and preference](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | NAPT | [Network address and port translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | NAT | [Network address translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
+| Navigation (web) | [Movement between documents or application views](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Network | [Connected participants and communication links](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Network interface | [An OS-visible physical or virtual communication attachment](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Network layer | [A model of communication responsibilities](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
@@ -259,6 +265,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Port (transport) | [A protocol-scoped numeric endpoint identifier](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Prefix length | [The number of leading address bits specifying a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
+| Prerendering | [Preparing HTML or a future browser navigation depending on context](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Private address | [An address from a stated private-use range](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
@@ -278,6 +285,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Registry | [A source or service for discovering and obtaining packages](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Relative path | [A path interpreted from a specified base](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Rendering (web) | [Content generation or browser display with an explicit stage](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | REPL | [Read eval print loop and interactive session state](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Resident memory | [Memory currently in physical RAM for a specified scope](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -312,10 +320,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Software | [Programs and associated instructions and material](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Source code | [Instructions expressed in a programming language](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | Source formatter | [A tool rewriting source presentation](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| SPA | [Single-page application and within-document views](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Specification | [Defined behavior and requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | SPF | [Sender Policy Framework](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | SSD | [Solid-state storage and what capacity does not prove](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| SSG | [Static site generation or its generator](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | SSL | [Secure Sockets Layer and its historical use in product wording](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| SSR | [Server-side rendering with generation timing stated](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Stable | [Compatibility status rather than universal availability](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Stack frame | [State associated with one function invocation](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Standard streams | [Conventional process input output and diagnostic channels](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
@@ -323,6 +334,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | stderr | [Standard error](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdin | [Standard input](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdout | [Standard output](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
+| Streaming SSR | [Sending generated HTML in portions](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Stub resolver | [A resolver depending on another resolver to complete resolution](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Subdomain | [A name below another domain in the label hierarchy](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Subnet | [A network subdivision commonly described by a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
