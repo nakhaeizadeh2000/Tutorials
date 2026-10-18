@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **75 of 191 approved lessons** are available.
+Implementation is in progress: **76 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -169,6 +169,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Dangling link | [A symbolic link whose target does not resolve](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Data | [Represented information with context and interpretation](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Data design review | [Mapping structure operation copy and pipeline claims to scoped evidence](<08 Databases Storage and Data Pipelines/sections/7. Applied interpretation/7.1. Read a data design and recovery claim.md>) |
 | Data lake | [Repository retaining varied datasets for later uses](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Data mart | [Analytical data serving a narrower subject or audience](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Data migration | [Movement or transformation of data values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |

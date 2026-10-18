@@ -2,7 +2,7 @@
 
 Learn how data is organized, accessed, protected and moved, and ask what a data guarantee actually covers. The preceding representation, software, operating-system and API domains supply the prerequisites. This is vocabulary and evidence reading, rather than database administration or a full SQL course. PostgreSQL 18 supplies scoped relational examples, checked 2026-10-18; individual lessons identify their other sources.
 
-This domain is in progress: 10 of 12 approved lessons are available.
+This domain is in progress: 11 of 12 approved lessons are available.
 
 ## 1. Databases and models
 
@@ -75,5 +75,13 @@ This domain is in progress: 10 of 12 approved lessons are available.
 1. **Distinguish operational work from analysis and repository roles:** interpret OLTP/OLAP/HTAP, warehouse/mart/lake/lakehouse and structure timing without fixed product boxes.
 2. **Follow extraction loading transformation and captured changes:** compare ETL/ELT order and CDC scope through an explicitly defined booking-seat metric.
 3. **Diagnose a fresh-source and old-report disagreement:** trace commit/capture/application/display evidence and distinguish progress, filtering and event-count mistakes.
+
+## 7. Applied interpretation
+
+### [7.1. Read a data design and recovery claim](<sections/7. Applied interpretation/7.1. Read a data design and recovery claim.md>)
+
+1. **Translate the proposal into separate responsibilities and promises:** map typed, flexible, transactional, replicated and captured claims to actual rule, operation, time and failure evidence.
+2. **Trace observations to supported conclusions:** analyze a constructed capacity, field-change, email, analytics and deletion packet without inventing unobserved guarantees.
+3. **Choose discriminating checks and write a concrete handoff:** communicate to technical/product audiences, revise certainty when evidence changes and justify focused verification.
 
 [← Back to IT Vocabulary](<../README.md>)

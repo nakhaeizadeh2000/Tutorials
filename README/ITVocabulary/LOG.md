@@ -3281,3 +3281,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   reduced-evidence variation. Static cards/arithmetic only; no warehouse/lake,
   CDC delivery/consumer/replay,ETL/ELT pipeline or throughput/freshness run claimed.
 - Next steps: D08.S07.L01,then D08.S08.L01 and all approved D09–D18 units.
+
+### D08.S07.L01 — Read a data design and recovery claim — verified
+
+- Done: D08.S07.L01; integrated original claim/evidence packet across constraints,
+  field migration,commit/email,CDC progress and deleted-data recovery,with two
+  audience handoffs,evidence removal/addition and interview assessment. Progress76/191;
+  115 approved leaves remain.
+- Files touched: new sections/7. Applied interpretation/7.1. Read a data design and
+  recovery claim.md; D08/track README files; this LOG.
+- Links fixed / added: registration,one lookup entry and six precise previous owners.
+- Research / Decisions: focused repo data-design/recovery-claim/checklist headings
+  found no competing general exercise; read full current D08 index. Reread complete
+  JS Fundamentals checklist for connecting review questions to actual evidence,
+  rejecting stale runtime labels,universal scheduling/thread claims and blanket
+  lint/default policy. Reused D08's evaluated primary constraint/validation/isolation/
+  replication/capture source map and actual lesson owners. Reused actual relevant
+  first-hand GitLab2017 recovery passages from preceding section,not current topology
+  or timing guarantees. No new product/version behavior or full design implementation
+  introduced; all packet rows are explicit fictional evidence,not live observations.
+- Verification: structural/link verifier passed (76 leaves,1136 links across87 files,
+  required numbered sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched all three promises and each conclusion to packet
+  rows: capacity unverified rather than proved broken,old-field mismatch,committed
+  data versus email failure,unverified post09:00 analytics and backup before r18.
+  Added-history and removed-restore variations change the relevant certainty;
+  proposed checks remain unexecuted. Static integration exercise only; no actual
+  overbooking,migration,email,CDC,replication,recovery rehearsal or benchmark claimed.
+- Next steps: D08.S08.L01,then every approved D09–D18 unit; full scope unchanged.
