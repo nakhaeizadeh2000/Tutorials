@@ -3108,3 +3108,44 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   typed-schema uncertainty and SQL/HTTP distinction. No ORM/builder/driver runtime,
   PostgreSQL connection, authorization check or access-layer benchmark claimed.
 - Next steps: D08.S04.L01, then all later approved units through D18.
+
+### D08.S04.L01 — Transactions ACID isolation locks and deadlocks — verified
+
+- Done: D08.S04.L01; ACID scope/invariant distinctions, real commit/rollback
+  observation, isolation phenomena/product differences and solved lock-cycle versus
+  wait/timeout reasoning. Progress72/191;119 approved lessons remain.
+- Files touched: new sections/4. Transactional behavior/4.1. Transactions ACID
+  isolation locks and deadlocks.md; D08/track README files; this LOG.
+- Links fixed / added: registration,seventeen contextual lookup entries and four
+  exact previous owners. Later general concurrency/distributed meanings stay pending.
+- Research / Decisions: repo transaction/ACID/isolation/lock/deadlock headings found
+  static-module/test/security isolation, not this database concept. Reread full JS
+  Promise chaining for outcome tracing; rejected legacy unhandled-rejection defaults,
+  universal job timing and allocation claims. Reused actual D08 schema/access owners
+  and original migration/access-pattern teaching context. Read originating passages:
+  https://www.postgresql.org/docs/18/tutorial-transactions.html (BEGIN/COMMIT/ROLLBACK,
+  own scope,not universal all-effects/all-storage/settings permanence)
+  https://www.postgresql.org/docs/18/transaction-iso.html (phenomena,standard minima,
+  PG-specific modes/default,RepeatableRead/Serializable conflict/retry passages;
+  did not universalize default,sequence rollback or retry-readonly assumptions)
+  https://www.postgresql.org/docs/18/explicit-locking.html (resource/mode conflicts,
+  row locks,deadlock detection/victim/order and long-open-transaction concerns;
+  rejected no-memory/no-limit assertion and blanket advisory-lock performance)
+  https://www.postgresql.org/docs/18/wal-reliability.html (durability/cache/storage
+  assumptions only,not broad every-OS or unconditional hardware survival)
+  https://sqlite.org/isolation.html (April18 2022,connections,shared-cache exception,
+  single writer,WAL visibility; rejected no-application-concern and broad never-busy)
+  https://sqlite.org/transactional.html (ACID expansion/testing scope,not treating
+  product crash harness as our own test or overriding actual configuration limits)
+  https://sqlite.org/atomiccommit.html (focused hardware assumptions,not full commit
+  mechanism or performance review). No database banking/payment instructions.
+- Verification: exact SQL fence extracted and declared ./sqlite3 :memory: <
+  transaction_reading.sql ran SQLite3.54.1/Linux x86_64,exit0,empty stderr,full output
+  1|1,2|0,1|1 matched. Own pending changes,deliberate rollback and commit were actually
+  observed in one ephemeral connection. Structural/link verifier passed (72 leaves,
+  1063 links across83 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched promises,own-versus-other session,
+  null/nonnegative rule,missing full booking protections,lock cycle/removal and
+  external-effect scope. No concurrent reader/writer,deadlock/abort,recovery after
+  crash,persistent durability,PostgreSQL execution or contention benchmark claimed.
+- Next steps: D08.S05.L01, then all later approved units through D18.

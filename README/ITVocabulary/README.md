@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **71 of 191 approved lessons** are available.
+Implementation is in progress: **72 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -55,6 +55,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Access-Control-Allow-Origin | [Response field identifying allowed cross-origin sharing](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Accessibility | [Removing access barriers for people with disabilities](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Accessible name | [A programmatically available name identifying a control](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| ACID | [Atomicity consistency isolation and durability](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Address space | [Addresses available under a program execution model](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -74,6 +75,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Artifact | [A work product with a producer and intended consumer](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | ASCII | [A smaller repertoire preserved in UTF-8](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Assistive technology | [Technology supporting access and alternative interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Atomicity (transaction) | [Accepting transactional changes as a unit or discarding them](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Authoritative DNS server | [A server answering from its knowledge of a zone](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
@@ -124,6 +126,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Codec | [An encoder and decoder for a conversion](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Collection (database) | [Group of documents in document database terminology](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Column | [Named attribute across table rows](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| Commit | [Accepting transactional database changes](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Compilation | [Translation to another code representation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Compiler | [A tool performing code translation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Composite key | [Identifier formed from a combination of columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -133,6 +136,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Configuration precedence | [The application-defined order for selecting among setting sources](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | CONNECT | [Establish an HTTP tunnel](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Connection refusal | [A failed connection attempt reporting refusal](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
+| Consistency (ACID) | [Preserving defined invariants through valid operations](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Constraint (database) | [Enforced restriction on allowed data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -170,6 +174,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Dataset | [A collection of data with an identified scope](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | DBMS | [Database management system software](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | DDL | [Data definition language for structures](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
+| Deadlock | [Dependency cycle preventing participant progress without intervention](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Deallocation | [Making storage available for reuse under its allocator](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Decimal prefix | [SI powers of ten](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Decoding | [Interpreting encoded data as text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -187,6 +192,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DHCP | [Dynamic Host Configuration Protocol](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Digest | [A computed summary of specified bytes](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Directory | [An organization of named filesystem entries](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Dirty read | [Reading another transaction’s uncommitted change](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Distribution package | [An installable Python project or its distribution file](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | DKIM | [DomainKeys Identified Mail](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | DMARC | [Domain-based Message Authentication Reporting and Conformance](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
@@ -203,6 +209,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Domain name | [A hierarchical name in the DNS context](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | DQL | [Data query language classification used in some teaching conventions](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | DST | [Daylight saving time and seasonal clock changes](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| Durability (transaction) | [Persistence of accepted changes under stated failure assumptions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Duration | [Elapsed time and compatible units](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Editor | [A tool for modifying source files](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | EEPROM | [Rewritable device memory in the bootloader example](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
@@ -315,10 +322,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Internet | [The global interconnection of independently operated networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Interpretation | [Execution of a representation by an interpreter](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Intranet | [A network used for an organization's internal purposes](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| Invariant | [Condition intended to remain true](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | IP | [Internet Protocol](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | IP address | [An address interpreted within its version and network context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | IPv4 | [IP addressing with 32-bit addresses](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | IPv6 | [IP addressing with 128-bit addresses](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
+| Isolation (transaction) | [Visibility and conflict behavior among concurrent transactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Isolation level | [Specified permitted concurrent transaction interactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | ISP | [Internet service provider](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Jargon | [Language shared by a group](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | JIT | [Just-in-time compilation during execution](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
@@ -347,6 +357,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Locale | [Language and regional conventions for relevant operations](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Localization | [Adapting content and behavior for a particular audience](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | localStorage | [Origin-scoped browser key/value storage across sessions](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| Lock (database) | [Control of conflicting resource access](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Lock wait | [Waiting for a conflicting resource holder](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Logical CPU | [An exposed scheduling resource rather than a physical-core guarantee](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Long polling | [A request held pending until an update or defined completion condition](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Loopback | [Communication directed back to the local networking context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -386,6 +398,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | no-cache | [Response reuse requires successful validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | no-cors | [A restricted request mode without readable cross-origin response content](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Nonrepeatable read | [Changed value on reread after another transaction commits](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Normal form | [Specific criteria for assessing a relational structure](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Normalization (database) | [Organizing relational structures through dependencies and anomaly analysis](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Normalization (Unicode) | [Defined equivalence transformations](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -433,6 +446,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Permission | [An allowed operation under an access rule](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Persistent cookie | [A cookie with declared expiry information](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Persistent storage | [Retained data versus working memory](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| Phantom read | [Changed matching row set on a repeated query](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | PID | [Process identifier scoped to the observed instance](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Pipe | [A byte-stream channel connecting a writer and reader](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
@@ -505,6 +519,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Reverse proxy | [A server-side intermediary receiving requests and forwarding them to other servers](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Rollback (data change) | [Attempt to return to an earlier data or schema state](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Rollback (transaction) | [Discarding uncommitted changes in the transaction scope](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Route (server) | [A rule selecting handling behavior for an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Router | [A role forwarding traffic between networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Routing | [Selecting how to forward traffic toward a destination](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -530,6 +545,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
+| Serializable | [Effect equivalent to a serial ordering of committed transactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Serialization | [Converting structured values to a storable or transferable representation](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Server (web) | [A participant handling requests and returning responses](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
@@ -611,6 +627,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | TLS termination | [The endpoint where a TLS connection is decrypted and processed](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Toolchain | [Tools used together across development and execution stages](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | TRACE | [Diagnostic HTTP request loopback](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Transaction | [Database work grouped under completion and concurrency rules](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Transfer estimate | [A completion model with explicit quantities and assumptions](<02 Computers Data Representation and Units/sections/5. Applied interpretation/5.1. Read a machine specification and transfer estimate.md>) |
 | Transpilation | [Source-to-source compilation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Trust anchor | [Trusted starting information for certificate-path validation](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
