@@ -1157,3 +1157,29 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   grapheme-segmentation execution claimed. Structural/link check passed (11 leaves,
   138 local links, required sections and immutable closed proposal).
 - Next steps: D02.S03.L01; all remaining approved ledger IDs continue in scope.
+
+### D02.S03.L01 — Decimal and binary units rates and durations — verified
+
+- Done: D02.S03.L01; decimal/binary quantity distinctions, bit/byte rates, duration
+  prefixes, dimensional estimates and a complete checked calculation. Progress 12/191.
+- Files touched: new sections/3. Measuring quantities/3.1. Decimal and binary units
+  rates and durations.md; domain/track README files; this LOG.
+- Links fixed / added: domain registration, eight lookup entries and three owner leaves.
+- Research / Decisions: repository units/duration heading search found calendar
+  Duration material, a different owner from scalar duration-unit conversion here.
+  Reused byte-pattern and distinction calibration. Consulted primary NIST binary
+  prefix table and BIPM SI prefix table:
+  https://physics.nist.gov/cuu/Units/binary.html
+  https://www.bipm.org/en/measurement-units/si-prefixes
+  NIST's historical original IEEE megabyte-confusion account supplies a practical
+  mismatch case, not a current claim about every manufacturer/tool. BIPM includes
+  the 2022 prefix extensions; only relevant common positive/negative factors are
+  taught here rather than an unexplained prefix inventory. Network rate caveats
+  distinguish mathematical payload assumptions from an observed connection.
+- Verification: exact Python fence extracted to temporary unit_conversions.py and
+  executed on Python 3.14.4/Linux x86_64, exit 0; full output matched including
+  100000000/104857600 bytes, 12.5 MB/s, 8.000000/8.388608 seconds and 2500 us.
+  Executed exercise equality and approximate GB/GiB assertions. No network test
+  claimed. Structural/link verifier passed (12 leaves, 150 local links, closed
+  proposal preserved); editorial check matched promises and stated assumptions.
+- Next steps: D02.S04.L01, then all remaining approved units across D02–D18.

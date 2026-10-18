@@ -2,7 +2,7 @@
 
 Connect hardware descriptions and data representations to the resources they describe. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) before beginning; no hardware purchase, administrator access or programming background is required. Examples distinguish physical components, instructions, data and measurements before discussing their limits.
 
-This domain is in progress: 4 of 8 approved lessons are available.
+This domain is in progress: 5 of 8 approved lessons are available.
 
 ## 1. Physical and logical components
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 8 approved lessons are available.
 1. **Distinguish a displayed character from code points and code units:** explain why grapheme, point, unit and byte counts can differ.
 2. **Separate text from the bytes used to exchange it:** distinguish Unicode, ASCII, UTF encodings and normalization with explicit scope.
 3. **Observe distinct counts and decoding failures in a complete example:** run the exact Python observation and explain normalization equality and rejected invalid UTF-8.
+
+## 3. Measuring quantities
+
+### [3.1. Decimal and binary units rates and durations](<sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>)
+
+1. **Distinguish decimal prefixes from binary prefixes:** convert kB/KiB, MB/MiB and GB/GiB and identify ambiguous tool labels.
+2. **Keep capacity rates and elapsed time dimensionally distinct:** explain bit/byte rates and ms/us/ns durations with compatible units.
+3. **Check a conversion and state the assumptions behind an estimate:** run exact unit arithmetic while separating an ideal transfer model from observed throughput.
 
 [← Back to IT Vocabulary](<../README.md>)
