@@ -1036,3 +1036,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   stay fictional/scoped; stable example rejects unsupported universal guarantees.
   Static writing exercise only; no runtime or integration test claimed.
 - Next steps: D02.S01.L01, then all remaining 184 approved leaves across D02–D18.
+
+### D02.S01.L01 — Hardware software firmware and drivers — verified
+
+- Done: D02.S01.L01; physical/software categories, firmware/driver roles,
+  boot/update interpretation and a solved constructed camera-version report.
+  D02 index now exists; track progress is 8/191.
+- Files touched: new 02 Computers Data Representation and Units/README.md and
+  sections/1. Physical and logical components/1.1. Hardware software firmware and
+  drivers.md; track README progress/modules/lookup; this LOG.
+- Links fixed / added: track → D02, D02 → D01 prerequisite/leaf/track, seven lookup
+  terms and leaf links to the existing D01 evidence and vocabulary-record owners.
+- Research / Decisions: broad RAM substring search produced irrelevant program/
+  grammar matches; repeated word-boundary hardware/firmware/driver/resource
+  heading search found no existing subject owner. Reused Holes vs undefined
+  calibration for distinctions/contrasting observations and Engines runtimes and
+  hosts for layer attribution; not their legacy internals/performance claims.
+  Consulted Microsoft What is a driver (updated 2025-10-31), Plugable's original
+  product-support article (2025-05-21), Raspberry Pi rpi-eeprom README update/
+  supported-board material and OpenStax 6.2 device-driver excerpts:
+  https://learn.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/what-is-a-driver-
+  https://plugable.com/blogs/news/hardware-software-drivers-and-firmware-explained
+  https://github.com/raspberrypi/rpi-eeprom
+  https://openstax.org/books/introduction-computer-science/pages/6-2-fundamental-os-concepts
+  Manufacturer/platform sources anchor roles; teaching sources supply comparison
+  and failure questions. Did not copy the board-game analogy or universalize a
+  one-driver/one-device picture. No firmware update procedure is instructed.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (8 leaves, numbered
+  required sections, registrations and local links, closed proposal unchanged).
+  Editorially checked all three promises, subset/category relationships, separate
+  version numbers and absence of an unsupported hardware diagnosis. Static device
+  report exercise; no hardware test, firmware flash or runtime benchmark claimed.
+- Next steps: D02.S01.L02; continue every subsequent approved unit through D18.
