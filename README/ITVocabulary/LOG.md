@@ -944,3 +944,27 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   and old/new-version distinction. Fictional text exercise only; no runnable
   configuration or performance experiment is asserted.
 - Next steps: D01.S02.L02, then all subsequent approved ledger units.
+
+### D01.S02.L02 — Requirements guarantees defaults and support status — verified
+
+- Done: D01.S02.L02; scoped requirement levels, conditional guarantees, effective
+  configuration versus defaults and lifecycle/support interpretation, with two
+  explained textual exercises and contrasting overclaims.
+- Files touched: new sections/2. Reading technical documents/2.2. Requirements
+  guarantees defaults and support status.md; domain/track README files; this LOG.
+- Links fixed / added: leaf registration, twelve lookup entries and existing
+  document/context leaves. Lookup records vocabulary ownership, not future API links.
+- Research / Decisions: reused this section's documented DRY and JavaScript
+  document-selection calibration. Read RFC 2119 (1997) and RFC 8174 (2017) primary
+  definitions/capitalization clarification. Read focused Node documentation
+  Stability index (retrieved v26.12.0) and MDN status-convention sections at
+  https://nodejs.org/api/documentation.html#stability-index and
+  https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Experimental_deprecated_obsolete.
+  Explicitly scoped legacy/deprecated to Node and historical obsolete to MDN;
+  no universal numeric stability scale or removal date invented.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed (4 teaching leaves,
+  numbered required sections, registrations, all local links and preserved closed
+  proposal). Editorial check traced the hypothetical clauses' actor/condition/
+  obligation and confirmed invalid-input behavior/removal dates stay unspecified.
+  Static interpretation only; no program execution claimed.
+- Next steps: D01.S03.L01; continue all subsequent approved units.
