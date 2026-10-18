@@ -2,7 +2,7 @@
 
 Learn to separate local connectivity, addressing, naming, transport and application outcomes. Read the preceding computing, tool and OS domains first. This domain explains network vocabulary through bounded observations and constructed artifacts; it does not require router administration, paid services or packet capture of other people's traffic.
 
-This domain is in progress: 9 of 12 approved lessons are available.
+This domain is in progress: 10 of 12 approved lessons are available.
 
 ## 1. Connections and network scope
 
@@ -68,5 +68,13 @@ This domain is in progress: 9 of 12 approved lessons are available.
 1. **Identify the channel and protocol behind protected-connection language:** distinguish TLS, HTTPS, handshake and historical SSL labels with explicit version scope.
 2. **Separate a certificate binding from successful service identity verification:** interpret CA, trust chain, subject alternative names and a constructed name mismatch without disabling checks.
 3. **Mark protection boundaries across an intermediary:** distinguish TLS termination, separate backend protection and application trust in a path diagram.
+
+## 6. Network measurements and failures
+
+### [6.1. Latency bandwidth throughput jitter and packet loss](<sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>)
+
+1. **Separate elapsed delay from capacity and observed rate:** interpret one-way delay, round-trip time, bandwidth and throughput with explicit units and boundaries.
+2. **Specify how variation and loss were counted:** distinguish delay-variation metrics and missing-by-threshold observations from universal network diagnoses.
+3. **Calculate a scoped report from synthetic observations:** run complete rate/loss/variation arithmetic and state the live measurements it does not establish.
 
 [← Back to IT Vocabulary](<../README.md>)

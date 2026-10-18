@@ -2058,3 +2058,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   only; no real certificate issuance/handshake/validation, trust-store change,
   TLS bypass or encrypted-throughput measurement claimed.
 - Next steps: D05.S06.L01;149 approved leaves remain through D18.
+
+### D05.S06.L01 — Latency bandwidth throughput jitter and packet loss — verified
+
+- Done: D05.S06.L01; delay/RTT/rate/capacity boundaries, variation/loss definitions,
+  complete synthetic arithmetic and solved invalid loss inference. Progress43/191.
+- Files touched: new sections/6. Network measurements and failures/6.1. Latency
+  bandwidth throughput jitter and packet loss.md; D05/track README files; this LOG.
+- Links fixed / added: registration, seven scoped lookup entries and four prior owners.
+- Research / Decisions: repo measurement headings found JS runtime-performance
+  applications. Read full JS Clocks hrtime performance.now and benchmark harnesses
+  leaf for question/clock/boundary discipline; rejected universal resolution,
+  fixed sample quotas, guessed timing and unreliable dead-code/median-subtraction
+  recipes. Reused actual D02 unit/transfer owners and prior ESnet original operator
+  question-first guidance; no copied measurement harness. Primary focused reading:
+  https://www.rfc-editor.org/rfc/rfc5136.html (capacity/layer/interval scope,2008)
+  https://www.rfc-editor.org/rfc/rfc7679.html (clock uncertainty,2016)
+  https://www.rfc-editor.org/rfc/rfc3393.html (jitter ambiguity/pair differences,2002)
+  https://www.rfc-editor.org/rfc/rfc7680.html (threshold/instrument/reporting,2016).
+  Old documents supply scoped metric definitions, not current Ethernet coding
+  universals or clock-accuracy numbers. No tool's jitter formula invented.
+- Verification: exact network_quantities.py fence ran CPython3.14.4/Linux x86_64,
+  exit0; full five-line stdout matched rates33.554432 Mbit/s and4.194304 MB/s,
+  loss5.0%, signed differences2/-1/29 and range30. Arithmetic on fictional inputs
+  only, no live measurement. Structural/link check passed (43 leaves,556 links
+  across51 files, required sections/registrations, preserved proposal). Editorial
+  check matched promises, separate populations, RTT asymmetry assumptions and
+  rejection of throughput-deficit-as-loss. No network load or benchmark claimed.
+- Next steps: D05.S07.L01;148 approved leaves remain through D18.
