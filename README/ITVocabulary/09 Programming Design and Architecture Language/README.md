@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 7 of 11 approved lessons are available.
+This domain is in progress: 8 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -53,5 +53,11 @@ This domain is in progress: 7 of 11 approved lessons are available.
 1. **Separate logical organization from deployment placement:** interpret layers, tiers and source/runtime arrows with an explicit diagram scope.
 2. **Distinguish modules and components from independent services:** compare language/framework organization, monoliths, modular monoliths and microservice deployment boundaries.
 3. **Read a boundary claim against concrete change evidence:** classify four deployment packets and explain independent-change, compatibility and operational trade-offs.
+
+### [4.2. Clean hexagonal DDD CQRS and event sourcing](<sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>)
+
+1. **Recognize policy boundaries in Clean and hexagonal architecture:** explain inward source dependencies, use cases, ports and technology adapters without a fixed circle or port count.
+2. **Place DDD around shared understanding and an explicit model boundary:** interpret Domain-Driven Design, ubiquitous language and bounded contexts through an original customer-meaning disagreement.
+3. **Separate read/write models from an authoritative event history:** distinguish CQRS, event sourcing and publication using a worked history and four design variants.
 
 [← Back to IT Vocabulary](<../README.md>)

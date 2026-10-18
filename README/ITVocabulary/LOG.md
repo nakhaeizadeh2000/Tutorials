@@ -3633,3 +3633,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   independent change and D scoped coupling. Static cards only; no service split,
   deployment,framework/module/runtime enforcement or performance test executed.
 - Next steps: D09.S04.L02,then all remaining approved units through D18.
+
+### D09.S04.L02 — Clean hexagonal DDD CQRS and event sourcing — verified
+
+- Done: D09.S04.L02; policy/interaction/model/read-write/history distinctions,
+  original bounded customer meanings,worked event-state/projection history and
+  four independent architecture choices. Progress85/191;106 approved leaves remain.
+- Files touched: new sections/4. Architectural boundaries/4.2. Clean hexagonal DDD
+  CQRS and event sourcing.md; D09/track README files; this LOG.
+- Links fixed / added: registration,sixteen contextual lookup entries,four exact
+  existing owners. Detailed entity/value/aggregate vocabulary stays next unit.
+- Research / Decisions: full-repo Clean/hexagonal/DDD/CQRS/event-sourcing headings
+  found no competing owner. Reused JS Static import forms boundary/explicit-mechanism
+  calibration just read,and D09 dependency-direction/reference comparisons; no
+  simulated-module proof or performance claims imported. Actual primary/original
+  sources read:
+  https://blog.cleancoder.com/uncle-bob/2012/08/13/the-clean-architecture.html
+  (Aug2012 actual dependency rule,schematic circles,crossing/data formats; rejected
+  all-replacements-minimum-fuss/automatically-testable/no-operational-rule-impact)
+  https://alistair.cockburn.us/hexagonal-architecture (original2005 intent,ports,
+  inside/outside,adapter and six-not-important passages; no obsolete FIT/Java code
+  or database-unavailable-business-function guarantee)
+  https://www.domainlanguage.com/ddd/reference/ and actual linked
+  https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf
+  (Evans2015,Definitions pvi,PuttingModelToWork p1,BoundedContext p2 and focused
+  UbiquitousLanguage pp3–4 actual text; not full59-page/full-book review. Direct
+  urllib PDF403 and screenshot call produced no model-visible page images; used
+  sequential actual web text for cited passages,not those failed paths. Rejected
+  full global model/process standardization as a universal team requirement.)
+  https://martinfowler.com/bliki/CQRS.html (July2011 actual model separation,
+  same/separate DBs and conditional use; no majority-failure statistic or universal
+  bounded-context-only prescription)
+  https://martinfowler.com/eaaDev/EventSourcing.html (Dec2005 explicitly historical
+  draft,actual reconstruction and external-update passages; rejected antipolymorphic
+  rhetoric,always-concurrent-snapshot and current-state-as-record definition for
+  our explicitly authoritative-history model)
+  https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing
+  (current originating pattern guide,authority/projection/versioning/concurrency/
+  replay considerations; rejected queue-before-durable-record as mandatory workflow,
+  no-SQL-event-query mechanisms,universal faster/no-conflict/eventual-all-projection
+  and timestamp-solves-ordering claims). NestJS+Fastify static application context
+  retained,no framework/default-product-version or current implementation claim.
+- Verification: offline Python original-history assertions passed totals2,5,3;
+  arithmetic only,no event-store execution. Structural/link verifier passed
+  (85 leaves,1292 links across97 files,required sections/registrations,preserved
+  proposal); whitespace check passed. Editorial check matched promises,port
+  contextual meaning,DDD boundary,CQRS independent of history,all four variants
+  and sequence2 projection versus sequence3 authority. Static cards only; no
+  framework/event-store/broker/transaction/replay integration or benchmark claimed.
+- Next steps: D09.S05.L01,then all remaining approved units through D18.
