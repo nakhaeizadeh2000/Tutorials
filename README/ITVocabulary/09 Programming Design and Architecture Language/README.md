@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 3 of 11 approved lessons are available.
+This domain is in progress: 4 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 11 approved lessons are available.
 1. **Name the operation contract and the detail it hides:** distinguish abstraction, interfaces, representation independence and indirection through a small roster contract.
 2. **Protect the owner’s rules across the exposed interface:** run a snapshot example and explain how a mutable-reference leak bypasses controlled operations.
 3. **Assess dependencies and responsibility through a concrete change:** use coupling and cohesion to judge a representation change rather than relying on class counts or slogans.
+
+### [2.2. Dependency injection inversion of control and dependency inversion](<sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>)
+
+1. **Separate supplying dependencies from controlling execution:** distinguish DI, constructor injection, composition roots, containers, service locators and IoC.
+2. **Read source dependencies separately from runtime calls:** explain DIP using a policy-owned contract and separate dependency and invocation sketches.
+3. **Classify a wiring claim and its remaining obligations:** identify Nest provider/token roles and reason about substitution, lifetime and integration limits without assuming container use proves architecture quality.
 
 [← Back to IT Vocabulary](<../README.md>)

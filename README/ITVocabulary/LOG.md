@@ -3462,3 +3462,44 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   non-enforced underscore scope and change-card inference. No database capacity,
   access-control attack,storage replacement,security or speed benchmark claimed.
 - Next steps: D09.S02.L02,then all remaining approved units through D18.
+
+### D09.S02.L02 — Dependency injection inversion of control and dependency inversion — verified
+
+- Done: D09.S02.L02; supplied collaborators versus framework control and policy/
+  detail dependency direction,separate static source/call sketches,four wiring
+  variants and explicit substitution/lifecycle limits. Progress81/191;110 remain.
+- Files touched: new sections/2. Managing dependencies/2.2. Dependency injection
+  inversion of control and dependency inversion.md; D09/track README files; LOG.
+- Links fixed / added: registration,thirteen contextual lookup entries and four
+  exact existing owners. TypeScript container/decorators remain their detail owner.
+- Research / Decisions: reused section-wide full-repo DI/IoC/DIP search. Read full
+  TS Dependency injection with decorators owner for explicit assembly,identity and
+  replacement evidence; no old tool baseline or tiny-container-is-Nest assumption.
+  Reused full JS First-class functions calibration from this domain for who-invokes/
+  callback-contract reasoning; no performance/allocation folklore copied. Actual
+  originating sources read:
+  https://martinfowler.com/articles/injection.html (Jan2004 actual naive/constructor/
+  IoC and locator-comparison passages,not historical Java frameworks as current
+  defaults,universal locator preference or equal-testing-effort assertion)
+  https://martinfowler.com/bliki/InversionOfControl.html (June2005 actual control-
+  transfer/library/framework passages,not guessed etymology,old Ruby/Tk setup or
+  all-callbacks-imply-framework inference)
+  https://www.cs.utexas.edu/~downing/papers/DIP-1996.pdf (original Martin1996 paper,
+  actual policy/readers/writers,definition and C noninheritance abstraction passages;
+  rejected no-dependencies-in-any-way,no-interdependencies/no-fragility-guarantee
+  and universal three-traits-prove-design-good claims)
+  https://docs.nestjs.com/fundamentals/custom-providers (current originating guide,
+  actual constructor/token/class/value/factory and erased-interface passages; no
+  live-mutable-list example or unconditional scope/boot-order assumptions copied)
+  https://docs.nestjs.com/techniques/performance (actual Fastify adapter/integration
+  passages; rejected universal double-speed/migration equivalence claims). Kept
+  NestJS+Fastify as application context and static vocabulary boundary; no runtime
+  install/configuration/version-support claim. Search community snippets discovery
+  only,not technical evidence. No new backend implementation course introduced.
+- Verification: structural/link verifier passed (81 leaves,1222 resolving links
+  across93 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,two explicit arrow legends,
+  four variants,policy-owned result/absence/error contract and shape-versus-behavior
+  distinction. Static packet/sketch inspection only; no NestJS/Fastify integration,
+  provider replacement,PostgreSQL mapping,policy test or speed benchmark executed.
+- Next steps: D09.S03.L01,then all remaining approved units through D18.
