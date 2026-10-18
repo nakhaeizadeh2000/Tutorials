@@ -1471,3 +1471,28 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   unchanged closed proposal). Editorial check matched promises and carefully
   separated the actual Python observation from the fictional build result card.
 - Next steps: D03.S05.L01; continue every later approved unit through D18.
+
+### D03.S05.L01 — Read a toolchain diagram and classify a failure — verified
+
+- Done: D03.S05.L01; toolchain/pipeline/gate vocabulary, dependency diagram,
+  constructed missing-helper diagnosis, stale-output counterexample and evidence
+  handoff/interview reasoning. Track progress 23/191.
+- Files touched: new sections/5. Applied diagnosis/5.1. Read a toolchain diagram
+  and classify a failure.md; D03/track README files; this LOG.
+- Links fixed / added: registration, three lookup entries and four precise prior owners.
+- Research / Decisions: repository toolchain/pipeline/artifact-freshness search
+  located TS compiler/pitfall owners and JS engine/tooling paths; no duplicate
+  general artifact-reading exercise. Reread complete JS Promise chaining leaf
+  as a tracing/failure-propagation benchmark, not its legacy unhandled-rejection,
+  allocation or all-order claims. Reused primary Python modules/compile contracts
+  and actual D03 examples, plus evaluated useful-question practitioner guidance
+  from D01. New work synthesizes those meanings rather than adding new API claims
+  or duplicating compiler configuration. Deep TS pipeline remains its owner.
+- Verification: structural/link checker passed (23 leaves,269 resolving links,
+  required numbered sections, registrations and unchanged closed proposal).
+  Inspected diagram's intended source/check/emission/package/run edges, including
+  both package prerequisites. No Mermaid rendering or deployment run claimed.
+  Editorial check traced each worked diagnosis to a card row and verified that
+  removing inspection evidence reduces certainty. Static artifact exercise only;
+  cited earlier real two-file execution is distinguished from this fictional card.
+- Next steps: D03.S06.L01, then all approved D04–D18 units remain in scope.

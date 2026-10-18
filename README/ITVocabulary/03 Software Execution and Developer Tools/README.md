@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 7 of 9 approved lessons are available.
+This domain is in progress: 8 of 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 9 approved lessons are available.
 1. **Distinguish structural checks from observed application behavior:** explain types and annotations and observe runtime non-enforcement in a declared Python example.
 2. **Separate lint rules from source formatting:** interpret a configured rule pass without treating layout as proof of correct application behavior.
 3. **Read a build result as the result of its configured steps:** separate preparation, checks and unperformed application scenarios in a precise result report.
+
+## 5. Applied diagnosis
+
+### [5.1. Read a toolchain diagram and classify a failure](<sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>)
+
+1. **Trace inputs outputs and gates through a toolchain:** read a dependency diagram without treating it as proof of a successful run.
+2. **Classify the failure at the step that produced evidence:** distinguish parsing, loading, delivery and editing observations with a worked missing-helper diagnosis.
+3. **Write a handoff that preserves versions and unfinished checks:** identify stale-output risks and request the actual source, tool and target evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **22 of 191 approved lessons** are available.
+Implementation is in progress: **23 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -91,6 +91,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | File format | [Rules for interpreting a stored representation](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Firmware | [Software tied to low-level device operation](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Framework | [Structure and coordination with application extension points](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
+| Gate | [A configured condition required before proceeding](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | GB and GiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Grapheme cluster | [A practical text-segmentation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -129,6 +130,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Package | [A distribution or contextual import organization boundary](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Package manager | [A tool managing package acquisition and installation](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Persistent storage | [Retained data versus working memory](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Program | [Instructions executed in an appropriate environment](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
@@ -158,6 +160,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Terminal | [The text interaction surface and terminal emulator](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Testable statement | [A claim that can be compared with relevant evidence](<01 Reading and Using Technical Language/sections/4. Applied reading and review/4.1. Turn a jargon-heavy message into a testable statement.md>) |
+| Toolchain | [Tools used together across development and execution stages](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Transfer estimate | [A completion model with explicit quantities and assumptions](<02 Computers Data Representation and Units/sections/5. Applied interpretation/5.1. Read a machine specification and transfer estimate.md>) |
 | Transpilation | [Source-to-source compilation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Tutorial | [Guided learning through a manageable task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
