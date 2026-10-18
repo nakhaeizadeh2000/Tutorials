@@ -1268,3 +1268,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   eight D02 approved outcomes have real leaves and specific promises. Static
   interpretation exercise only; no new runtime/benchmark/security test claimed.
 - Next steps: D03.S01.L01; continue all remaining 176 approved leaves across D03–D18.
+
+### D03.S01.L01 — Programs applications libraries frameworks and SDKs — verified
+
+- Done: D03.S01.L01; program/application/library/API roles, framework coordination
+  and SDK composition with a complete local calculation and constructed role note.
+  Created D03 index; track progress 16/191.
+- Files touched: new D03 README and sections/1. Software categories/1.1. Programs
+  applications libraries frameworks and SDKs.md; track README; this LOG.
+- Links fixed / added: D03 prerequisite/track/leaf navigation, six lookup terms
+  and existing D01/D02 owners. No unbuilt later design or API leaves linked.
+- Research / Decisions: repo library/framework/SDK/toolchain heading search found
+  JavaScript runtime/pipeline and TypeScript tooling/module owners, not an existing
+  general software-category lesson. Reread full JS Engines runtimes and hosts for
+  neighboring-term attribution, not its universal conformance/performance claims.
+  Read original Fowler InversionOfControl (June 26 2005) relevant control-flow
+  explanation, current Android component list and Python 3.14 math.isqrt contract:
+  https://martinfowler.com/bliki/InversionOfControl.html
+  https://developer.android.com/tools
+  https://docs.python.org/3.14/library/math.html#math.isqrt
+  Fowler supplies conceptual reasoning, platform docs anchor concrete kit/API
+  roles. Rejected the overgeneralization that every callback makes a framework;
+  no old Ruby/Tk examples or Android installation instructions were copied.
+- Verification: exact square_report.py fence executed on Python 3.14.4/Linux
+  x86_64, exit 0; stdout exactly matches Squares 81 and Whole-number side 9.
+  Structural/link verification passed (16 leaves, 195 resolving links, required
+  headings/registration, unchanged closed proposal). Editorial check matched
+  three promises, introduced module/API before use and separated build/run roles.
+  No real framework/SDK installation or performance test claimed.
+- Next steps: D03.S01.L02; every later approved unit remains in scope.
