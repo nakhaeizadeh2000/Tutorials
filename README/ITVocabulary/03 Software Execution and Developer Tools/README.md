@@ -2,7 +2,7 @@
 
 Learn what development tools consume, produce and prove, from source code to running software. Read [Reading and Using Technical Language](<../01 Reading and Using Technical Language/README.md>) and [Computers Data Representation and Units](<../02 Computers Data Representation and Units/README.md>) first. Examples introduce their tools without requiring a framework or package-manager setup.
 
-This domain is in progress: 3 of 9 approved lessons are available.
+This domain is in progress: 4 of 9 approved lessons are available.
 
 ## 1. Software categories
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 9 approved lessons are available.
 1. **Describe compilation and interpretation as implementation steps:** trace input/output representations without assigning mutually exclusive language categories.
 2. **Distinguish source transformation from runtime capabilities:** explain transpilation, type erasure and polyfill roles without assuming target support.
 3. **Place JIT and failures on the execution timeline:** distinguish compilation timing and observe preparation versus execution failures.
+
+### [2.2. Languages engines runtimes hosts and virtual machines](<sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>)
+
+1. **Separate a language definition from an executing implementation:** identify language, implementation and engine responsibilities without assuming one product per role.
+2. **Distinguish runtime host and virtual-machine meanings:** interpret component versus phase and language-VM versus infrastructure-VM wording in context.
+3. **Collect identity evidence without treating it as a capability test:** run a small metadata report and explain the operation-specific evidence still needed.
 
 [← Back to IT Vocabulary](<../README.md>)

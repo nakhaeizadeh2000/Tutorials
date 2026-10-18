@@ -1354,3 +1354,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   passed (18 leaves, 218 resolving links, required headings and unchanged proposal).
   Editorial check matched promises and scoped language-dependent failure semantics.
 - Next steps: D03.S02.L02; continue all subsequent approved units.
+
+### D03.S02.L02 — Languages engines runtimes hosts and virtual machines — verified
+
+- Done: D03.S02.L02; language/implementation/engine roles, runtime component/phase,
+  contextual host and VM meanings, plus an actual identity-metadata observation.
+  Progress 19/191.
+- Files touched: new sections/2. From source to execution/2.2. Languages engines
+  runtimes hosts and virtual machines.md; D03/track README files; this LOG.
+- Links fixed / added: registration, six lookup entries and precise JS/prior owners.
+- Research / Decisions: focused repo VM/runtime/host search confirmed JS detailed
+  owner and TS portable-code destinations; reused full Engines runtimes and hosts
+  calibration already reread this domain. Consulted primary sources:
+  https://v8.dev/docs/embed (embedding introduction and application extension roles)
+  https://nodejs.org/en/about (runtime self-description only)
+  https://docs.oracle.com/javase/specs/jvms/se25/html/jvms-1.html#jvms-1.2
+  https://docs.python.org/3.14/library/sys.html#sys.implementation
+  JVM SE25 is an explicitly versioned conceptual source, not a latest-Java claim;
+  no JVM installation or class-version compatibility table taught. V8 sample's
+  old build/segfault caveat and Node overview's sweeping no-blocking/no-deadlock
+  wording were not adopted. Read Python implementation fields and experimental
+  JIT caveat; no experimental capability is presented as a stable default.
+- Verification: exact execution_identity.py fence executed on CPython 3.14.4/Linux
+  x86_64, exit 0; full stdout matched 3.14.4/cpython/linux. This is metadata, not
+  permissions, capability, portability or performance verification. Structural/link
+  checker passed (19 leaves, 228 resolving links, required headings, unchanged
+  closed proposal). Editorial check matched three promises and avoided universal
+  packaging equations or unqualified VM-security promises.
+- Next steps: D03.S03.L01; all remaining approved ledger units remain authorized.

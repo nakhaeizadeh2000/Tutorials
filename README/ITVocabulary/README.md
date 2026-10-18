@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **18 of 191 approved lessons** are available.
+Implementation is in progress: **19 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -77,6 +77,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | EEPROM | [Rewritable device memory in the bootloader example](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Encoding | [Producing a defined text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Endianness | [Byte order in multi-byte representations](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
+| Engine | [Execution machinery with a specified subject](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Executable | [A form loadable and runnable by a suitable system or runtime](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | Expansion | [Full words versus a usable explanation](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Experimental | [A publisher-specific lifecycle policy](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -91,12 +92,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Hardware | [Physical computing components](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | HDD | [Persistent-storage device category](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Hexadecimal | [Base sixteen and byte displays](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
+| Host | [An embedding environment or contextual infrastructure machine](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | How-to guide | [A procedure for a known task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Informative material | [Explanatory rather than requirement-defining material](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Initialism | [Initial letters spoken separately](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Interpretation | [Execution of a representation by an interpreter](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Jargon | [Language shared by a group](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | JIT | [Just-in-time compilation during execution](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
+| Language implementation | [Machinery executing a language version](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Library | [Reusable capabilities exposed to calling code](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Logical CPU | [An exposed scheduling resource rather than a physical-core guarantee](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Lossless compression | [Exact recovery of the compressed input](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
@@ -116,6 +119,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Persistent storage | [Retained data versus working memory](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Program | [Instructions executed in an appropriate environment](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
+| Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | RAM | [Working memory rather than saved-file capacity](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Rate | [An amount per time](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
@@ -123,6 +127,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Runtime | [Execution environment or the phase of running](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | SHA-256 | [A named cryptographic hash used in byte comparison](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | SHOULD | [A recommendation with weighed exceptions](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -142,6 +147,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | UTF-16 | [Sixteen-bit code units and their counts](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UTF-32 | [Thirty-two-bit code units](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UTF-8 | [Byte-oriented Unicode text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| VM | [Virtual machine with a language or infrastructure meaning](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 
 Terms are added with precise links when their explanations become available.
