@@ -3380,3 +3380,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   operation/case/model and counted-search versus construction/printing boundaries.
   No elapsed-time,graph algorithm,binary-search implementation or benchmark claimed.
 - Next steps: D09.S01.L02,then all remaining approved units through D18.
+
+### D09.S01.L02 — Imperative declarative functional and object-oriented styles — verified
+
+- Done: D09.S01.L02; overlapping style distinctions,pure inputs/effects versus
+  local bookkeeping,actual same-metric loop/value/object comparison and changed-
+  input practice. Progress79/191;112 approved leaves remain.
+- Files touched: new sections/1. Reasoning about programs/1.2. Imperative declarative
+  functional and object-oriented styles.md; D09/track README files; this LOG.
+- Links fixed / added: registration,nine actual lookup entries and four precise
+  SQL/algorithm/JavaScript owners. No class mechanics course or future link added.
+- Research / Decisions: recovered complete3382-line LOG in nontruncated chunks,
+  complete policies/continue skill/workflow/quality and root/track/domain indexes;
+  verified all78 logged Done IDs against78 tracked leaves with Git history and
+  clean staging/disk at7eb2c9d6. Repo style/pure/effect headings found contextual
+  JS declarative records/coercion and TS class owners,not general paradigm owner.
+  Read complete JS First-class functions callbacks higher-order functions and
+  composition for explicit operation contracts and contrasting callbacks; rejected
+  its universal per-step closure allocation,HOF allocation,loop-always-faster,
+  three-line-map completeness and top-bug-source assertions. Reused prior observed-
+  contrast calibration. Actual original teaching/reference passages read:
+  https://docs.python.org/3.14/howto/functional.html (A.M.Kuchling0.32,retrieved3.14.8,
+  introduction,local assignment,iterator and generator passages; selected mixture
+  and value-flow explanation,rejected majority-language taxonomy,FP-opposite-OOP,
+  no-effects-alone-suffices-purity,universal easier testing/modularity and impossible-
+  proof claims). https://docs.python.org/3.14/tutorial/classes.html (actual instance
+  initialization,attributes,methods and self passages; no old blanket data-hiding
+  impossibility or inheritance-as-worthiness wording adopted). MDN declarative
+  glossary inaccessible in pre-recovery research; no content claimed,Python's
+  HOWTO plus prior actual SQL plan owner supply accessible alternatives. Current
+  behavior corroborated through the exact executed example,not community snippets.
+- Verification: exact programming_styles.py fence ran CPython3.14.4/Linux x86_64,
+  exit0,full stdout matched initial5/5/5,repeated5,empty0,changed-object3 and
+  original-pairs5. Structural/link verifier passed (79 leaves,1191 resolving links
+  across91 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,defined Python reading
+  syntax,input model,local versus shared changes and the side-effect practice
+  consequence. No SQL execution,application write,parallelism or benchmark claimed.
+- Next steps: D09.S02.L01,then all remaining approved units through D18.
