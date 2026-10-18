@@ -872,3 +872,29 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   resolving local links and byte-for-byte preservation of the closed proposal).
   Read the resulting track/root index change; no runnable examples in this unit.
 - Next steps: D01.S01.L01, followed by every remaining approved unit.
+
+### D01.S01.L01 — Terms jargon abbreviations and acronyms — verified
+
+- Done: D01.S01.L01; taught terminology categories, expansion versus explanation,
+  audience-sensitive wording and a constructed first-day message with a worked
+  answer. Vocabulary lookup registers six fully explained language terms.
+- Files touched: new 01 Reading and Using Technical Language/README.md and
+  sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md;
+  track README.md progress/module/lookup; this LOG.
+- Links fixed / added: track → domain and six lookup targets; domain → leaf;
+  leaf → domain/track. No unbuilt specialist owner is linked as published.
+- Research / Decisions: section-wide repository heading search for jargon,
+  abbreviation, acronym and overloaded words found no existing teaching owner.
+  Reused JavaScript Engines runtimes and hosts for concrete neighboring-term
+  contrasts. Consulted Google style abbreviations (updated 2025-12-01) and jargon
+  (2025-06-25): https://developers.google.com/style/abbreviations and
+  https://developers.google.com/style/jargon. Used selected explanations and
+  audience guidance, not every house-style rule. Prior evaluated Michael Lee
+  first-person dev.to account supplies learner-context motivation, not technical
+  semantics. NIST/Fowler context sources also reopened for the next distinction.
+- Verification: python3 /tmp/it-vocabulary-verify.py passed: 1 leaf, contiguous
+  headings and required sections, filename/domain registration, 31 resolving
+  local links and unchanged closed proposal. Editorial check matched all three
+  index promises, defined scenario terms and checked the worked reading answer.
+  This is a static interpretation exercise, not code; no runtime test claimed.
+- Next steps: D01.S01.L02; remaining approved scope is all later ledger IDs.

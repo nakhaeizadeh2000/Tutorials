@@ -19,11 +19,26 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **0 of 191 approved lessons** are available.
-Domain indexes appear here as lessons are completed. The complete approved
+Implementation is in progress: **1 of 191 approved lessons** are available.
+Domain indexes appear here as lessons are completed.
+
+| # | Module |
+|---|---|
+| 1 | [Reading and Using Technical Language](<01 Reading and Using Technical Language/README.md>) — in progress |
+
+The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
 
 ## Alphabetical term lookup
+
+| Term | Explanation |
+|---|---|
+| Abbreviation | [Shortened forms](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Expansion | [Full words versus a usable explanation](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Initialism | [Initial letters spoken separately](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Jargon | [Language shared by a group](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 
 Terms are added with precise links when their explanations become available.
 Use the domain reading order to learn a topic for the first time; use the lookup
