@@ -3503,3 +3503,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   distinction. Static packet/sketch inspection only; no NestJS/Fastify integration,
   provider replacement,PostgreSQL mapping,policy test or speed benchmark executed.
 - Next steps: D09.S03.L01,then all remaining approved units through D18.
+
+### D09.S03.L01 — SOLID DRY KISS YAGNI patterns and antipatterns — verified
+
+- Done: D09.S03.L01; five contextual SOLID questions,behavioral substitution,
+  duplicated knowledge versus coincidental values,simplicity/speculation and
+  worked pattern-heavy proposal repair. Progress82/191;109 approved leaves remain.
+- Files touched: new sections/3. Principles and refactoring/3.1. SOLID DRY KISS
+  YAGNI patterns and antipatterns.md; D09/track README files; this LOG.
+- Links fixed / added: registration,fifteen actual lookup entries and three precise
+  prior owners. Preserved ISP's network owner; added scoped ISP (design) alias.
+- Research / Decisions: section-wide full-repo SOLID/DRY/KISS/YAGNI/refactor/debt/
+  legacy heading search found contextual legacy-language owners,not these design
+  principles. Read full JS Constructor discipline vs factory trade offs (first
+  portion reread after command output truncation) for concrete alternatives and
+  observed identity contracts; rejected universal class/factory topology,privacy,
+  prototype-JIT superiority,one-off-cost-negligible and security table claims.
+  Actual originating teaching sources read:
+  https://www.cs.odu.edu/~zeil/cs330/latest/Public/solid/index.html (StevenZeil,
+  Aug2019,actual SOLID,SRP/OCP,LSP behavior and ISP passages; rejected class-inheritance-
+  only extension and universal two-dimensional principle rankings/current library
+  inventories). https://blog.cleancoder.com/uncle-bob/2014/05/08/SingleReponsibilityPrinciple.html
+  (actual responsibility/reason/actor passages; no universal corporate reporting
+  model,employment consequence or insulting mechanic analogy imported).
+  https://pragprog.com/tips/ (actual DRY knowledge and simplicity entries only,
+  not full-book review or universal correctness of unrelated slogans).
+  https://martinfowler.com/bliki/Yagni.html (May2015,actual speculative-feature costs,
+  modification-enabling distinction and caveats; rejected universal two-thirds
+  unnecessary estimate,fixed schedule arithmetic and rarity assertion).
+  https://martinfowler.com/articles/writingPatterns.html (Aug2006 actual recurrence,
+  solution/context,recipe and communication passages; no historic all-developers-
+  know-proxy claim). Previously evaluated original DIP paper/actual owner retains D.
+  ButUncleBob principles page timed out,CMU guessed LiskovWing PDF and antipatterns
+  briefing inaccessible; SourceMaking antipattern URL redirected to pattern index,
+  not absent antipattern content. No unread content claimed; original course and
+  explicit bounded pattern/problem explanations supply accessible alternatives.
+- Verification: first navigation run caught ISP alias collision after only domain
+  index update. Restored that unit's domain index from clean HEAD,scoped new alias
+  and reran successfully; original ISP untouched. Final structural/link check
+  passed (82 leaves,1242 links across94 files,required sections/registrations,
+  preserved proposal); whitespace check passed. Editorial check matched promises,
+  all five principles,two independent14-day rules versus one shared refund fact,
+  three proposal defects and required-second-policy variation. Static cards only;
+  no framework/pattern implementation,policy rollout or performance run claimed.
+- Next steps: D09.S03.L02,then all remaining approved units through D18.

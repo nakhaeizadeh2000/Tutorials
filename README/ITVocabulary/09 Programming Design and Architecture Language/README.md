@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 4 of 11 approved lessons are available.
+This domain is in progress: 5 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 11 approved lessons are available.
 1. **Separate supplying dependencies from controlling execution:** distinguish DI, constructor injection, composition roots, containers, service locators and IoC.
 2. **Read source dependencies separately from runtime calls:** explain DIP using a policy-owned contract and separate dependency and invocation sketches.
 3. **Classify a wiring claim and its remaining obligations:** identify Nest provider/token roles and reason about substitution, lifetime and integration limits without assuming container use proves architecture quality.
+
+## 3. Principles and refactoring
+
+### [3.1. SOLID DRY KISS YAGNI patterns and antipatterns](<sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>)
+
+1. **Interpret the five SOLID principles through their intended boundaries:** expand the names and evaluate responsibility, extension, substitution and consumer contracts without class-count rules.
+2. **Distinguish duplicated knowledge from similar-looking text:** trace independent refund and invitation rules and identify when shared policy knowledge needs one authoritative representation.
+3. **Use simplicity and pattern names to justify a specific decision:** apply KISS, YAGNI and pattern vocabulary to a concrete proposal with explained trade-offs.
 
 [← Back to IT Vocabulary](<../README.md>)
