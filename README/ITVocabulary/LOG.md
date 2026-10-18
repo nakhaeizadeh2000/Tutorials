@@ -2170,3 +2170,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   against product requirements. Static exercise only; no booking/site deployment,
   browser execution or performance run claimed.
 - Next steps: D06.S02.L01;145 approved leaves remain through D18.
+
+### D06.S02.L01 — HTML CSS DOM JavaScript and browser APIs — verified
+
+- Done: D06.S02.L01; source/DOM/presentation/language distinctions, actual complete
+  browser page, click and reload observations, host capability and solved missing-
+  style/script reasoning. Progress47/191;144 approved leaves remain.
+- Files touched: new sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript
+  and browser APIs.md; D06/track README registration/progress/lookup; this LOG.
+- Links fixed / added: registration, ten lookup entries and three existing owners.
+- Research / Decisions: recovered complete2172-line LOG, policy/continue skill and
+  clean Git/disk after compaction; approval/full scope intact. Prior section-wide
+  HTML/CSS/DOM/browser-API repo search found no general owner; reread full JS Browser
+  script tags leaf for actual-artifact/host attribution, not its timing table or
+  blanket module defaults. Read relevant MDN original reference explanations:
+  https://developer.mozilla.org/en-US/docs/Web/HTML (structure/semantics)
+  https://developer.mozilla.org/en-US/docs/Web/CSS (presentation, not its ambiguous
+  no-CSS3 historical wording)
+  https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+  (tree, document and language distinction)
+  https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener
+  https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent
+  https://developer.mozilla.org/en-US/docs/Web/API/Element/classList
+  (actual registration/text/class operations). Used living references with actual
+  browser observation; rejected universal immediate-access/timing and innerHTML
+  speed claims. Earlier section source comparison supplies web teaching context;
+  new example is original and introduces its syntax rather than a language course.
+- Verification: exact HTML fence equals the served temporary page byte-for-byte.
+  Actual Chrome151.0.7922.173/Linux browser interaction through CUA: initial waiting
+  text, empty class and computed weight400; click changed text to updated, class
+  to changed and weight700; screenshot confirmed visible result. Reload restored
+  waiting. Repeated click/reload against the lesson's exact Python3.14.4 loopback
+  http.server8000 command; observed matching text/class/style and reload. Saved
+  source retained initial text. Temporary browser tab and port8000 server closed.
+  Structural/link verifier passed (47 leaves,606 links across56 files, required
+  sections/registration, preserved proposal); git diff --check passed. Editorial
+  check matched three promises, explained host/ID/event meaning, separated native
+  controls from custom handler, and labeled variations as reasoning rather than
+  executed variants. No cross-browser, security or rendering benchmark claimed.
+- Next steps: D06.S02.L02; continue every subsequent approved unit through D18.
