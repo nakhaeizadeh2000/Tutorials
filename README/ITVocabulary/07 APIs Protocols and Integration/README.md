@@ -2,7 +2,7 @@
 
 Read interfaces, message exchanges and integration claims with explicit contracts and evidence. Software Execution and Developer Tools, Networks and the Internet, and Web Interfaces Clients and User Experience supply the prerequisites. This domain teaches interpretation and vocabulary; it does not require an API server, framework or cloud account. The OpenAPI reference baseline is 3.2.1, checked 2026-10-18; individual protocol lessons state their own source baselines.
 
-This domain is in progress: 3 of 11 approved lessons are available.
+This domain is in progress: 4 of 11 approved lessons are available.
 
 ## 1. Interfaces and contracts
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 11 approved lessons are available.
 1. **Annotate the two messages in an exchange:** locate action, target, status, metadata and content in constructed HTTP/1.1 views while distinguishing other versions’ framing.
 2. **Read the method as intent rather than a CRUD nickname:** recognize common methods including standardized QUERY and identify where the resource/format/support contract is still needed.
 3. **Interpret status content and missing responses separately:** distinguish pending business state, acceptance, no-content success and absence of an HTTP result without guessing completion or blame.
+
+### [2.2. HTTP versions caching validators and content negotiation](<sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>)
+
+1. **Recognize shared semantics across different HTTP versions:** distinguish message encoding and transport from business API versions and identify the observed hop.
+2. **Read cache storage freshness and reuse as separate decisions:** interpret cache locations and directives through a timeline without equating fresh with latest origin content.
+3. **Trace validators and negotiated representations:** explain conditional retrieval, stored-body reuse and variant matching without treating metadata as an access guarantee.
 
 [← Back to IT Vocabulary](<../README.md>)

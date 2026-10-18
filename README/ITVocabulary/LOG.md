@@ -2563,3 +2563,43 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   versuscompleted, missing-response uncertainty and method/format distinctions.
   No server/request, QUERY/PATCH integration, JSON client parsing or timing run.
 - Next steps: D07.S02.L02; remaining134 approved leaves through D18 stay in scope.
+
+### D07.S02.L02 — HTTP versions caching validators and content negotiation — verified
+
+- Done: D07.S02.L02; protocol/hop versus API version distinctions, cache locations,
+  storage/freshness/reuse policy, conditional retrieval and negotiated variant
+  matching with a solved origin-change timeline. Progress58/191;133 leaves remain.
+- Files touched: new sections/2. Reading HTTP/2.2. HTTP versions caching validators
+  and content negotiation.md; D07/track README registration/progress/lookup; LOG.
+- Links fixed / added: registration, twenty-one lookup terms and four precise owners.
+- Research / Decisions: recovered complete2565-line LOG in sequential chunks, full
+  policy/continue skill/quality/workflow, root and track/domain indexes; verified
+  all57 logged IDs against tracked leaves with Git history and clean staging/disk.
+  Repeated full-repo cache/version/validator heading search: JS module/inline caches
+  and DNS cache have distinct owners; no general HTTP cache owner. Reread full JS
+  Holes vs undefined for contrasting observations, not its inherited-property
+  definition, misleading corrections or blanket V8 placement/performance advice.
+  Read relevant current primary and educational passages, reusing pre-compaction
+  research only where recorded in session context:
+  https://www.rfc-editor.org/rfc/rfc9110.html (2.5,8.8,conditional retrieval)
+  https://httpwg.org/specs/rfc9111.html (4.1–4.3,Age,response directives and Warning
+  obsolescence; RFC Editor URL returned429 on recovery, HTTPWG supplied actual text)
+  https://www.rfc-editor.org/rfc/rfc9113.html (overview/framing/TCP blocking)
+  https://www.rfc-editor.org/rfc/rfc9114.html (HTTP-over-QUIC mapping)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Caching (cache types,
+  age/validation teaching; rejected unconditional speed/privacy, broad ETag freedom,
+  stale-always-unusable and stale CDN-Cache-Control future-status wording)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Content_negotiation
+  (preferences/selection/Vary, not document-only resources or broad client-hint claims)
+  https://www.rfc-editor.org/rfc/rfc5861.html (2010 bounded stale extensions,
+  rejecting its obsolete Warning-header requirement under9111).
+  Earlier RFC9213 abstract check resolved the guide's stale standardization claim;
+  targeted CDN controls not expanded into configuration scope. No full wire course.
+- Verification: structural/link verifier passed (58 leaves,814 links across68 files,
+  required numbered sections/registrations, unchanged closed proposal); whitespace
+  check passed. Executed offline assertions for age0/30/60 freshness and exact
+  selected-field excerpts; arithmetic/artifact checks only. Editorial check matched
+  all three promises, origin change versus cache knowledge, no-change304 stored-body
+  source, weak/strong scope and language variant matching. No HTTP/cache deployment,
+  protocol negotiation, origin validation, CDN integration or latency test claimed.
+- Next steps: D07.S03.L01, then every subsequent approved unit through D18.
