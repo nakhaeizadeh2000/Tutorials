@@ -2,7 +2,7 @@
 
 Identify the client artifacts and user-facing qualities behind web descriptions. Read Software Execution and Developer Tools and Networks and the Internet first. No frontend framework or prior UI course is required; examples introduce their own platform assumptions and distinguish inspected artifacts from executed behavior.
 
-This domain is in progress: 4 of 9 approved lessons are available.
+This domain is in progress: 5 of 9 approved lessons are available.
 
 ## 1. Client and server responsibilities
 
@@ -33,5 +33,11 @@ This domain is in progress: 4 of 9 approved lessons are available.
 1. **Separate device targets from application implementation:** interpret web, desktop, mobile, native and cross-platform along distinct dimensions.
 2. **Recognize web containers and progressive web apps:** distinguish WebViews, hybrid containers, PWA installation and scoped offline/background capabilities.
 3. **Read a capability claim as a testable product contract:** rewrite a constructed works-everywhere claim using target environments, checked tasks and useful fallbacks.
+
+### [3.2. Cookies browser storage sessions and local state](<sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>)
+
+1. **Separate application state from its storage mechanism:** distinguish memory, Web Storage, IndexedDB and cookies by scope and persistence without assuming local data is a server record.
+2. **Read cookie and session lifetimes separately:** interpret cookie attributes and partitioning while distinguishing page sessions, cookie lifetimes and application-session validity.
+3. **Diagnose a constructed state-loss report:** trace view reset, draft restore and session rejection to separate evidence and revise the diagnosis when the evidence changes.
 
 [← Back to IT Vocabulary](<../README.md>)

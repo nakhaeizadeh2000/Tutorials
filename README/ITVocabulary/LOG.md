@@ -2280,3 +2280,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static interpretation only; no app install, SDK build, PWA/service-worker/device
   permission, scanner/offline integration or performance test claimed.
 - Next steps: D06.S03.L02, then all subsequent approved units through D18.
+
+### D06.S03.L02 — Cookies browser storage sessions and local state — verified
+
+- Done: D06.S03.L02; state/mechanism/scope distinctions, page versus cookie versus
+  application sessions, current partitioned-cookie recognition and solved three-
+  state reload/expiry report. Progress50/191;141 approved lessons remain.
+- Files touched: new sections/3. Client platforms and state/3.2. Cookies browser
+  storage sessions and local state.md; D06/track README files; this LOG.
+- Links fixed / added: registration, fifteen lookup entries and four precise owners.
+- Research / Decisions: reused section-wide repo discovery excluding logs; no
+  competing cookie/storage owner. Reused full JS layer-attribution and observable-
+  contrast calibration plus prior browser state-change observation. Read actual
+  relevant primary/reference and original teaching passages:
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Cookies
+  (purpose, cookie flow, storage comparison; rejected literal HTTP2 response example)
+  https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Set-Cookie
+  (Sept1 2026, lifetime/restore caveat, scoped attributes)
+  https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API
+  https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage
+  https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage
+  (Oct12 2026 local/session references, scope, reload/opener/lifetime limits)
+  https://developer.mozilla.org/en-US/docs/Web/Privacy/Guides/Third-party_cookies/Partitioned_cookies
+  (CHIPS, December2025 Baseline metadata; initial stable-topic integration, no
+  all-version adoption assertion)
+  https://web.dev/articles/storage-for-the-web (updatedSept23 2024, mechanisms,
+  quota/failure/eviction discussion). Rejected article's dated per-browser quota
+  numbers, always-avoid-localStorage rule, all-request cookie generalization,
+  incorrect blanket Window availability and typo in its Cache API catch sample.
+  Search snippets/mirrors not used as read evidence. No unconditional storage-
+  forever, session-cookie-equals-auth, privacy-isolation or security guarantee.
+- Verification: structural/link verifier passed (50 leaves,658 links across59 files,
+  required numbered sections/registrations, preserved proposal); whitespace check
+  passed. Editorial check matched three promises and all three fictional states,
+  explicit inactivity interval, matching sent cookie and stated service policy;
+  alternative missing-cookie evidence changes diagnosis. Introduced origin/header
+  minimum context; security and full origin/site mechanics stay with future owners.
+  Static contract exercise only; no real browser data inspection/mutation, cookie
+  exchange, login, expiry/restore integration or storage performance test claimed.
+- Next steps: D06.S04.L01, then every subsequent approved unit through D18.
