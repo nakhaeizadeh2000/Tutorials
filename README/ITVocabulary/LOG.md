@@ -2488,3 +2488,40 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   removal and description versus service behavior. Static contract card only;
   no server, generated client, OpenAPI validator, HTTP request or benchmark run.
 - Next steps: D07.S01.L02; remaining136 approved leaves through D18 stay authorized.
+
+### D07.S01.L02 — Resources representations URIs URLs and origins — verified
+
+- Done: D07.S01.L02; target/state/identifier distinction, complete offline address
+  split, component/encoding scope and solved origin/site comparison table.
+  Progress56/191;135 approved leaves remain.
+- Files touched: new sections/1. Interfaces and contracts/1.2. Resources
+  representations URIs URLs and origins.md; D07/track README files; this LOG.
+- Links fixed / added: registration, eighteen lookup entries and four precise
+  existing owners. Earlier minimum origin reminder remains contextual, not duplicated.
+- Research / Decisions: repo resource/representation/URI/URL/origin headings found
+  module metadata and general resource owners; none duplicates this HTTP boundary.
+  Reused complete JS representation/neighboring-term contrast calibration and prior
+  source-name versus underlying-file distinctions. Read focused primary/original
+  explanatory passages:
+  https://www.rfc-editor.org/rfc/rfc9110.html (3.1/3.2 resources/representations)
+  https://www.rfc-editor.org/rfc/rfc3986.html (1.1.3 terminology, relative references
+  and percent-encoding boundaries; not a universal browser parser prescription)
+  https://developer.mozilla.org/en-US/docs/Web/URI/Reference (May13 2025 components)
+  https://developer.mozilla.org/en-US/docs/Glossary/Origin (ordinary HTTP tuple,
+  default ports and limited opaque-origin caveat)
+  https://developer.mozilla.org/en-US/docs/Glossary/Site (registrable/site concepts;
+  rejected unqualified SameSite-only-same-site assertion and schemeless default)
+  https://web.dev/articles/same-site-same-origin (Kitamura2020, origin/site comparison
+  pedagogy; rejected simplistic TLD+1 algorithm, blanket Sec-Fetch-Site trust/no-harm
+  and every-client-header assumptions)
+  https://docs.python.org/3.14/library/urllib.parse.html (split attributes and explicit
+  validation/WHATWG/RFC conformance limitation). Broader policy mechanics stay later.
+- Verification: exact address_parts.py fence ran CPython3.14.4/Linux x86_64,
+  exit0, all six output lines matched scheme/host/port/path/query/fragment. No
+  DNS/request/network activity in the code. Structural/link verifier passed
+  (56 leaves,762 links across66 files, required sections/registration, preserved
+  proposal); whitespace check passed. Editorial check matched three promises,
+  all table rows/default443, port/fragment practice and distinction between parsing,
+  browser policy and reachability. No live origin/site/CORS integration, URL
+  security validator or latency measurement claimed.
+- Next steps: D07.S02.L01; continue every remaining approved unit through D18.
