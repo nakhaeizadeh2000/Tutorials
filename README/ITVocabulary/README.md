@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **99 of 191 approved lessons** are available.
+Implementation is in progress: **100 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -34,6 +34,7 @@ Domain indexes appear here as lessons are completed.
 | 8 | [Databases Storage and Data Pipelines](<08 Databases Storage and Data Pipelines/README.md>) — complete |
 | 9 | [Programming Design and Architecture Language](<09 Programming Design and Architecture Language/README.md>) — complete |
 | 10 | [Concurrency Messaging and Distributed Systems](<10 Concurrency Messaging and Distributed Systems/README.md>) — complete |
+| 11 | [Version Control Releases and Dependencies](<11 Version Control Releases and Dependencies/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -103,6 +104,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Backpressure | [Downstream capacity feedback regulating upstream production](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
 | Backup | [Retained material intended to support recovery](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Bandwidth (network) | [An overloaded term often used for information-carrying capacity](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
+| Bare repository | [Repository with no associated working tree](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Batch (data) | [Processing a bounded group of data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Batch (messaging) | [A bounded group handled together without implied output atomicity](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -178,6 +180,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Command (design) | [An intended action whose acceptance is not automatic](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Command message | [Message carrying a requested action](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Commit | [Accepting transactional database changes](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Commit (Git) | [Recorded versioned snapshot with metadata and parent relationships](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Commit ID | [Identifier of a commit object](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Competing consumers | [Workers sharing a delivery source to divide its work](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Compilation | [Translation to another code representation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Compiler | [A tool performing code translation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
@@ -278,6 +282,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DHCP | [Dynamic Host Configuration Protocol](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | DI | [Dependency injection](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | DI container | [Mechanism resolving and assembling registered dependencies](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
+| Diff | [Differences between specified input versions](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Digest | [A computed summary of specified bytes](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | DIP | [Dependency Inversion Principle](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Directory | [An organization of named filesystem entries](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
@@ -375,6 +380,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Gateway (IP) | [A next-hop router in a forwarding context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | GB and GiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | GET | [Retrieve a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Git | [A version-control system with snapshot and reference records](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Graph (data structure) | [Nodes connected by edges](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Graph database | [Database organized around nodes and connections](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
@@ -392,6 +398,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Hardware | [Physical computing components](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | HDD | [Persistent-storage device category](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | HEAD | [GET-like metadata without response content](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| HEAD (Git) | [Current commit context in an ordinary checkout](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Head-of-line blocking | [Later work waiting behind earlier missing or unfinished work](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | Header | [Protocol control information preceding carried content](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Health check | [A defined probe or observation used to assess a specific condition](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
@@ -431,10 +438,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Idempotent | [Repeated identical requests have the same intended effect as one](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Idempotent consumer | [Consumer preserving the intended effect when the same logical operation is repeated](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | IDL | [Interface definition language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| Ignored file | [File matching applicable ignore rules](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IMAP | [Internet Message Access Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Imperative programming | [Explicit commands and control flow often updating working state](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Import package | [A Python module able to contain submodules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Incremental backup | [Changed material relative to earlier retained data](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
+| Index (Git) | [Staging area preparing the next snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IndexedDB | [Browser database API for structured client data](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Indirection | [A route between the caller and the work](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Information hiding | [Keeping implementation decisions from becoming client obligations](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
@@ -615,6 +624,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Parsing | [Interpreting syntax into a structured result](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Partitioned cookie | [Cookie state separated by top-level-site context](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | PATCH | [Apply a modification document](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Patch (version control) | [Textual change representation for inspection or application](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Path | [Components interpreted from a defined starting point](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Path template | [A described path with variable components](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Paxos | [A named family of consensus protocols](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
@@ -712,6 +722,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Replica | [Copy maintained by replication](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Replication (data) | [Maintaining copies through a defined transfer and application process](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Replication lag | [Delay between specified source and replica stages](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
+| Repository (Git) | [Object database references and metadata or contextually the whole checkout](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Representation (HTTP) | [Communicated resource-state information and its metadata](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Representation independence | [Client behavior independent of internal representation when contracts are preserved](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -818,6 +829,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Stable | [Compatibility status rather than universal availability](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Stack (data structure) | [Collection with last-in first-out removal](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Stack frame | [State associated with one function invocation](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
+| Staging | [Recording selected contents in the index](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Staging area | [Selected contents prepared for the next Git snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Stale response | [A response no longer meeting its freshness test](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | stale-if-error | [Bounded stale service for eligible errors](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | stale-while-revalidate | [Bounded stale service while validation is attempted](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -875,6 +888,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Toolchain | [Tools used together across development and execution stages](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Topic (messaging) | [Product-specific named publication or routing grouping](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | TRACE | [Diagnostic HTTP request loopback](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Tracked file | [File with an entry in the index](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Transaction | [Database work grouped under completion and concurrency rules](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Transfer estimate | [A completion model with explicit quantities and assumptions](<02 Computers Data Representation and Units/sections/5. Applied interpretation/5.1. Read a machine specification and transfer estimate.md>) |
 | Transformation (data) | [Changing representation selection or derived meaning](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -897,6 +911,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Unicode | [Code points properties and text-processing rules](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Uniform interface | [Common resource interaction constraints in REST](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Unix domain socket | [A socket family for local interprocess communication](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Untracked file | [Working-tree file outside the tracked set](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Update anomaly | [Inconsistent repeated facts after a change](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | URI | [Uniform Resource Identifier](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | URI reference | [An absolute or base-relative resource reference](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
@@ -919,6 +934,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | UX | [User experience across the product or service interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Value object | [Meaning represented by values without separate conceptual identity](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Vary | [Request fields used in HTTP cache representation matching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Version control | [Recording and relating versions so changes can be inspected and combined](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | View (database) | [Named query presenting a relation](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Viewport | [The browser area available to present a page](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Virtual memory | [An address-space abstraction with mappings and backing](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -939,6 +955,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Wi-Fi | [Wireless local-network access technology](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Wildcard bind | [Binding to any local address in the stated address family](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Work queue | [Delivery source distributing tasks among workers](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Working tree | [Checked-out files and directories available for editing](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 | XML | [Extensible Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | YAGNI | [You Aren’t Gonna Need It applied to speculative capabilities](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |

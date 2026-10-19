@@ -4232,3 +4232,57 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   completion and track status checked before this unit's explicit-path commit.
 - Next steps: D11.S01.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S01.L01 — Repositories working trees staging commits and diffs — verified
+
+- Done: D11.S01.L01; repository/working/index/snapshot distinctions,actual three-
+  version file and restaging contrast,explicit diff endpoints,status columns and
+  local-history versus sharing/deployment limits. Created D11;progress100/191;
+  91 approved leaves remain.
+- Files touched: new D11 README and sections/1. Change records/1.1. Repositories
+  working trees staging commits and diffs.md; track README; this LOG.
+- Links fixed / added: real D11 module/leaf navigation,sixteen contextual lookup
+  entries,three exact prior owners; existing database Commit/Index owners preserved.
+- Research / Decisions: full-repo numeric repo/working-tree/staging/commit/diff
+  heading search found no general Git owner. Read complete JS Holes vs undefined
+  for contrasting observations of apparently similar states; rejected inherited-
+  property mistakes,self-corrections,blanket normalization and old V8 one-way/
+  array-placement/speed claims. Actual originating sources consulted:
+  https://git-scm.com/docs/git-add (description/current selective contents)
+  https://git-scm.com/docs/git-diff (description,endpoints,cached/staged and numstat)
+  https://git-scm.com/docs/git-status (actual ordinary short-format columns and
+  conflict exceptions,not all-status-output-as-stable-script format)
+  https://git-scm.com/docs/gitglossary (actual repo/gitfile/bare/working-tree/index
+  and current-head passages; rejected .git-always-directory and universal branch-
+  always-attached simplifications; no hook-administration prescription)
+  https://git-scm.com/docs/gitdatamodel (actual object/commit/index portions,current
+ 2.56.0 Sept28 2026 metadata; new guide discovered via author rather than relying
+  on old book diagrams,not full internals/reflog/storage-mechanism review)
+  https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository
+  (actual staging,tracked/untracked,staged-then-edited passages; rejected old reset/
+  checkout discard recipes and historical default-branch names as current defaults).
+  https://jvns.ca/blog/2023/11/01/confusing-git-terminology/ (original section on
+  index/staged/cached; rejected every-option-synonymous and untracked-entry claim
+  as staging semantics). https://jvns.ca/blog/2026/01/08/a-data-model-for-git/
+  (whole short original account,reader questions and linked originating guide;
+  no full contribution workflow/community review inferred). Followed actual guide
+  link and current official publication. git-show page supplied navigation; exact
+  file selectors corroborated by actual run,failed literal search not claimed
+  as matching passage. Downloads URL returned redirect stub,no latest binary
+  version inferred; current2.56 reference metadata distinguished from actual
+  Git2.53.0. Existing behavior retained,no new features deferred or prerelease run.
+- Verification: exact Bash fence executed via Bash5.3.9/Git2.53.0/Linux x86_64 in
+  isolated clean temporary repository,exit0,empty stderr,entire stdout matched
+  MM,committed1,index2,file3 and two1-add/1-delete tab-separated summaries. Actual
+  extra-add-only fresh-repository variation produced M-space-space,index3/file3,
+  unchanged commit1 and empty final unstaged diff. Runner excluded system/global
+  Git config and inherited Git execution variables; source commands use synthetic
+  identity,no templates/signing/hooks and ordinary text handling. All temporary
+  repositories cleaned; project checkout/history/settings unaffected by example.
+  Structural/link verifier passed (100 leaves,1541 resolving links across114 files,
+  required sections/registrations,preserved proposal); whitespace check passed.
+  Editorial check matched three promises,ordinary/no-conflict scope,plain-commit
+  condition,diff counts versus actual changes and tracked/ignored distinction.
+  No remote network/sharing,hosting,deployment,amendment,crash recovery or performance
+  benchmark executed. Singular D11 progress grammar corrected before completion.
+- Next steps: D11.S01.L02,then every remaining approved unit through D18.
