@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 2 of 10 approved lessons are available.
+This domain is in progress: 3 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 10 approved lessons are available.
 1. **Identify the reference behind verification and validation:** Separate conformance to specified requirements from intended-use evaluation and the narrower input-validation meaning.
 2. **Separate quality activities from department names and acceptance decisions:** Interpret QA, QC, acceptance criteria, acceptance testing and UAT without treating a team name or decision as proof of every result.
 3. **Read a conformance result and an unmet need together:** Diagnose a constructed requirements-to-purpose gap and distinguish process improvement, product evaluation and acceptance evidence.
+
+## 2. Test scope and intent
+
+### [2.1. Unit component integration system end-to-end and contract tests](<sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>)
+
+1. **Define the tested boundary before assigning a level name:** Interpret unit, component, integration, system and end-to-end naming with explicit scope and local conventions.
+2. **Trace which real collaborations each arrangement exercises:** Compare five constructed calculation, database, API and browser arrangements and identify the evidence removed by substitutions.
+3. **Distinguish interface-contract evidence from a complete workflow:** Explain consumer and provider contract checks, relevant version pairing and the application or deployed-path behavior they do not establish.
 
 [← Back to IT Vocabulary](<../README.md>)

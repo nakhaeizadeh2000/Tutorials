@@ -4805,3 +4805,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   verification,product acceptance or performance test actually executed.
 - Next steps: D12.S02.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S02.L01 — Unit component integration system end-to-end and contract tests — verified
+
+- Done: D12.S02.L01; explicit SUT/level boundaries and naming variation,five
+  original calculation/storage/API/UI/workflow arrangements,substitution evidence
+  limits and paired consumer/provider versus standalone provider contract checks.
+  Progress112/191;79 approved leaves remain.
+- Files touched: new sections/2. Test scope and intent/2.1. Unit component integration
+  system end-to-end and contract tests.md; D12/track README files; this LOG.
+- Links fixed / added: registration,ten contextual lookup entries,four exact
+  previous conceptual owners and domain/track navigation. No framework installed.
+- Research / Decisions: full-repo numeric level/unit/integration/contract heading
+  search found TS type-test gates and JS testing foundations; read full JS Why test
+  the test pyramid economics and what not to test as contrast/economics benchmark.
+  Rejected70/20/10 quotas,unit=oneexportedmodule/noIO universal,Map/fake-as-real-DB
+  integration,E2E-by-process/browser,typeof-function-as-E2E-proof,10x/flaketiming,
+ 30s/200test threshold,flawed floating-money example,branchless-implies-no-value,
+  mandatory test choices and missing required-section organization. Actual sources:
+  https://martinfowler.com/bliki/UnitTest.html (May2014/revisedMar2017 actual term
+  variation,small scope,solitary/sociable paragraphs; no unit=class rule,universal
+  exact speed/tooling/economics assertion).
+  https://martinfowler.com/bliki/IntegrationTest.html (Jan2018/revisedJune2021
+  actual narrow/broad interface and terminology passages,not historical waterfall
+  process as current requirement or universal contract-tests-replace-all-integration).
+  ISTQB4.0.1 PDF actual2.2/2.2.1 PDF27–28/printed28–29 (URL prior entries),including
+  component=unit and simulated subsystem allowance; no five-level-only universal
+  naming rule or independent-team requirement. https://docs.pact.io/ (actual Aug25
+ 2026 intro,consumer-driven versus provider conformance distinction; rejected
+  killer-app/version-hell marketing,static-schema-describes-all-state and complete
+  compatibility guarantee). https://docs.pact.io/getting_started/how_pact_works
+  (actual consumer interaction,provider verification and message-boundary passages,
+  Dec2024; rejected fully-tested-all-contract/always-safe-deploy,every-microservice-
+  has-queue,old AWS code as current setup). Concept-only evidence,no alternate
+  Testing-track framework choice or installation. https://playwright.dev/docs/best-practices
+  (actual third-party response substitution/data scope,not blanket never-test-real-
+  integration,all-locators-automatically-correct or same-browser-only general rule).
+  Primary actual contracts corroborate practitioner naming,not source vocabulary
+  forced onto every team. NestJS+Fastify retained as static backend vehicle.
+- Verification: structural/link verifier passed (112 leaves,1768 resolving local
+  links across127 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises,all A–E real
+  versus substituted boundaries,Map replacement removing driver/SQL/constraints,
+  UI-only D versus persisted-state E,and neither showing actual recipient delivery.
+  Contract example separates client use,provider generation,version-specific cases
+  and live deployed path. Static arrangements only,no unit/DB/API/browser/Pact/
+  Playwright test,provider verification,framework boot,email delivery or timing
+  benchmark executed. No numerical suite quota or unperformed result claimed.
+- Next steps: D12.S02.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

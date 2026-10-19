@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **111 of 191 approved lessons** are available.
+Implementation is in progress: **112 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -208,6 +208,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Compilation | [Translation to another code representation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Compiler | [A tool performing code translation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Component (C4) | [Related functionality behind an interface within a C4 container](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Component testing | [Evaluation of a component with its scope and substitutions stated](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Composite key | [Identifier formed from a combination of columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Composition root | [The application assembly location for concrete collaborators](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Compression | [Representing data with size reduction as a goal](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
@@ -227,8 +228,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Consumer (messaging) | [Role receiving messages for processing](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Consumer acknowledgment | [Consumer-to-broker signal permitting delivery completion handling](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Consumer group (Kafka) | [Logical subscriber dividing partition assignments among its consumers](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| Consumer-driven contract | [Interaction expectations driven by a consumer and verified against the corresponding provider](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Container (C4) | [Application or data store in the C4 model](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Contract test | [Evaluation of an agreed interaction or implementation contract at a boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Cooperative scheduling | [Work relinquishing control at supported yield or suspension points](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Copyleft | [License conditions preserving specified freedoms for covered works](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
@@ -349,6 +352,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DST | [Daylight saving time and seasonal clock changes](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Durability (transaction) | [Persistence of accepted changes under stated failure assumptions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Duration | [Elapsed time and compatible units](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| E2E test | [End-to-end workflow check with actual endpoints and substitutions named](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Editor | [A tool for modifying source files](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | EEPROM | [Rewritable device memory in the bootloader example](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Effect order | [Order in which business effects become observable](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
@@ -509,6 +513,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Installed dependency tree | [Dependency contents present in a specified environment](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Instant | [A particular point on the timeline](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Integration diagnosis | [Tracing a contract and observations to a specific failed or uncertain boundary](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
+| Integration testing | [Evaluation of interfaces and interactions between specified parts](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Interest (technical debt) | [Extra recurring effort while a technical burden remains](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Interface (design) | [Exposed operations and their agreed behavioral contract](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Interface Segregation Principle | [Keeping consumer dependencies appropriate to needed operations](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
@@ -965,6 +970,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Subscription | [Recorded interest under routing and delivery rules](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Support status | [Availability maintenance and service meanings](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Suspension (task) | [Pausing a task continuation while its execution resource may run other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
+| SUT | [System under test](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Swagger | [An API tooling and historical name requiring artifact context](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Swap | [Backing space for some memory pages](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Switch | [A role forwarding local-link traffic among connected devices](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
@@ -972,6 +978,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Symlink | [Symbolic link](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Synchronous | [Completion ordered before the caller continues at a stated boundary](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | System call | [An entry point for requesting a kernel service](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
+| System testing | [Evaluation of the overall behavior of a defined system](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
+| System under test | [Software boundary being evaluated](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Table | [Named collection of rows described by columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Tag (Git) | [Named object label commonly marking a selected commit](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Task | [A unit of work defined by its subsystem](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
@@ -980,6 +988,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Terminal | [The text interaction surface and terminal emulator](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
+| Test level | [Organization of evaluation around a software scope](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Testable statement | [A claim that can be compared with relevant evidence](<01 Reading and Using Technical Language/sections/4. Applied reading and review/4.1. Turn a jargon-heavy message into a testable statement.md>) |
 | Thread | [An execution unit within a process](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Throttling | [Constraining work by a rate quota or concurrency policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
@@ -1022,6 +1031,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Unary RPC | [One request message and one response message](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Unicode | [Code points properties and text-processing rules](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Uniform interface | [Common resource interaction constraints in REST](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| Unit test | [Check of a small behavior unit under an explicit boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Unix domain socket | [A socket family for local interprocess communication](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Untracked file | [Working-tree file outside the tracked set](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Update anomaly | [Inconsistent repeated facts after a change](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
