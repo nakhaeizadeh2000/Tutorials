@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 7 of 10 approved lessons are available.
+This domain is in progress: 8 of 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -53,5 +53,11 @@ This domain is in progress: 7 of 10 approved lessons are available.
 1. **Connect a distribution name to the actual artifact:** Separate source, packaged contents, registry, mirror and cache records from byte-integrity and publisher claims.
 2. **Separate a verified signature from an accepted build claim:** Interpret signatures, attestations, build provenance and SLSA verification with explicit subject, identity and policy boundaries.
 3. **Read a component inventory and apply each evidence boundary:** Distinguish an SBOM from a lockfile or safety result and diagnose an inventory for a different artifact.
+
+### [4.3. Open source source-available proprietary and commercial software](<sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>)
+
+1. **Separate source access and license rights from price:** Classify open source, source-available, proprietary, commercial and free software without treating them as one exclusive list.
+2. **Read license conditions without replacing them with a slogan:** Distinguish permissive and copyleft usage, actual license terms, notices, attribution and context-specific compatibility.
+3. **Classify a release packet and identify the missing review:** Interpret four fictional offerings and assemble exact component, version and intended-use evidence for a real license question.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -4587,3 +4587,54 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   experiment executed. No unsupported numeric speed/risk payoff introduced.
 - Next steps: D11.S04.L03,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S04.L03 — Open source source-available proprietary and commercial software — verified
+
+- Done: D11.S04.L03; source/rights/price/business axes,OSS/FOSS/freeware context,
+  permissive/copy-left naming variation,concrete MIT terms and original four-
+  offering packet with price-only/rights-only changes and scoped review handoff.
+  Progress107/191;84 approved leaves remain.
+- Files touched: new sections/4. Dependencies provenance and licensing/4.3. Open
+  source source-available proprietary and commercial software.md; D11/track README;
+  this LOG. No actual software license or policy changed.
+- Links fixed / added: registration,14 contextual lookup entries,four exact owners
+  and domain/track navigation; no unpublished legal/security specialist links.
+- Research / Decisions: full-repo numeric license/open-source/proprietary/commercial
+  heading search found no general owner. Read full JS Engines runtimes and hosts
+  for independent-role classification and missing-capability questions; rejected
+  identical-all-engine conformance,console-as-language-built-in,universal error/
+  host attribution,never-environment-check and performance hierarchy assertions.
+  Actual consulted sources:
+  https://opensource.org/osd (actual10criteria,version1.9/2007 text,page modified
+  Feb2024; source/redistribution/derivative/non-discrimination criteria,no quoted
+  full definition). https://opensource.org/faq (actual business/free terminology,
+  copyleft/permissive/source and license-reading passages,modifiedJan2025; rejected
+  all-open-licenses-permissive as sole everyday usage,definitions-identical-in-every-
+  case,OSIapproval-as-legal-ruling and simplified all-linking/derivative outcomes).
+  https://www.linuxfoundation.org/licensebestpractices (actual notice-versus-license,
+  family distinctions,component-type,compatibility/context review passages;
+  rejected all-code-always-same-copyleft,no-matter-combination,docs-must-never-use-
+  source-license and most-combinations-must-publicize as universal legal outcomes).
+  Compared OSI broad permissive usage with LF common narrower family label and
+  explained convention explicitly instead of silently choosing one as law.
+  https://choosealicense.com/licenses/mit/ (actual grant,notice condition,disclaimers
+  plus teaching comparison; no license text copied,no all-included-components-
+  automatically-MIT,permission-from-credit or universal no-other-rights issues).
+  https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository
+  (actual visibility,platform view/fork,license text/detection/disclaimer passages;
+  rejected broad no-permission-ever/no-exceptions legal inference and auto-detection
+  as compliance proof). GNU categories and free-software direct pages returned
+  internal errors,no content claimed; actual OSI/LF explanations supply accessible
+  alternatives. Community snippets discovery only,not legal evidence. No personal
+  license selection,combination determination or expanded compliance course.
+- Verification: structural/link verifier passed (107 leaves,1686 resolving links
+  across121 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,four packet distinctions,
+  commercial restriction's OSD conflict,MIT notice condition,unknown HelperD rights,
+  price-only unchanged rights and changed-terms revised classification. Preserved
+  version/file/activity questions for review; no invented jurisdiction-specific
+  entitlement or blanket proprietary/copyleft prohibition. Static text comparison
+  only; no license scanner,legal/compliance assessment,dependency modification,
+  software execution or performance/cost experiment run.
+- Next steps: D11.S05.L01,then D11.S06.L01 and every approved D12–D18 unit;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
