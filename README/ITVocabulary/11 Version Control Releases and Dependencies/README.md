@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 5 of 10 approved lessons are available.
+This domain is in progress: 6 of 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -39,5 +39,13 @@ This domain is in progress: 5 of 10 approved lessons are available.
 1. **Read release readiness from the publisher’s own criteria:** Interpret alpha, beta, RC, final, GA and release channels without assuming universal feature or defect guarantees.
 2. **Separate a release line’s maintenance from an installed patch:** Read LTS, maintenance and EOL policies with a publisher, date and exact artifact, using current Node.js and Python examples.
 3. **Interpret a release matrix without inventing a recommendation:** Compare fictional channels, maintenance windows and missing patch or integration evidence and revise only supported conclusions.
+
+## 4. Dependencies provenance and licensing
+
+### [4.1. Direct transitive peer dependencies manifests and lockfiles](<sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>)
+
+1. **Read dependency roles relative to a particular project:** Distinguish direct, transitive, development, peer and optional requirements in an explicit application and host graph.
+2. **Separate requested constraints from resolved and installed versions:** Read manifests, version ranges, pins, lockfiles and installed trees as different evidence with manager-specific policy.
+3. **Diagnose a disagreement without inventing its cause:** Interpret a constructed manifest/lock/installation mismatch and ask for the inputs and observations needed to explain it.
 
 [← Back to IT Vocabulary](<../README.md>)

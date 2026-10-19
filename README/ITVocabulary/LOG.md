@@ -4477,3 +4477,57 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   assumptions to newly announced policy.
 - Next steps: D11.S04.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S04.L01 — Direct transitive peer dependencies manifests and lockfiles — verified
+
+- Done: D11.S04.L01; relative dependency graph roles,fictional manifest reading,
+  requested/resolved/installed/loaded distinctions,current npm12 lock/metadata
+  policy and original mismatch packet with evidence-removal practice.
+  Progress105/191;86 approved leaves remain.
+- Files touched: new sections/4. Dependencies provenance and licensing/4.1. Direct
+  transitive peer dependencies manifests and lockfiles.md; D11/track README; LOG.
+- Links fixed / added: registration,12 contextual lookup entries,four existing
+  owners plus domain/track navigation; original Package/Dependency owners retained.
+- Research / Decisions: recovered complete4479-line LOG and full1029-line track
+  index in sequential chunks,repairing truncated lookup portions with smaller
+  overlapping reads; full policies/continue skill/workflow/quality/root/domain
+  context. Reconciled104 logged IDs to104 tracked leaves with Git history and
+  clean13e32744. Section-wide repo dependency/manifest/lock heading discovery
+  found D03 package owner and JS resolution owner; reread both completely.
+  Transferred JS explicit metadata/consumer boundaries,not simulated resolution
+  proof,old runtime/proposal flags,universal extension/default-type rules,
+  sideEffects purity,barrel O(3x200),fixed depth/export quotas or speed folklore.
+  Actual current originating sources consulted:
+  https://docs.npmjs.com/cli/v12/configuring-npm/package-json/ (dependencies,dev,
+  peers/optional,root overrides/packageExtensions; rejected range-alone actual
+  compatibility,all-peers-always-installed,all-optional-failures-irrelevant and
+  root-raw-upstream-manifests-as-entire-input assertions).
+  https://docs.npmjs.com/cli/v12/configuring-npm/package-lock-json/ (actual record,
+  metadata reuse,current12 shrinkwrap removal and format; rejected unconditional
+  all-platform/build-output reproducibility and stale normal-v2 hidden-lock wording).
+  https://docs.npmjs.com/cli/v12/commands/npm-ci/ (actual mismatch/no-rewrite and
+  omit-resolved-but-not-on-disk passages; no command run,script-default course,
+  deletion recipe or old shrinkwrap acceptance imported).
+  https://github.com/npm/cli/releases/tag/v12.2.1 (actual release metadata Oct2026;
+  docs selector12.2.0 versus binary-release12.2.1 distinguished,no installed-current
+  claim). Pre-recovery discovery found12 after initialv11 pages; initial lesson
+  uses current12 directly,not an old baseline deferred to an update domain.
+  https://nodejs.org/en/blog/npm/peer-dependencies (actual DomenicDenicola original
+  author/repost and host-plugin motivation; rejected old npm defaults,all-plugins-
+  never-import,universal nested-copy adequacy and historical framework inventories).
+  https://github.com/npm/node-semver (actual caret-range source consulted for the
+  bounded2.x example,not a complete resolver tutorial). Prior evaluated Hynek
+  consumer/upgrade evidence informs why an unchanged declaration is insufficient;
+  no universal pin-all or never-update rule. No implementation expansion/delegation.
+- Verification: exact JSON fence parsed offline with Python; assertions checked
+  private flag,two ordinary direct declarations and separate development entry.
+  This is artifact inspection,not npm schema conformance,resolution or installation.
+  Final structural/link verifier passed (105 leaves,1649 resolving links across119
+  files,required sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched three promises,each relative graph viewpoint,
+  normal2.4.2/2.6.0 admitted values,root inspection location and missing report-load
+  history. Removing installed row weakens only the mismatch conclusion. Static
+  packet only; no package download/install/ci,lock regeneration,runtime report,
+  compatibility,integration,reproducible-build or performance test executed.
+- Next steps: D11.S04.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
