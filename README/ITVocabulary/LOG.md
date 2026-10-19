@@ -4203,3 +4203,32 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   service/broker/partition,concurrent worker,remote email,overload,breaker recovery
   or millisecond performance experiment executed. Proposed tests are unexecuted.
 - Next steps: D10.S07.L01,then every approved D11–D18 unit; approval unchanged.
+
+### D10.S07.L01 — Boundaries of concurrency and distributed vocabulary — verified
+
+- Done: D10.S07.L01; ten precise conceptual owner routes,existing JS/TS versus
+  future OS/database/broker/consensus study,original Promise/mutex/restart handoff
+  and added-evidence variation. All11 D10 approved outcomes implemented;progress99/191;
+  92 approved leaves remain across D11–D18.
+- Files touched: new sections/7. Overlaps to avoid/7.1. Boundaries of concurrency
+  and distributed vocabulary.md; D10/track README completion/progress; this LOG.
+- Links fixed / added: registration,18 precise existing owner/domain routes;
+  D10 marked complete,track remains in progress,no unpublished placeholder links.
+- Research / Decisions: full-repo focused boundary headings found no competing
+  general owner. Reread full JS Fundamentals boundary reference for routing,
+  rejecting historical future-TypeScript/WebPlatform labels and absolute ban on
+  useful minimal examples. Read full actual JS and TS Async indexes for published
+  ownership; read full current D10 shared-state/coordination owner. JS index's
+  universal no-races/parallel and old unhandled-rejection/performance wording not
+  imported. Reused D10's evaluated primary/original source map and actual owners,
+  adding no platform/version guarantee. Root planned NodeJS,RxJS,Microservices,
+  SystemDesign and OS routes remain plain study guidance,NestJS+Fastify retained.
+- Verification: structural/link verifier passed (99 leaves,1518 resolving links
+  across112 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,all11 approved D10 outcomes
+  to actual indexed leaves,ten owner questions and restart result's limited scope.
+  Static routing/claim exercise only; no Promise rewrite,process restart,replay,
+  crash recovery,broker integration or performance test executed. Domain count,
+  completion and track status checked before this unit's explicit-path commit.
+- Next steps: D11.S01.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

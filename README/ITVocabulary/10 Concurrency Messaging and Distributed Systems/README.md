@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 10 of 11 approved lessons are available.
+This domain is complete: all 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -75,5 +75,13 @@ This domain is in progress: 10 of 11 approved lessons are available.
 1. **Expand the promise into operations and required outcomes:** Translate async, replication, delivery and recovery claims into explicit review boundaries and requirements.
 2. **Trace a supplied failure packet without extending its evidence:** Distinguish task scheduling, read correctness, quorum progress, known duplicate effects, timeout knowledge and hidden buffering.
 3. **Rewrite the contract and request evidence that could change it:** Produce audience-appropriate handoffs, propose discriminating checks and revise conclusions when evidence or timing changes.
+
+## 7. Overlaps to avoid
+
+### [7.1. Boundaries of concurrency and distributed vocabulary](<sections/7. Overlaps to avoid/7.1. Boundaries of concurrency and distributed vocabulary.md>)
+
+1. **Return to the owner of the specific guarantee:** Route waiting, scheduling, coordination, messaging, flow control, consistency and effect questions to their canonical explanations.
+2. **Choose implementation study from the missing mechanism:** Separate language and type details from OS, database, broker and consensus implementation evidence.
+3. **Hand off a mixed runtime and recovery question:** Distinguish Promise completion, local exclusion and retained duplicate handling and interpret a scoped restart result.
 
 [← Back to IT Vocabulary](<../README.md>)
