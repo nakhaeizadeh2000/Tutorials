@@ -4032,3 +4032,40 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   probe-versus-prior-output and lookup definitions. Static policy/trace exercise;
   no timeout/cancel/retry/breaker deployment,remote side effect or benchmark executed.
 - Next steps: D10.S04.L02,then every remaining approved unit through D18.
+
+### D10.S04.L02 — Backpressure buffering throttling and load shedding — verified
+
+- Done: D10.S04.L02; retained backlog versus real upstream feedback,throttling/
+  admission/shedding distinctions,original equal-cost flow accounting and four
+  policy variations with drain estimate. Progress95/191;96 leaves remain.
+- Files touched: new sections/4. Failure and flow control/4.2. Backpressure buffering
+  throttling and load shedding.md; D10/track README files; this LOG.
+- Links fixed / added: registration,seven defined lookup entries,four exact owners.
+- Research / Decisions: full-repo numeric heading search found JS timer throttle
+  owner and array-buffer meanings; read full JS Scheduling patterns debounce
+  throttle and yielding for mechanism distinctions,not universal O(n)-to-O(1),
+  every-handler-needs-flush/cancel,old browser release labels,always-render-after-
+  timer,one-await-flushes-all-jobs,fixed INP/timer payoff or leaky cancellation sample.
+  Reused prior stream/consumer owner and task/queue examples. Actual sources:
+  https://www.reactive-streams.org/ (actual problem/scope and JVM1.0.4 May2022
+  metadata; selected asynchronous demand and bounded receiver obligations,not
+  universal asynchrony-required-for-parallelism,interoperability guarantees for
+  nonconforming graphs or historical future-JDK/browser prediction).
+  https://nodejs.org/learn/modules/backpressuring-in-streams (actual producer
+  response/control passages,not old benchmark/RSS numbers,all-busy-writes-return-
+  false,guaranteed-free-memory or capacity-threshold-as-hard-memory-limit claims).
+  https://sre.google/sre-book/handling-overload/ (original Cuervo2016 selected
+  request-cost,client-throttling and criticality passages; rejected universal CPU-
+  only capacity,all-bad-customers-only-errors,old company topology,priority names,
+  2x multiplier and no-overhead guarantees as general defaults). Linked precise
+  API counting owner; no real flow-control implementation or backend changed.
+- Verification: offline Python exact arithmetic passed pending4/8/12/16/20,
+  unchanged-next24,source6→18,refuse4→20,actual-capacity14→18 and20/8=2.5s drain.
+  Model explicitly equal-cost/smooth flow,boundary accounting,no in-flight peak
+  simulation. Final structural/link check passed (95 leaves,1447 links across108
+  files,required sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched promises,hidden-buffer pitfall,upstream
+  cooperation,admitted/refused/completed distinctions and accepted obligations.
+  Static model/arithmetic only; no ReactiveStreams conformance,Node pipeline,
+  broker pressure,load shedding,capacity measurement or benchmark executed.
+- Next steps: D10.S05.L01,then every remaining approved unit through D18.

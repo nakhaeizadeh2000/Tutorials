@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 6 of 11 approved lessons are available.
+This domain is in progress: 7 of 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -47,5 +47,11 @@ This domain is in progress: 6 of 11 approved lessons are available.
 1. **Name the waiting limit and preserve an unknown outcome:** Distinguish timeout stages, whole-operation deadlines, cancellation and evidence of a remote effect.
 2. **Bound repeated attempts and distinguish backoff from jitter:** Read attempt counts, capped delay ceilings, jittered values, total budgets and nested retry amplification.
 3. **Read a circuit breaker as a stateful admission decision:** Explain closed, open and half-open behavior without treating probes, rejections or retries as earlier business recovery.
+
+### [4.2. Backpressure buffering throttling and load shedding](<sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>)
+
+1. **Separate retained work from feedback that regulates its source:** Identify buffers, backlogs and actual upstream demand propagation without hiding another unbounded queue.
+2. **Distinguish throttling from rejecting excess work:** Read pacing, admission and overload policies with explicit outcomes and accepted-work obligations.
+3. **Account for a growing backlog and change one policy:** Explain a bounded-buffer accounting model, four policy variations and a limited drain estimate.
 
 [← Back to IT Vocabulary](<../README.md>)
