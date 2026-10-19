@@ -4116,3 +4116,54 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   replication,partition,consensus/model checker,convergence or performance run.
 - Next steps: D10.S05.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D10.S05.L02 — Delivery semantics ordering deduplication and exactly-once claims — verified
+
+- Done: D10.S05.L02; explicit occurrence/effect scopes,original repeated-report
+  SQL observation with guard-removal/rollback contrasts,identity versus equal
+  payloads,order versus duplicates and external-send coordination practice.
+  Progress97/191;94 approved leaves remain.
+- Files touched: new sections/5. Distributed guarantees/5.2. Delivery semantics
+  ordering deduplication and exactly-once claims.md; D10/track READMEs; this LOG.
+- Links fixed / added: registration,ten contextual lookup entries,four precise
+  owners and domain navigation; existing API idempotency/ack ownership retained.
+- Research / Decisions: full-repo numeric heading search found ack/API-idempotency
+  owners and unrelated JS resurrection ordering. Reread complete current message-
+  lifecycle owner and JS Promise chaining for separate transition/outcome tracing;
+  rejected legacy unhandled-rejection defaults,universal timing,allocation and
+  arbitrary terminal-catch prescriptions. Actual originating sources consulted:
+  https://microservices.io/post/microservices/patterns/2020/10/16/idempotent-consumer.html
+  (Richardson Oct2020 actual failure gap/identity/transaction passages; rejected
+  unconditional eventual delivery,all-NoSQL/no-multitable generalization and
+  assigning an old absolute value always safe despite reordered updates).
+  https://www.rabbitmq.com/docs/queues (current4.3 actual message-ordering passage,
+  not concurrent processing implies ordered effects or all-protocol rules; no
+  priority/delivery-limit/stream deployment prescription).
+  https://kafka.apache.org/43/design/design/ (actual delivery-semantics subsection,
+  coordinated topic offsets/output,visibility/external-system boundary; rejected
+  historical10ms,all-replicas-identical,unconditional no-loss and primary-key-alone
+  idempotency assertions). Search returned old3.5/0.9 examples; followed actual4.3
+  URL instead of treating old semantics as current baseline. Streams/config search
+  snippets discovery only,not executed configuration or full-guide reading.
+  https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/FIFO-queues-exactly-once-processing.html
+  (actual action,5-minute interval and body-versus-attribute ID scope; not expanded
+  page title/FAQ into all external effects or never-redelivered claim).
+  https://sqlite.org/lang_upsert.html (actual uniqueness-target/no-op behavior)
+  https://sqlite.org/lang_corefunc.html#changes (actual preceding-change count,
+  no triggers used). Existing3.54.1 executable verified via --version,original
+  official download/checksum evidence remains D08.S03.L01. No runtime replaced.
+  Prior transaction scope sources/calibration retained; no full consumer backend
+  or production crash protocol implemented. Broad mixed search output truncated;
+  selected actual passages reopened individually,unread snippets not evidence.
+- Verification: exact SQL fence saved to deduplicate_report.sql in a clean temp
+  directory beside copied SQLite3.54.1; declared shell command ran Linux x86_64,
+  exit0,empty stderr,full stdout2/2/4 matched. Actual fresh-memory unguarded-only
+  variation produced2/4/6; first-COMMIT-to-ROLLBACK-only variation0/2/4,exit0 with
+  empty stderr. All temporary data cleaned. Final structural/link check passed
+  (97 leaves,1486 links across110 files,required sections/registrations,preserved
+  proposal); whitespace check passed. Editorial check matched promises,one-row/
+  one-consumer assumptions,guard's preceding statement,stable ID/equal payload,
+  retained-marker scope,nonduplicate order failure and unknown external outcome.
+  No live broker/consumer/email,concurrent database,crash recovery,exactly-once
+  integration or throughput/durability benchmark claimed.
+- Next steps: D10.S06.L01,then D10.S07.L01 and every approved D11–D18 unit.
