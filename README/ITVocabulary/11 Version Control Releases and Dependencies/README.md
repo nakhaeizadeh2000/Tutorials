@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 8 of 10 approved lessons are available.
+This domain is in progress: 9 of 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -59,5 +59,13 @@ This domain is in progress: 8 of 10 approved lessons are available.
 1. **Separate source access and license rights from price:** Classify open source, source-available, proprietary, commercial and free software without treating them as one exclusive list.
 2. **Read license conditions without replacing them with a slogan:** Distinguish permissive and copyleft usage, actual license terms, notices, attribution and context-specific compatibility.
 3. **Classify a release packet and identify the missing review:** Interpret four fictional offerings and assemble exact component, version and intended-use evidence for a real license question.
+
+## 5. Applied change reading
+
+### [5.1. Read a pull request release note and dependency update](<sections/5. Applied change reading/5.1. Read a pull request release note and dependency update.md>)
+
+1. **Align the proposal and release notes with the relevant versions:** Identify public behavior changes, PR direction and the state covered by review and tests in a constructed change packet.
+2. **Trace selected contents and supporting evidence through the update:** Connect manifest, lock, installation, provenance, inventory, licensing and support records without treating one result as another.
+3. **Write a review handoff that preserves what is known and unknown:** Explain missing current-head evidence to technical and product audiences and revise the conclusion when relevant results are added.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -4638,3 +4638,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   software execution or performance/cost experiment run.
 - Next steps: D11.S05.L01,then D11.S06.L01 and every approved D12–D18 unit;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S05.L01 — Read a pull request release note and dependency update — verified
+
+- Done: D11.S05.L01; original H1/H2 SDK update packet integrates public-input
+  removal versus minor label,old-head tests/approval,unchanged range with changed
+  direct/transitive locks,installation/provenance/SBOM subjects and independent
+  licensing/support facts; supplied two audience handoffs and added-check practice.
+  Progress108/191;83 approved leaves remain.
+- Files touched: new sections/5. Applied change reading/5.1. Read a pull request
+  release note and dependency update.md; D11/track README files; this LOG.
+- Links fixed / added: registration,one lookup entry,six exact preceding owners
+  and domain/track navigation. No duplicated full definitions or future links.
+- Research / Decisions: full-repo numeric release/dependency/checklist search
+  found D01 document role and JS/TS checklists,not this integrated exercise.
+  Read full current D11 index and complete JS Fundamentals checklist for questions
+  attached to an actual artifact; rejected stale NodeLTS metadata,universal one-
+  thread/microtask/late-error assertions and blanket mandatory lint/default rules.
+  Initial guessed checklist path absent; actual rg --files path read completely.
+  Reopened https://semver.org/spec/v2.0.0.html (actual numbered rules/publicAPI,
+  especially8; rejected unqualified inevitable-breakage and safe-all-upgrades
+  introduction rhetoric). Reused evaluated current npm12 graph/lock contracts,
+  SLSA1.2 subject/trust/expectation guidance,GitHub base/head/review evidence and
+  OSI/MIT rights-versus-price sources from the actual previous owners; no new
+  provider default,legal conclusion or product/runtime guarantee introduced.
+  Original Hynek maintainer experience and Chainguard actual selection/retrieval/
+  artifact/execution reasoning inform evidence alignment,not their universal pin,
+  vendor/zero-CVE or unverified incident claims. NestJS+Fastify remains static
+  application context,no framework installation or implementation course added.
+- Verification: structural/link verifier passed (108 leaves,1696 resolving links
+  across122 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,each handoff clause to a
+  packet row,explicit public input removal,H1 SDK2.4.2 versus H2 SDK2.5.0,formatter
+ 1.7.2→1.8.0,A2 provenance versus A1 inventory,and paid support versus MIT rights.
+  Added H2 test strengthens only stated checked behavior; new H3 requires evidence
+  alignment. Static packet/reading only,no actual PR or approval,package update,
+  Nest/Fastify build,test,artifact verification,license assessment,deployment or
+  performance benchmark executed; no missing evidence called a proved failure.
+- Next steps: D11.S06.L01,then every approved D12–D18 unit;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
