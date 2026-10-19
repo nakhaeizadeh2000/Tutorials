@@ -4167,3 +4167,39 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   No live broker/consumer/email,concurrent database,crash recovery,exactly-once
   integration or throughput/durability benchmark claimed.
 - Next steps: D10.S06.L01,then D10.S07.L01 and every approved D11–D18 unit.
+
+### D10.S06.L01 — Explain an ambiguous distributed-system promise — verified
+
+- Done: D10.S06.L01; original requirements/relative-time diagnostic packet
+  integrates concurrent tasks,current reads,quorum progress,duplicate report
+  effects,deadline knowledge,email scope,hidden buffering and breaker trial;
+  supplied technical/product handoffs,evidence variations and interview reasoning.
+  Progress98/191;93 approved leaves remain.
+- Files touched: new sections/6. Applied reasoning/6.1. Explain an ambiguous
+  distributed-system promise.md; D10/track README files; this LOG.
+- Links fixed / added: registration,one lookup entry,six exact prior owner routes.
+- Research / Decisions: full-repo numeric distributed-promise/checklist heading
+  search found JS/TS async checklists and existing contextual syntheses,not this
+  integration owner. Read full current D10 index,D09 design-review synthesis and
+  complete JS Fundamentals checklist for scoped review questions and links to
+  actual owners; rejected stale Node LTS,universal thread/microtask/late-error
+  statements and mandatory blanket lint/terminal policy. Reused evaluated D10
+  source map and actual preceding owners: Jepsen linearizability real-time
+  condition,RabbitMQ publisher/consumer acknowledgment orthogonality,current Kafka
+  output-coordination limits,original Richardson failure-gap reasoning,Brooker
+  timeout/partial-effect analysis and SRE overload/authority cases. Citations
+  point to actual primary pages previously read,not new full-site reviews or
+  invented production findings. No new API/product/version guarantee added.
+  NestJS+Fastify static context retained; proposed implementation checks stay
+  proposals,no framework installation or expanded implementation course.
+- Verification: structural/link verifier passed (98 leaves,1498 resolving links
+  across111 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises and every handoff clause
+  to a packet row; distinct taskX/Y versus voterA/B/C names avoid identity ambiguity.
+  Checked separate status-write client/report waiter,completed80ms versus read140ms,
+  original0+2+2 report4,missing-marker versus recipient evidence,uncapped wrapper
+  and unreconciled prior work. Removed-output and overlapping-read variations
+  weaken only supported conclusions. Static timeline/claim inspection only; no
+  service/broker/partition,concurrent worker,remote email,overload,breaker recovery
+  or millisecond performance experiment executed. Proposed tests are unexecuted.
+- Next steps: D10.S07.L01,then every approved D11–D18 unit; approval unchanged.

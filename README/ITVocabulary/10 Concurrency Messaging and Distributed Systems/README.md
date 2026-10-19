@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 9 of 11 approved lessons are available.
+This domain is in progress: 10 of 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 11 approved lessons are available.
 1. **Name what is counted and where the guarantee ends:** Distinguish at-most-once, at-least-once and exactly-once claims across delivery, handler attempts and committed effects.
 2. **Observe deduplication by identity within one transaction:** Run a local repeated-event report, distinguish equal payloads from stable event identity, and explain guard removal and rollback variations.
 3. **Read ordering and exactly-once claims at their actual boundary:** Separate log, delivery and effect order and evaluate coordinated output, retention and external-action limits.
+
+## 6. Applied reasoning
+
+### [6.1. Explain an ambiguous distributed-system promise](<sections/6. Applied reasoning/6.1. Explain an ambiguous distributed-system promise.md>)
+
+1. **Expand the promise into operations and required outcomes:** Translate async, replication, delivery and recovery claims into explicit review boundaries and requirements.
+2. **Trace a supplied failure packet without extending its evidence:** Distinguish task scheduling, read correctness, quorum progress, known duplicate effects, timeout knowledge and hidden buffering.
+3. **Rewrite the contract and request evidence that could change it:** Produce audience-appropriate handoffs, propose discriminating checks and revise conclusions when evidence or timing changes.
 
 [← Back to IT Vocabulary](<../README.md>)
