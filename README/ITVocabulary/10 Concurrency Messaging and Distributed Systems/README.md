@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 5 of 11 approved lessons are available.
+This domain is in progress: 6 of 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -39,5 +39,13 @@ This domain is in progress: 5 of 11 approved lessons are available.
 1. **Separate a flow of records from a bounded processing group:** Interpret stream and batch work, retained logs, partition offsets and consumer groups without assuming permanent history.
 2. **Read acknowledgments and checkpoints at their actual boundary:** Distinguish publisher confirms, consumer acknowledgments, fetched positions and committed progress through a failed-batch packet.
 3. **Treat failed-message isolation as the start of recovery:** Explain DLQs, DLXs and poison-message investigation and identify evidence for actual business recovery.
+
+## 4. Failure and flow control
+
+### [4.1. Timeouts retries backoff jitter and circuit breakers](<sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>)
+
+1. **Name the waiting limit and preserve an unknown outcome:** Distinguish timeout stages, whole-operation deadlines, cancellation and evidence of a remote effect.
+2. **Bound repeated attempts and distinguish backoff from jitter:** Read attempt counts, capped delay ceilings, jittered values, total budgets and nested retry amplification.
+3. **Read a circuit breaker as a stateful admission decision:** Explain closed, open and half-open behavior without treating probes, rejections or retries as earlier business recovery.
 
 [← Back to IT Vocabulary](<../README.md>)

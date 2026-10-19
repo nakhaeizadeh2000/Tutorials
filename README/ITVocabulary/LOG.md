@@ -3991,3 +3991,44 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   m17 and separate DLX/DLQ roles. Static packets only; no broker,connector,offset
   commit,DLQ reroute/replay,email/report output or performance experiment executed.
 - Next steps: D10.S04.L01,then every remaining approved unit through D18.
+
+### D10.S04.L01 — Timeouts retries backoff jitter and circuit breakers — verified
+
+- Done: D10.S04.L01; stage/deadline/cancellation distinctions,known versus unknown
+  remote outcome,original budget/jitter/amplification arithmetic and breaker-state
+  packet with earlier-output recovery limits. Progress94/191;97 leaves remain.
+- Files touched: new sections/4. Failure and flow control/4.1. Timeouts retries
+  backoff jitter and circuit breakers.md; D10/track README files; this LOG.
+- Links fixed / added: registration,eight contextual lookup entries,four precise
+  existing owners; original Timeout/Retry/network Jitter lookup ownership retained.
+- Research / Decisions: full-repo heading search found network/API timeout/retry
+  owners and JS test-timing applications,not a full resilience vocabulary owner.
+  Read complete JS Determinism fake timers race timeouts retries and flake hygiene
+  for explicit clock/evidence separation; rejected stale mock-timer version/status,
+  weakened guessed timer assertions,automatic-abort/leak-free claims on retained
+  listeners,all-timers-keep-loop-alive,universal quarantine/never-retry/fixed-lint
+  rules and unexecuted fake-fetch-as-live evidence. Actual originating sources:
+  https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/
+  redirected to BuilderCenter actual Marc Dec5 2019 article; read timeout-stage,
+  partial-effect,budget/amplification and overload passages. Rejected universal
+  idempotency=all-effects-once,three-retries/three-attempts ambiguity,all4xx-never-
+  retry,perfectly-even-load and universal SDK/retry-layer prescriptions.
+  https://grpc.io/docs/guides/deadlines/ (July2025 actual deadline/duration and
+  application cancellation duties,not universal client support/default,all-clock-
+  skew-immunity or automatic rollback).
+  https://aws.amazon.com/blogs/architecture/exponential-backoff-and-jitter/
+  (Brooker original simulator/design comparison passages,not our measurement,
+  all-stores-guaranteed-progress,universally-best jitter or fixed numerical payoff).
+  https://martinfowler.com/bliki/CircuitBreaker.html (March2014 actual state and
+  trial behavior,not old Ruby/Hystrix setup,current defaults,all-errors-trip or
+  universal thread-per-call). Retained source disagreement on breaker operational
+  costs by teaching policy/testing/trade-offs rather than universally requiring one.
+- Verification: offline Python arithmetic assertions passed ceilings2300ms,
+  illustrative delays960ms,range membership,remaining750ms and3^3=27 attempts;
+  no random sampling/network run. Final structural/link check passed (94 leaves,
+  1434 links across107 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched promises,relative timeline,
+  removed-server-record uncertainty,attempt/retry distinction,full-operation budget,
+  probe-versus-prior-output and lookup definitions. Static policy/trace exercise;
+  no timeout/cancel/retry/breaker deployment,remote side effect or benchmark executed.
+- Next steps: D10.S04.L02,then every remaining approved unit through D18.
