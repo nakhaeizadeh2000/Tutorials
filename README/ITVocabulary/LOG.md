@@ -3868,3 +3868,43 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   No simultaneous CPU measurement,thread inventory,live remote concurrency or
   performance benchmark claimed.
 - Next steps: D10.S02.L01,then every remaining approved unit through D18.
+
+### D10.S02.L01 — Shared state atomicity races locks and deadlocks — verified
+
+- Done: D10.S02.L01; explicit lost-update schedule,atomicity/memory-model scope,
+  actual protected/unprotected task increments,write-only-lock failure and
+  one-lock task-dependency deadlock card with safety/progress scope. Progress91/191;
+  100 approved leaves remain.
+- Files touched: new sections/2. Coordination and hazards/2.1. Shared state atomicity
+  races locks and deadlocks.md; D10/track README files; this LOG.
+- Links fixed / added: registration,twelve contextual lookup entries,three existing
+  owners; retained original database Deadlock/Lock lookup ownership.
+- Research / Decisions: initial broad heading search noisy/truncated; narrowed
+  numeric teaching-heading search excluding review artifacts found DB transaction
+  owner and JS scheduling/combinator applications. Reread full D08 transaction leaf
+  to preserve ACID/isolation/database-cycle ownership. Reused full JS sequential/
+  concurrent reference and tracing calibration from previous unit,not its parallel
+  labels,cancellation/latency guarantees or pool quotas. Actual original sources:
+  https://web.mit.edu/6.031/www/fa21/classes/21-concurrency/ (selected interleaving,
+  race,compound-message and observation limits; rejected concurrency=simultaneity,
+  arithmetic typo201-as1,all-sequential-bugs-reproducible,fixed debug slowdown and
+  no-longer-increasing-clock claims).
+  https://web.mit.edu/6.031/www/fa21/classes/23-mutual-exclusion/ (actual exclusion,
+  discipline,deadlock and safety/liveness passages; no universal one-lock-for-all-
+  invariants rule,all-locks-convention,JS-no-built-in-lock-ever or debugging-useless
+  assertion imported). https://go.dev/ref/mem (June6 2022 actual definition and
+  happens-before passages only; no Go implementation/test or full formal-model
+  review). Current https://docs.python.org/3.15/library/asyncio-sync.html actual
+  Lock acquire/release/context/not-thread-safe contract,corroborated via pinned
+  3.14.4 run. No default-GIL/source-line-atomic guarantee or banking example copied.
+  Original dictionary counter and dependency card avoid duplicating DB examples.
+- Verification: exact lost_update.py fence ran CPython3.14.4/Linux x86_64,exit0,
+  full stdout unprotected1/protected2 matched. Actual write-only-lock variation
+  reads/yields before acquiring; exit0,full stdout unprotected1/protected1 matched.
+  Structural/link verifier passed (91 leaves,1378 links across104 files,required
+  sections/registrations,preserved closed proposal); whitespace check passed.
+  Editorial check matched promises,private old/shared dictionary,whole-operation
+  protection,release-not-rollback,task versus thread/process scope and two dependency
+  edges. Deadlock card static/not executed; no memory-model detector,distributed
+  booking/DB lock,crash recovery,starvation/fairness or contention benchmark claimed.
+- Next steps: D10.S03.L01,then every remaining approved unit through D18.
