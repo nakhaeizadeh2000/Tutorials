@@ -4069,3 +4069,50 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static model/arithmetic only; no ReactiveStreams conformance,Node pipeline,
   broker pressure,load shedding,capacity measurement or benchmark executed.
 - Next steps: D10.S05.L01,then every remaining approved unit through D18.
+
+### D10.S05.L01 — Replication consistency availability partitions and consensus — verified
+
+- Done: D10.S05.L01; object/history contracts,linearizable versus eventual and
+  read-your-writes observations,original partitioned-register timeline with
+  overlapping-read contrast,CAP model and conditional quorum/authority reasoning.
+  Progress96/191;95 approved leaves remain.
+- Files touched: new sections/5. Distributed guarantees/5.1. Replication consistency
+  availability partitions and consensus.md; D10/track README files; this LOG.
+- Links fixed / added: registration,fourteen contextual lookup entries,four precise
+  existing owners; original ACID consistency,replication and replica owners retained.
+- Research / Decisions: recovered complete4071-line LOG in sequential nontruncated
+  chunks,full policies/continue skill/workflow/quality,root and full track/domain
+  indexes; corrected a truncated lookup read with overlapping smaller output.
+  Reconciled95 logged IDs against95 tracked leaves and history,clean b109b540.
+  Full-repo numeric heading search found D08 replication owner and unrelated TS
+  codebase partitions; reread full D08 copy owner and complete JS Call stack
+  run-to-completion and the event loop. Transferred explicit operation order and
+  condition variation,not universal single-thread/no-lock rules,stale Node phases,
+  render/timer/version assumptions or numeric loop/cost quotas. Actual sources:
+  https://jepsen.io/consistency/models/linearizable (whole concise model page,
+  scope/real-time order; no scraper-linked instructions followed).
+  https://groups.csail.mit.edu/tds/papers/Gilbert/Brewer2.pdf (Gilbert/Lynch2012
+  Perspectives,actual sections2–4 selected definitions,proof sketch and fault/
+  timing context,not original2002 paper or full article review; rejected intro's
+  unqualified all-safety/liveness-impossible and every-service universalization).
+  https://raft.github.io/raft.pdf (Ongaro/Ousterhout2014 actual sections2,5.2,
+  5.4.2,selected membership/read-authority passages; not full proof review; rejected
+  majority-alive-always-progress,old timeout defaults,one-RTT and leader-read-by-name).
+  https://www.allthingsdistributed.com/2008/12/eventually_consistent.html (Vogels
+  Dec2008 actual client-observation passages,not current Amazon/DNS guarantees,
+  unconditional convergence deadlines,sticky-client perfection or R+W>N-alone
+  linearizability). https://sre.google/sre-book/managing-critical-state/ (original
+  2016 selected split-brain,quorum/authority and communication/storage passages;
+  rejected all-heartbeat-algorithms-wrong,universal old topology/performance and
+  consistent-means-every-copy-equal simplifications). Reopened accessible primary
+  sources after recovery; earlier CMU2002 PDF font extraction unreadable,Princeton
+  mirror and Jepsen eventual page inaccessible,no actual passage reading claimed
+  from those. Accessible author review/original article supply alternatives.
+- Verification: structural/link verifier passed (96 leaves,1468 resolving links
+  across109 files,required sections/registrations,preserved closed proposal);
+  whitespace check passed. Editorial check matched three promises,nonoverlapping
+  versus overlapping operations,CAP response/error scope,fixed3-voter counts and
+  safety/progress assumptions. Static histories/counting/reading only; no deployed
+  replication,partition,consensus/model checker,convergence or performance run.
+- Next steps: D10.S05.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

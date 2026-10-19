@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 7 of 11 approved lessons are available.
+This domain is in progress: 8 of 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 11 approved lessons are available.
 1. **Separate retained work from feedback that regulates its source:** Identify buffers, backlogs and actual upstream demand propagation without hiding another unbounded queue.
 2. **Distinguish throttling from rejecting excess work:** Read pacing, admission and overload policies with explicit outcomes and accepted-work obligations.
 3. **Account for a growing backlog and change one policy:** Explain a bounded-buffer accounting model, four policy variations and a limited drain estimate.
+
+## 5. Distributed guarantees
+
+### [5.1. Replication consistency availability partitions and consensus](<sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>)
+
+1. **Separate copied state from the observations a contract permits:** Interpret consistency models, linearizability, eventual convergence and read-your-writes with explicit object and operation scopes.
+2. **Read a partition timeline before applying CAP terminology:** Trace completed writes and later or overlapping reads and distinguish CAP availability from uptime and failure reporting.
+3. **Distinguish consensus decisions from a replica count:** Read majority and leader-election claims under their fault model and separate agreement safety from conditional progress.
 
 [← Back to IT Vocabulary](<../README.md>)
