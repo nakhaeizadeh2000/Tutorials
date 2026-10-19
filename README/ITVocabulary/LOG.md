@@ -3834,3 +3834,37 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   no async-by-callback assumption,worker limits and no completion guarantee. No
   internet traffic,Python3.15 run,export integration or performance test claimed.
 - Next steps: D10.S01.L02,then all remaining approved units through D18.
+
+### D10.S01.L02 — Concurrency parallelism scheduling and event loops — verified
+
+- Done: D10.S01.L02; explicit sequential/interleaved/parallel schedules,runtime
+  versus OS scheduling,cooperative/preemptive relationships,actual grouped-task
+  trace and no-yield contrast. Progress90/191;101 approved leaves remain.
+- Files touched: new sections/1. Work and time/1.2. Concurrency parallelism scheduling
+  and event loops.md; D10/track README files; this LOG.
+- Links fixed / added: registration,six lookup terms,four exact owner routes.
+- Research / Decisions: reused section-wide full-repo scheduling search; read full
+  JS Concurrency patterns sequential vs parallel vs race and top-level await for
+  dependency-directed composition/contrasts. Rejected parallel-by-Promise.all,
+  automatic-cancel/remote-side-effect promises,leak-free label on retained-listener
+  sample,stale AbortSignal release labels,simulated TLA/CJS evidence,fixed pool sizes
+  and universal lower latency. Reused prior full JS loop attribution reference.
+  Actual original source https://go.dev/blog/waza-talk (Gerrand Jan16 2013) body
+  distinguishes concurrent structure/parallel execution; no claim to watch video
+  or read linked slides. https://docs.python.org/3.15/library/asyncio-dev.html
+  selected thread/task/blocking passages: rejected shorthand every-await-suspends
+  using actual previous already-set observation/task contracts. Reused3.15 task
+  reference actually read for eager_start,TaskGroup lifetime and sleep0; current
+  semantics distinguished from pinned3.14.4 actual run. Prior Brown teaching model
+  used only within its stated single-thread setup,not universal asynchronous model.
+  No full scheduler/framework tutorial or current Go version claim introduced.
+- Verification: exact task_progress.py fence ran CPython3.14.4/Linux x86_64,exit0,
+  full stdout matches sequential A1 A2 B1 B2,concurrent A1 B1 A2 B2,one stepper
+  thread identity. Actual only-yield-removed variant full stdout matches A1 A2 B1 B2
+  in both traces,exit0. Structural/link verifier passed (90 leaves,1361 links across
+  103 files,required sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched promises,interval legend,ready versus waiting,
+  task/thread/OS scope,eager choice and no interleaving/parallel/atomicity overclaim.
+  No simultaneous CPU measurement,thread inventory,live remote concurrency or
+  performance benchmark claimed.
+- Next steps: D10.S02.L01,then every remaining approved unit through D18.
