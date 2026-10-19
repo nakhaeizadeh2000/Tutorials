@@ -4431,3 +4431,49 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   or performance test executed. Current stable specification integrated directly.
 - Next steps: D11.S03.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S03.L02 — Alpha beta release candidates stable LTS and EOL — verified
+
+- Done: D11.S03.L02; readiness/channel versus maintenance/artifact distinctions,
+  dated current Node/Python policy comparison,original three-line release matrix,
+  changed-patch evidence and scoped support interpretation. Progress104/191;
+  87 approved leaves remain.
+- Files touched: new sections/3. Versions and compatibility/3.2. Alpha beta release
+  candidates stable LTS and EOL.md; D11/track README files; this LOG.
+- Links fixed / added: registration,sixteen contextual lookup entries,three exact
+  existing owners; generic Stable/Deprecated/Support status ownership retained.
+- Research / Decisions: full-repo numeric alpha/beta/RC/LTS/EOL headings found D01
+  status owner,not full release-family comparison. Reused complete D01 status
+  leaf and preceding SemVer owner; complete JS TC39/document-reading reference
+  from preceding unit supplies policy-versus-availability calibration,not stale
+  feature/stage/version assertions or missing performance-section pattern.
+  Actual current originating sources consulted:
+  https://devguide.python.org/developer-workflow/development-cycle/ (actual
+  alpha/beta/RC/final sections; feature freeze and reviewed severe RC fixes scoped
+  to Python,not universal all-project requirements or guaranteed code-identical
+  RC/final; no source-administration/history-deletion procedure prescribed).
+  https://devguide.python.org/versions/ (actual supported/unsupported table and
+  scheduled-date caveat,3.15/3.14bugfix,3.13security,3.10EOL as of2026-10-19;
+  no runtime upgrade,all-old-patches-safe or projected-date-already-achieved claim).
+  https://github.com/nodejs/Release (actual schedule/phases,24Active/22Maintenance/
+ 26Current and planned24maintenance2026-10-20/26LTS2026-10-28; date-change caveat,
+  no universal exact duration,never-add-feature or all-security-fix-backcompat rule).
+  https://nodejs.org/en/about/previous-releases (actual status table and newly
+  announced annual cycle starting27; resolved README's historical odd/even wording
+  by scoping history/future announcement,not pretending27/futureLTS is released).
+  Existing Hynek original maintenance/upgrade-evidence and publisher-reader
+  research informs the record-versus-outcome questions; not copied absolute pin,
+  risk or blanket-upgrade advice. Labels GA/nightly/channel are explicitly common
+  conventions requiring publisher criteria,not a provider-specific support promise.
+  No calendar-year catch-up lesson or new release installation introduced.
+- Verification: structural/link verifier passed (104 leaves,1630 resolving links
+  across118 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,publisher/date/line subjects,
+  scheduled versus completed transitions,fictional2.x later end date than3.x,
+  candidate versus final,exact installed patch versus family support and added-
+ 2.8.4 evidence's limits. Static policy/table interpretation only; no release build,
+  candidate promotion,runtime/package upgrade,platform integration or performance
+  benchmark executed. Rechecked actual sources rather than applying old parity
+  assumptions to newly announced policy.
+- Next steps: D11.S04.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

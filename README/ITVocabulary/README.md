@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **103 of 191 approved lessons** are available.
+Implementation is in progress: **104 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -64,6 +64,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Acknowledgment | [Signal of an outcome under a specific protocol or application contract](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Active LTS (Node.js) | [Node.js phase admitting audited changes appropriate for a long-term line](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Adapter (architecture) | [Technology-specific connection to an application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Address space | [Addresses available under a program execution model](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Admission control | [Policy deciding which incoming work is accepted](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
@@ -72,6 +73,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Algorithm | [Specified procedure solving a problem for allowed inputs](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Allocation | [Making managed storage available for data or execution state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
+| Alpha release | [Early testing milestone under a publisher’s development policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Ambiguity | [Choosing among plausible meanings](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | Annotated tag | [Tag using a message-bearing tag object with optional signature](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Antipattern | [Recurring problematic approach with contextual consequences and improvement](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
@@ -111,6 +113,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Batch (data) | [Processing a bounded group of data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Batch (messaging) | [A bounded group handled together without implied output atomicity](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
+| Beta release | [Later testing milestone with project-specific feature restrictions](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Bidirectional streaming | [Independent message streams in both directions](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Big O | [Asymptotic upper bound on growth](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Big Omega | [Asymptotic lower bound on growth](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -337,6 +340,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Encapsulation (design) | [Grouping responsibility and controlling interaction with internal state](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Encapsulation (network) | [Carrying one protocol unit inside another](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Encoding | [Producing a defined text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
+| End of life | [End of the specified publisher’s maintenance commitment](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | End-to-end | [A claim spanning explicitly named starting and ending boundaries](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Endianness | [Byte order in multi-byte representations](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Endpoint (HTTP API) | [An exposed address or method and address combination with usage clarified](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
@@ -344,6 +348,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Entity (DDD) | [Domain object identified through continuity across attribute changes](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Enum (schema) | [A value constrained to an explicitly listed set of choices](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
 | Environment variable | [A named value in a process environment](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
+| EOL | [End of life](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Ephemeral port | [A temporary port selected for a use such as an outgoing connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | ETag | [Opaque entity tag identifying a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | ETL | [Extract transform load relative to a stated destination](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -377,6 +382,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | File format | [Rules for interpreting a stored representation](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | File storage | [Storage exposing file and directory operations](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Filesystem | [Organization and operations for accessing file objects](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Final release | [Publisher-designated completed release milestone](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Firewall | [A device or program controlling network traffic under policy](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Firmware | [Software tied to low-level device operation](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Folder | [Common name for a directory](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
@@ -393,9 +399,11 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Full duplex | [Both sides can send over an established channel](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Full stack | [Work spanning frontend and backend under a stated scope](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Functional programming | [Organizing computation around functions and value flow](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
+| GA | [General availability](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Gate | [A configured condition required before proceeding](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Gateway (IP) | [A next-hop router in a forwarding context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | GB and GiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| General availability | [Release availability status for an explicitly scoped product or feature](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | GET | [Retrieve a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Git | [A version-control system with snapshot and reference records](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
@@ -537,6 +545,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Logical backup | [Restorable logical database objects and data](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Logical CPU | [An exposed scheduling resource rather than a physical-core guarantee](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Long polling | [A request held pending until an update or defined completion condition](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
+| Long-term support | [Longer maintenance commitment for a selected release line](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Loop invariant | [Condition maintained at a specified repeated loop point](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Loopback | [Communication directed back to the local networking context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Loss ratio | [Lost packets divided by the stated sent-packet population](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
@@ -544,11 +553,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Lossy compression | [Discarded information under a quality model](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Lost update | [A change overwritten using another participant’s stale observation](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | LSP | [Liskov Substitution Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
+| LTS | [Long-term support](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | MAC address | [A media access control address used in local-link communication](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Machine code | [Instructions for a processor architecture](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | Machine word | [A context-defined representation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Mail relay | [Forwarding a message toward another mail system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Mail submission | [Introducing a message into the mail delivery system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| Maintenance LTS (Node.js) | [Node.js phase focused on critical bug and security maintenance](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Major version | [Version component signaling incompatible public-API changes under an adopted scheme](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Many-to-many | [Multiple associations permitted on both sides](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Materialized view | [Stored derived result with a refresh contract](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
@@ -594,6 +605,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Network layer | [A model of communication responsibilities](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Network partition | [Communication separation between participant groups](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Next link | [A URL describing the next collection request](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
+| Nightly build | [Frequently produced development build without an implied final-release review](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | no-cache | [Response reuse requires successful validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | no-cors | [A restricted request mode without readable cross-origin response content](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -731,6 +743,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Rate | [An amount per time](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Rate limit | [A constraint on admitted work over time](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Raw SQL | [SQL supplied directly to an access interface](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
+| RC (release) | [Release candidate](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | RDBMS | [Relational database management system](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Read-your-writes | [Observation guarantee covering a writer’s accepted updates within a defined scope](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Rebase | [Replaying selected changes onto another starting point](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
@@ -751,6 +764,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Relational database | [Database organized using relations commonly represented as tables](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Relationship (data) | [Association between entries](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Relative path | [A path interpreted from a specified base](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Release candidate | [Proposed candidate for a final release under remaining review and fix criteria](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| Release channel | [Grouping of releases under an audience or readiness policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| Release line | [Family of maintained versions under a project’s policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Remote (Git) | [Named configuration for communicating with another repository](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Remote-tracking branch | [Local reference recording a known remote branch state](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
