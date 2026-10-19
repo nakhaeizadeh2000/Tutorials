@@ -4710,3 +4710,50 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   installation,service deployment,data migration/recovery or timing test executed.
 - Next steps: D12.S01.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S01.L01 — Errors defects bugs failures exceptions and regressions — verified
+
+- Done: D12.S01.L01; mistake/work-product/observed-outcome convention and contextual
+  error/bug usage,actual wrong-total versus expected-exception example,latent
+  defect,regression comparison and filter-restored correction with bounded evidence.
+  Created D12 index;progress110/191;81 approved leaves remain.
+- Files touched: new D12 README and sections/1. Faults and evidence/1.1. Errors
+  defects bugs failures exceptions and regressions.md; track README; this LOG.
+- Links fixed / added: real D12 module/leaf navigation,ten contextual lookup
+  entries,four exact existing owners. New domain singular progress grammar fixed.
+- Research / Decisions: full-repo numeric error/defect/failure/regression heading
+  search found contextual resource/network failures and JS error/production-bug
+  owners,not general vocabulary lesson. Read complete JS Built-in Error types
+  and when engines throw them for condition/mechanism/observation distinctions;
+  rejected universal7-child hierarchy,wrong early-error timing,duck-type-is-brand
+  polyfill,worker-always-fails-instanceof,all-stacks-standard/universal/eager-capture,
+  all-errors-host-or-language-uniquely-attributed,always-log and fixed performance
+  assumptions. Detailed JS error taxonomy stays that owner. Actual sources:
+  https://istqb.org/wp-content/uploads/2024/11/ISTQB_CTFL_Syllabus_v4.0.1.pdf
+  (2024-09-15 actual1.2.3 p17 printed/PDF16,and2.2.3 printed30–31/PDF29–30;
+  no full78-page review,no all-failures-human-error chain or regression-check-
+  confirms-absolute-no-adverse-outcome guarantee). Current certification/source
+  discovery still lists4.0.1; .com/.guru lookalikes/community exam posts not factual
+  substitutes for actual .org syllabus. https://www.satisfice.com/blog/archives/572
+  (JamesBach March25 2011 actual principal article paragraphs on bugs,risks,
+  testability and testing artifacts; no full comments review,old HTML-deprecation
+  guarantee or blame-it-is-your-fault assertion). Compared broader value/observation
+  framing with ISTQB convention without claiming all teams distinguish bug/defect
+  by lifecycle phase. https://docs.python.org/3.15/tutorial/errors.html (actual
+  exception,handler and raise behavior,stable3.15.0 docs; rejected most-exceptions-
+  unhandled-as-measured-general-statistic). Actual pinned3.14.4 run disclosed,no
+  prerelease/current-version conflation or runtime installation. Prior contract/
+  refactoring owners supply precise reuse,no duplicated testing-framework course.
+- Verification: exact failure_words.py fence extracted and executed CPython3.14.4/
+  Linux x86_64,exit0,full stdout2/5/2,handled ValueError and continued matched.
+  Fresh temporary only-filter-restored variant exit0,empty stderr,full stdout
+  matched changed mixed2 with all other lines unchanged. Source input model
+  explicitly excludes malformed rows/unknown statuses; no universal validation
+  or full application proof claimed. Structural/link verifier passed (110 leaves,
+  1734 resolving links across125 files,required sections/registrations,preserved
+  proposal); whitespace check passed. Editorial check matched three promises,
+  missing status filter,approved-only latent defect,required rejection versus
+  crash and earlier/changed unchanged-rule conditions. No test-framework,service,
+  production regression,cause investigation or speed benchmark executed.
+- Next steps: D12.S01.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
