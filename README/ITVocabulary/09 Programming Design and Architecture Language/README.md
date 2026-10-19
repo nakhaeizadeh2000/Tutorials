@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 10 of 11 approved lessons are available.
+This domain is complete: all 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -75,5 +75,13 @@ This domain is in progress: 10 of 11 approved lessons are available.
 1. **Expand the names into requirements and boundaries:** Identify the product rules and concrete design obligations hidden behind a pattern-heavy proposal.
 2. **Separate established facts from unsupported conclusions:** Trace inspected source, deployment, calculation, identity and model evidence to scoped conclusions.
 3. **Request discriminating evidence and give usable feedback:** Write technical and product feedback, revise conclusions when evidence changes and explain an interview answer.
+
+## 7. Overlaps to avoid
+
+### [7.1. Boundaries of design vocabulary](<sections/7. Overlaps to avoid/7.1. Boundaries of design vocabulary.md>)
+
+1. **Keep each design question with its conceptual owner:** Route algorithm, dependency, behavior, deployment and model questions to their precise existing explanations.
+2. **Choose deeper study from the missing implementation skill:** Distinguish vocabulary competence from algorithm, pattern, architecture and framework implementation practice.
+3. **Hand off a mixed design claim without losing the requirement:** Separate capacity, adapter compatibility and report-cost claims and update only conclusions supported by new evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

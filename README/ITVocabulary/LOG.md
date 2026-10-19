@@ -3760,3 +3760,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   behavior/integration checks remain unexecuted,no framework,publication,replay,
   deployment or benchmark claimed.
 - Next steps: D09.S07.L01,then all approved D10–D18 units; approval unchanged.
+
+### D09.S07.L01 — Boundaries of design vocabulary — verified
+
+- Done: D09.S07.L01; ten precise design owner routes,language/storage/framework
+  and future implementation boundaries,worked shared-capacity/adapter/report
+  handoff with new-evidence variation. All11 D09 outcomes implemented;progress88/191;
+  103 approved leaves remain across D10–D18.
+- Files touched: new sections/7. Overlaps to avoid/7.1. Boundaries of design
+  vocabulary.md; D09/track README completion/progress; this LOG.
+- Links fixed / added: registration,16 precise owner/domain routes; D09 complete.
+  No links to unpublished future tracks or later vocabulary lessons.
+- Research / Decisions: repo design-boundary/algorithm/pattern headings confirmed
+  general D09 owners versus language-specific applications. Reread full D09 model/
+  diagram owner and JS Fundamentals boundary reference. One guessed reference path
+  was absent; rg --files located actual sections/6. Overlaps to avoid/6.1. Boundaries
+  what is covered elsewhere.md. Transferred explicit owner routing,not historical
+  future-TypeScript/WebPlatform labels or absolute prohibition on minimal examples.
+  Reused D09 evaluated primary/original sources and previously read real owners;
+  no new platform or distributed guarantee. Root planned-track routes remain plain
+  names. NestJS+Fastify choice retained without treating TypeScript demo as Nest.
+- Verification: structural/link verifier passed (88 leaves,1334 resolving links
+  across100 files,required sections/registrations,preserved closed proposal);
+  whitespace check passed. Editorial check matched three promises and all11 D09
+  approved outcomes to actual registered leaves; shared capacity versus local root,
+  adapter integration and style/cost handoff stay separate. Static routing/evidence
+  exercise only; no concurrent booking,adapter,framework,profiler or benchmark run.
+- Next steps: D10.S01.L01,then every remaining approved unit through D18;
+  full191-leaf curriculum revision1 approval remains intact,no new gate.

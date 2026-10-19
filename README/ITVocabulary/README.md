@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **87 of 191 approved lessons** are available.
+Implementation is in progress: **88 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -32,7 +32,7 @@ Domain indexes appear here as lessons are completed.
 | 6 | [Web Interfaces Clients and User Experience](<06 Web Interfaces Clients and User Experience/README.md>) — complete |
 | 7 | [APIs Protocols and Integration](<07 APIs Protocols and Integration/README.md>) — complete |
 | 8 | [Databases Storage and Data Pipelines](<08 Databases Storage and Data Pipelines/README.md>) — complete |
-| 9 | [Programming Design and Architecture Language](<09 Programming Design and Architecture Language/README.md>) — in progress |
+| 9 | [Programming Design and Architecture Language](<09 Programming Design and Architecture Language/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
