@@ -4531,3 +4531,59 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   compatibility,integration,reproducible-build or performance test executed.
 - Next steps: D11.S04.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S04.L02 — Artifacts registries checksums signatures provenance and SBOMs — verified
+
+- Done: D11.S04.L02; retrieval/producer/byte identity distinctions,signature versus
+  policy acceptance,attestation/provenance/SBOM roles and original H-A/H-B packet
+  with valid-but-inapplicable inventory and wrong-builder variation.
+  Progress106/191;85 approved leaves remain.
+- Files touched: new sections/4. Dependencies provenance and licensing/4.2. Artifacts
+  registries checksums signatures provenance and SBOMs.md; D11/track README; LOG.
+- Links fixed / added: registration,nine contextual lookup entries,four exact
+  existing owners plus domain/track navigation; Artifact/Registry/Checksum owners
+  preserved. Crypto implementation and advisory/risk decisions remain later study.
+- Research / Decisions: full-repo numeric artifact/registry/checksum/signature/
+  provenance/SBOM search found D02 checksum and D03 artifact owners; reread D02
+  completely and reused D03 actual producer/consumer boundary. Read full JS
+  Assertions guards Result Either for separate predicates/outcomes,not imaginary
+  Node invariant export,always-strip/crash/never-catch rules,throw-deoptimization
+  or fixed failure-rate/performance claims. Two guessed reference paths absent;
+  rg --files supplied actual section3.2 before complete reading. Actual sources:
+  https://slsa.dev/spec/v1.2/ (Approved status,current1.2 metadata)
+  https://slsa.dev/spec/v1.2/verifying-artifacts (actual trust/subject/source/builder/
+  parameter comparisons and build-platform compromise limit; no self-claimed level
+  proves trust,all-dependencies-complete or typosquatting protection assertion)
+  https://slsa.dev/spec/v1.2/faq (actual SBOM-versus-provenance subsection,not full
+  FAQ/site review) and https://slsa.dev/spec/v1.2/about (scope/name passage).
+  https://docs.sigstore.dev/quickstart/verification-cheat-sheet/ (actual expected
+  identity/issuer and workflow identity) and
+  https://docs.sigstore.dev/cosign/verifying/verify/ (actual identity-based and
+  digest-check passages; rejected full-potential marketing,suggestion to bypass
+  claims,and stale future-bundle wording,no tool commands/config copied or run).
+  https://docs.npmjs.com/generating-provenance-statements/ (May4 2026,actual
+  attestation/limitations passage; rejected no-malware guarantee,blanket eliminate-
+  tokens/current-provider inventory and old GitLab Node20 setup as current baseline).
+  https://cyclonedx.org/capabilities/sbom/ (actual component/inventory introduction;
+  rejected automatically complete inventory,guaranteed rapid risk/compliance
+  resolution and performance/efficiency marketing). https://spdx.dev/about/overview/
+  consulted for specification/information-exchange role,not a schema/tool tutorial.
+  https://main.chainguard.dev.chainguard.app/supply-chain-security-101/npm-supply-chain-attacks
+  (actual original ChainguardTeam audit walkthrough,selection/endpoint/artifact/
+  execution separation; canonicalwww URL failed,search result actual host readable).
+  Selected diagnostic reasoning corroborated with primary SLSA/npm/Sigstore;
+  rejected zero-CVE/compliance/vendor purchasing guarantees,all-earlier-gaps-never-
+  mitigable and unverified incident/version/campaign counts. No incident claim
+  imported; linked independent attack reports not read. CISA2025 PDF and draft
+  SLSAdependency spec appeared only in discovery,no read/final-baseline claims.
+- Verification: structural/link verifier passed (106 leaves,1665 resolving local
+  links across120 files,required numbered sections/registrations,preserved closed
+  proposal); whitespace check passed. Editorial check matched all three promises,
+  explicit fictional non-digest labels,H-A versus H-B subject comparison,stated
+  verifier trust/parameter results and Build-B-only policy failure. Valid evidence
+  does not imply malware absence,inventory completeness or tested behavior; missing
+  behavior check stays missing. Static packet inspection only,no cryptographic
+  operation,signature/provenance/SBOM validator,download,scan,build or performance
+  experiment executed. No unsupported numeric speed/risk payoff introduced.
+- Next steps: D11.S04.L03,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

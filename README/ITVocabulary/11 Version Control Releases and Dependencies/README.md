@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 6 of 10 approved lessons are available.
+This domain is in progress: 7 of 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -47,5 +47,11 @@ This domain is in progress: 6 of 10 approved lessons are available.
 1. **Read dependency roles relative to a particular project:** Distinguish direct, transitive, development, peer and optional requirements in an explicit application and host graph.
 2. **Separate requested constraints from resolved and installed versions:** Read manifests, version ranges, pins, lockfiles and installed trees as different evidence with manager-specific policy.
 3. **Diagnose a disagreement without inventing its cause:** Interpret a constructed manifest/lock/installation mismatch and ask for the inputs and observations needed to explain it.
+
+### [4.2. Artifacts registries checksums signatures provenance and SBOMs](<sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>)
+
+1. **Connect a distribution name to the actual artifact:** Separate source, packaged contents, registry, mirror and cache records from byte-integrity and publisher claims.
+2. **Separate a verified signature from an accepted build claim:** Interpret signatures, attestations, build provenance and SLSA verification with explicit subject, identity and policy boundaries.
+3. **Read a component inventory and apply each evidence boundary:** Distinguish an SBOM from a lockfile or safety result and diagnose an inventory for a different artifact.
 
 [← Back to IT Vocabulary](<../README.md>)
