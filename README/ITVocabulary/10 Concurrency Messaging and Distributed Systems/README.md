@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 3 of 11 approved lessons are available.
+This domain is in progress: 4 of 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -25,5 +25,13 @@ This domain is in progress: 3 of 11 approved lessons are available.
 1. **Name the shared state and the operation that must stay together:** Trace a lost update and distinguish concurrent-operation atomicity from transactional acceptance and memory-model terminology.
 2. **Observe a lost update and protect the complete critical section:** Run an explicit-yield task example and explain the shared lock, private observations and incorrect write-only protection.
 3. **Distinguish exclusion from progress and wider coordination:** Read a task dependency cycle, separate safety and liveness and state why an in-process lock does not protect all application instances.
+
+## 3. Messages and streams
+
+### [3.1. Commands events messages queues brokers and pub-sub](<sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>)
+
+1. **Separate a message envelope from its intended meaning:** Distinguish communicated units, command requests, event announcements and response data with explicit identity and contract scopes.
+2. **Distinguish distribution roles from storage and processing guarantees:** Interpret producers, consumers, brokers, queues, topics, subscriptions and RabbitMQ-specific routing roles.
+3. **Trace copies and competing workers in a concrete topology:** Explain shared versus independent subscription inputs, worker allocations and missing-subscription history without assuming replay or successful processing.
 
 [← Back to IT Vocabulary](<../README.md>)

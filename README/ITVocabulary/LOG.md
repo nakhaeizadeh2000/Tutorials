@@ -3908,3 +3908,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   edges. Deadlock card static/not executed; no memory-model detector,distributed
   booking/DB lock,crash recovery,starvation/fairness or contention benchmark claimed.
 - Next steps: D10.S03.L01,then every remaining approved unit through D18.
+
+### D10.S03.L01 — Commands events messages queues brokers and pub-sub — verified
+
+- Done: D10.S03.L01; message intent/envelope/identity roles,distribution versus
+  retention guarantees,original competing/independent queue packet and missing-
+  subscription variation. Progress92/191;99 approved leaves remain.
+- Files touched: new sections/3. Messages and streams/3.1. Commands events messages
+  queues brokers and pub-sub.md; D10/track README files; this LOG.
+- Links fixed / added: registration,sixteen contextual lookup entries,four exact
+  existing owners; retained prior design Command/Event and data-structure Queue.
+- Research / Decisions: full-repo numeric heading search found D09 design meaning,
+  JS execution queues and TS loop-type applications; reread complete D09 Clean/
+  hexagonal/DDD/CQRS/event-sourcing owner. Reused full JS loop reference for role/
+  queued-work distinctions and Promise tracing calibration for stipulated steps;
+  no JS queue-phase/parallel/timing claims imported. Actual originating source
+  excerpts read (not full books):
+  https://www.enterpriseintegrationpatterns.com/patterns/messaging/CommandMessage.html
+  https://www.enterpriseintegrationpatterns.com/patterns/messaging/EventMessage.html
+  selected semantic-purpose/ordinary-message passages; rejected reliable-by-name,
+  notification-always-arrives,event-content-unimportant and guaranteed-delivery-
+  usually-useless blanket claims,old JMS/.NET/SOAP setup not current defaults.
+  https://www.rabbitmq.com/tutorials/tutorial-two-javascript (actual dispatch and
+  ack context,not automatic linear scaling,strict round-robin/all-settings,
+  never-lost/always-unprocessed-on-missing-ack guarantee or timeout default)
+  https://www.rabbitmq.com/tutorials/tutorial-three-javascript (actual exchange,
+  fanout,binding,queue-lifetime and absent-binding passages; rejected temporary
+  queue as universal subscription,absent-consumer-implies-loss and fixed500ms
+  close as publication proof). Search community comparisons discovery only;
+  no inaccessible article or search snippet claimed as read. Current living
+  product roles are scoped to AMQP0-9-1; no broker version/install prescription.
+- Verification: structural/link verifier passed (92 leaves,1400 links across105
+  files,required sections/registrations,preserved proposal); whitespace check
+  passed. Editorial check matched three promises,explicit no-failure allocation,
+  independent functional copies versus competing report workers,four intended
+  deliveries,missing prepublication binding and separate event/booking identities.
+  Static topology/contract exercise only; no broker,backend,publication/delivery,
+  replay,deduplication or throughput benchmark executed.
+- Next steps: D10.S03.L02,then every remaining approved unit through D18.
