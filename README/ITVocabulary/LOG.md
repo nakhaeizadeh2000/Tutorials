@@ -4286,3 +4286,49 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   No remote network/sharing,hosting,deployment,amendment,crash recovery or performance
   benchmark executed. Singular D11 progress grammar corrected before completion.
 - Next steps: D11.S01.L02,then every remaining approved unit through D18.
+
+### D11.S01.L02 — Branches tags remotes forks and clones — verified
+
+- Done: D11.S01.L02; branch/ref/tip and HEAD context,tag object/name distinctions,
+  ordinary clone/remote configuration,original stale-reference/fetch table and
+  hosted-fork versus branch/clone boundaries with changed-evidence practice.
+  Progress101/191;90 approved leaves remain.
+- Files touched: new sections/1. Change records/1.2. Branches tags remotes forks
+  and clones.md; D11/track README files; this LOG.
+- Links fixed / added: registration,fifteen contextual lookup entries,three exact
+  existing owners; previous HEAD/Git commit and API Origin owners preserved.
+- Research / Decisions: full-repo numeric branch/tag/remote/fork/clone headings
+  found browser script tags and TS conditional branches,different meanings.
+  Read full current D11 index and D03 code/artifact owner. Reused complete JS
+  Holes vs undefined calibration from preceding unit for superficially equal
+  state versus meaningful comparison,without inherited-property/old V8 claims.
+  Actual current originating passages read:
+  https://git-scm.com/docs/git-branch (description,branch creation versus switch,
+  remote tracking and configured upstream; current2.56.0 metadata,no all-pull-
+  always-merge/master or historical workflow recipes adopted)
+  https://git-scm.com/docs/git-tag (actual annotated/lightweight/optional-signature
+  and replacement conditions; not unconditional immutable tag-name or every-tag-
+  means-release claims)
+  https://git-scm.com/docs/git-remote (actual configuration and tracking update)
+  https://git-scm.com/docs/git-clone (actual ordinary description,remote origin,
+  bare/no-checkout/shallow/partial caveats; rejected outdated unconditional pull-
+  merges-master sentence,all-clones-complete-backup and shared-object independence)
+  https://git-scm.com/docs/git-fetch and https://git-scm.com/docs/git-push (actual
+  descriptions,selected refs/objects and requested remote update,not universal
+  destination/default/refspec or successful-network claims).
+  https://docs.github.com/en/pull-requests/reference/forks (actual intro,branch
+  comparison and permission-dependence passages after old about-forks redirected;
+  no paid-plan/visibility/deletion inventory universalized or account accessed).
+  Reused actual Git glossary HEAD/unborn/worktree and original Evans2023 tracking
+  ambiguity investigation from preceding unit; no new full-book/site review or
+  stale source as current product default. NamesC1/C2/C3 are explicit constructed
+  commit labels,not real object IDs; full workflow remains separate study.
+- Verification: structural/link verifier passed (101 leaves,1561 local links
+  across115 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,shared-parent branch
+  history,tag versus target,ordinary fetch's C2 remote-tracking/C1 local state,
+  three repositories and origin's actual configured destination. Checked added-
+  team-evidence variation strengthens source history only. Static table/reading
+  exercise; no clone/fetch/push,hosted fork/tag,credential/network operation,
+  branch switch,production deployment or performance test executed.
+- Next steps: D11.S02.L01,then every remaining approved unit through D18.
