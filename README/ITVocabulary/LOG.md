@@ -4382,3 +4382,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   deployment executed,no runtime integration or performance test claimed.
 - Next steps: D11.S03.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S03.L01 — SemVer compatibility breaking changes and deprecation — verified
+
+- Done: D11.S03.L01; adopted public-API version contract,core/precedence and
+  major-zero boundaries,original independent release-classification cards,
+  consumer/direction/actual-outcome distinctions and deprecation/migration review.
+  Progress103/191;88 approved leaves remain.
+- Files touched: new sections/3. Versions and compatibility/3.1. SemVer compatibility
+  breaking changes and deprecation.md; D11/track README files; this LOG.
+- Links fixed / added: registration,thirteen contextual lookup entries,four exact
+  owners; generic Deprecated/Stable and Git Patch ownership retained.
+- Research / Decisions: full-repo numeric version/compatibility/breaking/deprecation
+  heading search found TS context-specific updates and type compatibility,not a
+  general release-contract owner. Reread full D01 status-language and D07 API
+  contract leaves (truncated first API portion reread separately). Read complete
+  JS TC39 process/documentation leaf for policy-versus-implementation distinctions;
+  rejected stale stage inventory,guessed current edition/runtime coverage,universal
+  stage-as-production/feature-detection policy and missing required-section pattern.
+  Actual originating sources consulted:
+  https://semver.org/spec/v2.0.0.html (actual numbered1–11,selected introductory/
+  FAQ context,not copied grammar/regex or universal adoption; no zero-major
+  stability or same-precedence-implies-identical-build claim)
+  https://go.dev/doc/modules/version-numbers (actual component/zero/pre-release
+  passages,concrete ecosystem application; rejected blanket safe-upgrade/stability,
+  all-major-increases-must-contain-breakage and patch-never-dependency-change as
+  universal SemVer rules; pseudo-version/module-path mechanics remain scoped Go
+  material,not imported into another package manager)
+  https://go.dev/blog/module-compatibility (Barkhuysen/Amsterdam July7 2020,
+  actual function-extension/variadic-versus-assignment case; not full migration
+  course,unconditional add-never-breaks,forever-two-versions or language setup).
+  https://hynek.me/articles/semver-will-not-save-you/ (Schlawack March2 2021 actual
+  unintended breakage/consumer evidence discussion; no old cryptography/toolchain
+  baseline,universal breakage statistics,only-purpose-is-ordering,inevitable-every-
+  patch-breaks,blame or mandatory pin/update policy copied). Compared maintainer
+  experience with normative obligations; version intention does not erase either
+  contract duties or the need for actual compatibility evidence. Search old Maven
+  studies and community snippets only discovery,not read measurements or factual
+  support. No version parser/package update needed for this vocabulary outcome.
+- Verification: structural/link verifier passed (103 leaves,1606 resolving links
+  across117 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,independent2.4.3 candidate
+  rows,resets2.5.0/3.0.0,2.10 versus2.9,pre-release/build/zero distinctions and
+  expected versus observed empty-input behavior. Checked required field removal,
+  unknown-field policy/direction and deprecated-still-available without invented
+  maintenance/removal dates. Static release/contract interpretation only; no
+  package upgrade,SemVer-library comparison,Go compile,SDK integration,migration
+  or performance test executed. Current stable specification integrated directly.
+- Next steps: D11.S03.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

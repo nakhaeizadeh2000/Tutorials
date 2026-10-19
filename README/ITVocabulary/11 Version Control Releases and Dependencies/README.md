@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 3 of 10 approved lessons are available.
+This domain is in progress: 4 of 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -25,5 +25,13 @@ This domain is in progress: 3 of 10 approved lessons are available.
 1. **Distinguish joining histories from replaying changes on a new base:** Read merge, fast-forward, rebase and pull outcomes with explicit commit relationships and collaboration trade-offs.
 2. **Separate unresolved text from incorrect combined behavior:** Interpret conflict resolution and diagnose a clean text integration that breaks an interface contract.
 3. **Read the review artifact and its integration direction:** Identify PR base and head, author and reviewer roles, upstream/downstream meanings and approval versus current-head verification.
+
+## 3. Versions and compatibility
+
+### [3.1. SemVer compatibility breaking changes and deprecation](<sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>)
+
+1. **Read the version scheme and its declared interface:** Interpret SemVer core components, precedence, pre-release/build labels and major-zero scope as an adopted contract.
+2. **Judge compatibility from a consumer’s required behavior:** Classify constructed releases and distinguish backward or forward compatibility, intended promises and actual consumer outcomes.
+3. **Separate deprecation and support from actual removal:** Read migration and breaking-change notices without inventing removal dates, support periods or verified upgrade results.
 
 [← Back to IT Vocabulary](<../README.md>)
