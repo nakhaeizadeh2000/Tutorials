@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **86 of 191 approved lessons** are available.
+Implementation is in progress: **87 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -233,6 +233,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Deque | [Double-ended queue](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Deserialization | [Reconstructing values from a serialized representation](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Design pattern | [Recurring solution structure with context and consequences](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
+| Design proposal review | [Connecting design claims to requirements mechanisms consequences and evidence](<09 Programming Design and Architecture Language/sections/6. Applied design review/6.1. Review a proposal that hides decisions behind pattern names.md>) |
 | Desktop application | [A client targeting desktop operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Device driver | [Software participating in OS and device communication](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | DHCP | [Dynamic Host Configuration Protocol](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |

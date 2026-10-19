@@ -2,7 +2,7 @@
 
 Understand program and architecture discussions through concrete responsibilities, boundaries and evidence. The preceding software, API and data domains supply the prerequisites. This domain explains design language and trade-offs; full algorithm, pattern, framework and system implementations remain deeper study. Small examples state their tested environment and do not require a backend framework.
 
-This domain is in progress: 9 of 11 approved lessons are available.
+This domain is in progress: 10 of 11 approved lessons are available.
 
 ## 1. Reasoning about programs
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 11 approved lessons are available.
 1. **Distinguish domain identity from equal values and memory identity:** interpret domains, models, entities and value objects through booking and seat-selection cases.
 2. **Read an aggregate as a rule-enforcement boundary:** identify the root and local invariant while exposing a separate workshop-capacity coordination question.
 3. **Select a diagram view and read its claims within that scope:** recognize UML and C4 views, interpret a labeled interaction sketch and reject unsupported deployment or performance conclusions.
+
+## 6. Applied design review
+
+### [6.1. Review a proposal that hides decisions behind pattern names](<sections/6. Applied design review/6.1. Review a proposal that hides decisions behind pattern names.md>)
+
+1. **Expand the names into requirements and boundaries:** Identify the product rules and concrete design obligations hidden behind a pattern-heavy proposal.
+2. **Separate established facts from unsupported conclusions:** Trace inspected source, deployment, calculation, identity and model evidence to scoped conclusions.
+3. **Request discriminating evidence and give usable feedback:** Write technical and product feedback, revise conclusions when evidence changes and explain an interview answer.
 
 [← Back to IT Vocabulary](<../README.md>)

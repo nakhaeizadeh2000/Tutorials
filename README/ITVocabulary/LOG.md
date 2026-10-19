@@ -3727,3 +3727,36 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   only; no runtime entity equality,aggregate concurrency,formal UML rendering,
   deployed framework,three-replica configuration or benchmark executed.
 - Next steps: D09.S06.L01,then D09.S07.L01 and all approved D10–D18 units.
+
+### D09.S06.L01 — Review a proposal that hides decisions behind pattern names — verified
+
+- Done: D09.S06.L01; original requirement/inspection packet integrates dependency,
+  deployment,cost,effects,identity,read-model/history and refactoring claims with
+  worked feedback,evidence variations and interview reasoning. Progress87/191;
+  104 approved leaves remain.
+- Files touched: new sections/6. Applied design review/6.1. Review a proposal that
+  hides decisions behind pattern names.md; D09/track README files; this LOG.
+- Links fixed / added: registration,one lookup entry,six precise existing owners.
+- Research / Decisions: recovered complete3729-line LOG in sequential nontruncated
+  chunks,full policies/continue skill/workflow/quality,root and full track/domain
+  indexes. Reconciled86 Done IDs to86 tracked leaves with Git history,clean tree
+  at51d904ca. Full-repo focused proposal/design-review headings found no competing
+  general owner; reread full D08 data synthesis and D09 DI owner to distinguish
+  new design reasoning from repeated database recovery. Reread complete JS
+  Fundamentals checklist for evidence questions/owner routing,rejecting stale
+  Node LTS wording,universal thread/scheduling claims and blanket lint defaults.
+  Reopened https://c4model.com/diagrams/checklist (actual scope/relationship questions)
+  and https://martinfowler.com/articles/writingPatterns.html (Aug2006 relevant
+  recurrence/applicability passages visible; combined output truncated later
+  unrelated pattern-format passages,no claim to new full-article reading).
+  Reused evaluated primary D09 owner/source map; no new platform/API guarantee.
+  Pattern/diagram names do not establish actual behavior or universally disqualify
+  techniques. NestJS+Fastify static context retained; no implementation expansion.
+- Verification: structural/link verifier passed (87 leaves,1317 links across99
+  files,required sections/registrations,preserved closed proposal); git diff --check
+  passed. Editorial check matched three promises,all eight packet facts,one-seat
+  requirement conflict,identity versus values,n bounded visits and removed-source/
+  changed-deployment certainty. Static inspection exercise only; all proposed
+  behavior/integration checks remain unexecuted,no framework,publication,replay,
+  deployment or benchmark claimed.
+- Next steps: D09.S07.L01,then all approved D10–D18 units; approval unchanged.
