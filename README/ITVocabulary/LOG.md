@@ -3788,3 +3788,49 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   exercise only; no concurrent booking,adapter,framework,profiler or benchmark run.
 - Next steps: D10.S01.L01,then every remaining approved unit through D18;
   full191-leaf curriculum revision1 approval remains intact,no new gate.
+
+### D10.S01.L01 — Synchronous asynchronous blocking and non-blocking — verified
+
+- Done: D10.S01.L01; completion versus execution-resource distinction,actual local
+  non-blocking receive and same-thread suspended-task/callback observation,ready-
+  flag variation and caller/worker claim review. Created D10;progress89/191;
+  102 approved leaves remain.
+- Files touched: new D10 README and sections/1. Work and time/1.1. Synchronous
+  asynchronous blocking and non-blocking.md; track README; this LOG.
+- Links fixed / added: real D10/leaf registration,seven contextual lookup entries,
+  four existing owners; fixed initial singular progress grammar before commit.
+- Research / Decisions: section-wide repo sync/async/blocking/concurrency headings
+  identified JS scheduling and TS combinator owners,not general boundary lesson.
+  Read full JS Call stack run-to-completion and the event loop for tracing and
+  suspension distinctions,rejecting universal single-thread/no-locks guarantees,
+  stale Node phases/nextTick order,render timing,version guesses and fixed loop/
+  latency thresholds. Read full existing process/thread owner; no duplicate course.
+  Actual source passages consulted on2026-10-19:
+  https://android.googlesource.com/platform/developers/docs/+/cf79849224405677e8d3a7bb5f42c420e2f60fc3/api-guidelines/async.md
+  (original platform API design distinction,in-place callback and suspend semantics;
+  no universal void-only/error/cancellation/lifecycle rules imposed on all APIs).
+  https://cs.brown.edu/courses/cs168/s12/handouts/async.pdf (2012 original course
+  selected model/wait/interleaving passages,with attribution to Peticola; rejected
+  async-always-single-thread,no-shared-state-coordination,all-errors-earlier-impossible,
+  no-context-switch and old server-performance universals; no unsafe scanf copied).
+  https://docs.python.org/3.15/library/socket.html (actual mode contracts)
+  https://docs.python.org/3.15/library/asyncio-sync.html (Event wait/set)
+  https://docs.python.org/3.15/library/asyncio-eventloop.html (call_soon contract)
+  https://docs.python.org/3.15/library/asyncio-task.html (coroutine/task/sleep/eager
+  semantics,selected passages only) plus3.14 task reference for tested-version
+  corroboration. Python downloads page lists stable3.15.0 Oct9 2026/current3.14.8;
+  local runtime is3.14.4,explicitly pinned and not called current. Existing uv's
+  generic3.15 request installed3.15.0rc2 under/tmp only; exact3.15.0 request failed
+  with no download. Rejected prerelease as stable test evidence; no system/default
+  executable changed. Current contracts integrated,older actual run disclosed.
+  Community/search comparisons exposed wording questions,not relied on as facts.
+- Verification: first exact-fence run caught tuple-context-manager authoring error;
+  repaired to assign endpoints then with reader,writer. Final exact fence ran
+  CPython3.14.4/Linux x86_64,exit0,full stdout matched unavailable attempt,x,before,
+  same-thread callback True,after. Actual already-set-only variation exit0/full
+  output matched after preceding callback. Structural/link check passed (89 leaves,
+  1349 links across102 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched promises,resource/task scope,
+  no async-by-callback assumption,worker limits and no completion guarantee. No
+  internet traffic,Python3.15 run,export integration or performance test claimed.
+- Next steps: D10.S01.L02,then all remaining approved units through D18.
