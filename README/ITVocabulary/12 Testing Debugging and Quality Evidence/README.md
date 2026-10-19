@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 3 of 10 approved lessons are available.
+This domain is in progress: 4 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 10 approved lessons are available.
 1. **Define the tested boundary before assigning a level name:** Interpret unit, component, integration, system and end-to-end naming with explicit scope and local conventions.
 2. **Trace which real collaborations each arrangement exercises:** Compare five constructed calculation, database, API and browser arrangements and identify the evidence removed by substitutions.
 3. **Distinguish interface-contract evidence from a complete workflow:** Explain consumer and provider contract checks, relevant version pairing and the application or deployed-path behavior they do not establish.
+
+### [2.2. Functional non-functional regression smoke and exploratory testing](<sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>)
+
+1. **Separate the tested scope from the quality question and execution method:** Interpret functional and non-functional purposes across levels and distinguish a case, suite and actual run.
+2. **Distinguish change protection from a preliminary smoke check:** Compare regression, confirmation and smoke purposes without treating overlapping labels or planned cases as independent passing executions.
+3. **Use exploration to turn observations into the next useful experiment:** Read a focused charter and filter investigation, preserve evidence versus hypotheses, and connect exploration with repeatable regression cases.
 
 [← Back to IT Vocabulary](<../README.md>)

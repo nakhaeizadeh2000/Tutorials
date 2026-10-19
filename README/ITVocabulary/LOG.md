@@ -4854,3 +4854,50 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   benchmark executed. No numerical suite quota or unperformed result claimed.
 - Next steps: D12.S02.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S02.L02 — Functional non-functional regression smoke and exploratory testing — verified
+
+- Done: D12.S02.L02; scope/quality-purpose/method/run-status axes,case/suite/run,
+  overlapping functional/regression/smoke selection,confirmation and focused
+  exploratory charter with observation-driven filter diagnosis and evidence removal.
+  Progress113/191;78 approved leaves remain.
+- Files touched: new sections/2. Test scope and intent/2.2. Functional non-functional
+  regression smoke and exploratory testing.md; D12/track README files; this LOG.
+- Links fixed / added: registration,ten contextual lookup entries,four exact
+  prior owners plus domain/track navigation; Regression testing ownership retained.
+- Research / Decisions: full-repo numeric functional/exploratory/smoke/regression
+  search found preceding general regression owner,not duplicate purpose lesson.
+  Read full JS Anatomy of a test AAA naming isolation and determinism for explicit
+  situation/action/observation and reproducible state; rejected10–20line/one-screen
+  quotas,exactly-one-act/assert universal,AAA-isolates-all-causes,name-as-spec,
+  wrong name-redundancy criterion,no-name-runtime-cost/filter guarantees,all-wall-
+  clocks/unseeded-inputs-prohibited and reset-as-automatically-wrong assertions.
+  Actual consulted sources:
+  ISTQB4.0.1 PDF actual2.2.2 functional/nonfunctional,2.2.3 confirmation/regression,
+ 4.4.2 exploratory/charter and selected test-case/suite passages (URL prior units);
+  rejected only-four-types taxonomy as exhaustive,all-repeated-cases-automated,
+  guaranteed no adverse consequences and fixed session-duration rules. Not a
+  full syllabus/ISO25010 review. https://www.satisfice.com/exploratory-testing
+  (actual learning/design/observation passages; rejected unmeasured sociologist/
+  computer-scientist competence generalizations,all-testing-scientific-by-label and
+  no-explanation-possible tacit-knowledge framing). Original Bolton challenge
+  research from preceding unit supports discriminating next observations,not
+  universal replacement of prescribed checks.
+  https://learn.microsoft.com/en-us/dynamics365/guidance/implementation-guide/testing-strategy-test-types
+  (actual smoke-basic-before-further-tests passage,originating current product
+  guidance; not Dynamics as backend vehicle or entire functional/nonfunctional
+  classification copied). Official glossary search yielded mirrors/old PDFs rather
+  than readable current originating smoke entry; did not treat branded mirror or
+  snippets as primary evidence. Accessible Microsoft explanation supplies bounded
+  role. Existing regression/levels/task evidence owners linked rather than retaught.
+- Verification: structural/link verifier passed (113 leaves,1785 resolving local
+  links across128 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises,overlapping
+  planned-purpose rows,explicit absent execution method/results,two-second bound
+  as fictional unmeasured condition,zero-seat confirmation relevance and filter
+  investigation's distinguishable expected values. Added response strengthens
+  display-path hypothesis only; removal weakens it. Static plans/narrative only,
+  no smoke/regression/exploratory session,100-request run,UI/network check,bug
+  reproduction or performance measurement executed; no inflated label/run count.
+- Next steps: D12.S03.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
