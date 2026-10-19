@@ -2,7 +2,7 @@
 
 Describe work across tasks, workers and machines with explicit timing and failure boundaries. Read the operating-system, network, API, data and design vocabulary first. This domain teaches interpretation and small controlled observations; runtime internals, distributed algorithms and production implementations remain deeper study.
 
-This domain is in progress: 4 of 11 approved lessons are available.
+This domain is in progress: 5 of 11 approved lessons are available.
 
 ## 1. Work and time
 
@@ -33,5 +33,11 @@ This domain is in progress: 4 of 11 approved lessons are available.
 1. **Separate a message envelope from its intended meaning:** Distinguish communicated units, command requests, event announcements and response data with explicit identity and contract scopes.
 2. **Distinguish distribution roles from storage and processing guarantees:** Interpret producers, consumers, brokers, queues, topics, subscriptions and RabbitMQ-specific routing roles.
 3. **Trace copies and competing workers in a concrete topology:** Explain shared versus independent subscription inputs, worker allocations and missing-subscription history without assuming replay or successful processing.
+
+### [3.2. Streams batches consumers acknowledgments and dead-letter queues](<sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>)
+
+1. **Separate a flow of records from a bounded processing group:** Interpret stream and batch work, retained logs, partition offsets and consumer groups without assuming permanent history.
+2. **Read acknowledgments and checkpoints at their actual boundary:** Distinguish publisher confirms, consumer acknowledgments, fetched positions and committed progress through a failed-batch packet.
+3. **Treat failed-message isolation as the start of recovery:** Explain DLQs, DLXs and poison-message investigation and identify evidence for actual business recovery.
 
 [← Back to IT Vocabulary](<../README.md>)

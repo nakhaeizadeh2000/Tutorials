@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **92 of 191 approved lessons** are available.
+Implementation is in progress: **93 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -59,6 +59,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Accessibility | [Removing access barriers for people with disabilities](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Accessible name | [A programmatically available name identifying a control](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | ACID | [Atomicity consistency isolation and durability](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Ack | [Acknowledgment](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| Acknowledgment | [Signal of an outcome under a specific protocol or application contract](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Adapter (architecture) | [Technology-specific connection to an application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -95,6 +97,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Backup | [Retained material intended to support recovery](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Bandwidth (network) | [An overloaded term often used for information-carrying capacity](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | Batch (data) | [Processing a bounded group of data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
+| Batch (messaging) | [A bounded group handled together without implied output atomicity](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Bidirectional streaming | [Independent message streams in both directions](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Big O | [Asymptotic upper bound on growth](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -140,6 +143,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Character encoding | [A representation of text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Characterization check | [Recording existing behavior to detect unintended change](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | CHECK constraint | [A database expression restricting allowed values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Checkpoint | [Recorded progress for continuation or recovery](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Checksum | [A check value tied to an algorithm and input](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | CHIPS | [Cookies Having Independent Partitioned State](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | CIDR notation | [An address or prefix followed by a slash and prefix length](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -179,6 +183,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Constraint (database) | [Enforced restriction on allowed data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Constructor injection | [Supplying dependencies when a consumer is constructed](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Consumer (messaging) | [Role receiving messages for processing](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Consumer acknowledgment | [Consumer-to-broker signal permitting delivery completion handling](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| Consumer group (Kafka) | [Logical subscriber dividing partition assignments among its consumers](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Container (C4) | [Application or data store in the C4 model](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -229,6 +235,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DBMS | [Database management system software](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | DDD | [Domain-Driven Design](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | DDL | [Data definition language for structures](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
+| Dead-letter queue | [Destination for messages diverted from normal processing](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Deadlock | [Dependency cycle preventing participant progress without intervention](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Deallocation | [Making storage available for reuse under its allocator](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Decimal prefix | [SI powers of ten](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
@@ -260,6 +267,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Distributed monolith | [Separated processes whose changes remain tightly coordinated](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Distribution package | [An installable Python project or its distribution file](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | DKIM | [DomainKeys Identified Mail](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| DLQ | [Dead-letter queue isolating diverted messages under policy](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| DLX | [Dead-letter exchange routing diverted messages](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | DMARC | [Domain-based Message Authentication Reporting and Conformance](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | DML | [Data manipulation language for data operations](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | DNS | [Domain Name System](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
@@ -509,6 +518,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Mutual exclusion | [Only one participating operation entering a protected region at a time](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | MX record | [A DNS mail-exchange record naming a delivery server and preference](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | N+1 queries | [One initial retrieval followed by N related retrievals](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
+| Nack | [Negative acknowledgment with policy-specific handling](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | NAPT | [Network address and port translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | NAT | [Network address translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Native app | [A platform-related implementation label requiring scope](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
@@ -539,6 +549,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | OCP | [Open-Closed Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Octet | [An explicitly eight-bit group](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Offline support | [Specified tasks available without network connectivity](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| Offset (Kafka) | [Record position within a topic partition](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Offset pagination | [Continuing by skipping a count of ordered results](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | OLAP | [Online analytical processing across data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | OLTP | [Online transaction processing for operational work](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -587,6 +598,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Pipe | [A byte-stream channel connecting a writer and reader](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | PITR | [Point-in-time recovery using retained state and history](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
+| Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Polling | [Repeated requests checking for information](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Port (architecture) | [A purposeful application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -622,6 +634,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Public API | [An interface offered to outside consumers under a stated access contract](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Public suffix | [A registration boundary recorded in the Public Suffix List](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Publisher | [Role sending into a publication mechanism](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Publisher confirm | [Broker-to-publisher confirmation distinct from consumer completion](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Pure function | [Result determined by inputs without observable side effects](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | PUT | [Creation or replacement with a supplied representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | PWA | [Progressive web app](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
@@ -781,6 +794,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Storage volume | [Device-like storage area usable by a filesystem or application](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Strangler Fig | [Gradual replacement of behavior while old and new parts coexist](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Strategy (pattern) | [Interchangeable behavior supplied through a common contract](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
+| Stream (messaging) | [Sequence or flow of records made available over time](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Stream processing | [Processing an ongoing data flow](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Streaming SSR | [Sending generated HTML in portions](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Stub resolver | [A resolver depending on another resolver to complete resolution](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |

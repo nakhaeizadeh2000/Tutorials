@@ -3946,3 +3946,48 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Static topology/contract exercise only; no broker,backend,publication/delivery,
   replay,deduplication or throughput benchmark executed.
 - Next steps: D10.S03.L02,then every remaining approved unit through D18.
+
+### D10.S03.L02 — Streams batches consumers acknowledgments and dead-letter queues — verified
+
+- Done: D10.S03.L02; stream/batch/retained-reader distinctions,publisher versus
+  consumer ack,original position40/42 failed-output packet and DLQ investigation/
+  recovery evidence. Progress93/191;98 approved leaves remain.
+- Files touched: new sections/3. Messages and streams/3.2. Streams batches consumers
+  acknowledgments and dead-letter queues.md; D10/track README files; this LOG.
+- Links fixed / added: registration,fourteen lookup entries,four existing owners.
+  Preserved D08 canonical Stream processing lookup after detecting alias collision.
+- Research / Decisions: full-repo numeric heading search found OS streams,JS JSON
+  streaming and existing D08 flow vocabulary. Read complete JS Async iterables
+  Symbol.asyncIterator and for await...of for incremental-consumption and lifecycle
+  contrasts; rejected promise-of-iterator title,universal awaiting async step values,
+  any-return-error-replaces-original-throw,for-of-probes-async symbol,collect-all-
+  first-for-parallel and fixed performance thresholds/unbounded-memory advice.
+  Existing D08 applied-progress owner linked rather than retaught its CDC machinery.
+  Actual sources consulted:
+  https://kafka.apache.org/43/getting-started/introduction/ (actual retained topic/
+  partition passages,not unrestricted permanence,all-failures-no-loss,constant-all-
+  costs,every-key-configuration-unchanged or blanket exactly-once/never-waits claims)
+  https://kafka.apache.org/43/javadoc/org/apache/kafka/clients/consumer/KafkaConsumer.html
+  (retrieved4.3.1 actual position/committed-offset and KafkaConsumer group passages;
+  not global/consecutive-offset guarantee,cheap-all-subscriber or automatic full
+  application failure handling; scope explicitly KafkaConsumer model).
+  Root /intro supplied discovery; /documentation redirects gave navigation only.
+  Followed actual4.3 links to concrete docs,not old1.0/2.1 search results.
+  https://www.rabbitmq.com/docs/confirms (actual publisher/consumer orthogonality
+  and ack-mode boundaries) and https://www.rabbitmq.com/docs/dlx (version4.3 actual
+  trigger,routing and republishing-failure passages; no loss-free DLQ guarantee,
+  universal timeout/policy prescription or configuration command copied).
+  https://www.confluent.io/blog/kafka-connect-deep-dive-error-handling-dead-letter-queues/
+  (original historical2019 conversion/skip/DLQ-context walkthrough passages,not
+  full article review,current connector commands,all-stage error support,raw-body
+  logging or fixed alert threshold). Primary broker docs anchor modern contracts;
+  no paid service or framework prerequisites added.
+- Verification: initial nav run caught Stream processing duplicate after only its
+  domain-index write; restored this unit's index from clean HEAD,removed competing
+  alias and reran. Final structural/link verifier passed (93 leaves,1420 links
+  across106 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched promises,next-input offset meaning,fetched
+  versus applied record41,early commit42,removed-output uncertainty,known retained
+  m17 and separate DLX/DLQ roles. Static packets only; no broker,connector,offset
+  commit,DLQ reroute/replay,email/report output or performance experiment executed.
+- Next steps: D10.S04.L01,then every remaining approved unit through D18.
