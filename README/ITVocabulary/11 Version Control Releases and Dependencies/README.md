@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 2 of 10 approved lessons are available.
+This domain is in progress: 3 of 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 10 approved lessons are available.
 1. **Distinguish moving branch names from labeled versions:** Interpret branch tips, attached or detached HEAD and lightweight or annotated tags without treating names as immutable deployment evidence.
 2. **Separate another repository from your local record of it:** Trace clone, remote, fetch, push and remote-tracking references through a stale-reference packet.
 3. **Distinguish a hosted fork from a branch and a local clone:** Identify repository and permission boundaries and review source-sharing claims separately from integration and deployment.
+
+## 2. Combining and reviewing work
+
+### [2.1. Merges rebases conflicts and pull requests](<sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>)
+
+1. **Distinguish joining histories from replaying changes on a new base:** Read merge, fast-forward, rebase and pull outcomes with explicit commit relationships and collaboration trade-offs.
+2. **Separate unresolved text from incorrect combined behavior:** Interpret conflict resolution and diagnose a clean text integration that breaks an interface contract.
+3. **Read the review artifact and its integration direction:** Identify PR base and head, author and reviewer roles, upstream/downstream meanings and approval versus current-head verification.
 
 [← Back to IT Vocabulary](<../README.md>)

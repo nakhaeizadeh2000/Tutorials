@@ -4332,3 +4332,53 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   exercise; no clone/fetch/push,hosted fork/tag,credential/network operation,
   branch switch,production deployment or performance test executed.
 - Next steps: D11.S02.L01,then every remaining approved unit through D18.
+
+### D11.S02.L01 — Merges rebases conflicts and pull requests — verified
+
+- Done: D11.S02.L01; original parent-relationship merge/rebase/fast-forward cards,
+  conflict versus clean-but-incompatible caller cases,PR direction/roles and
+  upstream/downstream context,current-head evidence and handoff practice.
+  Progress102/191;89 approved leaves remain.
+- Files touched: new sections/2. Combining and reviewing work/2.1. Merges rebases
+  conflicts and pull requests.md; D11/track README files; this LOG.
+- Links fixed / added: registration,seventeen contextual lookup entries,four exact
+  owners; no implementation or platform account required.
+- Research / Decisions: full-repo numeric merge/rebase/conflict/PR headings found
+  no general owner; read current D11 index and retained prior reference/commit
+  owners. Read complete JS Assertions guards Result Either as condition/contract
+  comparison calibration; rejected imaginary Node invariant export,universal
+  never-catch/strip/assert rules,throw-deoptimization,blanket boundary policy and
+  arbitrary Result failure percentages. New work applies outcome-versus-check
+  reasoning without duplicating language error handling. Actual primary and
+  original teaching passages read:
+  https://git-scm.com/docs/git-merge (description,fast-forward/true-merge/conflict
+  sections; not every-merge-creates-commit,all-local-changes-always-recoverable or
+  blind abort/resolution recipe). https://git-scm.com/docs/git-rebase (replay and
+  merge-backend ours/theirs passages,not whole strategy/internals review).
+  https://git-scm.com/docs/git-pull (actual fetch/integration description and
+  configured upstream section; not universal merge/default destination behavior).
+  https://git-scm.com/book/en/v2/Git-Branching-Rebasing (BasicRebase/selected
+  collaboration passages; rejected cleaner-history-always-better,all-resolutions-
+  same-final-tree,temporary-patch-file mechanism as universal internals,blanket
+  collaboration ban/rhetoric and historical checkout/master defaults).
+  https://docs.github.com/en/pull-requests/reference/pull-requests (actual proposal
+  introduction after old about URL redirected)
+  https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request
+  (base/head direction,reviewer concept; rejected its unsupported everything-works
+  sample status as adequate description,UI/plan inventory not current prescription)
+  https://docs.github.com/en/pull-requests/reference/pull-request-reviews (actual
+  review/outcome and configurable required-approval context,not approval-automatically-
+  merged or all-new-commits-always-dismiss rules). Old about-merges-on-github URL
+  returned internal error; no method details or content claimed from it. Original
+  Evans terminology/source-reader investigations from preceding units supply
+  practical confusion context; no platform vote/snippet accepted as semantics.
+- Verification: structural/link verifier passed (102 leaves,1584 resolving links
+  across116 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,C2/F1 sharedC1,M1's two
+  parents versus F2's newC2 parent,config100→120/80 with unspecified resolution,
+  unsupported old-path caller after clean textual integration,headH1/H2 evidence
+  and upstream's distinct contexts. Static history/contract/review packets only;
+  no merge/rebase/conflict resolution,PR creation/approval,remote pull or production
+  deployment executed,no runtime integration or performance test claimed.
+- Next steps: D11.S03.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
