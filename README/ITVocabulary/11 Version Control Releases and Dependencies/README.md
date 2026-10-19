@@ -2,7 +2,7 @@
 
 Read change history, collaboration and dependency discussions with explicit record and compatibility boundaries. Start with the earlier tool, file and API vocabulary. Small local observations teach what a version-control artifact proves; complete Git workflows, package resolution and deployment remain deeper study.
 
-This domain is in progress: 9 of 10 approved lessons are available.
+This domain is complete: all 10 approved lessons are available.
 
 ## 1. Change records
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 10 approved lessons are available.
 1. **Align the proposal and release notes with the relevant versions:** Identify public behavior changes, PR direction and the state covered by review and tests in a constructed change packet.
 2. **Trace selected contents and supporting evidence through the update:** Connect manifest, lock, installation, provenance, inventory, licensing and support records without treating one result as another.
 3. **Write a review handoff that preserves what is known and unknown:** Explain missing current-head evidence to technical and product audiences and revise the conclusion when relevant results are added.
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of collaboration and release vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of collaboration and release vocabulary.md>)
+
+1. **Return to the precise owner of a collaboration or release question:** Route history, integration, compatibility, support, dependency, artifact and licensing questions to their existing conceptual lessons.
+2. **Choose implementation study from the operation and evidence needed:** Separate vocabulary competence from Git recovery, package resolution, runtime loading, deployment and specialist risk or rights decisions.
+3. **Turn a mixed rollback request into separate answerable questions:** Preserve a recovery goal while identifying source, dependency, artifact, service and data evidence and the limits of a rehearsal.
 
 [← Back to IT Vocabulary](<../README.md>)

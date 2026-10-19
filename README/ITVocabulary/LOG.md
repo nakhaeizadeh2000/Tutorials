@@ -4677,3 +4677,36 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   performance benchmark executed; no missing evidence called a proved failure.
 - Next steps: D11.S06.L01,then every approved D12–D18 unit;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D11.S06.L01 — Boundaries of collaboration and release vocabulary — verified
+
+- Done: D11.S06.L01; nine conceptual owner routes,Git/package/loading/delivery/
+  security/rights implementation boundaries and original mixed rollback handoff
+  with added running-artifact/rehearsal evidence. All10 D11 approved outcomes now
+  implemented;progress109/191;82 approved leaves remain across D12–D18.
+- Files touched: new sections/6. Overlaps to avoid/6.1. Boundaries of collaboration
+  and release vocabulary.md; D11/track README completion/progress; this LOG.
+- Links fixed / added: registration,18 precise local owner/domain routes; D11
+  marked complete,track in progress. No new alias or unbuilt specialist link.
+- Research / Decisions: full-repo numeric boundary/overlap heading discovery found
+  earlier domains and unrelated TS/JS owners,not a competing general collaboration
+  route. Read complete JS Fundamentals boundary leaf for explicit topic-to-owner
+  routing; rejected historical future-TypeScript/WebPlatform labels and absolute
+  no-useful-minimal-example template. Reused full current D11 index and actual
+  preceding owners read during execution,plus evaluated current Git/npm12/SLSA1.2/
+  SemVer/OSI source map; no new command/default/version or universal rollback
+  behavior introduced. Root planned Git&GitHub,DevOps,ProductionToolchain routes
+  are learning guidance only,not published prerequisites or authorship approval.
+  Source/data-state distinction links actual D08 migration/recovery owners rather
+  than duplicating a recovery procedure. No shared-history mutation prescribed.
+- Verification: structural/link verifier passed (109 leaves,1715 resolving local
+  links across123 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Actual registration/count assertions checked all10
+  real D11 leaves,complete domain status and track109/191 in progress. Editorial
+  check matched three promises,all10 D11 outcomes to indexed leaves,nine owner
+  questions,unknown running artifact and startup-migration evidence; added A6
+  identity/A4 read rehearsal strengthens only stated cases,not executed recovery.
+  Static routing/handoff only; no branch reset,tag/lock restoration,package
+  installation,service deployment,data migration/recovery or timing test executed.
+- Next steps: D12.S01.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
