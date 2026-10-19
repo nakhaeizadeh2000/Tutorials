@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **110 of 191 approved lessons** are available.
+Implementation is in progress: **111 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -55,6 +55,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Absolute path | [A path anchored at its filesystem-view root](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Abstraction | [A task-relevant model leaving selected details behind a boundary](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Accept (socket) | [Obtain a socket for an incoming connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Acceptance | [Decision about an acceptable deliverable for a stated purpose and agreement](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Acceptance criteria | [Conditions used to judge an acceptable outcome](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Acceptance testing | [Evaluation focused on acceptance needs and readiness](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Access point | [A device role providing wireless network access](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Access-Control-Allow-Credentials | [CORS response permission for include-mode sharing](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Access-Control-Allow-Origin | [Response field identifying allowed cross-origin sharing](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
@@ -763,6 +766,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Push (Git) | [Requesting remote reference updates and sending needed objects](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | PUT | [Creation or replacement with a supplied representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | PWA | [Progressive web app](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| QA | [Quality assurance activities providing confidence in quality](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| QC | [Quality control activities evaluating and controlling relevant product quality](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Quality assurance | [Planned quality activities including process evaluation and improvement](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Quality control | [Activities focused on fulfilling product or service quality requirements](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Query (database) | [Request for database information or an operation with effects clarified](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Query (design) | [Request for information through a read model](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | QUERY (HTTP) | [Standardized safe query processing with request content](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
@@ -1006,6 +1013,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Type | [A category or constraint on values](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Type annotation | [A declared source-level type](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Type checking | [Checking type relationships with a specified scope](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| UAT | [User acceptance testing from intended users’ perspective](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Ubiquitous language | [Model-based shared language within a bounded context](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | UDP | [User Datagram Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | UI | [User interface including controls content and feedback](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
@@ -1037,8 +1045,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | UTF-32 | [Thirty-two-bit code units](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UTF-8 | [Byte-oriented Unicode text representation](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | UX | [User experience across the product or service interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Validation (product) | [Evaluation of intended purpose and user needs in context](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Value object | [Meaning represented by values without separate conceptual identity](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Vary | [Request fields used in HTTP cache representation matching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Verification | [Evaluation against specified requirements with explicit evidence scope](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Version control | [Recording and relating versions so changes can be inspected and combined](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Version pin | [Exact version selection at a stated declaration or resolution boundary](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Version precedence | [Ordering of version identifiers under the chosen scheme](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |

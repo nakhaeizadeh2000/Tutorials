@@ -4757,3 +4757,51 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   production regression,cause investigation or speed benchmark executed.
 - Next steps: D12.S01.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S01.L02 — Verification validation QA QC and acceptance — verified
+
+- Done: D12.S01.L02; requirements-versus-purpose evidence,QA/QC activities versus
+  team labels,acceptance decisions/criteria/UAT and original approved-only export
+  versus pending-follow-up task with proposed/evaluated alternative-view variation.
+  Progress111/191;80 approved leaves remain.
+- Files touched: new sections/1. Faults and evidence/1.2. Verification validation
+  QA QC and acceptance.md; D12/track README files; this LOG.
+- Links fixed / added: registration,ten contextual lookup entries,four precise
+  prior/language owners plus domain/track navigation. Input schema-validation
+  remains its existing owner; product-validation lookup explicitly scoped.
+- Research / Decisions: full-repo numeric verification/validation/acceptance/QA/QC
+  search found schema/type-validation and interview Q&A meanings,not this quality
+  purpose owner. Read full TS Static checking vs runtime reality actual owner
+  after rg corrected one absent guessed path; transfer exact claim/input/evidence
+  distinctions,not older runtime versions as current example baseline. Reused
+  full JS error-taxonomy calibration from preceding unit for distinct mechanism,
+  expectation and outcome,without its faulty timing/brand/performance assertions.
+  Actual sources consulted:
+  https://www.nasa.gov/reference/2-0-fundamentals-of-systems-engineering/ (actual2.4
+  verification/validation purposes and methods,not full NASA process or a claim
+  testing proves all requirements in all executions).
+  https://asq.org/quality-resources/quality-assurance-vs-control (actual definition/
+  inspection/process/context passages,reviewedDec2024; rejected universal QA/QC
+  org chart,manufacturing-history-as-software-rule and no-service-QC implication).
+  ISTQB4.0.1 PDF actual1.1 verification/validation,1.2.2 process context and2.2.1
+  acceptance/UAT passages (URL in preceding entry); no static=verification/manual=
+  validation binary,no process-followed-guarantees-good-product or full-read claim.
+  https://developsense.com/blog/2017/03/deeper-testing-1-verify-and-challenge
+  (MichaelBolton originalMarch16 2017,actual prescribed-path/variation/model
+  challenge paragraphs; rejected universal replace-all-verification/terminology
+  ban,all-positive-evidence-worthless and no-useful-knowledge-from-passing framing).
+  Compared agency/professional definitions with practitioner challenge to narrow
+  conformance,retaining both purpose questions. Search snippets/lookalike websites
+  and NASA linked full handbook not treated as new complete reading. Existing
+  schema/task/usability owners linked instead of duplicate implementation course.
+- Verification: structural/link verifier passed (111 leaves,1751 resolving local
+  links across126 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises and each export
+  inference to a packet row,explicit approved-only conformance versus missing
+  pending list,unaccepted task,QA process versus QC product activities,and proposed
+  versus evaluated alternate view. No department approval invented,no automatic
+  waiver or finding that correct export filter is necessarily defective. Static
+  reading exercise only; no CSV export,usability session,UAT,process audit,formal
+  verification,product acceptance or performance test actually executed.
+- Next steps: D12.S02.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
