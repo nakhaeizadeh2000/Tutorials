@@ -6820,3 +6820,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   export configuration,query,commit validation or performance experiment executed.
 - Next steps: D15.S03.L02,then all remaining approved D15–D18 units;38 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S03.L02 — Logs metrics traces spans correlation and cardinality — verified
+
+- Done: D15.S03.L02;event versus numerical instrument versus associated operation,
+  context/identity/coverage,overlapping client-span fragment,cardinality versus
+  dimensions and24-to10000 distinct-label example with overflow qualification.
+  Progress154/191;37 approved leaves remain.
+- Files touched: new sections/3. Telemetry and investigation/3.2. Logs metrics
+  traces spans correlation and cardinality.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,21 scoped aliases,five precise observation/
+  percentile/debugging/timeout/privacy owners plus domain/track navigation.
+- Research / Decisions: full-repo numerical logs/metric/trace/span/correlation/
+  cardinality headings found JS stack-trace/closure-retention applications,not
+  general telemetry owner. Read complete D12 debugging/stack owner to preserve
+  call-frame boundary;reused full JS Console toolkit reference just read for
+  specific observation semantics,not wrong console filtering/flush/step/live-edit
+  claims. Actual primary excerpts read:
+  https://opentelemetry.io/docs/concepts/signals/ actual849–883 signal inventory
+  and March10 2026 update;not equal support/stability for all signals or profiles-
+  universally-stable. https://opentelemetry.io/docs/concepts/signals/metrics/
+  actual859–920 metric/instrument/aggregation/cardinality-overflow behavior;
+  no full960-line manual. Reject counter-never-resets/delta-never-changes,universal
+  SDK/default2000 support,all-observations-through-pipeline-never-lost and bounded
+  metric-count-as-total-process-memory guarantee. Integrate existing overflow
+  behavior conceptually without unsupported runtime/library configuration.
+  https://opentelemetry.io/docs/concepts/signals/traces/ actual865–900 and990–1084
+  simplified-format/root,parent/context/attributes/events/links;not full1121-line
+  guide. Reject complete-all-request-path guarantee,all-traces-required,old semantic
+  attribute names as new defaults,all-async-work-needs-separate-trace or matching
+  ID-as-causal-proof. https://prometheus.io/docs/practices/naming/ actual100–120
+  coherent dimensions and label combinations;not full policy,universal naming or
+  no-high-cardinality-anywhere rule. Prior original Charity2020 context/dimension
+  article informs individual-request investigation,refined by primary metric
+  representation costs rather than its infinite-cardinality/all-data demand.
+  Initial opens navigation-only;actual849+/90+ body ranges reopened before use.
+- Verification: actual structural/link verifier passed154 leaves,2656 resolving
+  links across172 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,21 unique aliases,
+  6/13 domain,154/191 track,tables/empty staging;additions inspected. Actual offline
+  Python parsed exact JSON fieldsT7/P1/r7/30 and asserted child30+20>parent40ms.
+  Generated10000 synthetic request tuples:24 distinct base combinations,10000
+  when unique IDs added;no erroneous240000 actual-series claim. Editorial check
+  matched client-observed policy deadline versus unknown remote cause,missing
+  internal spans,explicit single-clock overlapping intervals,missing-ID variation,
+  hypothetical no-limit mapping and overflow detail limits. Static artifacts and
+  counting only;no log emission,OTLP validation,trace propagation/sampling,
+  telemetry backend/metric query or cardinality/performance measurement executed.
+- Next steps: D15.S04.L01,then every remaining approved D15–D18 unit;37 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

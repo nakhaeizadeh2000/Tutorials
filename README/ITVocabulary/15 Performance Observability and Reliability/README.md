@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 5 of 13 approved lessons are available.
+This domain is in progress: 6 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 13 approved lessons are available.
 1. **Separate an activity a capability and the data supporting it:** Distinguish monitoring observability and telemetry through the questions supported rather than tool or data-type labels.
 2. **Trace instrumentation collection and interpretation separately:** Explain observation points automatic instrumentation exporters collectors and backends while identifying support retention transport and query limits.
 3. **Answer a business question from a limited telemetry packet:** Distinguish HTTP acceptance from a worker commit and update a claim only with correctly scoped delivered outcome evidence.
+
+### [3.2. Logs metrics traces spans correlation and cardinality](<sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>)
+
+1. **Choose the artifact from the observation needed:** Distinguish event records numerical instruments and related operation spans including trace request and stack identities.
+2. **Correlate recorded operations without inventing missing ones:** Associate a simplified log with overlapping client spans and identify missing coverage remote outcomes or propagation.
+3. **Account for dimensions and cardinality before adding identifiers:** Calculate distinct metric label combinations and distinguish investigative attributes from unconstrained series growth or overflow detail loss.
 
 [← Back to IT Vocabulary](<../README.md>)
