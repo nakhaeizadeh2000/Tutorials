@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **156 of 191 approved lessons** are available.
+Implementation is in progress: **157 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -79,6 +79,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Active LTS (Node.js) | [Node.js phase admitting audited changes appropriate for a long-term line](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| Active-active | [Arrangement with multiple sides concurrently serving stated work](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
+| Active-passive | [Arrangement with one side serving stated work and another prepared for takeover](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Actual behavior | [Outcome observed under the reported conditions](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>) |
 | Actual state | [Current resource condition established through scoped observations](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
 | Adapter (architecture) | [Technology-specific connection to an application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -481,6 +483,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Direct dependency | [Requirement declared by the project under discussion](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Directory | [An organization of named filesystem entries](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Dirty read | [Reading another transaction’s uncommitted change](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Disaster recovery | [Planning and performing recovery from substantial service disruption](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Distributed monolith | [Separated processes whose changes remain tightly coordinated](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Distributed-system claim review | [Connecting an operation promise and fault case to scoped observations and limits](<10 Concurrency Messaging and Distributed Systems/sections/6. Applied reasoning/6.1. Explain an ambiguous distributed-system promise.md>) |
 | Distribution (measurement) | [Spread and relative counts of observed values](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
@@ -507,6 +510,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Domain-Driven Design | [Design through collaborative understanding and modeling of the problem domain](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Downstream | [Recipient or dependent relative to a stated source](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | DQL | [Data query language classification used in some teaching conventions](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
+| DR | [Disaster recovery](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Drift detection | [Comparison of observed and reference configuration within tool coverage](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
 | DRY | [Don’t Repeat Yourself applied to duplicated knowledge](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | DST | [Daylight saving time and seasonal clock changes](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
@@ -576,6 +580,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exporter (telemetry) | [Component sending telemetry to a destination](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Exposure (vulnerability) | [Presence of relevant vulnerable components and triggering conditions in a scoped system](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | FaaS | [Functions as a Service running supplied code through a managed invocation model](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| Failback | [Returning service to an intended primary environment with required coordination](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Failure | [Observed behavior not meeting the relevant expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Failure domain | [Boundary within which a failure can affect multiple components](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
@@ -681,6 +686,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Host | [An embedding environment or contextual infrastructure machine](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Hosting | [Providing an environment in which software or services run](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Hostname | [A contextual host name that may be full or short](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
+| Hot standby | [Recovery alternative prepared at the stated full serving capacity](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Hotspot (performance) | [Execution part contributing substantial activity under the selected profile](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | How-to guide | [A procedure for a known task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | HPA | [HorizontalPodAutoscaler adjusting a scalable Kubernetes workload replica target](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
@@ -1055,6 +1061,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Phishing resistance | [Protocol property resisting authentication misuse through an impostor verifier](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Physical backup | [Database storage representation and required supporting state](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | PID | [Process identifier scoped to the observed instance](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
+| Pilot light | [Recovery arrangement maintaining selected core resources with other parts activated as needed](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Pipe | [A byte-stream channel connecting a writer and reader](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Pipeline job | [Configured group of work steps under tool conventions](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
@@ -1169,6 +1176,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Recursive resolver | [A resolver pursuing an answer for its client](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Redaction | [Removal of sensitive content from a shared output](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Redelivery | [Presenting an earlier message again](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
+| Redundancy | [Additional components capacity or information serving a defined protection purpose](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Ref (Git) | [Reference](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Refactoring | [Internal restructuring preserving specified observable behavior](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Reference | [Lookup of defined operations and options](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
@@ -1255,8 +1263,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Row | [One entry in a relational table](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | RP (identity) | [Relying party](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | RPC | [Remote procedure call interaction model](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| RPO | [Recovery point objective defining acceptable recovered-history age relative to interruption](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | RSS | [Resident set size and its measurement limits](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | RTL and LTR | [Right-to-left and left-to-right text direction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| RTO | [Recovery time objective for restoring defined usable service after interruption](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | RTT | [Round-trip time for a defined request-and-return observation](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | Runtime | [Execution environment or the phase of running](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | RWD | [Responsive web design](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
@@ -1577,6 +1587,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | WAL | [Write-ahead log used for database recovery and related mechanisms](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | WAN | [Wide area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Warm execution | [Execution reusing specified prepared state without guaranteed duration](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Warm standby | [Functional recovery alternative maintained at reduced capacity](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Warmup | [Period during which relevant execution state develops before a stated condition](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Watch expression | [Debugger expression reevaluated to observe a value](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Watermark (data) | [System-specific progress or time marker requiring a defined meaning](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |

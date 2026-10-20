@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 8 of 13 approved lessons are available.
+This domain is in progress: 9 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -61,5 +61,11 @@ This domain is in progress: 8 of 13 approved lessons are available.
 1. **Identify the property and the service boundary:** Distinguish usable service continuity and retained accepted data while preserving formal and everyday reliability meanings.
 2. **Distinguish continuing through faults from recovering and adapting:** Explain scoped fault tolerance resilience graceful degradation and operational mean-time conventions without universal guarantees.
 3. **Classify failure evidence without expanding its scope:** Evaluate five independent arrangements and revise a fault-tolerance claim when the acceptable response-time requirement changes.
+
+### [5.2. Redundancy failover disaster recovery RTO and RPO](<sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>)
+
+1. **Distinguish extra components from a working recovery path:** Explain redundancy failover failback active-passive and active-active arrangements and recovery readiness without guaranteed outcomes.
+2. **Define recovery time and data-point objectives separately:** State RTO start and usable-service finish alongside RPO history age and distinguish objectives from performed recovery evidence.
+3. **Compare a recovery timeline with both objectives:** Calculate workflow recovery and recovered-history gaps then revise only the data-point conclusion when later committed history becomes recoverable.
 
 [← Back to IT Vocabulary](<../README.md>)

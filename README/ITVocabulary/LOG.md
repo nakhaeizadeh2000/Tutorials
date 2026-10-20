@@ -6961,3 +6961,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   recovery,security assessment or performance experiment executed.
 - Next steps: D15.S05.L02,then every remaining approved D15–D18 unit;35 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S05.L02 — Redundancy failover disaster recovery RTO and RPO — verified
+
+- Done: D15.S05.L02;extra resources versus working service switch,failback and
+  serving modes,DR strategy readiness,RTO milestone versus RPO complete-history
+  point,and original failed-objective rehearsal with improved-data-only variation.
+  Progress157/191;34 approved leaves remain.
+- Files touched: new sections/5. Surviving and recovering/5.2. Redundancy failover
+  disaster recovery RTO and RPO.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,11 contextual aliases,five precise data/property/
+  distributed/placement/SLO owners plus domain/track navigation. Existing Failover,
+  Backup and Restore lookup owners retained;no duplicated restore implementation.
+- Research / Decisions: section-wide full-repo numerical redundancy/failover/DR/
+  RTO/RPO headings found no full owner. Read complete D08 backup/copy/restore leaf;
+  preserved mechanisms there. Reused complete JS Fundamentals checklist read this
+  session for milestone-to-evidence questions,not stale LTS,universal thread/error/
+  scheduling or mandatory lint rules. Actual originating sources:
+  https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/disaster-recovery-dr-objectives.html
+  actual4–12 organization-defined interruption/service restoration versus data
+  recovery point,and RTO versus mean;not fixed recovery performance or artificial
+  availability-versus-disaster-event taxonomy imposed on all organizations.
+  https://aws.amazon.com/blogs/architecture/disaster-recovery-dr-architecture-on-aws-part-iii-pilot-light-and-warm-standby/
+  actual210–243,SethEliot May14 2021 original strategy/readiness/replicated-bad-data
+  explanation,selected249–258/315 also visible;not full architecture/code recipe.
+  Reject all-strategies-require-one-specific-continuous-backup,always-fixed-relative
+  cost/time,immediate-all-capacity,cloud-resources-always-easy and guarantees from
+  strategy names. Current prescriptive strategy table appeared only in discovery,
+  not read evidence or universal promised minutes. Prior actual D08 GitLab recovery
+  source map retained through its owner,not newly reviewed current GitLab topology.
+  No new provider/runtime implementation,NestJS+Fastify context unchanged.
+- Verification: actual structural/link verifier passed157 leaves,2705 resolving
+  links across175 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,11 unique aliases,
+  9/13 domain,157/191 track,tables/empty staging;additions inspected. Executed
+  synthetic09:20→09:55=35min versus30;health09:35=15min distinct;09:12→09:20=8min
+  versus5 and missing09:14 acknowledgment6min old;changed09:18 point2min meets
+  RPO while35min stillmissesRTO. Editorial check matched full required identity/
+  read/write path,complete recovered history versus row counts,targets versus
+  rehearsal evidence and unverified failback/capacity/future failures. Static
+  packet/arithmetic only;no switch,restore/replay,traffic failover,application/data
+  recovery,recovery-duration or performance experiment performed here.
+- Next steps: D15.S06.L01,then every remaining approved D15–D18 unit;34 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
