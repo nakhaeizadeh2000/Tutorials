@@ -6869,3 +6869,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   telemetry backend/metric query or cardinality/performance measurement executed.
 - Next steps: D15.S04.L01,then every remaining approved D15–D18 unit;37 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S04.L01 — SLIs SLOs SLAs error budgets and burn rates — verified
+
+- Done: D15.S04.L01;measured property versus target versus agreement,good-event
+  scope and measurement implementation,error budget/remainder/policy,burn and
+  unlike denominators;original full/short-window packet with wrong-query variation.
+  Progress155/191;36 approved leaves remain.
+- Files touched: new sections/4. Service-level language/4.1. SLIs SLOs SLAs error
+  budgets and burn rates.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,seven contextual aliases,four precise timing/
+  population/telemetry/requirement owners plus domain/track navigation.
+- Research / Decisions: full-repo numerical service-level/budget/burn headings
+  found no full owner;earlier SRE practice has only contextual introduction.
+  Reused complete JS Clocks reference read this session for measurement boundary/
+  clock/window discipline,not fixed sample/GC rules,guessed clock resolutions,
+  flawed DCE harness or median-subtraction guidance. Actual original sources:
+  https://sre.google/sre-book/service-level-objectives/ actual57–89 and97–109 SLI/
+  target/agreement/coverage;2016 originating practitioner account,not full chapter
+  or current product terms. Reject universal few-indicators quota,all-systems-
+  correctness-never-SRE-duty,controlled-outage mandate or historical product SLA
+  status as current. https://sre.google/workbook/implementing-slos/ actual77–106
+  good-event ratios,budget and specification-versus-implementation coverage;
+  not full chapter,mandatory100%-always-wrong,no-work-possible claims or0/100%
+  one-indicator-means-entire-system-perfect/broken inference. Do not select an
+  arbitrary target without user purpose. https://sre.google/workbook/alerting-on-slos/
+  actual67 and143–185 normalized burn,window and policy tradeoffs;not full alert
+  engineering procedure,universal numerical alert thresholds,flat-traffic exhaustion
+  prediction or actual PromQL deployment. Source's fixed-budget spend calculations
+  have demand assumptions,retained explicitly instead of converting event counts
+  to elapsed time. No legal/service-credit or personalized contract assessment.
+- Verification: actual structural/link verifier passed155 leaves,2670 resolving
+  links across173 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,seven unique aliases,
+  7/13 domain,155/191 track,tables/empty staging;additions inspected. Executed exact
+  Fraction assertions99.92% observed,0.001 allowed,1000 allowed/800 used/200 left,
+  20% remaining,50/10000→0.5%/burn5 and independent28-day time-model40.32minutes.
+  Editorial check matched complete received-API population,missing pre-API scope,
+  two windows,absent SLA terms,nonempty burn denominator and fast-wrong-response
+  query not measuring the stated good rule. Static report/arithmetic only;no SLI
+  collection,SLO/SLA compliance measurement,alert query,incident,response policy,
+  future exhaustion forecast or performance experiment executed.
+- Next steps: D15.S05.L01,then all remaining approved D15–D18 units;36 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

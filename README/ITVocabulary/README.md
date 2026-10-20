@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **154 of 191 approved lessons** are available.
+Implementation is in progress: **155 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -217,6 +217,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Build provenance | [Recorded origin and production information for an artifact](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Builder | [System performing a build and producing associated evidence](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Bundler | [A tool combining code and resource graphs into delivery outputs](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| Burn rate | [Observed bad-event fraction divided by the fraction allowed by the SLO](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | Byte | [Eight-bit groups in this track](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Byte stream (transport) | [Ordered bytes without application message boundaries](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | Bytecode | [Instructions for a virtual execution model](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
@@ -543,6 +544,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | EOL | [End of life](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Ephemeral port | [A temporary port selected for a use such as an outgoing connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Error (testing) | [Human mistake in a common testing terminology convention](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
+| Error budget | [Allowed bad-outcome fraction or quantity under an objective and scope](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
+| Error budget policy | [Agreed use of service-objective evidence in operational decisions](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | ETag | [Opaque entity tag identifying a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | ETL | [Extract transform load relative to a stated destination](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Event (browser) | [A notification handled through registered code](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -635,6 +638,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | GitOps | [Desired-state management under declarative versioned automatically pulled and continuously reconciled principles](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Global service | [Service with specified global or cross-region scope](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Golden path | [Supported route for a common internal platform task](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
+| Good-event fraction | [Events meeting an explicit service criterion divided by eligible events](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Graph (data structure) | [Nodes connected by edges](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Graph database | [Database organized around nodes and connections](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
@@ -1331,7 +1335,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Single Responsibility Principle | [Grouping behavior around a coherent responsibility and reason for change](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Single sign-on | [Access experience using an established authentication context across applications](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Site (browser) | [Scheme and registrable-domain boundary in a schemeful comparison](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
+| SLA | [Service level agreement stating expectations and applicable consequences](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | SLH-DSA | [Stateless hash-based digital-signature scheme in FIPS 205](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
+| SLI | [Service level indicator measuring a defined service property](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
+| SLO | [Service level objective setting a target for a defined indicator and window](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | SLSA | [Supply-chain Levels for Software Artifacts](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Smoke test | [Preliminary check of important basic capabilities for the stated next step](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | SMTP | [Simple Mail Transfer Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
