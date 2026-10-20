@@ -5287,3 +5287,51 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   integration or performance measurement actually executed.
 - Next steps: D13.S02.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S02.L02 — Principals credentials sessions tokens roles and permissions — verified
+
+- Done: D13.S02.L02; principal/credential/role/permission boundaries,authenticated
+  continuity versus storage,opaque/bearer/access/JWT meanings,claims and recipient
+  context,expiry/revocation/logout distinctions and original staff/worker lifetime
+  packet with enforced-revocation and missing-resource-rule variations.
+  Progress123/191;68 approved leaves remain.
+- Files touched: new sections/2. Identity and access/2.2. Principals credentials
+  sessions tokens roles and permissions.md; D13/track README files; this LOG.
+- Links fixed / added: registration,19 contextual aliases,five exact previous
+  identity/storage/secrets/signature/quality owners and domain/track navigation.
+  Earlier generic Token ambiguity and OS Permission owners remain contextual.
+- Research / Decisions: repo principal/credential/session/token/role heading
+  discovery found existing session/storage and permission owners,not duplicate
+  security-identity lesson. Read full D06 cookie/session/state owner separately
+  after initial mixed search/read output truncated; no storage mechanics duplicated.
+  Reused complete JS Engines runtimes and hosts attribution/independent-role
+  calibration from this domain,not universal errors/conformance/cost claims.
+  Actual current originating sources:
+  https://www.rfc-editor.org/rfc/rfc6750.html actual bearer definition1.2,scope/
+  duration overview and header role; no unqualified all-tokens-bearer,all-strings-
+  valid,old TLS/cipher recommendations or implicit/password grant setup copied.
+  https://www.rfc-editor.org/rfc/rfc7519.html actual terminology,claims/representation
+  and context-dependent required-claims passages; selected format distinction,
+  not old JSON7159 as current,unsecured-token default or implementation recipe.
+  https://www.rfc-editor.org/rfc/rfc8725.html actual BCP225/2020 updates7519 metadata,
+  issuer/subject3.8 and audience3.9 selected text; not complete validator or key/
+  algorithm policy,JWT-easy-automatic-security claim or full all-library review.
+  https://pages.nist.gov/800-63-4/sp800-63b/session/ actual complete72-line normative
+  session text read: binding,lifetime,access tokens after session end and federated
+  contexts. Selected conceptual distinctions,not all-apps-must-adopt-NIST limits,
+  universally required cookie attributes,DBSC emerging-as-default or bearer/session
+  equivalence. Reused actual OWASP authorization contextual resource/operation
+  passage and previous informative NISTmodel,not generic credential-as-one-rigid-
+  artifact definition. Original threat-model practitioner context supports naming
+  actors/paths rather than prescriptive token product choice. No runtime install,
+  actual token,crypto operation or framework implementation; NestJS+Fastify static.
+- Verification: structural/link verifier passed (123 leaves,1985 resolving links
+  across139 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises,roles versus
+  W1/W2 scope,staff principal versus worker,09:05S1 logout versus explicit token
+  policy and09:06 acceptance,10:00expiry,and revocation received/enforced before
+  changed request. Names token-a/S1 are labels,not real keys/JWTs. Static lifetime/
+  access packet only; no token issue/decode/verification,session/logout,policy
+  propagation,revocation,identity/service request or performance test executed.
+- Next steps: D13.S03.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
