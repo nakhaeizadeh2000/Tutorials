@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **118 of 191 approved lessons** are available.
+Implementation is in progress: **119 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -35,7 +35,7 @@ Domain indexes appear here as lessons are completed.
 | 9 | [Programming Design and Architecture Language](<09 Programming Design and Architecture Language/README.md>) — complete |
 | 10 | [Concurrency Messaging and Distributed Systems](<10 Concurrency Messaging and Distributed Systems/README.md>) — complete |
 | 11 | [Version Control Releases and Dependencies](<11 Version Control Releases and Dependencies/README.md>) — complete |
-| 12 | [Testing Debugging and Quality Evidence](<12 Testing Debugging and Quality Evidence/README.md>) — in progress |
+| 12 | [Testing Debugging and Quality Evidence](<12 Testing Debugging and Quality Evidence/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).

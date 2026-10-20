@@ -5115,3 +5115,37 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   remain unexecuted,no universal ship/no-ship authority assumed.
 - Next steps: D12.S06.L01,then every approved D13–D18 unit;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S06.L01 — Boundaries of testing and debugging vocabulary — verified
+
+- Done: D12.S06.L01; nine conceptual-owner routes,language/runtime/type-consumer
+  evidence versus broader Testing and operational implementation boundaries,
+  original mixed type/browser/spy/timeout handoff and real-recipient variation.
+  All10 approved D12 outcomes implemented;progress119/191;72 leaves remain D13–D18.
+- Files touched: new sections/6. Overlaps to avoid/6.1. Boundaries of testing and
+  debugging vocabulary.md; D12/track README completion/progress; this LOG.
+- Links fixed / added: registration,19 precise conceptual/language/adjacent owner
+  routes plus domain/track navigation; D12 complete,track remains in progress.
+  No new alias or unbuilt specialist/later-domain placeholder link.
+- Research / Decisions: focused repo test-boundary discovery confirmed JS language
+  and TS testing-type owners. Read full TS TestingTypes index and full boundary
+  leaf (middle reread after initial output truncation) for static/runtime/consumer
+  responsibility and actual command scope,not older runtime/tool versions as current
+  baseline or new verification of those underlying examples. Reread complete JS
+  Fundamentals boundary reference for explicit routing; rejected historical future-
+  TypeScript/WebPlatform labels and absolute ban on useful minimal examples.
+  Reused D12 evaluated primary/original Fowler,Google,ISTQB,Python,Playwright and
+  JuliaEvans source map and actual preceding owners; no new API/default/version
+  guarantee. Root planned Testing/Playwright vehicle preserved,NestJS+Fastify
+  retained for application context; no another framework/testing course introduced.
+- Verification: structural/link verifier passed (119 leaves,1893 resolving links
+  across134 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Executed domain count/registration/completion assertions
+  for all10 actual leaves and track119/191 in progress. Editorial check matched
+  three promises,all10 approved D12 outcomes to actual indexed leaves,nine owner
+  routes,static/client/local versus external-effect scope,HTTP-client frame not
+  unique timeout cause and added recipient evidence's limited conclusion. Static
+  routing exercise only; no fresh type/browser/notification integration,production
+  timeout investigation,retry,load or performance run claimed.
+- Next steps: D13.S01.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 9 of 10 approved lessons are available.
+This domain is complete: all 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 10 approved lessons are available.
 1. **Align each quality claim with an artifact and an expectation:** Read a candidate packet with explicit local release criteria and distinguish current evidence from older-version results.
 2. **Distinguish a supported result from a detected problem or missing evidence:** Assess coverage retries weak assertions substitutes and a known requirement failure without treating unanswered questions as proven defects.
 3. **Write a useful decision handoff and update it as evidence changes:** Explain the release gap to technical and stakeholder audiences and reconsider applicable evidence after a new candidate is built.
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of testing and debugging vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of testing and debugging vocabulary.md>)
+
+1. **Keep each quality question with its conceptual owner:** Route nine evidence questions to their detailed explanations without repeating a glossary or broadening a bounded result.
+2. **Distinguish language mechanics from full testing and operational practice:** Use existing JavaScript and TypeScript owners while preserving the planned Testing curriculum and specialist implementation boundaries.
+3. **Route a mixed claim without discarding useful evidence:** Separate static client substitute and real-delivery observations and revise the supported conclusion when real-path evidence is added.
 
 [← Back to IT Vocabulary](<../README.md>)
