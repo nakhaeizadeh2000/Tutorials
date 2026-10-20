@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 8 of 15 approved lessons are available.
+This domain is in progress: 9 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -59,5 +59,13 @@ This domain is in progress: 8 of 15 approved lessons are available.
 1. **Match key material to the cryptographic operation:** Distinguish symmetric and public-key roles,key identifiers,key establishment and current standardized post-quantum purposes without assuming interchangeable algorithms.
 2. **Separate public information from an accepted trust relationship:** Interpret certificates PKI trust stores self-signed bindings and renewal separately from key rotation and actual adoption.
 3. **Trace generation replacement and recovery obligations:** Read a constructed key lifecycle packet,distinguish DEK and KEK roles and explain how destruction or incomplete deployment changes the supported conclusion.
+
+## 5. Access control and defense
+
+### [5.1. Least privilege RBAC ABAC defense in depth and zero trust](<sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>)
+
+1. **Describe privileges through subjects actions resources and conditions:** Interpret least privilege RBAC ABAC and combined policies without treating a role or user-supplied attribute as universal authority.
+2. **Distinguish layered protection from implicit trust:** Explain deny-by-default enforcement defense in depth and zero trust through actual boundaries and resource decisions.
+3. **Apply a policy to a bounded request matrix:** Evaluate six independent requests and revise only the relevant result when trusted assignments or their source change.
 
 [← Back to IT Vocabulary](<../README.md>)

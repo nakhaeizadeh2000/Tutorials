@@ -5548,3 +5548,57 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   or performance measurement executed. No destructive operation prescribed.
 - Next steps: D13.S05.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S05.L01 — Least privilege RBAC ABAC defense in depth and zero trust — verified
+
+- Done: D13.S05.L01; subject/action/resource/context,least privilege and mixed
+  RBAC/ABAC policy,attribute authority,deny-by-default/public permits,enforcement,
+  defense in depth and zero trust,original six-request matrix with received-
+  assignment update and missing-trusted-source variations. Progress128/191;
+  63 approved leaves remain.
+- Files touched: new sections/5. Access control and defense/5.1. Least privilege
+  RBAC ABAC defense in depth and zero trust.md; D13/track README files; this LOG.
+- Links fixed / added: registration,nine contextual aliases,five precise prior
+  identity/permission/worker/CORS/threat owners plus domain/track navigation.
+- Research / Decisions: full-repo numeric access-model heading search found no
+  competing owner; read complete prior principal/token lesson,tail separately
+  after combined-output truncation. Reused complete JS Engines runtimes and hosts
+  independent-role/condition calibration from cryptographic section,not universal
+  runtime/error/performance claims. Actual sources:
+  https://csrc.nist.gov/pubs/sp/800/207/final actual Aug2020 metadata/abstract,
+  resource focus,no implicit trust solely from location/ownership; no full ZTA
+  architecture/deployment or forced-password-every-packet rule.
+  https://csrc.nist.gov/pubs/sp/800/162/upd2/final actual Jan2014/Aug2019 updates
+  metadata/abstract,subject/object/action/environment policy inputs; not full guide
+  or all-attribute-values-trusted-by-definition.
+  https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction_attribute-based-access-control.html
+  actual principal/resource tag and job-role-versus-IAM-role comparison,full concise
+  body; rejected immediate-revocation-by-label,universal fewer/easier policies,
+  RBAC-always-list-every-resource and every-service-supports-tags claims.
+  https://martinfowler.com/articles/web-security-basics.html actual action/resource
+  and policy/RBAC/ABAC passages813–890,selected examples,not full1091-line article;
+  rejected every-policy-requires-authentication,hard-coded-roles-always-bad,
+  universal model preference,XACML-most-common-as-current and old Spring/Ruby setup.
+  Later trust/input passages also inspected for follow-on question discovery,
+  not accepted blanket no-client-security-value/blacklist-only-freeform/never-
+  sanitize guidance or attack instructions. Unverified author-name attribution
+  removed before completion; linked actual original publication instead.
+  https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+  actual206–225 least privilege,deny by default and every-request enforcement;
+  rejected stale2021 ranking,current-default assumptions,job-title hierarchy and
+  malice-required security-impact claims. https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
+  actual286–288 layered controls despite encryption; no promise all failures
+  harmless or every-layer independent. Sources inform purpose-first teaching;
+  static NestJS+Fastify context retained,no framework/cloud implementation.
+- Verification: structural/link verifier passed128 leaves,2111 resolving links
+  across144 files,required sections/registrations,preserved proposal; whitespace
+  check passed after attribution refinement. Actual assertions checked three
+  promises,nine D13 leaves,track128/191 and allnine unique aliases. Index additions
+  inspected. Editorial check traced each of six rows to explicit permitting or
+  missing conditions,anonymous public access,worker identity,closed period,W1/W2
+  trusted assignment,update received before evaluation,and browser-supplied
+  requested resource not authoritative assignment. Static matrix/policy reasoning
+  only; no running API,permission test,VPN,ABAC propagation,zero-trust deployment,
+  attribute write,access attempt or performance benchmark executed.
+- Next steps: D13.S06.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
