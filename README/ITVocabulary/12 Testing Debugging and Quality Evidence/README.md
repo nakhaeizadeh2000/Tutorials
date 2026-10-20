@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 6 of 10 approved lessons are available.
+This domain is in progress: 7 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -45,5 +45,13 @@ This domain is in progress: 6 of 10 approved lessons are available.
 1. **Read coverage as a scoped execution measurement:** Interpret statement line branch and function criteria, identify denominator changes and distinguish execution from requirements and assertion quality.
 2. **Define the positive signal before classifying a mistaken result:** Compare defect signals with actual behavior and an independent expectation, including the role and limits of a test oracle.
 3. **Interpret intermittent outcomes without erasing the first failure:** Read a retry history, separate flaky outcomes from mistaken signals and judge investigation and quarantine boundaries.
+
+## 4. Investigation language
+
+### [4.1. Reproduction hypotheses stack traces breakpoints and root causes](<sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>)
+
+1. **Separate a reproducible symptom from a proposed explanation:** Describe reproduction conditions and choose an observation that can distinguish hypotheses instead of assuming a cause.
+2. **Read a traceback and inspect a paused frame:** Run a deliberate local failure and actual debugger commands, interpret call context and distinguish inspection from correction.
+3. **Connect a correction to causal evidence and its limits:** Check the original input and a contrasting valid case, scope a root-cause claim and distinguish workaround mitigation and correction.
 
 [← Back to IT Vocabulary](<../README.md>)

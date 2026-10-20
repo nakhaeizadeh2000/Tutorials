@@ -4995,3 +4995,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Playwright retry,quarantine,flake probability or performance measurement run.
 - Next steps: D12.S04.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S04.L01 — Reproduction hypotheses stack traces breakpoints and root causes — verified
+
+- Done: D12.S04.L01; symptom/hypothesis/reproduction distinctions,actual failing
+  traceback and paused-frame inspection,targeted empty-case correction and valid
+  contrast,scoped causal reasoning,workaround/mitigation/fix and debugger limits.
+  Progress116/191;75 approved leaves remain.
+- Files touched: new sections/4. Investigation language/4.1. Reproduction hypotheses
+  stack traces breakpoints and root causes.md; D12/track README files; this LOG.
+- Links fixed / added: registration,20 contextual aliases,five precise existing
+  language/environment/testing owners plus domain/track navigation. Existing UI
+  Breakpoint owner retained; debugging alias explicitly scoped.
+- Research / Decisions: full-repo reproduction/trace/breakpoint/hypothesis headings
+  found JS debugger and TS contextual reproductions; read complete JS Console
+  toolkit debugger breakpoints and stepping for concrete call/state observations.
+  Rejected wrong DEBUG/trace-warnings console defaults,stderr-always-flushes-faster,
+  guaranteed next stop/no-error,universal live-edit/strip/logpoint policies and
+  source-versus-breakpoint exact-cost claims. Actual sources consulted:
+  https://docs.python.org/3.15/tutorial/errors.html (actual8.1–8.2 detection versus
+  source location and traceback context,not most-exceptions-unhandled statistic).
+  https://docs.python.org/3.15/library/pdb.html (actual breakpoint,where,inspection,
+  step/next/return commands and evaluation behavior; not full debugger manual or
+  automatic passive-state guarantee). https://jvns.ca/blog/2019/06/23/a-few-debugging-resources/
+  (original June2019 actual reproduction/experiments/assumptions passages,not
+  historical Rust setup,universal likelihood compiler/user is wrong or linked books
+  as read). Current3.15 semantics compared with actual pinned3.14.4; no RC used.
+  Scope is controlled local debugging vocabulary,not a full automation course or
+  claimed production/root-cause investigation; deeper causal factors remain unknown.
+- Verification: exact Python fence ran CPython3.14.4/Linux x86_64 in fresh temporary
+  directory,exit1,empty stdout,stderr ending expected ZeroDivisionError and frames
+  at module9/render6/average2. Initial verifier mistakenly added unsupported pdb -s
+  (not in lesson); CLI exited2 before debugging. Removed flag and reran actual
+  documented python3 -m pdb report_debug.py with exact text-fence command input;
+  exit0,empty stderr,observed breakpoint2,[],0,0 and all three application frames.
+  Confirmed absent user .pdbrc and clean temp cwd; debugger actually quit before
+  division. Corrected empty guard only then empty run prints no data,nonempty
+  [2,4] variant prints3.0; both exit0 and exact stdout/empty stderr checked.
+  Structural/link verifier passed (116 leaves,1849 links across131 files,required
+  sections/registrations,preserved proposal); whitespace check passed. Editorial
+  check matched three promises,declared helper/product boundaries,source locations,
+  wrong-type hypothesis challenge,causal scope and unexecuted timing variation.
+  No application integration,production reproduction,race or performance run.
+- Next steps: D12.S05.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
