@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 6 of 14 approved lessons are available.
+This domain is in progress: 7 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -49,5 +49,13 @@ This domain is in progress: 6 of 14 approved lessons are available.
 1. **Identify traffic direction and distinguish route intent from implementation:** Interpret ingress egress north-south and east-west boundaries; distinguish Kubernetes Ingress Gateway API and their implementing components.
 2. **Separate discovery helper placement and mesh traffic roles:** Explain service discovery sidecar lifecycle support and mesh control/data planes including sidecar and ambient arrangements.
 3. **Trace a request across boundaries and vary the evidence:** Classify a fictional routing packet without inferring a working entry path mesh authorization or delivery from configuration names.
+
+## 4. Resource placement and scaling
+
+### [4.1. Regions zones edge serverless and functions](<sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>)
+
+1. **Locate regions zones and edge work without inferring complete coverage:** Distinguish provider-defined placement scopes distributed edge work and retained dependency paths from demonstrated recovery or data-location guarantees.
+2. **Separate server management from application execution and responsibility:** Explain hosted serverless FaaS BaaS function invocations and execution-environment reuse while distinguishing SQLite terminology and retained application duties.
+3. **Read a mixed placement and function packet:** Trace multi-zone regional and edge dependencies; diagnose process-local counting and separate handler success from an external completed effect.
 
 [← Back to IT Vocabulary](<../README.md>)

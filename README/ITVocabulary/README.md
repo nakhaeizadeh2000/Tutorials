@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **140 of 191 approved lessons** are available.
+Implementation is in progress: **141 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -141,6 +141,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | AuthZ | [Authorization](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Availability (CAP) | [Eventual operation responses at nonfailed participants under the model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Availability (security) | [Timely reliable access and use in the required context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
+| Availability zone | [Provider-defined location or facility group within a region separating relevant failures](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| AZ | [Availability zone](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| BaaS | [Backend as a Service supplying managed backend capabilities](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Backfill | [Populating or transforming previously stored records](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
@@ -460,6 +463,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Duration | [Elapsed time and compatible units](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | E2E test | [End-to-end workflow check with actual endpoints and substitutions named](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | East-west traffic | [Communication between components within a stated environment](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
+| Edge computing | [Selected computation near a relevant source user or network boundary](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| Edge location | [Distributed location hosting selected processing or delivery work](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Editor | [A tool for modifying source files](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | EEPROM | [Rewritable device memory in the bootloader example](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Effect order | [Order in which business effects become observable](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
@@ -500,6 +505,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exception | [Language mechanism for signaling and propagating a condition outside ordinary return](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Exchange (RabbitMQ) | [AMQP routing role directing publications to queues](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Executable | [A form loadable and runnable by a suitable system or runtime](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
+| Execution environment | [Runtime context in which supplied code operates](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Exit status | [A process completion result interpreted under its tool contract](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Expansion | [Full words versus a usable explanation](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Expected behavior | [Outcome justified by a stated requirement or reference](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>) |
@@ -512,6 +518,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exploratory testing | [Testing in which learning design execution and evaluation inform each other](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Exponential backoff | [Retry delay growing multiplicatively under a stated rule](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Exposure (vulnerability) | [Presence of relevant vulnerable components and triggering conditions in a scoped system](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
+| FaaS | [Functions as a Service running supplied code through a managed invocation model](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Failure | [Observed behavior not meeting the relevant expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Failure domain | [Boundary within which a failure can affect multiple components](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
@@ -555,6 +562,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Full backup | [Backup covering its selected scope](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Full duplex | [Both sides can send over an established channel](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Full stack | [Work spanning frontend and backend under a stated scope](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
+| Function (platform) | [Deployed code unit under a platform execution contract](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Function coverage | [Counted functions entered within the included scope](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Functional programming | [Organizing computation around functions and value flow](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Functional testing | [Evaluation of required software functions and behavior](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
@@ -566,6 +574,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | General availability | [Release availability status for an explicitly scoped product or feature](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | GET | [Retrieve a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Git | [A version-control system with snapshot and reference records](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Global service | [Service with specified global or cross-region scope](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Graph (data structure) | [Nodes connected by edges](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Graph database | [Database organized around nodes and connections](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
@@ -580,6 +589,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Guest (virtualization) | [Environment running within a specified virtual machine](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Guest operating system | [Operating system inside a virtual machine](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | Half-open (breaker) | [Limited trial admission to assess recovery under a breaker policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
+| Handler (function) | [Entry code invoked for a defined event or request](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Handler (request) | [Code selected to handle an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Hard link | [Another name for the same underlying file object](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Hardware | [Physical computing components](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
@@ -686,6 +696,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Intranet | [A network used for an organization's internal purposes](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Invariant | [Condition intended to remain true](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Inversion of control | [Transferred coordination of invocation assembly or lifecycle](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
+| Invocation | [Execution request under a platform model](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | IoC | [Inversion of control](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | IP | [Internet Protocol](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | IP address | [An address interpreted within its version and network context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -817,6 +828,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | MPA | [Multi-page application organized around documents](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | MSP | [Managed service provider performing agreed operational tasks](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | mTLS | [Mutual TLS with both sides authenticated under the configured mechanism](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| Multi-region | [Arrangement using multiple regions with dependencies specified](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| Multi-zone | [Arrangement using multiple availability zones with workload scope specified](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Multicloud | [Use of services from multiple cloud providers at a stated scope](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Multiplexing (transport) | [Carrying multiple logical streams in one connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | MUST | [A scoped conformance requirement](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -1048,6 +1061,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Reference (data) | [Connection to another record through identity](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Reference (Git) | [Name referring to an object or another reference](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Referential integrity | [Validity of references under the enforced rules](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| Region (cloud) | [Provider-defined geographic service area](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| Regional service | [Service with a relevant region-scoped resource or operation boundary](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Registrable domain | [A name immediately beneath the applicable public suffix](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Registrar | [A provider of domain-name registration services](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Registry | [A source or service for discovering and obtaining packages](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
@@ -1154,6 +1169,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Serializable | [Effect equivalent to a serial ordering of committed transactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Serialization | [Converting structured values to a storable or transferable representation](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Server (web) | [A participant handling requests and returning responses](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
+| Serverless (cloud) | [Hosted service abstracting specified server provisioning and operations](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Service (Kubernetes) | [Network-access abstraction defining endpoints and their exposure](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service account | [Account used for an application or other non-human workload context](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
@@ -1330,6 +1346,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Transitive dependency | [Requirement reached through another dependency](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Transpilation | [Source-to-source compilation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Tree (data structure) | [Hierarchical parent-child organization in a stated rooted model](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
+| Trigger (function) | [Connection from an event source or request mechanism to invocation](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Trust anchor | [Trusted starting information for certificate-path validation](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Trust boundary | [Change in trust or authority assumptions between contexts](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Trust store | [Trusted material configured for a client or application](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |

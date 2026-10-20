@@ -6223,3 +6223,59 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   integration or proxy/discovery/resource/latency benchmark executed.
 - Next steps: D14.S04.L01,then every remaining approved D14–D18 unit;51 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S04.L01 — Regions zones edge serverless and functions — verified
+
+- Done: D14.S04.L01;provider-defined region/zone/edge placement,global/regional
+  scope,multi-zone versus operating multi-region dependencies,hosted serverless/
+  FaaS/BaaS and function/handler/trigger/invocation,environment reuse versus durable
+  state,and original mixed placement/counter/external-write packet.
+  Progress141/191;50 approved leaves remain.
+- Files touched: new sections/4. Resource placement and scaling/4.1. Regions zones
+  edge serverless and functions.md;D14/track README files;this LOG.
+- Links fixed / added: registration,17 scoped aliases,six precise existing cloud/
+  responsibility/placement/SQLite/effects/TS-portability owners and navigation.
+- Research / Decisions: full-repo numeric region/zone/edge/serverless headings
+  found calendar zones and TS runtime-portability owner. Read actual D08 SQLite
+  architecture portion1–95 to preserve its different serverless meaning;read
+  complete TS Environment-portable code node browser edge for real adapter versus
+  declaration evidence,not older runtime versions as current or fresh rerun claims.
+  Reused complete JS independent-role attribution benchmark,not host/conformance/
+  errors/performance universals. Actual sources:
+  https://docs.aws.amazon.com/global-infrastructure/latest/regions/aws-regions-availability-zones.html
+  actual7–31 region/zone/data-center scope and nonautomatic replication context;
+  reject universal topology/counts,greatest-possible-fault-tolerance and one-zone-
+  only-always-fails-after-disaster claims. No real region-selection recommendation.
+  https://docs.aws.amazon.com/lambda/latest/dg/welcome.html actual5–39 current
+  EventFunctions/WebFunctions/MicroVM primitives and retained server-management
+  abstraction. Integrated broader current execution forms instead of old all-
+  serverless-single-event-handler model;no exact duration/concurrency/billing,
+  instant-startup/security guarantee,automatic all-workload recovery or Express
+  backend example copied. NestJS+Fastify context remains unchanged.
+  https://docs.aws.amazon.com/lambda/latest/dg/lambda-runtime-environment.html
+  actual40/77–82 and222–241 init/reuse/connection/context-state passages;not full
+  lifecycle guide or stale SDKv2 import examples as current setup. Reject init-
+  always-largest-cost,guaranteed warm reuse,no-shared-state-ever and globals-
+  automatically-improve-performance. https://developers.cloudflare.com/workers/reference/how-workers-works/
+  actual592–604 and613–640 isolate/global placement/eviction/instance-concurrency
+  context;reject limitless/zero-overhead,eliminates-all-cold-starts,100x and memory
+  multipliers,all-JS-platforms-same-scheduling and absolute memory/security claims.
+  https://martinfowler.com/articles/serverless.html actual MikeRoberts original
+  definition135,224–240 and selected613–617 retained operations;May22 2018 revision
+  metadata680–695 read. Not full762-line article/book;reject old platform limits,
+  immature-as-current,no-resource-management,always-container/FaaS,global-distribution
+  counts and universal cost/environmental/lead-time benefits. Current provider
+  evidence refines historical model. Initial selected opens/read snippets did
+  not establish full passages;reopened actual relevant body ranges. Search-only
+  news,forecasts,community anecdotes and pricing not treated as facts.
+- Verification: actual structural/link verifier passed141 leaves,2386 resolving
+  links across158 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Assertions checked three promises,17 unique aliases,
+  7/14 domain,141/191 track and no executable fences;index additions inspected.
+  Editorial check matched promises,R1zonesA/B versus R2 image-only,edge lookup's
+  retained R1 dependency,possible local counter reuse/loss,static-file-only changed
+  path and handler success versus external acceptance. Static reasoning only;
+  no cloud/function/edge deploy,provider API,environment reuse/counter run,durable
+  write,recovery rehearsal,latency/cold-start/cost or portability test executed.
+- Next steps: D14.S04.L02,then every remaining approved D14–D18 unit;50 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.
