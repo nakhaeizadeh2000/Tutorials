@@ -6691,3 +6691,43 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   confidence estimate,formal quantile proof or performance benchmark executed.
 - Next steps: D15.S02.L01,then every remaining approved D15–D18 unit;41 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S02.L01 — Benchmarks baselines profiles bottlenecks and capacity — verified
+
+- Done: D15.S02.L01;comparison workload/baseline/behavior boundaries,profile and
+  hotspot versus elapsed path,serial80+20 cost model,capacity criteria and unequal-
+  load comparison practice. Progress151/191;40 approved leaves remain.
+- Files touched: new sections/2. Finding and comparing costs/2.1. Benchmarks
+  baselines profiles bottlenecks and capacity.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,10 contextual aliases,five precise measurement/
+  distribution/scaling/JS-profile/benchmark owners plus domain/track navigation.
+  Original Bottleneck and generic capacity/workload lookup owners retained.
+- Research / Decisions: section-wide full-repo numerical benchmark/profile/baseline/
+  bottleneck/capacity discovery found JS measurement and contextual TS/data owners.
+  Read complete JS Profiling flamegraphs allocation and heap timelines for
+  attribution versus outcome;reject all-width-walltime,allocation-always-right-
+  diagnosis,old flags/defaults,fixed collection windows/sample quotas,all-sampling-
+  replaced-instrumentation and guaranteed snapshot-cause inferences. Actual sources:
+  https://www.brendangregg.com/activebenchmarking.html actual28–72 original workload/
+  limiter/configuration/while-running investigation,updatedApr2014;not full worked
+  Bonnie example,required hours/every-tool mandate,anecdotal almost-all-studies-
+  wrong statistic or statistics-only-after-analysis universal. Search excerpts
+  discovery only until actual page opened. https://go.dev/doc/diagnostics actual
+  116–138 and selected152/180–204 profiling/cpu-wait/overhead and distinct traces;
+  not full manual,current Go install/tutorial or alternative backend vehicle.
+  Reject blanket production profiling-safe/single-profile mandate,outdated no-
+  common-trace-header assertion and unsafe open profiler server example. Used
+  only scoped primary CPU-versus-wait/profile-cost distinctions. SPEC result
+  catalog discovery not a read benchmark/report;no measured vendor comparison.
+- Verification: actual structural/link verifier passed151 leaves,2589 resolving
+  links across169 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,10 unique aliases,
+  3/13 domain,151/191 track,tables/empty staging;additions inspected. Executed
+  synthetic80+20→80+10=90/10% reduction arithmetic and all three capacity rows'
+  p95/failure/backlog criteria,qualifying20/40 but not60. Editorial check matched
+  serial/no-overlap assumptions,CPU-only versus DB wait,arrived/completed scope,
+  local acceptance versus exact maximum and20-load candidate versus40-load
+  baseline. Static model/report only;no benchmark,profile,load generator,CPU or
+  application capacity test,optimization,profiler overhead or performance run.
+- Next steps: D15.S02.L02,then all remaining approved D15–D18 units;40 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

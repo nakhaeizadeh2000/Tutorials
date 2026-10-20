@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **150 of 191 approved lessons** are available.
+Implementation is in progress: **151 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -166,10 +166,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Base image | [Existing image used as a starting point for another image](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Base64 | [Representation of bytes using a restricted text alphabet](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Base64url | [Base64 variant with URL-oriented alphabet rules](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
+| Baseline (performance) | [Reference configuration or observation used for a performance comparison](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Batch (data) | [Processing a bounded group of data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Batch (messaging) | [A bounded group handled together without implied output atomicity](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | BCP 14 | [Requirement levels and their scope](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Bearer token | [Token usable by its possessor without separate proof of a cryptographic key](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Benchmark | [Defined workload and measurement procedure for evaluating performance](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Beta release | [Later testing milestone with project-specific feature restrictions](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Bidirectional streaming | [Independent message streams in both directions](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Big O | [Asymptotic upper bound on growth](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -345,6 +347,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CORS safelist | [Protocol-defined limited method header and value allowances](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Coupling | [Dependencies and change connections between parts](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | CPU | [Central processing unit and reported execution resources](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| CPU profile | [Profile of activity while consuming CPU resources](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | CQRS | [Command Query Responsibility Segregation separating change and read models](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Crash | [Abnormal termination outcome](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | CRC | [Cyclic redundancy check and accidental-change detection](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
@@ -581,6 +584,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Fix (software) | [Correction addressing an identified fault](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Fixture | [Prepared test data state or resources and sometimes their setup mechanism](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Flaky test | [Check producing inconsistent outcomes under intended equivalent conditions](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
+| Flame graph | [Grouped-stack visualization of selected activity with units defined](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Flapping (scaling) | [Repeated opposing resource or instance adjustments](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Folder | [Common name for a directory](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Foreign key | [Declared reference rule to an allowed referenced key](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -652,6 +656,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Host | [An embedding environment or contextual infrastructure machine](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Hosting | [Providing an environment in which software or services run](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Hostname | [A contextual host name that may be full or short](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
+| Hotspot (performance) | [Execution part contributing substantial activity under the selected profile](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | How-to guide | [A procedure for a known task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | HPA | [HorizontalPodAutoscaler adjusting a scalable Kubernetes workload replica target](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | HSM | [Hardware security module providing a protected cryptographic boundary](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
@@ -858,6 +863,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Metadata | [Information describing data or its context](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Method | [An operation associated with an object](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | MFA | [Multi-factor authentication using distinct factors](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
+| Microbenchmark | [Performance procedure isolating a small operation](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Microservices | [Collaborating application services with intended independent deployment](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Migration guide | [Instructions for adapting consumers to changed behavior or interfaces](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Minimal reproduction | [Reduced example preserving the relevant behavior](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
@@ -1000,6 +1006,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Per-key ordering | [Ordering contract limited to one key’s sequence](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Percent-encoding | [Percent and hexadecimal representation of data bytes](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Percentile | [Value positioned relative to a percentage of an ordered population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
+| Performance profile | [Attribution of selected activity or costs to execution parts](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Performance regression | [Adverse measured performance change under a stated baseline and workload](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Permission | [An allowed operation under an access rule](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Permission (application) | [Allowed operation on a resource under a stated context](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
@@ -1222,6 +1229,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SameSite | [Cookie sending restriction for cross-site contexts](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | SAML | [Security Assertion Markup Language assertions and protocols](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SAML assertion | [Package of statements issued by an asserting party under SAML](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| Sampling profiler | [Tool periodically observing execution state for attribution](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | SAN | [Subject alternative name certificate extension](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Saturation | [Excess work a resource cannot currently service often visible as waiting work](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
 | SBOM | [Software bill of materials describing components and relationships](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
@@ -1260,6 +1268,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Service (Kubernetes) | [Network-access abstraction defining endpoints and their exposure](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service account | [Account used for an application or other non-human workload context](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
+| Service capacity | [Workload a specified configuration can handle within stated acceptable-outcome criteria](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Service discovery | [Finding current access information for a named service](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Service identity | [Identity representing a service or workload in security decisions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Service locator | [Registry queried by a consumer to obtain collaborators](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
@@ -1529,6 +1538,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Workaround | [Alternative way of proceeding around a problem](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Working tree | [Checked-out files and directories available for editing](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Workload | [Application or work being run in an execution platform](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
+| Workload (performance) | [Applied operation mix inputs arrival pattern and relevant concurrency](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 | Writable layer (container) | [Instance-specific filesystem changes above underlying image layers](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | XML | [Extensible Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
