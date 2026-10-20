@@ -5903,3 +5903,51 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   scope is D14's14,D15's13,D16's13,D17's10 and D18's7 ledger IDs. Curriculum revision1
   approval/full191-leaf scope remains intact,no new gate;do not start another root
   track or treat D13 completion as full-track completion.
+
+### D14.S01.L01 — On-premises hosted public private hybrid and multicloud — verified
+
+- Done: D14.S01.L01; location/owner/operator distinctions,hosting/colocation,
+  cloud capabilities,public/private/community consumer scope,NIST versus broader
+  hybrid usage and scoped provider diversity;five independent original arrangements
+  with access-only and VPN-only variations. Created D14;progress135/191;56 remain.
+- Files touched: new D14 README and sections/1. Hosting and responsibility/1.1.
+  On-premises hosted public private hybrid and multicloud.md;track README;this LOG.
+- Links fixed / added: real D14 module/leaf registration,13 contextual aliases,
+  five precise host/DNS/VPN/access/recovery owners and domain/track navigation.
+- Research / Decisions: recovered complete5905-line LOG and full track index,
+  including exact targets via lossless dictionary;policies/continue skill/workflow/
+  quality/root and current domain/leaf. Some combined outputs truncated;repeated
+  missing log/index ranges separately. Reconciled134 unique Done IDs to tracked
+  files and Git history;sole unlogged leaf was this135th unit,staging empty.
+  Approval/full revision1 intact. Full-repo cloud/hosting/colocation heading search
+  found earlier DNS hosting reminder,not general deployment-model owner. Reread
+  full JS Engines runtimes and hosts for independent-role attribution,rejecting
+  universal conformance,error,cost and feature-detection rules. Actual prior-unit
+  research retained from this session's evidence:
+  https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+  actual taxonomy/cloud characteristics70–103 and deployment definitions130–145,
+  printed2–3/PDF5–6,Sept2011 foundational taxonomy,not a new2026 edition or full
+  publication review. Reject literal unlimited capacity,all-metered-pay-per-use,
+  private-must-be-local and taxonomy-as-deployment-mandate claims.
+  https://docs.equinix.com/colocation/ actual customer-owned hardware/facility
+  passage42,not every contract's management/security/availability obligations.
+  https://cloud.google.com/learn/what-is-multicloud actual7–37 provider diversity
+  and hybrid usage comparison;definition varies even within page,so scope usage
+  explicitly rather than force one universal taxonomy. Reject no-added-complexity,
+  automatic portability/lock-in elimination and guaranteed performance/cost claims.
+  https://glossary.cncf.io/cloud-computing/ actual definition94 only,not whole page
+  or benefits section;community educational cross-check,refined through NIST.
+  Discovery-only search results and older marketing not claimed as read evidence.
+- Verification: reran actual structural/link verifier after lost output:135 leaves,
+  2246 resolving links across152 files,required numbered sections/registrations,
+  closed proposal byte-for-byte preserved;git diff --check passed. Entire leaf and
+  new index read;all13 aliases and actual track additions inspected through full
+  lossless lookup plus diff. Editorial check matched three promises,five supplied
+  arrangements,cloud capabilities versus location,public service versus public
+  data,exclusive organization versus operator,portability versus VPN and unrelated
+  provider use versus application recovery. Improved new index introduction's
+  spacing and prerequisite prose before final checks. Static reading only;no
+  provider account,provisioning,network probe,migration,cost/performance measurement,
+  security assessment or failover test executed.
+- Next steps: D14.S01.L02,then every remaining approved D14–D18 unit;56 remain.
+  No pending approval gate;do not treat a domain milestone as track completion.
