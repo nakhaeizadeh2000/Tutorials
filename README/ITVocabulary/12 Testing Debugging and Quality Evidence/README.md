@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 8 of 10 approved lessons are available.
+This domain is in progress: 9 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -61,5 +61,11 @@ This domain is in progress: 8 of 10 approved lessons are available.
 1. **Turn a complaint into a reproducible comparison:** Identify the trigger environment initial state and reference for the expectation without assuming a diagnosis.
 2. **Write a complete report from a bounded evidence packet:** Produce a useful issue with precise steps observed outcomes scoped frequency and explicit unknowns.
 3. **Refine the report when evidence or expectations change:** Revise missing-rule and intermittent variants,choose useful attachments and preserve the difference between observed and proposed reproductions.
+
+### [5.2. Challenge a tested-and-production-ready claim](<sections/5. Applied reporting and review/5.2. Challenge a tested-and-production-ready claim.md>)
+
+1. **Align each quality claim with an artifact and an expectation:** Read a candidate packet with explicit local release criteria and distinguish current evidence from older-version results.
+2. **Distinguish a supported result from a detected problem or missing evidence:** Assess coverage retries weak assertions substitutes and a known requirement failure without treating unanswered questions as proven defects.
+3. **Write a useful decision handoff and update it as evidence changes:** Explain the release gap to technical and stakeholder audiences and reconsider applicable evidence after a new candidate is built.
 
 [← Back to IT Vocabulary](<../README.md>)

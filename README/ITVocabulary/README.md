@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **117 of 191 approved lessons** are available.
+Implementation is in progress: **118 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -803,6 +803,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | QA | [Quality assurance activities providing confidence in quality](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | QC | [Quality control activities evaluating and controlling relevant product quality](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Quality assurance | [Planned quality activities including process evaluation and improvement](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Quality claim review | [Connecting candidate expectations test arrangements results and outstanding questions](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.2. Challenge a tested-and-production-ready claim.md>) |
 | Quality control | [Activities focused on fulfilling product or service quality requirements](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Quarantine (testing) | [Separation of an unreliable check while its investigation and restoration are managed](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Query (database) | [Request for database information or an operation with effects clarified](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |

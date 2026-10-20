@@ -5077,3 +5077,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   attachment sharing,reproduction or performance measurement actually executed.
 - Next steps: D12.S05.L02,then D12.S06.L01 and every approved D13–D18 unit;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S05.L02 — Challenge a tested-and-production-ready claim — verified
+
+- Done: D12.S05.L02; original candidate-specific quality packet with local release
+  criteria,known CSV failure versus missing evidence,old-head integration,weak
+  numeric assertions,substituted browser scope,retry/coverage interpretation,
+  two audience handoffs and new-candidate variation/interview reasoning.
+  Progress118/191;73 approved leaves remain.
+- Files touched: new sections/5. Applied reporting and review/5.2. Challenge a
+  tested-and-production-ready claim.md; D12/track README files; this LOG.
+- Links fixed / added: registration,one contextual lookup entry,six precise
+  existing quality/release owners plus domain/track navigation.
+- Research / Decisions: repo production-ready/tested/readiness headings found
+  status-policy and operational-health owners,not this quality-claim synthesis.
+  Read full current D12 index; reused complete JS Fundamentals checklist just
+  reread for previous unit for concrete question-to-owner routing,not stale LTS,
+  universal scheduling/thread/error or mandatory lint claims. Reused evaluated
+  D12 primary/practitioner assertion,boundary,retry,coverage and acceptance maps.
+  https://sre.google/sre-book/testing-reliability/ actual isolated-versus-operational
+  configuration and version passages101–119 consulted; no full chapter/book review,
+  historical infrastructure/defaults,guaranteed canary rollback,unit timing/cost
+  numbers,regression-tests-prove-no-bugs or universal release test inventory copied.
+  Combined full-index output truncated some unrelated chapter excerpts; only the
+  actual visible selected passages support this unit. Original Google operator
+  account complements current Playwright reporting and prior version/requirement
+  evidence. NestJS+Fastify remains static context,not a framework implementation.
+- Verification: structural/link verifier passed (118 leaves,1872 resolving links
+  across133 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Executed offline Fraction/count assertions89+3=92,90/100=90%,
+  90/110→81.82%; arithmetic only. Editorial check matched three promises,every
+  handoff clause to packet,local R-14/database criteria,known mismatch separate
+  from unverified capacity/acceptance,realH11 versus candidateH12,and A13's changed
+  source/evidence applicability. Static fictional review only; no build,test,
+  database/browser integration,retry,coverage collection,user acceptance,load,
+  release decision or production deployment actually executed. Proposed follow-ups
+  remain unexecuted,no universal ship/no-ship authority assumed.
+- Next steps: D12.S06.L01,then every approved D13–D18 unit;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
