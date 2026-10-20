@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 12 of 13 approved lessons are available.
+This domain is complete: all 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -89,5 +89,13 @@ This domain is in progress: 12 of 13 approved lessons are available.
 1. **Recover the intended service claim and each panel’s actual scope:** Map health timing and worker summary panels to their operation region population and reporting window before comparing them with an objective.
 2. **Separate a known objective miss from unsupported broader claims:** Calculate the matching SLI and budget gap reject averaged quantiles and distinguish a separate rehearsal’s recovery time and data point.
 3. **Write an evidence-based correction and choose the next question:** Explain results to technical and product readers then reduce certainty correctly when direct indicator evidence is removed.
+
+## 8. Overlaps to avoid
+
+### [8.1. Boundaries of performance and reliability vocabulary](<sections/8. Overlaps to avoid/8.1. Boundaries of performance and reliability vocabulary.md>)
+
+1. **Choose the conceptual owner from the question being asked:** Route timing statistics cost investigation telemetry service objectives recovery and incident learning to their existing explanations.
+2. **Separate measurement literacy from implementation work:** Distinguish runtime profiling compiler and editor performance network behavior and operational engineering without inferring outcomes from tool labels.
+3. **Review a mixed claim and hand off the missing evidence:** Rewrite a build cache target and recovery packet then change only the conclusion supported by added runtime evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

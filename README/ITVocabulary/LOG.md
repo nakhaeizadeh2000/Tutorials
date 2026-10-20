@@ -7131,3 +7131,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   recovery or performance experiment performed. Proposed investigation unrun.
 - Next steps: D15.S08.L01,then all approved D16–D18 units;31 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S08.L01 — Boundaries of performance and reliability vocabulary — verified
+
+- Done: D15.S08.L01;12 conceptual-owner routes,network/data/pressure/scaling
+  neighbors,actual JS runtime versus TS checking measurement owners and planned
+  implementation routes;original checking/cache/target/restored-data packet with
+  two audience handoffs and narrow added-runtime evidence. All13 approved D15
+  outcomes implemented;progress161/191;30 leaves remain across D16–D18.
+- Files touched: new sections/8. Overlaps to avoid/8.1. Boundaries of performance
+  and reliability vocabulary.md;D15/track README completion/progress;this LOG.
+- Links fixed / added: registration,22 resolving local owner/navigation links;
+  D15 complete,track in progress,no new alias or unpublished placeholder link.
+- Research / Decisions: recovered complete7133-line LOG in sequential nontruncated
+  chunks,full track index through lossless target dictionary,root/domain/policies/
+  continue skill/workflow/quality. Reconciled160 Done IDs against160 tracked leaves
+  with Git history and clean ee353186. No partial unit. Full-repo numerical
+  performance/reliability boundary search found no competing owner. Reread complete
+  JS Fundamentals boundary for precise routing;reject historical future-TypeScript/
+  WebPlatform labels and absolute prohibition on useful minimal examples. Read
+  complete TS Measuring with extendedDiagnostics and traces (156 lines) after the
+  previous output was lost;actual published compiler/check/editor/runtime distinction,
+  not fresh execution of its fixtures or older Node baseline as current. Reused
+  evaluated D15 primary/original SRE/Gregg/OTel/Prometheus/AWS source map and actual
+  preceding owners rather than adding new product behavior. Root planned deeper
+  routes remain plain names;NestJS+Fastify context retained.
+- Verification: actual structural/link verifier passed161 leaves,2773 resolving
+  links across179 files,required headings/registrations,preserved closed proposal;
+  git diff --check passed. Unit assertions checked three promises,no duplicate
+  lookup,13/13 domain,161/191 track,tables/empty staging;actual index/status additions
+  inspected. Executed assertions mapped all13 approved D15 IDs to real indexed
+  leaves and checked6/12=1/2,950/1000=95%. Editorial outcome comparison matched all13
+  approved lessons;packet preserves checking improvement,scoped cache population,
+  target versus unmeasured SLI,loaded/checked data versus unverified workflow,and
+  added runtime case's limited scope. Static routing/arithmetic only;no compiler,
+  runtime request,cache,profile,telemetry,SLO measurement,recovery rehearsal or
+  performance experiment executed. Earlier reference fixtures were not rerun.
+- Next steps: D16.S01.L01,then all approved D16–D18 units. Exact remaining scope:
+  D16's13,D17's10,D18's7 ledger IDs;30 leaves. Curriculum revision1/full191 approval
+  unchanged,no pending gate;D15 completion is not track completion.
