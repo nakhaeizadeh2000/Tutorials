@@ -5951,3 +5951,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   security assessment or failover test executed.
 - Next steps: D14.S01.L02,then every remaining approved D14–D18 unit;56 remain.
   No pending approval gate;do not treat a domain milestone as track completion.
+
+### D14.S01.L02 — IaaS PaaS SaaS managed services and shared responsibility — verified
+
+- Done: D14.S01.L02;service capability/control boundary,managed task scope and
+  MSP arrangements,performing versus setting policy versus checking outcomes;
+  three original arrangements,backup responsibility gap and component-specific
+  update practice. Progress136/191;55 approved leaves remain.
+- Files touched: new sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS
+  managed services and shared responsibility.md;D14/track README files;this LOG.
+- Links fixed / added: registration,eight explained aliases,five precise existing
+  hosting/runtime/access/recovery/assurance owners and domain/track routes.
+- Research / Decisions: full-repo numeric IaaS/PaaS/SaaS/managed/shared headings
+  found no competing owner. Reused complete JS Engines runtimes and hosts just
+  reread for component attribution and independent categories,not universal
+  runtime/errors/performance claims. Read full actual D08 backup/recovery leaf;
+  linked mechanisms rather than duplicating them. Actual sources consulted:
+  https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf
+  full visible148-line publication including actual service models105–128,
+  Sept2011 taxonomy;no newest-product catalog or mandatory architecture claim.
+  https://learn.microsoft.com/en-us/azure/security/fundamentals/shared-responsibility
+  actual31–81 capability,matrix,retained configuration/identity duties and explicit
+  governance-versus-contract caveat;reject on-prem-always-self-owned,customer-code-
+  security-for-all-SaaS and diagram-as-universal-contract interpretations.
+  https://aws.amazon.com/compliance/shared-responsibility-model/ actual221–234,
+  guestOS EC2 versus abstractedS3/DynamoDB and service-specific scope;not every
+  service requires customer guest patching,all-labels-same or marketing speed/cost.
+  https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2022/the-customers-responsibility-in-the-cloud-shared-responsibility-model
+  actual original Sisodia/Khan Sept9 2022 article615–654,task-mapping and use-case
+  questions. Reject table's blanket provider-only PaaS/SaaS identity/MFA/application
+  security as universal assignment;current provider guides retain customer duties.
+  Some combined outputs truncated;selected primary passages and article tail
+  reread separately. Comparison motivates explicit action/owner/evidence rows,
+  not copied generic matrix. No framework/provider installation or legal advice.
+- Verification: actual structural/link verifier passed136 leaves,2262 resolving
+  links across153 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Assertions checked three promise headings,eight unique
+  aliases,2/14 domain,136/191 track and no executable fences. Index additions
+  inspected with resolved targets. Editorial check matched three promises,A/B/C
+  capability facts,OS-versus-bundled-library duty,backup job versus untested recovery,
+  missing owner versus proven corruption and MSP-only guest patching variation.
+  Static contract reasoning only;no actual cloud provision,patch/backup/restore,
+  permission change,provider integration,audit,cost or performance test executed.
+- Next steps: D14.S02.L01,then every remaining approved D14–D18 unit;55 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.
