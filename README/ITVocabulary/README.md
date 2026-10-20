@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **149 of 191 approved lessons** are available.
+Implementation is in progress: **150 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -110,6 +110,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Application session | [Context connecting a sequence of application interactions](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Apply (infrastructure) | [Carrying out selected resource changes under tool rules](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
 | Architecture diagram | [Scoped representation of selected system aspects and relationships](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Arithmetic mean | [Sum of observed values divided by their count](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Arrange–Act–Assert | [Preparation action and evaluation sequence for reading a test](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Arrival rate | [Work entering a specified boundary per time](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
 | Artifact | [A work product with a producer and intended consumer](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
@@ -147,6 +148,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Availability (CAP) | [Eventual operation responses at nonfailed participants under the model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Availability (security) | [Timely reliable access and use in the required context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Availability zone | [Provider-defined location or facility group within a region separating relevant failures](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| Average (measurement) | [Ambiguous center label commonly meaning arithmetic mean](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | AZ | [Availability zone](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | BaaS | [Backend as a Service supplying managed backend capabilities](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
@@ -460,6 +462,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Dirty read | [Reading another transaction’s uncommitted change](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Distributed monolith | [Separated processes whose changes remain tightly coordinated](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Distributed-system claim review | [Connecting an operation promise and fault case to scoped observations and limits](<10 Concurrency Messaging and Distributed Systems/sections/6. Applied reasoning/6.1. Explain an ambiguous distributed-system promise.md>) |
+| Distribution (measurement) | [Spread and relative counts of observed values](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Distribution package | [An installable Python project or its distribution file](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Diverged branches | [Branches with commits outside each other’s ancestry](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | DKIM | [DomainKeys Identified Mail](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
@@ -641,6 +644,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Heap | [Dynamically managed storage with implementation-defined placement](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Hexadecimal | [Base sixteen and byte displays](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Hexagonal Architecture | [Application inside/outside interaction boundaries using ports and adapters](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
+| Histogram | [Counts of observations grouped into stated ranges](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | History rewriting | [Replacing the history identified by branch references with new commit records](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | HMAC | [Hash-based message authentication code using a shared secret](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Hop | [One forwarding step along a network path](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
@@ -843,6 +847,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | MB and MiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Mbps and MB/s | [Bit rates versus byte rates](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Media type | [A label identifying the representation format](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Median | [Middle of sorted observations with an explicit even-sample convention](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Merge (Git) | [Integration of development histories](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Merge commit | [Commit recording a combined snapshot with multiple parents](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Merge conflict | [Change combination requiring reconciliation under the selected operation](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
@@ -887,6 +892,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | NAT | [Network address translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Native app | [A platform-related implementation label requiring scope](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Navigation (web) | [Movement between documents or application views](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| Nearest-rank percentile | [Selected observation at an upward-rounded percentage rank](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Nest module | [Framework grouping and provider import/export assembly metadata](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Network | [Connected participants and communication links](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Network interface | [An OS-visible physical or virtual communication attachment](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
@@ -960,6 +966,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Outstanding requests | [Requests not yet completed at a specified observation point](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
 | Overloaded word | [Several meanings selected by context](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | Ownership (filesystem) | [Recorded file user and group ownership](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
+| p50 | [50th percentile under the calculation used](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
+| p95 | [95th percentile under the calculation used](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
+| p99 | [99th percentile under the calculation used](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | PaaS | [Platform as a Service hosting consumer applications](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | Package | [A distribution or contextual import organization boundary](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Package manager | [A tool managing package acquisition and installation](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
@@ -990,6 +999,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Peer dependency | [Requirement expressing compatibility with a supplied host](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Per-key ordering | [Ordering contract limited to one key’s sequence](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Percent-encoding | [Percent and hexadecimal representation of data bytes](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
+| Percentile | [Value positioned relative to a percentage of an ordered population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Performance regression | [Adverse measured performance change under a stated baseline and workload](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Permission | [An allowed operation under an access rule](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Permission (application) | [Allowed operation on a resource under a stated context](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
@@ -1019,6 +1029,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Policy enforcement | [Making an access decision control the actual operation](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 | Polling | [Repeated requests checking for information](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
+| Pooled percentile | [Percentile calculated over the combined intended observation population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Port (architecture) | [A purposeful application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Port (transport) | [A protocol-scoped numeric endpoint identifier](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Ports and Adapters | [Hexagonal architecture organized around purposeful interaction contracts](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -1083,6 +1094,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Quality assurance | [Planned quality activities including process evaluation and improvement](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Quality claim review | [Connecting candidate expectations test arrangements results and outstanding questions](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.2. Challenge a tested-and-production-ready claim.md>) |
 | Quality control | [Activities focused on fulfilling product or service quality requirements](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Quantile | [Value positioned relative to a fraction of an ordered population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Quarantine (testing) | [Separation of an unreliable check while its investigation and restoration are managed](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Query (database) | [Request for database information or an operation with effects clarified](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Query (design) | [Request for information through a read model](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -1380,6 +1392,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | System under test | [Software boundary being evaluated](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Table | [Named collection of rows described by columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Tag (Git) | [Named object label commonly marking a selected commit](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
+| Tail latency | [High end of response durations under a defined population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Task | [A unit of work defined by its subsystem](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |

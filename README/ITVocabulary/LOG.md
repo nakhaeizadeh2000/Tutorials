@@ -6648,3 +6648,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   arithmetic/reading only;no service,pool,CPU,network,load,profile or timing test.
 - Next steps: D15.S01.L02,then every remaining approved D15–D18 unit;42 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S01.L02 — Means medians percentiles distributions and tail latency — verified
+
+- Done: D15.S01.L02;center/spread/histogram/tail distinctions,explicit percentile
+  and median methods,exact nearest-rank example,invalid worker-p99 averaging,
+  weighted-mean contrast and excluded-slow-request practice. Progress150/191;41 remain.
+- Files touched: new sections/1. Measuring behavior/1.2. Means medians percentiles
+  distributions and tail latency.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,13 contextual aliases,four precise measurement/
+  complexity/denominator/JS-benchmark owners plus domain/track navigation.
+- Research / Decisions: section-wide full-repo percentile/quantile/median/tail/
+  distribution headings found unrelated type/message distribution,not general
+  statistical owner. Read complete JS Microbenchmark traps for population and
+  variation discipline;reject flawed DCE example,fixed warmup/sample/GC policy,
+  p95-overlap statistical rule,all-local-wins-irrelevant and unmeasured timing.
+  Actual primary educational sources read:
+  https://www.itl.nist.gov/div898/handbook/eda/section3/eda351.htm actual9–24
+  mean/median/skew/extremes;not universal best-center or population-model claims.
+  https://www.itl.nist.gov/div898/handbook/prc/section2/prc262.htm actual8–12 and
+  32–38 finite-sample interpolation differences;not current-all-software defaults
+  or nearest-rank formula falsely attributed to NIST's R6/R7/R8. Classroom method
+  explicitly defined independently,including small even-sample p50/median difference.
+  https://prometheus.io/docs/practices/histograms/ actual72–96 and101–109 modern
+  classic/native representations,summary quantiles and aggregation;not complete
+  guide or linked specification. Integrate native recognition directly;reject
+  universal library support,migration-always-easy,all-buckets-merge or exact
+  percentile-from-lossy-bucket claims. Reused prior actual original SRE tail/population
+  discussion;no source quota. Search-only aggregation explorer/Elastic snippets
+  discovery only,not relied on as technical evidence or viewed interactive tool.
+- Verification: exact duration_summaries.py fence ran CPython3.14.4/Linux x86_64,
+  exit0,full10-line stdout matched28.0/10.0/100/100/1000,[10,1000],505.0/1000,
+  10/20.0 outputs (including each labeled line). Separate executed assertions
+  checked100 observations/sum2800/99<=100,excluded maximum100 and group means40
+  versus55. No service samples collected. Structural/link check passed150 leaves,
+  2571 resolving links across168 files,required sections/registrations,preserved
+  proposal;git diff --check passed. Unit assertions passed three promises,13
+  unique aliases,2/13 domain,150/191 track,tables/empty staging;additions inspected.
+  Editorial check matched rank95/99/198,explicit integer input contract,at-least
+  versus exactly-percent wording,unweighted/weighted worker failure and population
+  exclusion not improved user outcome. No histogram backend/telemetry,population
+  confidence estimate,formal quantile proof or performance benchmark executed.
+- Next steps: D15.S02.L01,then every remaining approved D15–D18 unit;41 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
