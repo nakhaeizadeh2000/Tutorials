@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 5 of 15 approved lessons are available.
+This domain is in progress: 6 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 15 approved lessons are available.
 1. **Distinguish delegated access from an authentication layer:** Map OAuth resource roles,OIDC identity roles and code/access/ID token purposes with current OAuth security context.
 2. **Separate federation protocols from the single-sign-on experience:** Interpret IdP RP SP,SAML assertions and trust while keeping federation configuration distinct from observed sign-in continuity.
 3. **Read a two-application sign-in and delegated-API story:** Trace purpose and recipient for different artifacts,local permission and independent sessions and revise a claim when SSO or logout evidence changes.
+
+### [3.2. Passwords MFA passkeys API keys and service identities](<sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>)
+
+1. **Count distinct factors rather than fields or gestures:** Interpret passwords passphrases MFA 2FA and OTP with scoped phishing-resistance evidence instead of prompt counts.
+2. **Interpret a passkey through its cryptographic and local checks:** Distinguish public-key credential control,user presence,user verification and synced versus device-bound arrangements with current WebAuthn context.
+3. **Distinguish human authentication from API and workload identity:** Read provider-specific API-key meanings and service-account credentials separately from permissions and compare five bounded authentication arrangements.
 
 [← Back to IT Vocabulary](<../README.md>)

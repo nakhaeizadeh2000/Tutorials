@@ -5384,3 +5384,55 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   PKCE,login/logout,credential prompt,calendar API or performance run executed.
 - Next steps: D13.S03.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S03.L02 — Passwords MFA passkeys API keys and service identities — verified
+
+- Done: D13.S03.L02; factor versus prompt counts,OTP phishing limits,passkey key
+  control versus local verification,synced/device-bound arrangements,current
+  WebAuthn status,provider-specific API keys and service-account credential options;
+  five independent original arrangements and evidence-removal/permission variations.
+  Progress125/191;66 approved leaves remain.
+- Files touched: new sections/3. Identity protocols and factors/3.2. Passwords MFA
+  passkeys API keys and service identities.md; D13/track README files; this LOG.
+- Links fixed / added: registration,17 contextual aliases,five precise existing
+  identity/token/federation/secrets/threat owners plus domain/track navigation.
+- Research / Decisions: recovered complete5386-line LOG,full track index including
+  all targets via lossless dictionary,policy/continue skill/workflow/quality/root,
+  D13 index and dirty leaf. Reconciled124 unique Done IDs to tracked files and Git
+  history; only this125th leaf/index unit was unlogged. Approval unchanged. Prior
+  section-wide repo factor/passkey/API-key/service-identity search found contextual
+  TLS identity reminders,not another credential-types owner. Reused complete JS
+  Engines runtimes and hosts independent-role calibration already read for D13,
+  not universal conformance/error/cost claims. Actual selected sources consulted:
+  https://fidoalliance.org/passkeys/ actual FAQ482–501 and MFA578–579,key-pair,
+  local verification and synced/device-bound distinctions; original educational
+  input,not universal speed,recovery,all-device or strongest-everywhere marketing.
+  https://www.w3.org/TR/webauthn-3/ actual Recommendation Aug25 2026 metadata,
+  UP/UV definitions,required-verification,multi-factor capability,RP ID/origin and
+  trusted-verification caveat; not full8633-line spec review or browser adoption.
+  Current Level3 integrated directly; trusted local verification supplied explicitly
+  in constructed row,not inferred from touch or a prompt screenshot.
+  https://pages.nist.gov/800-63-4/sp800-63b/authenticators/ actual OTP/out-of-band
+  and manually-entered-output relay passages; not full password policy,rotation,
+  length or all-crypto-is-phishing-resistant prescription.
+  https://docs.cloud.google.com/docs/authentication/api-keys actual standard versus
+  service-account-bound authorization-key distinction66–82; current counterexample
+  to universal API-key identity claims,not production long-lived-key recommendation.
+  https://docs.cloud.google.com/iam/docs/service-account-overview actual account,
+  workload,attached/federated/key credential and short-lived options passages;
+  not provider configuration,all-account-authority or permanent-key default.
+  Previous generic OWASP terminology overgeneralizations not adopted; no runtime,
+  framework,crypto implementation or exploit course added,NestJS+Fastify retained.
+- Verification: reran structural/link verifier successfully after lost pre-compaction
+  output:125 leaves,2041 resolving links across141 files,required numbered sections,
+  registrations and unchanged closed proposal. git diff --check passed. Recovery
+  alias assertion initially included table header Term with legitimate Term entry;
+  narrowed to linked lookup rows,then all aliases unique and all17 present once,
+  D13 count6/15 and empty staging passed. No content duplicate or collision.
+  Editorially reread entire leaf and additions,matched three promises,five independent
+  arrangements,knowledge-versus-possession,required trusted verification,provider
+  scope,worker identity versus permissions and weaker presence-only conclusion.
+  Static interpretation only; no login/passkey registration,API key creation,
+  authenticator/crypto validation,service-account request or performance test run.
+- Next steps: D13.S04.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
