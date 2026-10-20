@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **142 of 191 approved lessons** are available.
+Implementation is in progress: **143 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -422,6 +422,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Development dependency | [Requirement serving development or build work](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Device driver | [Software participating in OS and device communication](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Device-bound passkey | [Passkey retained on a particular authenticator](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
+| DevOps | [Practices and cultural approaches connecting software development delivery and operation](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
+| DevSecOps | [Integration of security into development delivery and operation](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | DHCP | [Dynamic Host Configuration Protocol](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | DI | [Dependency injection](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | DI container | [Mechanism resolving and assembling registered dependencies](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
@@ -578,7 +580,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | General availability | [Release availability status for an explicitly scoped product or feature](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | GET | [Retrieve a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Git | [A version-control system with snapshot and reference records](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| GitOps | [Desired-state management under declarative versioned automatically pulled and continuously reconciled principles](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Global service | [Service with specified global or cross-region scope](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| Golden path | [Supported route for a common internal platform task](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Graph (data structure) | [Nodes connected by edges](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Graph database | [Database organized around nodes and connections](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
@@ -696,6 +700,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Interface (design) | [Exposed operations and their agreed behavioral contract](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Interface Segregation Principle | [Keeping consumer dependencies appropriate to needed operations](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Internal API | [An interface for consumers within a stated system or organization](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| Internal developer platform | [Integrated internal offering of interfaces services documentation and support](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Internationalization | [Design enabling localization across languages and regions](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Internet | [The global interconnection of independently operated networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Interpretation | [Execution of a representation by an interpreter](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
@@ -903,6 +908,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Open source | [Software supplied with source and rights meeting the Open Source Definition](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Open-Closed Principle | [Supporting useful extension behind a stable consumer boundary](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | OpenAPI | [A standard describing HTTP interfaces](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| OpenGitOps | [Community principles defining a tool-independent GitOps model](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | OpenID Connect | [Protocol adding an authentication identity layer on OAuth 2.0](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | OpenID Provider | [OIDC provider authenticating users and issuing identity claims](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -945,6 +951,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Patching | [Applying a corrective software change update or upgrade](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Path | [Components interpreted from a defined starting point](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Path template | [A described path with variable components](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| Paved road | [Common term for a supported platform route or golden path](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Paxos | [A named family of consensus protocols](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Payload | [Content carried by the surrounding protocol unit](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Peer dependency | [Requirement expressing compatibility with a supplied host](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
@@ -968,6 +975,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PKCE | [Proof Key for Code Exchange binding the exchange to the initiating transaction](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | PKI | [Public key infrastructure for managing certificate and trust relationships](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Plaintext | [Input information protected by an encryption scheme](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
+| Platform engineering | [Developing shared internal capabilities around user needs](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Pod | [Kubernetes deployable unit grouping co-located and co-scheduled containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Policy (governance) | [Organizational rules and responsibilities with defined authority and scope](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -1178,6 +1186,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Security token | [Protocol-interpreted representation of security information or authority](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Selector (Kubernetes) | [Rule matching relevant object labels](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Self-managed | [Consumer-operated component within a specified boundary](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
+| Self-service (platform) | [Authorized consumption of supported capabilities with minimal manual intervention](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Self-signed certificate | [Certificate signed with its own corresponding private key](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Semantic conflict | [Incorrect combined behavior despite potentially successful text integration](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Semantic Versioning | [Version-change rules relative to a declared public API](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
@@ -1254,6 +1263,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SQL | [Structured Query Language with product-specific dialect capabilities](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | SQL injection | [Input crossing into database query instructions or structure](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | SQLite | [An embedded database engine using a library](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| SRE | [Site Reliability Engineering applying software engineering to service operation and improvement](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | SRP | [Single Responsibility Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | SSD | [Solid-state storage and what capacity does not prove](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | SSE | [Server-sent events delivered in an HTTP response stream](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |

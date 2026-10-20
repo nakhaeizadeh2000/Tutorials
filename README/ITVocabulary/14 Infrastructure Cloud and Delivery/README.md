@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 8 of 14 approved lessons are available.
+This domain is in progress: 9 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -63,5 +63,13 @@ This domain is in progress: 8 of 14 approved lessons are available.
 1. **Distinguish changing instance size from changing instance count:** Explain vertical up/down and horizontal out/in changes while separating resource allocations from demonstrated scalability.
 2. **Separate automatic adjustments from elastic application behavior:** Distinguish autoscaling inputs targets and delays from elasticity; explain Kubernetes workload versus node scaling and safe scale-in duties.
 3. **Compare requested resources with a bounded capacity model:** Calculate an explicit synthetic worker/storage ceiling and revise it only with ready-instance or capacity evidence.
+
+## 5. Delivery and operational practices
+
+### [5.1. DevOps SRE platform engineering DevSecOps and GitOps](<sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>)
+
+1. **Distinguish shared delivery practices from reliability engineering:** Explain DevOps and SRE through cooperative work operational engineering and scoped targets rather than universal job titles.
+2. **Identify platform products security integration and GitOps control loops:** Distinguish internal self-service offerings DevSecOps activities and the four OpenGitOps principles while preserving actual-state evidence.
+3. **Classify work records and ask for the missing outcome:** Map five fictional records to practices and revise GitOps or self-service claims when continuous agents or automatic capability delivery are absent.
 
 [← Back to IT Vocabulary](<../README.md>)
