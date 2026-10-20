@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **152 of 191 approved lessons** are available.
+Implementation is in progress: **153 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -144,6 +144,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Authorization code | [Intermediate value exchanged at a token endpoint rather than used as an API access token](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Authorization server | [Role issuing access tokens under an authorization arrangement](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | AuthZ | [Authorization](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
+| Automatic instrumentation | [Supported framework library or runtime observations supplied without equivalent manual source calls](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Autoscaling | [Automatic adjustment of defined resources or instance targets using decision logic](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Availability (CAP) | [Eventual operation responses at nonfailed participants under the model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Availability (security) | [Timely reliable access and use in the required context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
@@ -283,6 +284,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Cohort (delivery) | [Defined user or account group receiving a specified treatment](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Cold start | [Preparation work needed to make a specified execution context ready](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Collection (database) | [Group of documents in document database terminology](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| Collector (telemetry) | [Component receiving and potentially processing and exporting observations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Colocation | [Customer hardware placed in a provider’s data-center space](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Column | [Named attribute across table rows](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Command (design) | [An intended action whose acceptance is not automatic](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -560,6 +562,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exploitation | [Taking advantage of a vulnerability under particular conditions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Exploratory testing | [Testing in which learning design execution and evaluation inform each other](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Exponential backoff | [Retry delay growing multiplicatively under a stated rule](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
+| Exporter (telemetry) | [Component sending telemetry to a destination](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Exposure (vulnerability) | [Presence of relevant vulnerable components and triggering conditions in a scoped system](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | FaaS | [Functions as a Service running supplied code through a managed invocation model](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
@@ -738,6 +741,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Insert anomaly | [Inability to add an independent fact without unrelated data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Installed dependency tree | [Dependency contents present in a specified environment](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Instant | [A particular point on the timeline](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| Instrumentation | [Observation points or measurement behavior added to or supplied for a system](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Integration diagnosis | [Tracing a contract and observations to a specific failed or uncertain boundary](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
 | Integration testing | [Evaluation of interfaces and interactions between specified parts](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Integrity (security) | [Protection against improper modification or destruction](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
@@ -884,6 +888,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Modernization | [Changing a system to meet current needs or constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Modular monolith | [Combined deployment with maintained internal design boundaries](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Module | [A code unit under its language ecosystem rules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
+| Monitoring | [Ongoing collection and examination of system observations for stated purposes](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Monolith | [Application built and deployed as one unit within the stated scope](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Mount | [Attachment of a filesystem or filesystem view](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Mount point | [Location where a filesystem view is attached](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
@@ -937,6 +942,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Object key (storage) | [Identity of stored content within a defined container](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Object storage | [Storage exposing identified content and metadata through an API](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Object-oriented programming | [Organizing responsibilities around object state and behavior](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
+| Observability | [Ability to investigate and understand system behavior from available observations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
+| Observability backend | [System retaining or analyzing observations for queries and investigation](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Obsolete | [A status label requiring publisher context](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | OCP | [Open-Closed Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Octet | [An explicitly eight-bit group](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
@@ -962,6 +969,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | OpenGitOps | [Community principles defining a tool-independent GitOps model](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | OpenID Connect | [Protocol adding an authentication identity layer on OAuth 2.0](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | OpenID Provider | [OIDC provider authenticating users and issuing identity claims](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| OpenTelemetry | [Project providing telemetry instrumentation collection and related standards and implementations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Operation (HTTP API) | [A method-specific exposed action with documented behavior](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Optional dependency | [Requirement whose absence is permitted under the applicable contract](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
@@ -1413,6 +1421,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
+| Telemetry | [Data emitted or collected about system behavior](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
+| Telemetry pipeline | [Emission collection processing export retention and query responsibilities for observations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Terminal | [The text interaction surface and terminal emulator](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Terraform state | [Tool record binding configured resource instances to real objects and metadata](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
@@ -1557,6 +1567,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | YAGNI | [You Aren’t Gonna Need It applied to speculative capabilities](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | YAML | [YAML Ain't Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Zero trust | [Resource-focused access without implicit trust solely from network location or ownership](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
+| Zero-code instrumentation | [Automatic instrumentation under the tool and environment support boundary](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | ZTA | [Zero trust architecture](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 
 Terms are added with precise links when their explanations become available.

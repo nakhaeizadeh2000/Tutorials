@@ -6773,3 +6773,50 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   expiry/eviction/invalidation,stampede,refill or latency/memory benchmark run.
 - Next steps: D15.S03.L01,then every remaining approved D15–D18 unit;39 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S03.L01 — Monitoring observability instrumentation and telemetry — verified
+
+- Done: D15.S03.L01;monitoring activity versus investigative capability and data,
+  manual/automatic observation points,export/collection/backend/query boundaries,
+  mixed support and original API202/disabled-worker-export packet with confirmed
+  commit-path and wrong-version-query variations. Progress153/191;38 remain.
+- Files touched: new sections/3. Telemetry and investigation/3.1. Monitoring
+  observability instrumentation and telemetry.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,11 contextual aliases,five exact HTTP/data/
+  debugging/secrets/JS-console owners plus domain/track navigation.
+- Research / Decisions: section-wide numerical monitoring/observability/telemetry
+  heading search found JS Proxy observation,different scope. Read complete JS
+  Console toolkit debugger breakpoints and stepping for condition/observation
+  discipline;reject wrong DEBUG/trace-warnings console defaults,stderr-always-
+  faster/unconditionally-synchronous assumptions,guaranteed step stop,universal
+  live-edit/strip/logpoint policy and no-overhead claims. Actual primary passages:
+  https://opentelemetry.io/docs/concepts/observability-primer/ actual858–879
+  investigation/emission/purpose,not full930-line guide;reject all-future-questions-
+  solved/properly-instrumented-means-never-add-data,only-mechanism or automatic
+  all-distributed-health proof. https://opentelemetry.io/docs/concepts/instrumentation/
+  actual849–870 manual/zero-code/complementary/context roles;reject absolute zero
+  impact/guaranteed-everywhere-correlation. https://opentelemetry.io/docs/collector/
+  actual856–887 receiving/processing/export,direct-backend option and mixed
+  component stability;reject auto-configured-all-versions,universal performance/
+  simplicity or blanket collector mandate. Initial opens/navigation-only ranges
+  were insufficient;reopened actual849+ bodies. No whole SDK/spec/version review.
+  Guessed2017 Charity article inaccessible;discovery located accessible original
+  https://charity.wtf/p/observability-is-a-many-splendored-thing actual full2020
+  main body0–76:request-context investigation versus tool labels. Reject blanket
+  metrics/logs-hostile,all-current-products-inadequate,old exemplar availability,
+  arbitrary-all-questions/infinite-cardinality,record-every-parameter,mandatory
+  event architecture and unmeasured productivity claims. Compare with OTel's
+  evidence forms without forcing a commercial taxonomy. Search SEO/community
+  snippets not read evidence;no new framework/observability implementation.
+- Verification: actual structural/link verifier passed153 leaves,2627 resolving
+  links across171 files,required sections/registrations,preserved proposal;git
+  diff --check passed after clarifying separate enabled-export variation. Unit
+  assertions checked three promises,11 unique aliases,5/13 domain,153/191 track,
+  tables/empty staging;additions inspected. Editorial check matched API acceptance
+  versus unknown worker write,API-only99% chart,disabled export versus absent
+  business evidence,explicit enabled/verified delivery variation and correctly
+  scoped commit acknowledgment versus notification/content/durability conditions.
+  Static records only;no app/worker instrumentation,SDK/collector/backend install,
+  export configuration,query,commit validation or performance experiment executed.
+- Next steps: D15.S03.L02,then all remaining approved D15–D18 units;38 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

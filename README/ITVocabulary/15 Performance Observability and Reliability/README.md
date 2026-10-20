@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 4 of 13 approved lessons are available.
+This domain is in progress: 5 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 13 approved lessons are available.
 1. **Identify which execution state is cold or warm:** Distinguish startup preparation code warmup cache population and reused state without attributing a changed duration to one unverified cause.
 2. **Distinguish a usable cache result from a current source fact:** Explain hit miss refill ratio TTL invalidation and stampede while retaining the existing general expiration and eviction owner.
 3. **Trace freshness lifetime and cost through explicit policies:** Analyze a fixed-expiry source-change timeline early eviction and serial cache costs then revise a claim when only warm-process evidence remains.
+
+## 3. Telemetry and investigation
+
+### [3.1. Monitoring observability instrumentation and telemetry](<sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>)
+
+1. **Separate an activity a capability and the data supporting it:** Distinguish monitoring observability and telemetry through the questions supported rather than tool or data-type labels.
+2. **Trace instrumentation collection and interpretation separately:** Explain observation points automatic instrumentation exporters collectors and backends while identifying support retention transport and query limits.
+3. **Answer a business question from a limited telemetry packet:** Distinguish HTTP acceptance from a worker commit and update a claim only with correctly scoped delivered outcome evidence.
 
 [← Back to IT Vocabulary](<../README.md>)
