@@ -5602,3 +5602,58 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   attribute write,access attempt or performance benchmark executed.
 - Next steps: D13.S06.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S06.L01 — Injection XSS CSRF SSRF and broken access control — verified
+
+- Done: D13.S06.L01; interpreter/query/browser execution boundaries,contextual
+  output encoding versus HTML sanitization,CSRF browser authority versus SSRF
+  server capability,object-level access failure and five independent safe findings
+  with error-only and CORS evidence variations. Progress129/191;62 leaves remain.
+- Files touched: new sections/6. Application and supply chain risks/6.1. Injection
+  XSS CSRF SSRF and broken access control.md; D13/track README files; this LOG.
+- Links fixed / added: registration,ten contextual aliases,five precise prior
+  access/query/CORS/encoding/finding owners plus domain/track navigation.
+- Research / Decisions: full-repo numeric injection/XSS/CSRF/SSRF/broken-access/
+  output-handling heading search returned no competing owner. Reused actual D08
+  parameterized-access,D07 CORS and preceding permission owners and complete JS
+  independent-role/tracing calibration; no full JavaScript/SQL or exploit course.
+  Actual current originating OWASP passages read:
+  https://cheatsheetseries.owasp.org/cheatsheets/Injection_Prevention_Cheat_Sheet.html
+  actual SQL data-plane/structure283–285 and parameterized-remediation317–319;
+  intervening older review/exploitation material inspected but no payload,tool,
+  technique,universal SQL outcome,sanitize-all-dynamic-SQL or timing-proves-cause
+  recipe adopted. https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
+  actual225–247 and context/danger/sanitization300–340; selected interpretation and
+  destination-specific handling,rejected arbitrary-content-is-always-XSS,all-
+  frameworks-fewer-bugs,all-timer-callbacks-unsafe,universal variable pipeline and
+  unqualified safe-string guarantees. Base64url paragraph reinforces decode-then-
+  context handling,not Base64-as-sanitization.
+  https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html
+  actual267–289 mechanism/client/authentication and defense context; rejected
+  all-cookies-automatically-sent,authorization-alone-prevents-CSRF,all-XSS-defeats-
+  every-defense,universal token pattern and blanket cookie-Domain prohibition.
+  No framework-version setup or modern header inventory taught as all-client default.
+  https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html
+  actual214–242 server fetch/callback/scope/destination cases; no attack talk/payload
+  followed,no HTTP-only or syntax-check-is-sufficient claim.
+  https://api-security.owasp.org/editions/2023/en/0xa1-broken-object-level-authorization/
+  actual108–114 and141 object/action permission and function-boundary contrast;
+  https://cheatsheetseries.owasp.org/cheatsheets/Insecure_Direct_Object_Reference_Prevention_Cheat_Sheet.html
+  actual184–189 ID/reference/missing-check explanation. Selected terminology only,
+  no attack execution or merely-equal-user-ID-as-complete authorization recipe.
+  Reused current authorization guide and original web-security article's actual
+  input/authority discussion inspected for preceding unit; rejected its no-client-
+  security-value/never-sanitize/blacklist-only-freeform absolutes,corroborated handling
+  through current originating guides. Sources are selected passages,not whole-site
+  reviews; all constructed evidence explicitly nonexecuted,NestJS+Fastify retained.
+- Verification: structural/link verifier passed129 leaves,2129 resolving links
+  across145 files,required sections/registrations,preserved proposal; whitespace
+  check passed. Assertions checked three promises,ten D13 leaves,track129/191,
+  ten unique aliases and no executable fences. Actual index additions inspected.
+  Editorial check traced all five primary boundaries,explicit synthetic/authorized
+  fictional findings,request-maker distinction,nonexclusive taxonomy,error-only
+  reduction,eligible-cookie condition and CORS-read versus forbidden-server-result.
+  Static interpretation only; no exploit,scan,browser script,database query,outbound
+  fetch,credential use,authorization request,mitigation test or performance run.
+- Next steps: D13.S06.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

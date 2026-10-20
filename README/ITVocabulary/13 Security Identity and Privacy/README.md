@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 9 of 15 approved lessons are available.
+This domain is in progress: 10 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 15 approved lessons are available.
 1. **Describe privileges through subjects actions resources and conditions:** Interpret least privilege RBAC ABAC and combined policies without treating a role or user-supplied attribute as universal authority.
 2. **Distinguish layered protection from implicit trust:** Explain deny-by-default enforcement defense in depth and zero trust through actual boundaries and resource decisions.
 3. **Apply a policy to a bounded request matrix:** Evaluate six independent requests and revise only the relevant result when trusted assignments or their source change.
+
+## 6. Application and supply chain risks
+
+### [6.1. Injection XSS CSRF SSRF and broken access control](<sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>)
+
+1. **Distinguish data becoming instructions from an unwanted browser action:** Explain injection SQL injection XSS output handling and CSRF through the interpreter and browser-authority boundaries.
+2. **Locate the server request and the missing resource permission:** Interpret SSRF and broken access control including object-level terms without treating parsing obscurity or authentication as complete protection.
+3. **Read five findings at their supplied evidence levels:** Classify safe constructed findings,retain overlap and uncertainty and explain why error-only or CORS evidence changes only particular conclusions.
 
 [← Back to IT Vocabulary](<../README.md>)

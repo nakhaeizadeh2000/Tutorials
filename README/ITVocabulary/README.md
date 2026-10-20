@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **128 of 191 approved lessons** are available.
+Implementation is in progress: **129 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -167,6 +167,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Blob | [Binary large object or product-specific opaque stored content](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Block storage | [Storage exposing addressable blocks through a device-like interface](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Blocking | [A specified execution resource waiting without proceeding with other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
+| BOLA | [Broken object level authorization in an API context](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Booting | [Starting a system toward a running environment](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Bootloader | [Loading or starting a subsequent boot stage](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Bottleneck | [A workload-specific limiting resource or path](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
@@ -179,6 +180,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Breaking-change notice | [Record identifying an affected compatibility contract and adaptation](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Breakpoint | [A condition where layout rules change](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Breakpoint (debugging) | [Specified execution location or condition at which a debugger stops](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
+| Broken access control | [Enforced permissions failing to restrict an operation required by policy](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Browser API | [A programming interface supplied by a browser environment](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Bucket (object storage) | [Storage container under a product’s object model](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Buffer | [Temporary holding area between stages with different progress rates](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
@@ -303,6 +305,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Cryptographic key | [Material controlling a defined cryptographic operation](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Cryptoperiod | [Authorized usage period for a key in a specified role](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | CSR | [Client-side rendering](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| CSRF | [Cross-site request forgery inducing unwanted browser requests with accepted authority](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | CSS | [Cascading Style Sheets and presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | CSS class | [An element label usable by selectors](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | CSS selector | [A pattern selecting elements for presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -552,6 +555,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | HTML | [HyperText Markup Language and document meaning](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | HTML attribute | [Information attached to an element](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | HTML element | [A component of the document described by markup](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
+| HTML sanitization | [Removal of disallowed HTML constructs under a suitable policy](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | HTTP | [Hypertext Transfer Protocol and shared message semantics](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | HTTP body | [Message data where content is permitted](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | HTTP cache | [Stored HTTP responses subject to reuse rules](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -582,6 +586,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Identity proofing | [Evaluation of evidence about a person’s claimed identity during enrollment](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Identity provider | [Provider issuing identity assertions under a federation arrangement](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | IDL | [Interface definition language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| IDOR | [Insecure direct object reference involving a missing object access restriction](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | IdP | [Identity provider](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Ignored file | [File matching applicable ignore rules](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IMAP | [Internet Message Access Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
@@ -596,6 +601,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Informative material | [Explanatory rather than requirement-defining material](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Ingestion | [Bringing data into a system](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Initialism | [Initial letters spoken separately](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Injection | [Untrusted data interpreted as instructions or structure in a protected context](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Inner join | [Matching pairs of rows](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Insert anomaly | [Inability to add an independent fact without unrelated data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Installed dependency tree | [Dependency contents present in a specified environment](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
@@ -805,6 +811,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | OSI model | [A reference model whose numbered layers are common shorthand](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | OSS | [Open source software](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | OTP | [One-time password authenticator output](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
+| Output encoding | [Context-specific representation keeping supplied content as data](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Overloaded word | [Several meanings selected by context](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | Ownership (filesystem) | [Recorded file user and group ownership](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Package | [A distribution or contextual import organization boundary](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
@@ -1098,6 +1105,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SPF | [Sender Policy Framework](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Spy (testing) | [Substitute recording interactions for inspection](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | SQL | [Structured Query Language with product-specific dialect capabilities](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
+| SQL injection | [Input crossing into database query instructions or structure](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | SQLite | [An embedded database engine using a library](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | SRP | [Single Responsibility Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | SSD | [Solid-state storage and what capacity does not prove](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
@@ -1106,6 +1114,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SSL | [Secure Sockets Layer and its historical use in product wording](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | SSO | [Single sign-on across participating applications](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SSR | [Server-side rendering with generation timing stated](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| SSRF | [Server-side request forgery abusing an application request capability](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Stable | [Compatibility status rather than universal availability](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Stack (data structure) | [Collection with last-in first-out removal](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Stack frame | [State associated with one function invocation](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -1285,6 +1294,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Working tree | [Checked-out files and directories available for editing](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 | XML | [Extensible Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
+| XSS | [Cross-site scripting involving untrusted browser-executed content](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | YAGNI | [You Aren’t Gonna Need It applied to speculative capabilities](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | YAML | [YAML Ain't Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Zero trust | [Resource-focused access without implicit trust solely from network location or ownership](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
