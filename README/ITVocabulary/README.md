@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **158 of 191 approved lessons** are available.
+Implementation is in progress: **159 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -79,6 +79,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Acknowledgment (incident) | [Recorded receipt of a notification or response assignment](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
+| Action item | [Owned follow-up work with a defined expected outcome and acceptance evidence](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Active LTS (Node.js) | [Node.js phase admitting audited changes appropriate for a long-term line](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Active-active | [Arrangement with multiple sides concurrently serving stated work](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | Active-passive | [Arrangement with one side serving stated work and another prepared for takeover](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
@@ -87,6 +88,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Adapter (architecture) | [Technology-specific connection to an application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Address space | [Addresses available under a program execution model](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Admission control | [Policy deciding which incoming work is accepted](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
+| After-action review | [Review of completed activity outcomes and lessons under local usage](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Age (HTTP) | [Estimated seconds since generation or successful origin validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
@@ -191,6 +193,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Bind (socket) | [Associate a socket with a local address](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Binding (RabbitMQ) | [Declared routing relationship between an exchange and queue](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Bit | [A binary digit with two possible values](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
+| Blameless postmortem | [Incident learning that examines actions and context without reducing explanation to personal blame](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Blast radius | [Scope of impact of a failure or change with the relevant boundary stated](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Blob | [Binary large object or product-specific opaque stored content](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Block storage | [Storage exposing addressable blocks through a device-like interface](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
@@ -680,6 +683,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Heap | [Dynamically managed storage with implementation-defined placement](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Hexadecimal | [Base sixteen and byte displays](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Hexagonal Architecture | [Application inside/outside interaction boundaries using ports and adapters](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
+| Hindsight bias | [Judging an earlier decision as if the eventual outcome had been evident then](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Histogram | [Counts of observations grouped into stated ranges](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | History rewriting | [Replacing the history identified by branch references with new commit records](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | HMAC | [Hash-based message authentication code using a shared secret](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
@@ -1080,6 +1084,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Plan (infrastructure) | [Preview of proposed resource actions under configuration inputs and observations](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
 | Platform and delivery review | [Tracing placements responsibility dependencies and release actions against scoped evidence](<14 Infrastructure Cloud and Delivery/sections/7. Applied delivery review/7.1. Read a platform diagram and release plan.md>) |
 | Platform engineering | [Developing shared internal capabilities around user needs](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
+| Playbook | [Guide for investigation and response across possible situations under local conventions](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Pod | [Kubernetes deployable unit grouping co-located and co-scheduled containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Policy (governance) | [Organizational rules and responsibilities with defined authority and scope](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -1091,8 +1096,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Port (transport) | [A protocol-scoped numeric endpoint identifier](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Ports and Adapters | [Hexagonal architecture organized around purposeful interaction contracts](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | POST | [Resource-defined processing of submitted content](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Post-incident review | [Retrospective review of an incident and its learning](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Post-quantum cryptography | [Schemes designed to resist relevant quantum-computer attacks](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | PostgreSQL | [A DBMS product with a client/server architecture](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Postmortem | [Retrospective incident account connecting impact response learning and follow-up](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | PR | [Pull request](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Pre-release identifier | [Hyphen-suffixed label preceding the corresponding normal SemVer version](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Predictive scaling | [Automatic adjustment informed by a forecast](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
@@ -1173,6 +1180,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Raw SQL | [SQL supplied directly to an access interface](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | RBAC | [Role-based access control grouping permissions through roles](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 | RC (release) | [Release candidate](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| RCA | [Root-cause analysis with explicit evidence and investigation scope](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | RDBMS | [Relational database management system](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Reactive scaling | [Automatic adjustment responding to observed signals](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Read-your-writes | [Observation guarantee covering a writer’s accepted updates within a defined scope](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
@@ -1277,6 +1285,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | RTL and LTR | [Right-to-left and left-to-right text direction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | RTO | [Recovery time objective for restoring defined usable service after interruption](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
 | RTT | [Round-trip time for a defined request-and-return observation](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
+| Runbook | [Documented procedure for a defined task and checked outcome](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Runtime | [Execution environment or the phase of running](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | RWD | [Responsive web design](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | rwx | [Read write and execute or directory search permission symbols](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |

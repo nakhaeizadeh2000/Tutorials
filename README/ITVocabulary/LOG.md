@@ -7045,3 +7045,50 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   service verification,correction,response-time or performance experiment run.
 - Next steps: D15.S06.L02,then every remaining approved D15–D18 unit;33 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S06.L02 — Runbooks playbooks postmortems and contributing factors — verified
+
+- Done: D15.S06.L02;procedure versus investigation/local naming,ambiguous restart
+  review specification,retrospective context/blameless learning and original R8
+  concurrency packet with owned acceptance evidence and premature-done variation.
+  Progress159/191;32 approved leaves remain.
+- Files touched: new sections/6. Incident operations/6.2. Runbooks playbooks
+  postmortems and contributing factors.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,nine contextual aliases,four exact incident/
+  causal/capacity/report owners plus domain/track navigation. Existing Contributing
+  factor/Root cause explanation retained;no copied operations implementation.
+- Research / Decisions: numerical repo runbook/playbook/postmortem/contribution
+  heading search found no full owner. Reused complete JS Fundamentals checklist
+  read this session for specific question-to-evidence review and real owner routes,
+  not historical LTS,universal thread/scheduling/error or mandatory lint rules.
+  Actual primary/original passages:
+  https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_ready_to_support_use_runbooks.html
+  actual7–38 procedure purpose,prerequisites/error/escalation/owner/validation;
+  https://docs.aws.amazon.com/wellarchitected/latest/framework/ops_ready_to_support_use_playbooks.html
+  actual7–35 investigation/conditional guidance;not full implementation templates.
+  Reject all-runbooks-guarantee-consistent-results,all-organizations-must-automate,
+  real-root-cause-before-any-mitigation,one vendor maturity/tool ladder or fixed
+  risk ratings. https://sre.google/sre-book/postmortem-culture/ actual51–75 and
+  80–100 retrospective account,review,context and follow-up;filled initial truncated
+  63–75 separately. Original2016 Lunney/Lueder chapter,not full book or mandatory
+  universal trigger/process. Reject recurrence-impossible,all-causes-known-before-
+  report,backend-rewrite-as-self-evidently-good,one-tool requirement or ignoring
+  intentional actions under a universal assumed-good-intent claim.
+  https://www.etsy.com/codeascraft/blameless-postmortems actual Allspaw May22 2012
+  main introduction/accountability/context and second-story passages through121;
+  not full article/linked Dekker/Hollnagel books. Page line numbering shifted
+  with navigation on retrieval;actual main passages read,not cookie text as article
+  evidence. Reject universal always-rational-choice/infallible-improvement,
+  training-never-useful and simple blame-removal-guarantees-safety assertions.
+- Verification: actual structural/link verifier passed159 leaves,2741 resolving
+  links across177 files,required sections/registrations,preserved proposal;git
+  diff --check passed after clarifying current-service wording. Unit assertions
+  checked three promises,nine unique aliases,11/13 domain,159/191 track,tables/
+  empty staging;additions inspected. Editorial check matched nonexecuting review
+  specification versus full runbook,R8syntax-only precheck,observed temporal load/
+  impact/restore sequence versus open mechanism,known-at-time context,and owned
+  outcome criteria versus document upload without workload check. Static review
+  only;no restart/runbook/playbook execution,incident reproduction,load experiment,
+  training/culture measurement,real tracker update or performance test performed.
+- Next steps: D15.S07.L01,then every remaining approved D15–D18 unit;32 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 10 of 13 approved lessons are available.
+This domain is in progress: 11 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -75,5 +75,11 @@ This domain is in progress: 10 of 13 approved lessons are available.
 1. **Separate a detection signal from an impact and response record:** Distinguish alerts notification acknowledgment triage on-call response and coordinated operational incidents.
 2. **Distinguish impact urgency relief and correction:** Interpret local severity priority mitigation remediation and resolution meanings without equating response labels with corrected causes.
 3. **Read a response timeline and preserve its unknowns:** Trace signal impact diversion and checked restoration then withdraw an outcome claim when verification evidence is removed.
+
+### [6.2. Runbooks playbooks postmortems and contributing factors](<sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>)
+
+1. **Distinguish a task procedure from an investigation guide:** Interpret runbook and playbook purposes then specify the missing target conditions steps verification and fallback in an ambiguous instruction.
+2. **Use a postmortem to explain the event and its contributing conditions:** Separate retrospective learning from live status and investigate actions context hypotheses and hindsight without substituting personal blame.
+3. **Turn an incident account into owned verifiable follow-up:** Rewrite a concurrency-change review and define action acceptance evidence that distinguishes publishing instructions from checking their outcomes.
 
 [← Back to IT Vocabulary](<../README.md>)
