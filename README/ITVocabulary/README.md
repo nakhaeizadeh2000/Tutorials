@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **145 of 191 approved lessons** are available.
+Implementation is in progress: **146 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -178,9 +178,11 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Bind (socket) | [Associate a socket with a local address](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Binding (RabbitMQ) | [Declared routing relationship between an exchange and queue](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Bit | [A binary digit with two possible values](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
+| Blast radius | [Scope of impact of a failure or change with the relevant boundary stated](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Blob | [Binary large object or product-specific opaque stored content](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Block storage | [Storage exposing addressable blocks through a device-like interface](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Blocking | [A specified execution resource waiting without proceeding with other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
+| Blue-green deployment | [Preparing alternate environments and switching relevant traffic between them](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | BOLA | [Broken object level authorization in an API context](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Booting | [Starting a system toward a running environment](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Bootloader | [Loading or starting a subsequent boot stage](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
@@ -219,6 +221,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Call stack | [Active function calls and caller continuation state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Callback | [Supplied behavior invoked by another operation](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Callback URL | [The receiving endpoint configured for callback delivery](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
+| Canary release | [Limited exposure to a change with evaluation before proceeding](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | CAP | [Consistency availability and partition-tolerance trade-off under a defined fault model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Capacity | [An amount rather than a rate](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Capped backoff | [Backoff growth limited by a maximum delay](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
@@ -265,6 +268,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Code unit | [A fixed-size encoding-form unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Codec | [An encoder and decoder for a conversion](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Cohesion | [How closely a unit’s contents serve its responsibility](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
+| Cohort (delivery) | [Defined user or account group receiving a specified treatment](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Collection (database) | [Group of documents in document database terminology](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Colocation | [Customer hardware placed in a provider’s data-center space](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Column | [Named attribute across table rows](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -423,6 +427,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Dependency Inversion Principle | [Policy and details depending on suitable abstractions](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Dependency resolution | [Selection of concrete dependencies under requirements and policy](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Dependency update review | [Connecting changed selections and compatibility claims to version-specific evidence](<11 Version Control Releases and Dependencies/sections/5. Applied change reading/5.1. Read a pull request release note and dependency update.md>) |
+| Deployment (delivery) | [Placing a software version or configuration into a specified operating environment](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Deployment (Kubernetes) | [Workload resource managing replaceable application Pods through ReplicaSets](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Deployment environment | [An operating context such as staging or production](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Deprecated | [Discouraged use versus actual removal](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -551,6 +556,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Fast-forward | [Advancing a branch reference to an existing descendant commit](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Fault | [Common testing synonym for a defect](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Feature detection | [Checking for a needed runtime capability](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| Feature flag | [Configured selection of behavior through defined control points](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
+| Feature toggle | [Feature flag](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Federation (identity) | [Trust arrangement enabling separately administered parties to rely on identity assertions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Fetch (Git) | [Obtaining selected objects and updating configured local references](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Field (data) | [Named part of a structured record](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -760,6 +767,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Key rotation | [Changing key material used for a defined purpose](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Key-value model | [Keys identifying associated values](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Keyboard focus | [The current target for keyboard interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Kill switch | [Control disabling a specified behavior under its implementation boundary](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | KISS | [Keep it simple and straightforward in behavior and necessary structure](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | KMS | [Key-management service controlling key access and operations](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Kubelet | [Node agent responsible for assigned Pods and their containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
@@ -1118,6 +1126,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Relational database | [Database organized using relations commonly represented as tables](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Relationship (data) | [Association between entries](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Relative path | [A path interpreted from a specified base](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Release (feature) | [Making changed behavior available to intended users under a stated convention](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Release candidate | [Proposed candidate for a final release under remaining review and fix criteria](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release channel | [Grouping of releases under an audience or readiness policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release line | [Family of maintained versions under a project’s policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
@@ -1165,8 +1174,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Risk (security) | [Potential harm considered with likelihood impact and context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Risk assessment | [Identification analysis and prioritization using stated models and assumptions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Role (security) | [Named grouping of responsibilities or permissions under a system’s policy](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Roll forward | [Introducing another change intended to correct a problem](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Rollback (data change) | [Attempt to return to an earlier data or schema state](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Rollback (deployment) | [Attempt to return a specified application routing or configuration scope to an earlier state](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Rollback (transaction) | [Discarding uncommitted changes in the transaction scope](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Rolling update | [Gradual replacement of subsets of old instances with new ones](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
+| Rollout | [Introduction of a change across intended instances or user populations](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Root cause | [Underlying causal explanation within a stated investigation scope](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Route (server) | [A rule selecting handling behavior for an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Router | [A role forwarding traffic between networks](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |

@@ -6489,3 +6489,47 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   deployment/promotion,production observation or performance measurement executed.
 - Next steps: D14.S06.L02,then every remaining approved D14–D18 unit;46 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S06.L02 — Builds releases deployments rollouts rollbacks and feature flags — verified
+
+- Done: D14.S06.L02;artifact/placement/exposure distinctions,flag control/adoption,
+  cohort denominators,rolling/canary/blue-green strategies,blast radius and scoped
+  rollback/roll-forward limits;original B12/D12 timeline. Progress146/191;45 remain.
+- Files touched: new sections/6. Change pipelines and exposure/6.2. Builds releases
+  deployments rollouts rollbacks and feature flags.md;D14/track READMEs;this LOG.
+- Links fixed / added: registration,13 contextual aliases,five precise build/image/
+  CI/data-migration/access owners plus domain/track navigation.
+- Research / Decisions: full-repo numerical rollout/rollback/feature/canary headings
+  found contextual Git/data rollback and TS package-release owners;read full D11
+  collaboration boundary leaf. Read complete JS Fundamentals checklist for questions
+  attached to owner evidence;reject stale NodeLTS,universal thread/microtask/late-
+  error claims,mandatory strictness/lint and missing required sections. Initial
+  guessed reference path absent;rg --files found actual section4.1. Selected sources:
+  https://martinfowler.com/articles/feature-toggles.html actual105–113,162–275 and
+  277–328,PeteHodgson Oct9 2017;deployment/exposure,decision context and categories.
+  Reject universal fixed flag lifetime/statistical duration,UI-toggle authorization,
+  all-flags-instant and untested-disabled-code-always-safe;not full667-line article.
+  https://martinfowler.com/bliki/BlueGreenDeployment.html actual71–83,2010/2015
+  history;switchable environments/shared-database compatibility,not guaranteed
+  rollback,zero downtime or disaster recovery from every switch. Linked book unread.
+  https://sre.google/workbook/canarying-releases/ actual41–44,88–110 and122–130;
+  partial exposure,evaluation and population-specific observation;reject mandatory
+  rollout policy,all-canaries-randomized-A/B,all-defects-detected,no-false-positives
+  or harmless-to-control guarantee. Historical tool examples not copied.
+  https://kubernetes.io/docs/concepts/workloads/controllers/deployment/ actual
+  1861–1873 RollingUpdate gradual replacement;current1.37 docs,not whole manual,
+  old nginx image defaults or automatic customer-outcome evaluation. AWS original
+  deployment article discovery redirected to zero-line body;PDF snippet not used
+  as passage evidence. Accessible original/principal sources suffice for outcomes.
+- Verification: actual structural/link verifier passed146 leaves,2500 resolving
+  links across163 files,required headings/registrations,preserved proposal;git
+  diff --check passed. Unit assertions passed three promises,13 unique aliases,
+  12/14 domain,146/191 track,table columns/empty staging;actual additions inspected.
+  Offline Fraction check20/1000=2% only. Editorial check traced build/running-image/
+  flag adoption/limited-evaluation/reversed-interactive exposure separately;D12
+  remains,worker outside flag,earlier exports uncorrected,D11 incompatible removed
+  field without recovery evidence. Removing effective observations weakens adoption.
+  Static packet only;no deployment,flag mutation,canary analysis,rollback,recovery,
+  Kubernetes/runtime,load/latency/cost or recovery-time measurement executed.
+- Next steps: D14.S07.L01,then every remaining approved D14–D18 unit;45 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

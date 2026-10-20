@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 11 of 14 approved lessons are available.
+This domain is in progress: 12 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -85,5 +85,11 @@ This domain is in progress: 11 of 14 approved lessons are available.
 1. **Distinguish integration practice from an automation service:** Explain frequent shared integration CI services runners jobs and pipeline dependencies without treating a green badge as production deployment.
 2. **Separate deployability from automatic production deployment:** Expand ambiguous CD and distinguish common environment roles parity and artifact promotion under actual configuration and dependency evidence.
 3. **Trace checks deployability and a production action separately:** Classify three flows and inspect candidate-specific test staging and production records including simulated dependencies and old-revision badges.
+
+### [6.2. Builds releases deployments rollouts rollbacks and feature flags](<sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>)
+
+1. **Separate artifact preparation placement and user exposure:** Distinguish builds deployments release meanings flags and cohorts while identifying effective configuration and access boundaries.
+2. **Compare rollout strategies and scope recovery actions:** Explain rolling updates canary evaluation blue-green traffic switching rollback and roll forward without assuming compatible data or complete recovery.
+3. **Read an exposure timeline without inventing a recovery result:** Trace running images flag evaluations and account exposure then revise conclusions when adoption evidence is removed.
 
 [← Back to IT Vocabulary](<../README.md>)
