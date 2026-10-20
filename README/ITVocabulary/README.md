@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **133 of 191 approved lessons** are available.
+Implementation is in progress: **134 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -36,7 +36,7 @@ Domain indexes appear here as lessons are completed.
 | 10 | [Concurrency Messaging and Distributed Systems](<10 Concurrency Messaging and Distributed Systems/README.md>) — complete |
 | 11 | [Version Control Releases and Dependencies](<11 Version Control Releases and Dependencies/README.md>) — complete |
 | 12 | [Testing Debugging and Quality Evidence](<12 Testing Debugging and Quality Evidence/README.md>) — complete |
-| 13 | [Security Identity and Privacy](<13 Security Identity and Privacy/README.md>) — in progress |
+| 13 | [Security Identity and Privacy](<13 Security Identity and Privacy/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).

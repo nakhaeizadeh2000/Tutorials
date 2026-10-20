@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 14 of 15 approved lessons are available.
+This domain is complete: all 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -103,5 +103,13 @@ This domain is in progress: 14 of 15 approved lessons are available.
 1. **Annotate roles artifacts and protection boundaries before judging the claim:** Read an informal identity and data relationship sketch without confusing intended arrows with verified protocol or permission evidence.
 2. **Connect the finding to policy and observations without inventing impact:** Distinguish accepted identity,forbidden roster access,retention evidence and limited assessment scope in an original synthetic packet.
 3. **Write an evidence-based handoff and revise it when facts change:** Give technical and stakeholder explanations,propose discriminating checks and revise only the affected conclusion when assignment or correction evidence changes.
+
+## 9. Overlaps to avoid
+
+### [9.1. Boundaries of security identity and privacy vocabulary](<sections/9. Overlaps to avoid/9.1. Boundaries of security identity and privacy vocabulary.md>)
+
+1. **Choose the owner that answers the actual question:** Route the domain’s security identity crypto access advisory privacy and assurance questions to precise canonical lessons.
+2. **Separate vocabulary from implementation and specialist assessment:** Distinguish language TLS backend-operation and jurisdiction-specific responsibilities without treating future tracks as published prerequisites.
+3. **Route a mixed handoff without overstating what passed:** Explain independent shape Base64 signature and missing-assessment observations and revise only permission claims supported by added checks.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -5864,3 +5864,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   test executed,no formal diagram renderer or security proof claimed.
 - Next steps: D13.S09.L01,then every approved D14–D18 unit;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S09.L01 — Boundaries of security identity and privacy vocabulary — verified
+
+- Done: D13.S09.L01;14 canonical conceptual-owner routes,language/TLS/backend/
+  operational/legal responsibility boundaries and original mixed shape/Base64/
+  signed-artifact handoff with added-permission evidence. All15 approved D13
+  outcomes now implemented;progress134/191;57 leaves remain across D14–D18.
+- Files touched: new sections/9. Overlaps to avoid/9.1. Boundaries of security
+  identity and privacy vocabulary.md; D13/track README completion/progress; LOG.
+- Links fixed / added: registration,21 precise local conceptual/language/adjacent
+  owner routes plus domain/track navigation; D13 complete,track remains in progress.
+  No new alias,unpublished specialist link or other-track content change.
+- Research / Decisions: repo boundary/owner discovery and complete current D13
+  index confirmed the14 preceding conceptual owners. Reread full JS Fundamentals
+  boundary reference for explicit topic-to-owner navigation,rejecting historical
+  future-TypeScript/WebPlatform labels and absolute ban on useful small examples.
+  Read full TS Static checking vs runtime reality owner for shape-versus-authority
+  scope and actual existing destination; no new run/reverification of its examples
+  or older runtime versions as current baseline. Reused D13 evaluated current
+  primary/original source map and actual preceding owners,including OWASP authority,
+  RFC4648 representation,NIST identity/crypto/assurance and scoped privacy guides;
+  no new protocol/version/security or jurisdiction-specific guarantee. Root planned
+  NestJS/ProductionToolchain routes remain plain learning guidance,NestJS+Fastify
+  retained,no automatic new-track authorship or security implementation course.
+- Verification: structural/link verifier passed134 leaves,2223 resolving links
+  across150 files,required numbered sections/registrations,preserved proposal;
+  whitespace check passed after clarifying function-signature wording. Assertions
+  checked three promises,all15 immutable approved D13 IDs against real files and
+  index registrations,domain completion and track134/191 in progress. Inspected
+  actual index/status changes. Editorial check matched all15 approved outcomes
+  to actual leaves,eight grouped owner questions,request shape versus trusted
+  principal,Base64 versus confidentiality,valid origin versus unperformed advisory
+  review and added permission observation's limited scope. Static routing/claim
+  exercise only; no fresh parser/access/decode/signature/scan test,incident/legal
+  assessment,implementation or performance experiment executed.
+- Next steps: D14.S01.L01,then every remaining approved D14–D18 unit. Exact pending
+  scope is D14's14,D15's13,D16's13,D17's10 and D18's7 ledger IDs. Curriculum revision1
+  approval/full191-leaf scope remains intact,no new gate;do not start another root
+  track or treat D13 completion as full-track completion.
