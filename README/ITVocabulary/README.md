@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **113 of 191 approved lessons** are available.
+Implementation is in progress: **114 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -92,6 +92,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Application schema | [Expected structure and constraints on application data](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Application session | [Context connecting a sequence of application interactions](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Architecture diagram | [Scoped representation of selected system aspects and relationships](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Arrange–Act–Assert | [Preparation action and evaluation sequence for reading a test](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Artifact | [A work product with a producer and intended consumer](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | ASCII | [A smaller repertoire preserved in UTF-8](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Assistive technology | [Technology supporting access and alternative interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
@@ -351,6 +352,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DQL | [Data query language classification used in some teaching conventions](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | DRY | [Don’t Repeat Yourself applied to duplicated knowledge](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | DST | [Daylight saving time and seasonal clock changes](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| Dummy (testing) | [Required argument that is not used on the exercised path](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Durability (transaction) | [Persistence of accepted changes under stated failure assumptions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Duration | [Elapsed time and compatible units](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | E2E test | [End-to-end workflow check with actual endpoints and substitutions named](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
@@ -398,6 +400,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exponential backoff | [Retry delay growing multiplicatively under a stated rule](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Failure | [Observed behavior not meeting the relevant expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
+| Fake (testing) | [Working simplified substitute with explicit behavioral limits](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Fallback | [An alternative path when a capability is unavailable](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Fast-forward | [Advancing a branch reference to an existing descendant commit](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Fault | [Common testing synonym for a defect](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
@@ -415,6 +418,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Final release | [Publisher-designated completed release milestone](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Firewall | [A device or program controlling network traffic under policy](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Firmware | [Software tied to low-level device operation](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
+| Fixture | [Prepared test data state or resources and sometimes their setup mechanism](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Folder | [Common name for a directory](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Foreign key | [Declared reference rule to an allowed referenced key](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Fork (hosting) | [Separate repository linked to an original through a hosting-platform relationship](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
@@ -619,6 +623,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Minor version | [Version component signaling compatible functionality or public deprecation under SemVer](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Mirror (packages) | [Service distributing copied package contents](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Mobile application | [A client targeting mobile operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| Mock (testing) | [Substitute with interaction expectations to verify](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Modernization | [Changing a system to meet current needs or constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Modular monolith | [Combined deployment with maintained internal design boundaries](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Module | [A code unit under its language ecosystem rules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
@@ -938,6 +943,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SPDX | [A specification family used for software information and SBOM exchange](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Specification | [Defined behavior and requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | SPF | [Sender Policy Framework](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| Spy (testing) | [Substitute recording interactions for inspection](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | SQL | [Structured Query Language with product-specific dialect capabilities](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | SQLite | [An embedded database engine using a library](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | SRP | [Single Responsibility Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
@@ -969,6 +975,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Stream (messaging) | [Sequence or flow of records made available over time](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Stream processing | [Processing an ongoing data flow](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Streaming SSR | [Sending generated HTML in portions](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| Stub | [Substitute supplying prepared answers or failures](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Stub resolver | [A resolver depending on another resolver to complete resolution](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Subdomain | [A name below another domain in the label hierarchy](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Subnet | [A network subdivision commonly described by a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -994,8 +1001,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Terminal | [The text interaction surface and terminal emulator](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
+| Test assertion | [Executable evaluation of an observed condition against an expectation](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Test case | [Specified situation actions or inputs and expected outcomes](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Test charter | [Mission and boundaries guiding a testing session](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
+| Test double | [Replacement for a real collaborator for a testing purpose](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Test level | [Organization of evaluation around a software scope](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Test run | [Actual execution of selected tests in an identified version and environment](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Test suite | [Collection of cases selected for a purpose](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |

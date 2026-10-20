@@ -4901,3 +4901,48 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   reproduction or performance measurement executed; no inflated label/run count.
 - Next steps: D12.S03.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S03.L01 — Assertions fixtures test doubles mocks stubs spies and fakes — verified
+
+- Done: D12.S03.L01; assertion versus type assertion,fixture resource/setup roles,
+  five substitute roles,actual receipt/recorded-call check and wrong-total failure
+  with local-interaction versus real-delivery limits. Progress114/191;77 leaves remain.
+- Files touched: new sections/3. Test arrangements and limits/3.1. Assertions fixtures
+  test doubles mocks stubs spies and fakes.md; D12/track README files; this LOG.
+- Links fixed / added: registration,nine contextual lookup entries,five precise
+  existing owners plus domain/track navigation. No actual notification sent.
+- Research / Decisions: full-repo numeric assertion/fixture/double/mock/stub/spy
+  heading search found JS double mechanics and TS type-double/type-assertion owners.
+  Read full JS Test doubles taxonomy dummy stub spy mock fake and when each fits
+  for concrete substitute/observation contrasts; rejected fake-always-faithful/cheap,
+  fixed mock-rarity/state-first policies,recorded-call-as-external-effect proof,
+  exact method-count performance folklore and state-assertions-always-refactor-proof.
+  Actual original/current sources consulted:
+  https://martinfowler.com/bliki/TestDouble.html (Jan17 2006 actual Meszaros taxonomy,
+  canned answers,recorded calls,expectations and simplified working implementations;
+  not current-library inventory or an immutable universal classification).
+  https://docs.python.org/3.15/library/unittest.mock.html (actual introduction,
+  configured returns,recording/expectations and spec/lookup passages; no full2075-line
+  manual review,no autospec-proves-full-behavior or library-Mock-name-implies-one-role
+  claim,no mocking-library execution/install or Testing-track framework selection).
+  https://playwright.dev/docs/test-fixtures (actual introduction,resource lifetime,
+  setup/teardown/builtin page-versus-shared-browser distinction; rejected blanket
+  fixture-isolation-covers-all-external-state and full behavior/efficiency guarantees).
+  Existing DI/type-assertion/delivery owners supply linked context; no container,
+  framework,remote-notification or broad test-design course duplicated. Python3.15
+  current docs compared with disclosed pinned3.14.4 actual language-only example.
+  User reiterated continue when date advanced to2026-10-20; unchanged approval
+  retained and this dirty current unit reconciled before advancing.
+- Verification: exact recorded_notice.py fence extracted and executed CPython3.14.4/
+  Linux x86_64,exit0,full stdout accepted/[5]/local expectation passed matched.
+  Fresh temporary wrong-total-only variant actually exits1,stdout exactly accepted
+  and[6],stderr ends in expected AssertionError,no final passing line. No network
+  operations/imports/framework; explicit if/raise avoids disabled-assert ambiguity.
+  Final structural/link verifier passed (114 leaves,1802 resolving local links
+  across129 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,same object stub+spy roles,
+  prepared receipt versus called total,exact-list count and input/model limits.
+  Local interaction checks only; no real notifier/provider acceptance,email,
+  database fake-equivalence,distributed exactly-once or performance test executed.
+- Next steps: D12.S03.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

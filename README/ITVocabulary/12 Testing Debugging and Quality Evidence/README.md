@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 4 of 10 approved lessons are available.
+This domain is in progress: 5 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 10 approved lessons are available.
 1. **Separate the tested scope from the quality question and execution method:** Interpret functional and non-functional purposes across levels and distinguish a case, suite and actual run.
 2. **Distinguish change protection from a preliminary smoke check:** Compare regression, confirmation and smoke purposes without treating overlapping labels or planned cases as independent passing executions.
 3. **Use exploration to turn observations into the next useful experiment:** Read a focused charter and filter investigation, preserve evidence versus hypotheses, and connect exploration with repeatable regression cases.
+
+## 3. Test arrangements and limits
+
+### [3.1. Assertions fixtures test doubles mocks stubs spies and fakes](<sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>)
+
+1. **Identify the prepared situation and the condition being checked:** Distinguish test assertions, fixture data or resources, setup and cleanup, and the Arrange–Act–Assert reasoning sequence.
+2. **Choose a substitute by its role rather than its library name:** Interpret dummy, stub, spy, mock and fake roles and the real behavior each arrangement leaves unverified.
+3. **Run a recording collaborator and test what it establishes:** Execute a local interaction check, observe a wrong-total failure and separate the prepared receipt and recorded call from real delivery.
 
 [← Back to IT Vocabulary](<../README.md>)
