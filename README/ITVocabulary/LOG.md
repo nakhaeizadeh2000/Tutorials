@@ -5192,3 +5192,51 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   access,scan,TLS handshake,export,recovery,risk score or performance test executed.
 - Next steps: D13.S01.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S01.L02 — Vulnerabilities exploits attacks incidents and attack surface — verified
+
+- Done: D13.S01.L02; weakness/use/event/incident distinctions,attack surface versus
+  confirmed vulnerabilities,vector/trust-boundary scope,original scanner/staging/
+  denied-attempt/uncorrelated200 packet and permission/content-confirmed variation.
+  Progress121/191;70 approved leaves remain.
+- Files touched: new sections/1. Assets and threats/1.2. Vulnerabilities exploits
+  attacks incidents and attack surface.md; D13/track README files; this LOG.
+- Links fixed / added: registration,14 contextual aliases,five exact prior
+  threat/status/artifact/signal/cause owners and domain/track navigation.
+- Research / Decisions: full-repo vulnerability/exploit/security-incident headings
+  found no competing owner. Reused complete JS Engines runtimes and hosts reference
+  just read for neighboring-role attribution,not universal engine/runtime/error/
+  performance claims. Prior original ThreatModelingManifesto supplies bounded
+  system/concern/change teaching. Actual selected sources:
+  NIST800-30r1 actual vulnerability and procedure/control/change passages printed9/
+  PDF17,selected threat-scenario paragraphs printed10; URL in previous unit.
+  https://csrc.nist.gov/pubs/sp/800/61/r3/final actual Apr3 2025 final metadata and
+  linked https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r3.pdf
+  actual introduction printed2/PDF9 event/adverse-event/incident distinction and
+  metadata explicitly superseding2012r2. No full48-page review,federal legal
+  classification for this user,mandatory incident thresholds or complete response
+  process imported. Integrated currentr3 directly,not outdatedr2 baseline.
+  https://cheatsheetseries.owasp.org/cheatsheets/Attack_Surface_Analysis_Cheat_Sheet.html
+  actual stated external-application scope,entry/exit/data/protection map and
+  changed-interface considerations; rejected all-microservices-independent,
+  endpoint-count-as-complete-risk,extra-field-does-not-change-risk,grouping-means-
+  no-need-endpoint-understanding and always-reducing-roles-is-safer generalizations.
+  Guide's vague checksum-as-protection wording not imported as security guarantee.
+  Linked OWASP SecurityTerminology actual topic structure/selected text inspected
+  for possible follow-on identity/crypto discovery,not exploit evidence or accepted
+  always-after-authentication/encoding-always-reversible/signature-proves-person
+  claims. NIST exploit glossary unavailable; CISA unfiltered overview403; no content
+  claimed from either or huge-filter search catalog snippets,no CVE/PoC/current
+  campaign assertion added. Ordinary exploit term scoped to taking advantage of a
+  weakness; no payload,attack execution or operator playbook. NestJS+Fastify static.
+- Verification: structural/link verifier passed (121 leaves,1939 resolving links
+  across137 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,scanner label versus actual
+  packaging,authorized synthetic staging versus production,explicit identified
+  five denied attempts,uncorrelated200 versus verified one-record disclosure and
+  local incident rule. Added evidence changes only one-record classification;
+  identity,intent,cause,total extent remain unknown. Static packet only; no actual
+  scan,exploit,network access,staging/production test,incident response,legal breach
+  determination,severity score or performance measurement executed.
+- Next steps: D13.S02.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **120 of 191 approved lessons** are available.
+Implementation is in progress: **121 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -77,6 +77,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Age (HTTP) | [Estimated seconds since generation or successful origin validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Algorithm | [Specified procedure solving a problem for allowed inputs](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Allocation | [Making managed storage available for data or execution state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Alpha release | [Early testing milestone under a publisher’s development policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
@@ -104,6 +105,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | At-most-once | [Zero or one occurrence at the stated boundary](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Atomic operation | [Operation indivisible with respect to specified competing observations](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | Atomicity (transaction) | [Accepting transactional changes as a unit or discarding them](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
+| Attack (security) | [Deliberate attempt to compromise security with success stated separately](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
+| Attack surface | [Points paths and interactions through which a scoped system can be attacked](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
+| Attack vector | [Route or means used for an attack](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Attestation | [Statement about a specified subject such as an artifact](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Attribution | [Acknowledgment distinct from a grant of permission](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Authoritative copy | [Copy designated to decide the relevant fact](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
@@ -146,6 +150,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Branch (Git) | [Line of development whose current tip is identified by a branch reference](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Branch coverage | [Counted decision outcomes or transitions exercised under tool rules](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Branch tip | [Most recent commit identified by a branch reference](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
+| Breach (security) | [Context-dependent loss or disclosure term requiring facts and classification criteria](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Breaking change | [Change violating the stated compatibility boundary](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Breaking-change notice | [Record identifying an affected compatibility contract and adaptation](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Breakpoint | [A condition where layout rules change](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
@@ -222,6 +227,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Composite key | [Identifier formed from a combination of columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Composition root | [The application assembly location for concrete collaborators](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Compression | [Representing data with size reduction as a goal](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
+| Compromise | [Loss of a security property or unauthorized access with scope stated](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Concurrency | [Organizing work whose lifetimes can overlap](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Concurrency limit | [A bound on simultaneously active work](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Conditional breakpoint | [Breakpoint honored when its condition holds](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
@@ -271,6 +277,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CSS selector | [A pattern selecting elements for presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Cursor (pagination) | [A continuation position under a collection contract](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | CWD | [Current working directory of a process](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Cybersecurity incident | [Occurrence meeting explicit actual or imminent harm or policy-violation criteria](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | CycloneDX | [A specification family supporting structured component inventories](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Dangling link | [A symbolic link whose target does not resolve](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
@@ -411,6 +418,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Expected behavior | [Outcome justified by a stated requirement or reference](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>) |
 | Experimental | [A publisher-specific lifecycle policy](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Expiration (data) | [Ending usability or presence under a lifetime rule](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
+| Exploit | [Technique or code taking advantage of a vulnerability](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
+| Exploitability | [Whether and under what conditions a weakness can be taken advantage of](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
+| Exploitation | [Taking advantage of a vulnerability under particular conditions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Exploratory testing | [Testing in which learning design execution and evaluation inform each other](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Exponential backoff | [Retry delay growing multiplicatively under a stated rule](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
@@ -926,6 +936,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
+| Security event | [Observed occurrence with security relevance](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Semantic conflict | [Incorrect combined behavior despite potentially successful text integration](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Semantic Versioning | [Version-change rules relative to a declared public API](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | SemVer | [Semantic Versioning](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
@@ -938,6 +949,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Service worker | [A separately managed web script supporting facilities such as request handling](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Session cookie | [A cookie without Max-Age or Expires](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | sessionStorage | [Origin and page-session scoped browser key/value storage](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| Severity (finding) | [Seriousness under a stated rating method rather than complete business risk](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | SHA-256 | [A named cryptographic hash used in byte comparison](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Shard | [One managed portion of a sharded dataset](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Shard key | [Key used for placement or routing across shards](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
@@ -1084,6 +1096,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Transpilation | [Source-to-source compilation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Tree (data structure) | [Hierarchical parent-child organization in a stated rooted model](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Trust anchor | [Trusted starting information for certificate-path validation](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| Trust boundary | [Change in trust or authority assumptions between contexts](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | TTL (DNS) | [Time to live for DNS cache use](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Tunnel (network) | [Carrying communication through an enclosing connection or protocol](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Tutorial | [Guided learning through a manageable task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
@@ -1138,6 +1151,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | VM | [Virtual machine with a language or infrastructure meaning](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 | VPN | [Virtual private network](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
+| Vulnerability | [Weakness in a system procedure implementation or control that can be exploited](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | WAL | [Write-ahead log used for database recovery and related mechanisms](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | WAN | [Wide area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Watch expression | [Debugger expression reevaluated to observe a value](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
