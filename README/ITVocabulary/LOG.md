@@ -5240,3 +5240,50 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   determination,severity score or performance measurement executed.
 - Next steps: D13.S02.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S02.L01 — Identification authentication authorization and accounting — verified
+
+- Done: D13.S02.L01; account claim versus accepted identity evidence,proofing
+  versus authentication,AuthN/AuthZ/securityAAA,public authorization,accounting/
+  audit context and original four-request policy/outcome packet with changed-
+  assignment and completed-response variations. Progress122/191;69 leaves remain.
+- Files touched: new sections/2. Identity and access/2.1. Identification authentication
+  authorization and accounting.md; D13/track README files; this LOG.
+- Links fixed / added: registration,11 contextual aliases,five precise existing
+  CORS/OS/testingAAA/incident/context owners plus domain/track navigation.
+- Research / Decisions: full-repo identity/auth/accounting headings found contextual
+  minimum reminders,not competing full identity owner. Read complete existing CORS
+  leaf,tail reread after initial combined-output truncation; preserve browser policy
+  ownership instead of repeating header mechanics. Reused full JS Engines runtimes
+  and hosts attribution calibration from this domain,without its universal runtime/
+  error/performance claims. Actual sources:
+  https://pages.nist.gov/800-63-4/sp800-63.html originating revision4 overview and
+  https://pages.nist.gov/800-63-4/sp800-63/model/ actual informative model roles,
+  enrollment/accounts and authentication/authenticator passages; no full multi-volume
+  review,all-services-must-proof-real-names,human-subject-covers-machine-identities
+  or all-private-keys-only-used-by-owner guarantee. Current revision4 integrated
+  directly,no older revision3 baseline or unexecuted login implementation.
+  https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html
+  actual introduction194–204 and contextual actor/resource/operation passages;
+  selected public access and authenticated-but-unpermitted cases,rejected stale2021
+  rankings as current,malicious-intent-required,universal role hierarchy and always-
+  same-server/order assertions. Previous generic OWASP terminology entry's always-
+  after-authentication wording is resolved by this actual authorization guide.
+  https://www.rfc-editor.org/rfc/rfc2903.html actual status/abstract and accounting
+  service-use passage920–923; historical Experimental2000 recognition source only,
+  not current standards-track default or full proposed architecture deployment.
+  Auth0 original comparison URL unavailable,no content claimed; originating OWASP
+  guide and already evaluated learner auth-ambiguity question supply accessible
+  pedagogical context,not community votes as factual authority. Selected extra
+  combined outputs truncated outside cited actual passages,no full source claim.
+- Verification: structural/link verifier passed (122 leaves,1958 resolving links
+  across138 files,required numbered sections/registrations,preserved proposal);
+  whitespace check passed. Editorial check matched three promises,claimed versus
+  verified name,publicA,authenticated-but-W2-onlyB,allowed-but-uncompletedC,
+  claimed-onlyD,and policy assignment change before later evaluation. Added transfer
+  evidence strengthens completion only; human understanding and all-resource safety
+  remain untested. Static access packet only; no authentication,authorization,
+  account update,policy propagation,audit validation,framework/database/request
+  integration or performance measurement actually executed.
+- Next steps: D13.S02.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
