@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **159 of 191 approved lessons** are available.
+Implementation is in progress: **160 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -404,6 +404,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | DaemonSet | [Resource managing a Pod on each eligible node in selected scope](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Dangling link | [A symbolic link whose target does not resolve](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Dashboard | [Selected observation panels and computed views under explicit queries](<15 Performance Observability and Reliability/sections/7. Applied service review/7.1. Read a dashboard and challenge a reliability claim.md>) |
 | Data | [Represented information with context and interpretation](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Data center | [Facility housing computing and supporting infrastructure](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Data design review | [Mapping structure operation copy and pipeline claims to scoped evidence](<08 Databases Storage and Data Pipelines/sections/7. Applied interpretation/7.1. Read a data design and recovery claim.md>) |
@@ -1217,6 +1218,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Release line | [Family of maintained versions under a project’s policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Reliability | [Continued correct service or broader dependable outcomes under the stated usage](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
+| Reliability claim review | [Comparison of service objectives measurement populations aggregation and recovery evidence](<15 Performance Observability and Reliability/sections/7. Applied service review/7.1. Read a dashboard and challenge a reliability claim.md>) |
 | Relying party | [Application relying on an accepted identity assertion](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Remediation | [Addressing an identified problem or contributing condition within a stated scope](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Remote (Git) | [Named configuration for communicating with another repository](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |

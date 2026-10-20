@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 11 of 13 approved lessons are available.
+This domain is in progress: 12 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -81,5 +81,13 @@ This domain is in progress: 11 of 13 approved lessons are available.
 1. **Distinguish a task procedure from an investigation guide:** Interpret runbook and playbook purposes then specify the missing target conditions steps verification and fallback in an ambiguous instruction.
 2. **Use a postmortem to explain the event and its contributing conditions:** Separate retrospective learning from live status and investigate actions context hypotheses and hindsight without substituting personal blame.
 3. **Turn an incident account into owned verifiable follow-up:** Rewrite a concurrency-change review and define action acceptance evidence that distinguishes publishing instructions from checking their outcomes.
+
+## 7. Applied service review
+
+### [7.1. Read a dashboard and challenge a reliability claim](<sections/7. Applied service review/7.1. Read a dashboard and challenge a reliability claim.md>)
+
+1. **Recover the intended service claim and each panel’s actual scope:** Map health timing and worker summary panels to their operation region population and reporting window before comparing them with an objective.
+2. **Separate a known objective miss from unsupported broader claims:** Calculate the matching SLI and budget gap reject averaged quantiles and distinguish a separate rehearsal’s recovery time and data point.
+3. **Write an evidence-based correction and choose the next question:** Explain results to technical and product readers then reduce certainty correctly when direct indicator evidence is removed.
 
 [← Back to IT Vocabulary](<../README.md>)

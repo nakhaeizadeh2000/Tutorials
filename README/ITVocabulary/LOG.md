@@ -7092,3 +7092,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   training/culture measurement,real tracker update or performance test performed.
 - Next steps: D15.S07.L01,then every remaining approved D15–D18 unit;32 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S07.L01 — Read a dashboard and challenge a reliability claim — verified
+
+- Done: D15.S07.L01;original scope/query/objective packet integrates health versus
+  registration,success-only mean,worker quantiles,direct SLI/budget and independent
+  recovery rehearsal;two audience corrections and removed-evidence variation.
+  Progress160/191;31 approved leaves remain.
+- Files touched: new sections/7. Applied service review/7.1. Read a dashboard and
+  challenge a reliability claim.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,two contextual aliases,five precise timing/
+  quantile/SLO/recovery/follow-up owners plus domain/track navigation.
+- Research / Decisions: full-repo numerical dashboard/reliability-claim/service-
+  review discovery found no competing integrated owner;read full current D15
+  index. Reused complete JS Fundamentals checklist for question-to-artifact review
+  and uncertainty discipline,not stale NodeLTS,universal thread/scheduling/error
+  or mandatory lint guidance. Reopened actual primary original sources:
+  https://sre.google/sre-book/monitoring-distributed-systems/124–144 successful/
+  failed timing and aggregate-tail limits;not universal four-metrics-suffice,
+  all-wrong-content-only-E2E-detectable or fixed bucket/window recipe. Reused
+  https://sre.google/workbook/implementing-slos/89–103 intended property versus
+  measurement coverage;reopened89–101 visible before tool substring cutoff,
+  complete selected passage already read for S04. No new full-chapter claim.
+  Prior evaluated primary Prometheus quantile aggregation/AWS recovery definitions
+  and actual D15 owners retain their full mechanisms. No new API/version/tool
+  behavior or current real dashboard data introduced.
+- Verification: actual structural/link verifier passed160 leaves,2751 resolving
+  links across178 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,two unique aliases,
+  12/13 domain,160/191 track,tables/empty staging;additions inspected. Executed
+  Fraction assertions9999/10000→99.99%,199500/200000→99.75%,allowed200 versus500
+  bad/excess300,(100+2000)/2=1050 and independent22>20RTO/2<=5RPO. Editorial check
+  matched intended all-region24h operation versus R1health and success-only10min
+  mean,disjoint worker counts without raw pooled distribution,complete direct
+  classifications versus unknown causes and separate rehearsal. Removing direct
+  counts withdraws known miss/calculation without proving success. Static packet/
+  arithmetic only;no dashboard query,live SLI/latency,pooled backend percentile,
+  recovery or performance experiment performed. Proposed investigation unrun.
+- Next steps: D15.S08.L01,then all approved D16–D18 units;31 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
