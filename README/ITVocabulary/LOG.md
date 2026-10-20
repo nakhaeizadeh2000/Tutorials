@@ -5149,3 +5149,46 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   timeout investigation,retry,load or performance run claimed.
 - Next steps: D13.S01.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S01.L01 — Confidentiality integrity availability assets threats and risk — verified
+
+- Done: D13.S01.L01; asset/property distinctions,CIA versus mechanism/ACID/CAP,
+  threat source/event versus assessment,likelihood/impact and rating limits,
+  original TLS/public-export/check-in packet and changed-public-content variation.
+  Created D13 index;progress120/191;71 approved leaves remain.
+- Files touched: new D13 README and sections/1. Assets and threats/1.1.
+  Confidentiality integrity availability assets threats and risk.md; track README;
+  this LOG. No security configuration or real organization assessment changed.
+- Links fixed / added: real D13 module/leaf/prerequisite-free domain navigation,
+  14 contextual lookup entries,five precise preceding property/evidence owners.
+  New domain singular progress uses 1 of15 approved lessons is available.
+- Research / Decisions: full-repo asset/threat/confidentiality/integrity headings
+  found JS object integrity and existing CAP/ACID meanings,not a general security
+  owner. Read full JS Engines runtimes and hosts for neighboring-role attribution,
+  rejecting universal conformance,console-as-language-built-in,all-error attribution,
+  never-environment-check and cross-engine cost hierarchy claims. Actual sources:
+  https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.199.pdf (February2004 actual
+  security objectives printed2/PDF5 and public-information example printed3/PDF6;
+  no full compliance/legal-applicability assessment or old-authority-as-current-law
+  claim). https://csrc.nist.gov/pubs/sp/800/30/r1/final actual originating metadata
+  plus https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-30r1.pdf
+  (September2012 actual2.3 risk/model printed6–7,2.3.1 threats printed8 and selected
+  likelihood printed10–11/PDF18–19; no full95-page review or latest-new-edition
+  claim). Selected explicit context/time/assumptions and adversarial/non-adversarial
+  sources,not one mandatory calculation/scale or federal workflow for every team.
+  Some combined extra PDF excerpts truncated; selected cited paragraphs were visible,
+  no full-figure/appendix reading claimed. https://www.threatmodelingmanifesto.org/
+  actual definition,questions,values/principles and adaptive-methodology passages,
+  original practitioner-group contribution; not a full training course,universal
+  effectiveness guarantee,perfect-diagram requirement or security certificate.
+  Search unrelated publications/mirrors discovery only; no exploit procedure,
+  personalized compliance or new runtime/security tool baseline introduced.
+- Verification: structural/link verifier passed (120 leaves,1917 resolving links
+  across136 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,public schedule versus
+  restricted roster,connection versus export scope,possible versus observed harm,
+  no numerical likelihood/ranking evidence,and changed contents affecting only
+  the described disclosure scenario. Static vocabulary packet only; no actual
+  access,scan,TLS handshake,export,recovery,risk score or performance test executed.
+- Next steps: D13.S01.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
