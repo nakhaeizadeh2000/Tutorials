@@ -6606,3 +6606,45 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
 - Next steps: D15.S01.L01,then all approved D15–D18 units. Exact remaining scope:
   D15's13,D16's13,D17's10,D18's7 ledger IDs;43 leaves. Curriculum revision1/full191
   approval unchanged,no pending gate;D14 completion is not track completion.
+
+### D15.S01.L01 — Latency response time throughput utilization and saturation — verified
+
+- Done: D15.S01.L01;service time boundaries,arrival/completion/useful throughput,
+  resource utilization denominators,excess waiting and broader saturation usage,
+  original interval/snapshot/trace packet and completed-timeout variation.
+  Created D15 index;progress149/191;42 approved leaves remain.
+- Files touched: new D15 README and sections/1. Measuring behavior/1.1. Latency
+  response time throughput utilization and saturation.md;track README;this LOG.
+- Links fixed / added: real D15 module/leaf registration,10 contextual aliases,
+  five precise units/network/pressure/scaling/JS-clock owners and navigation.
+- Research / Decisions: section-wide full-repo numerical utilization/saturation/
+  latency/percentile headings found JS optimization applications and earlier
+  network meaning;read full D05 network measurement owner. Read complete JS Clocks
+  hrtime performance.now and benchmark harnesses for boundary/clock/question
+  discipline;reject universal clock resolution,best-clock ranking,fixed sample/
+  warmup/GC policy,unreliable DCE harness,median-subtraction and guessed timings.
+  Actual original primary teaching sources:
+  https://www.brendangregg.com/usemethod.html actual33,58–86 and89–99,USE resource
+  definitions,software limits,alternate occupancy and averaging caveat. Selected
+  original method contribution,not full256-line guide/book,80%-of-issues/5%-effort
+  anecdote,fixed utilization threshold or mandatory cache-investigation order.
+  https://sre.google/sre-book/monitoring-distributed-systems/ actual105–144,
+  successful/failed timing,traffic/errors and broader constrained-capacity sense.
+  Compared broader golden-signals fullness with USE excess-work definition;
+  explicitly scope lesson rather than force one chart meaning. Reject only-E2E-
+  tests-can-find-wrong-content,automatic monitoring sufficiency,universal alert/
+  target/measurement-resolution rules and old Google staffing defaults. Some
+  combined output truncated outside selected visible passages;no full chapter
+  claim. Search slides/methodology page discovery only;no tools or load run.
+- Verification: actual structural/link verifier passed149 leaves,2551 resolving
+  links across167 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,10 unique aliases,
+  1/13 domain,149/191 track,tables/empty staging;index additions inspected and new
+  singular progress fixed. Actual offline Fraction assertions verified10/9/8.5
+  rates,100−90=8+2,20%CPU,100%pool snapshot,2.0+0.1=2.1-second trace and timeout
+  variant100 completions/unchanged85 successes/zero outstanding. Editorial check
+  matched promises,initial-empty/no-drop model,same-clock scope,CPU versus pool,
+  snapshot versus whole interval and undetermined slot-holding cause. Synthetic
+  arithmetic/reading only;no service,pool,CPU,network,load,profile or timing test.
+- Next steps: D15.S01.L02,then every remaining approved D15–D18 unit;42 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
