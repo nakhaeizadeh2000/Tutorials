@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 5 of 14 approved lessons are available.
+This domain is in progress: 6 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -43,5 +43,11 @@ This domain is in progress: 5 of 14 approved lessons are available.
 1. **Map orchestration responsibilities to clusters nodes and Pods:** Identify Kubernetes control-plane scheduling node-agent and Pod grouping roles without equating logical units with physical hosts.
 2. **Separate desired workloads from observed instances and network access:** Distinguish controllers workload resources replicas readiness and Service endpoints while keeping replacement and data guarantees scoped.
 3. **Read a placement and endpoint packet without inventing availability:** Compare hardware nodes desired Pods and eligible endpoints; revise readiness or causal conclusions only when supplied evidence supports them.
+
+### [3.2. Ingress egress service discovery sidecars and service meshes](<sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>)
+
+1. **Identify traffic direction and distinguish route intent from implementation:** Interpret ingress egress north-south and east-west boundaries; distinguish Kubernetes Ingress Gateway API and their implementing components.
+2. **Separate discovery helper placement and mesh traffic roles:** Explain service discovery sidecar lifecycle support and mesh control/data planes including sidecar and ambient arrangements.
+3. **Trace a request across boundaries and vary the evidence:** Classify a fictional routing packet without inferring a working entry path mesh authorization or delivery from configuration names.
 
 [← Back to IT Vocabulary](<../README.md>)

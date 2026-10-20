@@ -6169,3 +6169,57 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   public request,availability,capacity or performance test executed.
 - Next steps: D14.S03.L02,then every remaining approved D14–D18 unit;52 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S03.L02 — Ingress egress service discovery sidecars and service meshes — verified
+
+- Done: D14.S03.L02;relative direction/internal-external diagram conventions,
+  route object versus controller,Ingress freeze versus Gateway API,discovery versus
+  contact outcome,sidecar pattern versus native lifecycle and mesh data/control
+  roles with sidecar/ambient distinctions;original packet and evidence variations.
+  Progress140/191;51 approved leaves remain.
+- Files touched: new sections/3. Orchestration and platforms/3.2. Ingress egress
+  service discovery sidecars and service meshes.md;D14/track READMEs;this LOG.
+- Links fixed / added: registration,15 contextual aliases,six precise prior
+  platform/network/DNS/TLS/access/retry owners plus domain/track navigation.
+- Research / Decisions: section-wide full-repo orchestration/mesh/sidecar discovery
+  already found no general owner;preceding product-specific Pod/Service lesson
+  retains those mechanics. Reused complete JS independent-role/condition reference,
+  not universal runtime/error/cost claims. Actual selected originating sources:
+  https://kubernetes.io/docs/concepts/services-networking/ingress/ actual907–950
+  HTTProute/controller/frozen-but-GA/no-removal-plan and Gateway recommendation;
+  not generic-ingress-equals-object,all-protocols,automatic public exposure,old
+  controller defaults or contradictory defaultBackend paragraphs later in guide.
+  Gateway extension-family context also actually read in preceding Service956.
+  https://kubernetes.io/docs/concepts/services-networking/dns-pod-service/ actual
+ 935–949 normal ClusterIP versus headless DNS shape;no all-clusters.cluster.local,
+  every-successful-lookup-proves-ready or old KubeDNS record examples as current.
+  https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/ actual
+ 907–926/964–968 stable-since1.33,restartable-init lifecycle versus broader pattern;
+  no prerelease framing,all-helpers-proxies,all-restarts-no-application-impact or
+  old feature-gate requirement as current locked-feature advice. No YAML run.
+  https://istio.io/latest/docs/overview/dataplane-modes/ actual417–468 sidecar and
+  node/optional-protocol-proxy modes,mesh control/data roles. Reject all-traffic-
+  always-enrolled,no-application-impact,universal any-CNI/full-feature/security
+  equivalence,stale single-cluster-only claims and numerical latency table as
+  measured here. No version install/support recommendation or video viewed.
+  https://www.buoyant.io/what-is-a-service-mesh actual original explanatory43–100
+  purpose,proxy versus management responsibilities,sidecar placement and added
+  operating work;not full341-line guide. Reject all-features-uniform-with-no-app-
+  changes,linear-per-service-cost,always-two-hops,all-mesh-proxies-L7,mesh-required-
+  for-modern-software and guaranteed security/reliability. Compared current Istio
+  mode diversity with older sidecar-centered explanation;retain boundary questions
+  rather than product recommendation. Discovery-only debate videos,papers and
+  community votes not treated as actual reading or benchmark evidence. Initial
+  Istio open showed navigation only;reopened395–468 actual body before authorship.
+- Verification: actual structural/link verifier passed140 leaves,2360 resolving
+  links across157 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Assertions checked three promises,15 unique aliases,
+  6/14 domain,140/191 track and no executable fences;index additions inspected.
+  Editorial check matched promises,relative F/R/cluster traffic,logical arrows,
+  object-only versus tested controller path,lookup versus request,log helper versus
+  proxy,selected gateway path versus all paths,missing business/delivery evidence
+  and no-sidecar not-proving-no-mesh variation. Static reasoning only;no ingress/
+  discovery/controller/mesh installation,API request,TLS/policy/retry/recipient
+  integration or proxy/discovery/resource/latency benchmark executed.
+- Next steps: D14.S04.L01,then every remaining approved D14–D18 unit;51 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.
