@@ -5657,3 +5657,59 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   fetch,credential use,authorization request,mitigation test or performance run.
 - Next steps: D13.S06.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S06.L02 — CVE CWE CVSS advisories patching and supply chain failures — verified
+
+- Done: D13.S06.L02; vulnerability IDs versus weakness types,CVSS4 version/vector/
+  metric groups and severity versus risk,advisory conditions/supply-chain scope,
+  mitigation versus patch adoption and original affected-version/new-build/still-
+  old-instance packet with confirmed-trigger and missing-runtime variations.
+  Progress130/191;61 approved leaves remain.
+- Files touched: new sections/6. Application and supply chain risks/6.2. CVE CWE
+  CVSS advisories patching and supply chain failures.md; D13/track READMEs; LOG.
+- Links fixed / added: registration,11 contextual aliases,five precise prior
+  vulnerability/category/dependency/inventory/change owners plus domain/track routes.
+- Research / Decisions: full-repo numeric CVE/CWE/CVSS/advisory/patch/supply-chain
+  heading search found contextual version-patch and D11 provenance owners,not a
+  competing vocabulary lesson. Reused complete JS independent-role/condition
+  calibration and actual D11 dependency/inventory/change evidence owners; no legacy
+  runtime/default/performance claims or duplicated package-manager course.
+  Actual sources consulted:
+  https://cwe.mitre.org/about/faq.html actual60–62 and80 weakness/CVE distinction;
+  current originating explanation corroborates specific instance versus type.
+  https://www.cve.org/About/Overview and /ResourcesSupport/Glossary returned only
+  JavaScript-required stubs,no actual definition content claimed. Accessible
+  https://www.cve.org/Resources/Media/Archives/OldWebsite/cve/identifiers/index.html
+  actual7–20 identifier/description/reference passages read,explicit historical
+  archive,not current record-state/CNA-rules or API guidance. CWE current FAQ
+  corroborates core role; no identifier-year/state/funding behavior taught.
+  https://www.first.org/cvss/v4.0/user-guide.html actual document1.2 metadata,
+ 268–304 metric groups/nomenclature/Base-severity-versus-risk and selected340–366
+  change/scoring context; not full762-line guide,all-BTE-is-complete-risk,score-as-
+  probability or interchangeable3.1/4.0 assessments. https://www.first.org/cvss/v4.0/specification-document
+  actual metric-group291–310 definition/vector/0–10/Supplemental-no-score effect;
+  no full1035-line specification,calculator run or invented score/vector published.
+  Current4.0 integrated directly,older publisher assessments explicitly scoped.
+  https://top10.owasp.org/2025/A03_2025-Software_Supply_Chain_Failures/
+  actual63,71,74 and81 scope/definition/inventory passages; rejected survey/count/
+  incidence statistics as total-world risk,all-cases-deliberate,automatic safety from
+  patched versions or prescriptive monthly/quarterly policy. Reused original
+  Chainguard selection/retrieval/artifact/execution reasoning evaluated for D11,
+  not vendor/zero-CVE promises or unverified incident counts.
+  https://csrc.nist.gov/pubs/sp/800/40/r4/final actual Apr2022 metadata/abstract,
+  identifying/prioritizing/acquiring/installing/verifying process; not full handbook,
+  universal fixed deadline or guaranteed no compromise. Topic sources supply
+  curriculum/teaching input beyond a taxonomy; no actual advisory or exploit case.
+- Verification: structural/link verifier passed130 leaves,2148 resolving links
+  across146 files,required sections/registrations,preserved proposal; whitespace
+  check passed after editorial count-word refinement. Assertions checked three
+  promises,11 D13 leaves,track130/191,all11 unique aliases and no executable fences.
+  Actual index additions inspected. Editorial check matched all three promises,
+  fabricated non-CVE labels,affected component versus unknown trigger,no actual
+  score computation,A12 running versus producedA13,confirmed-path strengthens
+  exposure only and removed-runtime row leaves deployed version unknown. Static
+  packet interpretation only; no scan,CVE lookup of a real issue,CVSS calculation,
+  dependency update,build,exploit,installation,mitigation/deployment verification
+  or performance test run. Proposed follow-ups remain unexecuted.
+- Next steps: D13.S07.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

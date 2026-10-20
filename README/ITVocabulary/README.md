@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **129 of 191 approved lessons** are available.
+Implementation is in progress: **130 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -310,7 +310,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CSS class | [An element label usable by selectors](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | CSS selector | [A pattern selecting elements for presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Cursor (pagination) | [A continuation position under a collection contract](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
+| CVE | [Common Vulnerabilities and Exposures identifying vulnerability records](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
+| CVE ID | [Common identifier referring to a specific vulnerability record](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
+| CVSS | [Common Vulnerability Scoring System communicating characteristics and severity](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
+| CVSS Base | [Intrinsic vulnerability characteristics distinct from complete consumer risk](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
+| CVSS vector | [Textual representation of the selected scoring metric values](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | CWD | [Current working directory of a process](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| CWE | [Common Weakness Enumeration describing weakness types](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Cybersecurity incident | [Occurrence meeting explicit actual or imminent harm or policy-violation criteria](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | CycloneDX | [A specification family supporting structured component inventories](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
@@ -465,6 +471,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exploitation | [Taking advantage of a vulnerability under particular conditions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Exploratory testing | [Testing in which learning design execution and evaluation inform each other](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Exponential backoff | [Retry delay growing multiplicatively under a stated rule](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
+| Exposure (vulnerability) | [Presence of relevant vulnerable components and triggering conditions in a scoped system](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Failure | [Observed behavior not meeting the relevant expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Fake (testing) | [Working simplified substitute with explicit behavioral limits](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
@@ -834,6 +841,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PATCH | [Apply a modification document](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Patch (version control) | [Textual change representation for inspection or application](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Patch version | [Version component signaling compatible bug fixes under SemVer](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
+| Patching | [Applying a corrective software change update or upgrade](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Path | [Components interpreted from a defined starting point](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Path template | [A described path with variable components](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Paxos | [A named family of consensus protocols](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
@@ -1038,6 +1046,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
+| Security advisory | [Published issue affected-condition and corrective-action information](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Security event | [Observed occurrence with security relevance](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Security token | [Protocol-interpreted representation of security information or authority](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Self-signed certificate | [Certificate signed with its own corresponding private key](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
@@ -1091,6 +1100,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Software | [Programs and associated instructions and material](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Software component | [Contextual software unit considered through responsibility and interface](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Software license | [Permissions and conditions applying to covered software](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
+| Software supply chain | [Dependencies tools build distribution and updates delivering software](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | SOLID | [Five principles concerning responsibilities extension and dependencies](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Source code | [Instructions expressed in a programming language](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
 | Source formatter | [A tool rewriting source presentation](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
@@ -1151,6 +1161,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Subnet | [A network subdivision commonly described by a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Subnet mask | [An IPv4 bit mask expressing a network prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Subscription | [Recorded interest under routing and delivery rules](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Supply chain failure | [Breakdown or compromise in producing distributing or updating software](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Support status | [Availability maintenance and service meanings](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Suspension (task) | [Pausing a task continuation while its execution resource may run other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | SUT | [System under test](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |

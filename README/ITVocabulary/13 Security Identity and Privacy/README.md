@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 10 of 15 approved lessons are available.
+This domain is in progress: 11 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -75,5 +75,11 @@ This domain is in progress: 10 of 15 approved lessons are available.
 1. **Distinguish data becoming instructions from an unwanted browser action:** Explain injection SQL injection XSS output handling and CSRF through the interpreter and browser-authority boundaries.
 2. **Locate the server request and the missing resource permission:** Interpret SSRF and broken access control including object-level terms without treating parsing obscurity or authentication as complete protection.
 3. **Read five findings at their supplied evidence levels:** Classify safe constructed findings,retain overlap and uncertainty and explain why error-only or CORS evidence changes only particular conclusions.
+
+### [6.2. CVE CWE CVSS advisories patching and supply chain failures](<sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>)
+
+1. **Distinguish identifiers weakness types and severity assessments:** Interpret CVE CWE CVSS versions vectors and metric groups without equating Base severity with complete local risk.
+2. **Read an advisory through the actual software supply chain:** Separate affected versions and triggering conditions from inventories provenance mitigation and verified patch adoption.
+3. **Trace a fictional advisory from inventory to deployment:** Review a constructed dependency and artifact packet and revise only exposure or deployment claims when their supporting evidence changes.
 
 [← Back to IT Vocabulary](<../README.md>)
