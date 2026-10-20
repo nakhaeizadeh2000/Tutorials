@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **144 of 191 approved lessons** are available.
+Implementation is in progress: **145 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -223,6 +223,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Capacity | [An amount rather than a rate](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Capped backoff | [Backoff growth limited by a maximum delay](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Cardinality (relationship) | [Allowed participation counts on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| CD | [Ambiguous shortening of continuous delivery or continuous deployment](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | CDC | [Change data capture of source-data changes](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | CDN | [Content delivery network with distributed delivery and possible shared caching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Certificate (TLS) | [A signed binding involving identity information and a public key](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
@@ -237,6 +238,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Checkpoint | [Recorded progress for continuation or recovery](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Checksum | [A check value tied to an algorithm and input](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | CHIPS | [Cookies Having Independent Partitioned State](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| CI | [Continuous integration frequently combining and checking shared code](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
+| CI runner | [Execution environment performing configured workflow work](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
+| CI service | [Automation service executing configured work around integration events](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
+| CI/CD | [Integration with continuous delivery or deployment with the actual flow specified](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | CIA triad | [Confidentiality integrity and availability security objectives](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | CIDR notation | [An address or prefix followed by a slash and prefix length](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Ciphertext | [Encrypted representation under a cryptographic scheme](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
@@ -310,6 +315,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Container registry | [Service storing and distributing image content and metadata](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Container runtime | [Software creating and running containerized processes](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Continuous delivery | [Discipline of keeping software deployable through repeatable preparation verification and deployment capability](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
+| Continuous deployment | [Automatic production deployment of changes passing applicable pipeline conditions](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Contract test | [Evaluation of an agreed interaction or implementation contract at a boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Contributing factor | [Condition helping explain how a failure arose](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Control (security) | [Measure used to achieve an objective or manage a security or privacy risk](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -406,6 +413,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DEK | [Data encryption key protecting the data](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | DELETE (HTTP) | [Remove the target’s current functionality association](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Delete anomaly | [Unintended loss of independent facts on deletion](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Delivery pipeline | [Preparation verification and deployment-related activities connected by dependencies and gates](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Delivery semantics | [Allowed delivery outcomes at an explicit boundary and fault model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Denormalization | [Deliberate redundant or precombined data representation](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Deny by default | [Rejecting access unless applicable policy permits it](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
@@ -426,6 +434,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Desktop application | [A client targeting desktop operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Detached HEAD | [Checkout context referring directly to a commit instead of a branch](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Development dependency | [Requirement serving development or build work](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
+| Development environment | [Operating context for building and investigating changes](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Device driver | [Software participating in OS and device communication](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Device-bound passkey | [Passkey retained on a particular authenticator](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | DevOps | [Practices and cultural approaches connecting software development delivery and operation](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
@@ -499,6 +508,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Entity (DDD) | [Domain object identified through continuity across attribute changes](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Enum (schema) | [A value constrained to an explicitly listed set of choices](<07 APIs Protocols and Integration/sections/6. Applied contract reading/6.1. Translate an API specification and failed integration.md>) |
 | Envelope encryption | [Data encryption with separately protected data keys](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
+| Environment parity | [Matching relevant characteristics across operating contexts](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Environment variable | [A named value in a process environment](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | EOL | [End of life](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Ephemeral port | [A temporary port selected for a use such as an outgoing connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
@@ -810,6 +820,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Machine word | [A context-defined representation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Mail relay | [Forwarding a message toward another mail system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Mail submission | [Introducing a message into the mail delivery system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| Mainline | [Shared integration line in a development workflow](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Maintenance LTS (Node.js) | [Node.js phase focused on critical bug and security maintenance](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Major version | [Version component signaling incompatible public-API changes under an adopted scheme](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Managed service | [Service with specified operational tasks delegated to a provider](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
@@ -980,6 +991,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PID | [Process identifier scoped to the observed instance](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Pipe | [A byte-stream channel connecting a writer and reader](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
+| Pipeline job | [Configured group of work steps under tool conventions](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
+| Pipeline stage | [Broader workflow phase under tool conventions](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | PITR | [Point-in-time recovery using retained state and history](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | PKCE | [Proof Key for Code Exchange binding the exchange to the initiating transaction](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | PKI | [Public key infrastructure for managing certificate and trust relationships](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
@@ -1004,6 +1017,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Preemptive scheduling | [Scheduler interruption without an explicit yield at that moment](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Prefix length | [The number of leading address bits specifying a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Prerendering | [Preparing HTML or a future browser navigation depending on context](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
+| Preview environment | [Temporary operating context for selected proposed changes](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Primary (database) | [Participant accepting writes in a stated primary/replica design](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Primary key | [Selected unique non-null row identifier](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Principal (security) | [Entity represented in a security decision such as a user account service or device](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
@@ -1019,9 +1033,11 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Processing purpose | [Specified task or reason for operations with data](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Producer (messaging) | [Role creating or sending messages](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Production environment | [Context serving intended operational users or business workload](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Program | [Instructions executed in an appropriate environment](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Projection (events) | [Representation derived by applying event history](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
+| Promotion (delivery) | [Advancing a selected artifact or version through a delivery process](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Property graph | [Graph model with properties on nodes and relationships](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Proprietary software | [Software under terms withholding the relevant software-freedom rights](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
@@ -1291,6 +1307,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Stack frame | [State associated with one function invocation](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Stack trace | [Recorded call frames at a specified observation](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Staging | [Recording selected contents in the index](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Staging (environment) | [Context for rehearsing relevant production-like behavior](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Staging area | [Selected contents prepared for the next Git snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Stale response | [A response no longer meeting its freshness test](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | stale-if-error | [Bounded stale service for eligible errors](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -1352,6 +1369,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Test case | [Specified situation actions or inputs and expected outcomes](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Test charter | [Mission and boundaries guiding a testing session](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Test double | [Replacement for a real collaborator for a testing purpose](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
+| Test environment | [Operating context for selected checks](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Test level | [Organization of evaluation around a software scope](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Test oracle | [Reference or mechanism for deciding an expected outcome](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Test run | [Actual execution of selected tests in an identified version and environment](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |

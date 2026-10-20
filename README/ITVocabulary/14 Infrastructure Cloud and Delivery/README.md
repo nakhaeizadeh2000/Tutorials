@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 10 of 14 approved lessons are available.
+This domain is in progress: 11 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -77,5 +77,13 @@ This domain is in progress: 10 of 14 approved lessons are available.
 1. **Distinguish infrastructure definitions from configuration activities:** Explain IaC provisioning configuration management and imperative/declarative definitions while scoping idempotent operation claims.
 2. **Separate desired state tool state plans and drift:** Distinguish reference configuration live observations Terraform records refresh plan and apply; identify scope and sensitive artifact limits.
 3. **Reconcile an emergency-change packet before selecting a correction:** Compare authorized live changes with older definitions and records then distinguish refresh-only knowledge from resource or intent changes.
+
+## 6. Change pipelines and exposure
+
+### [6.1. CI continuous delivery continuous deployment and environments](<sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>)
+
+1. **Distinguish integration practice from an automation service:** Explain frequent shared integration CI services runners jobs and pipeline dependencies without treating a green badge as production deployment.
+2. **Separate deployability from automatic production deployment:** Expand ambiguous CD and distinguish common environment roles parity and artifact promotion under actual configuration and dependency evidence.
+3. **Trace checks deployability and a production action separately:** Classify three flows and inspect candidate-specific test staging and production records including simulated dependencies and old-revision badges.
 
 [← Back to IT Vocabulary](<../README.md>)
