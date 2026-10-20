@@ -5713,3 +5713,58 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   or performance test run. Proposed follow-ups remain unexecuted.
 - Next steps: D13.S07.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S07.L01 — Personal data privacy consent retention and data minimization — verified
+
+- Done: D13.S07.L01; purpose/processing versus mechanism,privacy/security overlap,
+  context-dependent personal information,pseudonymization versus anonymization,
+  scoped consent and adequate/necessary collection,retention events/copies and
+  original registration/marketing/export packet with assessed-count/age-purpose
+  variations. Progress131/191;60 approved leaves remain.
+- Files touched: new sections/7. Privacy and governance language/7.1. Personal data
+  privacy consent retention and data minimization.md; D13/track README files; LOG.
+- Links fixed / added: registration,ten contextual aliases,five exact prior
+  security/crypto/copy/secrets/access owners and domain/track navigation.
+- Research / Decisions: full-repo numeric privacy/personal/consent/retention heading
+  search found JS closure-private-state,TS emit retention and D08 copies,different
+  owners. Reused complete JS independent-role/condition calibration,not universal
+  host/error/performance claims; actual crypto and backup owners retain mechanics.
+  Actual selected primary and regulator educational sources:
+  https://www.nist.gov/privacy-framework/new-projects/privacy-framework-version-11
+  actual metadata still calls1.1 InitialPublicDraft and2025 comment closure; no
+  draft presented as final. https://nvlpubs.nist.gov/nistpubs/CSWP/NIST.CSWP.01162020.pdf
+  actual1.0 Jan16 2020,1.2.1 printed3/PDF6 lines205–235 privacy risks without cyber
+  incidents,processing lifecycle and effects; not full43-page framework review,
+  legal definition or mandatory US control system for every reader.
+  https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/personal-information-what-is-it/what-is-personal-information-a-guide/
+  actual identified/identifiable/relates-to/context and pseudonym/anonymous body;
+  not every identifier automatically personal in all contexts or any hypothetical
+  identification sufficient. https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/data-minimisation/
+  actual adequacy/relevance/necessity and selected practical purpose examples;
+  no smallest-possible-even-if-inadequate rule or this user's legal assessment.
+  https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/data-protection-principles/a-guide-to-the-data-protection-principles/storage-limitation/
+  actual retention purpose/review and offline/deletion/pseudonym passages160–169;
+  no universal deletion duration,all-backup-traces-immediately-erasable promise,
+  indefinite-analytics exception or absolute-rights legal advice. UK sources'
+  Data(UseAndAccess)Act review notices explicitly retained; not silently EU rules.
+  https://www.edpb.europa.eu/sme/be-compliant/process-personal-data-lawfully_en
+  actual20–54 legal-basis choices,consent conditions/withdrawal/affirmative action;
+  EU GDPR example only,not consent-required-for-all-processing,automatic alternative
+  basis,blanket all-employment-consent outcome or full marketing-law review.
+  EUR-Lex ELI/HTML/PDF routes returned JavaScript stubs and commission personal-data
+  page internal error; no legal text claimed as read. Regulator-originating guides
+  provide accessible definitions. Selected cross-jurisdiction concepts explicitly
+  separated,not personal/legal recommendations. Original local packet uses its own
+  30-day/affirmative-choice rules,not prescribed statutory periods.
+- Verification: structural/link verifier passed131 leaves,2166 resolving links
+  across147 files,required sections/registrations,preserved proposal; whitespace
+  check passed after clarifying day31 starts at workshop end. Assertions checked
+  three promises,12 D13 leaves,track131/191,ten unique aliases,no executable fences.
+  Actual index additions inspected. Editorial check matched all three promises,
+  booking-email/workshop linkage,unused birth/passport fields,preselected versus
+  affirmative choice,primary deletion versus identifiable export,no exception,
+  supplied no-linkage count assessment and changed age-purpose necessity questions.
+  Static policy reasoning only; no personal-data access,mail submission,record
+  deletion,anonymization validation,legal/compliance decision,restore or benchmark.
+- Next steps: D13.S07.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

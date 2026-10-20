@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **130 of 191 approved lessons** are available.
+Implementation is in progress: **131 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -89,6 +89,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Alpha release | [Early testing milestone under a publisher’s development policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Ambiguity | [Choosing among plausible meanings](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | Annotated tag | [Tag using a message-bearing tag object with optional signature](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
+| Anonymization | [Making information no longer relate to an identifiable person under the relevant assessment](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Antipattern | [Recurring problematic approach with contextual consequences and improvement](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | AOT | [Ahead-of-time compilation relative to a stated execution boundary](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | API | [Application programming interface including local operations](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
@@ -269,6 +270,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Connection refusal | [A failed connection attempt reporting refusal](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
 | Connector (data) | [Integration component for a source or destination](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Consensus | [Agreement on a proposed value under validity safety and progress conditions](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
+| Consent (privacy) | [Agreement to specified processing under applicable conditions](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Consistency (ACID) | [Preserving defined invariants through valid operations](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Consistency (distributed) | [Allowed operation histories and observations under a stated model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Constraint (database) | [Enforced restriction on allowed data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
@@ -326,8 +328,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Data lake | [Repository retaining varied datasets for later uses](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Data mart | [Analytical data serving a narrower subject or audience](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Data migration | [Movement or transformation of data values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Data minimization | [Adequate relevant information limited to what the purpose requires](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Data model | [Structures and relationships organizing information](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Data pipeline | [Connected collection movement and processing steps](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
+| Data processing | [Operations such as collecting using storing sharing and deleting data](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Data race | [Conflicting accesses defined by a specific language memory model](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | Data structure | [Organization of data supporting defined operations](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Data warehouse | [Data organized for integrated analysis and reporting](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -856,6 +860,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Persistence | [Retention beyond a stated execution lifetime through storage](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Persistent cookie | [A cookie with declared expiry information](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Persistent storage | [Retained data versus working memory](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| Personal data | [Information relating to an identified or identifiable person under the applicable definition](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Phantom read | [Changed matching row set on a repeated query](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Phishing resistance | [Protocol property resisting authentication misuse through an impostor verifier](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Physical backup | [Database storage representation and required supporting state](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
@@ -885,12 +890,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Primary key | [Selected unique non-null row identifier](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Principal (security) | [Entity represented in a security decision such as a user account service or device](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Principal (technical debt) | [Work needed to address an underlying technical burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
+| Privacy | [Data-processing effects on people and relevant expectations rights and responsibilities](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Private address | [An address from a stated private-use range](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Private cache | [An HTTP cache serving one user](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Private key | [Secret material for its specified asymmetric cryptographic role](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Procedural programming | [Organizing computation into procedures or functions](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
+| Processing purpose | [Specified task or reason for operations with data](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Producer (messaging) | [Role creating or sending messages](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Program | [Instructions executed in an appropriate environment](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
@@ -905,6 +912,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Provider scope | [Configured reuse and lifetime boundary for provider instances](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Provider token | [Runtime identity used to resolve a provider binding](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Proxy (network) | [An intermediary forwarding communication on behalf of another participant](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
+| Pseudonymization | [Separating direct identity from working references while preserving a possible link](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Pub-sub | [Publish–subscribe distribution to interested subscriptions](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Public API | [An interface offered to outside consumers under a stated access contract](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Public domain | [Copyright-status concept distinct from public repository visibility](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
@@ -994,6 +1002,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | REST | [Representational State Transfer architectural style](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Restore | [Loading retained material into a usable target](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Result set | [Rows returned by a retrieval](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
+| Retention (privacy) | [Keeping and disposing of data under purpose-specific lifecycle rules](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
+| Retention period | [Duration for specified data with starting event and exceptions defined](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Retesting | [Common term for confirmation of a correction](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Retransmission | [Sending replacement data after inferred loss](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | Retry | [Another attempt after failure or an uncertain result](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |

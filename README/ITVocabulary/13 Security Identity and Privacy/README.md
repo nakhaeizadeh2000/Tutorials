@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 11 of 15 approved lessons are available.
+This domain is in progress: 12 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -81,5 +81,13 @@ This domain is in progress: 11 of 15 approved lessons are available.
 1. **Distinguish identifiers weakness types and severity assessments:** Interpret CVE CWE CVSS versions vectors and metric groups without equating Base severity with complete local risk.
 2. **Read an advisory through the actual software supply chain:** Separate affected versions and triggering conditions from inventories provenance mitigation and verified patch adoption.
 3. **Trace a fictional advisory from inventory to deployment:** Review a constructed dependency and artifact packet and revise only exposure or deployment claims when their supporting evidence changes.
+
+## 7. Privacy and governance language
+
+### [7.1. Personal data privacy consent retention and data minimization](<sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>)
+
+1. **Identify people-related information and its processing purpose:** Distinguish personal data privacy processing pseudonymization and anonymization with explicit context and legal-scope boundaries.
+2. **Separate consent necessary collection and justified retention:** Interpret consent as a scoped choice,data minimization as adequate necessary information and retention as a purpose-and-copy lifecycle rule.
+3. **Review a collection and deletion claim against a stated policy:** Assess an original registration and export packet,then revise only the supported conclusion when anonymity evidence or product purposes change.
 
 [← Back to IT Vocabulary](<../README.md>)
