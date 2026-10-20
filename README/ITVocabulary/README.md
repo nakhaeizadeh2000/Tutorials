@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **132 of 191 approved lessons** are available.
+Implementation is in progress: **133 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -1069,6 +1069,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Security advisory | [Published issue affected-condition and corrective-action information](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
+| Security claim review | [Connecting mechanisms permissions data handling and assurance claims to scoped evidence](<13 Security Identity and Privacy/sections/8. Applied claim review/8.1. Read a security finding and identity diagram.md>) |
 | Security event | [Observed occurrence with security relevance](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Security token | [Protocol-interpreted representation of security information or authority](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Self-signed certificate | [Certificate signed with its own corresponding private key](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |

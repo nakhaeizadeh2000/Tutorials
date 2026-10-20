@@ -5822,3 +5822,45 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   certificate/SOC/legal verification,sampling study or performance measurement.
 - Next steps: D13.S08.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S08.L01 — Read a security finding and identity diagram — verified
+
+- Done: D13.S08.L01; original role/data sketch and requirement/observation packet
+  integrate OIDC/passkey/token evidence,object authorization,private-data scope,
+  retention and assessment exclusions; technical/product handoffs,removed-rule
+  and added-correction variations,reasoned sign-in-replacement interview answer.
+  Progress133/191;58 approved leaves remain.
+- Files touched: new sections/8. Applied claim review/8.1. Read a security finding
+  and identity diagram.md; D13/track README files; this LOG.
+- Links fixed / added: registration,one contextual alias,two inline and six final
+  precise earlier owner routes plus domain/track navigation; no unbuilt links.
+- Research / Decisions: repo security-finding/identity-diagram heading search found
+  earlier harm-scenario owner,not duplicate integrated exercise. Read complete
+  current D13 index and full JS Fundamentals checklist for concrete questions tied
+  to owner evidence; rejected stale NodeLTS,universal thread/microtask/late-error
+  assertions,mandatory strictness/lint rules and missing required-section pattern.
+  Reopened https://c4model.com/diagrams/checklist actual scope/legend/direction/
+  relationship rows41–57; not formal C4-conformance or complete deployment proof.
+  https://www.threatmodelingmanifesto.org/ actual four questions,representation,
+  adaptable methodology and principles; selected original practitioner-group
+  evidence questions,not universal effectiveness,everything-is-threat output or
+  complete training. Reused D13's evaluated primary OIDC/NIST session/factor,
+  OWASP access/object controls,ICO/EDPB scope and NIST assessment sources with
+  actual preceding owners; no new protocol,legal,version or product guarantee.
+  Existing D05 TLS boundary retained,NestJS+Fastify context remains static. The
+  schema is intentionally informal and omits token acquisition/issuer; no diagram
+  relation substitutes for those missing implementation details.
+- Verification: structural/link verifier passed133 leaves,2200 resolving links
+  across149 files,required numbered sections/registrations,preserved proposal;
+  whitespace check passed. Assertions checked three promises,14 D13 leaves,
+  track133/191,unique lookup,one static text fence and five labeled relationships.
+  Actual index additions inspected. Editorial check matched all three promises,
+  sketch role/artifact directions,accepted Ada identity versus W1-only policy/
+  W2 result,separate worker principal,missing CSV writer/cause and excluded API/
+  file assessment. Each handoff clause traced to a packet row; removed policy/
+  assignment withdraws established violation,added W1-allow/W2-deny supports
+  checked correction only. Static diagram/packet review only; no protocol,passkey,
+  token,request,exploit,file deletion,production/audit/incident or performance
+  test executed,no formal diagram renderer or security proof claimed.
+- Next steps: D13.S09.L01,then every approved D14–D18 unit;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

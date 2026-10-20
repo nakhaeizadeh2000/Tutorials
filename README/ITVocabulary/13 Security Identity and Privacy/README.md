@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 13 of 15 approved lessons are available.
+This domain is in progress: 14 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -95,5 +95,13 @@ This domain is in progress: 13 of 15 approved lessons are available.
 1. **Connect a rule to its implementation and evidence:** Distinguish policies procedures control objectives implemented measures and observed evidence without treating a document as enforcement.
 2. **Distinguish assessment confidence from universal safety:** Interpret audits compliance assurance certification accreditation ISMS and SOC reporting through criteria scope methods and time.
 3. **Review a fictional assurance packet without expanding its scope:** Trace a sampled access-review finding and correction claim while preserving account period and certification exclusions.
+
+## 8. Applied claim review
+
+### [8.1. Read a security finding and identity diagram](<sections/8. Applied claim review/8.1. Read a security finding and identity diagram.md>)
+
+1. **Annotate roles artifacts and protection boundaries before judging the claim:** Read an informal identity and data relationship sketch without confusing intended arrows with verified protocol or permission evidence.
+2. **Connect the finding to policy and observations without inventing impact:** Distinguish accepted identity,forbidden roster access,retention evidence and limited assessment scope in an original synthetic packet.
+3. **Write an evidence-based handoff and revise it when facts change:** Give technical and stakeholder explanations,propose discriminating checks and revise only the affected conclusion when assignment or correction evidence changes.
 
 [← Back to IT Vocabulary](<../README.md>)
