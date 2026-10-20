@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 13 of 14 approved lessons are available.
+This domain is complete: all 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -99,5 +99,13 @@ This domain is in progress: 13 of 14 approved lessons are available.
 1. **Recover scope placement and responsibility from the diagram packet:** Trace a required registration flow through shared hardware database and recovery duties without inferring independence from box counts.
 2. **Compare the release plan with current artifacts and outcomes:** Separate requested capacity backup location candidate-specific checks planned exposure and missing compatibility evidence.
 3. **Write a review handoff and update it when evidence changes:** Explain the requirement conflict and evidence gaps to technical and product audiences then revise only supported conclusions after a node moves.
+
+## 8. Overlaps to avoid
+
+### [8.1. Boundaries of infrastructure and delivery vocabulary](<sections/8. Overlaps to avoid/8.1. Boundaries of infrastructure and delivery vocabulary.md>)
+
+1. **Return each infrastructure question to its conceptual owner:** Select precise existing hosting runtime orchestration scaling and delivery explanations while clarifying overloaded labels.
+2. **Choose deeper study from the implementation task:** Separate infrastructure and pipeline implementation from published language portability data recovery security and later reliability study.
+3. **Turn a mixed portability and recovery request into useful handoffs:** Identify missing host application-lifetime exposure and data evidence and limit a new adapter result to the behavior it checked.
 
 [← Back to IT Vocabulary](<../README.md>)

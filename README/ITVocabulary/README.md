@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **147 of 191 approved lessons** are available.
+Implementation is in progress: **148 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -37,7 +37,7 @@ Domain indexes appear here as lessons are completed.
 | 11 | [Version Control Releases and Dependencies](<11 Version Control Releases and Dependencies/README.md>) — complete |
 | 12 | [Testing Debugging and Quality Evidence](<12 Testing Debugging and Quality Evidence/README.md>) — complete |
 | 13 | [Security Identity and Privacy](<13 Security Identity and Privacy/README.md>) — complete |
-| 14 | [Infrastructure Cloud and Delivery](<14 Infrastructure Cloud and Delivery/README.md>) — in progress |
+| 14 | [Infrastructure Cloud and Delivery](<14 Infrastructure Cloud and Delivery/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).

@@ -6571,3 +6571,38 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   recovery-duration or performance experiment executed. Proposed checks unrun.
 - Next steps: D14.S08.L01,then all approved D15–D18 units;44 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D14.S08.L01 — Boundaries of infrastructure and delivery vocabulary — verified
+
+- Done: D14.S08.L01;13 conceptual-owner routes,implementation versus vocabulary
+  learning paths,published host-portability links and original mixed digest/type/
+  plan/flag/data handoff with narrow adapter-result variation. All14 D14 approved
+  outcomes now implemented;progress148/191;43 leaves remain across D15–D18.
+- Files touched: new sections/8. Overlaps to avoid/8.1. Boundaries of infrastructure
+  and delivery vocabulary.md;D14/track README completion/progress;this LOG.
+- Links fixed / added: registration,19 precise conceptual/language/adjacent owner
+  routes plus domain/track navigation;D14 complete,no new aliases/unbuilt links.
+- Research / Decisions: full-repo numerical infrastructure/delivery boundary
+  search found no competing owner. Reread complete JS Fundamentals boundary for
+  exact topic-to-owner routing;reject historical future-TypeScript/WebPlatform
+  labels and absolute ban on useful small examples. Reread full TS Environment-
+  portable code node browser edge for actual interface/adapter/host evidence,
+  not its older runtime versions as current or fresh execution of its examples.
+  Reused D14 evaluated primary/original source map and all actual preceding owners
+  read during authorship;no new API/product/version or recovery guarantee. Root
+  planned Cloud&IaC,Docker,DevOps,Nginx,ProductionToolchain/SystemDesign routes
+  remain plain learning guidance. NestJS+Fastify choice retained. Deeper reliability
+  vocabulary remains next domain,no placeholder explanation or link.
+- Verification: actual structural/link verifier passed148 leaves,2531 resolving
+  links across165 files,required headings/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,unique lookup,
+  14/14 domain,148/191 track,tables/empty staging;actual status/index changes read.
+  Executed approved-ID-to-disk/index/completion assertions for all14 D14 leaves;
+  editorial outcome comparison matched every proposal unit to its real lesson.
+  Mixed packet separates image identity,unrun edge target,VM-plan coverage,local
+  counter lifetime,screen exposure and unchanged database;added static lookup
+  supports only that check. Static routing only;no adapter/test rerun,provider
+  migration,flag change,restore,framework integration or performance experiment.
+- Next steps: D15.S01.L01,then all approved D15–D18 units. Exact remaining scope:
+  D15's13,D16's13,D17's10,D18's7 ledger IDs;43 leaves. Curriculum revision1/full191
+  approval unchanged,no pending gate;D14 completion is not track completion.
