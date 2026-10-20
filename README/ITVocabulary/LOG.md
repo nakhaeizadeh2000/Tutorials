@@ -7004,3 +7004,44 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   recovery,recovery-duration or performance experiment performed here.
 - Next steps: D15.S06.L01,then every remaining approved D15–D18 unit;34 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S06.L01 — Alerts incidents severity priority mitigation and remediation — verified
+
+- Done: D15.S06.L01;signals/notification/acknowledgment/triage versus operational
+  incident,roles and local impact/urgency/response status,mitigation versus verified
+  correction and original partial-registration timeline. Progress158/191;33 remain.
+- Files touched: new sections/6. Incident operations/6.1. Alerts incidents severity
+  priority mitigation and remediation.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,12 scoped aliases,five precise telemetry/
+  debugging/timeout/security/finding owners plus domain/track navigation. Existing
+  Mitigation and generic security Incident meanings retained with precise reminders.
+- Research / Decisions: section-wide numerical incident/severity/priority/response
+  discovery found JS constructed incident examples and security CVSS owner,not
+  operational vocabulary owner. Reused full JS Fundamentals checklist and Console
+  toolkit references read this session for evidence/action/observed-result questions,
+  not stale runtime,universal thread/flush/step/error or mandatory lint claims.
+  Actual original primary source https://sre.google/sre-book/managing-incidents/
+  actual56–86 and88–119 roles,coordination,live state,handoff and declaration context;
+  2016 operator narrative,not actual incident performed here or full book. Reject
+  universal prescribed department hierarchy,only-one-group-can-ever-change-system,
+  IRC/current-tool inventory,guaranteed handoff safety and universal closeout rules.
+  https://www.atlassian.com/incident-management/kpis/severity-levels actual1046–1099
+  organization-specific impact/urgency distinctions and example scale;not complete
+ 1212-line guide,three-tier mandate,all-typos-operational-incidents or generic
+  priority/response-hour guarantees. Initial opens mostly navigation;actual1045+
+  body reopened. Separate /incident-response guide's selected identification/
+  containment/eradication material is security-focused;not adopted as a universal
+  nonsecurity lifecycle or latest NIST procedure. Source taxonomy differences
+  handled by explicit local rules,not copied vendor terminology as a standard.
+- Verification: actual structural/link verifier passed158 leaves,2725 resolving
+  links across176 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,12 unique aliases,
+  10/13 domain,158/191 track,tables/empty staging;additions inspected. Editorial
+  check traced alert09:58,ack10:00,partial impact10:02,W2/W3 checked success versus
+  limited W1 evidence,diversion10:05,checks10:10,localclosure10:15 and remaining
+  timed-out-write/cause/correction questions. Removing checks withdraws restoration
+  evidence without inventing failed diversion. Static constructed timeline only;
+  no actual alert/page/message,triage,traffic diversion,incident declaration,
+  service verification,correction,response-time or performance experiment run.
+- Next steps: D15.S06.L02,then every remaining approved D15–D18 unit;33 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

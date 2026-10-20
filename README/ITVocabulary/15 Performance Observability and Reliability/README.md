@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 9 of 13 approved lessons are available.
+This domain is in progress: 10 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 13 approved lessons are available.
 1. **Distinguish extra components from a working recovery path:** Explain redundancy failover failback active-passive and active-active arrangements and recovery readiness without guaranteed outcomes.
 2. **Define recovery time and data-point objectives separately:** State RTO start and usable-service finish alongside RPO history age and distinguish objectives from performed recovery evidence.
 3. **Compare a recovery timeline with both objectives:** Calculate workflow recovery and recovered-history gaps then revise only the data-point conclusion when later committed history becomes recoverable.
+
+## 6. Incident operations
+
+### [6.1. Alerts incidents severity priority mitigation and remediation](<sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>)
+
+1. **Separate a detection signal from an impact and response record:** Distinguish alerts notification acknowledgment triage on-call response and coordinated operational incidents.
+2. **Distinguish impact urgency relief and correction:** Interpret local severity priority mitigation remediation and resolution meanings without equating response labels with corrected causes.
+3. **Read a response timeline and preserve its unknowns:** Trace signal impact diversion and checked restoration then withdraw an outcome claim when verification evidence is removed.
 
 [← Back to IT Vocabulary](<../README.md>)

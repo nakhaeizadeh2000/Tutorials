@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **157 of 191 approved lessons** are available.
+Implementation is in progress: **158 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -76,6 +76,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ACID | [Atomicity consistency isolation and durability](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Ack | [Acknowledgment](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Acknowledgment | [Signal of an outcome under a specific protocol or application contract](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| Acknowledgment (incident) | [Recorded receipt of a notification or response assignment](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | ACL | [Access control list with more specific access entries](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Acronym | [Initial letters pronounced as a word](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Active LTS (Node.js) | [Node.js phase admitting audited changes appropriate for a long-term line](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
@@ -89,6 +90,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Age (HTTP) | [Estimated seconds since generation or successful origin validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Alert (operations) | [Signal that a defined service or resource condition needs attention](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Algorithm | [Specified procedure solving a problem for allowed inputs](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Allocation | [Making managed storage available for data or execution state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -744,6 +746,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Impact (risk) | [Consequences of a specified harmful event](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Imperative programming | [Explicit commands and control flow often updating working state](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Import package | [A Python module able to contain submodules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
+| Incident commander | [Person coordinating incident response priorities state and assignments](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Incremental backup | [Changed material relative to earlier retained data](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Index (Git) | [Staging area preparing the next snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IndexedDB | [Browser database API for structured client data](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -961,6 +964,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | North-south traffic | [Communication across a stated external environment boundary](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | NoSQL | [Umbrella label for several database families beyond traditional relational SQL categories](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | NOT NULL | [A rule excluding SQL null values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Notification | [Delivery of information about a condition or event](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | NS record | [A DNS name-server record](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | NXDOMAIN | [A DNS name-error result under the queried naming context](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
 | OAS | [OpenAPI Specification](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
@@ -981,6 +985,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | OIDC | [OpenID Connect identity layer on OAuth 2.0](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | OLAP | [Online analytical processing across data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | OLTP | [Online transaction processing for operational work](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
+| On-call | [Assigned response responsibility during a stated period](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | On-prem | [Common shortening of on-premises](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | On-premises | [Infrastructure at the organization’s site or facilities in a stated context](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | One-to-many | [One entry associated with multiple entries on the other side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -999,6 +1004,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | OpenTelemetry | [Project providing telemetry instrumentation collection and related standards and implementations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Operation (HTTP API) | [A method-specific exposed action with documented behavior](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| Operational incident | [Unplanned service disruption or degradation managed under local response criteria](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Optional dependency | [Requirement whose absence is permitted under the applicable contract](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | OPTIONS | [Request communication options](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Orchestration | [Coordination of workloads and resources according to specified policies](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
@@ -1028,6 +1034,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Page size | [An API-defined bound on returned item count](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Page token | [A value passed back to continue collection retrieval](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Pagination | [Dividing a collection result into pages](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
+| Paging | [Interrupting notification path to an assigned responder](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Parallelism | [Computations executing at the same time](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Parameterized query | [Query structure and supplied data values handled separately](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | Parsing | [Interpreting syntax into a structured result](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
@@ -1097,6 +1104,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Primary key | [Selected unique non-null row identifier](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Principal (security) | [Entity represented in a security decision such as a user account service or device](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Principal (technical debt) | [Work needed to address an underlying technical burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
+| Priority (incident) | [Urgency or order of response under the local decision rules](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Privacy | [Data-processing effects on people and relevant expectations rights and responsibilities](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Private address | [An address from a stated private-use range](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Private cache | [An HTTP cache serving one user](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -1202,6 +1210,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Reliability | [Continued correct service or broader dependable outcomes under the stated usage](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Relying party | [Application relying on an accepted identity assertion](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| Remediation | [Addressing an identified problem or contributing condition within a stated scope](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Remote (Git) | [Named configuration for communicating with another repository](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Remote-tracking branch | [Local reference recording a known remote branch state](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Rendering (web) | [Content generation or browser display with an explicit stage](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
@@ -1332,7 +1341,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Session cookie | [A cookie without Max-Age or Expires](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Session identifier | [Value referring to a particular session context or record](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | sessionStorage | [Origin and page-session scoped browser key/value storage](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| SEV | [Organization-specific incident severity label](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Severity (finding) | [Seriousness under a stated rating method rather than complete business risk](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
+| Severity (incident) | [Impact classification under an organization-specific scale](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | SHA-256 | [A named cryptographic hash used in byte comparison](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Shard | [One managed portion of a sharded dataset](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Shard key | [Key used for placement or routing across shards](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
@@ -1514,6 +1525,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Transitive dependency | [Requirement reached through another dependency](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Transpilation | [Source-to-source compilation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Tree (data structure) | [Hierarchical parent-child organization in a stated rooted model](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
+| Triage | [Assessment of impact urgency and the next response route](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Trigger (function) | [Connection from an event source or request mechanism to invocation](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Trust anchor | [Trusted starting information for certificate-path validation](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Trust boundary | [Change in trust or authority assumptions between contexts](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
