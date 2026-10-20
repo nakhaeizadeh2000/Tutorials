@@ -6279,3 +6279,54 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   write,recovery rehearsal,latency/cold-start/cost or portability test executed.
 - Next steps: D14.S04.L02,then every remaining approved D14–D18 unit;50 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S04.L02 — Horizontal vertical scaling autoscaling and elasticity — verified
+
+- Done: D14.S04.L02;size versus count changes,scalability versus mechanism,
+  reactive/scheduled/predictive automation,elasticity,HPA versus node scaling,
+  readiness/delay/scale-in duties and original optimistic worker/storage bounds
+  with Pending/Ready,resource-only and changed-storage variations.
+  Progress142/191;49 approved leaves remain.
+- Files touched: new sections/4. Resource placement and scaling/4.2. Horizontal
+  vertical scaling autoscaling and elasticity.md;D14/track README files;this LOG.
+- Links fixed / added: registration,18 contextual aliases,five precise prior
+  workload/units/hardware/pressure/retry owners plus domain/track navigation.
+- Research / Decisions: full-repo numeric scaling/capacity heading search found
+  prior hardware/units/pressure owners and TS compiler scaling,different scope.
+  Read full JS Microbenchmark traps warmup dead code and variance for model versus
+  relevant measured outcome discipline;reject flawed dead-code example,fixed
+  iteration/sample quotas,p95-overlap significance rule,universal warmup/detector/
+  GC policy and local-improvement-never-matters assertion. Actual sources:
+  https://12factor.net/concurrency entire28-line original AdamWiggins2017 chapter,
+  independent web/worker process types and per-instance growth limit;reject
+  all-Java-one-process,all-processes-minimally-visible,always-simple/reliable
+  scaling and mandatory process-manager/daemon rules. No full-book claim.
+  https://learn.microsoft.com/en-us/azure/architecture/best-practices/auto-scaling
+  actual31–99 vertical/horizontal,retained dependency limits,control components,
+  schedule versus metrics,lookback/cooldown/startup and flapping;not full188-line
+  guide,universal no-downtime,exact thresholds/timers,built-in-always-best or
+  guaranteed cost/SLO improvement. Read current HPA primary below to refine
+  observation-versus-target and product scope instead of copying generic diagrams.
+  https://kubernetes.io/docs/concepts/workloads/autoscaling/horizontal-pod-autoscale/
+  actual934–942 target/metrics/count versus vertical allocation;stabilization
+  definition located separately before completion,not guessed from TOC. No default
+  CPU targets,unsupported DaemonSet scaling,automatically-ready or automatic nodes.
+  https://kubernetes.io/docs/concepts/cluster-administration/node-autoscaling/
+  actual907–956 provisioning limits/scheduling constraints and node consolidation;
+  reject universally-attainable placement,instant creation,CPU-measured-all-node-
+  controllers and no-interruption consolidation. No full implementation/config.
+  Reused actual NIST800-145 rapid-elasticity95–103 from this domain:automatic in
+  some cases,not infinite capacity or all-autoscaling-effective. Community/paper
+  snippets discovery only;no benchmark or policy defaults inferred from them.
+- Verification: actual structural/link verifier passed142 leaves,2412 resolving
+  links across159 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Offline Python assertions verified min(2/3/4*20,50)
+  equals40/50/50 and min(80,100)=80;arithmetic on synthetic premises only. Assertions
+  also checked three promises,18 unique aliases,8/14 domain,142/191 track and no
+  executable fences;index additions inspected. Editorial check matched promises,
+  ideal/perfect-division assumptions,desired versus two/four Ready,unchanged
+  storage limit,extra memory without changed work bound and controller-specific
+  timer distinctions. Static model only;no autoscaler,Pod/node provisioning,
+  resize,startup/scale-in experiment,load/capacity/cost or performance measurement.
+- Next steps: D14.S05.L01,then every remaining approved D14–D18 unit;49 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.

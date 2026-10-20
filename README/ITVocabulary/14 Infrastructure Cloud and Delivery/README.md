@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 7 of 14 approved lessons are available.
+This domain is in progress: 8 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -57,5 +57,11 @@ This domain is in progress: 7 of 14 approved lessons are available.
 1. **Locate regions zones and edge work without inferring complete coverage:** Distinguish provider-defined placement scopes distributed edge work and retained dependency paths from demonstrated recovery or data-location guarantees.
 2. **Separate server management from application execution and responsibility:** Explain hosted serverless FaaS BaaS function invocations and execution-environment reuse while distinguishing SQLite terminology and retained application duties.
 3. **Read a mixed placement and function packet:** Trace multi-zone regional and edge dependencies; diagnose process-local counting and separate handler success from an external completed effect.
+
+### [4.2. Horizontal vertical scaling autoscaling and elasticity](<sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>)
+
+1. **Distinguish changing instance size from changing instance count:** Explain vertical up/down and horizontal out/in changes while separating resource allocations from demonstrated scalability.
+2. **Separate automatic adjustments from elastic application behavior:** Distinguish autoscaling inputs targets and delays from elasticity; explain Kubernetes workload versus node scaling and safe scale-in duties.
+3. **Compare requested resources with a bounded capacity model:** Calculate an explicit synthetic worker/storage ceiling and revise it only with ready-instance or capacity evidence.
 
 [← Back to IT Vocabulary](<../README.md>)

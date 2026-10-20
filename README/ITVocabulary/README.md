@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **141 of 191 approved lessons** are available.
+Implementation is in progress: **142 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -139,6 +139,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Authorization code | [Intermediate value exchanged at a token endpoint rather than used as an API access token](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Authorization server | [Role issuing access tokens under an authorization arrangement](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | AuthZ | [Authorization](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
+| Autoscaling | [Automatic adjustment of defined resources or instance targets using decision logic](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Availability (CAP) | [Eventual operation responses at nonfailed participants under the model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Availability (security) | [Timely reliable access and use in the required context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Availability zone | [Provider-defined location or facility group within a region separating relevant failures](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
@@ -313,6 +314,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Control plane (mesh) | [Components configuring and coordinating mesh traffic handling](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Controller (Kubernetes) | [Control loop acting toward desired resource state](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| Cooldown (scaling) | [Controller-defined delay before another eligible scaling action](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Cooperative scheduling | [Work relinquishing control at supported yield or suspension points](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Copyleft | [License conditions preserving specified freedoms for covered works](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Core | [Physical processor execution resources](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
@@ -470,6 +472,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Effect order | [Order in which business effects become observable](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Egress | [Traffic leaving a named boundary](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Egress gateway | [Designated component routing selected outbound traffic](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
+| Elasticity | [Adapting supplied resources to changing demand including releasing resources](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | ELT | [Extract load transform in the destination platform](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Email address | [A mailbox reference with local and domain parts](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Email alignment | [The required relationship between an authenticated domain and the message author domain](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
@@ -546,6 +549,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Fix (software) | [Correction addressing an identified fault](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Fixture | [Prepared test data state or resources and sometimes their setup mechanism](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Flaky test | [Check producing inconsistent outcomes under intended equivalent conditions](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
+| Flapping (scaling) | [Repeated opposing resource or instance adjustments](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Folder | [Common name for a directory](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Foreign key | [Declared reference rule to an allowed referenced key](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Fork (hosting) | [Separate repository linked to an original through a hosting-platform relationship](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
@@ -609,10 +613,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | History rewriting | [Replacing the history identified by branch references with new commit records](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | HMAC | [Hash-based message authentication code using a shared secret](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Hop | [One forwarding step along a network path](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
+| Horizontal scaling | [Changing the number of instances or managed execution units](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Host | [An embedding environment or contextual infrastructure machine](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Hosting | [Providing an environment in which software or services run](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Hostname | [A contextual host name that may be full or short](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | How-to guide | [A procedure for a known task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| HPA | [HorizontalPodAutoscaler adjusting a scalable Kubernetes workload replica target](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | HSM | [Hardware security module providing a protected cryptographic boundary](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | HTAP | [Hybrid transactional and analytical processing](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | HTML | [HyperText Markup Language and document meaning](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -775,6 +781,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Logout | [Ending a specified authenticated interaction context with other invalidation behavior stated](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Long polling | [A request held pending until an update or defined completion condition](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Long-term support | [Longer maintenance commitment for a selected release line](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| Lookback window | [Metric observations considered for a scaling decision](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Loop invariant | [Condition maintained at a specified repeated loop point](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Loopback | [Communication directed back to the local networking context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Loss ratio | [Lost packets divided by the stated sent-packet population](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
@@ -854,6 +861,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | no-cors | [A restricted request mode without readable cross-origin response content](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Node (Kubernetes) | [Physical or virtual execution machine in a cluster](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
+| Node autoscaling | [Automatic provisioning or consolidation of execution nodes](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Non-blocking I/O | [An attempt that does not wait for readiness when progress is unavailable](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Non-functional testing | [Evaluation of quality characteristics under stated conditions](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Nonconformity | [Failure to meet a specified requirement](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -974,6 +982,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PostgreSQL | [A DBMS product with a client/server architecture](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | PR | [Pull request](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Pre-release identifier | [Hyphen-suffixed label preceding the corresponding normal SemVer version](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
+| Predictive scaling | [Automatic adjustment informed by a forecast](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Preemptive scheduling | [Scheduler interruption without an explicit yield at that moment](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Prefix length | [The number of leading address bits specifying a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Prerendering | [Preparing HTML or a future browser navigation depending on context](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
@@ -1046,6 +1055,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | RBAC | [Role-based access control grouping permissions through roles](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 | RC (release) | [Release candidate](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | RDBMS | [Relational database management system](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
+| Reactive scaling | [Automatic adjustment responding to observed signals](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Read-your-writes | [Observation guarantee covering a writer’s accepted updates within a defined scope](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Readiness | [Configured condition for accepting relevant traffic](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Rebase | [Replaying selected changes onto another starting point](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
@@ -1145,7 +1155,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SAML assertion | [Package of statements issued by an asserting party under SAML](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SAN | [Subject alternative name certificate extension](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | SBOM | [Software bill of materials describing components and relationships](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
+| Scalability | [Ability to handle stated growth under required outcomes and resource assumptions](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Scalar | [A single value contrasted with a collection](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
+| Scale down | [Common wording for reducing per-instance resources with scope stated](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
+| Scale in | [Removing instances or managed execution units](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
+| Scale out | [Adding instances or managed execution units](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
+| Scale up | [Common wording for increasing per-instance resources with scope stated](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
+| Scheduled scaling | [Automatic adjustment at specified times](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Scheduler | [Mechanism selecting eligible work for execution resources](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Schema migration | [Change to database structures or rules](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Schema validation | [Checking a data instance against stated schema rules](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
@@ -1246,6 +1262,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SSO | [Single sign-on across participating applications](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SSR | [Server-side rendering with generation timing stated](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | SSRF | [Server-side request forgery abusing an application request capability](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
+| Stabilization window | [Controller-defined handling of recent recommendations to limit rapid reaction](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Stable | [Compatibility status rather than universal availability](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Stack (data structure) | [Collection with last-in first-out removal](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Stack frame | [State associated with one function invocation](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -1404,6 +1421,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Version pin | [Exact version selection at a stated declaration or resolution boundary](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Version precedence | [Ordering of version identifiers under the chosen scheme](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Version range | [Set of versions admitted by matching rules](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
+| Vertical scaling | [Changing resource allocation per instance or execution unit](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | View (database) | [Named query presenting a relation](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Viewport | [The browser area available to present a page](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Virtual memory | [An address-space abstraction with mappings and backing](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
