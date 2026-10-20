@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **123 of 191 approved lessons** are available.
+Implementation is in progress: **124 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -123,6 +123,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Authoritative copy | [Copy designated to decide the relevant fact](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Authoritative DNS server | [A server answering from its knowledge of a zone](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Authorization | [Decision whether an entity may perform an action on a resource in context](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
+| Authorization code | [Intermediate value exchanged at a token endpoint rather than used as an API access token](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| Authorization server | [Role issuing access tokens under an authorization arrangement](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | AuthZ | [Authorization](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Availability (CAP) | [Eventual operation responses at nonfailed participants under the model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Availability (security) | [Timely reliable access and use in the required context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
@@ -448,6 +450,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Fast-forward | [Advancing a branch reference to an existing descendant commit](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Fault | [Common testing synonym for a defect](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Feature detection | [Checking for a needed runtime capability](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
+| Federation (identity) | [Trust arrangement enabling separately administered parties to rely on identity assertions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Fetch (Git) | [Obtaining selected objects and updating configured local references](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Field (data) | [Named part of a structured record](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Field number (Protobuf) | [Stable numeric identity of a message field](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
@@ -545,13 +548,16 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Hypothesis | [Proposed explanation that observations can support or challenge](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | I/O | [Input and output](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | i18n | [Internationalization and preparation for varied audiences](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| ID token | [OIDC token carrying authentication and identity claims for a client](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | IDE | [Integrated development environment and its actual facilities](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Idempotency key | [An identifier for repeated attempts of one operation under a service contract](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Idempotent | [Repeated identical requests have the same intended effect as one](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Idempotent consumer | [Consumer preserving the intended effect when the same logical operation is repeated](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
 | Identification (identity) | [Presenting or selecting an identity in a system context](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Identity proofing | [Evaluation of evidence about a person’s claimed identity during enrollment](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
+| Identity provider | [Provider issuing identity assertions under a federation arrangement](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | IDL | [Interface definition language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| IdP | [Identity provider](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Ignored file | [File matching applicable ignore rules](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IMAP | [Internet Message Access Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Impact (risk) | [Consequences of a specified harmful event](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
@@ -724,6 +730,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | NS record | [A DNS name-server record](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | NXDOMAIN | [A DNS name-error result under the queried naming context](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
 | OAS | [OpenAPI Specification](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| OAuth 2.0 | [Authorization framework for limited protected-resource access](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| OAuth client | [Application obtaining and using authorized access](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Object key (storage) | [Identity of stored content within a defined container](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Object storage | [Storage exposing identified content and metadata through an API](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Object-oriented programming | [Organizing responsibilities around object state and behavior](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
@@ -733,17 +741,21 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Offline support | [Specified tasks available without network connectivity](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Offset (Kafka) | [Record position within a topic partition](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Offset pagination | [Continuing by skipping a count of ordered results](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
+| OIDC | [OpenID Connect identity layer on OAuth 2.0](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | OLAP | [Online analytical processing across data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | OLTP | [Online transaction processing for operational work](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | One-to-many | [One entry associated with multiple entries on the other side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | One-to-one | [At most one associated entry on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | OOP | [Object-oriented programming](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
+| OP (identity) | [OpenID Provider](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Opaque response | [A filtered cross-origin response whose content is unavailable to the page](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Opaque token | [Token treated by a client as an uninterpreted value](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Open layering | [Allowed skipping of intermediate layers under specified rules](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Open source | [Software supplied with source and rights meeting the Open Source Definition](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Open-Closed Principle | [Supporting useful extension behind a stable consumer boundary](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | OpenAPI | [A standard describing HTTP interfaces](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| OpenID Connect | [Protocol adding an authentication identity layer on OAuth 2.0](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| OpenID Provider | [OIDC provider authenticating users and issuing identity claims](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Operation (HTTP API) | [A method-specific exposed action with documented behavior](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Optional dependency | [Requirement whose absence is permitted under the applicable contract](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
@@ -794,6 +806,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Pipe | [A byte-stream channel connecting a writer and reader](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Pipeline | [Steps and their input output dependencies](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | PITR | [Point-in-time recovery using retained state and history](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
+| PKCE | [Proof Key for Code Exchange binding the exchange to the initiating transaction](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Polling | [Repeated requests checking for information](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
@@ -892,6 +905,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Release channel | [Grouping of releases under an audience or readiness policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release line | [Family of maintained versions under a project’s policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Relying party | [Application relying on an accepted identity assertion](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Remote (Git) | [Named configuration for communicating with another repository](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Remote-tracking branch | [Local reference recording a known remote branch state](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Rendering (web) | [Content generation or browser display with an explicit stage](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
@@ -910,6 +924,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Resolution (DI) | [Obtaining or constructing the value for a registered dependency](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Resource (HTTP) | [The target of an HTTP interaction](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Resource limit | [A scoped restriction on resource use](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
+| Resource owner (OAuth) | [Party authorizing the relevant resource access](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| Resource server | [Role serving protected resources under applicable access checks](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Responsive web design | [Adapting presentation to available sizes and conditions](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | REST | [Representational State Transfer architectural style](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Restore | [Loading retained material into a usable target](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
@@ -937,6 +953,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Routing | [Selecting how to forward traffic toward a destination](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Routing table | [Entries describing destination prefixes and forwarding actions](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Row | [One entry in a relational table](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
+| RP (identity) | [Relying party](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | RPC | [Remote procedure call interaction model](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | RSS | [Resident set size and its measurement limits](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | RTL and LTR | [Right-to-left and left-to-right text direction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
@@ -950,6 +967,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Same-origin policy | [Browser restrictions on interactions across origins](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Same-site | [Matching sites under the relevant mechanism’s definition](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | SameSite | [Cookie sending restriction for cross-site contexts](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| SAML | [Security Assertion Markup Language assertions and protocols](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| SAML assertion | [Package of statements issued by an asserting party under SAML](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SAN | [Subject alternative name certificate extension](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | SBOM | [Software bill of materials describing components and relationships](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Scalar | [A single value contrasted with a collection](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
@@ -974,6 +993,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service locator | [Registry queried by a consumer to obtain collaborators](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Service manager | [A component managing service lifecycle and state](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
+| Service provider (SAML) | [Application relying on SAML identity assertions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Service worker | [A separately managed web script supporting facilities such as request handling](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Session cookie | [A cookie without Max-Age or Expires](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Session identifier | [Value referring to a particular session context or record](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
@@ -994,6 +1014,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Signedness | [Whether an integer representation includes negative values](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | SIGTERM | [A termination signal whose handling and reporting are scoped](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | Single Responsibility Principle | [Grouping behavior around a coherent responsibility and reason for change](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
+| Single sign-on | [Access experience using an established authentication context across applications](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Site (browser) | [Scheme and registrable-domain boundary in a schemeful comparison](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | SLSA | [Supply-chain Levels for Software Artifacts](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Smoke test | [Preliminary check of important basic capabilities for the stated next step](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
@@ -1015,6 +1036,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Source map | [Mapping between generated code positions and original source](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Source of truth | [System responsibility for authoritative facts](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Source-available | [Source-accessible software without necessarily granting open source rights](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
+| SP (SAML) | [Service provider](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SPA | [Single-page application and within-document views](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Space complexity | [Growth of memory use under a stated model](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | SPDX | [A specification family used for software information and SBOM exchange](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
@@ -1028,6 +1050,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SSE | [Server-sent events delivered in an HTTP response stream](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | SSG | [Static site generation or its generator](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | SSL | [Secure Sockets Layer and its historical use in product wording](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| SSO | [Single sign-on across participating applications](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | SSR | [Server-side rendering with generation timing stated](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Stable | [Compatibility status rather than universal availability](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Stack (data structure) | [Collection with last-in first-out removal](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |

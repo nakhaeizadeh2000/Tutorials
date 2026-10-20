@@ -5335,3 +5335,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   propagation,revocation,identity/service request or performance test executed.
 - Next steps: D13.S03.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S03.L01 — OAuth OIDC SAML SSO and federation — verified
+
+- Done: D13.S03.L01; delegated OAuth roles versus OIDC identity layer,code/access/
+  ID token purposes,current OAuth security vocabulary,federation/SAML versus SSO
+  experience,original two-application/calendar packet with local-permission and
+  logout boundaries and removed-observation/changed-requirement variations.
+  Progress124/191;67 approved leaves remain.
+- Files touched: new sections/3. Identity protocols and factors/3.1. OAuth OIDC
+  SAML SSO and federation.md; D13/track README files; this LOG.
+- Links fixed / added: registration,23 contextual aliases,five exact previous
+  identity/token/format/TLS/diagram owners plus domain/track navigation.
+- Research / Decisions: full-repo OAuth/OIDC/SAML/SSO/federation headings found no
+  competing owner. Reused complete JS Engines runtimes and hosts independent-role
+  attribution calibration from this domain,not same-all-engines/errors or cost
+  guarantees. Actual sources consulted:
+  https://openid.net/specs/openid-connect-core-1_0.html actual Final errata-set2
+  Dec15 2023 metadata,abstract and section2 IDToken definition,not full3525-line
+  spec review,old grant defaults or all-JWTs-are-IDtokens claim.
+  https://www.oauth.com/oauth2-servers/openid-connect/ actual Parecki original
+  overview101–102,delegation-versus-identity teaching; no claim to read full book,
+  password-grant navigation as current recommendation or no-custom-user-info-ever.
+  https://datatracker.ietf.org/doc/html/rfc9700 actual Jan2025 BCP metadata,2.1.1
+  code/PKCE/public-versus-confidential requirements,2.1.2 implicit cautions,2.3
+  recipient/action restriction and2.4 password-grant prohibition. RFC Editor URL
+ 429; actual IETF datatracker supplied originating text. No old implicit/password
+  default,all-client-cases-identical,full-countermeasure implementation or newer
+  OAuth2.1 publication/status claim. Selected current security context integrated
+  directly,not deferred to catch-up. https://docs.oasis-open.org/security/saml/v2.0/saml-core-2.0-os.pdf
+  actual March15 2005 metadata,intro PDF6 and assertions PDF10,XML/profile/binding
+  and asserting/relying-party distinctions; no full86-page review,historical
+  RSA-SHA1/default crypto recipe or every-assertion-authentication-only claim.
+  https://pages.nist.gov/800-63-4/sp800-63c.html actual revised federation abstract,
+  separately administered parties/assertions; guessed /sp800-63c/federation/ failed,
+  no content claimed from absent path. Prior complete current NIST session section
+  supports independent IdP/RP sessions,not automatic shared/global logout. Existing
+  identity/token owners linked rather than repeated validators. NestJS+Fastify
+  backend policy retained,no alternative framework or login setup introduced.
+- Verification: structural/link verifier passed (124 leaves,2016 resolving links
+  across140 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched three promises,role versus deployment,
+  three artifacts and intended recipients,public/confidential PKCE wording,
+  SAML/OIDC versus user-experience axes,local workshop policy and independent
+  logout. Removed observed prompt-free sequence withdraws only demonstrated SSO;
+  global-logout requirement exposes a gap without inventing implementation. Static
+  role/architecture packet only; no OAuth/OIDC/SAML exchange,token validation,
+  PKCE,login/logout,credential prompt,calendar API or performance run executed.
+- Next steps: D13.S03.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

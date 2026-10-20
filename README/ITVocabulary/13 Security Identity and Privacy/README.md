@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 4 of 15 approved lessons are available.
+This domain is in progress: 5 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 15 approved lessons are available.
 1. **Identify the principal and the authority relevant to this request:** Distinguish human service and device principals,credential material,roles and resource-specific permissions without assuming a universal admin role.
 2. **Separate session continuity from token representation and validity:** Interpret access and bearer tokens,JWT claims,recipient scope,expiry and revocation without equating decoded contents or logout with every authority boundary.
 3. **Trace a human session and a worker request separately:** Read a fictional identity and lifetime packet and revise a specific permission or revocation conclusion only when its policy and enforcement evidence changes.
+
+## 3. Identity protocols and factors
+
+### [3.1. OAuth OIDC SAML SSO and federation](<sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>)
+
+1. **Distinguish delegated access from an authentication layer:** Map OAuth resource roles,OIDC identity roles and code/access/ID token purposes with current OAuth security context.
+2. **Separate federation protocols from the single-sign-on experience:** Interpret IdP RP SP,SAML assertions and trust while keeping federation configuration distinct from observed sign-in continuity.
+3. **Read a two-application sign-in and delegated-API story:** Trace purpose and recipient for different artifacts,local permission and independent sessions and revise a claim when SSO or logout evidence changes.
 
 [← Back to IT Vocabulary](<../README.md>)
