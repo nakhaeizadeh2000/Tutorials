@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 9 of 14 approved lessons are available.
+This domain is in progress: 10 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -71,5 +71,11 @@ This domain is in progress: 9 of 14 approved lessons are available.
 1. **Distinguish shared delivery practices from reliability engineering:** Explain DevOps and SRE through cooperative work operational engineering and scoped targets rather than universal job titles.
 2. **Identify platform products security integration and GitOps control loops:** Distinguish internal self-service offerings DevSecOps activities and the four OpenGitOps principles while preserving actual-state evidence.
 3. **Classify work records and ask for the missing outcome:** Map five fictional records to practices and revise GitOps or self-service claims when continuous agents or automatic capability delivery are absent.
+
+### [5.2. Infrastructure as code configuration management and drift](<sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>)
+
+1. **Distinguish infrastructure definitions from configuration activities:** Explain IaC provisioning configuration management and imperative/declarative definitions while scoping idempotent operation claims.
+2. **Separate desired state tool state plans and drift:** Distinguish reference configuration live observations Terraform records refresh plan and apply; identify scope and sensitive artifact limits.
+3. **Reconcile an emergency-change packet before selecting a correction:** Compare authorized live changes with older definitions and records then distinguish refresh-only knowledge from resource or intent changes.
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -6386,3 +6386,54 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   delivery/reliability or runtime/controller-cost measurement executed.
 - Next steps: D14.S05.L02,then every remaining approved D14–D18 unit;48 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S05.L02 — Infrastructure as code configuration management and drift — verified
+
+- Done: D14.S05.L02;definitions versus provisioning/configuration and scoped
+  idempotency,desired/observed/tool-state distinctions,refresh/resource plan/apply,
+  refresh-only mode,drift cause/coverage and sensitive artifacts;original authorized
+  emergency-change packet with record-only update and untracked-file variations.
+  Progress144/191;47 approved leaves remain.
+- Files touched: new sections/5. Delivery and operational practices/5.2.
+  Infrastructure as code configuration management and drift.md;D14/track READMEs;LOG.
+- Links fixed / added: registration,14 contextual aliases,six precise Git/GitOps/
+  config/scaling/backup/idempotency owners plus domain/track navigation.
+- Research / Decisions: section-wide IaC/configuration/drift heading searches
+  found preceding controller/desired-state and API idempotency owners,not a second
+  infrastructure-record lesson. Reuse complete JS independent-role attribution
+  benchmark and observed-versus-model distinction,not universal host/errors/cost
+  claims. Actual consulted original/current sources:
+  https://www.martinfowler.com/bliki/InfrastructureAsCode.html actual75–97
+  definition/code/version/testing/practice comparison;reject mandatory never-manual-
+  even-emergency,all-changes-recorded-by-Git,reproducibility/safe-disposal guarantee,
+  always-small-easy-revert and every-serious-microservice mandate. Book linked
+  there not read as full source. No historical tool/version setup copied.
+  https://developer.hashicorp.com/terraform/language/state actual186–209 binding,
+  metadata,records/storage and sensitive/access context;reject refresh-always-on-
+  every-operation given plan options,all-version-compatible-state and tool-state-
+  as-business-data-backup. No state commands or real backend touched.
+  https://developer.hashicorp.com/terraform/cli/commands/plan selected normal
+  plan/resource-action context,191–215 alternative modes/refresh suppression and
+ 289 potentially sensitive saved plan. Ordinary resource plan scoped,not all
+  modes/explicit action invocations identical or every command devoid of effects.
+  Reject intro's shorthand planning-changes-system as executed changes;distinguish
+  refresh-only target records from resource reconciliation and source editing.
+  Source full387-line manual not read;selected actual paragraphs only.
+  https://docs.ansible.com/projects/ansible/latest/module_plugin_guide/modules_intro.html
+  actual15–36 module/task and should-be-idempotent expectation;not every module/
+  arbitrary shell task or playbook automatically idempotent,full Ansible tutorial
+  or JSON-return-implies-any-runtime guarantee. Terraform drift tutorial and
+  community discussion appeared in discovery only,not read/executed production
+  recovery. Prior actual GitOps/controller and backup owners retain full mechanisms.
+- Verification: actual structural/link verifier passed144 leaves,2453 resolving
+  links across161 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Assertions checked three promises,14 unique aliases,
+  10/14 domain,144/191 track and no executable fences;index additions inspected.
+  Editorial check matched promises,C7three/09:00three/authorized09:30five/live10:00five,
+  all-workers-busy,proposed removal versus no execution,undecided durable requirement,
+  refresh-only record change without desired/resource change,and untracked-file
+  coverage gap. Static simplified records only;no Terraform/Ansible installation,
+  plan/apply/refresh,provider API,state/secret access,resource destruction,rollback,
+  database recovery,repeat-task or performance experiment executed.
+- Next steps: D14.S06.L01,then every remaining approved D14–D18 unit;47 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.
