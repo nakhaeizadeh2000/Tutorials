@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 2 of 14 approved lessons are available.
+This domain is in progress: 3 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -21,5 +21,13 @@ This domain is in progress: 2 of 14 approved lessons are available.
 1. **Distinguish infrastructure platform and application capabilities:** Explain IaaS PaaS and SaaS through the capability supplied and the consumer control boundary.
 2. **Name managed tasks and shared responsibilities precisely:** Separate operating a component choosing its policy and checking its outcome; identify the scope of a managed service or MSP.
 3. **Read a responsibility packet and expose unassigned work:** Classify three arrangements inspect backup and permission duties and revise component-specific assignments when a management contract changes.
+
+## 2. Isolation and packaging
+
+### [2.1. Bare metal virtual machines hypervisors and containers](<sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>)
+
+1. **Locate hardware guests and the virtualization boundary:** Distinguish bare metal hardware VMs hypervisors hosts guests and virtual CPU counts from language-execution VMs.
+2. **Distinguish process containers from separate guest kernels:** Explain Linux namespaces resource controls and container runtimes while identifying VM/container combinations and configuration-dependent isolation.
+3. **Trace a mixed arrangement and vary one boundary:** Map workloads to kernels and hardware then distinguish a changed placement or memory limit from verified security availability and performance.
 
 [← Back to IT Vocabulary](<../README.md>)

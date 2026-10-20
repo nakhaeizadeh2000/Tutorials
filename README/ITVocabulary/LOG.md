@@ -5995,3 +5995,57 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   permission change,provider integration,audit,cost or performance test executed.
 - Next steps: D14.S02.L01,then every remaining approved D14–D18 unit;55 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S02.L01 — Bare metal virtual machines hypervisors and containers — verified
+
+- Done: D14.S02.L01;physical/hardware-VM/language-VM boundaries,host/guest,
+  hypervisor types,vCPU versus physical resources,Linux process containers,
+  namespace views versus cgroup controls and original mixed-layout failure/
+  shared-directory packet with placement and memory-limit variations.
+  Progress137/191;54 approved leaves remain.
+- Files touched: new sections/2. Isolation and packaging/2.1. Bare metal virtual
+  machines hypervisors and containers.md;D14/track README files;this LOG.
+- Links fixed / added: registration,12 contextual aliases,five precise prior
+  kernel/process/runtime/responsibility/security owners and domain/track routes.
+  Generic VM/Host and C4 Container lookup ownership preserved.
+- Research / Decisions: full-repo numeric bare-metal/hypervisor/container/image/
+  digest heading discovery found web/type/collection containers,different meanings.
+  Read complete D04 OS/kernel owner;reused full JS Engines runtimes and hosts
+  attribution/independent-role calibration just reread,not universal runtime,
+  errors or cost claims. Actual original/current sources consulted:
+  https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-a-container/
+  actual26–39 process/shared-kernel/VM coexistence;reject fully-isolated,everything-
+  included,no-host-dependencies,anywhere-identical,delete-one-never-affects-others
+  and guaranteed cost/utilization benefits. https://www.redhat.com/en/topics/virtualization/what-is-virtualization
+  actual16–31 resources/hypervisor/type1/type2 explanations;reject all-resource-
+  operations-cache,near-native universal speed,all-clouds-same-layout and type2-
+  universally-best-for-individuals. No current hypervisor-version setup claim.
+  https://man7.org/linux/man-pages/man7/namespaces.7.html actual17–53 scoped views,
+  network/mount/PID resource types;not universal security boundary or full manual.
+  https://docs.kernel.org/admin-guide/cgroup-v2.html actual17–23 organizing processes,
+  configurable hierarchy/control and ancestor restrictions;not all-processes-same-
+  cgroup under threaded exceptions,full manual or any cgroup administration run.
+  https://docs.docker.com/engine/containers/resource_constraints/ actual29 default
+  unconstrained-at-that-layer plus hard/soft limit context;reject OOME-as-Linux-
+  exception explanation,numeric/default policy universalization and all-host-failure
+  prevention from a label. https://docs.docker.com/desktop/setup/install/linux/
+  actual32/46/116 VM-backed architecture,not install commands,all-version support
+  or container-always-direct-laptop-kernel claim.
+  https://jvns.ca/blog/2016/10/10/what-even-is-a-container/ actual whole108-line
+  original Oct2016 body/process views/resource contrast;initial guessed slug failed,
+  followed real category link to readable canonical page. Reject old cgroup-v1
+  admin recipes,processes-literally-disappear,no-network-by-one-syscall-filter and
+  tentative docker-exec internals. Current manual refines historical teaching;
+  zine/table-of-contents image not read as full book. No software installed/run.
+- Verification: actual structural/link verifier passed137 leaves,2282 resolving
+  links across154 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Assertions checked three promises,12 unique aliases,
+  3/14 domain,137/191 track and no executable fences;index additions inspected.
+  Editorial check matched promises,one physicalH,two guest kernels,K-A shared by
+  web/worker,stated no cap versus unproved exhaustion,explicit shared directory,
+  moved-worker kernel change versus retained hardware/data dependencies,and
+  memory-limit change without new kernel. Static layout reasoning only;no VM/
+  container launch,namespaces,cgroup/resource mutation,crash,isolation/security,
+  overhead,startup or throughput test executed.
+- Next steps: D14.S02.L02,then every remaining approved D14–D18 unit;54 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.

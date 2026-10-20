@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **136 of 191 approved lessons** are available.
+Implementation is in progress: **137 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -148,6 +148,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Backup | [Retained material intended to support recovery](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Backward compatibility | [Preserving the relevant older consumer contract in a newer component](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Bandwidth (network) | [An overloaded term often used for information-carrying capacity](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
+| Bare metal | [Physical-machine use without an intervening hardware VM for the specified environment](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Bare repository | [Repository with no associated working tree](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Base branch | [Pull-request target branch](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Base64 | [Representation of bytes using a restricted text alphabet](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
@@ -218,6 +219,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Certificate chain | [A sequence supporting validation toward a configured trust anchor](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Certificate renewal | [Obtaining a replacement certificate under an issuance process](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Certification | [Independent written assurance that a specified subject meets requirements](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
+| Cgroup | [Control group for process resource accounting and configured controls](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Changelog | [A record of changes across releases](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Character encoding | [A representation of text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Characterization check | [Recording existing behavior to detect unintended change](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
@@ -288,6 +290,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Consumer group (Kafka) | [Logical subscriber dividing partition assignments among its consumers](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Consumer-driven contract | [Interaction expectations driven by a consumer and verified against the corresponding provider](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Container (C4) | [Application or data store in the C4 model](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Container (Linux) | [Application processes within configured resource and visibility boundaries](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
+| Container runtime | [Software creating and running containerized processes](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Contract test | [Evaluation of an agreed interaction or implementation contract at a boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Contributing factor | [Condition helping explain how a failure arose](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
@@ -551,12 +555,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Group | [An identity collection used for access management](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | gRPC | [An RPC framework using explicit service and message contracts](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Guarantee | [A promise within conditions and limits](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
+| Guest (virtualization) | [Environment running within a specified virtual machine](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Guest operating system | [Operating system inside a virtual machine](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | Half-open (breaker) | [Limited trial admission to assess recovery under a breaker policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Handler (request) | [Code selected to handle an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Hard link | [Another name for the same underlying file object](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Hardware | [Physical computing components](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Hardware security key | [Hardware authenticator that can hold relevant cryptographic credentials](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
+| Hardware virtual machine | [Machine environment running a guest operating system](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Hash collision | [Different inputs yielding the same digest](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | HDD | [Persistent-storage device category](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | HEAD | [GET-like metadata without response content](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
@@ -601,6 +607,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Hydration | [Connecting client application behavior to generated HTML](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Hydration mismatch | [Disagreement with expected initial client output](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Hypermedia | [Representations conveying meaningful links or interaction controls](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| Hypervisor | [Software managing virtual-machine execution and resource access](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Hypothesis | [Proposed explanation that observations can support or challenge](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | I/O | [Input and output](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | i18n | [Internationalization and preparation for varied audiences](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
@@ -780,6 +787,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | MX record | [A DNS mail-exchange record naming a delivery server and preference](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | N+1 queries | [One initial retrieval followed by N related retrievals](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | Nack | [Negative acknowledgment with policy-specific handling](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| Namespace (Linux) | [Scoped process view of a particular system resource](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | NAPT | [Network address and port translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | NAT | [Network address translation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Native app | [A platform-related implementation label requiring scope](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
@@ -1279,6 +1287,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Tutorial | [Guided learning through a manageable task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | TXT record | [A DNS record carrying text strings interpreted by a specific protocol](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Type | [A category or constraint on values](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| Type 1 hypervisor | [Hypervisor operating directly at the hardware level](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
+| Type 2 hypervisor | [Hypervisor operating on a conventional host operating system](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Type annotation | [A declared source-level type](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Type checking | [Checking type relationships with a specified scope](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | UAT | [User acceptance testing from intended users’ perspective](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
@@ -1319,6 +1329,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Validation (product) | [Evaluation of intended purpose and user needs in context](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Value object | [Meaning represented by values without separate conceptual identity](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Vary | [Request fields used in HTTP cache representation matching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| vCPU | [Virtual processing resource presented to a guest](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Verification | [Evaluation against specified requirements with explicit evidence scope](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Verification key | [Public key material used to check digital signatures](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Version control | [Recording and relating versions so changes can be inspected and combined](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
@@ -1329,6 +1340,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Viewport | [The browser area available to present a page](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Virtual memory | [An address-space abstraction with mappings and backing](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | VM | [Virtual machine with a language or infrastructure meaning](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
+| VMM | [Virtual machine monitor or hypervisor](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 | VPN | [Virtual private network](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Vulnerability | [Weakness in a system procedure implementation or control that can be exploited](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
