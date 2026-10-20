@@ -5436,3 +5436,62 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   authenticator/crypto validation,service-account request or performance test run.
 - Next steps: D13.S04.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S04.L01 — Encoding hashing encryption and digital signatures — verified
+
+- Done: D13.S04.L01; representation versus confidentiality,digest bytes versus
+  display,collisions versus computational resistance,guessing/password-storage
+  limits,encryption/authenticated-encryption versus MAC/signature key roles,
+  actual local Base64/SHA256/HMAC observation and disclosed-key practice.
+  Progress126/191;65 approved leaves remain.
+- Files touched: new sections/4. Cryptographic vocabulary/4.1. Encoding hashing
+  encryption and digital signatures.md; D13/track README files; this LOG.
+- Links fixed / added: registration,13 contextual aliases,five exact earlier
+  encoding/checksum/provenance/identity/secrets owners plus domain/track navigation.
+  Digital signature and Digest retain prior canonical lookup ownership.
+- Research / Decisions: full-repo numeric encoding/hash/encryption/signature search
+  found D02 representation/checksum,D11 release evidence and JS Base64 detail;
+  read both relevant IT leaves completely. Reread complete JS Engines runtimes
+  and hosts,tail separately after mixed-output truncation,for independent role
+  attribution; rejected universal conformance/errors/feature-detection/cost rules.
+  Actual sources consulted:
+  https://www.rfc-editor.org/rfc/rfc4648.html actual introduction,Base64 grouping,
+  base64url and security723–729; not full format review or old references as new
+  recommendations. https://docs.python.org/3.15/library/base64.html actual encode/
+  decode and3.15 padding/canonical/ignorechars changes; no every-decoder-canonical
+  or validate-alone-checks-pad-bits claim,new optional parameters not needed for
+  bounded vocabulary experiment. https://docs.python.org/3.15/library/hashlib.html
+  actual digest/display,collision warning and key-derivation passage (latter read
+  with standard-library HTMLParser after bs4 import unavailable); not old iteration
+  numbers,1024-character recommendation,all-hashes-fixed-length or SHAKE-as-HMAC.
+  https://docs.python.org/3.15/library/hmac.html actual shared key,digest comparison
+  and timing/type/length caveat; no all-context constant-time guarantee.
+  https://csrc.nist.gov/pubs/fips/186-5/final actual Feb3 2023 metadata,May2025
+  potential-update notice and abstract; no full standard/errata or legal proof.
+  https://www.rfc-editor.org/rfc/rfc8032.html actual5.1.5–5.1.7 key/sign/verify inputs
+  selected via direct text extraction; no implementation,security-level numbers,
+  current all-platform support or historical code copied.
+  https://cheatsheetseries.owasp.org/cheatsheets/Cryptographic_Storage_Cheat_Sheet.html
+  actual threat/layer,algorithm context and cipher modes; rejected universally
+  automatic IV handling,blanket random/performance and full hostile-server
+  protection claims. PasswordStorage cheat sheet selected guessing/salt/cost
+  passages also read; no universal one-second target,exact linear cracking cost,
+  salt-guaranteed-never-collision or pepper-removes-all-risk claim imported.
+  Original Miessler May28 2011 article actual main comparison read for purpose-first
+  teaching; rejected collision-impossible/all-changes-detected,all-encryption-keys-
+  secret,signature-proves-correct-person and outdated algorithm recommendation.
+  Primary contracts refine those simplifications; source snippets are discovery
+  only. Actual runtime pinned3.14.4,current3.15 references,no prerelease used.
+- Verification: exact protection_roles.py fence ran CPython3.14.4/Linux x86_64 in
+  fresh temporary folder,exit0,whole stdout exactly matched recovered roster=2,
+  encoded cm9zdGVyPTI=,32/64 lengths and False/True/False comparisons. Public sample
+  key explicitly not secret; no production authentication claim. Structural/link
+  verifier passed126 leaves,2062 resolving links across142 files,required sections,
+  registrations,preserved proposal; whitespace check passed. Promises/count/all13
+  aliases and8-byte→12-character arithmetic assertions passed. Editorial check
+  matched three promises,all comparison-table boundaries,guessing versus decryption,
+  shared generation authority,trust/replay assumptions and weaker disclosed-key
+  conclusion. Local primitive observation only; no encryption,signature validation,
+  password storage,secure key distribution,crypto proof or performance run.
+- Next steps: D13.S04.L02,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

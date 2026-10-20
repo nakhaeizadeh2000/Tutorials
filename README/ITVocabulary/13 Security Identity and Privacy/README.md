@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 6 of 15 approved lessons are available.
+This domain is in progress: 7 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -45,5 +45,13 @@ This domain is in progress: 6 of 15 approved lessons are available.
 1. **Count distinct factors rather than fields or gestures:** Interpret passwords passphrases MFA 2FA and OTP with scoped phishing-resistance evidence instead of prompt counts.
 2. **Interpret a passkey through its cryptographic and local checks:** Distinguish public-key credential control,user presence,user verification and synced versus device-bound arrangements with current WebAuthn context.
 3. **Distinguish human authentication from API and workload identity:** Read provider-specific API-key meanings and service-account credentials separately from permissions and compare five bounded authentication arrangements.
+
+## 4. Cryptographic vocabulary
+
+### [4.1. Encoding hashing encryption and digital signatures](<sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>)
+
+1. **Separate representation and byte comparison from confidentiality:** Distinguish Base64 and cryptographic hashing from hiding information,including digest display collision and guessing limits.
+2. **Identify what a key adds to protection and verification:** Compare encryption authenticated encryption HMAC and digital signatures through their goals key relationships and trust assumptions.
+3. **Observe encoding a value and checking a changed message:** Run a complete local Base64 digest and MAC experiment and explain why replaceable hashes or disclosed keys cannot authenticate an origin.
 
 [← Back to IT Vocabulary](<../README.md>)
