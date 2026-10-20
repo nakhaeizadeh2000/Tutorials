@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 3 of 14 approved lessons are available.
+This domain is in progress: 4 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -29,5 +29,11 @@ This domain is in progress: 3 of 14 approved lessons are available.
 1. **Locate hardware guests and the virtualization boundary:** Distinguish bare metal hardware VMs hypervisors hosts guests and virtual CPU counts from language-execution VMs.
 2. **Distinguish process containers from separate guest kernels:** Explain Linux namespaces resource controls and container runtimes while identifying VM/container combinations and configuration-dependent isolation.
 3. **Trace a mixed arrangement and vary one boundary:** Map workloads to kernels and hardware then distinguish a changed placement or memory limit from verified security availability and performance.
+
+### [2.2. Images layers registries tags and digests](<sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>)
+
+1. **Separate packaged images from instances and filesystem layers:** Distinguish container images base layers instance writes and build inputs without equating an artifact with running behavior.
+2. **Read registry references and identify the hashed object:** Interpret registry repositories tags digests manifests and multi-platform indexes while preserving content and trust boundaries.
+3. **Trace a moving tag and a running instance separately:** Analyze a fictional tag reassignment fixed-content selection and missing runtime inventory; explain deliberate updates and changing external inputs.
 
 [← Back to IT Vocabulary](<../README.md>)

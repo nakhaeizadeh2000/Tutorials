@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **137 of 191 approved lessons** are available.
+Implementation is in progress: **138 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -151,6 +151,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Bare metal | [Physical-machine use without an intervening hardware VM for the specified environment](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Bare repository | [Repository with no associated working tree](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Base branch | [Pull-request target branch](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
+| Base image | [Existing image used as a starting point for another image](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Base64 | [Representation of bytes using a restricted text alphabet](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Base64url | [Base64 variant with URL-oriented alphabet rules](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Batch (data) | [Processing a bounded group of data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -193,6 +194,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Bug | [Common name for a software problem with context-dependent breadth](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Bug report | [Description comparing observed behavior with an explicit expectation](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>) |
 | Build | [Configured preparation of software outputs](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| Build context | [Input set made available to an image builder under its rules](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Build metadata | [Plus-suffixed SemVer information excluded from precedence](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Build provenance | [Recorded origin and production information for an artifact](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Builder | [System performing a build and producing associated evidence](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
@@ -291,6 +293,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Consumer-driven contract | [Interaction expectations driven by a consumer and verified against the corresponding provider](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Container (C4) | [Application or data store in the C4 model](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Container (Linux) | [Application processes within configured resource and visibility boundaries](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
+| Container image | [Packaged filesystem content and configuration used to create containers](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
+| Container registry | [Service storing and distributing image content and metadata](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Container runtime | [Software creating and running containerized processes](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Contract test | [Evaluation of an agreed interaction or implementation contract at a boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
@@ -407,6 +411,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DI container | [Mechanism resolving and assembling registered dependencies](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Diff | [Differences between specified input versions](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Digest | [A computed summary of specified bytes](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
+| Digest pinning | [Fixing addressed content selection using an expected digest](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Digital signature | [Cryptographic binding of signed data to a signing key under verification rules](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | DIP | [Dependency Inversion Principle](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Direct dependency | [Requirement declared by the project under discussion](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
@@ -426,6 +431,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DNS resolver | [Software obtaining DNS information for a query](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | DNS resource record | [Typed data attached to an owner name](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | DNS zone | [An administrative portion of the DNS namespace](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
+| Dockerfile | [Build recipe describing instructions for preparing an image](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Document (database) | [Structured record of named fields and values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Document database | [Database centered on structured documents](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Documentation | [Document purposes and a reading route](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
@@ -624,6 +630,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | IDOR | [Insecure direct object reference involving a missing object access restriction](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | IdP | [Identity provider](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Ignored file | [File matching applicable ignore rules](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Image digest | [Hash-based content identifier for a specified image-related object](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
+| Image index | [Higher-level object referencing manifests including platform variants](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
+| Image layer | [Filesystem changes applied as part of a composed image view](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
+| Image manifest | [Description referencing a particular image configuration and layers](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
+| Image repository | [Named grouping of image-related content in a registry](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
+| Image tag | [Human-readable reference whose content mapping follows registry policy](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | IMAP | [Internet Message Access Protocol](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Impact (risk) | [Consequences of a specified harmful event](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Imperative programming | [Explicit commands and control flow often updating working state](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
@@ -744,6 +756,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Maintenance LTS (Node.js) | [Node.js phase focused on critical bug and security maintenance](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Major version | [Version component signaling incompatible public-API changes under an adopted scheme](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Managed service | [Service with specified operational tasks delegated to a provider](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
+| Manifest list | [Docker usage for a multi-image index](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | Many-to-many | [Multiple associations permitted on both sides](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Materialized view | [Stored derived result with a refresh contract](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | MAY | [Optional behavior under BCP 14](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -1363,6 +1376,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Workaround | [Alternative way of proceeding around a problem](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Working tree | [Checked-out files and directories available for editing](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
+| Writable layer (container) | [Instance-specific filesystem changes above underlying image layers](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | XML | [Extensible Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | XSS | [Cross-site scripting involving untrusted browser-executed content](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | YAGNI | [You Aren’t Gonna Need It applied to speculative capabilities](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |

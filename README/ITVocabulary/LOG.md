@@ -6049,3 +6049,59 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   overhead,startup or throughput test executed.
 - Next steps: D14.S02.L02,then every remaining approved D14–D18 unit;54 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S02.L02 — Images layers registries tags and digests — verified
+
+- Done: D14.S02.L02;image versus instance,ordered filesystem changes,writable
+  instance layer/base/recipe/context,registry repository/tag/content identity,
+  manifest/index/platform distinction and original moving-tag/running-inventory
+  timeline with fixed-selection/update and external-input variations.
+  Progress138/191;53 approved leaves remain.
+- Files touched: new sections/2. Isolation and packaging/2.2. Images layers registries
+  tags and digests.md;D14/track README files;this LOG.
+- Links fixed / added: registration,14 contextual aliases,five precise prior
+  container/artifact/dependency/configuration/mount owners and domain/track routes.
+  Generic Registry/Digest/GitTag ownership retained.
+- Research / Decisions: section-wide repo packaging/image/digest discovery from
+  preceding unit found no competing image owner. Read complete D11 artifact/trust
+  owner;reuse complete JS independent-role/condition calibration already read,
+  not universal runtime/error/performance claims. Actual primary/original sources:
+  https://github.com/opencontainers/image-spec/releases/latest redirected to
+  actual finalv1.1.1;no RC or guessed date used. Actual pinned raw manifest.md,
+  image-index.md and descriptor.md at
+  https://raw.githubusercontent.com/opencontainers/image-spec/v1.1.1/
+  selected manifest/config/layer,index/platform and descriptor/digest passages,
+  not entire specification or claim format version equals runtime support.
+  https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/
+  actual21/26–29 image/layers and121 size scope;reject all-dependencies-included,
+  guaranteed seconds-to-run and tag-as-immutable-content.
+  https://docs.docker.com/get-started/docker-concepts/building-images/understanding-image-layers/
+  actual22–45 filesystem changes/reuse/writable layer;reject guaranteed faster/
+  smaller,all-storage-drivers-union/chroot exact implementation and manual-commit
+  workflow as universal. https://docs.docker.com/dhi/explore/security-concepts/digests/
+  actual31–47 and75–95 index/platform distinctions;reject mathematical uniqueness,
+  all-supply-chain-prevention,security/compliance and all-environment-identical
+  guarantees. OCI primary descriptors refine the hashed-object distinction.
+  https://docs.docker.com/build/concepts/dockerfile/ actual37–47 recipe/base roles,
+  not every-instruction-adds-files or full build syntax;and
+  https://docs.docker.com/build/concepts/context/ actual43–59 accessible input set,
+  not full recursive/exclusion/remote build tutorial.
+  https://edu.chainguard.dev/chainguard/containers/security-and-compliance/updating-containers/considerations-for-image-updates/
+  actual main article1754–1808,modifiedOct8 2026;moving tags/latest convention,
+  fixed-selection versus update tradeoff. Initial open mostly navigation;find
+  retrieved actual body. Reject full-reproducibility-by-digest,automatic-compatible-
+  minor,universal naming/default registry rules and vendor all-patches/security
+  claims. No whole1860-line site/article navigation or linked tool reading claim.
+- Verification: actual structural/link verifier passed138 leaves,2304 resolving
+  links across155 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed after spacing refinement. Assertions checked three
+  promises,14 unique aliases,4/14 domain,138/191 track and no executable fences;
+  index additions inspected. Editorial check matched three promises,L1/L2 ordered
+  view,instance-write boundary,fictional.test address,placeholder syntax,D-A/D-B
+  same-platform manifest scope,explicit fresh retrieval,C1 unchanged,and missing
+  C2 inventory weakening runtime conclusion. Equal artifact versus changed inputs
+  and index versus platform hashes kept separate. Static records only;no image
+  build/pull/push,registry contact,hash/signature operation,container replacement,
+  layer inspection,security scan or transfer/startup/memory benchmark executed.
+- Next steps: D14.S03.L01,then every remaining approved D14–D18 unit;53 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.
