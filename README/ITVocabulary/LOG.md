@@ -5039,3 +5039,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   No application integration,production reproduction,race or performance run.
 - Next steps: D12.S05.L01,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S05.L01 — Write a reproducible issue with expected and actual behavior — verified
+
+- Done: D12.S05.L01; trigger/outcome titles,environment/state/expectation fields,
+  original filtered-CSV evidence packet and complete worked issue,frequency versus
+  prevalence,missing-rule/intermittent variants and attachment/reduction limits.
+  Progress117/191;74 approved leaves remain.
+- Files touched: new sections/5. Applied reporting and review/5.1. Write a
+  reproducible issue with expected and actual behavior.md; D12/track README; LOG.
+- Links fixed / added: registration,five contextual aliases,five exact previous
+  requirement/reproduction/client/secrets/regression owners and domain/track routes.
+- Research / Decisions: full-repo report/expected-actual heading search found D06
+  client synthesis; read it completely to preserve platform/rendering ownership.
+  Reread full JS Fundamentals checklist for artifact-linked review questions,
+  rejecting stale NodeLTS metadata,universal thread/microtask/late-error assertions,
+  mandatory blanket lint/strictness and missing required-section pattern.
+  https://bugzilla.mozilla.org/page.cgi?id=bug-writing.html actual summary/steps/
+  observations-versus-speculation and relevant environment passages read; selected
+  precise trigger/outcome and reproducibility guidance,not title quotas,obsolete
+  Flash/version examples,universal Nightly setup,nonreproducible-reports-useless,
+  guaranteed-fix likelihood or same-release-means-duplicate diagnosis. SimonTatham
+  canonical https://www.chiark.greenend.org.uk/~sgtatham/bugs.html timed out;
+  PMC9562159 returned a browser challenge,no article reading claimed from either
+  or from search mirrors. Accessible originating Mozilla plus evaluated JuliaEvans
+  actual question guidance from D01 and actual2019 assumption/experiment passages
+  just read for S04 supply educational alternatives; no publication quota.
+  No new runtime/API guarantee or defect-management platform setup introduced.
+- Verification: structural/link verifier passed (117 leaves,1862 resolving links
+  across132 files,required sections/registrations,preserved proposal); whitespace
+  check passed. Editorial check matched all three promises and every report claim
+  to original packet: synthetic row names added for clarity,display2 versusCSV5,
+  ruleR-14,3/3 scoped attempts,no earlier-build evidence or cache diagnosis. Missing
+  rule weakens defect conclusion;1/5 weakens frequency,not original observation.
+  Static writing/reading exercise only; fictional repeats are not tutorial runs.
+  No browser export,CSV generation,service/request inspection,issue submission,
+  attachment sharing,reproduction or performance measurement actually executed.
+- Next steps: D12.S05.L02,then D12.S06.L01 and every approved D13–D18 unit;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 7 of 10 approved lessons are available.
+This domain is in progress: 8 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 10 approved lessons are available.
 1. **Separate a reproducible symptom from a proposed explanation:** Describe reproduction conditions and choose an observation that can distinguish hypotheses instead of assuming a cause.
 2. **Read a traceback and inspect a paused frame:** Run a deliberate local failure and actual debugger commands, interpret call context and distinguish inspection from correction.
 3. **Connect a correction to causal evidence and its limits:** Check the original input and a contrasting valid case, scope a root-cause claim and distinguish workaround mitigation and correction.
+
+## 5. Applied reporting and review
+
+### [5.1. Write a reproducible issue with expected and actual behavior](<sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>)
+
+1. **Turn a complaint into a reproducible comparison:** Identify the trigger environment initial state and reference for the expectation without assuming a diagnosis.
+2. **Write a complete report from a bounded evidence packet:** Produce a useful issue with precise steps observed outcomes scoped frequency and explicit unknowns.
+3. **Refine the report when evidence or expectations change:** Revise missing-rule and intermittent variants,choose useful attachments and preserve the difference between observed and proposed reproductions.
 
 [← Back to IT Vocabulary](<../README.md>)
