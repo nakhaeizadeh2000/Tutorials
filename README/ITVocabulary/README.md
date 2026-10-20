@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **138 of 191 approved lessons** are available.
+Implementation is in progress: **139 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -100,6 +100,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | API contract | [Agreed interaction structure behavior and constraints](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | API key | [API-specific value for identity capability project association or other defined access context](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | API provider | [Software supplying an interface capability](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| API server (Kubernetes) | [Component exposing the Kubernetes API](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | API specification | [An artifact describing a software interface](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Application | [Software organized to serve a task](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Application schema | [Expected structure and constraints on application data](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
@@ -244,6 +245,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Clone (Git) | [Repository created from another repository](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Closed layering | [Communication through adjacent layers under specified rules](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Cloud computing | [On-demand network-accessible configurable resources under a defined service model](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
+| Cluster (Kubernetes) | [Control plane and worker-node arrangement managing workloads](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
+| ClusterIP | [Kubernetes Service type providing a cluster-internal virtual address](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | CNAME record | [A DNS alias naming its canonical target](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Code coverage | [Execution measurement against a defined set and criterion](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Code point | [A Unicode number rather than stored bytes](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -302,6 +305,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Control (security) | [Measure used to achieve an objective or manage a security or privacy risk](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Control assessment | [Evaluation of measures against defined objectives and criteria](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Control objective | [Intended result against which a measure is assessed](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
+| Control plane | [Components managing cluster state and coordination](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
+| Controller (Kubernetes) | [Control loop acting toward desired resource state](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Cooperative scheduling | [Work relinquishing control at supported yield or suspension points](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Copyleft | [License conditions preserving specified freedoms for covered works](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
@@ -318,6 +323,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Credential | [Material or evidence used to establish identity or access authority in a defined context](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Credentials mode | [Browser request setting governing credential handling](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Critical section | [State-access code protected under an exclusion discipline](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
+| CronJob | [Resource creating Jobs according to a schedule](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Cross join | [Every combination of rows from the inputs](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Cross-origin | [Different origins under the applicable browser rules](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Cross-platform | [Targeting multiple platforms with stated sharing and capability limits](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
@@ -341,6 +347,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Cybersecurity incident | [Occurrence meeting explicit actual or imminent harm or policy-violation criteria](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | CycloneDX | [A specification family supporting structured component inventories](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Daemon | [An unattended background program in Unix-like usage](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
+| DaemonSet | [Resource managing a Pod on each eligible node in selected scope](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Dangling link | [A symbolic link whose target does not resolve](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Data | [Represented information with context and interpretation](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Data center | [Facility housing computing and supporting infrastructure](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
@@ -395,6 +402,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Dependency Inversion Principle | [Policy and details depending on suitable abstractions](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Dependency resolution | [Selection of concrete dependencies under requirements and policy](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Dependency update review | [Connecting changed selections and compatibility claims to version-specific evidence](<11 Version Control Releases and Dependencies/sections/5. Applied change reading/5.1. Read a pull request release note and dependency update.md>) |
+| Deployment (Kubernetes) | [Workload resource managing replaceable application Pods through ReplicaSets](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Deployment environment | [An operating context such as staging or production](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Deprecated | [Discouraged use versus actual removal](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Deque | [Double-ended queue](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -500,6 +508,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Exposure (vulnerability) | [Presence of relevant vulnerable components and triggering conditions in a scoped system](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Failover | [Changing service to another participant](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Failure | [Observed behavior not meeting the relevant expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
+| Failure domain | [Boundary within which a failure can affect multiple components](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Fake (testing) | [Working simplified substitute with explicit behavioral limits](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Fallback | [An alternative path when a capability is unavailable](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | False negative (testing) | [Missed actual defect under an explicitly defined positive convention](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
@@ -682,11 +691,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Jargon | [Language shared by a group](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | JIT | [Just-in-time compilation during execution](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Jitter (network) | [Delay variation under a specified metric](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
+| Job (Kubernetes) | [Resource managing work toward completion](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Join (database) | [Combining rows according to a query relationship](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | JSON | [JavaScript Object Notation data interchange format](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | JSON Schema | [A specific technology for describing and validating JSON instances](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Junction table | [Association table recording linked entry pairs](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | JWT | [JSON Web Token claims format](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| K8s | [Common shortening of Kubernetes](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | KEK | [Key encryption key protecting other key material](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | KEM | [Key-encapsulation mechanism for shared-secret establishment](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Kernel | [The core privileged operating-system component](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -699,7 +710,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Keyboard focus | [The current target for keyboard interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | KISS | [Keep it simple and straightforward in behavior and necessary structure](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | KMS | [Key-management service controlling key access and operations](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
+| Kubelet | [Node agent responsible for assigned Pods and their containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
+| Kubernetes | [Platform for managing containerized workloads and services](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | l10n | [Localization and adaptation for a target audience](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| Label (Kubernetes) | [Key-value metadata used to identify or group objects](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Lakehouse | [Lake-style storage with managed table and analytical capabilities](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | LAN | [Local area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Language implementation | [Machinery executing a language version](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
@@ -815,6 +829,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | no-cache | [Response reuse requires successful validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | no-cors | [A restricted request mode without readable cross-origin response content](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Node (Kubernetes) | [Physical or virtual execution machine in a cluster](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Non-blocking I/O | [An attempt that does not wait for readiness when progress is unavailable](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Non-functional testing | [Evaluation of quality characteristics under stated conditions](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Nonconformity | [Failure to meet a specified requirement](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -861,6 +876,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Operation (HTTP API) | [A method-specific exposed action with documented behavior](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Optional dependency | [Requirement whose absence is permitted under the applicable contract](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | OPTIONS | [Request communication options](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
+| Orchestration | [Coordination of workloads and resources according to specified policies](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Origin (Git) | [Conventional initial remote name rather than universal authority](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Origin (web) | [Scheme full host and effective port for ordinary HTTP addresses](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Origin header | [The initiating origin in relevant browser HTTP interactions](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
@@ -919,6 +935,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PKCE | [Proof Key for Code Exchange binding the exchange to the initiating transaction](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | PKI | [Public key infrastructure for managing certificate and trust relationships](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Plaintext | [Input information protected by an encryption scheme](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
+| Pod | [Kubernetes deployable unit grouping co-located and co-scheduled containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Policy (governance) | [Organizational rules and responsibilities with defined authority and scope](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Policy enforcement | [Making an access decision control the actual operation](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
@@ -1005,7 +1022,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | RC (release) | [Release candidate](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | RDBMS | [Relational database management system](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Read-your-writes | [Observation guarantee covering a writer’s accepted updates within a defined scope](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
+| Readiness | [Configured condition for accepting relevant traffic](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Rebase | [Replaying selected changes onto another starting point](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
+| Reconciliation | [Observation and action toward desired state](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Record | [A context-specific stored entry such as a row or document](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Recovery (data) | [Return to acceptable state including replay checks and application use](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Recursive resolver | [A resolver pursuing an answer for its client](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
@@ -1036,6 +1055,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | REPL | [Read eval print loop and interactive session state](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Replay (updates) | [Recovering retained prior updates under a service contract](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Replica | [Copy maintained by replication](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
+| ReplicaSet | [Resource maintaining a requested number of matching Pod replicas](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Replication (data) | [Maintaining copies through a defined transfer and application process](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Replication lag | [Delay between specified source and replica stages](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Repository (Git) | [Object database references and metadata or contextually the whole checkout](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
@@ -1113,6 +1133,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Security claim review | [Connecting mechanisms permissions data handling and assurance claims to scoped evidence](<13 Security Identity and Privacy/sections/8. Applied claim review/8.1. Read a security finding and identity diagram.md>) |
 | Security event | [Observed occurrence with security relevance](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Security token | [Protocol-interpreted representation of security information or authority](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Selector (Kubernetes) | [Rule matching relevant object labels](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Self-managed | [Consumer-operated component within a specified boundary](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | Self-signed certificate | [Certificate signed with its own corresponding private key](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Semantic conflict | [Incorrect combined behavior despite potentially successful text integration](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
@@ -1121,6 +1142,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Serializable | [Effect equivalent to a serial ordering of committed transactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Serialization | [Converting structured values to a storable or transferable representation](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Server (web) | [A participant handling requests and returning responses](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
+| Service (Kubernetes) | [Network-access abstraction defining endpoints and their exposure](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service account | [Account used for an application or other non-human workload context](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Service identity | [Identity representing a service or workload in security decisions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
@@ -1206,6 +1228,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Standby (database) | [Maintained participant supporting a later takeover](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Starvation | [Work indefinitely denied needed opportunity while other work can proceed](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | State (application) | [Information describing the current program or workflow situation](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
+| StatefulSet | [Workload resource managing distinct Pod identities and state arrangements](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Stateless (REST) | [Requests do not depend on server-stored conversational context](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Statement coverage | [Counted executed statements relative to the included set](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Static analysis | [Examining code without executing the analyzed application workload](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
@@ -1375,6 +1398,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Work queue | [Delivery source distributing tasks among workers](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Workaround | [Alternative way of proceeding around a problem](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Working tree | [Checked-out files and directories available for editing](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Workload | [Application or work being run in an execution platform](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Works on my machine | [A claim needing a reproducible environment comparison](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |
 | Writable layer (container) | [Instance-specific filesystem changes above underlying image layers](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.2. Images layers registries tags and digests.md>) |
 | XML | [Extensible Markup Language](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |

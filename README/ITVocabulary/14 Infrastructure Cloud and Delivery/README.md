@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 4 of 14 approved lessons are available.
+This domain is in progress: 5 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -35,5 +35,13 @@ This domain is in progress: 4 of 14 approved lessons are available.
 1. **Separate packaged images from instances and filesystem layers:** Distinguish container images base layers instance writes and build inputs without equating an artifact with running behavior.
 2. **Read registry references and identify the hashed object:** Interpret registry repositories tags digests manifests and multi-platform indexes while preserving content and trust boundaries.
 3. **Trace a moving tag and a running instance separately:** Analyze a fictional tag reassignment fixed-content selection and missing runtime inventory; explain deliberate updates and changing external inputs.
+
+## 3. Orchestration and platforms
+
+### [3.1. Clusters nodes pods workloads services and orchestration](<sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>)
+
+1. **Map orchestration responsibilities to clusters nodes and Pods:** Identify Kubernetes control-plane scheduling node-agent and Pod grouping roles without equating logical units with physical hosts.
+2. **Separate desired workloads from observed instances and network access:** Distinguish controllers workload resources replicas readiness and Service endpoints while keeping replacement and data guarantees scoped.
+3. **Read a placement and endpoint packet without inventing availability:** Compare hardware nodes desired Pods and eligible endpoints; revise readiness or causal conclusions only when supplied evidence supports them.
 
 [← Back to IT Vocabulary](<../README.md>)

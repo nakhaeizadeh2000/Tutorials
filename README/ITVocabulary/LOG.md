@@ -6105,3 +6105,67 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   layer inspection,security scan or transfer/startup/memory benchmark executed.
 - Next steps: D14.S03.L01,then every remaining approved D14–D18 unit;53 remain.
   Curriculum revision1 approval/full191-leaf scope intact,no new gate.
+
+### D14.S03.L01 — Clusters nodes pods workloads services and orchestration — verified
+
+- Done: D14.S03.L01;product-specific Kubernetes cluster/control/node/Pod roles,
+  desired versus observed reconciliation,workload resource categories,replica
+  versus data/host counts,Service endpoints/readiness and original simultaneous
+  placement/eligibility packet with readiness and missing-cause variations.
+  Progress139/191;52 approved leaves remain.
+- Files touched: new sections/3. Orchestration and platforms/3.1. Clusters nodes
+  pods workloads services and orchestration.md;D14/track README files;this LOG.
+- Links fixed / added: registration,24 contextual aliases,five precise prior
+  VM/image/probe/recovery/cause owners plus domain/track navigation. Generic
+  Scheduler/Replica/ServiceOS ownership retained with scoped new product names.
+- Research / Decisions: full-repo numeric cluster/Pod/orchestration/mesh headings
+  found only text grapheme clusters,different topic. Reuse complete JS Engines
+  runtimes and hosts for role versus capability attribution,not universal runtime,
+  errors or performance claims. Prior actual D14 VM/image and D08 recovery owners
+  retain machinery. Actual current originating sources consulted:
+  https://kubernetes.io/releases/ actual30–60 maintained1.37/1.36/1.35 lines and
+  reported1.37.1 Sept15;October patch schedule is not execution evidence,so lesson
+  names1.37 documentation only,no claim to install or infer a newer patch.
+  https://kubernetes.io/docs/concepts/overview/components/ actual907–960 control
+  roles and optional kube-proxy/runtime;reject always-kube-proxy,every-machine-
+  separate and highly-available-by-etcd-name guarantees.
+  https://kubernetes.io/docs/concepts/architecture/nodes/ actual907–913 physical/
+  virtual and one-node possibility;reject universal node-health logic or scheduling
+  means-dedicated-physical-resources,not full manual.
+  https://kubernetes.io/docs/concepts/workloads/pods/ actual907–927 and950–960
+  grouping,replicas versus containers and ephemeral placement;no old nginx1.14.2
+  example copied,all-Pod-process-namespaces-shared or automatic isolation claim.
+  https://kubernetes.io/docs/concepts/architecture/controller/ actual909–953 desired
+  state/actions/control-loop coordination;reject stable-state-never-matters and
+  all-failures-automatically-fixed. https://kubernetes.io/docs/concepts/workloads/controllers/
+  actual907–920 workload categories;reject StatefulSet-guarantees-data-recovery,
+  every-DaemonSet-on-every-node and Job-exactly-once interpretations.
+  https://kubernetes.io/docs/concepts/workloads/controllers/replicaset/ actual911–920
+  selector/template/desired count and Deployment relationship;reject target-count-
+  always-available wording. https://kubernetes.io/docs/concepts/workloads/pods/pod-lifecycle/
+  actual960–989 different replacement UID,Pending/Running/phase versus display;
+  no fixed restart/deletion timing or every-Pending-is-capacity cause.
+  https://kubernetes.io/docs/concepts/services-networking/service/ actual935–959
+  endpoint abstraction,selectors/exceptions and no public-exposure inference;no
+  old Endpoints API taught as current instead of EndpointSlices. Initial page
+  opens mostly collapsed navigation and combined output truncated;reopened actual
+  body offsets,split individual source lines and read cited passages separately.
+  https://learnk8s.io/kubernetes-services-and-load-balancing redirected to
+  https://learnkube.com/kubernetes-services-and-load-balancing actual original
+  GulcanTopcu Oct2024 passages39–164 desired spec versus observed placement/Service.
+  Selected explanation sequence,not copied YAML or framework vehicle;reject
+  create-object-proves-running,universaliptables/kube-proxy,alwayscluster.local,
+  all-services-ClusterIP and outdated Endpoints-allocation assumptions. No full
+ 1528-line article/site review or linked diagrams watched as execution evidence.
+- Verification: actual structural/link verifier passed139 leaves,2336 resolving
+  links across156 files,required sections/registrations,preserved closed proposal;
+  git diff --check passed. Assertions checked three promises,24 unique aliases,
+  5/14 domain,139/191 track and no executable fences;index additions inspected.
+  Editorial check matched promises,one physicalH/two VM nodes/three desired/one
+  eligible counts,Running-versus-Ready,explicit endpoint routing assumptions,
+  supplied capacity event versus unknown Pending cause,and later readiness changes
+  only endpoint eligibility. Static packet only;no Kubernetes installation/API,
+  scheduling,reconciliation,Pod/Service/readiness probe,replacement,storage restore,
+  public request,availability,capacity or performance test executed.
+- Next steps: D14.S03.L02,then every remaining approved D14–D18 unit;52 remain.
+  Curriculum revision1 approval/full191-leaf scope intact,no new gate.
