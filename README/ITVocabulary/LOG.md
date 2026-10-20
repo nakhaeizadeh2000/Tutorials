@@ -5768,3 +5768,57 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   deletion,anonymization validation,legal/compliance decision,restore or benchmark.
 - Next steps: D13.S07.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D13.S07.L02 — Policies controls audits compliance and assurance — verified
+
+- Done: D13.S07.L02; rule/procedure/control/objective/evidence distinctions,
+  assessment methods and scope,audit independence/internal-external contexts,
+  compliance/assurance/certification/accreditation and bounded ISMS/SOC report
+  recognition,original10-of-60 access review/ticket/excluded-system packet.
+  Progress132/191;59 approved leaves remain.
+- Files touched: new sections/7. Privacy and governance language/7.2. Policies
+  controls audits compliance and assurance.md; D13/track README files; this LOG.
+- Links fixed / added: registration,14 contextual aliases,five exact earlier
+  policy/audit-trail/privacy/quality/statement owners plus domain/track routes.
+  Existing Auditing lookup retained; no duplicate full audit-trail lesson.
+- Research / Decisions: full-repo numeric audit/compliance/control headings found
+  TS configuration audits and contextual policy owners,not general governance;
+  noisy query output narrowed conceptually rather than treating every match as
+  read. Reused actual D13 permission/privacy and D12 verification owners,complete
+  JS independent-role/condition reference already reread; no legacy runtime/
+  error/performance claims. Actual current primary/educational sources read:
+  https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final actual abstract/functionality-
+  assurance distinction and2025 release5.2.0 notice,not full control catalog or
+  mandatory all-controls-for-all. https://csrc.nist.gov/pubs/sp/800/53/a/r5/final
+  actual Jan2022 metadata,Aug2025 release5.2.0 notice and assessment abstract;
+  https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53Ar5.pdf
+  actual2.4.1/2.4.2 printed11/PDF21 lines869–887 and depth/coverage900–907; no
+  full733-page review or claim newer minor-release procedures all inspected.
+  https://csrc.nist.gov/glossary/term/audit actual independent examination and
+  internal/external contexts with originating citations; not one legal definition
+  imposed on every audit or audits-guarantee-compliance interpretation.
+  https://www.iso.org/standard/27001 actual published edition3/2022 metadata,
+  public ISMS requirements/certification explanation,not paid standard clauses,
+  current certificate validity or marketing no-breach/operational guarantees.
+  https://www.iso.org/certification.html actual certification/accreditation and
+  ISO-does-not-issue distinction; no vendor recommendation or logo-use procedure.
+  https://www.aicpa-cima.com/topic/audit-assurance/audit-and-assurance-greater-than-soc-2
+  actual public assurance-report purpose and SOC2 examination-guide title/scope;
+  no paid book/report downloaded or type1/type2 detailed opinion taught.
+  IllustrativeSOC2 report page search showed account-gated2022 download; no claim
+  to read gated report or its illustrative opinion. Original institutional
+  explanations complement actual evidence/method distinctions,not badge-based
+  universal safety. No jurisdiction-specific compliance determination,live audit,
+  consultant procurement or another accounting/framework course introduced.
+- Verification: structural/link verifier passed132 leaves,2188 resolving links
+  across148 files,required sections/registrations,preserved proposal; whitespace
+  check passed. Assertions checked three promises,13 D13 leaves,track132/191,
+  all14 unique aliases,60−10=50,9+1=10 and no executable fences; all passed.
+  Actual index additions inspected. Editorial check matched three promises,
+  P-4 required justification,W's complete no-exception fact,nine snapshot grants,
+  missing other50 evidence versus unproved nonperformance,quarter versus continuous
+  operation,planned removal versus added denied request,and certificateA excludesB.
+  Static assessment packet only; no actual audit,control/permission test,correction,
+  certificate/SOC/legal verification,sampling study or performance measurement.
+- Next steps: D13.S08.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.

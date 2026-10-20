@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 12 of 15 approved lessons are available.
+This domain is in progress: 13 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -89,5 +89,11 @@ This domain is in progress: 12 of 15 approved lessons are available.
 1. **Identify people-related information and its processing purpose:** Distinguish personal data privacy processing pseudonymization and anonymization with explicit context and legal-scope boundaries.
 2. **Separate consent necessary collection and justified retention:** Interpret consent as a scoped choice,data minimization as adequate necessary information and retention as a purpose-and-copy lifecycle rule.
 3. **Review a collection and deletion claim against a stated policy:** Assess an original registration and export packet,then revise only the supported conclusion when anonymity evidence or product purposes change.
+
+### [7.2. Policies controls audits compliance and assurance](<sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>)
+
+1. **Connect a rule to its implementation and evidence:** Distinguish policies procedures control objectives implemented measures and observed evidence without treating a document as enforcement.
+2. **Distinguish assessment confidence from universal safety:** Interpret audits compliance assurance certification accreditation ISMS and SOC reporting through criteria scope methods and time.
+3. **Review a fictional assurance packet without expanding its scope:** Trace a sampled access-review finding and correction claim while preserving account period and certification exclusions.
 
 [← Back to IT Vocabulary](<../README.md>)

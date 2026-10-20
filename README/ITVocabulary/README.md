@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **131 of 191 approved lessons** are available.
+Implementation is in progress: **132 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -70,6 +70,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Accessibility | [Removing access barriers for people with disabilities](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Accessible name | [A programmatically available name identifying a control](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Accounting (security) | [Recording relevant access activity or resource use](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
+| Accreditation | [Formal recognition of a conformity-assessment body under the relevant system](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | ACID | [Atomicity consistency isolation and durability](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Ack | [Acknowledgment](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Acknowledgment | [Signal of an outcome under a specific protocol or application contract](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
@@ -108,6 +109,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ASCII | [A smaller repertoire preserved in UTF-8](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Asset (security) | [Something of value within the assessed situation](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Assistive technology | [Technology supporting access and alternative interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Assurance | [Justified confidence based on evidence and an assessment basis](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Asymmetric cryptography | [Public and private key material with distinct related roles](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Asynchronous | [Initiation and eventual completion separated by an explicit mechanism](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | At-least-once | [One or more occurrences under the contract’s recovery assumptions](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
@@ -214,6 +216,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Certificate (TLS) | [A signed binding involving identity information and a public key](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Certificate chain | [A sequence supporting validation toward a configured trust anchor](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Certificate renewal | [Obtaining a replacement certificate under an issuance process](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
+| Certification | [Independent written assurance that a specified subject meets requirements](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Changelog | [A record of changes across releases](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Character encoding | [A representation of text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Characterization check | [Recording existing behavior to detect unintended change](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
@@ -252,6 +255,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Competing consumers | [Workers sharing a delivery source to divide its work](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Compilation | [Translation to another code representation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Compiler | [A tool performing code translation](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
+| Compliance | [Meeting applicable requirements for a defined subject and context](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Component (C4) | [Related functionality behind an interface within a C4 container](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Component testing | [Evaluation of a component with its scope and substitutions stated](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Composite key | [Identifier formed from a combination of columns](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -283,6 +287,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Contract test | [Evaluation of an agreed interaction or implementation contract at a boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Contributing factor | [Condition helping explain how a failure arose](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
+| Control (security) | [Measure used to achieve an objective or manage a security or privacy risk](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
+| Control assessment | [Evaluation of measures against defined objectives and criteria](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
+| Control objective | [Intended result against which a measure is assessed](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Cookie | [Browser-held name/value data sent under applicable request rules](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Cooperative scheduling | [Work relinquishing control at supported yield or suspension points](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Copyleft | [License conditions preserving specified freedoms for covered works](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
@@ -635,6 +642,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | IP address | [An address interpreted within its version and network context](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | IPv4 | [IP addressing with 32-bit addresses](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | IPv6 | [IP addressing with 128-bit addresses](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
+| ISMS | [Information security management system](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
+| ISO/IEC 27001 | [Requirements standard for an information security management system](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Isolation (transaction) | [Visibility and conflict behavior among concurrent transactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Isolation level | [Specified permitted concurrent transaction interactions](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | ISP | [Internet service provider](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
@@ -774,6 +783,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Non-blocking I/O | [An attempt that does not wait for readiness when progress is unavailable](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Non-functional testing | [Evaluation of quality characteristics under stated conditions](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
+| Nonconformity | [Failure to meet a specified requirement](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Nonrepeatable read | [Changed value on reread after another transaction commits](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Normal form | [Specific criteria for assessing a relational structure](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Normalization (database) | [Organizing relational structures through dependencies and anomaly analysis](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
@@ -872,6 +882,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PKI | [Public key infrastructure for managing certificate and trust relationships](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Plaintext | [Input information protected by an encryption scheme](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
+| Policy (governance) | [Organizational rules and responsibilities with defined authority and scope](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Policy enforcement | [Making an access decision control the actual operation](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 | Polling | [Repeated requests checking for information](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Polyfill | [An implementation supplying a missing runtime API](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
@@ -896,6 +907,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Private key | [Secret material for its specified asymmetric cryptographic role](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Procedural programming | [Organizing computation into procedures or functions](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
+| Procedure | [Description of how specified work is carried out](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Processing purpose | [Specified task or reason for operations with data](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Producer (messaging) | [Role creating or sending messages](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
@@ -1104,6 +1116,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SOAP | [An extensible structured messaging framework](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | SOAP envelope | [The containing SOAP message construct](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | SOAP fault | [SOAP-level failure information](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| SOC | [System and Organization Controls assurance-reporting context](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
+| SOC 2 report | [Report on examination of relevant controls at a service organization](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Socket | [An OS communication endpoint exposed to a program](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Socket address | [An address interpreted under its socket family](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Socket.IO | [A library and protocol using supported underlying transports](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
