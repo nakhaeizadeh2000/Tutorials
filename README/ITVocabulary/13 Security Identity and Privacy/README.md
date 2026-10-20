@@ -2,7 +2,7 @@
 
 Interpret security identity and privacy claims through actors resources protected properties and evidence. Build on network API data release and testing vocabulary; no exploit execution or specialist legal assessment is assumed. Concrete constructed artifacts keep possible harm separate from observed events and implementation guarantees.
 
-This domain is in progress: 7 of 15 approved lessons are available.
+This domain is in progress: 8 of 15 approved lessons are available.
 
 ## 1. Assets and threats
 
@@ -53,5 +53,11 @@ This domain is in progress: 7 of 15 approved lessons are available.
 1. **Separate representation and byte comparison from confidentiality:** Distinguish Base64 and cryptographic hashing from hiding information,including digest display collision and guessing limits.
 2. **Identify what a key adds to protection and verification:** Compare encryption authenticated encryption HMAC and digital signatures through their goals key relationships and trust assumptions.
 3. **Observe encoding a value and checking a changed message:** Run a complete local Base64 digest and MAC experiment and explain why replaceable hashes or disclosed keys cannot authenticate an origin.
+
+### [4.2. Symmetric asymmetric keys certificates trust and key management](<sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>)
+
+1. **Match key material to the cryptographic operation:** Distinguish symmetric and public-key roles,key identifiers,key establishment and current standardized post-quantum purposes without assuming interchangeable algorithms.
+2. **Separate public information from an accepted trust relationship:** Interpret certificates PKI trust stores self-signed bindings and renewal separately from key rotation and actual adoption.
+3. **Trace generation replacement and recovery obligations:** Read a constructed key lifecycle packet,distinguish DEK and KEK roles and explain how destruction or incomplete deployment changes the supported conclusion.
 
 [← Back to IT Vocabulary](<../README.md>)
