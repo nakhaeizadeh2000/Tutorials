@@ -6912,3 +6912,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   future exhaustion forecast or performance experiment executed.
 - Next steps: D15.S05.L01,then all remaining approved D15–D18 units;36 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S05.L01 — Availability reliability durability resilience and fault tolerance — verified
+
+- Done: D15.S05.L01;service readiness/continuity/data retention versus mechanisms,
+  fault-model/required-outcome scope,resilience/degradation and mean-time naming;
+  five independent arrangements with changed timing requirement. Progress156/191;
+  35 approved leaves remain.
+- Files touched: new sections/5. Surviving and recovering/5.1. Availability reliability
+  durability resilience and fault tolerance.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,eight contextual aliases,five precise SLO/
+  transaction/copy/distributed/placement owners plus domain/track navigation.
+  Original transaction Durability and CAP/security Availability ownership retained.
+- Research / Decisions: section-wide numerical availability/reliability/durability/
+  fault-tolerance headings found network/data/distributed/property owners;new leaf
+  compares general service meanings. Reused complete JS Engines runtimes and hosts
+  calibration from this session's recovery for neighboring-term attribution and
+  changing one condition;reject universal runtime/error/conformance/cost claims.
+  Actual original primary sources:
+  https://www.landwehr.org/2004-aviz-laprie-randell.pdf author-hosted2004 taxonomy,
+  actual2.3/2.4 PDFpp2–3 lines276–323 readiness/continuity/fault-tolerance definitions
+  and requirement/environment scope;not full23-page paper/formal reliability model.
+  No historical fault catalog/phase model,all-world-definitions-identical or
+  security-totally-separate implication imported. https://docs.aws.amazon.com/wellarchitected/latest/reliability-pillar/definitions.html
+  actual5–18 navigation/context;followed actual links to /availability.html5–44
+  and /resiliency-and-the-components-of-reliability.html5–18. Selected agreed
+  function,time/request models,recovery scope;reject automatic-self-healing mandate,
+  encryption-alone-secures-backups,industry-specific nines targets,no-traffic-means-
+  universally-perfect,time-window averages as pooled requests,dependency-product
+  formulas without independence and fault-model assumptions. No purchase guidance.
+  https://csrc.nist.gov/glossary/term/cyber_resiliency actual113–126 scoped definition
+  and originating-document caveat,not full NIST160/172 standard or universal legal
+  requirement. https://www.atlassian.com/incident-management/kpis/common-metrics
+  actual1060–1126 plus1178–1186/1232–1237 definitions/start-end differences;initial
+  open navigation-only,find recovered body. Reject erroneous1220MTTR typo in MTTF
+  example,MTTA absolute-time formula,universal desirable hours,unconditional simple
+  availability formula and means-alone-complete-story. Search/community/mirror
+  snippets discovery only. Full data durability mechanics remain existing owner.
+- Verification: actual structural/link verifier passed156 leaves,2686 resolving
+  links across174 files,required sections/registrations,preserved proposal;git
+  diff --check passed after MTTR clarification/citation. Unit assertions checked
+  three promises,eight unique aliases,8/13 domain,156/191 track,tables/empty staging;
+  additions inspected. Editorial check traced Aintact/unavailable,Bresponds/lost
+  accepted record,Cscoped100host-fault operations,D30-second interruption/recovery,
+  Eoptional-feature degradation,and150–400ms nowviolates100ms despite meeting500ms.
+  Static evidence only;none of those fictional tests was performed here. No host
+  fault,availability/reliability/data-loss/probability/MTBF/MTTR measurement,
+  recovery,security assessment or performance experiment executed.
+- Next steps: D15.S05.L02,then every remaining approved D15–D18 unit;35 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

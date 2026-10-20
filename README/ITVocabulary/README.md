@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **155 of 191 approved lessons** are available.
+Implementation is in progress: **156 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -149,6 +149,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Autoscaling | [Automatic adjustment of defined resources or instance targets using decision logic](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Availability (CAP) | [Eventual operation responses at nonfailed participants under the model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Availability (security) | [Timely reliable access and use in the required context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
+| Availability (service) | [Ability to provide the required service when needed under defined observation conditions](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Availability zone | [Provider-defined location or facility group within a region separating relevant failures](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Average (measurement) | [Ambiguous center label commonly meaning arithmetic mean](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | AZ | [Availability zone](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
@@ -584,6 +585,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | False positive (testing) | [Mistaken defect signal under an explicitly defined positive convention](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Fast-forward | [Advancing a branch reference to an existing descendant commit](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Fault | [Common testing synonym for a defect](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
+| Fault tolerance | [Continuing the required service despite faults within a defined model](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Feature detection | [Checking for a needed runtime capability](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Feature flag | [Configured selection of behavior through defined control points](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Feature toggle | [Feature flag](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
@@ -640,6 +642,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Golden path | [Supported route for a common internal platform task](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Good-event fraction | [Events meeting an explicit service criterion divided by eligible events](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | GPU | [Graphics processing unit and suitable parallel work](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
+| Graceful degradation | [Preserving selected useful outcomes when other functions cannot operate normally](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Graph (data structure) | [Nodes connected by edges](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Graph database | [Database organized around nodes and connections](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Grapheme cluster | [A practical text-segmentation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -910,7 +913,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Mount point | [Location where a filesystem view is attached](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | MPA | [Multi-page application organized around documents](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | MSP | [Managed service provider performing agreed operational tasks](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
+| MTBF | [Mean time between failures under a stated component and accounting model](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | mTLS | [Mutual TLS with both sides authenticated under the configured mechanism](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| MTTR | [Ambiguous mean time to repair recover restore respond or resolve under defined events](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Multi-region | [Arrangement using multiple regions with dependencies specified](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Multi-zone | [Arrangement using multiple availability zones with workload scope specified](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Multicloud | [Use of services from multiple cloud providers at a stated scope](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
@@ -1187,6 +1192,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Release channel | [Grouping of releases under an audience or readiness policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release line | [Family of maintained versions under a project’s policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| Reliability | [Continued correct service or broader dependable outcomes under the stated usage](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Relying party | [Application relying on an accepted identity assertion](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | Remote (Git) | [Named configuration for communicating with another repository](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Remote-tracking branch | [Local reference recording a known remote branch state](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
@@ -1205,6 +1211,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Requirements coverage | [Relationship between specified requirements and corresponding test evidence](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Resident memory | [Memory currently in physical RAM for a specified scope](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
+| Resilience | [Ability to withstand recover and adapt to disruption for required outcomes](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
+| Resiliency | [Resilience under a stated context](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Resolution (DI) | [Obtaining or constructing the value for a registered dependency](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Resource (HTTP) | [The target of an HTTP interaction](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.2. Resources representations URIs URLs and origins.md>) |
 | Resource limit | [A scoped restriction on resource use](<04 Operating Systems Files and Environments/sections/5. Applied diagnosis/5.1. Explain works-on-my-machine and resource failures.md>) |

@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 7 of 13 approved lessons are available.
+This domain is in progress: 8 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 13 approved lessons are available.
 1. **Separate an indicator a target and an agreement:** State SLI measurement scope SLO target window and SLA consequences while identifying implementation coverage.
 2. **Calculate allowed bad outcomes and the rate of spending them:** Explain event-based error budgets policies and normalized burn rates without converting unlike denominators or predicting unsupported exhaustion times.
 3. **Read a passing window with a concerning short-window rate:** Calculate observed service level remaining allowance and short-window burn then detect a query that drops correctness from the good-event rule.
+
+## 5. Surviving and recovering
+
+### [5.1. Availability reliability durability resilience and fault tolerance](<sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>)
+
+1. **Identify the property and the service boundary:** Distinguish usable service continuity and retained accepted data while preserving formal and everyday reliability meanings.
+2. **Distinguish continuing through faults from recovering and adapting:** Explain scoped fault tolerance resilience graceful degradation and operational mean-time conventions without universal guarantees.
+3. **Classify failure evidence without expanding its scope:** Evaluate five independent arrangements and revise a fault-tolerance claim when the acceptable response-time requirement changes.
 
 [← Back to IT Vocabulary](<../README.md>)
