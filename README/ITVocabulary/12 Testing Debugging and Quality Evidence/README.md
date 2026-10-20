@@ -2,7 +2,7 @@
 
 Read quality claims by identifying expectations, observations and the boundaries actually exercised. Build on the earlier program, API and release vocabulary. Small controlled examples distinguish failure evidence from hypotheses; full automation methodology and language-specific debugging remain with their detailed owners.
 
-This domain is in progress: 5 of 10 approved lessons are available.
+This domain is in progress: 6 of 10 approved lessons are available.
 
 ## 1. Faults and evidence
 
@@ -39,5 +39,11 @@ This domain is in progress: 5 of 10 approved lessons are available.
 1. **Identify the prepared situation and the condition being checked:** Distinguish test assertions, fixture data or resources, setup and cleanup, and the Arrange–Act–Assert reasoning sequence.
 2. **Choose a substitute by its role rather than its library name:** Interpret dummy, stub, spy, mock and fake roles and the real behavior each arrangement leaves unverified.
 3. **Run a recording collaborator and test what it establishes:** Execute a local interaction check, observe a wrong-total failure and separate the prepared receipt and recorded call from real delivery.
+
+### [3.2. Coverage flaky tests false positives and false negatives](<sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>)
+
+1. **Read coverage as a scoped execution measurement:** Interpret statement line branch and function criteria, identify denominator changes and distinguish execution from requirements and assertion quality.
+2. **Define the positive signal before classifying a mistaken result:** Compare defect signals with actual behavior and an independent expectation, including the role and limits of a test oracle.
+3. **Interpret intermittent outcomes without erasing the first failure:** Read a retry history, separate flaky outcomes from mistaken signals and judge investigation and quarantine boundaries.
 
 [← Back to IT Vocabulary](<../README.md>)

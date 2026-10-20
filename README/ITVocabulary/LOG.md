@@ -4946,3 +4946,52 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   database fake-equivalence,distributed exactly-once or performance test executed.
 - Next steps: D12.S03.L02,then every remaining approved unit through D18;
   curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
+
+### D12.S03.L02 — Coverage flaky tests false positives and false negatives — verified
+
+- Done: D12.S03.L02; criterion/scope/denominator distinctions,original per-feature
+  report and exclusion arithmetic,explicit defect-positive convention and oracle
+  table,intermittent history,retry/quarantine limits and changed-evidence practice.
+  Progress115/191;76 approved leaves remain.
+- Files touched: new sections/3. Test arrangements and limits/3.2. Coverage flaky
+  tests false positives and false negatives.md; D12/track README files; this LOG.
+- Links fixed / added: registration,11 contextual lookup entries,five existing
+  conceptual/language owners plus domain/track navigation. No future links.
+- Research / Decisions: recovered complete4948-line LOG,full track index (repeated
+  paths also viewed through a lossless target dictionary to avoid truncated rows),
+  policies/continue skill/workflow/quality/root/domain and current dirty leaf.
+  Reconciled114 disk/log IDs to113 tracked-history leaves plus current logged unit;
+  completed pending unit commit b013c532 before this unit. Approval unchanged.
+  Full-repo coverage/flaky/false-result headings found JS coverage and timing owners.
+  Read full JS Coverage with c8 v8 line branch function thresholds and lies for
+  execution-versus-assertion contrast; rejected stale Node/c8 status/options,
+  zero-cost/5–15% overhead,guessed branch counts,universal thresholds,one-assertion-
+  per-call rule,catch-path mislabels and full-tool proof from fake metric objects.
+  Actual sources consulted:
+  https://coverage.readthedocs.io/en/latest/branch.html (retrieved7.16.2,actual
+  transitions,execution opportunities and exclusions; no tool run/install or
+  generic-all-tools algorithm). https://testing.googleblog.com/2020/08/code-coverage-best-practices.html
+  (Arguelles/Ivankovic/Bender Aug7 2020 actual main article,indirect metric,specific
+  gaps,edge cases,contextual targets; rejected universal applicability,low-number-
+  proves-every-deployment-untested,logarithmic-return claim and numeric quotas).
+  https://playwright.dev/docs/test-retries (actual retry/result categories and
+  worker replacement passages; rejected all-independent-tests-guaranteed-safe,
+  changed-environment-impossible and passing-retry-as-fix claims,no tool run).
+  https://martinfowler.com/articles/nonDeterminism.html (April14 2011 actual
+  introduction,unreliability,quarantine and isolation passages; not full article
+  review,all-failures-false-positive,throw-away-tests rhetoric,fixed8/week policies
+  or universal transaction-cleanup advice). Compared old strict quarantine framing
+  with current retry reporting,retaining evidence and context rather than one
+  mandatory release policy. Search mirrors/reddit/papers discovery only,not read
+  factual evidence. Positive convention explicit; no statistical rates invented.
+- Verification: structural/link verifier passed (115 leaves,1821 resolving local
+  links across130 files,required sections/registrations,preserved proposal);
+  whitespace check passed. Actual offline Fraction/assertion arithmetic checked
+  100/120→83.33%,20/40→50%,80/80 and changed100/100,plus approved-only2 versus5.
+  Editorial check matched three promises,nonoverlapping report populations,
+  unchanged executions with changed denominator,weak-versus-exact conditions,
+  four signal/truth rows and missing-cause inference after passing retry. Static
+  report/history/oracle exercise only; no coverage collection,automated test,
+  Playwright retry,quarantine,flake probability or performance measurement run.
+- Next steps: D12.S04.L01,then every remaining approved unit through D18;
+  curriculum revision1 approval/full191-leaf scope remains intact,no new gate.
