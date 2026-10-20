@@ -2,7 +2,7 @@
 
 Learn to interpret service measurements, operational evidence and reliability claims. Build on units, network and data vocabulary, distributed behavior, quality evidence and delivery boundaries. Examples declare their observation scopes; no deployed service or monitoring platform is assumed.
 
-This domain is in progress: 3 of 13 approved lessons are available.
+This domain is in progress: 4 of 13 approved lessons are available.
 
 ## 1. Measuring behavior
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 13 approved lessons are available.
 1. **Define the comparison before interpreting a benchmark score:** State the workload reference configuration behavior and measurement boundary for a meaningful comparison.
 2. **Use profiles to investigate a limiting path:** Distinguish sampled CPU or other activity hotspots and bottlenecks from full response time using a serial cost model.
 3. **Read a capacity report against its workload and criteria:** Identify tested acceptable operating points and reject unsupported comparisons across workload and failure conditions.
+
+### [2.2. Cold starts warmups caches hits misses TTLs and eviction](<sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>)
+
+1. **Identify which execution state is cold or warm:** Distinguish startup preparation code warmup cache population and reused state without attributing a changed duration to one unverified cause.
+2. **Distinguish a usable cache result from a current source fact:** Explain hit miss refill ratio TTL invalidation and stampede while retaining the existing general expiration and eviction owner.
+3. **Trace freshness lifetime and cost through explicit policies:** Analyze a fixed-expiry source-change timeline early eviction and serial cache costs then revise a claim when only warm-process evidence remains.
 
 [← Back to IT Vocabulary](<../README.md>)

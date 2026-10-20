@@ -6731,3 +6731,45 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   application capacity test,optimization,profiler overhead or performance run.
 - Next steps: D15.S02.L02,then all remaining approved D15–D18 units;40 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D15.S02.L02 — Cold starts warmups caches hits misses TTLs and eviction — verified
+
+- Done: D15.S02.L02;startup versus prepared execution/cache state,hit/miss/refill
+  and lookup population,TTL versus source-currentness/invalidation,stampede and
+  original fixed-expiry/early-eviction/cost packets. Progress152/191;39 remain.
+- Files touched: new sections/2. Finding and comparing costs/2.2. Cold starts
+  warmups caches hits misses TTLs and eviction.md;D15/track READMEs;this LOG.
+- Links fixed / added: registration,11 contextual aliases,five precise data/HTTP/
+  serverless/benchmark/pressure owners plus navigation;Eviction/Expiration generic
+  ownership retained. No cache implementation or future placeholder link added.
+- Research / Decisions: full-repo numerical cold/warm/hit/miss/TTL headings found
+  JS module cold-start application,not this performance owner. Read complete D08
+  storage/cache owner;reused complete JS Microbenchmark traps just read for state/
+  warmup versus measured-boundary comparison,not flawed DCE,fixed warmup/sample/
+  GC rules,p95-overlap inference or local-win dismissal. Actual original sources:
+  https://aws.amazon.com/builders-library/caching-challenges-and-strategies/
+  actual61–75,92–108 and116–121 cache state,source load,TTL choices and herd;
+  not whole article or performance guarantee. Reject all-cached-data-necessarily-
+  stale,all-unique-lookups-never-useful,external-cache-eliminates-every-cold-start,
+  source-load-always-fleet-proportional,universal LRU predominance/security/strategy
+  prescriptions and stale provider-encryption inventory. Current primary Redis
+  https://redis.io/docs/latest/commands/expire/ metadata/time definition1932,
+  actual1942 expiry update and1976–1985 time/passive/active expiry;not full2078-line
+  command page/multilanguage examples,all-reads-renew-expiry or exact physical-
+  removal-time guarantee. https://redis.io/docs/latest/develop/reference/eviction/
+  actual81–121 configurable memory policies/noeviction/buffer distinction;reject
+  all-cache-values-rebuildable,eviction-always-keeps-total-memory-belowlimit and
+  one default policy universalization. No Redis version install/configuration or
+  new serverless product claims;current D14 owner retains execution context.
+- Verification: actual structural/link verifier passed152 leaves,2608 resolving
+  links across170 files,required sections/registrations,preserved proposal;git
+  diff --check passed. Unit assertions checked three promises,11 unique aliases,
+  4/13 domain,152/191 track,tables/empty staging;additions inspected. Executed
+  synthetic ratio90/100=90%,time0/4/5/10 order,6<7<10 eviction variation and serial
+  totals19/100/90ms. Editorial check matched fixed-no-extension policy,allowed
+  display reuse versus authoritative booking,current-source V2 versus retainedV1,
+  stated successful refill,missing-key versus warm-process evidence,and omitted
+  refill/parallel costs. Static cards/arithmetic only;no startup,warmup,cache/Redis,
+  expiry/eviction/invalidation,stampede,refill or latency/memory benchmark run.
+- Next steps: D15.S03.L01,then every remaining approved D15–D18 unit;39 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

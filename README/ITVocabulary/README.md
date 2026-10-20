@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **151 of 191 approved lessons** are available.
+Implementation is in progress: **152 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -222,6 +222,12 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | C4 | [Context Containers Components and Code architecture views](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | CA | [Certification authority](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Cache (application data) | [Reusable data or computed results avoiding repeated source work](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
+| Cache hit | [Lookup supplying a reusable cached result under its policy](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Cache hit ratio | [Hits divided by a defined population of cache lookups](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Cache invalidation | [Making an entry cease to qualify after a relevant change](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Cache miss | [Lookup not supplying a reusable cached result](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Cache refill | [Fetching or computing a result and optionally retaining it for reuse](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Cache stampede | [Overlapping refills triggered by many misses for the same needed result](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Cache-Control | [HTTP cache-policy directives](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Calendar date | [A date value that need not identify an instant](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | Call stack | [Active function calls and caller continuation state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
@@ -275,6 +281,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Codec | [An encoder and decoder for a conversion](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Cohesion | [How closely a unit’s contents serve its responsibility](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Cohort (delivery) | [Defined user or account group receiving a specified treatment](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
+| Cold start | [Preparation work needed to make a specified execution context ready](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Collection (database) | [Group of documents in document database terminology](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Colocation | [Customer hardware placed in a provider’s data-center space](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Column | [Named attribute across table rows](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
@@ -1428,6 +1435,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Throttling | [Constraining work by a rate quota or concurrency policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
 | Throughput (network) | [Observed data amount per interval at a stated boundary](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
 | Throughput (service) | [Completed work per interval with qualifying outcomes and unit stated](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
+| Thundering herd (cache) | [Many clients concurrently needing an uncached result and loading its source](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Tier (architecture) | [Physical execution or deployment separation in a stated view](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Time complexity | [Growth of computational work under a cost model](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
 | Time series | [Observations associated with times](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
@@ -1454,6 +1462,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Trust anchor | [Trusted starting information for certificate-path validation](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | Trust boundary | [Change in trust or authority assumptions between contexts](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Trust store | [Trusted material configured for a client or application](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
+| TTL (cache) | [Time to live under an explicit start and extension policy](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | TTL (DNS) | [Time to live for DNS cache use](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Tunnel (network) | [Carrying communication through an enclosing connection or protocol](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Tutorial | [Guided learning through a manageable task](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
@@ -1521,6 +1530,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Vulnerability | [Weakness in a system procedure implementation or control that can be exploited](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | WAL | [Write-ahead log used for database recovery and related mechanisms](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | WAN | [Wide area network](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
+| Warm execution | [Execution reusing specified prepared state without guaranteed duration](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
+| Warmup | [Period during which relevant execution state develops before a stated condition](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Watch expression | [Debugger expression reevaluated to observe a value](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Watermark (data) | [System-specific progress or time marker requiring a defined meaning](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | WCAG | [Web Content Accessibility Guidelines and scoped success criteria](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
