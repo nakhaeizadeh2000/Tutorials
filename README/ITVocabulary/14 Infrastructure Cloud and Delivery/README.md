@@ -6,7 +6,7 @@ operating-system, network, design, release and security vocabulary. No provider
 account or orchestration knowledge is assumed. Static examples introduce their
 own context before implementation-specific study.
 
-This domain is in progress: 12 of 14 approved lessons are available.
+This domain is in progress: 13 of 14 approved lessons are available.
 
 ## 1. Hosting and responsibility
 
@@ -91,5 +91,13 @@ This domain is in progress: 12 of 14 approved lessons are available.
 1. **Separate artifact preparation placement and user exposure:** Distinguish builds deployments release meanings flags and cohorts while identifying effective configuration and access boundaries.
 2. **Compare rollout strategies and scope recovery actions:** Explain rolling updates canary evaluation blue-green traffic switching rollback and roll forward without assuming compatible data or complete recovery.
 3. **Read an exposure timeline without inventing a recovery result:** Trace running images flag evaluations and account exposure then revise conclusions when adoption evidence is removed.
+
+## 7. Applied delivery review
+
+### [7.1. Read a platform diagram and release plan](<sections/7. Applied delivery review/7.1. Read a platform diagram and release plan.md>)
+
+1. **Recover scope placement and responsibility from the diagram packet:** Trace a required registration flow through shared hardware database and recovery duties without inferring independence from box counts.
+2. **Compare the release plan with current artifacts and outcomes:** Separate requested capacity backup location candidate-specific checks planned exposure and missing compatibility evidence.
+3. **Write a review handoff and update it when evidence changes:** Explain the requirement conflict and evidence gaps to technical and product audiences then revise only supported conclusions after a node moves.
 
 [← Back to IT Vocabulary](<../README.md>)

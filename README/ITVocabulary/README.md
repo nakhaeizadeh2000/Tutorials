@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **146 of 191 approved lessons** are available.
+Implementation is in progress: **147 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -1006,6 +1006,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PKI | [Public key infrastructure for managing certificate and trust relationships](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Plaintext | [Input information protected by an encryption scheme](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Plan (infrastructure) | [Preview of proposed resource actions under configuration inputs and observations](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
+| Platform and delivery review | [Tracing placements responsibility dependencies and release actions against scoped evidence](<14 Infrastructure Cloud and Delivery/sections/7. Applied delivery review/7.1. Read a platform diagram and release plan.md>) |
 | Platform engineering | [Developing shared internal capabilities around user needs](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Pod | [Kubernetes deployable unit grouping co-located and co-scheduled containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |

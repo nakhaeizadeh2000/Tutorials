@@ -6533,3 +6533,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Kubernetes/runtime,load/latency/cost or recovery-time measurement executed.
 - Next steps: D14.S07.L01,then every remaining approved D14–D18 unit;45 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D14.S07.L01 — Read a platform diagram and release plan — verified
+
+- Done: D14.S07.L01;original relationship/placement/duty/release packet links
+  a physical-host continuity requirement to shared VM placement,DB dependency,
+  backup responsibility,desired capacity,candidate evidence,exposure and data
+  recovery;two audience handoffs and changed-host practice. Progress147/191;44 remain.
+- Files touched: new sections/7. Applied delivery review/7.1. Read a platform
+  diagram and release plan.md;D14/track READMEs;this LOG.
+- Links fixed / added: registration,one contextual alias,six precise preceding
+  conceptual owners plus domain/track navigation;no unbuilt specialist links.
+- Research / Decisions: full-repo numerical platform-diagram/failure-domain/release-
+  plan/availability-claim heading search found no competing applied owner. Reused
+  complete JS Fundamentals checklist just read for concrete question-to-evidence
+  routing,not stale LTS,universal thread/error/scheduling or mandatory lint rules.
+  Read full current D14 index and actual preceding owners during this session.
+  https://c4model.com/diagrams/checklist actual39–61 scope/element/legend/directed
+  relationships,SimonBrown original educational guidance;no formal C4 conformance
+  or architecture execution implied. https://learn.microsoft.com/en-us/azure/well-architected/reliability/failure-mode-analysis
+  actual33–91 critical-flow/dependency/impact distinction;not full175-line guide.
+  Reject blanket rare-multizone-means-no-mitigation-worthwhile,microservices-
+  inherently-durable,complete-analysis-guarantees-recovery and universal errors-
+  versus-failures naming. Provider examples not architecture mandates. Reused
+  evaluated primary D14 VM/Pod/scaling/delivery and D08 backup sources;no new
+  runtime/default/version claims. NestJS+Fastify static vehicle retained.
+- Verification: actual structural/link verifier passed147 leaves,2510 resolving
+  links across164 files,required headings/registrations,preserved proposal;git
+  diff --check passed. Unit assertions passed three promises,one unique alias,
+  13/14 domain,147/191 track,consistent tables/empty staging;additions inspected.
+  Editorial check traced requirement,H-A shared by N1/N2,P1/P2Ready,DB required
+  zoneB/R1,BKonlyR2/unassigned rehearsal,requested4/ready2,D18simulated versusD17
+  realDB evidence,not-yet-deployed production and field-removal rollback gap.
+  Moving N2 to H-B changes hardware placement only;retains zoneB/DB dependency
+  and unperformed failover/capacity/candidate checks. Static tables/packet only;
+  no cloud/framework/cluster integration,node move,load,canary,restore,failure,
+  recovery-duration or performance experiment executed. Proposed checks unrun.
+- Next steps: D14.S08.L01,then all approved D15–D18 units;44 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
