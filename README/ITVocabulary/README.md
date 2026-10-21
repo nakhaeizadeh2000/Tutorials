@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **161 of 191 approved lessons** are available.
+Implementation is in progress: **162 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -39,6 +39,7 @@ Domain indexes appear here as lessons are completed.
 | 13 | [Security Identity and Privacy](<13 Security Identity and Privacy/README.md>) — complete |
 | 14 | [Infrastructure Cloud and Delivery](<14 Infrastructure Cloud and Delivery/README.md>) — complete |
 | 15 | [Performance Observability and Reliability](<15 Performance Observability and Reliability/README.md>) — complete |
+| 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -392,6 +393,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CSS class | [An element label usable by selectors](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | CSS selector | [A pattern selecting elements for presentation rules](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Cursor (pagination) | [A continuation position under a collection contract](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
+| Customer | [Person or organization acquiring or purchasing a product or service under the stated usage](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | CVE | [Common Vulnerabilities and Exposures identifying vulnerability records](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | CVE ID | [Common identifier referring to a specific vulnerability record](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | CVSS | [Common Vulnerability Scoring System communicating characteristics and severity](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
@@ -534,6 +536,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Egress gateway | [Designated component routing selected outbound traffic](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Elasticity | [Adapting supplied resources to changing demand including releasing resources](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | ELT | [Extract load transform in the destination platform](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
+| EM | [Engineering manager under the organization’s people and delivery responsibilities](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | Email address | [A mailbox reference with local and domain parts](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Email alignment | [The required relationship between an authenticated domain and the message author domain](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Embedded database | [Database engine operating inside an application process](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
@@ -729,6 +732,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | i18n | [Internationalization and preparation for varied audiences](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | IaaS | [Infrastructure as a Service supplying fundamental computing resources](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | IaC | [Infrastructure as code defining infrastructure through machine-readable definitions](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
+| IC | [Individual contributor whose position does not itself imply people management](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | ID token | [OIDC token carrying authentication and identity claims for a client](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
 | IDE | [Integrated development environment and its actual facilities](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Idempotency key | [An identifier for repeated attempts of one operation under a service contract](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
@@ -1086,6 +1090,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Platform and delivery review | [Tracing placements responsibility dependencies and release actions against scoped evidence](<14 Infrastructure Cloud and Delivery/sections/7. Applied delivery review/7.1. Read a platform diagram and release plan.md>) |
 | Platform engineering | [Developing shared internal capabilities around user needs](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.1. DevOps SRE platform engineering DevSecOps and GitOps.md>) |
 | Playbook | [Guide for investigation and response across possible situations under local conventions](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
+| PM | [Ambiguous abbreviation commonly meaning product manager or project manager](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
+| PO | [Product Owner in the Scrum context](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | Pod | [Kubernetes deployable unit grouping co-located and co-scheduled containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Policy (governance) | [Organizational rules and responsibilities with defined authority and scope](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -1124,6 +1130,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Processing purpose | [Specified task or reason for operations with data](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Producer (messaging) | [Role creating or sending messages](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Product manager | [Role commonly concerned with product problems priorities and outcomes under local responsibilities](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
+| Product Owner | [Scrum accountability for product value and effective Product Backlog management](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | Production environment | [Context serving intended operational users or business workload](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Program | [Instructions executed in an appropriate environment](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
@@ -1431,6 +1439,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Staging | [Recording selected contents in the index](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Staging (environment) | [Context for rehearsing relevant production-like behavior](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Staging area | [Selected contents prepared for the next Git snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Stakeholder | [Person or group with an interest in or affected by the work under the stated scope](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | Stale response | [A response no longer meeting its freshness test](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | stale-if-error | [Bounded stale service for eligible errors](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | stale-while-revalidate | [Bounded stale service while validation is attempted](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -1519,6 +1528,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Time-series database | [Database emphasizing time-associated observations and operations](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Timeout | [A deadline reached without the required completion observation](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
 | Timestamp | [A recorded time value with representation and scale stated](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| TL | [Technical lead or team lead with the intended expansion specified](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | TLD | [Top-level domain](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | TLS | [Transport Layer Security](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | TLS handshake | [Negotiation and authentication establishing channel protection](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
@@ -1577,6 +1587,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Usability testing | [Observing representative people attempting relevant tasks](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Use case | [Application action and the coordination needed to accomplish it](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | USE Method | [Resource investigation using utilization saturation and errors](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
+| User | [Person using a product or service in a defined task](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | User account | [An identity recognized by a system](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | User presence | [Evidence of interaction with the authenticator](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | User space | [Application and supporting-program execution outside the kernel](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |

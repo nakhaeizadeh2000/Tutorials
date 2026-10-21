@@ -7198,3 +7198,35 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
 - Decisions / Next steps: D16.S01.L01 then all29 later approved units, one leaf
   and ancestor indexes per verified/logged commit. Source and editorial evidence
   recorded with each unit. Close this active session before normal return.
+
+### D16.S01.L01 — Stakeholders users customers and technical roles — verified
+
+- Done: D16.S01.L01; interest/use/acquisition versus decision authority, PM/PO/QA/
+  SRE/TL/EM/IC contextual roles, original buyer/coordinator/approved-only export
+  packet and accepted additional-view / removed-authority variations. Progress162/191;
+  29 approved leaves remain. D16 index created with published content only.
+- Files touched: new D16 README and sections/1. People and responsibility/1.1.
+  Stakeholders users customers and technical roles.md; track README; this LOG.
+- Links fixed / added: D16 module/leaf registration,10 contextual aliases,three
+  exact quality/practice/question owners and navigation; existing QA/SRE retained.
+- Research / Decisions: full-repo numerical stakeholder/customer/role/RACI/DRI
+  headings found no competing people/authority owner; read full D12 acceptance
+  and D14 practice leaves. Complete JS Engines runtimes and hosts supplies
+  independent-role attribution,not its universal conformance/errors/performance.
+  Actually consulted https://handbook.gitlab.com/handbook/product-development/how-we-work/roles-and-responsibilities/
+  body3587–3622, living originating organizational account,role versus responsibility
+  and multiple hats; not full3691-line navigation or universal org chart. Initial
+  open navigation only,actual body reopened. https://scrumguides.org/scrum-guide.html
+  actual2020 metadata and78–129,including POvalue/backlog/delegation; not all-company
+  job definitions,mandatory team sizes,all-duties-equivalent or full site review.
+  Other search/community results discovery only. No new framework/API behavior.
+- Verification: actual structural/link verifier passed162 leaves,2791 resolving
+  links across181 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,10 unique aliases,162/191,tables/empty
+  staging;git diff --check passed. Corrected new index singular grammar. Editorial
+  check traced buyer/use/authority separately,Jo's successful filter check,Ravi's
+  unsupported acceptance claim,Ada's explicit assignment and both variations.
+  Static reading exercise only; no contact,product/user evaluation,acceptance
+  action,export,workplace restructuring or performance measurement executed.
+- Next steps: D16.S01.L02,then all remaining approved D16–D18 ledger units;29 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
