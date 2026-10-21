@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **173 of 191 approved lessons** are available.
+Implementation is in progress: **174 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -39,7 +39,7 @@ Domain indexes appear here as lessons are completed.
 | 13 | [Security Identity and Privacy](<13 Security Identity and Privacy/README.md>) — complete |
 | 14 | [Infrastructure Cloud and Delivery](<14 Infrastructure Cloud and Delivery/README.md>) — complete |
 | 15 | [Performance Observability and Reliability](<15 Performance Observability and Reliability/README.md>) — complete |
-| 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — in progress |
+| 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -1557,6 +1557,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | TCO | [Total cost of ownership across a defined scope and period](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Team vocabulary boundary | [Where interpreting work terms ends and local authority or implementation begins](<16 Teams Product Work and Professional Communication/sections/9. Overlaps to avoid/9.1. Boundaries of team product and business vocabulary.md>) |
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Telemetry | [Data emitted or collected about system behavior](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Telemetry pipeline | [Emission collection processing export retention and query responsibilities for observations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |

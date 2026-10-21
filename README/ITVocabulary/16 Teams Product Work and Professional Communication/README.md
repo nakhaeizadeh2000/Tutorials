@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 12 of 13 approved lessons are available.
+This domain is complete: all 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -91,5 +91,13 @@ This domain is in progress: 12 of 13 approved lessons are available.
 1. **Extract a defensible status:** separate recorded completion unresolved evidence and next work
 2. **Adapt detail to two audiences:** preserve facts and uncertainty while changing explanation and emphasis
 3. **Resolve a disagreement constructively:** connect a concern to its consequence decision owner and follow-up
+
+## 9. Overlaps to avoid
+
+### [9.1. Boundaries of team product and business vocabulary](<sections/9. Overlaps to avoid/9.1. Boundaries of team product and business vocabulary.md>)
+
+1. **Recognize what the vocabulary establishes:** separate interpretation from authority process adoption and business validation
+2. **Route a practical question to its owner:** choose terminology policy product evidence or implementation work
+3. **Assess a bounded work conversation:** retain unresolved decisions instead of inventing a universal process
 
 [← Back to IT Vocabulary](<../README.md>)
