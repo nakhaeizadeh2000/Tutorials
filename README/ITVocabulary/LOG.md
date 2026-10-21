@@ -7263,3 +7263,38 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   assessment,incident response or performance experiment executed.
 - Next steps: D16.S02.L01 then all remaining approved D16–D18 units;28 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S02.L01 — Requirements constraints acceptance criteria and quality attributes — verified
+
+- Done: D16.S02.L01; functional/quality requirements,overlapping constraints versus
+  design suggestions,observable scenario/acceptance evidence,traceability and
+  original W1/W2 export scope/freshness/timing packet with removed-sample variation.
+  Progress164/191;27 approved leaves remain across D16–D18.
+- Files touched: new sections/2. Requirements and product scope/2.1. Requirements
+  constraints acceptance criteria and quality attributes.md;D16/track READMEs;LOG.
+- Links fixed / added: registration,five contextual aliases,four precise requirement/
+  acceptance/measurement/cache owners and navigation; original Acceptance criteria
+  and Requirement lookup ownership retained rather than competing definitions.
+- Research / Decisions: section-wide full-repo requirements/constraints/criteria/
+  quality/prototype headings found D01 normative and D12 acceptance owners;read
+  full D01 status/requirement leaf and reused full D12 owner read this recovery.
+  Complete JS contrasting-observation/role calibration reused,not its universal
+  runtime/cost claims. Actual sources: https://www.nasa.gov/reference/appendix-c-how-to-write-a-good-requirement/
+  actual C.2/C.3 276–300 and C.4 performance/maintainability/reliability/testability
+  335–359,updated July26 2023;selected actor/assumptions/verifiability,not agency
+  shall/should convention,always-positive wording,ban on all design constraints or
+  requiring guesses for every TBD. https://www.sei.cmu.edu/blog/using-quality-attributes-as-a-means-to-improve-acquisition-strategies/
+  actual LisaBrownsword Feb10 2014 metadata and74–98/121–125,scenario stimulus/
+  environment/response and incompatible concerns;not full research series or
+  linked reports,mandatory three-part model,measured success gains or procurement
+  advice. Other search PDFs/snippets not claimed as read. Scenario adds original
+  explicit measurements;no universal target,ISO taxonomy or new platform behavior.
+- Verification: actual structural/link verifier passed164 leaves,2814 resolving
+  links across183 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,five unique aliases,164/191,tables/empty
+  staging;git diff --check passed. Editorial check traced N4/R4/C2,known W2 mismatch
+  versus unrun timing,proposed-currentness condition and removed-sample uncertainty.
+  Clarified punctuation spacing before commit. Static interpretation only;no
+  exporter,test/load,access/freshness check,cache,acceptance or speed measurement run.
+- Next steps: D16.S02.L02,then all approved remaining D16–D18 units;27 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

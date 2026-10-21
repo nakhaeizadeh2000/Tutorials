@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **163 of 191 approved lessons** are available.
+Implementation is in progress: **164 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -338,6 +338,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Consistency (ACID) | [Preserving defined invariants through valid operations](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Consistency (distributed) | [Allowed operation histories and observations under a stated model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Constraint (database) | [Enforced restriction on allowed data](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
+| Constraint (product) | [Required boundary on permitted solutions or operation](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.1. Requirements constraints acceptance criteria and quality attributes.md>) |
 | Constructor injection | [Supplying dependencies when a consumer is constructed](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Consumer (messaging) | [Role receiving messages for processing](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Consumer acknowledgment | [Consumer-to-broker signal permitting delivery completion handling](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
@@ -644,6 +645,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Function (platform) | [Deployed code unit under a platform execution contract](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Function coverage | [Counted functions entered within the included scope](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Functional programming | [Organizing computation around functions and value flow](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
+| Functional requirement | [Required function or behavior of a system](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.1. Requirements constraints acceptance criteria and quality attributes.md>) |
 | Functional testing | [Evaluation of required software functions and behavior](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | GA | [General availability](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Gate | [A configured condition required before proceeding](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
@@ -966,6 +968,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Node (Kubernetes) | [Physical or virtual execution machine in a cluster](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Node autoscaling | [Automatic provisioning or consolidation of execution nodes](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Non-blocking I/O | [An attempt that does not wait for readiness when progress is unavailable](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
+| Non-functional requirement | [Common label for quality or other system-wide requirements with local classification specified](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.1. Requirements constraints acceptance criteria and quality attributes.md>) |
 | Non-functional testing | [Evaluation of quality characteristics under stated conditions](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Nonconformity | [Failure to meet a specified requirement](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Nonrepeatable read | [Changed value on reread after another transaction commits](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
@@ -1170,6 +1173,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | QA | [Quality assurance activities providing confidence in quality](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | QC | [Quality control activities evaluating and controlling relevant product quality](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Quality assurance | [Planned quality activities including process evaluation and improvement](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Quality attribute | [Characteristic such as performance reliability usability or modifiability evaluated in a stated context](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.1. Requirements constraints acceptance criteria and quality attributes.md>) |
 | Quality claim review | [Connecting candidate expectations test arrangements results and outstanding questions](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.2. Challenge a tested-and-production-ready claim.md>) |
 | Quality control | [Activities focused on fulfilling product or service quality requirements](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Quantile | [Value positioned relative to a fraction of an ordered population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
@@ -1250,6 +1254,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Request ID | [Request identifier under an application or infrastructure convention](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
 | Requirement | [Actor condition and required behavior](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Requirements coverage | [Relationship between specified requirements and corresponding test evidence](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
+| Requirements traceability | [Links connecting needs requirements implementation and relevant evidence](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.1. Requirements constraints acceptance criteria and quality attributes.md>) |
 | Resident memory | [Memory currently in physical RAM for a specified scope](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Resilience | [Ability to withstand recover and adapt to disruption for required outcomes](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Resiliency | [Resilience under a stated context](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
