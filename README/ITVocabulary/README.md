@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **178 of 191 approved lessons** are available.
+Implementation is in progress: **179 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -370,6 +370,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Container runtime | [Software creating and running containerized processes](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Content negotiation | [Selecting among representations through stated preferences](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Context propagation | [Carrying association data across operation boundaries](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
+| Context window | [A model-specific input and generation capacity with defined counting rules](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
 | Continuous delivery | [Discipline of keeping software deployable through repeatable preparation verification and deployment capability](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Continuous deployment | [Automatic production deployment of changes passing applicable pipeline conditions](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Contract test | [Evaluation of an agreed interaction or implementation contract at a boundary](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
@@ -571,6 +572,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Email address | [A mailbox reference with local and domain parts](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Email alignment | [The required relationship between an authenticated domain and the message author domain](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Embedded database | [Database engine operating inside an application process](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
+| Embedding | [A learned numerical representation used for comparison or other tasks](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
 | Embedding (data) | [Storing related details inside a containing record](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Encapsulation (design) | [Grouping responsibility and controlling interaction with internal state](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Encapsulation (network) | [Carrying one protocol unit inside another](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
@@ -663,6 +665,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Forward compatibility | [Handling relevant newer inputs or counterparts with an older component](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Forward proxy | [A client-side intermediary selected for forwarding requests](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | FOSS | [Free and open source software](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
+| Foundation model | [A broadly trained model adaptable to downstream tasks](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
 | FQDN | [Fully qualified domain name](<05 Networks and the Internet/sections/3. Naming/3.1. Domains hostnames DNS resolvers and records.md>) |
 | Frame | [A link-protocol transmission unit](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Framework | [Structure and coordination with application extension points](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
@@ -901,6 +904,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Listener (event) | [Code registered to handle an event](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Listener (socket) | [A socket accepting incoming connection attempts](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Liveness | [A property requiring desired progress under stated assumptions](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
+| LLM | [Large language model rather than the whole application](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
+| LLM token | [A model-tokenizer unit rather than a universal word](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
 | Load balancer | [A role distributing traffic among selected destinations](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Load shedding | [Refusing or dropping selected work to protect service under pressure](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
 | Local state | [State held by a particular client or component with lifetime stated](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -1203,6 +1208,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Programming language | [Rules for expressing programs and their behavior](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | Projection (events) | [Representation derived by applying event history](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Promotion (delivery) | [Advancing a selected artifact or version through a delivery process](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
+| Prompt | [Input supplied to guide a model response](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Proof of concept | [Bounded investigation of whether a proposed approach is feasible](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Property graph | [Graph model with properties on nodes and relationships](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |

@@ -2,7 +2,7 @@
 
 Understand AI discussions through tasks, data, evaluation and application boundaries. No statistics or machine-learning course is assumed. Examples are bounded reading and arithmetic exercises, with deeper implementation routed to its specialist owner.
 
-This domain is in progress: 4 of 10 approved lessons are available.
+This domain is in progress: 5 of 10 approved lessons are available.
 
 ## 1. Models tasks and data
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 10 approved lessons are available.
 1. **Separate prediction from intervention:** distinguish association causal effects and confounding
 2. **Interpret uncertainty in context:** separate model scores confidence intervals and unsupported certainty
 3. **Rewrite a causal capability claim:** preserve observed differences while asking for a suitable evaluation design
+
+## 3. Generative systems
+
+### [3.1. Foundation models LLMs tokens prompts context windows and embeddings](<sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>)
+
+1. **Separate model families from applications:** interpret foundation model and LLM without assuming universal capability
+2. **Read model input and representation limits:** distinguish tokens prompts context windows and embeddings
+3. **Inspect a context claim:** trace supplied information omitted information and unsupported memory promises
 
 [← Back to IT Vocabulary](<../README.md>)
