@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 4 of 13 approved lessons are available.
+This domain is in progress: 5 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -31,5 +31,13 @@ This domain is in progress: 4 of 13 approved lessons are available.
 1. **Distinguish product direction from work decomposition:** Read roadmaps backlogs epics stories and tasks with explicit local hierarchy and commitment status.
 2. **Choose a learning artifact for the uncertainty:** Separate prototype proof of concept and MVP purposes from evidence that a deliverable is ready for production.
 3. **Read a polished demonstration without overstating progress:** Classify an original workshop follow-up packet and state which user feasibility and operating questions remain.
+
+## 3. Work methods
+
+### [3.1. Agile Scrum Kanban Lean iterations and sprints](<sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>)
+
+1. **Separate adaptive values from a named framework:** Interpret Agile and Scrum without equating software feedback with meetings or abandoning documentation.
+2. **Distinguish timeboxed learning from managed flow:** Explain iteration increment Sprint Kanban WIP and Lean concerns with explicit framework boundaries.
+3. **Evaluate a process claim from observed work:** Read a constructed board and Sprint packet and propose a focused improvement without declaring unmeasured productivity gains.
 
 [← Back to IT Vocabulary](<../README.md>)

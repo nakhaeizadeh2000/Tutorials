@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **165 of 191 approved lessons** are available.
+Implementation is in progress: **166 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -94,6 +94,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Age (HTTP) | [Estimated seconds since generation or successful origin validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Agile | [Family of adaptive software development values and approaches emphasizing collaboration working outcomes and feedback](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Alert (operations) | [Signal that a defined service or resource condition needs attention](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Algorithm | [Specified procedure solving a problem for allowed inputs](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -762,6 +763,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Imperative programming | [Explicit commands and control flow often updating working state](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Import package | [A Python module able to contain submodules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Incident commander | [Person coordinating incident response priorities state and assignments](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
+| Increment (product work) | [Usable addition to a product under the applicable completion criteria](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Incremental backup | [Changed material relative to earlier retained data](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Index (Git) | [Staging area preparing the next snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IndexedDB | [Browser database API for structured client data](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -809,6 +811,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ISP (design) | [Interface Segregation Principle](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Issue report | [Recorded problem or work item with investigation context](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>) |
 | Issuer (identity) | [Entity issuing security assertions or a token](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Iteration (product work) | [Repeated development or learning cycle that can revise earlier understanding](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Jargon | [Language shared by a group](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | JIT | [Just-in-time compilation during execution](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.1. Compiling interpreting transpiling and JIT.md>) |
 | Jitter (network) | [Delay variation under a specified metric](<05 Networks and the Internet/sections/6. Network measurements and failures/6.1. Latency bandwidth throughput jitter and packet loss.md>) |
@@ -819,6 +822,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Junction table | [Association table recording linked entry pairs](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | JWT | [JSON Web Token claims format](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | K8s | [Common shortening of Kubernetes](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
+| Kanban | [Strategy for managing and improving value flow through an explicitly defined workflow](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | KEK | [Key encryption key protecting other key material](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | KEM | [Key-encapsulation mechanism for shared-secret establishment](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Kernel | [The core privileged operating-system component](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -847,6 +851,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Layer (architecture) | [Logical responsibility group with specified dependency rules](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Leader (consensus) | [Participant coordinating work under a consensus protocol](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Leader election | [Protocol process selecting a coordinating participant](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
+| Lean | [Thinking and practice focused on needed value learning and reducing waste](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Least privilege | [Authority limited to the work resources and duration actually required](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 | Left outer join | [Matching pairs plus unmatched left rows with null right values](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Legacy system | [Existing retained or inherited system with contextual historical constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
@@ -1344,6 +1349,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Schema-on-write | [Expected structure applied when data is stored](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Scope (access) | [Protocol-specific access range or capability](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Screen reader | [Software presenting content and control information through speech or braille](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Scrum | [Framework using defined accountabilities events and artifacts for inspecting and adapting product work](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
 | Secret | [A value requiring confidentiality](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Secret manager | [Controlled secret storage and access under a defined setup](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
@@ -1435,6 +1441,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | SPDX | [A specification family used for software information and SBOM exchange](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Specification | [Defined behavior and requirements](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | SPF | [Sender Policy Framework](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
+| Sprint | [Scrum timebox of one month or less containing its product work and inspection events](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Spy (testing) | [Substitute recording interactions for inspection](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | SQL | [Structured Query Language with product-specific dialect capabilities](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | SQL injection | [Input crossing into database query instructions or structure](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
@@ -1655,6 +1662,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | WebView | [A component displaying web content within an application](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Wi-Fi | [Wireless local-network access technology](<05 Networks and the Internet/sections/1. Connections and network scope/1.1. Networks internet intranets LAN WAN and interfaces.md>) |
 | Wildcard bind | [Binding to any local address in the stated address family](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| WIP (product work) | [Work items started but not finished under the workflow’s defined boundaries](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Work queue | [Delivery source distributing tasks among workers](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | Workaround | [Alternative way of proceeding around a problem](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Working tree | [Checked-out files and directories available for editing](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |

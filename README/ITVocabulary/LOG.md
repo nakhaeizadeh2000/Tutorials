@@ -7337,3 +7337,39 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   release,security or performance experiment executed.
 - Next steps: D16.S03.L01,then all remaining approved D16–D18 units;26 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S03.L01 — Agile Scrum Kanban Lean iterations and sprints — verified
+
+- Done: D16.S03.L01; adaptive values versus framework,iteration/increment/Sprint,
+  event purposes,workflow/WIP/pull and Lean value/waste;original three-item review-
+  waiting packet with completed-B variation. Progress166/191;25 approved leaves remain.
+- Files touched: new sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations
+  and sprints.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,eight contextual aliases,three precise artifact/
+  people/requirement owners and navigation. Language iteration ownership retained.
+- Research / Decisions: full-repo numerical Agile/Scrum/Kanban/Lean/Sprint headings
+  found JS iterable concepts,not product workflow owner. Read complete JS Fundamentals
+  checklist for specific question-to-evidence review;reject stale LTS,universal
+  scheduling/error/thread and mandatory lint claims. Actually consulted complete
+  main texts https://agilemanifesto.org/ and https://agilemanifesto.org/principles.html
+  (2001),not universal no-docs/no-plan,face-to-face-always-best or causal productivity
+  theorem. Reused actual Scrum2020 definition/team/events/artifacts passages already
+  read this session;not mandatory job chart,completed-every-selected-item or release-
+  only-at-review interpretation. https://kanbanguides.org/the-kanban-guide actual
+  May2025 metadata/preface/definition and100–152 workflow,WIP,pull,improvement/metrics;
+  current initial baseline,not2020 edition,no universal fixed WIP number/automatic
+  efficiency or broader all-Kanban-school equivalence. No copied full guide/template.
+  https://www.lean.org/explore-lean/what-is-lean/ actual2–23 purpose/work/experiments/
+  people,not full Lean lexicon,all-peers-more-adaptive/zero-waste guarantee or staff-
+  reduction mandate. Topic discovery compared originating framework and specialist
+  education sources;search-only anecdotes/news/new manifestos not adopted as facts.
+- Verification: actual structural/link verifier passed166 leaves,2843 resolving
+  links across185 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,eight unique aliases,166/191,tables/empty
+  staging;git diff --check passed. Editorial check traced three started/unfinished
+  items,waiting-B inclusion,D's proposed violation absent exception,A's limited
+  usable result,unmet/unestablished goal and unrun review-capacity improvement.
+  Added B finish gives WIP2,not a speedup. Static packet/counting only;no real
+  Sprint/meeting/process change,workflow experiment,user delivery or performance run.
+- Next steps: D16.S04.L01,then all remaining approved D16–D18 units;25 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
