@@ -7373,3 +7373,41 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   Sprint/meeting/process change,workflow experiment,user delivery or performance run.
 - Next steps: D16.S04.L01,then all remaining approved D16–D18 units;25 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S04.L01 — Estimates forecasts deadlines effort capacity and velocity — verified
+
+- Done: D16.S04.L01; quantity/unit/assumption distinctions,effort versus elapsed
+  duration,capacity and commitment,relative points/completed-work velocity and
+  original 8/12/8 history with24 remaining,unknown approval and reduced specialist
+  availability. Progress167/191;24 approved leaves remain across D16–D18.
+- Files touched: new sections/4. Planning and progress/4.1. Estimates forecasts
+  deadlines effort capacity and velocity.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,seven contextual aliases,four precise methods/
+  roadmap/statistics/service-capacity owners plus navigation;network Deadline and
+  general resource Capacity owners retained with explicitly scoped work aliases.
+- Research / Decisions: section-wide repo estimate/forecast/velocity/capacity
+  headings found D15 service capacity;read complete owner,linked measurement rather
+  than copying tuning. Reused complete JS Holes contrasting-state and Fundamentals
+  checklist evidence calibration,not inherited-property,stale runtime or cost claims.
+  Actual https://www.mountaingoatsoftware.com/agile/story-points/introducing-story-points-to-a-team
+  body137–198,215–228,255–283 and July5 2026 metadata318;relative units/reference
+  items/full effort/forecasting versus pressure,not universal point superiority,
+  fixed Fibonacci scale,all-manager-pressure-always-inflates or all-estimates-
+  never-part-of-agreement assertion. https://agilealliance.org/glossary/velocity/
+  actual340–363 completed estimate total and conditional forecast/scale limits;
+  reject generally-accurate guarantee,one universal remedy for variation,exact
+  next-iteration quota and individual/aggregate-value claims as causal facts.
+  Initial opens mostly navigation,actual source body recovered by find. Actual
+  Scrum2020 sizing/capacity186/230 previously read corroborates framework scope;
+  no story-point mandate,full forecasting method or confidence percentages taught.
+- Verification: actual structural/link verifier passed167 leaves,2857 resolving
+  links across186 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,seven unique aliases,167/191,tables/empty
+  staging;git diff --check passed. Actual Fraction assertions verified3+5=8,
+  (8+12+8)/3=28/3,24/10*2=4.8weeks and conditional24/12=2/24/8=3. Editorial check
+  traced C8 exclusion from completed total but inclusion in remaining scope,
+  wrong-ten premise,deadline versus forecast,unknown dependency and doubled-scale
+  variation. Arithmetic/static packet only;no real estimate/forecast,team capacity,
+  delivery commitment,productivity or application-performance experiment executed.
+- Next steps: D16.S04.L02,then all remaining approved D16–D18 units;24 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

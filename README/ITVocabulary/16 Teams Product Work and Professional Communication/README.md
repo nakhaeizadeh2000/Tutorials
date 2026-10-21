@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 5 of 13 approved lessons are available.
+This domain is in progress: 6 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -39,5 +39,13 @@ This domain is in progress: 5 of 13 approved lessons are available.
 1. **Separate adaptive values from a named framework:** Interpret Agile and Scrum without equating software feedback with meetings or abandoning documentation.
 2. **Distinguish timeboxed learning from managed flow:** Explain iteration increment Sprint Kanban WIP and Lean concerns with explicit framework boundaries.
 3. **Evaluate a process claim from observed work:** Read a constructed board and Sprint packet and propose a focused improvement without declaring unmeasured productivity gains.
+
+## 4. Planning and progress
+
+### [4.1. Estimates forecasts deadlines effort capacity and velocity](<sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>)
+
+1. **State what quantity a planning number describes:** Separate effort elapsed duration capacity estimates forecasts and deadline constraints with explicit units.
+2. **Use team history without turning points into a universal clock:** Explain relative story points completed-work velocity and changes that weaken forecasting assumptions.
+3. **Challenge a date claim using its actual premises:** Calculate a bounded fictional planning model and preserve dependencies uncertainty and the difference between a forecast and a commitment.
 
 [← Back to IT Vocabulary](<../README.md>)

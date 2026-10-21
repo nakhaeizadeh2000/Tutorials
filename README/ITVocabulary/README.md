@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **166 of 191 approved lessons** are available.
+Implementation is in progress: **167 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -250,6 +250,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Canary release | [Limited exposure to a change with evaluation before proceeding](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | CAP | [Consistency availability and partition-tolerance trade-off under a defined fault model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Capacity | [An amount rather than a rate](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| Capacity (team) | [Available ability and time for specified work within a period and constraints](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | Capped backoff | [Backoff growth limited by a maximum delay](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Cardinality (relationship) | [Allowed participation counts on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Cardinality (telemetry) | [Number of distinct values or combinations in a defined observation scope](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
@@ -439,6 +440,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | DDL | [Data definition language for structures](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | Dead-letter queue | [Destination for messages diverted from normal processing](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Deadline | [Point beyond which a caller is unwilling to continue waiting](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
+| Deadline (work) | [Required or agreed latest completion time with scope and authority stated](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | Deadlock | [Dependency cycle preventing participant progress without intervention](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Deallocation | [Making storage available for reuse under its allocator](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Debugger | [Tool for controlled execution and state inspection](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
@@ -536,6 +538,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Editor | [A tool for modifying source files](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | EEPROM | [Rewritable device memory in the bootloader example](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Effect order | [Order in which business effects become observable](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
+| Effort (work) | [Amount of human work with unit and included activities defined](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | Egress | [Traffic leaving a named boundary](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Egress gateway | [Designated component routing selected outbound traffic](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Elasticity | [Adapting supplied resources to changing demand including releasing resources](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
@@ -566,6 +569,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Error budget | [Allowed bad-outcome fraction or quantity under an objective and scope](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | Error budget policy | [Agreed use of service-objective evidence in operational decisions](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | Escalation | [Routing an issue or decision beyond the current authority or capability through an agreed route](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
+| Estimate (work) | [Approximate assessment of a specified work quantity under stated assumptions](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | ETag | [Opaque entity tag identifying a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | ETL | [Extract transform load relative to a stated destination](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Event (browser) | [A notification handled through registered code](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -629,6 +633,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Flame graph | [Grouped-stack visualization of selected activity with units defined](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
 | Flapping (scaling) | [Repeated opposing resource or instance adjustments](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Folder | [Common name for a directory](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
+| Forecast (delivery) | [Prediction of future delivery based on evidence and explicit assumptions](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | Foreign key | [Declared reference rule to an allowed referenced key](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Fork (hosting) | [Separate repository linked to an original through a hosting-platform relationship](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Forward compatibility | [Handling relevant newer inputs or counterparts with an older component](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
@@ -1483,6 +1488,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Step over | [Resume toward the next stop in the current frame while executing calls](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Steps to reproduce | [Initial conditions and actions for attempting the reported behavior](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.1. Write a reproducible issue with expected and actual behavior.md>) |
 | Storage volume | [Device-like storage area usable by a filesystem or application](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
+| Story point | [Team-relative size or effort estimate without a universal conversion to hours](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | Strangler Fig | [Gradual replacement of behavior while old and new parts coexist](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Strategy (pattern) | [Interchangeable behavior supplied through a common contract](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Stream (messaging) | [Sequence or flow of records made available over time](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
@@ -1629,6 +1635,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Value object | [Meaning represented by values without separate conceptual identity](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Vary | [Request fields used in HTTP cache representation matching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | vCPU | [Virtual processing resource presented to a guest](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
+| Velocity (team) | [Total estimates associated with work meeting the team’s completion rule during an iteration](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
 | Verification | [Evaluation against specified requirements with explicit evidence scope](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Verification key | [Public key material used to check digital signatures](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Version control | [Recording and relating versions so changes can be inspected and combined](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
