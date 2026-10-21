@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 7 of 13 approved lessons are available.
+This domain is in progress: 8 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -53,5 +53,13 @@ This domain is in progress: 7 of 13 approved lessons are available.
 1. **Describe what prevents which outcome:** Separate dependencies current blockers and risks then identify owners and the decisions needed to proceed.
 2. **Keep scope and completion criteria visible:** Distinguish agreed scope change from unmanaged expansion and Definition of Done from an activity label or item-specific criterion.
 3. **Transfer unfinished work without inventing completion:** Rewrite a constructed implementation-complete update with exact remaining checks scope decisions and a usable receiving-owner handoff.
+
+## 5. Documents and decisions
+
+### [5.1. PRDs RFCs ADRs proposals specifications and decision records](<sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>)
+
+1. **Choose a document from its purpose and authority:** Distinguish product requirements discussion proposals normative specifications and retained decision rationale.
+2. **Read decision state separately from implementation state:** Interpret proposed accepted rejected and superseded records without erasing earlier context or inventing deployment evidence.
+3. **Reconcile conflicting documents through scope and history:** Trace an original product and architecture packet to its current decision open questions and required follow-up.
 
 [← Back to IT Vocabulary](<../README.md>)

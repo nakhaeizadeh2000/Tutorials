@@ -7448,3 +7448,40 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   release,scope decision or delivery/performance experiment executed.
 - Next steps: D16.S05.L01,then all remaining approved D16–D18 units;23 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S05.L01 — PRDs RFCs ADRs proposals specifications and decision records — verified
+
+- Done: D16.S05.L01; purpose/authority/status,internal RFC versus Internet series,
+  retained ADR rationale/supersession,decision versus implementation evidence and
+  original P4/ADR2/RFC9/ADR5/H7 packet with scoped H8 and removed-merge-rule variants.
+  Progress169/191;22 approved leaves remain across D16–D18.
+- Files touched: new sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals
+  specifications and decision records.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,six contextual aliases,four exact document/
+  requirement/Git/queue owners and navigation;RFCseries/Specification owners retained.
+- Research / Decisions: section-wide repo PRD/ADR/RFC/decision/specification headings
+  found D01 and JSON standard context;read complete D01 document-purpose leaf.
+  Reuse complete JS Engines attribution/Promise outcome-tracing calibration,not
+  universal conformance/errors/cost claims. Actual originating sources consulted:
+  https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions actual
+  MichaelNygard Nov15 2011 sectionsContext/Decision lines7–37 and Status43–45;
+  rationale,significant choice,retained superseded history;not full article,all-large-
+  docs-never-read/updated,project-collapse guarantee or old Rails version as current
+  example. https://www.rfc-editor.org/series/rfc/ actual84–88 series/status/unchanged
+  publications/relationships,not every-RFC-standard or internal merge authority.
+  https://www.atlassian.com/agile/product-management/requirements/ actual1237–1277
+  author metadata/purpose/goals/scope;not full1529-line guide,mandatory Confluence,
+  PRD-equals-roadmap,single-file-always-authority or guaranteed alignment/success.
+  Initial PRD open navigation only,actual body recovered with find. Other discovery
+  snippets/community/book PDFs not claimed as read. No new interface/queue behavior.
+- Verification: actual structural/link verifier passed169 leaves,2883 resolving
+  links across188 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,six unique aliases,169/191,tables/empty
+  staging;git diff --check passed. Editorial check traced scope-limited ADR5 replacing
+  ADR2,explicit local RFC merge rule,H7 inspection versus unknown production and
+  undefined timing. H8 checked path does not define a target;removing merge rule
+  narrows RFC inference while retaining separately accepted ADR5. Static records
+  only;no actual document/PR merge,approval,queue,implementation,deployment,artifact
+  evaluation or performance experiment executed.
+- Next steps: D16.S05.L02 then all remaining approved D16–D18 units;22 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

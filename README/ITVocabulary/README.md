@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **168 of 191 approved lessons** are available.
+Implementation is in progress: **169 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -90,6 +90,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Adapter (architecture) | [Technology-specific connection to an application interaction contract](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Address space | [Addresses available under a program execution model](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Admission control | [Policy deciding which incoming work is accepted](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.2. Backpressure buffering throttling and load shedding.md>) |
+| ADR | [Architecture decision record preserving context choice and consequences](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | After-action review | [Review of completed activity outcomes and lessons under local usage](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Age (HTTP) | [Estimated seconds since generation or successful origin validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
@@ -447,6 +448,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Debugger | [Tool for controlled execution and state inspection](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Debugging | [Investigation and correction of a software problem](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Decimal prefix | [SI powers of ten](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| Decision record | [Retained account of a decision its context status rationale and applicable scope](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Declarative programming | [Stating required results or relationships behind an execution interface](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Decoding | [Interpreting encoded data as text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Decryption | [Recovery of plaintext using required cryptographic key material and parameters](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
@@ -1133,6 +1135,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PostgreSQL | [A DBMS product with a client/server architecture](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.1. Data datasets databases and database management systems.md>) |
 | Postmortem | [Retrospective incident account connecting impact response learning and follow-up](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | PR | [Pull request](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
+| PRD | [Product requirements document describing product needs scope and intended outcomes under the team’s process](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Pre-release identifier | [Hyphen-suffixed label preceding the corresponding normal SemVer version](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Predictive scaling | [Automatic adjustment informed by a forecast](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Preemptive scheduling | [Scheduler interruption without an explicit yield at that moment](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
@@ -1166,6 +1169,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Proof of concept | [Bounded investigation of whether a proposed approach is feasible](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Property graph | [Graph model with properties on nodes and relationships](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
+| Proposal | [Suggested course of action awaiting the applicable discussion or decision](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Proprietary software | [Software under terms withholding the relevant software-freedom rights](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Protobuf | [Protocol Buffers definitions tooling and serialization](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Protobuf Editions | [Behavior defaults selected by a declared edition](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
@@ -1303,6 +1307,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Revocation | [Withdrawal of validity or authority under the system’s mechanism](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Rewrite (software) | [Replacement of an implementation with explicit compatibility obligations](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| RFC (internal proposal) | [Request for Comments document following an organization’s discussion and decision process](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Risk (security) | [Potential harm considered with likelihood impact and context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Risk assessment | [Identification analysis and prioritization using stated models and assumptions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Roadmap | [Evolving communication of intended direction outcomes and sequencing with commitment status stated](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
@@ -1508,6 +1513,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Subnet | [A network subdivision commonly described by a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Subnet mask | [An IPv4 bit mask expressing a network prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Subscription | [Recorded interest under routing and delivery rules](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Superseded (decision) | [Replaced as the current decision while retained as historical context](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Supply chain failure | [Breakdown or compromise in producing distributing or updating software](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Support status | [Availability maintenance and service meanings](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Suspension (task) | [Pausing a task continuation while its execution resource may run other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
