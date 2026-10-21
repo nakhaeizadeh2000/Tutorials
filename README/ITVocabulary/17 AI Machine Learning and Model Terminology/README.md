@@ -2,7 +2,7 @@
 
 Understand AI discussions through tasks, data, evaluation and application boundaries. No statistics or machine-learning course is assumed. Examples are bounded reading and arithmetic exercises, with deeper implementation routed to its specialist owner.
 
-This domain is in progress: 7 of 10 approved lessons are available.
+This domain is in progress: 8 of 10 approved lessons are available.
 
 ## 1. Models tasks and data
 
@@ -53,5 +53,11 @@ This domain is in progress: 7 of 10 approved lessons are available.
 1. **Identify control and execution responsibilities:** distinguish model workflow agent loop and tool implementation
 2. **Read integration protocol claims:** interpret MCP roles and capabilities without inferring authority or reliability
 3. **Trace a proposed tool action:** separate generated requests authorization execution results and verified outcomes
+
+### [4.2. Hallucinations evaluations benchmarks guardrails and prompt injection](<sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>)
+
+1. **Classify unsupported output and evaluation evidence:** distinguish hallucination task grading benchmark and actual outcome
+2. **Locate protective controls and their limits:** interpret guardrails and prompt injection through trust boundaries
+3. **Read a bounded evaluation report:** challenge weak graders exclusions and untested protections
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **181 of 191 approved lessons** are available.
+Implementation is in progress: **182 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -100,6 +100,10 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Agile | [Family of adaptive software development values and approaches emphasizing collaboration working outcomes and feedback](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | AI | [Artificial intelligence as a broad field and system label](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | AI agent | [A system using model-directed steps or tool use under a stated control arrangement](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
+| AI benchmark | [A specified evaluation collection and procedure for comparison](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
+| AI evaluation | [A defined task and grading process for assessing a system](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
+| AI grader | [A mechanism judging specified aspects of an output or outcome](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
+| AI guardrail | [A control intended to constrain behavior or reduce a stated risk](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
 | AI workflow | [An arrangement of model and tool steps with defined control paths](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
 | Alert (operations) | [Signal that a defined service or resource condition needs attention](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
@@ -714,6 +718,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Guest (virtualization) | [Environment running within a specified virtual machine](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Guest operating system | [Operating system inside a virtual machine](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.2. IaaS PaaS SaaS managed services and shared responsibility.md>) |
 | Half-open (breaker) | [Limited trial admission to assess recovery under a breaker policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
+| Hallucination | [Generated content presented as factual despite lacking support or conflicting with evidence](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
 | Handler (function) | [Entry code invoked for a defined event or request](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Handler (request) | [Code selected to handle an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Handoff | [Transfer of responsibility and the context needed for the receiving person to act](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
@@ -1215,6 +1220,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Projection (events) | [Representation derived by applying event history](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Promotion (delivery) | [Advancing a selected artifact or version through a delivery process](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Prompt | [Input supplied to guide a model response](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.1. Foundation models LLMs tokens prompts context windows and embeddings.md>) |
+| Prompt injection | [Untrusted input influencing model behavior across an intended instruction boundary](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Proof of concept | [Bounded investigation of whether a proposed approach is feasible](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Property graph | [Graph model with properties on nodes and relationships](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
