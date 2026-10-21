@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **176 of 191 approved lessons** are available.
+Implementation is in progress: **177 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -344,6 +344,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Configuration precedence | [The application-defined order for selecting among setting sources](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Confirmation testing | [Checking that a particular reported problem has been corrected](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Conflict resolution | [Choosing and recording the intended combined contents](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
+| Confusion matrix | [Counts comparing predicted and reference classes](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | CONNECT | [Establish an HTTP tunnel](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Connection refusal | [A failed connection attempt reporting refusal](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
 | Connector (data) | [Integration component for a source or destination](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -427,6 +428,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Data center | [Facility housing computing and supporting infrastructure](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Data design review | [Mapping structure operation copy and pipeline claims to scoped evidence](<08 Databases Storage and Data Pipelines/sections/7. Applied interpretation/7.1. Read a data design and recovery claim.md>) |
 | Data lake | [Repository retaining varied datasets for later uses](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
+| Data leakage | [Information improperly influencing fitting or evaluation for the stated prediction task](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | Data mart | [Analytical data serving a narrower subject or audience](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Data migration | [Movement or transformation of data values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Data minimization | [Adequate relevant information limited to what the purpose requires](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
@@ -957,6 +959,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Minor version | [Version component signaling compatible functionality or public deprecation under SemVer](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Mirror (packages) | [Service distributing copied package contents](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Mitigation | [Action reducing a problem’s impact](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
+| ML accuracy | [Fraction of classifications matching the reference labels](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
+| ML bias | [Context-dependent systematic tendency assumption or disparity](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | ML feature | [An input attribute or representation used by a model](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | ML label | [A target value used for the stated supervised task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | ML model | [A learned or fitted artifact used for a task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
@@ -1077,6 +1081,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | OTP | [One-time password authenticator output](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Output encoding | [Context-specific representation keeping supplied content as data](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
 | Outstanding requests | [Requests not yet completed at a specified observation point](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
+| Overfitting | [Learning that fits available examples without generalizing adequately](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | Overloaded word | [Several meanings selected by context](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | Ownership (filesystem) | [Recorded file user and group ownership](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | Ownership (work) | [Assigned stewardship of a defined outcome activity or service](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
@@ -1162,6 +1167,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | PR | [Pull request](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | PRD | [Product requirements document describing product needs scope and intended outcomes under the team’s process](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Pre-release identifier | [Hyphen-suffixed label preceding the corresponding normal SemVer version](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
+| Precision | [True positives divided by all predicted positives](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | Predictive scaling | [Automatic adjustment informed by a forecast](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.2. Horizontal vertical scaling autoscaling and elasticity.md>) |
 | Preemptive scheduling | [Scheduler interruption without an explicit yield at that moment](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Prefix length | [The number of leading address bits specifying a prefix](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
@@ -1255,6 +1261,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Read-your-writes | [Observation guarantee covering a writer’s accepted updates within a defined scope](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Readiness | [Configured condition for accepting relevant traffic](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Rebase | [Replaying selected changes onto another starting point](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
+| Recall | [True positives divided by all actual positives](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | Reconciliation | [Observation and action toward desired state](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Record | [A context-specific stored entry such as a row or document](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Recovery (data) | [Return to acceptable state including replay checks and application use](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |

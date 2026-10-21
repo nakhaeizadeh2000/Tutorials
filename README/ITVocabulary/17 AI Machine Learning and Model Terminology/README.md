@@ -2,7 +2,7 @@
 
 Understand AI discussions through tasks, data, evaluation and application boundaries. No statistics or machine-learning course is assumed. Examples are bounded reading and arithmetic exercises, with deeper implementation routed to its specialist owner.
 
-This domain is in progress: 2 of 10 approved lessons are available.
+This domain is in progress: 3 of 10 approved lessons are available.
 
 ## 1. Models tasks and data
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 10 approved lessons are available.
 1. **Identify inputs targets and dataset roles:** distinguish features labels parameters and hyperparameters
 2. **Trace fitting selection and prediction:** interpret training validation testing and inference without relying on file names
 3. **Inspect a data-use packet:** spot reused evaluation evidence unavailable inputs and incomplete population coverage
+
+## 2. Statistical and evaluation language
+
+### [2.1. Accuracy precision recall overfitting bias and data leakage](<sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>)
+
+1. **Calculate task-specific classification measures:** state the positive class and different denominators
+2. **Distinguish fitting and evidence failures:** interpret overfitting bias and leakage without treating them as synonyms
+3. **Challenge a quality score:** check population splits thresholds and costs before accepting a model
 
 [← Back to IT Vocabulary](<../README.md>)
