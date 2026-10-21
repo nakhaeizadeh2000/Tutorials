@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **164 of 191 approved lessons** are available.
+Implementation is in progress: **165 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -560,6 +560,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Environment variable | [A named value in a process environment](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | EOL | [End of life](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Ephemeral port | [A temporary port selected for a use such as an outgoing connection](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Epic | [Large body of related work decomposed under the team’s conventions](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Error (testing) | [Human mistake in a common testing terminology convention](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Error budget | [Allowed bad-outcome fraction or quantity under an objective and scope](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | Error budget policy | [Agreed use of service-objective evidence in operational decisions](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
@@ -946,6 +947,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | MUST | [A scoped conformance requirement](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Mutex | [Mutual-exclusion lock](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | Mutual exclusion | [Only one participating operation entering a protected region at a time](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
+| MVP | [Minimum viable product used to learn about a product hypothesis through a suitably bounded offering](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | MX record | [A DNS mail-exchange record naming a delivery server and preference](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | N+1 queries | [One initial retrieval followed by N related retrievals](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | Nack | [Negative acknowledgment with policy-specific handling](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
@@ -1099,6 +1101,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Playbook | [Guide for investigation and response across possible situations under local conventions](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | PM | [Ambiguous abbreviation commonly meaning product manager or project manager](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | PO | [Product Owner in the Scrum context](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
+| PoC | [Proof of concept](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Pod | [Kubernetes deployable unit grouping co-located and co-scheduled containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Poison message | [Message repeatedly failing a particular consumer processing path](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Policy (governance) | [Organizational rules and responsibilities with defined authority and scope](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
@@ -1137,6 +1140,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Processing purpose | [Specified task or reason for operations with data](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Producer (messaging) | [Role creating or sending messages](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
+| Product backlog | [Ordered evolving product work under the stated process](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Product manager | [Role commonly concerned with product problems priorities and outcomes under local responsibilities](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | Product Owner | [Scrum accountability for product value and effective Product Backlog management](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.1. Stakeholders users customers and technical roles.md>) |
 | Production environment | [Context serving intended operational users or business workload](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
@@ -1145,12 +1149,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Projection (events) | [Representation derived by applying event history](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | Promotion (delivery) | [Advancing a selected artifact or version through a delivery process](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | Pronunciation | [Recognition and spoken naming conventions](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
+| Proof of concept | [Bounded investigation of whether a proposed approach is feasible](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Property graph | [Graph model with properties on nodes and relationships](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Proprietary software | [Software under terms withholding the relevant software-freedom rights](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Protobuf | [Protocol Buffers definitions tooling and serialization](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Protobuf Editions | [Behavior defaults selected by a declared edition](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.2. Payloads JSON XML YAML Protobuf and schemas.md>) |
 | Protocol | [Rules governing communication and interpretation](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Protocol binding | [A mapping of messaging to an underlying protocol](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| Prototype | [Representation built to explore and evaluate selected design ideas](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Provider scope | [Configured reuse and lifetime boundary for provider instances](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Provider token | [Runtime identity used to resolve a provider binding](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Provisioning | [Creating or making resources available for use](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
@@ -1284,6 +1290,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | RFC (document series) | [Status and scope of Internet RFCs](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Risk (security) | [Potential harm considered with likelihood impact and context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Risk assessment | [Identification analysis and prioritization using stated models and assumptions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
+| Roadmap | [Evolving communication of intended direction outcomes and sequencing with commitment status stated](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | Role (security) | [Named grouping of responsibilities or permissions under a system’s policy](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Roll forward | [Introducing another change intended to correct a problem](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Rollback (data change) | [Attempt to return to an earlier data or schema state](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
@@ -1502,6 +1509,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Tag (Git) | [Named object label commonly marking a selected commit](<11 Version Control Releases and Dependencies/sections/1. Change records/1.2. Branches tags remotes forks and clones.md>) |
 | Tail latency | [High end of response durations under a defined population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Task | [A unit of work defined by its subsystem](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
+| Task (product work) | [Assigned activity within a team’s work decomposition](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
@@ -1601,6 +1609,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | User account | [An identity recognized by a system](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | User presence | [Evidence of interaction with the authenticator](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | User space | [Application and supporting-program execution outside the kernel](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
+| User story | [Brief user-oriented statement supporting discussion and agreed outcome criteria](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
 | User verification | [Local authenticator process distinguishing the user under its model](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | UTC | [Coordinated Universal Time](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
 | UTC offset | [Local clock difference from UTC at an instant](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |

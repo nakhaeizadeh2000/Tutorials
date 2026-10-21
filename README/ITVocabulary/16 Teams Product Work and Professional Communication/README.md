@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 3 of 13 approved lessons are available.
+This domain is in progress: 4 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 13 approved lessons are available.
 1. **Separate the needed outcome from constraints on the solution:** Read functional requirements quality concerns and imposed boundaries without mistaking a suggestion for an obligation.
 2. **Make acceptance evidence observable and scoped:** Connect criteria to user needs conditions and a decision while separating planned checks from observed results.
 3. **Repair a vague export requirement without inventing approval:** Classify an original requirement packet identify conflicting conditions and propose a measurable revision for the assigned owner.
+
+### [2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes](<sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>)
+
+1. **Distinguish product direction from work decomposition:** Read roadmaps backlogs epics stories and tasks with explicit local hierarchy and commitment status.
+2. **Choose a learning artifact for the uncertainty:** Separate prototype proof of concept and MVP purposes from evidence that a deliverable is ready for production.
+3. **Read a polished demonstration without overstating progress:** Classify an original workshop follow-up packet and state which user feasibility and operating questions remain.
 
 [← Back to IT Vocabulary](<../README.md>)

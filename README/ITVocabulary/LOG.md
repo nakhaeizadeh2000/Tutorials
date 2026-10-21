@@ -7298,3 +7298,42 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   exporter,test/load,access/freshness check,cache,acceptance or speed measurement run.
 - Next steps: D16.S02.L02,then all approved remaining D16–D18 units;27 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S02.L02 — Roadmaps backlogs epics stories tasks MVPs and prototypes — verified
+
+- Done: D16.S02.L02; direction/ordered work/local hierarchy,story versus task,
+  prototype fidelity/PoC feasibility/MVP learning/production duty and original
+  tentative-roadmap/separate-P2-C1/open-S8/proposed-pilot packet with actual-pilot
+  and removed-walkthrough variations. Progress165/191;26 approved leaves remain.
+- Files touched: new sections/2. Requirements and product scope/2.2. Roadmaps
+  backlogs epics stories tasks MVPs and prototypes.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,nine contextual aliases,three exact requirements/
+  task-evidence/test-boundary owners plus navigation;OS Task/queue owners retained.
+- Research / Decisions: section-wide full-repo product-artifact heading search
+  found JS prototype mechanisms,not competing product-learning owner. Read current
+  D16 index;reuse complete JS Engines neighboring-role/contrast calibration,not
+  universal runtime/cost claims. Actual https://agilealliance.org/glossary/mvp/
+  body340–372 learning/viability/pitfalls;reject historical2009book date,guaranteed
+  faster learning,all-MVP-only-purchase and universal experiment economics.
+  https://agilealliance.org/glossary/user-stories/ actual345–365 and374–398 shared
+  understanding/horizon/task context;reject mandatory physical cards,quadratic
+  all-regression-cost theorem,all-stories-no-technical-content or universal process
+  hierarchy. Specialist original education,not full-book/source-series review.
+  https://www.gov.uk/service-manual/design/making-prototypes actual70–104 sketch/
+  code exploration and production distinction;reject universal kit requirement,
+  code-always-best,automatic usability improvement or no-security-needed for actual
+  exposed data. https://www.atlassian.com/agile/project-management/epics/ actual
+ 1264–1266 definition/decomposition,not full1454-line guide,mandatory Jira hierarchy
+  or promised workflow efficiency. Reuse actual Scrum2020 ProductBacklog228–230
+  source read earlier,not template/epic requirement. Initial opens navigation-only;
+  actual selected passages found before authorship. Other snippets discovery only.
+- Verification: actual structural/link verifier passed165 leaves,2829 resolving
+  links across184 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,nine unique aliases,165/191,tables/empty
+  staging;git diff --check passed. Editorial check traced tentative date,E3/S8,
+  prepared P2 data/three fictional walkthroughs,separate C1,open tasks and proposed
+  pilot;added actual pilot affects learning only. Static packet only,no real
+  prototype/walkthrough/adapter/PoC/pilot,tracker update,customer offering,production
+  release,security or performance experiment executed.
+- Next steps: D16.S03.L01,then all remaining approved D16–D18 units;26 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.
