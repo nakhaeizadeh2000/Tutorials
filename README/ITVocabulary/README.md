@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **175 of 191 approved lessons** are available.
+Implementation is in progress: **176 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -757,6 +757,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Hydration | [Connecting client application behavior to generated HTML](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Hydration mismatch | [Disagreement with expected initial client output](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.2. Rendering navigation CSR SSR SSG and hydration.md>) |
 | Hypermedia | [Representations conveying meaningful links or interaction controls](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| Hyperparameter | [A setting controlling model structure or the learning procedure](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | Hypervisor | [Software managing virtual-machine execution and resource access](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Hypothesis | [Proposed explanation that observations can support or challenge](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | I/O | [Input and output](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
@@ -792,6 +793,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Index (Git) | [Staging area preparing the next snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | IndexedDB | [Browser database API for structured client data](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Indirection | [A route between the caller and the work](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
+| Inference | [Using a model to produce an output](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | Information hiding | [Keeping implementation decisions from becoming client obligations](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.1. Abstraction encapsulation interfaces coupling and cohesion.md>) |
 | Informative material | [Explanatory rather than requirement-defining material](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Infrastructure as code | [Approach to defining infrastructure for software-style review versioning and tooling](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
@@ -955,12 +957,16 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Minor version | [Version component signaling compatible functionality or public deprecation under SemVer](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Mirror (packages) | [Service distributing copied package contents](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Mitigation | [Action reducing a problem’s impact](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
+| ML feature | [An input attribute or representation used by a model](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
+| ML label | [A target value used for the stated supervised task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | ML model | [A learned or fitted artifact used for a task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | ML regression | [Predicting a numerical quantity in a stated task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
+| ML test set | [Held-out data used for final evaluation under a stated design](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | ML-DSA | [Digital-signature scheme standardized in FIPS 204](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | ML-KEM | [Standardized key-encapsulation mechanism in FIPS 203](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Mobile application | [A client targeting mobile operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Mock (testing) | [Substitute with interaction expectations to verify](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
+| Model parameter | [A learned value in a fitted model](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | Modernization | [Changing a system to meet current needs or constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Modular monolith | [Combined deployment with maintained internal design boundaries](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
 | Module | [A code unit under its language ecosystem rules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
@@ -1615,6 +1621,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Traceback (Python) | [Frames associated with a Python exception](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Tracked file | [File with an entry in the index](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
 | Trade-off | [Choice among competing consequences assessed against the relevant objectives and constraints](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
+| Training | [Fitting learned model parameters from data](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | Transaction | [Database work grouped under completion and concurrency rules](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Transfer estimate | [A completion model with explicit quantities and assumptions](<02 Computers Data Representation and Units/sections/5. Applied interpretation/5.1. Read a machine specification and transfer estimate.md>) |
 | Transformation (data) | [Changing representation selection or derived meaning](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
@@ -1676,6 +1683,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Utilization | [Resource use under a defined time or capacity accounting model](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
 | UX | [User experience across the product or service interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Validation (product) | [Evaluation of intended purpose and user needs in context](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
+| Validation set | [Data used to guide model selection or tuning](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | Value object | [Meaning represented by values without separate conceptual identity](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Vary | [Request fields used in HTTP cache representation matching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | vCPU | [Virtual processing resource presented to a guest](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
