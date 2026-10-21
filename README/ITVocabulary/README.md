@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **179 of 191 approved lessons** are available.
+Implementation is in progress: **180 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -651,6 +651,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | File storage | [Storage exposing file and directory operations](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Filesystem | [Organization and operations for accessing file objects](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Final release | [Publisher-designated completed release milestone](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| Fine-tuning | [Additional training adapting learned model behavior](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.2. Retrieval RAG grounding fine-tuning and quantization.md>) |
 | Firewall | [A device or program controlling network traffic under policy](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Firmware | [Software tied to low-level device operation](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Fix (software) | [Correction addressing an identified fault](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
@@ -703,6 +704,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | GraphQL mutation | [An operation intended to change data](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | GraphQL query | [An operation requesting selected exposed fields](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | GraphQL subscription | [An operation yielding results over time](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
+| Grounding | [Connecting output to supplied sources or external evidence in a stated sense](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.2. Retrieval RAG grounding fine-tuning and quantization.md>) |
 | Group | [An identity collection used for access management](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
 | gRPC | [An RPC framework using explicit service and message contracts](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Guarantee | [A promise within conditions and limits](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
@@ -1245,6 +1247,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Quality claim review | [Connecting candidate expectations test arrangements results and outstanding questions](<12 Testing Debugging and Quality Evidence/sections/5. Applied reporting and review/5.2. Challenge a tested-and-production-ready claim.md>) |
 | Quality control | [Activities focused on fulfilling product or service quality requirements](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.2. Verification validation QA QC and acceptance.md>) |
 | Quantile | [Value positioned relative to a fraction of an ordered population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
+| Quantization | [Representing model values at reduced numerical precision](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.2. Retrieval RAG grounding fine-tuning and quantization.md>) |
 | Quarantine (testing) | [Separation of an unreliable check while its investigation and restoration are managed](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Query (database) | [Request for database information or an operation with effects clarified](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.1. Queries joins indexes views and query plans.md>) |
 | Query (design) | [Request for information through a read model](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
@@ -1260,6 +1263,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Race condition | [Correctness depending on relative timing with an allowed incorrect ordering](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
 | RACI | [Responsible Accountable Consulted Informed responsibility assignment model](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
 | Raft | [Consensus algorithm with majority election and log rules under a stated failure model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
+| RAG | [Retrieval-augmented generation using retrieved information in generation](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.2. Retrieval RAG grounding fine-tuning and quantization.md>) |
 | RAM | [Working memory rather than saved-file capacity](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Rate | [An amount per time](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Rate limit | [A constraint on admitted work over time](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
@@ -1341,6 +1345,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Retention period | [Duration for specified data with starting event and exceptions defined](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.1. Personal data privacy consent retention and data minimization.md>) |
 | Retesting | [Common term for confirmation of a correction](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Retransmission | [Sending replacement data after inferred loss](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
+| Retrieval | [Selecting relevant information from an external collection](<17 AI Machine Learning and Model Terminology/sections/3. Generative systems/3.2. Retrieval RAG grounding fine-tuning and quantization.md>) |
 | Retry | [Another attempt after failure or an uncertain result](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Retry budget | [Bound on repeated work or elapsed waiting under an explicit policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Retry jitter | [Variation spreading scheduled attempts rather than synchronizing bursts](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
