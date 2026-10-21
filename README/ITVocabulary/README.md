@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **170 of 191 approved lessons** are available.
+Implementation is in progress: **171 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -1156,6 +1156,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Private cloud | [Cloud infrastructure provisioned for exclusive use by one organization](<14 Infrastructure Cloud and Delivery/sections/1. Hosting and responsibility/1.1. On-premises hosted public private hybrid and multicloud.md>) |
 | Private key | [Secret material for its specified asymmetric cryptographic role](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Privilege | [Authority for a restricted action or scoped override](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
+| Problem management | [Investigation of causes and recurrence in service work](<16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>) |
 | Procedural programming | [Organizing computation into procedures or functions](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Procedure | [Description of how specified work is carried out](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Process | [A running program instance with execution context and resources](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
@@ -1392,12 +1393,14 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Service (OS) | [A managed software activity and its lifecycle](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service account | [Account used for an application or other non-human workload context](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Service capacity | [Workload a specified configuration can handle within stated acceptable-outcome criteria](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.1. Benchmarks baselines profiles bottlenecks and capacity.md>) |
+| Service change | [A managed alteration to a service](<16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>) |
 | Service discovery | [Finding current access information for a named service](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Service identity | [Identity representing a service or workload in security decisions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
 | Service locator | [Registry queried by a consumer to obtain collaborators](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Service manager | [A component managing service lifecycle and state](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Service mesh | [Infrastructure handling communication between selected application services](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.2. Ingress egress service discovery sidecars and service meshes.md>) |
 | Service provider (SAML) | [Application relying on SAML identity assertions](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| Service request | [A request for information access or provision](<16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>) |
 | Service time | [Time servicing work after an explicitly defined waiting boundary](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
 | Service worker | [A separately managed web script supporting facilities such as request handling](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Session cookie | [A cookie without Max-Age or Expires](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
@@ -1520,6 +1523,9 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Superseded (decision) | [Replaced as the current decision while retained as historical context](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Supply chain failure | [Breakdown or compromise in producing distributing or updating software](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | Support status | [Availability maintenance and service meanings](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
+| Support ticket | [A record tracking service work rather than a diagnosis](<16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>) |
+| Support tier | [A locally defined support routing level](<16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>) |
+| Support triage | [Initial assessment and routing of service work](<16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>) |
 | Suspension (task) | [Pausing a task continuation while its execution resource may run other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | SUT | [System under test](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.1. Unit component integration system end-to-end and contract tests.md>) |
 | Swagger | [An API tooling and historical name requiring artifact context](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |

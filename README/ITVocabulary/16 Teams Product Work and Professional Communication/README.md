@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 9 of 13 approved lessons are available.
+This domain is in progress: 10 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 13 approved lessons are available.
 1. **Write feedback that identifies evidence and consequence:** Separate required correction clarification suggestions and preference while making the concern actionable.
 2. **Explain an option choice with assumptions and trade-offs:** Compare alternatives against the actual requirements and distinguish observations hypotheses and premises.
 3. **Turn disagreement into a decision and verifiable follow-up:** Rewrite a constructed cache review with scoped rationale ownership and completion evidence without claiming unperformed results.
+
+## 6. Support and service work
+
+### [6.1. Tickets requests incidents problems changes and support tiers](<sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md>)
+
+1. **Separate the record from the work:** interpret service requests incidents problems and changes without inferring a diagnosis
+2. **Read triage and support routing:** distinguish reproduction impact expertise and escalation rules
+3. **Classify a linked support packet:** preserve separate restoration investigation and change evidence
 
 [← Back to IT Vocabulary](<../README.md>)

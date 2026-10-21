@@ -7520,3 +7520,12 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   cancellation/cache/candidate check,decision,action tracker or performance run.
 - Next steps: D16.S06.L01 then all remaining approved D16–D18 units;21 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S06.L01 — 6.1. Tickets requests incidents problems changes and support tiers — verified
+
+- Done: D16.S06.L01; Distinguished record/work type, restoration/investigation/change, local routing and accepted responsibility. Progress 171/191; 20 remain.
+- Files touched: new 16 Teams Product Work and Professional Communication/sections/6. Support and service work/6.1. Tickets requests incidents problems changes and support tiers.md; its domain README; track README; this LOG.
+- Links fixed / added: leaf registration, three promise mappings, 6 unique lookup aliases and resolved precise contextual owners plus navigation.
+- Research / Decisions: Searched repository headings and read complete D12 reproducible issue owner. Reused already-read JavaScript Engines neighboring-term and Promise outcome-tracing calibration. Actually read Atlassian work categories body1213–1234 and support-level selected1068–1083. Retained work-type examples and local expertise routing; rejected support article fixed severity/tier mapping, universal credentials and undocumented lower-tier work claims. Product-specific five-category setup is not universal policy. Sources cited in leaf; no operational implementation duplicated.
+- Verification: PASS: 171 teaching leaves; required numbered sections, filenames, domain registrations; 2909 resolving local links across 190 files. PASS: closed proposal byte-for-byte preserved. Unit assertions passed promise/alias/count/table/staging checks; git diff --check passed. Editorial trace checked T21 request, I8 recorded restoration, P3 unknown cause, C9 pending review and local direct routing. Single-success variation removes broad recovery inference; removed policy removes routing authority. Static fictional packet only; no incident, routing, reproduction, service change or performance run. Log helper initial import failed before saving; commit helper refused missing LOG path before committing. Corrected import path, then saved evidence.
+- Next steps: D16.S07.L01, then remaining D16–D18. Curriculum revision 1/full 191 approval retained; no pending gate.
