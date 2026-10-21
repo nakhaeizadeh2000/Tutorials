@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 11 of 13 approved lessons are available.
+This domain is in progress: 12 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -83,5 +83,13 @@ This domain is in progress: 11 of 13 approved lessons are available.
 1. **Identify the customer and tenant boundary:** distinguish business relationships from users and isolation claims
 2. **Separate indicators goals and cost language:** interpret KPIs OKRs ROI TCO CapEx and OpEx in scope
 3. **Challenge a business case with evidence:** check denominators time horizons and included costs
+
+## 8. Applied professional communication
+
+### [8.1. Rewrite a status update and disagreement for two audiences](<sections/8. Applied professional communication/8.1. Rewrite a status update and disagreement for two audiences.md>)
+
+1. **Extract a defensible status:** separate recorded completion unresolved evidence and next work
+2. **Adapt detail to two audiences:** preserve facts and uncertainty while changing explanation and emphasis
+3. **Resolve a disagreement constructively:** connect a concern to its consequence decision owner and follow-up
 
 [← Back to IT Vocabulary](<../README.md>)

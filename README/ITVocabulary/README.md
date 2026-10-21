@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **172 of 191 approved lessons** are available.
+Implementation is in progress: **173 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -142,6 +142,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Attribute (telemetry) | [Named contextual value attached to an observation](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
 | Attribution | [Acknowledgment distinct from a grant of permission](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.3. Open source source-available proprietary and commercial software.md>) |
 | Audience (token) | [Intended recipient or recipients under the token’s protocol](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Audience adaptation | [Changing explanation detail while preserving supported claims](<16 Teams Product Work and Professional Communication/sections/8. Applied professional communication/8.1. Rewrite a status update and disagreement for two audiences.md>) |
 | Audit trail | [Records supporting reconstruction of relevant actions and decisions](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Auditing | [Examination of evidence against stated criteria](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Authenticated encryption | [Encryption combined with integrity and authenticity checking under a key](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
@@ -1505,6 +1506,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Stateless (REST) | [Requests do not depend on server-stored conversational context](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Statement coverage | [Counted executed statements relative to the included set](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Static analysis | [Examining code without executing the analyzed application workload](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| Status update | [A scoped account of evidence remaining work ownership and next action](<16 Teams Product Work and Professional Communication/sections/8. Applied professional communication/8.1. Rewrite a status update and disagreement for two audiences.md>) |
 | stderr | [Standard error](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdin | [Standard input](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdout | [Standard output](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
