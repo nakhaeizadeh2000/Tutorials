@@ -2,7 +2,7 @@
 
 Understand AI discussions through tasks, data, evaluation and application boundaries. No statistics or machine-learning course is assumed. Examples are bounded reading and arithmetic exercises, with deeper implementation routed to its specialist owner.
 
-This domain is in progress: 3 of 10 approved lessons are available.
+This domain is in progress: 4 of 10 approved lessons are available.
 
 ## 1. Models tasks and data
 
@@ -25,5 +25,11 @@ This domain is in progress: 3 of 10 approved lessons are available.
 1. **Calculate task-specific classification measures:** state the positive class and different denominators
 2. **Distinguish fitting and evidence failures:** interpret overfitting bias and leakage without treating them as synonyms
 3. **Challenge a quality score:** check population splits thresholds and costs before accepting a model
+
+### [2.2. Correlation causation confidence and uncertainty in model claims](<sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>)
+
+1. **Separate prediction from intervention:** distinguish association causal effects and confounding
+2. **Interpret uncertainty in context:** separate model scores confidence intervals and unsupported certainty
+3. **Rewrite a causal capability claim:** preserve observed differences while asking for a suitable evaluation design
 
 [← Back to IT Vocabulary](<../README.md>)

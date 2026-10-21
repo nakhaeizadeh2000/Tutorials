@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **177 of 191 approved lessons** are available.
+Implementation is in progress: **178 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -252,6 +252,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Cache stampede | [Overlapping refills triggered by many misses for the same needed result](<15 Performance Observability and Reliability/sections/2. Finding and comparing costs/2.2. Cold starts warmups caches hits misses TTLs and eviction.md>) |
 | Cache-Control | [HTTP cache-policy directives](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Calendar date | [A date value that need not identify an instant](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
+| Calibration | [Agreement between predicted probabilities and observed frequencies in a population](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>) |
 | Call stack | [Active function calls and caller continuation state](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.1. Memory allocation stack heap virtual memory and swap.md>) |
 | Callback | [Supplied behavior invoked by another operation](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Callback URL | [The receiving endpoint configured for callback delivery](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
@@ -263,6 +264,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Capped backoff | [Backoff growth limited by a maximum delay](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Cardinality (relationship) | [Allowed participation counts on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Cardinality (telemetry) | [Number of distinct values or combinations in a defined observation scope](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
+| Causation | [A change in an outcome due to an intervention under a stated causal question](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>) |
 | CD | [Ambiguous shortening of continuous delivery or continuous deployment](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.1. CI continuous delivery continuous deployment and environments.md>) |
 | CDC | [Change data capture of source-data changes](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | CDN | [Content delivery network with distributed delivery and possible shared caching](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
@@ -336,6 +338,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Concurrency | [Organizing work whose lifetimes can overlap](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Concurrency limit | [A bound on simultaneously active work](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Conditional breakpoint | [Breakpoint honored when its condition holds](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
+| Confidence interval | [An interval procedure with stated repeated-sampling coverage under assumptions](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>) |
 | Confidentiality | [Preservation of authorized restrictions on access and disclosure](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Configuration | [Settings affecting software operation](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Configuration baseline | [Agreed reference setup for a defined scope](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
@@ -344,6 +347,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Configuration precedence | [The application-defined order for selecting among setting sources](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.2. Environment variables configuration and secrets.md>) |
 | Confirmation testing | [Checking that a particular reported problem has been corrected](<12 Testing Debugging and Quality Evidence/sections/2. Test scope and intent/2.2. Functional non-functional regression smoke and exploratory testing.md>) |
 | Conflict resolution | [Choosing and recording the intended combined contents](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
+| Confounding | [Other factors that distort a proposed cause-and-effect comparison](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>) |
 | Confusion matrix | [Counts comparing predicted and reference classes](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.1. Accuracy precision recall overfitting bias and data leakage.md>) |
 | CONNECT | [Establish an HTTP tunnel](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Connection refusal | [A failed connection attempt reporting refusal](<05 Networks and the Internet/sections/7. Applied diagnosis/7.1. Describe a name connection or timeout failure.md>) |
@@ -970,6 +974,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ML-KEM | [Standardized key-encapsulation mechanism in FIPS 203](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Mobile application | [A client targeting mobile operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
 | Mock (testing) | [Substitute with interaction expectations to verify](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
+| Model confidence | [A context-dependent score requiring calibration and evaluation](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>) |
 | Model parameter | [A learned value in a fitted model](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.2. Features labels datasets training validation and inference.md>) |
 | Modernization | [Changing a system to meet current needs or constraints](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Modular monolith | [Combined deployment with maintained internal design boundaries](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.1. Layers tiers modules components monoliths and microservices.md>) |
@@ -1528,6 +1533,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Stateless (REST) | [Requests do not depend on server-stored conversational context](<07 APIs Protocols and Integration/sections/3. Styles formats and schemas/3.1. REST RPC GraphQL gRPC and SOAP.md>) |
 | Statement coverage | [Counted executed statements relative to the included set](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.2. Coverage flaky tests false positives and false negatives.md>) |
 | Static analysis | [Examining code without executing the analyzed application workload](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
+| Statistical correlation | [Association between measured variables rather than causal proof](<17 AI Machine Learning and Model Terminology/sections/2. Statistical and evaluation language/2.2. Correlation causation confidence and uncertainty in model claims.md>) |
 | Status update | [A scoped account of evidence remaining work ownership and next action](<16 Teams Product Work and Professional Communication/sections/8. Applied professional communication/8.1. Rewrite a status update and disagreement for two audiences.md>) |
 | stderr | [Standard error](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
 | stdin | [Standard input](<04 Operating Systems Files and Environments/sections/4. Resources and process outcomes/4.2. Standard streams pipes exit codes and signals.md>) |
