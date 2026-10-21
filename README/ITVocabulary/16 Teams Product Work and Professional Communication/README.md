@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 6 of 13 approved lessons are available.
+This domain is in progress: 7 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -47,5 +47,11 @@ This domain is in progress: 6 of 13 approved lessons are available.
 1. **State what quantity a planning number describes:** Separate effort elapsed duration capacity estimates forecasts and deadline constraints with explicit units.
 2. **Use team history without turning points into a universal clock:** Explain relative story points completed-work velocity and changes that weaken forecasting assumptions.
 3. **Challenge a date claim using its actual premises:** Calculate a bounded fictional planning model and preserve dependencies uncertainty and the difference between a forecast and a commitment.
+
+### [4.2. Dependencies blockers scope creep Definition of Done and handoffs](<sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>)
+
+1. **Describe what prevents which outcome:** Separate dependencies current blockers and risks then identify owners and the decisions needed to proceed.
+2. **Keep scope and completion criteria visible:** Distinguish agreed scope change from unmanaged expansion and Definition of Done from an activity label or item-specific criterion.
+3. **Transfer unfinished work without inventing completion:** Rewrite a constructed implementation-complete update with exact remaining checks scope decisions and a usable receiving-owner handoff.
 
 [← Back to IT Vocabulary](<../README.md>)

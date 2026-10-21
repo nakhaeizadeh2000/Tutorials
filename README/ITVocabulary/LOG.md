@@ -7411,3 +7411,40 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   delivery commitment,productivity or application-performance experiment executed.
 - Next steps: D16.S04.L02,then all remaining approved D16–D18 units;24 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S04.L02 — Dependencies blockers scope creep Definition of Done and handoffs — verified
+
+- Done: D16.S04.L02; prerequisite/current obstacle/risk,agreed change versus hidden
+  scope expansion,shared DoD versus item criteria and original H8 code/review/
+  synthetic-pass versus access/instructions/email-request/recipient packet.
+  Progress168/191;23 approved leaves remain across D16–D18.
+- Files touched: new sections/4. Planning and progress/4.2. Dependencies blockers
+  scope creep Definition of Done and handoffs.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,six contextual aliases,four exact responsibility/
+  requirement/forecast/test owners and navigation;software Dependency owner retained.
+- Research / Decisions: full-repo numerical blocker/scope/DoD/handoff heading search
+  found no competing work-progress owner;read complete prior D16 responsibility
+  leaf. Reuse complete JS checklist artifact-to-question calibration,not stale
+  runtime/scheduling/error/mandatory-policy claims. Actual originating sources:
+  https://www.scrum.org/resources/definition-done actual4–14/32 usable quality and
+  artifact commitment,plus actual Scrum2020 DoD251–259 already read this recovery;
+  not automatic release/no-defects or weakening quality to match unfinished work.
+  https://www.atlassian.com/blog/development/4-how-tos-dealing-with-scope-creep
+  actual Sept2 2019 team-account253–300 selected cause/visibility/tradeoff passages;
+  reject universal no-two-teams-same,chart-shape-proves-cause,guaranteed full
+  visibility,all-changes-after-add acceptable,old product/widgets as current setup
+  or minimal-release-always-MVP equation. https://handbook.gitlab.com/handbook/engineering/development/sec/oncall/handoff-and-continuity/
+  actual3601–3646 and3693–3704 transfer/context/impact/blocker/next-work;not full3826-
+  line page or8-hour/24x5 shift mandate,restart/rollback recipe,guaranteed continuity
+  or message sent. Initial opens navigation-only;actual body recovered with find.
+- Verification: actual structural/link verifier passed168 leaves,2870 resolving
+  links across187 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,six unique aliases,168/191,tables/empty
+  staging;git diff --check passed. Editorial check traced accepted download-only
+  scope,H8 code/review/local check,required integration blocked versus instructions
+  independently unfinished,proposed email addition and unaccepted recipient. Added
+  acceptance/access resolves neither remaining check nor instructions. Static
+  draft/packet only;no message,handoff,access approval,provider check,instructions,
+  release,scope decision or delivery/performance experiment executed.
+- Next steps: D16.S05.L01,then all remaining approved D16–D18 units;23 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

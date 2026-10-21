@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **167 of 191 approved lessons** are available.
+Implementation is in progress: **168 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -200,6 +200,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Blast radius | [Scope of impact of a failure or change with the relevant boundary stated](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Blob | [Binary large object or product-specific opaque stored content](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
 | Block storage | [Storage exposing addressable blocks through a device-like interface](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
+| Blocker (work) | [Current condition preventing a specified next activity or required outcome](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
 | Blocking | [A specified execution resource waiting without proceeding with other work](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Blue-green deployment | [Preparing alternate environments and switching relevant traffic between them](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | BOLA | [Broken object level authorization in an API context](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.1. Injection XSS CSRF SSRF and broken access control.md>) |
@@ -454,6 +455,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Default route | [A route used when no more specific applicable destination route is selected](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Defect | [Problem in a work product under a stated expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Defense in depth | [Coordinated protections addressing failures across relevant boundaries](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
+| Definition of Done | [Shared quality completion standard for a Scrum Increment or explicitly defined local work scope](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
 | DEK | [Data encryption key protecting the data](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | DELETE (HTTP) | [Remove the target’s current functionality association](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Delete anomaly | [Unintended loss of independent facts on deletion](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
@@ -462,6 +464,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Denormalization | [Deliberate redundant or precombined data representation](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
 | Deny by default | [Rejecting access unless applicable policy permits it](<13 Security Identity and Privacy/sections/5. Access control and defense/5.1. Least privilege RBAC ABAC defense in depth and zero trust.md>) |
 | Dependency | [A requirement of a component at a stated stage](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
+| Dependency (work) | [Prerequisite relationship between work outcomes resources or decisions](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
 | Dependency graph | [Components and their requirement relationships](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | Dependency injection | [Supplying a collaborator from outside its consumer](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Dependency Inversion Principle | [Policy and details depending on suitable abstractions](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
@@ -516,6 +519,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Document (database) | [Structured record of named fields and values](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Document database | [Database centered on structured documents](<08 Databases Storage and Data Pipelines/sections/1. Databases and models/1.2. Relational document key-value graph and time-series models.md>) |
 | Documentation | [Document purposes and a reading route](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
+| DoD | [Definition of Done in product work](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
 | DOM | [Document Object Model and the live document tree](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
 | Domain (modeling) | [Problem area to which software is applied](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Domain model | [Selected concepts rules and relationships useful for domain problems](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
@@ -684,6 +688,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Half-open (breaker) | [Limited trial admission to assess recovery under a breaker policy](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Handler (function) | [Entry code invoked for a defined event or request](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Handler (request) | [Code selected to handle an incoming request](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
+| Handoff | [Transfer of responsibility and the context needed for the receiving person to act](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
 | Hard link | [Another name for the same underlying file object](<04 Operating Systems Files and Environments/sections/2. Files and locations/2.1. Files directories paths links and mounts.md>) |
 | Hardware | [Physical computing components](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.1. Hardware software firmware and drivers.md>) |
 | Hardware security key | [Hardware authenticator that can hold relevant cryptographic credentials](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.2. Passwords MFA passkeys API keys and service identities.md>) |
@@ -1353,6 +1358,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Schema-on-read | [Structure interpreted when data is consumed](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Schema-on-write | [Expected structure applied when data is stored](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Scope (access) | [Protocol-specific access range or capability](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Scope creep | [Unmanaged or unacknowledged expansion of the agreed work under the stated usage](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.2. Dependencies blockers scope creep Definition of Done and handoffs.md>) |
 | Screen reader | [Software presenting content and control information through speech or braille](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Scrum | [Framework using defined accountabilities events and artifacts for inspecting and adapting product work](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | SDK | [Software development kit and its component roles](<03 Software Execution and Developer Tools/sections/1. Software categories/1.1. Programs applications libraries frameworks and SDKs.md>) |
