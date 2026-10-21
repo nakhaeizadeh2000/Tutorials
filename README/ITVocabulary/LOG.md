@@ -7230,3 +7230,36 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   action,export,workplace restructuring or performance measurement executed.
 - Next steps: D16.S01.L02,then all remaining approved D16–D18 ledger units;29 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S01.L02 — Ownership accountability DRI RACI and escalation — verified
+
+- Done: D16.S01.L02; stewardship/duties/answerability,DRI scope,explicit RACI
+  legend,three-row decision/implementation matrix and original retention-purpose
+  escalation with receipt-only and delegated-authority variations. Progress163/191;
+  28 approved leaves remain across D16–D18.
+- Files touched: new sections/1. People and responsibility/1.2. Ownership
+  accountability DRI RACI and escalation.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,five contextual aliases,three exact people/
+  operational/follow-up owners plus navigation. Filesystem ownership retained.
+- Research / Decisions: numerical ownership/accountability/RACI/escalation repo
+  search found no competing work-assignment owner;read full D15 incident lesson.
+  Reused complete JS Engines runtimes and hosts independent-role calibration,
+  not universal errors/conformance/cost claims. Actual originating sources:
+  https://handbook.gitlab.com/handbook/people-group/directly-responsible-individuals/
+  actual3584–3606,3607–3624 and3629–3645 DRI coordination,nonmanager feedback,RACI
+  mapping and separate approvals;living organizational account,not universal
+  unrestricted power,no-explanation duty,guaranteed efficiency or verified Apple
+  etymology. Initial open navigation only;actual body recovered via find.
+  https://www.psc.nsw.gov.au/assets/psc/documents/raci_model.pdf actual complete
+  one-page template text/legend,R versus A and C-before/I-after;not policy mandate
+  or universal row-count/one-A theorem. Other search discussions discovery only.
+- Verification: actual structural/link verifier passed163 leaves,2802 resolving
+  links across182 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,five unique aliases,163/191,tables/empty
+  staging;git diff --check passed. Editorial check traced ordinary versus new-
+  purpose authority,Ravi's coordinating role,Dana's decision,Jo's conditional
+  implementation and receipt/delegation variations. Static matrix/reading only;
+  no escalation sent,permission/delegation/policy change,implementation,legal
+  assessment,incident response or performance experiment executed.
+- Next steps: D16.S02.L01 then all remaining approved D16–D18 units;28 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

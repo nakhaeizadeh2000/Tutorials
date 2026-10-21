@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **162 of 191 approved lessons** are available.
+Implementation is in progress: **163 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -72,6 +72,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Access-Control-Allow-Origin | [Response field identifying allowed cross-origin sharing](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | Accessibility | [Removing access barriers for people with disabilities](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
 | Accessible name | [A programmatically available name identifying a control](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Accountability | [Answerability for a defined outcome or decision under an agreed responsibility model](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
 | Accounting (security) | [Recording relevant access activity or resource use](<13 Security Identity and Privacy/sections/2. Identity and access/2.1. Identification authentication authorization and accounting.md>) |
 | Accreditation | [Formal recognition of a conformity-assessment body under the relevant system](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | ACID | [Atomicity consistency isolation and durability](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
@@ -519,6 +520,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Downstream | [Recipient or dependent relative to a stated source](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | DQL | [Data query language classification used in some teaching conventions](<08 Databases Storage and Data Pipelines/sections/3. Access and abstraction/3.2. SQL CRUD ORMs query builders and drivers.md>) |
 | DR | [Disaster recovery](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.2. Redundancy failover disaster recovery RTO and RPO.md>) |
+| DRI | [Directly Responsible Individual with scope and decision rights defined locally](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
 | Drift detection | [Comparison of observed and reference configuration within tool coverage](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
 | DRY | [Don’t Repeat Yourself applied to duplicated knowledge](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | DST | [Daylight saving time and seasonal clock changes](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
@@ -560,6 +562,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Error (testing) | [Human mistake in a common testing terminology convention](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
 | Error budget | [Allowed bad-outcome fraction or quantity under an objective and scope](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
 | Error budget policy | [Agreed use of service-objective evidence in operational decisions](<15 Performance Observability and Reliability/sections/4. Service-level language/4.1. SLIs SLOs SLAs error budgets and burn rates.md>) |
+| Escalation | [Routing an issue or decision beyond the current authority or capability through an agreed route](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
 | ETag | [Opaque entity tag identifying a selected representation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | ETL | [Extract transform load relative to a stated destination](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | Event (browser) | [A notification handled through registered code](<06 Web Interfaces Clients and User Experience/sections/2. Browser building blocks/2.1. HTML CSS DOM JavaScript and browser APIs.md>) |
@@ -1029,6 +1032,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Outstanding requests | [Requests not yet completed at a specified observation point](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
 | Overloaded word | [Several meanings selected by context](<01 Reading and Using Technical Language/sections/1. Words in context/1.2. Overloaded words and ambiguous abbreviations.md>) |
 | Ownership (filesystem) | [Recorded file user and group ownership](<04 Operating Systems Files and Environments/sections/3. Configuration and access/3.1. Users groups permissions privileges and ownership.md>) |
+| Ownership (work) | [Assigned stewardship of a defined outcome activity or service](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
 | p50 | [50th percentile under the calculation used](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | p95 | [95th percentile under the calculation used](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | p99 | [99th percentile under the calculation used](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
@@ -1182,6 +1186,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Quorum | [Participant set sufficient for a protocol decision](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Quota | [An allowance under a stated accounting policy](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Race condition | [Correctness depending on relative timing with an allowed incorrect ordering](<10 Concurrency Messaging and Distributed Systems/sections/2. Coordination and hazards/2.1. Shared state atomicity races locks and deadlocks.md>) |
+| RACI | [Responsible Accountable Consulted Informed responsibility assignment model](<16 Teams Product Work and Professional Communication/sections/1. People and responsibility/1.2. Ownership accountability DRI RACI and escalation.md>) |
 | Raft | [Consensus algorithm with majority election and log rules under a stated failure model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | RAM | [Working memory rather than saved-file capacity](<02 Computers Data Representation and Units/sections/1. Physical and logical components/1.2. CPU cores GPU RAM and persistent storage.md>) |
 | Rate | [An amount per time](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
