@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 10 of 13 approved lessons are available.
+This domain is in progress: 11 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -75,5 +75,13 @@ This domain is in progress: 10 of 13 approved lessons are available.
 1. **Separate the record from the work:** interpret service requests incidents problems and changes without inferring a diagnosis
 2. **Read triage and support routing:** distinguish reproduction impact expertise and escalation rules
 3. **Classify a linked support packet:** preserve separate restoration investigation and change evidence
+
+## 7. Business and service context
+
+### [7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx](<sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>)
+
+1. **Identify the customer and tenant boundary:** distinguish business relationships from users and isolation claims
+2. **Separate indicators goals and cost language:** interpret KPIs OKRs ROI TCO CapEx and OpEx in scope
+3. **Challenge a business case with evidence:** check denominators time horizons and included costs
 
 [← Back to IT Vocabulary](<../README.md>)

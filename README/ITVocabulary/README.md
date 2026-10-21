@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **171 of 191 approved lessons** are available.
+Implementation is in progress: **172 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -164,6 +164,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Availability zone | [Provider-defined location or facility group within a region separating relevant failures](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Average (measurement) | [Ambiguous center label commonly meaning arithmetic mean](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | AZ | [Availability zone](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
+| B2B | [Business-to-business customer relationship](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
+| B2C | [Business-to-consumer customer relationship](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | BaaS | [Backend as a Service supplying managed backend capabilities](<14 Infrastructure Cloud and Delivery/sections/4. Resource placement and scaling/4.1. Regions zones edge serverless and functions.md>) |
 | Backend (application) | [Server-side application services rules and data responsibilities](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
 | Backend (proxy) | [A destination service or pool behind an intermediary](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
@@ -254,6 +256,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | CAP | [Consistency availability and partition-tolerance trade-off under a defined fault model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Capacity | [An amount rather than a rate](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Capacity (team) | [Available ability and time for specified work within a period and constraints](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
+| CapEx | [Capital expenditure vocabulary requiring finance classification](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | Capped backoff | [Backoff growth limited by a maximum delay](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Cardinality (relationship) | [Allowed participation counts on each side](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.1. Tables rows columns documents fields keys and relationships.md>) |
 | Cardinality (telemetry) | [Number of distinct values or combinations in a defined observation scope](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
@@ -851,6 +854,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Kill switch | [Control disabling a specified behavior under its implementation boundary](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | KISS | [Keep it simple and straightforward in behavior and necessary structure](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | KMS | [Key-management service controlling key access and operations](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
+| KPI | [Key performance indicator chosen for an objective](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | Kubelet | [Node agent responsible for assigned Pods and their containers](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | Kubernetes | [Platform for managing containerized workloads and services](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
 | l10n | [Localization and adaptation for a target audience](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.2. Internationalization localization locale and time zones.md>) |
@@ -1020,6 +1024,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Offset (Kafka) | [Record position within a topic partition](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.2. Streams batches consumers acknowledgments and dead-letter queues.md>) |
 | Offset pagination | [Continuing by skipping a count of ordered results](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | OIDC | [OpenID Connect identity layer on OAuth 2.0](<13 Security Identity and Privacy/sections/3. Identity protocols and factors/3.1. OAuth OIDC SAML SSO and federation.md>) |
+| OKR | [Objectives and key results goal-setting language](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | OLAP | [Online analytical processing across data](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | OLTP | [Online transaction processing for operational work](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |
 | On-call | [Assigned response responsibility during a stated period](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
@@ -1042,6 +1047,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Operating system | [Resource management and services for running programs](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.1. Operating systems kernels user space and system calls.md>) |
 | Operation (HTTP API) | [A method-specific exposed action with documented behavior](<07 APIs Protocols and Integration/sections/1. Interfaces and contracts/1.1. APIs endpoints routes operations and contracts.md>) |
 | Operational incident | [Unplanned service disruption or degradation managed under local response criteria](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
+| OpEx | [Operating expenditure vocabulary requiring finance classification](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | Optional dependency | [Requirement whose absence is permitted under the applicable contract](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.1. Direct transitive peer dependencies manifests and lockfiles.md>) |
 | OPTIONS | [Request communication options](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Orchestration | [Coordination of workloads and resources according to specified policies](<14 Infrastructure Cloud and Delivery/sections/3. Orchestration and platforms/3.1. Clusters nodes pods workloads services and orchestration.md>) |
@@ -1316,6 +1322,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Risk (security) | [Potential harm considered with likelihood impact and context](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Risk assessment | [Identification analysis and prioritization using stated models and assumptions](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Roadmap | [Evolving communication of intended direction outcomes and sequencing with commitment status stated](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
+| ROI | [Return on investment with explicit benefit and cost assumptions](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | Role (security) | [Named grouping of responsibilities or permissions under a system’s policy](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Roll forward | [Introducing another change intended to correct a problem](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
 | Rollback (data change) | [Attempt to return to an earlier data or schema state](<08 Databases Storage and Data Pipelines/sections/2. Relational and document language/2.2. Schemas constraints normalization and migrations.md>) |
@@ -1545,11 +1552,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Tail latency | [High end of response durations under a defined population](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Task | [A unit of work defined by its subsystem](<04 Operating Systems Files and Environments/sections/1. Operating system responsibilities/1.2. Processes threads tasks and services.md>) |
 | Task (product work) | [Assigned activity within a team’s work decomposition](<16 Teams Product Work and Professional Communication/sections/2. Requirements and product scope/2.2. Roadmaps backlogs epics stories tasks MVPs and prototypes.md>) |
+| TCO | [Total cost of ownership across a defined scope and period](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Telemetry | [Data emitted or collected about system behavior](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
 | Telemetry pipeline | [Emission collection processing export retention and query responsibilities for observations](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
+| Tenant | [A locally defined customer or group boundary in a service](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | Term | [A word or phrase naming a concept](<01 Reading and Using Technical Language/sections/1. Words in context/1.1. Terms jargon abbreviations and acronyms.md>) |
 | Terminal | [The text interaction surface and terminal emulator](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Terraform state | [Tool record binding configured resource instances to real objects and metadata](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
