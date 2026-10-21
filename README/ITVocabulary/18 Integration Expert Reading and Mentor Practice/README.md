@@ -2,7 +2,7 @@
 
 Integrate the preceding vocabulary in unfamiliar artifacts, conflicting evidence and teaching situations. These constructed reading exercises assess defensible reasoning and communication; they do not establish implementation mastery.
 
-This domain is in progress: 4 of 7 approved lessons are available.
+This domain is in progress: 5 of 7 approved lessons are available.
 
 ## 1. Cross-domain artifact reading
 
@@ -33,5 +33,13 @@ This domain is in progress: 4 of 7 approved lessons are available.
 1. **Identify authority subject and time:** distinguish protocol semantics product guidance and promotional positioning
 2. **Compare sources without flattening their claims:** track scope conditions revisions and what each source supports
 3. **Write a sourced conclusion with open questions:** avoid inventing implementation guarantees from general language
+
+## 4. Teaching and assessment
+
+### [4.1. Diagnose misconceptions in a technical interview or review](<sections/4. Teaching and assessment/4.1. Diagnose misconceptions in a technical interview or review.md>)
+
+1. **Elicit reasoning before judging knowledge:** use bounded questions and distinguish uncertainty from a misconception
+2. **Diagnose and repair a specific mental model:** explain why an inference fails and test a changed condition
+3. **Assess explanations with explicit criteria:** reward evidence scope transfer and constructive feedback
 
 [← Back to IT Vocabulary](<../README.md>)
