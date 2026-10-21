@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **186 of 191 approved lessons** are available.
+Implementation is in progress: **187 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -811,6 +811,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Imperative programming | [Explicit commands and control flow often updating working state](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Import package | [A Python module able to contain submodules](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.2. Packages modules dependencies and package managers.md>) |
 | Incident commander | [Person coordinating incident response priorities state and assignments](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
+| Incident reconstruction | [Aligning scoped observations into a defensible incident account](<18 Integration Expert Reading and Mentor Practice/sections/2. Failure interpretation/2.1. Reconstruct an incident from conflicting messages.md>) |
 | Increment (product work) | [Usable addition to a product under the applicable completion criteria](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | Incremental backup | [Changed material relative to earlier retained data](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.2. Backups snapshots replication sharding and restores.md>) |
 | Index (Git) | [Staging area preparing the next snapshot](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |

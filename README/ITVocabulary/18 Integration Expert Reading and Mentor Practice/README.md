@@ -2,7 +2,7 @@
 
 Integrate the preceding vocabulary in unfamiliar artifacts, conflicting evidence and teaching situations. These constructed reading exercises assess defensible reasoning and communication; they do not establish implementation mastery.
 
-This domain is in progress: 2 of 7 approved lessons are available.
+This domain is in progress: 3 of 7 approved lessons are available.
 
 ## 1. Cross-domain artifact reading
 
@@ -17,5 +17,13 @@ This domain is in progress: 2 of 7 approved lessons are available.
 1. **Trace a requirement into a consumer-visible change:** connect scope dependencies and compatibility to actual artifacts
 2. **Separate delivery and recovery evidence:** distinguish built deployed enabled and reversible states
 3. **Write two accurate release explanations:** communicate readiness and remaining work without overstating checks
+
+## 2. Failure interpretation
+
+### [2.1. Reconstruct an incident from conflicting messages](<sections/2. Failure interpretation/2.1. Reconstruct an incident from conflicting messages.md>)
+
+1. **Align observations before proposing causes:** separate actors operation identifiers clocks and boundaries
+2. **Reconstruct a bounded incident account:** reconcile naming transport application data and telemetry evidence
+3. **Choose a discriminating next check:** retain unknown outcomes and separate mitigation from explanation
 
 [← Back to IT Vocabulary](<../README.md>)
