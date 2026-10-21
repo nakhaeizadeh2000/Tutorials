@@ -11,16 +11,19 @@ outcomes through interpretation, diagnosis, evidence and teaching. Vocabulary
 helps you participate in engineering work; practical implementation competence
 requires the corresponding subject's deeper study.
 
-Baseline checked **2026-10-18**: terminology has no single runtime version.
+Initial baseline research began **2026-10-18**; section-specific sources were
+checked through **2026-10-21**. Terminology has no single runtime version.
 Versioned anchors include HTTP semantics RFC 9110, RFC 8174, Semantic Versioning
-2.0.0, Scrum Guide 2020, ISTQB CTFL 4.0.1 and OWASP Top 10:2025. Individual lessons
+2.0.0, Scrum Guide 2020, Kanban Guide May 2025, MCP 2026-07-28, ISTQB CTFL 4.0.1
+and OWASP Top 10:2025. Individual lessons
 state the sources and versions relevant to their claims. Experimental features,
 product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **191 of 191 approved lessons** are available.
-Domain indexes appear here as lessons are completed.
+Implementation is complete: **191 of 191 approved lessons** are available across
+all 18 domains. Read domains in order; each index lists its lessons and learning
+outcomes.
 
 | # | Module |
 |---|---|

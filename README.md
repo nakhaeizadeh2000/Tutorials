@@ -25,7 +25,7 @@ Recommended mentor path order — follow top-to-bottom (junior → mid → senio
 |---|-------|--------|
 | 1 | JavaScript — language foundation | [Open the JavaScript track](<README/JavaScript/README.md>) |
 | 2 | TypeScript — typed JavaScript | [Open the TypeScript track](<README/TypeScript/README.md>) |
-| 3 | IT Vocabulary — keywords, acronyms & professional jargon | [Open the IT Vocabulary track](<README/ITVocabulary/README.md>) — in progress |
+| 3 | IT Vocabulary — keywords, acronyms & professional jargon | [Open the IT Vocabulary track](<README/ITVocabulary/README.md>) — complete |
 | 4 | Git & GitHub — version control, workflows & collaboration | Planned |
 | 5 | Algorithm Design — thinking & best algorithm | Planned |
 | 6 | Design Patterns — SOLID & patterns | Planned |
