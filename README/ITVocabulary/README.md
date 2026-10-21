@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **174 of 191 approved lessons** are available.
+Implementation is in progress: **175 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -40,6 +40,7 @@ Domain indexes appear here as lessons are completed.
 | 14 | [Infrastructure Cloud and Delivery](<14 Infrastructure Cloud and Delivery/README.md>) — complete |
 | 15 | [Performance Observability and Reliability](<15 Performance Observability and Reliability/README.md>) — complete |
 | 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — complete |
+| 17 | [AI Machine Learning and Model Terminology](<17 AI Machine Learning and Model Terminology/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -96,6 +97,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Agile | [Family of adaptive software development values and approaches emphasizing collaboration working outcomes and feedback](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
+| AI | [Artificial intelligence as a broad field and system label](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | Alert (operations) | [Signal that a defined service or resource condition needs attention](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Algorithm | [Specified procedure solving a problem for allowed inputs](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -288,6 +290,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Claim (identity) | [Asserted piece of information interpreted under an identity protocol](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Clarification (review) | [Request for missing meaning scope or evidence needed to evaluate a change](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
 | Clarification question | [A focused request for a missing meaning or fact](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
+| Classification | [Predicting a category in a stated task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | Clean Architecture | [Policy/mechanism separation with inward source dependencies](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | CLI | [Command-line interface for a tool](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
 | Client (web) | [A participant initiating requests in a web interaction](<06 Web Interfaces Clients and User Experience/sections/1. Client and server responsibilities/1.1. Websites web apps frontend backend and full stack.md>) |
@@ -329,6 +332,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Composition root | [The application assembly location for concrete collaborators](<09 Programming Design and Architecture Language/sections/2. Managing dependencies/2.2. Dependency injection inversion of control and dependency inversion.md>) |
 | Compression | [Representing data with size reduction as a goal](<02 Computers Data Representation and Units/sections/4. Representing and preserving information/4.1. Formats compression checksums and metadata.md>) |
 | Compromise | [Loss of a security property or unauthorized access with scope stated](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
+| Computer vision | [Task area involving interpretation of images or video](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | Concurrency | [Organizing work whose lifetimes can overlap](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.2. Concurrency parallelism scheduling and event loops.md>) |
 | Concurrency limit | [A bound on simultaneously active work](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Conditional breakpoint | [Breakpoint honored when its condition holds](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
@@ -460,6 +464,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Decoding | [Interpreting encoded data as text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Decryption | [Recovery of plaintext using required cryptographic key material and parameters](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Deduplication | [Recognizing repeated logical inputs and suppressing selected repeated work or effects](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.2. Delivery semantics ordering deduplication and exactly-once claims.md>) |
+| Deep learning | [Machine learning using neural networks with multiple layers](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | Default | [Selection without an applicable override](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | Default route | [A route used when no more specific applicable destination route is selected](<05 Networks and the Internet/sections/2. Moving and addressing data/2.2. IP addresses subnets routing gateways and NAT.md>) |
 | Defect | [Problem in a work product under a stated expectation](<12 Testing Debugging and Quality Evidence/sections/1. Faults and evidence/1.1. Errors defects bugs failures exceptions and regressions.md>) |
@@ -915,6 +920,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | MAC (cryptography) | [Message authentication code using a shared secret key](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | MAC address | [A media access control address used in local-link communication](<05 Networks and the Internet/sections/2. Moving and addressing data/2.1. Packets frames protocols and network layers.md>) |
 | Machine code | [Instructions for a processor architecture](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
+| Machine learning | [Learning useful patterns or behavior from data](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | Machine word | [A context-defined representation unit](<02 Computers Data Representation and Units/sections/2. Data representation/2.1. Bits bytes binary hexadecimal and machine words.md>) |
 | Mail relay | [Forwarding a message toward another mail system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
 | Mail submission | [Introducing a message into the mail delivery system](<05 Networks and the Internet/sections/3. Naming/3.2. Email addresses mail servers SMTP IMAP and DNS mail records.md>) |
@@ -949,6 +955,8 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Minor version | [Version component signaling compatible functionality or public deprecation under SemVer](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.1. SemVer compatibility breaking changes and deprecation.md>) |
 | Mirror (packages) | [Service distributing copied package contents](<11 Version Control Releases and Dependencies/sections/4. Dependencies provenance and licensing/4.2. Artifacts registries checksums signatures provenance and SBOMs.md>) |
 | Mitigation | [Action reducing a problem’s impact](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
+| ML model | [A learned or fitted artifact used for a task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
+| ML regression | [Predicting a numerical quantity in a stated task](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | ML-DSA | [Digital-signature scheme standardized in FIPS 204](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | ML-KEM | [Standardized key-encapsulation mechanism in FIPS 203](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Mobile application | [A client targeting mobile operating environments](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.1. Web native hybrid desktop mobile and PWA.md>) |
@@ -989,6 +997,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Network partition | [Communication separation between participant groups](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Next link | [A URL describing the next collection request](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Nightly build | [Frequently produced development build without an implied final-release review](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| NLP | [Natural language processing task area](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
 | no-cache | [Response reuse requires successful validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | no-cors | [A restricted request mode without readable cross-origin response content](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.2. Same-origin policy CORS credentials and API boundaries.md>) |
 | no-store | [HTTP cache storage and reuse prohibition](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
