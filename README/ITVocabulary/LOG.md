@@ -804,7 +804,7 @@ unfamiliar scenario. Depends on D01–D17. This is synthesis, not repeated defin
 
 ## [2026-10-18 10:33] Session 2 — Execute approved IT Vocabulary revision 1
 
-- Status: IN PROGRESS
+- Status: DONE
 - Context read: complete 802-line track LOG in sequential overlapping chunks;
   root README, PROMPT.md, AGENTS.md, .tutorial/WORKFLOW.md, .tutorial/QUALITY.md
   and tutorial SKILL.md; JavaScript calibration from this conversation, with the
@@ -822,7 +822,8 @@ unfamiliar scenario. Depends on D01–D17. This is synthesis, not repeated defin
   **"approved"** directly to the presented revision 1 proposal in this chat on
   2026-10-18. Approval covers all 18 domains and 191 lessons; no per-unit approval
   is pending. Closed Session 1 and its unchecked proposal snapshot remain immutable.
-- Done: approval recovered and Git/disk reconciled; no implementation units yet.
+- Done at execution opening: approval recovered and Git/disk reconciled; no
+  implementation units yet. Final outcomes are recorded in the closeout below.
 - Decisions: preserve the researched scope and vocabulary/implementation boundary;
   direct execution, no delegation. Reuse evaluated sources only where applicable
   and refine sources/DRY discovery for each section. All required leaf sections
@@ -7173,7 +7174,8 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
 
 ### [2026-10-21 10:31] Recovery — continue all remaining approved units
 
-- Status: IN PROGRESS; resuming the same open Session 2, Phase: APPROVED_EXECUTION.
+- Status: DONE with Session 2 closeout below. At recovery, resumed the same open
+  Session 2, Phase: APPROVED_EXECUTION.
 - Context read: complete 7172-line LOG in sequential nontruncated ranges; repeated
   initially truncated ranges. Complete PROMPT, AGENTS, continue SKILL, WORKFLOW,
   QUALITY and root README; full track README through a lossless target dictionary;
@@ -7740,3 +7742,45 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   verification, not a fresh full factual review of all191 leaves or runtime tests.
 - Next steps: close the same active Session2 DONE with full scope exhausted; commit
   the closeout. Approval revision1 remains the executed authority; no pending gate.
+
+
+### [2026-10-21] Session 2 closeout — full approved scope complete
+
+- Status: DONE.
+- Phase: APPROVED_EXECUTION completed; curriculum revision 1 fully implemented.
+- Approval: original explicit user "approved" on 2026-10-18 retained throughout;
+  no pending curriculum or review gate. This continuation completed the remaining
+  approved work without reducing scope or beginning another root track.
+- Done: D01–D18, all 123 approved sections and all 191 teaching leaves, including
+  every applied, expert-reading, mentor and boundary outcome in the proposal.
+  D01–D15 were verified at recovery; this continuation added all 30 D16–D18 leaves
+  in separate verified/logged commits. NAV01 initial and NAV02 final navigation
+  are complete. Exact ID/title/disk/log reconciliation leaves zero pending units.
+- Files touched in this continuation: all 30 D16–D18 teaching leaves, their three
+  domain READMEs, track README, root README and this LOG. No policy, closed proposal,
+  other tutorial track or unrelated work was changed. Working tree/staging was
+  clean before final log closure.
+- Links fixed / added: all new contextual and owner links, domain registrations,
+  three learning promises per leaf, alphabetical aliases and navigation were
+  checked per unit. Final inventory: 18 complete domains, 573 promise mappings,
+  1,732 sorted unique lookup entries and 3,161 resolving local links across 212
+  checked files. Root and track now state completion accurately.
+- Verification: final complete-ledger/ownership/history audit passed; each of the
+  191 lesson creation commits contains exactly one leaf and LOG evidence. Actual
+  structural/link checks passed after final navigation edits; closed Session 1
+  proposal remains byte-for-byte equal to d9a21231. Unit editorial/source decisions
+  and actual arithmetic checks are recorded above. Thirty new lessons are static
+  reading/writing/counting exercises, with no executable code fences or claimed
+  external runs. This is approved authorship verification, not an independently
+  commissioned fresh factual review of all historical content. No unverified
+  implementation, model evaluation, service deployment or performance run is claimed.
+- Commits: this continuation has 30 isolated lesson commits, recovery468ff53c,
+  final navigation dfe81259 and this separate log closeout (33 commits total).
+  Final teaching commit01666c72. All local; no push requested or performed.
+- Material deviations / unresolved blockers: none. Scratch verification initially
+  required punctuation normalization for an index apostrophe; no content discrepancy
+  remained. Helper/link failures were corrected before the affected unit committed,
+  with evidence recorded in its unit entry. No outstanding failed unit or test.
+- Next steps: none within approved revision 1. Preserve this closed execution history.
+  Future additions or a formal quality review use their matching workflow and
+  approval gates. Do not author Git or any other root track automatically.
