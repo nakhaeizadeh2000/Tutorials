@@ -2,7 +2,7 @@
 
 Understand AI discussions through tasks, data, evaluation and application boundaries. No statistics or machine-learning course is assumed. Examples are bounded reading and arithmetic exercises, with deeper implementation routed to its specialist owner.
 
-This domain is in progress: 9 of 10 approved lessons are available.
+This domain is complete: all 10 approved lessons are available.
 
 ## 1. Models tasks and data
 
@@ -67,5 +67,13 @@ This domain is in progress: 9 of 10 approved lessons are available.
 1. **Extract task data and responsibility:** turn a capability slogan into observable system boundaries
 2. **Evaluate claims against the packet:** identify unsupported quality safety freshness and cost conclusions
 3. **Write a bounded recommendation:** state evidence needed and distinguish pilot scope from general deployment
+
+## 6. Overlaps to avoid
+
+### [6.1. Boundaries of AI and model vocabulary](<sections/6. Overlaps to avoid/6.1. Boundaries of AI and model vocabulary.md>)
+
+1. **Separate interpretation from implementation competence:** identify what the AI vocabulary outcomes establish
+2. **Route deeper questions precisely:** choose statistics model training application security or systems work
+3. **State a defensible handoff:** preserve evidence and ownership in a mixed AI claim
 
 [← Back to IT Vocabulary](<../README.md>)

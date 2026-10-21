@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **183 of 191 approved lessons** are available.
+Implementation is in progress: **184 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -40,7 +40,7 @@ Domain indexes appear here as lessons are completed.
 | 14 | [Infrastructure Cloud and Delivery](<14 Infrastructure Cloud and Delivery/README.md>) — complete |
 | 15 | [Performance Observability and Reliability](<15 Performance Observability and Reliability/README.md>) — complete |
 | 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — complete |
-| 17 | [AI Machine Learning and Model Terminology](<17 AI Machine Learning and Model Terminology/README.md>) — in progress |
+| 17 | [AI Machine Learning and Model Terminology](<17 AI Machine Learning and Model Terminology/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -105,6 +105,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | AI grader | [A mechanism judging specified aspects of an output or outcome](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
 | AI guardrail | [A control intended to constrain behavior or reduce a stated risk](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.2. Hallucinations evaluations benchmarks guardrails and prompt injection.md>) |
 | AI proposal review | [Assessing task data evidence permissions and operational responsibility](<17 AI Machine Learning and Model Terminology/sections/5. Applied claim reading/5.1. Review an AI feature proposal without capability hype.md>) |
+| AI vocabulary boundary | [Where interpreting AI terms ends and specialist implementation or validation begins](<17 AI Machine Learning and Model Terminology/sections/6. Overlaps to avoid/6.1. Boundaries of AI and model vocabulary.md>) |
 | AI workflow | [An arrangement of model and tool steps with defined control paths](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
 | Alert (operations) | [Signal that a defined service or resource condition needs attention](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
