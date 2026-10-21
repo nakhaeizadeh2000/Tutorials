@@ -2,7 +2,7 @@
 
 Integrate the preceding vocabulary in unfamiliar artifacts, conflicting evidence and teaching situations. These constructed reading exercises assess defensible reasoning and communication; they do not establish implementation mastery.
 
-This domain is in progress: 5 of 7 approved lessons are available.
+This domain is in progress: 6 of 7 approved lessons are available.
 
 ## 1. Cross-domain artifact reading
 
@@ -41,5 +41,11 @@ This domain is in progress: 5 of 7 approved lessons are available.
 1. **Elicit reasoning before judging knowledge:** use bounded questions and distinguish uncertainty from a misconception
 2. **Diagnose and repair a specific mental model:** explain why an inference fails and test a changed condition
 3. **Assess explanations with explicit criteria:** reward evidence scope transfer and constructive feedback
+
+### [4.2. Build and teach a team glossary with canonical owners](<sections/4. Teaching and assessment/4.2. Build and teach a team glossary with canonical owners.md>)
+
+1. **Design entries around meaning and context:** separate spelling aliases local conventions and canonical explanations
+2. **Resolve competing meanings without duplication:** use precise owners and preserve source status
+3. **Teach and maintain the glossary:** repair a junior explanation and assess transfer with a changed artifact
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **189 of 191 approved lessons** are available.
+Implementation is in progress: **190 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -268,6 +268,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Callback | [Supplied behavior invoked by another operation](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
 | Callback URL | [The receiving endpoint configured for callback delivery](<07 APIs Protocols and Integration/sections/4. Interaction patterns/4.1. Polling webhooks SSE and WebSocket.md>) |
 | Canary release | [Limited exposure to a change with evaluation before proceeding](<14 Infrastructure Cloud and Delivery/sections/6. Change pipelines and exposure/6.2. Builds releases deployments rollouts rollbacks and feature flags.md>) |
+| Canonical glossary owner | [The primary full explanation for a scoped concept with aliases linking to it](<18 Integration Expert Reading and Mentor Practice/sections/4. Teaching and assessment/4.2. Build and teach a team glossary with canonical owners.md>) |
 | CAP | [Consistency availability and partition-tolerance trade-off under a defined fault model](<10 Concurrency Messaging and Distributed Systems/sections/5. Distributed guarantees/5.1. Replication consistency availability partitions and consensus.md>) |
 | Capacity | [An amount rather than a rate](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Capacity (team) | [Available ability and time for specified work within a period and constraints](<16 Teams Product Work and Professional Communication/sections/4. Planning and progress/4.1. Estimates forecasts deadlines effort capacity and velocity.md>) |
@@ -1613,6 +1614,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | TCO | [Total cost of ownership across a defined scope and period](<16 Teams Product Work and Professional Communication/sections/7. Business and service context/7.1. B2B B2C tenants KPIs OKRs ROI TCO CapEx and OpEx.md>) |
 | TCP | [Transmission Control Protocol](<05 Networks and the Internet/sections/4. Transport and endpoints/4.2. TCP UDP QUIC and protocol guarantees.md>) |
 | TCP connection | [A transport relationship between identified endpoints](<05 Networks and the Internet/sections/4. Transport and endpoints/4.1. Ports sockets connections and listeners.md>) |
+| Team glossary | [Contextual entries connecting local usage to authoritative explanations](<18 Integration Expert Reading and Mentor Practice/sections/4. Teaching and assessment/4.2. Build and teach a team glossary with canonical owners.md>) |
 | Team vocabulary boundary | [Where interpreting work terms ends and local authority or implementation begins](<16 Teams Product Work and Professional Communication/sections/9. Overlaps to avoid/9.1. Boundaries of team product and business vocabulary.md>) |
 | Technical debt | [Technical choices or deficiencies imposing future engineering burden](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
 | Telemetry | [Data emitted or collected about system behavior](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.1. Monitoring observability instrumentation and telemetry.md>) |
