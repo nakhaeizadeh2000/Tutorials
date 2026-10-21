@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **184 of 191 approved lessons** are available.
+Implementation is in progress: **185 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -41,6 +41,7 @@ Domain indexes appear here as lessons are completed.
 | 15 | [Performance Observability and Reliability](<15 Performance Observability and Reliability/README.md>) — complete |
 | 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — complete |
 | 17 | [AI Machine Learning and Model Terminology](<17 AI Machine Learning and Model Terminology/README.md>) — complete |
+| 18 | [Integration Expert Reading and Mentor Practice](<18 Integration Expert Reading and Mentor Practice/README.md>) — in progress |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -131,6 +132,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Application session | [Context connecting a sequence of application interactions](<06 Web Interfaces Clients and User Experience/sections/3. Client platforms and state/3.2. Cookies browser storage sessions and local state.md>) |
 | Apply (infrastructure) | [Carrying out selected resource changes under tool rules](<14 Infrastructure Cloud and Delivery/sections/5. Delivery and operational practices/5.2. Infrastructure as code configuration management and drift.md>) |
 | Architecture diagram | [Scoped representation of selected system aspects and relationships](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
+| Architecture proposal annotation | [Tracing responsibilities and evidence boundaries in an unfamiliar design](<18 Integration Expert Reading and Mentor Practice/sections/1. Cross-domain artifact reading/1.1. Annotate an unfamiliar architecture proposal.md>) |
 | Arithmetic mean | [Sum of observed values divided by their count](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Arrange–Act–Assert | [Preparation action and evaluation sequence for reading a test](<12 Testing Debugging and Quality Evidence/sections/3. Test arrangements and limits/3.1. Assertions fixtures test doubles mocks stubs spies and fakes.md>) |
 | Arrival rate | [Work entering a specified boundary per time](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.1. Latency response time throughput utilization and saturation.md>) |
