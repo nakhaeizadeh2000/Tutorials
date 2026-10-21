@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **169 of 191 approved lessons** are available.
+Implementation is in progress: **170 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -127,6 +127,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ASCII | [A smaller repertoire preserved in UTF-8](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
 | Asset (security) | [Something of value within the assessed situation](<13 Security Identity and Privacy/sections/1. Assets and threats/1.1. Confidentiality integrity availability assets threats and risk.md>) |
 | Assistive technology | [Technology supporting access and alternative interaction](<06 Web Interfaces Clients and User Experience/sections/4. Experience and inclusion/4.1. UI UX usability accessibility and responsive design.md>) |
+| Assumption | [Premise treated as true for reasoning whose evidence and limits should remain visible](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
 | Assurance | [Justified confidence based on evidence and an assessment basis](<13 Security Identity and Privacy/sections/7. Privacy and governance language/7.2. Policies controls audits compliance and assurance.md>) |
 | Asymmetric cryptography | [Public and private key material with distinct related roles](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.2. Symmetric asymmetric keys certificates trust and key management.md>) |
 | Asynchronous | [Initiation and eventual completion separated by an explicit mechanism](<10 Concurrency Messaging and Distributed Systems/sections/1. Work and time/1.1. Synchronous asynchronous blocking and non-blocking.md>) |
@@ -281,6 +282,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Ciphertext | [Encrypted representation under a cryptographic scheme](<13 Security Identity and Privacy/sections/4. Cryptographic vocabulary/4.1. Encoding hashing encryption and digital signatures.md>) |
 | Circuit breaker | [Stateful protection admitting or rejecting calls from scoped failure evidence](<10 Concurrency Messaging and Distributed Systems/sections/4. Failure and flow control/4.1. Timeouts retries backoff jitter and circuit breakers.md>) |
 | Claim (identity) | [Asserted piece of information interpreted under an identity protocol](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
+| Clarification (review) | [Request for missing meaning scope or evidence needed to evaluate a change](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
 | Clarification question | [A focused request for a missing meaning or fact](<01 Reading and Using Technical Language/sections/3. Speaking and asking precisely/3.1. Pronunciation naming and useful clarification questions.md>) |
 | Clean Architecture | [Policy/mechanism separation with inward source dependencies](<09 Programming Design and Architecture Language/sections/4. Architectural boundaries/4.2. Clean hexagonal DDD CQRS and event sourcing.md>) |
 | CLI | [Command-line interface for a tool](<03 Software Execution and Developer Tools/sections/3. Tools and interfaces/3.1. Editors IDEs terminals shells CLIs and REPLs.md>) |
@@ -448,6 +450,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Debugger | [Tool for controlled execution and state inspection](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Debugging | [Investigation and correction of a software problem](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Decimal prefix | [SI powers of ten](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| Decision rationale | [Reasons connecting a choice to criteria evidence alternatives and assumptions](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
 | Decision record | [Retained account of a decision its context status rationale and applicable scope](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | Declarative programming | [Stating required results or relationships behind an execution interface](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.2. Imperative declarative functional and object-oriented styles.md>) |
 | Decoding | [Interpreting encoded data as text](<02 Computers Data Representation and Units/sections/2. Data representation/2.2. Text characters Unicode and encodings.md>) |
@@ -1303,6 +1306,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Retry-After | [HTTP follow-up wait expressed as seconds or an HTTP date](<07 APIs Protocols and Integration/sections/5. Contract behavior and integration risks/5.1. Safe idempotent paginated and rate-limited operations.md>) |
 | Revalidation (HTTP) | [Checking whether a stored response can be reused](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
 | Reverse proxy | [A server-side intermediary receiving requests and forwarding them to other servers](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
+| Review feedback | [Evaluation identifying a concrete observation concern question or suggestion with its reasoning](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
 | Reviewer | [Participant evaluating proposed work and giving feedback](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
 | Revocation | [Withdrawal of validity or authority under the system’s mechanism](<13 Security Identity and Privacy/sections/2. Identity and access/2.2. Principals credentials sessions tokens roles and permissions.md>) |
 | Rewrite (software) | [Replacement of an implementation with explicit compatibility obligations](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.2. Refactoring rewrites technical debt and legacy systems.md>) |
@@ -1583,6 +1587,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Trace ID | [Identifier associating spans in a trace](<15 Performance Observability and Reliability/sections/3. Telemetry and investigation/3.2. Logs metrics traces spans correlation and cardinality.md>) |
 | Traceback (Python) | [Frames associated with a Python exception](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Tracked file | [File with an entry in the index](<11 Version Control Releases and Dependencies/sections/1. Change records/1.1. Repositories working trees staging commits and diffs.md>) |
+| Trade-off | [Choice among competing consequences assessed against the relevant objectives and constraints](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>) |
 | Transaction | [Database work grouped under completion and concurrency rules](<08 Databases Storage and Data Pipelines/sections/4. Transactional behavior/4.1. Transactions ACID isolation locks and deadlocks.md>) |
 | Transfer estimate | [A completion model with explicit quantities and assumptions](<02 Computers Data Representation and Units/sections/5. Applied interpretation/5.1. Read a machine specification and transfer estimate.md>) |
 | Transformation (data) | [Changing representation selection or derived meaning](<08 Databases Storage and Data Pipelines/sections/6. Moving and analyzing data/6.1. OLTP OLAP warehouses lakes ETL ELT and CDC.md>) |

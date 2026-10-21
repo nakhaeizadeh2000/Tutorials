@@ -7485,3 +7485,38 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
   evaluation or performance experiment executed.
 - Next steps: D16.S05.L02 then all remaining approved D16–D18 units;22 remain.
   Curriculum revision1/full191 approval unchanged;no pending gate.
+
+### D16.S05.L02 — Review feedback trade-offs assumptions and action items — verified
+
+- Done: D16.S05.L02; observation/consequence/request feedback,required versus
+  optional intent,assumptions/hypotheses/evidence,decision criteria/tradeoffs and
+  original accepted-cancellation/cached-result review with changed-rule and missing-
+  timeline variants. Progress170/191;21 approved leaves remain across D16–D18.
+- Files touched: new sections/5. Documents and decisions/5.2. Review feedback
+  trade-offs assumptions and action items.md;D16/track READMEs;this LOG.
+- Links fixed / added: registration,five contextual aliases,four exact decision/
+  cache/action/causal owners and navigation;existing Action item owner retained.
+- Research / Decisions: section-wide full-repo feedback/tradeoff/assumption/action
+  headings found TS tradeoffs and D15 action owner;read complete runbook/postmortem
+  leaf. Reuse complete JS checklist evidence questions/Promise outcome tracing,
+  not universal runtime/errors/cost claims. Actually read full45-line primary
+  https://google.github.io/eng-practices/review/reviewer/comments.html reasoning/
+  courtesy/guidance/severity;not presumed concurrence from reviewer authority,
+  mandatory Nit label,all-review-explanation-must-rewrite-code or missing-performance-
+  evidence-proves-no-benefit example. https://www.nasa.gov/reference/6-8-decision-analysis/
+  actual268–280,286–323 selected criteria/uncertainty/alternatives/evaluation context;
+  not full handbook,mandatory matrix for every choice,all-options-enumerable,
+  weights-as-objective-proof or agency hierarchy imposed on ordinary review.
+  Initial NASA open navigation only;actual body retrieved with find. Previously
+  evaluated original cache/incident sources stay in actual owners,not duplicated
+  mechanisms. No external review comment or action assignment sent.
+- Verification: actual structural/link verifier passed170 leaves,2895 resolving
+  links across189 files,required sections/registrations,preserved closed proposal;
+  unit assertions passed three promises,five unique aliases,170/191,tables/empty
+  staging;git diff --check passed. Editorial check traced accepted09:01 cancellation
+  versus old09:02 result under exact currentness rule,unmeasured A/B timing,
+  authority/owner distinction,candidate evidence versus diagram upload,and changed
+  rule changing compliance only. Static review draft only;no real feedback,
+  cancellation/cache/candidate check,decision,action tracker or performance run.
+- Next steps: D16.S06.L01 then all remaining approved D16–D18 units;21 remain.
+  Curriculum revision1/full191 approval unchanged;no pending gate.

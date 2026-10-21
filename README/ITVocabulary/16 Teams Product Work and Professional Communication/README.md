@@ -2,7 +2,7 @@
 
 Learn to interpret people, product work and professional communication through explicit responsibilities, requirements and evidence. Build on the reading habits in domain 1 and the preceding technical contexts. Examples are constructed reading exercises; titles and processes depend on the organization.
 
-This domain is in progress: 8 of 13 approved lessons are available.
+This domain is in progress: 9 of 13 approved lessons are available.
 
 ## 1. People and responsibility
 
@@ -61,5 +61,11 @@ This domain is in progress: 8 of 13 approved lessons are available.
 1. **Choose a document from its purpose and authority:** Distinguish product requirements discussion proposals normative specifications and retained decision rationale.
 2. **Read decision state separately from implementation state:** Interpret proposed accepted rejected and superseded records without erasing earlier context or inventing deployment evidence.
 3. **Reconcile conflicting documents through scope and history:** Trace an original product and architecture packet to its current decision open questions and required follow-up.
+
+### [5.2. Review feedback trade-offs assumptions and action items](<sections/5. Documents and decisions/5.2. Review feedback trade-offs assumptions and action items.md>)
+
+1. **Write feedback that identifies evidence and consequence:** Separate required correction clarification suggestions and preference while making the concern actionable.
+2. **Explain an option choice with assumptions and trade-offs:** Compare alternatives against the actual requirements and distinguish observations hypotheses and premises.
+3. **Turn disagreement into a decision and verifiable follow-up:** Rewrite a constructed cache review with scoped rationale ownership and completion evidence without claiming unperformed results.
 
 [← Back to IT Vocabulary](<../README.md>)
