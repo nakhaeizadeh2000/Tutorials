@@ -7170,3 +7170,31 @@ plan. Each later completion entry identifies one of these IDs and its evidence.
 - Next steps: D16.S01.L01,then all approved D16–D18 units. Exact remaining scope:
   D16's13,D17's10,D18's7 ledger IDs;30 leaves. Curriculum revision1/full191 approval
   unchanged,no pending gate;D15 completion is not track completion.
+
+### [2026-10-21 10:31] Recovery — continue all remaining approved units
+
+- Status: IN PROGRESS; resuming the same open Session 2, Phase: APPROVED_EXECUTION.
+- Context read: complete 7172-line LOG in sequential nontruncated ranges; repeated
+  initially truncated ranges. Complete PROMPT, AGENTS, continue SKILL, WORKFLOW,
+  QUALITY and root README; full track README through a lossless target dictionary;
+  D15 index, D14 practice and D12 verification/acceptance owners. D16 index absent.
+  Read complete JS track/Fundamentals indexes, Engines runtimes and hosts, Holes
+  versus undefined and Promise chaining. Transfer role attribution, distinguishing
+  observations and explicit outcome tracing; reject their stale runtime/version,
+  inherited-property, universal performance/error and mandatory-policy claims.
+- Plan / Approval: unchanged approved curriculum revision 1, all 191 units,
+  explicit user "approved" evidence in Session 2; current continue Vocabulary
+  resolves to ITVocabulary via root README. Exact remaining order: D16's 13 IDs,
+  D17's 10 IDs, D18's 7 IDs in the complete opening ledger; final navigation and
+  approved-outcome verification. No pending gate, no delegation or next-root-track work.
+- Done: reconciled all 161 distinct verified completion IDs against 161 tracked
+  disk leaves and nonempty per-file Git history; HEAD ec4ab7c2, no partial unit.
+- Files touched: this LOG only, recovery opening before implementation writes.
+- Links fixed / added: none in recovery.
+- Verification: actual python3 /tmp/it-vocabulary-verify.py passed 161 leaves,
+  2773 local links across179 files and byte-for-byte closed-proposal preservation;
+  actual ID/disk/tracked/history assertions passed; status and staging empty.
+  Existing scratch helpers inspected before reuse; historical example runs not rerun.
+- Decisions / Next steps: D16.S01.L01 then all29 later approved units, one leaf
+  and ancestor indexes per verified/logged commit. Source and editorial evidence
+  recorded with each unit. Close this active session before normal return.
