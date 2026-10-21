@@ -2,7 +2,7 @@
 
 Integrate the preceding vocabulary in unfamiliar artifacts, conflicting evidence and teaching situations. These constructed reading exercises assess defensible reasoning and communication; they do not establish implementation mastery.
 
-This domain is in progress: 6 of 7 approved lessons are available.
+This domain is complete: all 7 approved lessons are available.
 
 ## 1. Cross-domain artifact reading
 
@@ -47,5 +47,13 @@ This domain is in progress: 6 of 7 approved lessons are available.
 1. **Design entries around meaning and context:** separate spelling aliases local conventions and canonical explanations
 2. **Resolve competing meanings without duplication:** use precise owners and preserve source status
 3. **Teach and maintain the glossary:** repair a junior explanation and assess transfer with a changed artifact
+
+## 5. Overlaps to avoid
+
+### [5.1. Boundaries and continuing learning after this track](<sections/5. Overlaps to avoid/5.1. Boundaries and continuing learning after this track.md>)
+
+1. **State the competence this track develops:** separate interpretation integration source judgment and teaching from implementation mastery
+2. **Choose further study from a demonstrated gap:** use existing owners and distinguish available lessons from planned tracks
+3. **Maintain and reassess vocabulary knowledge:** update source-dependent claims and test transfer with unfamiliar evidence
 
 [← Back to IT Vocabulary](<../README.md>)

@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **190 of 191 approved lessons** are available.
+Implementation is in progress: **191 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -41,7 +41,7 @@ Domain indexes appear here as lessons are completed.
 | 15 | [Performance Observability and Reliability](<15 Performance Observability and Reliability/README.md>) — complete |
 | 16 | [Teams Product Work and Professional Communication](<16 Teams Product Work and Professional Communication/README.md>) — complete |
 | 17 | [AI Machine Learning and Model Terminology](<17 AI Machine Learning and Model Terminology/README.md>) — complete |
-| 18 | [Integration Expert Reading and Mentor Practice](<18 Integration Expert Reading and Mentor Practice/README.md>) — in progress |
+| 18 | [Integration Expert Reading and Mentor Practice](<18 Integration Expert Reading and Mentor Practice/README.md>) — complete |
 
 The complete approved
 curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>).
@@ -1745,6 +1745,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | VM | [Virtual machine with a language or infrastructure meaning](<03 Software Execution and Developer Tools/sections/2. From source to execution/2.2. Languages engines runtimes hosts and virtual machines.md>) |
 | VMM | [Virtual machine monitor or hypervisor](<14 Infrastructure Cloud and Delivery/sections/2. Isolation and packaging/2.1. Bare metal virtual machines hypervisors and containers.md>) |
 | Vocabulary assessment | [Assessing technical reasoning and evidence rather than acronym recall](<18 Integration Expert Reading and Mentor Practice/sections/4. Teaching and assessment/4.1. Diagnose misconceptions in a technical interview or review.md>) |
+| Vocabulary learning boundary | [Selecting further study from demonstrated reasoning or implementation gaps](<18 Integration Expert Reading and Mentor Practice/sections/5. Overlaps to avoid/5.1. Boundaries and continuing learning after this track.md>) |
 | Vocabulary record | [Context evidence owner and unresolved questions](<01 Reading and Using Technical Language/sections/5. Overlaps to avoid/5.1. Boundaries and a personal vocabulary record.md>) |
 | VPN | [Virtual private network](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.1. Proxies reverse proxies VPNs firewalls and load balancers.md>) |
 | Vulnerability | [Weakness in a system procedure implementation or control that can be exploited](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
