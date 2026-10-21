@@ -2,7 +2,7 @@
 
 Understand AI discussions through tasks, data, evaluation and application boundaries. No statistics or machine-learning course is assumed. Examples are bounded reading and arithmetic exercises, with deeper implementation routed to its specialist owner.
 
-This domain is in progress: 6 of 10 approved lessons are available.
+This domain is in progress: 7 of 10 approved lessons are available.
 
 ## 1. Models tasks and data
 
@@ -45,5 +45,13 @@ This domain is in progress: 6 of 10 approved lessons are available.
 1. **Distinguish information access from parameter changes:** interpret retrieval RAG grounding and fine-tuning
 2. **Identify what representation changes:** read quantization claims without assuming speed or quality preservation
 3. **Trace a knowledge-update proposal:** separate retrieval relevance source authority answer support and resource evidence
+
+## 4. Applications and limitations
+
+### [4.1. Agents workflows tool calling and model context protocols](<sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>)
+
+1. **Identify control and execution responsibilities:** distinguish model workflow agent loop and tool implementation
+2. **Read integration protocol claims:** interpret MCP roles and capabilities without inferring authority or reliability
+3. **Trace a proposed tool action:** separate generated requests authorization execution results and verified outcomes
 
 [← Back to IT Vocabulary](<../README.md>)

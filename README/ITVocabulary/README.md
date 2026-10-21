@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **180 of 191 approved lessons** are available.
+Implementation is in progress: **181 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -94,10 +94,13 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | ADR | [Architecture decision record preserving context choice and consequences](<16 Teams Product Work and Professional Communication/sections/5. Documents and decisions/5.1. PRDs RFCs ADRs proposals specifications and decision records.md>) |
 | After-action review | [Review of completed activity outcomes and lessons under local usage](<15 Performance Observability and Reliability/sections/6. Incident operations/6.2. Runbooks playbooks postmortems and contributing factors.md>) |
 | Age (HTTP) | [Estimated seconds since generation or successful origin validation](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.2. HTTP versions caching validators and content negotiation.md>) |
+| Agent loop | [Repeated planning action observation and stopping under application control](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
 | Aggregate (DDD) | [Domain-object consistency boundary governed through an aggregate root](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Aggregate root | [Entity controlling changes and invariant enforcement for an aggregate](<09 Programming Design and Architecture Language/sections/5. Models and representations/5.1. Domains entities value objects aggregates and architecture diagrams.md>) |
 | Agile | [Family of adaptive software development values and approaches emphasizing collaboration working outcomes and feedback](<16 Teams Product Work and Professional Communication/sections/3. Work methods/3.1. Agile Scrum Kanban Lean iterations and sprints.md>) |
 | AI | [Artificial intelligence as a broad field and system label](<17 AI Machine Learning and Model Terminology/sections/1. Models tasks and data/1.1. AI machine learning deep learning models and algorithms.md>) |
+| AI agent | [A system using model-directed steps or tool use under a stated control arrangement](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
+| AI workflow | [An arrangement of model and tool steps with defined control paths](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
 | Alert (operations) | [Signal that a defined service or resource condition needs attention](<15 Performance Observability and Reliability/sections/6. Incident operations/6.1. Alerts incidents severity priority mitigation and remediation.md>) |
 | Alert (security) | [Detection signal for attention rather than automatic proof of compromise](<13 Security Identity and Privacy/sections/1. Assets and threats/1.2. Vulnerabilities exploits attacks incidents and attack surface.md>) |
 | Algorithm | [Specified procedure solving a problem for allowed inputs](<09 Programming Design and Architecture Language/sections/1. Reasoning about programs/1.1. Algorithms data structures complexity and invariants.md>) |
@@ -949,6 +952,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | MAY | [Optional behavior under BCP 14](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.2. Requirements guarantees defaults and support status.md>) |
 | MB and MiB | [Decimal and binary byte quantities](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
 | Mbps and MB/s | [Bit rates versus byte rates](<02 Computers Data Representation and Units/sections/3. Measuring quantities/3.1. Decimal and binary units rates and durations.md>) |
+| MCP | [Model Context Protocol for connecting applications to context and tools](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
 | Media type | [A label identifying the representation format](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
 | Median | [Middle of sorted observations with an explicit even-sample convention](<15 Performance Observability and Reliability/sections/1. Measuring behavior/1.2. Means medians percentiles distributions and tail latency.md>) |
 | Merge (Git) | [Integration of development histories](<11 Version Control Releases and Dependencies/sections/2. Combining and reviewing work/2.1. Merges rebases conflicts and pull requests.md>) |
@@ -1637,6 +1641,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | TLS | [Transport Layer Security](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | TLS handshake | [Negotiation and authentication establishing channel protection](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
 | TLS termination | [The endpoint where a TLS connection is decrypted and processed](<05 Networks and the Internet/sections/5. Intermediaries and protected connections/5.2. TLS certificates HTTPS and historical SSL wording.md>) |
+| Tool calling | [A model or application requesting an external function through an interface](<17 AI Machine Learning and Model Terminology/sections/4. Applications and limitations/4.1. Agents workflows tool calling and model context protocols.md>) |
 | Toolchain | [Tools used together across development and execution stages](<03 Software Execution and Developer Tools/sections/5. Applied diagnosis/5.1. Read a toolchain diagram and classify a failure.md>) |
 | Topic (messaging) | [Product-specific named publication or routing grouping](<10 Concurrency Messaging and Distributed Systems/sections/3. Messages and streams/3.1. Commands events messages queues brokers and pub-sub.md>) |
 | TRACE | [Diagnostic HTTP request loopback](<07 APIs Protocols and Integration/sections/2. Reading HTTP/2.1. Requests responses methods headers status codes and bodies.md>) |
