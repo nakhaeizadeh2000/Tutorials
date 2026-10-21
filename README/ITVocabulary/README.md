@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **185 of 191 approved lessons** are available.
+Implementation is in progress: **186 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -1320,6 +1320,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Release candidate | [Proposed candidate for a final release under remaining review and fix criteria](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release channel | [Grouping of releases under an audience or readiness policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
 | Release line | [Family of maintained versions under a project’s policy](<11 Version Control Releases and Dependencies/sections/3. Versions and compatibility/3.2. Alpha beta release candidates stable LTS and EOL.md>) |
+| Release narrative | [An evidence-based account of a change its exposure compatibility and remaining work](<18 Integration Expert Reading and Mentor Practice/sections/1. Cross-domain artifact reading/1.2. Explain a change request and release narrative.md>) |
 | Release notes | [Changes associated with a release](<01 Reading and Using Technical Language/sections/2. Reading technical documents/2.1. Guides references specifications and release notes.md>) |
 | Reliability | [Continued correct service or broader dependable outcomes under the stated usage](<15 Performance Observability and Reliability/sections/5. Surviving and recovering/5.1. Availability reliability durability resilience and fault tolerance.md>) |
 | Reliability claim review | [Comparison of service objectives measurement populations aggregation and recovery evidence](<15 Performance Observability and Reliability/sections/7. Applied service review/7.1. Read a dashboard and challenge a reliability claim.md>) |
