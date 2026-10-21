@@ -2,7 +2,7 @@
 
 Integrate the preceding vocabulary in unfamiliar artifacts, conflicting evidence and teaching situations. These constructed reading exercises assess defensible reasoning and communication; they do not establish implementation mastery.
 
-This domain is in progress: 3 of 7 approved lessons are available.
+This domain is in progress: 4 of 7 approved lessons are available.
 
 ## 1. Cross-domain artifact reading
 
@@ -25,5 +25,13 @@ This domain is in progress: 3 of 7 approved lessons are available.
 1. **Align observations before proposing causes:** separate actors operation identifiers clocks and boundaries
 2. **Reconstruct a bounded incident account:** reconcile naming transport application data and telemetry evidence
 3. **Choose a discriminating next check:** retain unknown outcomes and separate mitigation from explanation
+
+## 3. Expert source reading
+
+### [3.1. Compare a specification vendor document and marketing claim](<sections/3. Expert source reading/3.1. Compare a specification vendor document and marketing claim.md>)
+
+1. **Identify authority subject and time:** distinguish protocol semantics product guidance and promotional positioning
+2. **Compare sources without flattening their claims:** track scope conditions revisions and what each source supports
+3. **Write a sourced conclusion with open questions:** avoid inventing implementation guarantees from general language
 
 [← Back to IT Vocabulary](<../README.md>)

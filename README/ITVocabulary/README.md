@@ -19,7 +19,7 @@ product-specific usage and team conventions are identified explicitly.
 
 ## Reading order and progress
 
-Implementation is in progress: **187 of 191 approved lessons** are available.
+Implementation is in progress: **188 of 191 approved lessons** are available.
 Domain indexes appear here as lessons are completed.
 
 | # | Module |
@@ -1514,6 +1514,7 @@ curriculum, approval evidence and implementation record are in [LOG.md](<LOG.md>
 | Software supply chain | [Dependencies tools build distribution and updates delivering software](<13 Security Identity and Privacy/sections/6. Application and supply chain risks/6.2. CVE CWE CVSS advisories patching and supply chain failures.md>) |
 | SOLID | [Five principles concerning responsibilities extension and dependencies](<09 Programming Design and Architecture Language/sections/3. Principles and refactoring/3.1. SOLID DRY KISS YAGNI patterns and antipatterns.md>) |
 | Source code | [Instructions expressed in a programming language](<03 Software Execution and Developer Tools/sections/1. Software categories/1.2. Source code executables bytecode and artifacts.md>) |
+| Source comparison | [Matching a technical claim to its source scope revision and evidence](<18 Integration Expert Reading and Mentor Practice/sections/3. Expert source reading/3.1. Compare a specification vendor document and marketing claim.md>) |
 | Source formatter | [A tool rewriting source presentation](<03 Software Execution and Developer Tools/sections/4. Checking and transforming code/4.1. Static analysis types linting formatting and builds.md>) |
 | Source map | [Mapping between generated code positions and original source](<12 Testing Debugging and Quality Evidence/sections/4. Investigation language/4.1. Reproduction hypotheses stack traces breakpoints and root causes.md>) |
 | Source of truth | [System responsibility for authoritative facts](<08 Databases Storage and Data Pipelines/sections/5. Storage and copies/5.1. Files block storage object storage caches and durability.md>) |
