@@ -528,7 +528,7 @@ engineering evidence together justify the domain boundaries and learning order.
 
 ## [2026-10-22 08:16] Session 2 — Record approval and wait for the start instruction
 
-- Status: IN PROGRESS
+- Status: PARTIAL
 - Context read: Complete `PROMPT.md`, `AGENTS.md`, `.tutorial/WORKFLOW.md`,
   `.tutorial/QUALITY.md`, `.codex/skills/tutorial/SKILL.md`, root `README.md` and
   the complete Git LOG, reading truncated portions again in bounded chunks.
@@ -544,7 +544,9 @@ engineering evidence together justify the domain boundaries and learning order.
   Direct user evidence on 2026-10-22: "it and all recommendations in this track
   from now till end of track is approved by me. start when i tell you."
 - Done: Recovered the concrete revision and verified that no lesson has started;
-  recorded the approval and separate start condition.
+  recorded the approval and separate start condition. Opening committed in
+  `ded37d31`; verified that the closed proposal is preserved byte-for-byte and
+  all 143 planned units remain unchanged and unimplemented.
 - Decisions: The user's standing approval explicitly covers future in-track
   recommendations, including curriculum refinements, additions and quality
   repairs. This is a track-specific user override of further approval gates for
@@ -552,13 +554,21 @@ engineering evidence together justify the domain boundaries and learning order.
   asking for the same approval again. It does not authorize another track or
   imply permission to change live external repositories/services. The user's
   instruction to await a start message takes precedence over the ordinary
-  execute-after-approval step. Approval persists while execution waits.
+  execute-after-approval step. Approval persists while execution waits. This
+  entry supersedes the historical pending-approval statements in Session 1.
 - Files touched: Appended this session only to `README/Git/LOG.md`.
 - Links fixed / added: None. Root row 4 remains Planned.
 - Verification: `git status --short` and `git diff --cached --name-only` were
   empty before this append. `git log -2 --oneline -- README/Git/LOG.md` identified
   the proposal commits. `rg --files README/Git` returned only the LOG.
+  A Python check confirmed the entire `98e7d514` proposal remains an unchanged
+  prefix, the 143 unit rows are unchanged, the explicit approval and wait condition
+  are present, no lesson/index files were created and root `README.md` is unchanged
+  from the proposal checkpoint. The opening commit's staged whitespace check passed.
   No lesson examples, implementation checks or hosted integrations were run.
-- Next steps: Commit this opening, verify the approval record and preservation
-  of the closed proposal, close PARTIAL and commit. Then wait for the user's
-  explicit start instruction. Do not start any of the 143 pending units yet.
+- Next steps: WAITING_FOR_USER_START; revision 1 and future in-track
+  recommendations are approved. Wait for the user's explicit start instruction.
+  On that instruction, append an execution session carrying this approval forward,
+  recover the full plan and verify current baseline/context, then begin G01-1.1
+  and complete the track using the one-unit verification/log/commit loop. Do not
+  ask for curriculum approval again or start any implementation work while waiting.
